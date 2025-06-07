@@ -1,25 +1,22 @@
 {
   "revName": {
-    "plural": "Voies Lyonnaises",
-    "singular": "Voie Lyonnaise"
+    "plural": "Grandes Voies Vélo Nantaises",
+    "singular": "Grande voie"
   },
-  "assoName": "La Ville à Vélo",
-  "assoLink": "https://lavilleavelo.org",
-  "slug": "voie-lyonnaise",
-  "center": [
-    4.8312188,
-    45.757198
-  ],
+  "assoName": "Place au Vélo Nantes",
+  "assoLink": "https://placeauvelo-nantes.fr/",
+  "slug": "place-au-velo-nantes",
+  "center": [-1.5546759087950761, 47.22014386288464],
   "zoom": 12,
-  "nbVoiesCyclables": 12,
+  "nbVoiesCyclables": 9,
   "colors": [
     {
       "line": 1,
-      "color": "#60A75B"
+      "color": "#00D764"
     },
     {
       "line": 2,
-      "color": "#AC4D35"
+      "color": "#E46B53"
     },
     {
       "line": 3,
