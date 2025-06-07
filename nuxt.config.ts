@@ -2,7 +2,7 @@ import config from './config.json';
 
 const TITLE = `Observatoire Vélo de Nantes Métropole - Suivi des ${config.revName.plural} par ${config.assoName}`;
 const DESCRIPTION = `Plateforme citoyenne et associative, par ${config.assoName}. État d'avancement, cartes interactives des itinéraires, détails, travaux : suivez le développement du réseau cyclable sécurisé nantais`;
-const BASE_URL = 'https://cyclopolis.fr';
+const BASE_URL = 'https://observatoire.louiseveillard.com';
 const COVER_IMAGE_URL = '';
 
 export default defineNuxtConfig({
