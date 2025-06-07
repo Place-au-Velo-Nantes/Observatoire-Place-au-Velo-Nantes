@@ -1,6 +1,6 @@
 ---
-name: GV 1
-line: 1
+name: GV 2
+line: 2
 from: .
 to: .
 description: (à rédiger)
