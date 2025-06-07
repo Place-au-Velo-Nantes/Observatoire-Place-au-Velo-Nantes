@@ -6,7 +6,6 @@
 
 <script setup>
 const { getRevName } = useConfig();
-const { getFixedVoiesCyclables } = useVoiesCyclables();
 
 // https://github.com/nuxt/framework/issues/3587
 definePageMeta({
@@ -14,7 +13,12 @@ definePageMeta({
   layout: 'fullscreen'
 });
 
-const features = await getFixedVoiesCyclables();
+const { data: voies } = await useAsyncData(() => {
+  return queryContent('voies-cyclables').where({ _type: 'json' }).find();
+});
+
+const features = voies.value.map(voie => voie.features).flat();
+// const features = voies.value.map(voie => voie.features).flat();
 
 const description = `Découvrez la carte interactive des ${getRevName()}. Itinéraires rue par rue. Plan régulièrement mis à jour pour une information complète.`;
 const COVER_IMAGE_URL = 'https://cyclopolis.lavilleavelo.org/cyclopolis.png';
