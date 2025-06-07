@@ -2,16 +2,14 @@
   <div class="relative">
     <div class="px-4 sm:px-6 lg:px-8">
       <div class="relative mx-auto pt-20 text-center pb-20">
-        <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-          Historique des changements
-        </h1>
+        <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">Historique des changements</h1>
         <div class="mx-auto mt-4 text-gray-500 prose prose-lg text-center">
           Suivez tous les changements qui sont réalisés sur la plateforme.
         </div>
       </div>
     </div>
     <div class="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 mb-8">
-      <section v-for="newsItem in news" :key="newsItem.date" class="md:flex">
+      <!-- <section v-for="newsItem in news" :key="newsItem.date" class="md:flex">
         <h2 class="pl-7 prose prose-lg text-gray-500 md:w-1/4 md:pl-0 md:pr-12 md:text-right">
           {{ formatDate(newsItem.date) }}
         </h2>
@@ -23,18 +21,18 @@
             <ContentRenderer :value="newsItem" />
           </div>
         </div>
-      </section>
+      </section> -->
     </div>
   </div>
 </template>
 
 <script setup>
-const { data: news } = await useAsyncData(() => {
-  return queryContent('news').sort({ date: -1 }).find();
-});
+// const { data: news } = await useAsyncData(() => {
+//   return queryContent('news').sort({ date: -1 }).find();
+// });
 
-function formatDate(date) {
-  const options = { year: 'numeric', month: 'long', day: 'numeric' };
-  return new Date(date).toLocaleDateString('fr-FR', options);
-}
+// function formatDate(date) {
+//   const options = { year: 'numeric', month: 'long', day: 'numeric' };
+//   return new Date(date).toLocaleDateString('fr-FR', options);
+// }
 </script>
