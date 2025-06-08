@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "nom": "Rue d'Indre/Rue de la Gare", "type": "voie verte" },
+      "properties": { "nom": "Rue d'Indre/Rue de la Gare", "type": "voie verte", "status": "" },
       "geometry": {
         "coordinates": [
           [-1.6678254563812516, 47.20115261077589],
@@ -221,7 +221,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Rue de Nantes" },
+      "properties": { "nom": "Rue de Nantes", "type": "bidirectionnelle" },
       "geometry": {
         "coordinates": [
           [-1.653978776883804, 47.259379956627356],
@@ -283,7 +283,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Indre-Pirmil", "status": "reporté" },
+      "properties": { "nom": "Indre-Pirmil", "status": "reporté", "type": "" },
       "geometry": {
         "coordinates": [
           [-1.667799, 47.201126, 0],
@@ -353,7 +353,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Chemin de Halage de la loire", "type": "aucun" },
+      "properties": { "nom": "Chemin de Halage de la loire", "status": "", "type": "aucun" },
       "geometry": {
         "coordinates": [
           [-1.5105712513750973, 47.21947481789476],
@@ -463,7 +463,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Carquefou - Route de Ste Luce", "type": "aucun" },
+      "properties": { "nom": "Carquefou - Route de Ste Luce", "status": "", "type": "aucun" },
       "geometry": {
         "coordinates": [
           [-1.485954, 47.296646, 0],
@@ -822,7 +822,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Saint-Sébastien-sur-Loire", "status": "" },
+      "properties": { "nom": "Saint-Sébastien-sur-Loire", "status": "reporté", "type": "" },
       "geometry": {
         "coordinates": [
           [-1.542152, 47.197496, 0],
@@ -834,11 +834,12 @@
           [-1.444386, 47.184944, 0]
         ],
         "type": "LineString"
-      }
+      },
+      "id": 34
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Rezé", "status": "" },
+      "properties": { "nom": "Rezé - Les Sorinières", "status": "reporté", "type": "" },
       "geometry": {
         "coordinates": [
           [-1.5497661508576985, 47.19560483321887],
@@ -1002,7 +1003,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Via Rue George Sand", "status": "reporté" },
+      "properties": { "nom": "Via Rue George Sand", "status": "reporté", "type": "" },
       "geometry": {
         "coordinates": [
           [-1.5707756005656393, 47.22227908495287],
@@ -1652,7 +1653,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Square Vertais", "status": "", "type": "", "year": "" },
+      "properties": { "nom": "Square Vertais", "status": "reporté", "type": "", "year": "" },
       "geometry": {
         "coordinates": [
           [-1.547090912598776, 47.201564256789254],
@@ -1698,7 +1699,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Boulevard Maurice Bertin", "status": "", "type": "", "year": "" },
+      "properties": { "nom": "Boulevard Maurice Bertin", "status": "", "type": "bande cyclable", "year": "" },
       "geometry": {
         "coordinates": [
           [-1.535562978448496, 47.2107234761294],
@@ -1861,7 +1862,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Quai moncousu", "status": "", "type": "monodirectionnelle", "year": 2013 },
+      "properties": { "nom": "Quai moncousu", "status": "", "type": "monodirectionnellea", "year": 2013 },
       "geometry": {
         "coordinates": [
           [-1.5497779809349197, 47.208800578444965],
@@ -2060,7 +2061,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Chemin de la Houssinière", "type": "velorue" },
+      "properties": { "nom": "Chemin de la Houssinière", "status": "", "type": "vélorue" },
       "geometry": {
         "coordinates": [
           [-1.5552846651690118, 47.239696100973646],
@@ -2193,7 +2194,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Avenue Claude Antoine Peccot", "type": "bidirectionnelle" },
+      "properties": { "status": "", "nom": "Avenue Claude Antoine Peccot", "type": "bidirectionnelle" },
       "geometry": {
         "coordinates": [
           [-1.6246189362271366, 47.258207601911636],
@@ -2223,7 +2224,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Avenue Claude Antoine Peccot", "type": "bande cyclable" },
+      "properties": { "type": "bande cylable", "status": "", "nom": "Avenue Claude Antoine Peccot" },
       "geometry": {
         "coordinates": [
           [-1.6151887580060134, 47.254237573318704],
@@ -2238,7 +2239,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Rue du Solay", "type": "aucun" },
+      "properties": { "type": "aucun", "status": "", "nom": "Rue du Solay" },
       "geometry": {
         "coordinates": [
           [-1.6120627048640586, 47.25237108491973],
@@ -2249,7 +2250,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Boulevard Marcel Paul", "type": "bande cyclable" },
+      "properties": { "type": "bande cyclable", "status": "", "nom": "Boulevard Marcel Paul" },
       "geometry": {
         "coordinates": [
           [-1.635077943768323, 47.22841637903008],
@@ -2279,7 +2280,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Boulevard Marcel Paul", "type": "aucun" },
+      "properties": { "status": "", "type": "aucun", "nom": "Boulevard Marcel Paul" },
       "geometry": {
         "coordinates": [
           [-1.6350765591886045, 47.22841806527629],
@@ -2290,7 +2291,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Boulevard François Mitterrand", "type": "bande cyclable" },
+      "properties": { "status": "", "type": "bande cyclable", "nom": "Boulevard François Mitterrand" },
       "geometry": {
         "coordinates": [
           [-1.649067623145129, 47.21115049850735],
@@ -2316,7 +2317,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Rue de l'hôtel de ville", "type": "aucun" },
+      "properties": { "status": "", "type": "aucun", "nom": "Rue de l'hôtel de ville" },
       "geometry": {
         "coordinates": [
           [-1.6568083467085728, 47.21039179081248],
@@ -2332,7 +2333,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Rue de la Gare", "type": "bande cyclable" },
+      "properties": { "status": "", "type": "bande cyclable", "nom": "Rue de la Gare" },
       "geometry": {
         "coordinates": [
           [-1.6568093436508207, 47.21039350274262],
@@ -2343,7 +2344,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Rue de la Gare", "type": "aucun" },
+      "properties": { "status": "", "type": "aucun", "nom": "Rue de la Gare" },
       "geometry": {
         "coordinates": [
           [-1.6608756833824998, 47.2049251278423],
@@ -2359,7 +2360,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Rue de la Gare", "type": "bande cyclable" },
+      "properties": { "status": "", "type": "bande cyclable", "nom": "Rue de la Gare" },
       "geometry": {
         "coordinates": [
           [-1.667824638478919, 47.20115188469126],
@@ -2372,7 +2373,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Rue Jean Jaurès", "type": "aucun" },
+      "properties": { "status": "", "type": "aucun", "nom": "Rue Jean Jaurès" },
       "geometry": {
         "coordinates": [
           [-1.670503434328225, 47.1994048979729],
@@ -2387,7 +2388,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Quai Jean Bart", "type": "bande cyclable" },
+      "properties": { "type": "bande cyclable", "status": "", "nom": "Quai Jean Bart" },
       "geometry": {
         "coordinates": [
           [-1.6792081418636258, 47.20130467699707],
@@ -2400,7 +2401,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Quai Jean Bart", "type": "aucun" },
+      "properties": { "type": "aucun", "status": "", "nom": "Quai Jean Bart" },
       "geometry": {
         "coordinates": [
           [-1.6764584734394248, 47.19968460269314],
