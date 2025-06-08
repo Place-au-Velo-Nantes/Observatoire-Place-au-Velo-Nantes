@@ -789,7 +789,7 @@
         "name": "Rue de Nantes",
         "status": "unknown",
         "doneAt": "08/07/2005",
-        "type": "inconnu",
+        "type": "bidirectionnelle",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -2712,7 +2712,7 @@
         "id": "saint-s-bastien-sur-loire-34",
         "line": 2,
         "name": "Saint-Sébastien-sur-Loire",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "08/07/2005",
         "type": "inconnu",
         "quality": "satisfactory"
@@ -2756,15 +2756,16 @@
           ]
         ],
         "type": "LineString"
-      }
+      },
+      "id": 34
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "rez--35",
+        "id": "rez----les-sorini-res-35",
         "line": 2,
-        "name": "Rezé",
-        "status": "unknown",
+        "name": "Rezé - Les Sorinières",
+        "status": "postponed",
         "doneAt": "08/07/2005",
         "type": "inconnu",
         "quality": "satisfactory"
@@ -4963,7 +4964,7 @@
         "id": "square-vertais-88",
         "line": 2,
         "name": "Square Vertais",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "08/07/2005",
         "type": "inconnu",
         "quality": "satisfactory"
@@ -5092,7 +5093,7 @@
         "name": "Boulevard Maurice Bertin",
         "status": "unknown",
         "doneAt": "08/07/2005",
-        "type": "inconnu",
+        "type": "bandes-cyclables",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -5546,7 +5547,7 @@
         "name": "Quai moncousu",
         "status": "unknown",
         "doneAt": "08/07/2005",
-        "type": "bandes-cyclables",
+        "type": "inconnu",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -6112,7 +6113,7 @@
         "name": "Chemin de la Houssinière",
         "status": "unknown",
         "doneAt": "08/07/2005",
-        "type": "velorue",
+        "type": "inconnu",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -6612,7 +6613,7 @@
         "name": "Avenue Claude Antoine Peccot",
         "status": "unknown",
         "doneAt": "08/07/2005",
-        "type": "bandes-cyclables",
+        "type": "inconnu",
         "quality": "satisfactory"
       },
       "geometry": {
