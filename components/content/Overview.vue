@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div v-if="geojson">
       <div class="text-center text-xl text-gray-900">
         Distance totale: <span class="font-bold" :style="`color: ${color}`">{{ displayDistanceInKm(distance, 1) }}</span>
       </div>
@@ -20,13 +20,16 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+import type { Collections } from '@nuxt/content';
+
+
 const { path } = useRoute();
 const { getLineColor } = useColors();
 const { getTotalDistance, displayDistanceInKm } = useStats();
 const { displayQuality } = useConfig();
 
-const { voie } = defineProps({ voie: Object });
+const { voie } = defineProps<{ voie: Collections['voiesCyclablesPage']}>();
 
 const mapOptions = {
   fullscreen: true,
@@ -37,13 +40,13 @@ const mapOptions = {
 };
 
 const { data: geojson } = await useAsyncData(`geojson-${path}`, () => {
-  return queryContent('voies-cyclables')
-    .where({ _type: 'json', _path: voie._path })
-    .findOne();
+  return queryCollection('voiesCyclablesGeojson')
+    .path(voie.path)
+    .first();
 });
 
-const features = geojson.value.features;
+const features: Ref<Collections['voiesCyclablesGeojson']['features']> = computed(() => geojson.value?.features || []);
 
 const color = getLineColor(Number(voie.line));
-const distance = getTotalDistance([geojson.value]);
+const distance = geojson.value ? getTotalDistance([geojson.value]) : 0;
 </script>

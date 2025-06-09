@@ -85,7 +85,16 @@ function checkGeoJsonDataHealth({ links }) {
               }
 
               // 3.1 - check if status is valid
-              const validStatus = ['done', 'wip', 'planned', 'tested', 'postponed', 'unknown', 'variante', 'variante-postponed'];
+              const validStatus = [
+                'done',
+                'wip',
+                'planned',
+                'tested',
+                'postponed',
+                'unknown',
+                'variante',
+                'variante-postponed'
+              ];
               if (!validStatus.includes(properties.status)) {
                 console.error(`Invalid status '${properties.status}' in LineString properties of file: ${filePath}`);
                 process.exit(1);
@@ -124,6 +133,7 @@ function checkGeoJsonDataHealth({ links }) {
                 'velorue',
                 'voie-verte',
                 'bandes-cyclables',
+                'chaucidou',
                 'zone-de-rencontre',
                 'inconnu',
                 'aucun'
@@ -144,7 +154,7 @@ function checkGeoJsonDataHealth({ links }) {
               }
             } else if (feature.geometry.type === 'Point') {
               const properties = feature.properties || {};
-              
+
               if (properties.type === 'danger') {
                 // danger icons added to the map at high zoom level
                 const requiredKeys = ['type', 'name'];

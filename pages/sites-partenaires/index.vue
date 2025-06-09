@@ -33,8 +33,6 @@
 
 <script setup lang="ts">
 const { data: sites } = await useAsyncData(() => {
-  return queryContent('sites-partenaires')
-    .sort({ index: 1 })
-    .find();
+  return queryCollection('sitesPartenaires').all();
 });
 </script>

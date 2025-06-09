@@ -3,16 +3,16 @@
     <h1 class="text-center text-3xl text-lvv-blue-600 font-bold mb-8">
       Tableau de bord de suivi des {{ config.revName.plural }}
     </h1>
-    <div v-if="!voies">
+    <div v-if="!geojsons">
       Chargement ...
     </div>
     <div v-else>
-      <ProgressBar :voies="voies" />
-      <Stats :voies="voies" :precision="1" class="mt-8 max-w-2xl mx-auto" />
-      <StatsQuality v-if="displayQuality()" class="mt-8 max-w-2xl mx-auto" :voies="voies" :precision="1" />
-      <Typology :voies="voies" class="mt-8 max-w-2xl mx-auto" />
+      <ProgressBar :voies="geojsons" />
+      <Stats :voies="geojsons" :precision="1" class="mt-8 max-w-2xl mx-auto" />
+      <StatsQuality v-if="displayQuality()" class="mt-8 max-w-2xl mx-auto" :voies="geojsons" :precision="1" />
+      <Typology :voies="geojsons" class="mt-8 max-w-2xl mx-auto" />
 
-      <div v-for="voie in voies" :key="voie.line" class="py-2 my-8 flex">
+      <div v-for="voie in geojsons" :key="getLine(voie)" class="py-2 my-8 flex">
         <div class="mr-4 w-2 lg:w-4 rounded-lg" :style="`background: ${getLineColor(getLine(voie))}`" />
         <div class="max-w-2xl mx-auto flex-grow">
           <h2 class="text-center text-2xl font-bold">
@@ -23,7 +23,7 @@
               {{ displayDistanceInKm(getTotalDistance([voie]), 1) }}
             </span>
           </div>
-          <div v-if="voie.trafic" class="text-center text-sm text-gray-900">
+          <div v-if="getTrafic(voie)" class="text-center text-sm text-gray-900">
             Fréquentation max 2030: <span class="font-bold" :style="`color: ${getLineColor(getLine(voie))}`">
               {{ getTrafic(voie) }}
             </span>
@@ -41,34 +41,29 @@
 </template>
 
 <script setup lang="ts">
-import type { ParsedContent } from '@nuxt/content';
-import type { Feature } from '../../types';
+import type { Collections } from '@nuxt/content';
 import config from '../../config.json';
-interface Geojson extends ParsedContent {
-  type: string;
-  features: Feature[];
-}
-interface Mds extends ParsedContent {
-  trafic: string
-}
+import { isLineStringFeature } from '~/types';
+
 
 const { getLineColor } = useColors();
 const { getTotalDistance, displayDistanceInKm } = useStats();
 const { displayQuality } = useConfig();
 
-const { data: voies } = await useAsyncData(() => {
-  return queryContent<Geojson>('voies-cyclables').where({ _type: 'json' }).find();
+const { data: geojsons } = await useAsyncData(() => {
+  return queryCollection('voiesCyclablesGeojson').all();
 });
 const { data: mds } = await useAsyncData(() => {
-  return queryContent<Mds>('voies-cyclables').where({ _type: 'markdown' }).find();
+  return queryCollection('voiesCyclablesPage').all();
 });
 
-function getLine(voie: Geojson): number {
-  return voie.features[0].properties.line;
+function getLine(geojson: Collections['voiesCyclablesGeojson']): number {
+  const lineStringFeature = geojson.features.find(isLineStringFeature);
+  return lineStringFeature?.properties.line as number;
 }
 
-function getTrafic(voie: Geojson): string {
-  const line = getLine(voie);
+function getTrafic(geojson: Collections['voiesCyclablesGeojson']): string {
+  const line = getLine(geojson);
   const trafic = mds.value?.find((md) => md.line === line)?.trafic;
   return trafic || 'Inconnu';
 }
@@ -77,9 +72,9 @@ const description = `Tableau de bord de suivi des ${config.revName.plural} en te
 useHead({
   title: `Tableau de bord de suivi des ${config.revName.plural}`,
   meta: [
-    { hid: 'description', name: 'description', content: description },
-    { hid: 'og:description', property: 'og:description', content: description },
-    { hid: 'twitter:description', name: 'twitter:description', content: description }
+    { key: 'description', name: 'description', content: description },
+    { key: 'og:description', property: 'og:description', content: description },
+    { key: 'twitter:description', name: 'twitter:description', content: description }
   ]
 });
 </script>

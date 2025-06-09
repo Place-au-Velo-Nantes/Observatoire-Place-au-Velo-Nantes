@@ -3,6 +3,7 @@
     v-if="veloCounter"
     header="Fréquentation vélo & voiture"
     :title="veloCounter.name"
+    description=""
   >
     <!-- <ClientOnly>
       <Map :features="features" :options="{ legend: false, filter: false }" class="mt-12" style="height: 40vh" />
@@ -18,16 +19,22 @@
 </template>
 
 <script setup lang="ts">
-import type { Count } from '../../../types/counters';
+import type { Count } from '~/types';
 
 const { params } = useRoute();
 
-const { data: veloCounter } = await useAsyncData(() => {
-  return queryContent('compteurs/velo').where({ cyclopolisId: params.slug }).findOne();
+const { data: veloCounter } = await useAsyncData(`/compteurs/velo/${params.slug}`, () => {
+  return queryCollection('compteurs')
+    .where('path', 'LIKE', '/compteurs/velo%')
+    .where('cyclopolisId', '=', params.slug)
+    .first();
 });
 
-const { data: voitureCounter } = await useAsyncData(() => {
-  return queryContent('compteurs/voiture').where({ cyclopolisId: params.slug }).findOne();
+const { data: voitureCounter } = await useAsyncData(`/compteurs/voiture/${params.slug}`, () => {
+  return queryCollection('compteurs')
+    .where('path', 'LIKE', '/compteurs/voiture%')
+    .where('cyclopolisId', '=', params.slug)
+    .first();
 });
 
 if (!veloCounter.value || !voitureCounter.value) {
@@ -35,13 +42,17 @@ if (!veloCounter.value || !voitureCounter.value) {
   router.push({ path: '/404' });
 }
 
-const data = voitureCounter.value?.counts.map((voitureCount: Count) => {
-  const veloCount = veloCounter.value?.counts.find((veloCount: Count) => veloCount.month === voitureCount.month);
-  return {
-    month: voitureCount.month,
-    veloCount: veloCount?.count || 0,
-    voitureCount: voitureCount.count
-  };
+const data = computed(() => {
+  if (!voitureCounter.value || !veloCounter.value) return [];
+
+  return voitureCounter.value.counts.map((voitureCount: Count) => {
+    const veloCount = veloCounter.value?.counts.find((veloCount: Count) => veloCount.month === voitureCount.month);
+    return {
+      month: voitureCount.month,
+      veloCount: veloCount?.count || 0,
+      voitureCount: voitureCount.count
+    };
+  });
 });
 
 // const graphTitles = {

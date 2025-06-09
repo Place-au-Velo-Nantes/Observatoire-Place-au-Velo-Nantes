@@ -31,8 +31,6 @@
 
 <script setup lang="ts">
 const { data: cartesMinutes } = await useAsyncData(() => {
-  return queryContent('cartes-minutes')
-    .sort({ index: 1 })
-    .find();
+  return queryCollection('cartesMinutes').all();
 });
 </script>

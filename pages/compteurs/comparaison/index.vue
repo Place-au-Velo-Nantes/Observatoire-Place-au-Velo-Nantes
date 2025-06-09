@@ -25,19 +25,23 @@
 </template>
 
 <script setup lang="ts">
-import type { CounterParsedContent } from '../../../types/counters';
-
 /**
  * la clé cyclopolisId sert à faire le lien entre les compteurs vélo et voiture
  * cette page compare les 2 sur un même axe, on ne s'intéresse donc qu'à ceux qui ont
  * un cyclopolisId
  */
 const { data: allVeloCounters } = await useAsyncData(() => {
-  return queryContent<CounterParsedContent>('compteurs/velo').where({ cyclopolisId: { $exists: true } }).find();
+  return queryCollection('compteurs')
+    .where('path', 'LIKE', '/compteurs/velo%')
+    .where('cyclopolisId', 'IS NOT NULL')
+    .all();
 });
 
 const { data: allVoitureCounters } = await useAsyncData(() => {
-  return queryContent<CounterParsedContent>('compteurs/voiture').where({ cyclopolisId: { $exists: true } }).find();
+  return queryCollection('compteurs')
+    .where('path', 'LIKE', '/compteurs/voiture%')
+    .where('cyclopolisId', 'IS NOT NULL')
+    .all();
 });
 
 const counters = computed(() => {
@@ -51,7 +55,7 @@ const counters = computed(() => {
     if (!voitureCounter) { return undefined; }
     return {
       ...veloCounter,
-      link: `/compteurs/comparaison/${veloCounter.cyclopolisId}`,
+      path: `/compteurs/comparaison/${veloCounter.cyclopolisId}`,
       counts: voitureCounter.counts.map(voitureCount => {
         const veloCount = veloCounter.counts.find(veloCount => veloCount.month === voitureCount.month);
         return {

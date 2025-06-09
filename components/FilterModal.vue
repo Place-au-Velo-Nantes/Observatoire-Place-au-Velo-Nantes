@@ -13,20 +13,17 @@
         >
           <Icon name="mdi:close" class="h-6 w-6" aria-hidden="true" />
         </button>
-        <DialogTitle class="text-lg font-medium leading-6 text-gray-900">
-          Filtres
-        </DialogTitle>
+        <DialogTitle class="text-lg font-medium leading-6 text-gray-900"> Filtres </DialogTitle>
 
-        <div class="mt-2 text-base font-medium">
-          Filtrer par statut d'avancement
-        </div>
+        <div class="mt-2 text-base font-medium">Filtrer par statut d'avancement</div>
         <div class="mt-2 flex flex-wrap gap-x-2 gap-y-3">
           <div
             v-for="(statusFilter, index) in statusFilters"
             :key="statusFilter.label"
             class="px-2 py-1 border rounded-2xl text-sm cursor-pointer focus:outline-none ring-lvv-blue-600 ring-2"
             :class="{
-              'bg-lvv-blue-600 border-transparent text-white ring-offset-1 hover:bg-lvv-blue-500': statusFilter.isEnable,
+              'bg-lvv-blue-600 border-transparent text-white ring-offset-1 hover:bg-lvv-blue-500':
+                statusFilter.isEnable,
               'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !statusFilter.isEnable
             }"
             @click="toogleStatusFilter(index)"
@@ -34,9 +31,7 @@
             {{ statusFilter.label }}
           </div>
         </div>
-        <div class="mt-2 text-base font-medium">
-          Filtrer par type d'aménagement
-        </div>
+        <div class="mt-2 text-base font-medium">Filtrer par type d'aménagement</div>
         <div class="mt-2 flex flex-wrap gap-x-2 gap-y-3">
           <div
             v-for="(typeFilter, index) in typeFilters"
@@ -87,6 +82,7 @@ const typeFilters = ref([
   { label: 'Voie verte', isEnable: true, types: ['voie-verte'] },
   { label: 'Vélorue', isEnable: true, types: ['velorue'] },
   { label: 'Bandes cyclables', isEnable: true, types: ['bandes-cyclables'] },
+  { label: 'Chaucidou', isEnable: true, types: ['chaucidou'] },
   { label: 'Zone de rencontre', isEnable: true, types: ['zone-de-rencontre'] },
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
   { label: 'Aucun', isEnable: true, types: ['aucun'] }
@@ -102,16 +98,15 @@ function toogleTypeFilter(index: number) {
 
 const emit = defineEmits(['update']);
 
-watch([statusFilters, typeFilters], () => {
-  const visibleStatuses = statusFilters.value
-    .filter(item => item.isEnable)
-    .flatMap(item => item.statuses);
+watch(
+  [statusFilters, typeFilters],
+  () => {
+    const visibleStatuses = statusFilters.value.filter(item => item.isEnable).flatMap(item => item.statuses);
 
-  const visibleTypes = typeFilters.value
-    .filter(item => item.isEnable)
-    .flatMap(item => item.types);
+    const visibleTypes = typeFilters.value.filter(item => item.isEnable).flatMap(item => item.types);
 
-  emit('update', { visibleStatuses, visibleTypes });
-}, { deep: true });
-
+    emit('update', { visibleStatuses, visibleTypes });
+  },
+  { deep: true }
+);
 </script>

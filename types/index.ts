@@ -1,30 +1,41 @@
-export type LaneType =
-| 'bidirectionnelle'
-| 'bilaterale'
-| 'voie-bus'
-| 'voie-bus-elargie'
-| 'velorue'
-| 'voie-verte'
-| 'bandes-cyclables'
-| 'zone-de-rencontre'
-| 'aucun'
-| 'inconnu';
+import type { Collections } from '@nuxt/content';
 
-export type LaneStatus = 'done' | 'wip' | 'planned' | 'tested' | 'postponed' | 'unknown' | 'variante' | 'variante-postponed';
+export type LaneType =
+  | 'bidirectionnelle'
+  | 'bilaterale'
+  | 'voie-bus'
+  | 'voie-bus-elargie'
+  | 'velorue'
+  | 'voie-verte'
+  | 'bandes-cyclables'
+  | 'chaucidou'
+  | 'zone-de-rencontre'
+  | 'aucun'
+  | 'inconnu';
+
+export type LaneStatus =
+  | 'done'
+  | 'wip'
+  | 'planned'
+  | 'tested'
+  | 'postponed'
+  | 'unknown'
+  | 'variante'
+  | 'variante-postponed';
 
 export type LaneQuality = 'unsatisfactory' | 'satisfactory';
 
 export type LineStringFeature = {
   type: 'Feature';
   properties: {
-    id?: string
-    line: number;
-    name: string;
-    status: LaneStatus;
-    type: LaneType;
-    doneAt?: string;
+    id?: string; // sert à identifier des tronçons communs entre plusieurs lignes
+    line: number; // numéro de la voie cyclable
+    name: string; // nom de la voie cyclable
+    status: LaneStatus; // status d'avancement de la voie cyclable
+    type: LaneType; // type de la voie cyclable
+    doneAt?: string; // si applicable, date de fin des travaux (utile pour suivre la progression)
     link?: string;
-    quality?: LaneQuality;
+    quality?: LaneQuality; // tronçon de qualité ou non
   };
   geometry: {
     type: 'LineString';
@@ -70,65 +81,52 @@ export type CompteurFeature = {
   };
 };
 
-export type PumpFeature = {
-  type: 'Feature';
-  properties: {
-    type: 'pump',
-    name: string
-  }
-  geometry: {
-    type: 'Point';
-    coordinates: [number, number];
-  };
-}
-
 export type DangerFeature = {
   type: 'Feature';
   properties: {
-    id?: string,
-    type: 'danger',
-    name: string
-    description: string
-    danger: string
-  }
+    id?: string;
+    type: 'danger';
+    name: string;
+    description: string;
+    danger: string;
+  };
   geometry: {
     type: 'Point';
     coordinates: [number, number];
   };
-}
-
-type PointFeature = PerspectiveFeature | CompteurFeature | PumpFeature | DangerFeature;
-
-export type Feature = LineStringFeature | PointFeature;
-
-export type Geojson = {
-  type: string;
-  features: Feature[];
 };
+
+export type Count = { month: string; count: number };
 
 /**
  * type helpers
  */
-export function isLineStringFeature(feature: Feature): feature is LineStringFeature {
+export function isLineStringFeature(
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+): feature is Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }> {
   return feature.geometry.type === 'LineString';
 }
 
-export function isPointFeature(feature: Feature): feature is PointFeature {
+export function isPointFeature(
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+): feature is Extract<typeof feature, { geometry: { type: 'Point'; coordinates: [number, number] } }> {
   return feature.geometry.type === 'Point';
 }
 
-export function isPerspectiveFeature(feature: Feature): feature is PerspectiveFeature {
+export function isPerspectiveFeature(
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+): feature is Extract<Collections['voiesCyclablesGeojson']['features'][0], { properties: { type: 'perspective' } }> {
   return isPointFeature(feature) && feature.properties.type === 'perspective';
 }
 
-export function isDangerFeature(feature: Feature): feature is DangerFeature {
+export function isDangerFeature(
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+): feature is Extract<Collections['voiesCyclablesGeojson']['features'][0], { properties: { type: 'danger' } }> {
   return isPointFeature(feature) && feature.properties.type === 'danger';
 }
 
-export function isPumpFeature(feature: Feature): feature is PumpFeature {
-  return isPointFeature(feature) && feature.properties.type === 'pump';
-}
-
-export function isCompteurFeature(feature: Feature): feature is CompteurFeature {
+export function isCompteurFeature(
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+): feature is CompteurFeature {
   return isPointFeature(feature) && ['compteur-velo', 'compteur-voiture'].includes(feature.properties.type);
 }

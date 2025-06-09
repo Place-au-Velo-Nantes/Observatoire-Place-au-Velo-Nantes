@@ -4,7 +4,9 @@
   </ClientOnly>
 </template>
 
-<script setup>
+<script setup lang="ts">
+import type { Collections } from '@nuxt/content';
+
 const { getRevName } = useConfig();
 
 // https://github.com/nuxt/framework/issues/3587
@@ -13,11 +15,14 @@ definePageMeta({
   layout: 'embed'
 });
 
-const { data: voies } = await useAsyncData(() => {
-  return queryContent('voies-cyclables').where({ _type: 'json' }).find();
+const { data: geojsons } = await useAsyncData(() => {
+  return queryCollection('voiesCyclablesGeojson').all();
 });
 
-const features = voies.value.map(voie => voie.features).flat();
+const features: Ref<Collections['voiesCyclablesGeojson']['features']> = computed(() => {
+  if (!geojsons.value) return [];
+  return geojsons.value.flatMap(geojson => geojson.features);
+});
 
 const description = `Découvrez la carte interactive des ${getRevName()}. Itinéraires rue par rue. Plan régulièrement mis à jour pour une information complète.`;
 const COVER_IMAGE_URL = 'https://cyclopolis.lavilleavelo.org/cyclopolis.png';
@@ -25,12 +30,12 @@ useHead({
   title: `Carte à jour des ${getRevName()}`,
   meta: [
     // description
-    { hid: 'description', name: 'description', content: description },
-    { hid: 'og:description', property: 'og:description', content: description },
-    { hid: 'twitter:description', name: 'twitter:description', content: description },
+    { key: 'description', name: 'description', content: description },
+    { key: 'og:description', property: 'og:description', content: description },
+    { key: 'twitter:description', name: 'twitter:description', content: description },
     // cover image
-    { hid: 'og:image', property: 'og:image', content: COVER_IMAGE_URL },
-    { hid: 'twitter:image', name: 'twitter:image', content: COVER_IMAGE_URL }
+    { key: 'og:image', property: 'og:image', content: COVER_IMAGE_URL },
+    { key: 'twitter:image', name: 'twitter:image', content: COVER_IMAGE_URL }
   ]
 });
 </script>

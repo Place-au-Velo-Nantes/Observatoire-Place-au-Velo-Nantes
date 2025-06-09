@@ -15,11 +15,11 @@
 </template>
 
 <script setup lang="ts">
-import type { Geojson } from '~/types';
+import type { Collections } from '@nuxt/content';
 const { getStatsQuality, displayDistanceInKm, displayPercent } = useStats();
 
 const { voies, precision } = defineProps<{
-  voies: Geojson[];
+  voies: Collections['voiesCyclablesGeojson'][];
   precision?: number;
 }>();
 
