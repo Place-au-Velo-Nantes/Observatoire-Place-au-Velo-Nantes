@@ -13,6 +13,7 @@ const fixType = type => {
     'velorue',
     'voie-verte',
     'bandes-cyclables',
+    'chaucidou',
     'zone-de-rencontre',
     'inconnu',
     'aucun'
@@ -28,8 +29,8 @@ const fixType = type => {
     return 'bandes-cyclables';
   } else if (type === 'voie verte') {
     return 'voie-verte';
-  } else if (type === 'chaussidou') {
-    return 'bandes-cyclables';
+    // } else if (type === 'chaucidou') {
+    //   return 'bandes-cyclables';
   } else if (type) {
     console.error(`Invalid type '${type}'`);
   }

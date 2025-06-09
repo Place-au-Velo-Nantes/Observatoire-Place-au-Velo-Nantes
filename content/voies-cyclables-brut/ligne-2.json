@@ -2178,7 +2178,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "nom": "Avenue de la Bugallière", "type": "chaussidou", "year": "", "status": "" },
+      "properties": { "nom": "Avenue de la Bugallière", "type": "chaucidou", "year": "", "status": "" },
       "geometry": {
         "coordinates": [
           [-1.6390487196300683, 47.260163739293375],

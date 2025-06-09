@@ -10,13 +10,20 @@
       width="75"
       height="75"
       :alt="`logo ${config.assoName}`"
-    >
+    />
   </div>
 </template>
 
 <script setup lang="ts">
 import type { Collections } from '@nuxt/content';
-import { Map, AttributionControl, GeolocateControl, NavigationControl, type StyleSpecification, type LngLatLike } from 'maplibre-gl';
+import {
+  Map,
+  AttributionControl,
+  GeolocateControl,
+  NavigationControl,
+  type StyleSpecification,
+  type LngLatLike
+} from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import style from '@/assets/style.json';
 import LegendControl from '@/maplibre/LegendControl';
@@ -36,13 +43,13 @@ const defaultOptions = {
   filter: true,
   geolocation: false,
   fullscreen: false,
-  onFullscreenControlClick: () => { },
+  onFullscreenControlClick: () => {},
   shrink: false,
-  onShrinkControlClick: () => { }
+  onShrinkControlClick: () => {}
 };
 
 const props = defineProps<{
-  features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[]
+  features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[];
   options?: Partial<typeof defaultOptions>;
 }>();
 
@@ -51,27 +58,39 @@ const options = { ...defaultOptions, ...props.options };
 const legendModalComponent = ref<{ openModal: () => void } | null>(null);
 const filterModalComponent = ref<{ openModal: () => void } | null>(null);
 
-const {
-  loadImages,
-  plotFeatures,
-  fitBounds,
-  handleMapClick
-} = useMap();
+const { loadImages, plotFeatures, fitBounds, handleMapClick } = useMap();
 
 const statuses = ref(['planned', 'variante', 'done', 'postponed', 'variante-postponed', 'unknown', 'wip', 'tested']);
-const types = ref(['bidirectionnelle', 'bilaterale', 'voie-bus', 'voie-bus-elargie', 'velorue', 'voie-verte', 'bandes-cyclables', 'zone-de-rencontre', 'aucun', 'inconnu']);
+const types = ref([
+  'bidirectionnelle',
+  'bilaterale',
+  'voie-bus',
+  'voie-bus-elargie',
+  'velorue',
+  'voie-verte',
+  'bandes-cyclables',
+  'chaucidou',
+  'zone-de-rencontre',
+  'aucun',
+  'inconnu'
+]);
 
 const features = computed(() => {
   return (props.features ?? []).filter(feature => {
     if (isLineStringFeature(feature)) {
-      return statuses.value.includes(feature.properties.status) &&
-        types.value.includes(feature.properties.type);
+      return statuses.value.includes(feature.properties.status) && types.value.includes(feature.properties.type);
     }
     return true;
   });
 });
 
-function refreshFilters({ visibleStatuses, visibleTypes }: { visibleStatuses: LaneStatus[]; visibleTypes: LaneType[] }) {
+function refreshFilters({
+  visibleStatuses,
+  visibleTypes
+}: {
+  visibleStatuses: LaneStatus[];
+  visibleTypes: LaneType[];
+}) {
   statuses.value = visibleStatuses;
   types.value = visibleTypes;
 }
@@ -113,7 +132,7 @@ onMounted(() => {
     const legendControl = new LegendControl({
       onClick: () => {
         if (legendModalComponent.value) {
-          (legendModalComponent.value).openModal();
+          legendModalComponent.value.openModal();
         }
       }
     });
@@ -123,14 +142,14 @@ onMounted(() => {
     const filterControl = new FilterControl({
       onClick: () => {
         if (filterModalComponent.value) {
-          (filterModalComponent.value).openModal();
+          filterModalComponent.value.openModal();
         }
       }
     });
     map.addControl(filterControl, 'top-right');
   }
 
-  map.on('load', async() => {
+  map.on('load', async () => {
     await loadImages({ map });
     plotFeatures({ map, features: features.value });
 
@@ -144,9 +163,12 @@ onMounted(() => {
     plotFeatures({ map, features: newFeatures });
   });
 
-  watch(() => props.features, newFeatures => {
-    plotFeatures({ map, features: newFeatures });
-  });
+  watch(
+    () => props.features,
+    newFeatures => {
+      plotFeatures({ map, features: newFeatures });
+    }
+  );
 
   map.on('click', clickEvent => {
     handleMapClick({ map, features: features.value, clickEvent });

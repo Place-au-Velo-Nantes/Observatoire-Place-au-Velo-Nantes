@@ -157,7 +157,12 @@ export const useStats = () => {
     };
   }
 
-  function getStatsQuality(voies: Collections['voiesCyclablesGeojson'][]): { distance: number; postponed: boolean; percent: number; dangerCount: number } {
+  function getStatsQuality(voies: Collections['voiesCyclablesGeojson'][]): {
+    distance: number;
+    postponed: boolean;
+    percent: number;
+    dangerCount: number;
+  } {
     const features = getAllUniqLineStrings(voies);
     const dangers = getAllUniqDangers(voies);
     const totalDistance = getDistance({ features });
@@ -182,6 +187,7 @@ export const useStats = () => {
     velorue: 'Vélorue',
     'voie-verte': 'Voie verte',
     'bandes-cyclables': 'Bandes cyclables',
+    chaucidou: 'Chaucidou',
     'zone-de-rencontre': 'Zone de rencontre',
     aucun: 'Aucun',
     inconnu: 'Inconnu'
@@ -200,7 +206,10 @@ export const useStats = () => {
       return Math.round((distance / totalDistance) * 100);
     }
 
-    const featuresByType = groupBy<Collections['voiesCyclablesGeojson']['features'][0], Collections['voiesCyclablesGeojson']['features'][0]['properties']['type']>(lineStringFeatures, feature => feature.properties.type);
+    const featuresByType = groupBy<
+      Collections['voiesCyclablesGeojson']['features'][0],
+      Collections['voiesCyclablesGeojson']['features'][0]['properties']['type']
+    >(lineStringFeatures, feature => feature.properties.type);
 
     return Object.entries(featuresByType)
       .map(([type, features]) => {
