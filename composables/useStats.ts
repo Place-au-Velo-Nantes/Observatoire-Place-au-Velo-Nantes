@@ -1,8 +1,9 @@
+import type { Collections } from '@nuxt/content';
 import { groupBy } from '../helpers/helpers';
-import { isLineStringFeature, type Feature, type Geojson, type LaneType, type LineStringFeature, type LaneQuality, isDangerFeature } from '../types';
+import { isLineStringFeature, type LaneType, type LaneQuality, isDangerFeature } from '../types';
 
 export const useStats = () => {
-  function getAllUniqLineStrings(voies: Geojson[]) {
+  function getAllUniqLineStrings(voies: Collections['voiesCyclablesGeojson'][]) {
     return voies
       .map(voie => voie.features)
       .flat()
@@ -19,7 +20,7 @@ export const useStats = () => {
       });
   }
 
-  function getAllUniqDangers(voies: Geojson[]) {
+  function getAllUniqDangers(voies: Collections['voiesCyclablesGeojson'][]) {
     return voies
       .map(voie => voie.features)
       .flat()
@@ -37,13 +38,13 @@ export const useStats = () => {
    * retourne la somme des distances de tous les tronçons passé en paramètre.
    * Attention : pas de notion de dédoublonnage ici.
    */
-  function getDistance({ features }: { features: Feature[] }): number {
-    return features.reduce((acc: number, feature: Feature) => {
+  function getDistance({ features }: { features: Collections['voiesCyclablesGeojson']['features'] }): number {
+    return features.reduce((acc: number, feature: Collections['voiesCyclablesGeojson']['features'][0]) => {
       return acc + getLineStringDistance(feature);
     }, 0);
   }
 
-  function getLineStringDistance(feature: Feature) {
+  function getLineStringDistance(feature: Collections['voiesCyclablesGeojson']['features'][0]) {
     if (feature.geometry.type !== 'LineString') {
       throw new Error('[getLineStringDistance] Feature must be a LineString');
     }
@@ -52,8 +53,13 @@ export const useStats = () => {
     const coordinates = feature.geometry.coordinates;
 
     for (let i = 0; i < coordinates.length - 1; i++) {
-      const [lon1, lat1] = coordinates[i];
-      const [lon2, lat2] = coordinates[i + 1];
+      const coord1 = coordinates[i];
+      const coord2 = coordinates[i + 1];
+      if (!Array.isArray(coord1) || !Array.isArray(coord2)) {
+        throw new Error('[getLineStringDistance] Invalid coordinate format');
+      }
+      const [lon1, lat1] = coord1;
+      const [lon2, lat2] = coord2;
       distance += haversine(lat1, lon1, lat2, lon2);
     }
 
@@ -97,20 +103,20 @@ export const useStats = () => {
    * retourne la somme des distances de tous les tronçons passé en paramètre, aprèds avoir retiré les doublons.
    * un doublon est un tronçon commun entre 2 VLs
    */
-  function getTotalDistance(voies: Geojson[]) {
+  function getTotalDistance(voies: Collections['voiesCyclablesGeojson'][]) {
     const features = getAllUniqLineStrings(voies);
     return getDistance({ features });
   }
 
-  function getStats(voies: Geojson[]) {
+  function getStats(voies: Collections['voiesCyclablesGeojson'][]) {
     const features = getAllUniqLineStrings(voies);
     const doneFeatures = features.filter(feature => feature.properties.status === 'done');
-    const wipFeatures = features.filter(feature => ['wip', 'tested'].includes(feature.properties.status));
+    const wipFeatures = features.filter(feature => ['wip', 'tested'].includes(feature.properties.status ?? ''));
     const plannedFeatures = features.filter(feature =>
-      ['planned', 'unknown', 'variante'].includes(feature.properties.status)
+      ['planned', 'unknown', 'variante'].includes(feature.properties.status ?? '')
     );
     const postponedFeatures = features.filter(feature =>
-      ['postponed', 'variante-postponed'].includes(feature.properties.status)
+      ['postponed', 'variante-postponed'].includes(feature.properties.status ?? '')
     );
 
     const totalDistance = getDistance({ features });
@@ -151,7 +157,7 @@ export const useStats = () => {
     };
   }
 
-  function getStatsQuality(voies: Geojson[]): { distance: number; postponed: boolean; percent: number; dangerCount: number } {
+  function getStatsQuality(voies: Collections['voiesCyclablesGeojson'][]): { distance: number; postponed: boolean; percent: number; dangerCount: number } {
     const features = getAllUniqLineStrings(voies);
     const dangers = getAllUniqDangers(voies);
     const totalDistance = getDistance({ features });
@@ -186,7 +192,7 @@ export const useStats = () => {
     satisfactory: 'Satisfaisant'
   };
 
-  function getStatsByTypology(voies: Geojson[]) {
+  function getStatsByTypology(voies: Collections['voiesCyclablesGeojson'][]) {
     const lineStringFeatures = getAllUniqLineStrings(voies);
     const totalDistance = getDistance({ features: lineStringFeatures });
 
@@ -194,7 +200,8 @@ export const useStats = () => {
       return Math.round((distance / totalDistance) * 100);
     }
 
-    const featuresByType = groupBy<LineStringFeature, LaneType>(lineStringFeatures, feature => feature.properties.type);
+    const featuresByType = groupBy<Collections['voiesCyclablesGeojson']['features'][0], Collections['voiesCyclablesGeojson']['features'][0]['properties']['type']>(lineStringFeatures, feature => feature.properties.type);
+
     return Object.entries(featuresByType)
       .map(([type, features]) => {
         const distance = getDistance({ features });

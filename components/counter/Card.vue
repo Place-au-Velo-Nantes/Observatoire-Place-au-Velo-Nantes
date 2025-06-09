@@ -69,39 +69,38 @@
 </template>
 
 <script setup lang="ts">
-import type { CounterParsedContent } from '../../types/counters';
+import type { Collections } from '@nuxt/content';
 
-type Record = {
-  month: string;
-  veloCount?: number;
-  voitureCount?: number;
-};
+type Counter = Omit<Collections['compteurs'], 'counts'> & {
+    counts: {
+      month: string;
+      veloCount?: number;
+      voitureCount?: number
+    }[]
+  }
 
 const props = defineProps<{
-  counter: Omit<CounterParsedContent, 'counts'> & {
-    counts: Record[],
-    link: string
-  };
+  counter: Counter;
 }>();
 
 const arrondissement = props.counter.arrondissement;
 const name = props.counter.name;
-const link = props.counter.link;
+const link = props.counter.path;
+
+const isTrackingVelo = props.counter.counts.every(count => count.veloCount !== undefined);
+const isTrackingVoiture = props.counter.counts.every(count => count.voitureCount !== undefined);
 
 const lastRecord = props.counter.counts[props.counter.counts.length - 1];
 const lastRecordPreviousYear = getSameRecordPreviousYear(lastRecord);
 
-const isTrackingVelo = props.counter.counts.some(record => record.veloCount !== undefined);
-const isTrackingVoiture = props.counter.counts.some(record => record.voitureCount !== undefined);
-
 /**
  * formatters
  */
-function formatRecordMonth(record: Record) {
+function formatRecordMonth(record: Counter['counts'][0]): string {
   return new Date(record.month).toLocaleString('fr-Fr', { month: 'short' });
 }
 
-function formatRecordYear(record: Record): number {
+function formatRecordYear(record: Counter['counts'][0]): number {
   return new Date(record.month).getFullYear();
 }
 
@@ -113,7 +112,7 @@ function formatRecordCount(count?: number) {
 /**
  * helpers
  */
-function getSameRecordPreviousYear(record: Record): Record | undefined {
+function getSameRecordPreviousYear(record: Counter['counts'][0]): Counter['counts'][0] | undefined {
   const recordMonth = new Date(record.month).getMonth();
   const recordYear = new Date(record.month).getFullYear();
   return props.counter.counts.find(count => {

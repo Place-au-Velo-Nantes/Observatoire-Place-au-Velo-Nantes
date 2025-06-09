@@ -24,7 +24,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const { getAllUniqLineStrings, getDistance } = useStats();
 const { getRevName } = useConfig();
 
@@ -35,25 +35,26 @@ definePageMeta({
 });
 
 const years = ref([
-  { label: '< 2021', match: year => year < 2021, isChecked: true },
-  { label: '2021', match: year => year === 2021, isChecked: false },
-  { label: '2022', match: year => year === 2022, isChecked: false },
-  { label: '2023', match: year => year === 2023, isChecked: false },
-  { label: '2024', match: year => year === 2024, isChecked: false },
-  { label: '2025', match: year => year === 2025, isChecked: false }
+  { label: '< 2021', match: (year: number) => year < 2021, isChecked: true },
+  { label: '2021', match: (year: number) => year === 2021, isChecked: false },
+  { label: '2022', match: (year: number) => year === 2022, isChecked: false },
+  { label: '2023', match: (year: number) => year === 2023, isChecked: false },
+  { label: '2024', match: (year: number) => year === 2024, isChecked: false },
+  { label: '2025', match: (year: number) => year === 2025, isChecked: false }
 ]);
 
-const { data: voies } = await useAsyncData(() => {
-  return queryContent('voies-cyclables').where({ _type: 'json' }).find();
+const { data: geojsons } = await useAsyncData(() => {
+  return queryCollection('voiesCyclablesGeojson').all();
 });
 
 const features = computed(() => {
-  return voies.value
-    .map(voie => voie.features)
-    .flat()
-    .filter(feature => feature.properties.status === 'done')
+  if (!geojsons.value) return [];
+
+  return geojsons.value
+    .flatMap(geojson => geojson.features)
+    .filter(feature => 'status' in feature.properties && feature.properties.status === 'done')
     .filter(feature => {
-      if (!feature.properties.doneAt) {
+      if (!('status' in feature.properties) || !feature.properties.doneAt) {
         return false;
       }
       const selectedYear = years.value.filter(year => year.isChecked);
@@ -63,7 +64,8 @@ const features = computed(() => {
 });
 
 const doneDistance = computed(() => {
-  const allUniqFeatures = getAllUniqLineStrings([{ type: 'FeatureCollection', features: features.value }]);
+  if (!geojsons.value) return 0;
+  const allUniqFeatures = getAllUniqLineStrings([{ ...geojsons.value[0], features: features.value }]);
   const doneDistance = getDistance({ features: allUniqFeatures });
   return Math.round(doneDistance / 100) / 10;
 });

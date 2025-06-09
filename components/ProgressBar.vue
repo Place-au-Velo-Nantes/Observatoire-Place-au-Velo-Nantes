@@ -22,11 +22,12 @@
 </template>
 
 <script setup lang="ts">
-import type { Geojson } from '~/types';
+import type { Collections } from '@nuxt/content';
+
 const { getStats, displayPercent } = useStats();
 
 const { voies } = defineProps<{
-  voies: Geojson[];
+  voies: Collections['voiesCyclablesGeojson'][];
 }>();
 
 const stats = getStats(voies);

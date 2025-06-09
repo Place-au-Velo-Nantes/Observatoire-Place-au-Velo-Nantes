@@ -62,6 +62,7 @@ import {
   ListboxOptions,
   ListboxOption
 } from '@headlessui/vue';
+import type { Count } from '~/types';
 
 const props = defineProps({
   title: { type: String, required: true },
@@ -88,7 +89,6 @@ const lastRecordMonth = new Date(lastRecord.month).getMonth();
 
 const selectedMonth = ref(months.find(month => month.value === lastRecordMonth));
 
-type Count = { month: string, count: number };
 const counts = computed(() => {
   return props.data.counts.filter((count: Count) => {
     const date = new Date(count.month);

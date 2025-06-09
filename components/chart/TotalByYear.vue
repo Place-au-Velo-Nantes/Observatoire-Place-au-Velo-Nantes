@@ -7,12 +7,13 @@
 </template>
 
 <script setup lang="ts">
+import type { Count } from '~/types';
+
 const props = defineProps({
   title: { type: String, required: true },
   data: { type: Object, required: true }
 });
 
-type Count = { month: string, count: number };
 const years = [...new Set(props.data.counts.map((item: Count) => new Date(item.month).getFullYear()))].sort();
 const countsValues = years.map((year) => {
   return props.data.counts

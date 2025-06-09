@@ -15,6 +15,7 @@
 </template>
 
 <script setup lang="ts">
+import type { Collections } from '@nuxt/content';
 import { Map, AttributionControl, GeolocateControl, NavigationControl, type StyleSpecification, type LngLatLike } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import style from '@/assets/style.json';
@@ -23,7 +24,7 @@ import FilterControl from '@/maplibre/FilterControl';
 import FullscreenControl from '@/maplibre/FullscreenControl';
 import ShrinkControl from '@/maplibre/ShrinkControl';
 
-import { isLineStringFeature, type Feature, type LaneStatus, type LaneType } from '~/types';
+import { isLineStringFeature, type CompteurFeature, type LaneStatus, type LaneType } from '~/types';
 import config from '~/config.json';
 
 // const config = useRuntimeConfig();
@@ -41,14 +42,14 @@ const defaultOptions = {
 };
 
 const props = defineProps<{
-  features: Feature[];
-  options: Partial<typeof defaultOptions>;
+  features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[]
+  options?: Partial<typeof defaultOptions>;
 }>();
 
 const options = { ...defaultOptions, ...props.options };
 
-const legendModalComponent = ref(null);
-const filterModalComponent = ref(null);
+const legendModalComponent = ref<{ openModal: () => void } | null>(null);
+const filterModalComponent = ref<{ openModal: () => void } | null>(null);
 
 const {
   loadImages,
@@ -59,6 +60,7 @@ const {
 
 const statuses = ref(['planned', 'variante', 'done', 'postponed', 'variante-postponed', 'unknown', 'wip', 'tested']);
 const types = ref(['bidirectionnelle', 'bilaterale', 'voie-bus', 'voie-bus-elargie', 'velorue', 'voie-verte', 'bandes-cyclables', 'zone-de-rencontre', 'aucun', 'inconnu']);
+
 const features = computed(() => {
   return (props.features ?? []).filter(feature => {
     if (isLineStringFeature(feature)) {
@@ -111,7 +113,7 @@ onMounted(() => {
     const legendControl = new LegendControl({
       onClick: () => {
         if (legendModalComponent.value) {
-          (legendModalComponent.value as any).openModal();
+          (legendModalComponent.value).openModal();
         }
       }
     });
@@ -121,7 +123,7 @@ onMounted(() => {
     const filterControl = new FilterControl({
       onClick: () => {
         if (filterModalComponent.value) {
-          (filterModalComponent.value as any).openModal();
+          (filterModalComponent.value).openModal();
         }
       }
     });
@@ -131,25 +133,20 @@ onMounted(() => {
   map.on('load', async() => {
     await loadImages({ map });
     plotFeatures({ map, features: features.value });
+
     const tailwindMdBreakpoint = 768;
     if (window.innerWidth > tailwindMdBreakpoint) {
       fitBounds({ map, features: features.value });
     }
   });
 
-  watch(
-    features,
-    newFeatures => {
-      plotFeatures({ map, features: newFeatures });
-    }
-  );
+  watch(features, newFeatures => {
+    plotFeatures({ map, features: newFeatures });
+  });
 
-  watch(
-    () => props.features,
-    newFeatures => {
-      plotFeatures({ map, features: newFeatures });
-    }
-  );
+  watch(() => props.features, newFeatures => {
+    plotFeatures({ map, features: newFeatures });
+  });
 
   map.on('click', clickEvent => {
     handleMapClick({ map, features: features.value, clickEvent });
