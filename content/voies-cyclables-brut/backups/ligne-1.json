@@ -3,7 +3,13 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "nom": "Mail Pablo Picasso", "status": "réalisé", "type": "bande cyclable" },
+      "properties": { 
+        "nom": "Mail Pablo Picasso", 
+        "line": ["A", "B"],
+        "status": "réalisé",
+        "quality": "2+3+1+1+2+0+2",
+        "type": "bande cyclable",
+        "infrastructure": "magistrale",
       "geometry": {
         "coordinates": [
           [-1.5316300915915804, 47.21742838829766],
