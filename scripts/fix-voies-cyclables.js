@@ -80,47 +80,60 @@ const processVoiesFiles = () => {
   }
 
   // Read all JSON files from brut directory
-  const files = fs.readdirSync(brutDir).filter(file => file.endsWith('.json'));
+  const files = fs.readdirSync(brutDir).filter(file => file.endsWith('.geojson'));
 
   console.log(`Found ${files.length} files to process...`);
 
+  const lines = {};
+
   files.forEach(filename => {
     const inputPath = path.join(brutDir, filename);
-    const outputPath = path.join(outputDir, filename);
-
     console.log(`Processing ${filename}...`);
 
     try {
       // Read the raw JSON file
       const rawData = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 
-      // Extract line number from filename (e.g., 'ligne-1.json' -> 1)
-      const line = parseInt(filename.match(/ligne-(\d+)\.json/)?.[1] || '0');
-
       // Process each feature
-      const processedFeatures = rawData.features.map((feature, index) => {
-        const properties = {
-          id: `${feature.properties.nom?.toLowerCase().replace(/[^a-z0-9]/g, '-') || 'unnamed'}-${index}`,
-          line,
-          name: feature.properties.nom || '',
-          status: fixStatus(feature.properties.status || ''),
-          doneAt: '08/07/2005',
-          type: fixType(feature.properties.type || ''),
-          quality: 'satisfactory'
-        };
+      rawData.features.map((feature, index) => {
+        let line_letters = feature.properties.line;
 
-        return { ...feature, properties };
+        if (!line_letters) {
+          line_letters = '0';
+          return;
+        }
+
+        line_letters.split(',').forEach(line_letter => {
+          if (!lines[line_letter]) {
+            lines[line_letter] = [];
+          }
+
+          const properties = {
+            id: `${feature.properties.nom?.toLowerCase().replace(/[^a-z0-9]/g, '-') || 'unnamed'}-${index}`,
+            line: line_letter,
+            name: feature.properties.nom || '',
+            status: fixStatus(feature.properties.status || ''),
+            doneAt: '01/01/2000',
+            type: fixType(feature.properties.type || ''),
+            quality: 'satisfactory'
+          };
+
+          feature.properties = properties;
+
+          lines[line_letter].push(feature);
+        });
       });
 
-      // Create the processed data structure
-      const processedData = {
-        ...rawData,
-        features: processedFeatures
-      };
+      Object.keys(lines).forEach(line_letter => {
+        const outputPath = path.join(outputDir, `ligne-${line_letter}.json`);
+        const processedData = {
+          type: 'FeatureCollection',
+          features: lines[line_letter]
+        };
 
-      // Write the processed file
-      fs.writeFileSync(outputPath, JSON.stringify(processedData, null, 2));
-      console.log(`✓ Saved ${filename} with ${processedFeatures.length} features`);
+        fs.writeFileSync(outputPath, JSON.stringify(processedData, null, 2));
+        console.log(`✓ Saved ${outputPath} with ${lines[line_letter].length} features`);
+      });
     } catch (error) {
       console.error(`Error processing ${filename}:`, error.message);
     }

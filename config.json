@@ -11,52 +11,40 @@
   "nbVoiesCyclables": 9,
   "colors": [
     {
-      "line": 1,
+      "line": "A",
       "color": "#00D764"
     },
     {
-      "line": 2,
+      "line": "B",
       "color": "#E46B53"
     },
     {
-      "line": 3,
+      "line": "C",
       "color": "#3B7B64"
     },
     {
-      "line": 4,
+      "line": "D",
       "color": "#DC8953"
     },
     {
-      "line": 5,
+      "line": "E",
       "color": "#AF7392"
     },
     {
-      "line": 6,
+      "line": "F",
       "color": "#396083"
     },
     {
-      "line": 7,
+      "line": "G",
       "color": "#75BCAE"
     },
     {
-      "line": 8,
+      "line": "H",
       "color": "#7E6D98"
     },
     {
-      "line": 9,
+      "line": "I",
       "color": "#EAAB50"
-    },
-    {
-      "line": 10,
-      "color": "#9A8A4B"
-    },
-    {
-      "line": 11,
-      "color": "#4DADC9"
-    },
-    {
-      "line": 12,
-      "color": "#DBABB7"
     }
   ],
   "transports": [
