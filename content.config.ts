@@ -24,7 +24,7 @@ export default defineContentConfig({
       type: 'page',
       schema: z.object({
         name: z.string(),
-        line: z.number(),
+        line: z.string(),
         from: z.string(),
         to: z.string(),
         description: z.string(),
@@ -43,7 +43,7 @@ export default defineContentConfig({
               type: z.enum(['Feature']),
               properties: z.object({
                 id: z.string().optional(),
-                line: z.number(),
+                line: z.string(),
                 name: z.string(),
                 status: z.enum([
                   'planned',
@@ -83,7 +83,7 @@ export default defineContentConfig({
               properties: z.object({
                 type: z.enum(['perspective']),
                 name: z.string(),
-                line: z.number(),
+                line: z.string(),
                 imgUrl: z.string().url()
               }),
               geometry: z.object({
