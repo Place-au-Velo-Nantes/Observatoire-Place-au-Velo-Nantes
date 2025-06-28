@@ -1,6 +1,6 @@
 ---
-name: GV 3
-line: 3
+name: Grande Voie Vélo C
+line: C
 from: .
 to: .
 description: (à rédiger)

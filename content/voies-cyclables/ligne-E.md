@@ -1,6 +1,6 @@
 ---
-name: Grande Voie Vélo B
-line: B
+name: Grande Voie Vélo E
+line: E
 from: .
 to: .
 description: (à rédiger)
