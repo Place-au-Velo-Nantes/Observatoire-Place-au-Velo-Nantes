@@ -115,7 +115,7 @@ const processVoiesFiles = () => {
             status: fixStatus(feature.properties.status || ''),
             doneAt: '01/01/2000',
             type: fixType(feature.properties.type || ''),
-            quality: 'satisfactory'
+            quality: feature.properties.quality || ''
           };
 
           feature.properties = properties;

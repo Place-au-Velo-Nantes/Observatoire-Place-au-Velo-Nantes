@@ -10,7 +10,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -122,7 +122,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -174,7 +174,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -211,7 +211,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -243,7 +243,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -280,7 +280,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -322,7 +322,7 @@
         "status": "planned",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -374,7 +374,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -401,7 +401,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -448,7 +448,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -480,7 +480,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -522,7 +522,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -579,7 +579,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -641,7 +641,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -713,7 +713,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -750,7 +750,7 @@
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -802,7 +802,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -849,7 +849,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -971,7 +971,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1018,7 +1018,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1045,7 +1045,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1077,7 +1077,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1119,7 +1119,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1156,7 +1156,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",

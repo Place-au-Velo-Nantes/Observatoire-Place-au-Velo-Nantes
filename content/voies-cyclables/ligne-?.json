@@ -10,7 +10,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory"
+        "quality": ""
       },
       "geometry": {
         "type": "LineString",
