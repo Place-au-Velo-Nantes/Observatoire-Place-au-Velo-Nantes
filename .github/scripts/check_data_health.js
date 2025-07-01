@@ -103,7 +103,7 @@ function checkGeoJsonDataHealth({ links }) {
               }
 
               // 3.2 - check if quality is valid
-              const validQuality = ['satisfactory', 'unsatisfactory'];
+              const validQuality = ['satisfactory', 'unsatisfactory', 'not-rated-yet'];
               if (!validQuality.includes(properties.quality)) {
                 console.error(`Invalid quality '${properties.quality}' in LineString properties of file: ${filePath}`);
                 process.exit(1);
