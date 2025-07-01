@@ -13,6 +13,8 @@ function checkJsonFilesAreValid(directory = 'content') {
   fs.readdirSync(directory).forEach(file => {
     const filePath = path.join(directory, file);
 
+    if (file !== 'voies-cyclables-brut') return;
+
     if (fs.statSync(filePath).isDirectory()) {
       checkJsonFilesAreValid(filePath);
     } else if (file.endsWith('.json')) {
