@@ -35,7 +35,7 @@ const mapOptions = {
   fullscreen: true,
   onFullscreenControlClick: () => {
     const route = useRoute();
-    return navigateTo({ path: `${route.params._slug}/carte` });
+    return navigateTo({ path: `/${route.params._slug}/carte` });
   }
 };
 

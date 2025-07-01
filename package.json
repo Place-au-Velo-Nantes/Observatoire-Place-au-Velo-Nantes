@@ -1,5 +1,6 @@
 {
-  "name": "cyclopolis",
+  "name": "grandes-voies-velo",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "nuxt build",
