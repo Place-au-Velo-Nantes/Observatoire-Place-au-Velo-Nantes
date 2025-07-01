@@ -29,7 +29,7 @@ export type LineStringFeature = {
   type: 'Feature';
   properties: {
     id?: string; // sert à identifier des tronçons communs entre plusieurs lignes
-    line: number; // numéro de la voie cyclable
+    line: string; // identifiant de la voie cyclable (A, B, C, etc.)
     name: string; // nom de la voie cyclable
     status: LaneStatus; // status d'avancement de la voie cyclable
     type: LaneType; // type de la voie cyclable
@@ -48,7 +48,7 @@ export type PerspectiveFeature = {
   type: 'Feature';
   properties: {
     type: 'perspective';
-    line: number;
+    line: string;
     name: string;
     imgUrl: string;
   };
@@ -62,7 +62,7 @@ export type CompteurFeature = {
   type: 'Feature';
   properties: {
     type: 'compteur-velo' | 'compteur-voiture';
-    line?: number;
+    line?: string;
     name: string;
     link?: string;
     counts: Array<{

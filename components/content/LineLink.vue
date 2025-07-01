@@ -16,13 +16,11 @@ const { getRevName } = useConfig();
 const { getVoieCyclablePath } = useUrl();
 
 const { line, anchor } = defineProps<{
-  line: string
-  anchor?: string
+  line: string;
+  anchor?: string;
 }>();
 
-const color = getLineColor(Number(line));
+const color = getLineColor(line);
 
-const href = anchor
-  ? `${getVoieCyclablePath(Number(line))}#${anchor}`
-  : `${getVoieCyclablePath(Number(line))}`;
+const href = anchor ? `${getVoieCyclablePath(line)}#${anchor}` : `${getVoieCyclablePath(line)}`;
 </script>
