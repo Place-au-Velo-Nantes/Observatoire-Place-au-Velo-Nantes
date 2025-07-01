@@ -10,7 +10,13 @@
       </nav>
       <div class="mt-4 border-t border-gray-200 pt-4 md:flex md:items-center md:justify-between">
         <div class="flex justify-center space-x-6 md:order-2">
-          <a v-for="item in socials" :key="item.name" :href="item.href" target="_blank" class="text-gray-500 hover:text-gray-500">
+          <a
+            v-for="item in socials"
+            :key="item.name"
+            :href="item.href"
+            target="_blank"
+            class="text-gray-500 hover:text-gray-500"
+          >
             <span class="sr-only">{{ item.name }}</span>
             <Icon :name="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>
@@ -35,44 +41,44 @@ const links = [
 ];
 
 const socials = [
-  {
-    name: 'Bluesky',
-    href: 'https://bsky.app/profile/lavilleavelo.bsky.social',
-    icon: 'fa6-brands:bluesky'
-  },
-  {
-    name: 'Mastodon',
-    href: 'https://masto.bike/@lavilleavelo',
-    icon: 'mdi:mastodon'
-  },
+  // {
+  //   name: 'Bluesky',
+  //   href: 'https://bsky.app/profile/lavilleavelo.bsky.social',
+  //   icon: 'fa6-brands:bluesky'
+  // },
+  // {
+  //   name: 'Mastodon',
+  //   href: 'https://masto.bike/@lavilleavelo',
+  //   icon: 'mdi:mastodon'
+  // },
   {
     name: 'Facebook',
-    href: 'https://www.facebook.com/lavilleavelolyon/',
+    href: 'https://www.facebook.com/placeauvelonantes/',
     icon: 'mdi:facebook'
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/company/la-ville-%C3%A0-v%C3%A9lo',
+    href: 'https://fr.linkedin.com/company/place-au-v%C3%A9lo-nantes',
     icon: 'mdi:linkedin'
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/lavilleavelolyon',
+    href: 'https://www.instagram.com/placeauvelonantes/',
     icon: 'mdi:instagram'
   },
   {
     name: 'Github',
-    href: 'https://github.com/lavilleavelo/cyclopolis',
+    href: 'https://github.com/louis-ev/Observatoire-Place-au-Velo-Nantes',
     icon: 'mdi:github'
   },
   {
     name: 'Site web',
-    href: 'https://lavilleavelo.org/',
+    href: 'https://placeauvelo-nantes.fr/',
     icon: 'mdi:link'
   },
   {
     name: 'Email',
-    href: 'mailto:contact_at_lavilleavelo.org',
+    href: 'mailto:observatoire@placeauvelo-nantes.fr',
     icon: 'mdi:email-outline'
   }
 ];
