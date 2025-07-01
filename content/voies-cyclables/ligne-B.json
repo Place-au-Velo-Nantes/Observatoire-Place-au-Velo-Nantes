@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "cou-ron-nantes-7",
+        "id": "B#7-cou-ron-nantes",
         "line": "B",
         "name": "Couëron-Nantes",
         "status": "wip",
@@ -481,7 +481,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "chemin-de-halage-de-la-loire-16",
+        "id": "B#16-chemin-de-halage-de-la-loire",
         "line": "B",
         "name": "Chemin de Halage de la loire",
         "status": "unknown",
@@ -618,9 +618,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-35",
+        "id": "G#35",
         "line": "G",
-        "name": "",
+        "name": "G#35",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
@@ -655,7 +655,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-de-sarrebruck-5-42",
+        "id": "B#42-boulevard-de-sarrebruck-5",
         "line": "B",
         "name": "Boulevard de Sarrebruck 5",
         "status": "unknown",
@@ -697,7 +697,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "quai-magellan-67",
+        "id": "B#67-quai-magellan",
         "line": "B",
         "name": "Quai Magellan",
         "status": "unknown",
@@ -844,9 +844,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-68",
+        "id": "G#68",
         "line": "G",
-        "name": "",
+        "name": "G#68",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -916,7 +916,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "quai-de-malakoff-est-69",
+        "id": "B#69-quai-de-malakoff-est",
         "line": "B",
         "name": "Quai de Malakoff Est",
         "status": "unknown",
@@ -1003,7 +1003,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-de-sarrebruck-1-70",
+        "id": "B#70-boulevard-de-sarrebruck-1",
         "line": "B",
         "name": "Boulevard de Sarrebruck 1",
         "status": "unknown",
@@ -1040,7 +1040,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-de-sarrebruck-2-71",
+        "id": "B#71-boulevard-de-sarrebruck-2",
         "line": "B",
         "name": "Boulevard de Sarrebruck 2",
         "status": "unknown",
@@ -1077,7 +1077,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-de-sarrebruck-4-72",
+        "id": "B#72-boulevard-de-sarrebruck-4",
         "line": "B",
         "name": "Boulevard de Sarrebruck 4",
         "status": "unknown",
@@ -1139,7 +1139,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "chemin-des-bateliers-ouest-73",
+        "id": "B#73-chemin-des-bateliers-ouest",
         "line": "B",
         "name": "Chemin des bateliers Ouest",
         "status": "unknown",
@@ -1181,7 +1181,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "chemin-des-bateliers-est-74",
+        "id": "B#74-chemin-des-bateliers-est",
         "line": "B",
         "name": "Chemin des bateliers Est",
         "status": "unknown",
@@ -1233,7 +1233,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "quai-moncousu-104",
+        "id": "B#104-quai-moncousu",
         "line": "B",
         "name": "Quai moncousu",
         "status": "unknown",
@@ -1270,9 +1270,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-105",
+        "id": "C#105",
         "line": "C",
-        "name": "",
+        "name": "C#105",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -1387,7 +1387,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "loire---v-lo-132",
+        "id": "B#132-loire---v-lo",
         "line": "B",
         "name": "Loire à vélo",
         "status": "unknown",

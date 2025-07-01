@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-henri-becquerel-5",
+        "id": "E#5-boulevard-henri-becquerel",
         "line": "E",
         "name": "Boulevard Henri Becquerel",
         "status": "unknown",
@@ -541,7 +541,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-guy-mollet-sud-22",
+        "id": "E#22-boulevard-guy-mollet-sud",
         "line": "E",
         "name": "Boulevard Guy Mollet Sud",
         "status": "unknown",
@@ -588,7 +588,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "quai-ceineray-23",
+        "id": "E#23-quai-ceineray",
         "line": "E",
         "name": "Quai Ceineray",
         "status": "unknown",
@@ -760,7 +760,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-van-iseghem-24",
+        "id": "E#24-boulevard-van-iseghem",
         "line": "E",
         "name": "Boulevard Van Iseghem",
         "status": "unknown",
@@ -827,7 +827,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-jean-monnet-41",
+        "id": "E#41-boulevard-jean-monnet",
         "line": "E",
         "name": "Boulevard Jean Monnet",
         "status": "unknown",
@@ -904,9 +904,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-44",
+        "id": "D#44",
         "line": "D",
-        "name": "",
+        "name": "D#44",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -951,7 +951,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "cours-des-50-otages-45",
+        "id": "E#45-cours-des-50-otages",
         "line": "E",
         "name": "Cours des 50 otages",
         "status": "unknown",
@@ -1028,7 +1028,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "pont-g-n-ral-de-la-motte-rouge-46",
+        "id": "E#46-pont-g-n-ral-de-la-motte-rouge",
         "line": "E",
         "name": "Pont Général de la Motte Rouge",
         "status": "unknown",
@@ -1055,7 +1055,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "pont-g-n-ral-audibert-76",
+        "id": "E#76-pont-g-n-ral-audibert",
         "line": "E",
         "name": "Pont Général Audibert",
         "status": "unknown",
@@ -1092,7 +1092,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-des-martyrs-nantais-de-la-r-sistance-77",
+        "id": "E#77-boulevard-des-martyrs-nantais-de-la-r-sistance",
         "line": "E",
         "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "unknown",
@@ -1124,7 +1124,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "place-magellan-78",
+        "id": "E#78-place-magellan",
         "line": "E",
         "name": "Place Magellan",
         "status": "postponed",
@@ -1151,9 +1151,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-79",
+        "id": "E#79",
         "line": "E",
-        "name": "",
+        "name": "E#79",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -1233,7 +1233,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "promenade-van-iseghem-111",
+        "id": "E#111-promenade-van-iseghem",
         "line": "E",
         "name": "Promenade Van Iseghem",
         "status": "unknown",
@@ -1325,7 +1325,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "chemin-de-la-dame-de-nage-sud-112",
+        "id": "E#112-chemin-de-la-dame-de-nage-sud",
         "line": "E",
         "name": "Chemin de la Dame de Nage Sud",
         "status": "unknown",
@@ -1392,7 +1392,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "chemin-de-la-dame-de-nage-nord-113",
+        "id": "E#113-chemin-de-la-dame-de-nage-nord",
         "line": "E",
         "name": "Chemin de la Dame de Nage Nord",
         "status": "unknown",
@@ -1444,7 +1444,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "chemin-de-la-houssini-re-114",
+        "id": "E#114-chemin-de-la-houssini-re",
         "line": "E",
         "name": "Chemin de la Houssinière",
         "status": "unknown",
@@ -1486,7 +1486,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-du-petit-port-115",
+        "id": "E#115-boulevard-du-petit-port",
         "line": "E",
         "name": "Boulevard du petit port",
         "status": "unknown",
@@ -1523,7 +1523,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-guy-mollet-nord-116",
+        "id": "E#116-boulevard-guy-mollet-nord",
         "line": "E",
         "name": "Boulevard Guy Mollet Nord",
         "status": "done",
@@ -1555,7 +1555,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-martin-luther-king-117",
+        "id": "E#117-boulevard-martin-luther-king",
         "line": "E",
         "name": "Boulevard Martin Luther King",
         "status": "unknown",
@@ -1637,9 +1637,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-142",
+        "id": "E#142",
         "line": "E",
-        "name": "",
+        "name": "E#142",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1724,9 +1724,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-167",
+        "id": "E#167",
         "line": "E",
-        "name": "",
+        "name": "E#167",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1801,9 +1801,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-168",
+        "id": "E#168",
         "line": "E",
-        "name": "",
+        "name": "E#168",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1828,9 +1828,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-169",
+        "id": "G#169",
         "line": "G",
-        "name": "",
+        "name": "G#169",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1875,9 +1875,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-170",
+        "id": "G#170",
         "line": "G",
-        "name": "",
+        "name": "G#170",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1907,9 +1907,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-176",
+        "id": "D#176",
         "line": "D",
-        "name": "",
+        "name": "D#176",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -1949,9 +1949,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-179",
+        "id": "G#179",
         "line": "G",
-        "name": "",
+        "name": "G#179",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -1981,7 +1981,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "pont-de-pirmil-pont-rousseau-180",
+        "id": "E#180-pont-de-pirmil-pont-rousseau",
         "line": "E",
         "name": "Pont de Pirmil/Pont-Rousseau",
         "status": "unknown",

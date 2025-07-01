@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "avenue-de-la-bugalli-re-est-2",
+        "id": "D#2-avenue-de-la-bugalli-re-est",
         "line": "D",
         "name": "Avenue de la Bugallière Est",
         "status": "unknown",
@@ -116,7 +116,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "avenue-de-la-bugalli-re-ouest-3",
+        "id": "D#3-avenue-de-la-bugalli-re-ouest",
         "line": "D",
         "name": "Avenue de la Bugallière Ouest",
         "status": "unknown",
@@ -168,7 +168,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "route-de-vannes-8",
+        "id": "D#8-route-de-vannes",
         "line": "D",
         "name": "Route de Vannes",
         "status": "postponed",
@@ -205,7 +205,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-charles-monselet-10",
+        "id": "D#10-rue-charles-monselet",
         "line": "D",
         "name": "Rue Charles Monselet",
         "status": "postponed",
@@ -237,7 +237,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-de-nantes-12",
+        "id": "D#12-rue-de-nantes",
         "line": "D",
         "name": "Rue de Nantes",
         "status": "unknown",
@@ -274,7 +274,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "voie-verte-a82-13",
+        "id": "D#13-voie-verte-a82",
         "line": "D",
         "name": "Voie verte A82",
         "status": "unknown",
@@ -316,7 +316,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-l-on-gaumont-14",
+        "id": "D#14-rue-l-on-gaumont",
         "line": "D",
         "name": "Rue Léon Gaumont",
         "status": "planned",
@@ -368,7 +368,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-gabriel-guist-hau-38",
+        "id": "D#38-boulevard-gabriel-guist-hau",
         "line": "D",
         "name": "Boulevard Gabriel Guist'hau",
         "status": "unknown",
@@ -395,9 +395,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-44",
+        "id": "D#44",
         "line": "D",
-        "name": "",
+        "name": "D#44",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -442,7 +442,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "via-rue-de-carcou-t-48",
+        "id": "D#48-via-rue-de-carcou-t",
         "line": "D",
         "name": "Via Rue de Carcouët",
         "status": "postponed",
@@ -474,7 +474,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "via-rue-george-sand-49",
+        "id": "D#49-via-rue-george-sand",
         "line": "D",
         "name": "Via Rue George Sand",
         "status": "postponed",
@@ -516,7 +516,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-auguste-pageot---clovis-constat-50",
+        "id": "D#50-boulevard-auguste-pageot---clovis-constat",
         "line": "D",
         "name": "Boulevard Auguste Pageot - Clovis Constat",
         "status": "unknown",
@@ -573,7 +573,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-pierre-de-coubertin-51",
+        "id": "D#51-boulevard-pierre-de-coubertin",
         "line": "D",
         "name": "Boulevard Pierre de Coubertin",
         "status": "unknown",
@@ -635,9 +635,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-68",
+        "id": "G#68",
         "line": "G",
-        "name": "",
+        "name": "G#68",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -707,9 +707,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-75",
+        "id": "G#75",
         "line": "G",
-        "name": "",
+        "name": "G#75",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -744,9 +744,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-98",
+        "id": "D#98",
         "line": "D",
-        "name": "",
+        "name": "D#98",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -796,7 +796,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-du-massacre-99",
+        "id": "D#99-boulevard-du-massacre",
         "line": "D",
         "name": "Boulevard Du Massacre",
         "status": "unknown",
@@ -843,9 +843,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-119",
+        "id": "I#119",
         "line": "I",
-        "name": "",
+        "name": "I#119",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -965,7 +965,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "avenue-claude-antoine-peccot-est-120",
+        "id": "D#120-avenue-claude-antoine-peccot-est",
         "line": "D",
         "name": "Avenue Claude Antoine Peccot Est",
         "status": "unknown",
@@ -1012,7 +1012,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-du-solay-121",
+        "id": "D#121-rue-du-solay",
         "line": "D",
         "name": "Rue du Solay",
         "status": "unknown",
@@ -1039,9 +1039,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-175",
+        "id": "D#175",
         "line": "D",
-        "name": "",
+        "name": "D#175",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1071,9 +1071,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-176",
+        "id": "D#176",
         "line": "D",
-        "name": "",
+        "name": "D#176",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -1113,9 +1113,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-177",
+        "id": "D#177",
         "line": "D",
-        "name": "",
+        "name": "D#177",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1150,9 +1150,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-178",
+        "id": "D#178",
         "line": "D",
-        "name": "",
+        "name": "D#178",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",

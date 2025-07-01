@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-21",
+        "id": "G#21",
         "line": "G",
-        "name": "",
+        "name": "G#21",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -96,9 +96,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-31",
+        "id": "G#31",
         "line": "G",
-        "name": "",
+        "name": "G#31",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -158,9 +158,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-35",
+        "id": "G#35",
         "line": "G",
-        "name": "",
+        "name": "G#35",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
@@ -195,7 +195,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "mail-pablo-picasso-36",
+        "id": "G#36-mail-pablo-picasso",
         "line": "G",
         "name": "Mail Pablo Picasso",
         "status": "unknown",
@@ -242,9 +242,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-65",
+        "id": "G#65",
         "line": "G",
-        "name": "",
+        "name": "G#65",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -284,7 +284,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-du-pont-de-l-arche-de-mauves-66",
+        "id": "G#66-rue-du-pont-de-l-arche-de-mauves",
         "line": "G",
         "name": "Rue du pont de l'arche de Mauves",
         "status": "unknown",
@@ -351,9 +351,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-68",
+        "id": "G#68",
         "line": "G",
-        "name": "",
+        "name": "G#68",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -423,9 +423,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-75",
+        "id": "G#75",
         "line": "G",
-        "name": "",
+        "name": "G#75",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -460,7 +460,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "pont-ferroviaire-de-pirmil-82",
+        "id": "G#82-pont-ferroviaire-de-pirmil",
         "line": "G",
         "name": "Pont ferroviaire de Pirmil",
         "status": "unknown",
@@ -532,9 +532,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-87",
+        "id": "G#87",
         "line": "G",
-        "name": "",
+        "name": "G#87",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -594,9 +594,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-89",
+        "id": "G#89",
         "line": "G",
-        "name": "",
+        "name": "G#89",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -661,9 +661,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-100",
+        "id": "G#100",
         "line": "G",
-        "name": "",
+        "name": "G#100",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -723,9 +723,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-133",
+        "id": "G#133",
         "line": "G",
-        "name": "",
+        "name": "G#133",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -810,9 +810,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-136",
+        "id": "G#136",
         "line": "G",
-        "name": "",
+        "name": "G#136",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1047,9 +1047,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-155",
+        "id": "G#155",
         "line": "G",
-        "name": "",
+        "name": "G#155",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1079,9 +1079,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-156",
+        "id": "H#156",
         "line": "H",
-        "name": "",
+        "name": "H#156",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1126,9 +1126,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-160",
+        "id": "G#160",
         "line": "G",
-        "name": "",
+        "name": "G#160",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1163,7 +1163,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "indre-pirmil-164",
+        "id": "G#164-indre-pirmil",
         "line": "G",
         "name": "Indre-Pirmil",
         "status": "postponed",
@@ -1280,9 +1280,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-166",
+        "id": "G#166",
         "line": "G",
-        "name": "",
+        "name": "G#166",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1327,9 +1327,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-169",
+        "id": "G#169",
         "line": "G",
-        "name": "",
+        "name": "G#169",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1374,9 +1374,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-170",
+        "id": "G#170",
         "line": "G",
-        "name": "",
+        "name": "G#170",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1406,9 +1406,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-171",
+        "id": "G#171",
         "line": "G",
-        "name": "",
+        "name": "G#171",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1453,9 +1453,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-172",
+        "id": "G#172",
         "line": "G",
-        "name": "",
+        "name": "G#172",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1480,9 +1480,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-173",
+        "id": "G#173",
         "line": "G",
-        "name": "",
+        "name": "G#173",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1517,7 +1517,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-b-noni-goullin-174",
+        "id": "G#174-boulevard-b-noni-goullin",
         "line": "G",
         "name": "Boulevard Bénoni Goullin",
         "status": "postponed",
@@ -1544,9 +1544,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-179",
+        "id": "G#179",
         "line": "G",
-        "name": "",
+        "name": "G#179",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
