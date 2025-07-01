@@ -121,7 +121,8 @@ const processVoiesFiles = () => {
             doneAt: '01/01/2000',
             type: fixType(feature.properties.type || ''),
             quality: feature.properties.quality || 'not-rated-yet',
-            infrastructure: feature.properties.infrastrcuture || ''
+            infrastructure: feature.properties.infrastrcuture || '',
+            link: feature.properties.link || ''
           };
 
           feature.properties = properties;

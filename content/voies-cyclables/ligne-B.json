@@ -11,7 +11,8 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -489,7 +490,8 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -627,7 +629,8 @@
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "not-rated-yet",
-        "infrastructure": ""
+        "infrastructure": "",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -665,7 +668,8 @@
         "doneAt": "01/01/2000",
         "type": "voie-bus",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -708,7 +712,8 @@
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -856,7 +861,8 @@
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": ""
+        "infrastructure": "",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -929,7 +935,8 @@
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1017,7 +1024,8 @@
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1055,7 +1063,8 @@
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1093,7 +1102,8 @@
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1156,7 +1166,8 @@
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1199,7 +1210,8 @@
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1252,7 +1264,8 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale"
+        "infrastructure": "magistrale",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1290,7 +1303,8 @@
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": ""
+        "infrastructure": "",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1408,7 +1422,8 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "structurante"
+        "infrastructure": "structurante",
+        "link": ""
       },
       "geometry": {
         "type": "LineString",
