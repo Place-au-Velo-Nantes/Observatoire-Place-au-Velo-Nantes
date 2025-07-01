@@ -5,7 +5,7 @@ export const useUrl = () => {
     return path.endsWith('/') ? path.slice(0, -1) : path;
   }
 
-  function getVoieCyclablePath(line: number) {
+  function getVoieCyclablePath(line: string) {
     return `/${config.slug}-${line}`;
   }
 
