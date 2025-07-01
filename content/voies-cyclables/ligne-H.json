@@ -10,7 +10,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": "magistrale"
       },
       "geometry": {
@@ -153,7 +153,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": "magistrale"
       },
       "geometry": {
@@ -196,7 +196,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": "magistrale"
       },
       "geometry": {
@@ -304,7 +304,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": "magistrale"
       },
       "geometry": {
@@ -367,7 +367,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": ""
       },
       "geometry": {
@@ -405,7 +405,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": "magistrale"
       },
       "geometry": {
@@ -518,7 +518,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": "maillage"
       },
       "geometry": {
@@ -586,7 +586,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": "structurante"
       },
       "geometry": {
@@ -659,7 +659,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": ""
       },
       "geometry": {
@@ -712,7 +712,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "",
+        "quality": "not-rated-yet",
         "infrastructure": ""
       },
       "geometry": {
