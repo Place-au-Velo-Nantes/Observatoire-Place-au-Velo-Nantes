@@ -4,13 +4,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-139",
+        "id": "?#139",
         "line": "?",
-        "name": "",
+        "name": "?#139",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "secondaire"
       },
       "geometry": {
         "type": "LineString",

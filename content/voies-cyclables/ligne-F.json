@@ -4,13 +4,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "saint-s-bastien-sur-loire-1",
+        "id": "F#1-saint-s-bastien-sur-loire",
         "line": "F",
         "name": "Saint-Sébastien-sur-Loire",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -36,13 +37,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "carquefou---saint-mars-la-jaille-19",
+        "id": "F#19-carquefou---saint-mars-la-jaille",
         "line": "F",
         "name": "Carquefou - Saint Mars La Jaille",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -108,13 +110,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-21",
+        "id": "G#21",
         "line": "G",
-        "name": "",
+        "name": "G#21",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -200,13 +203,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-31",
+        "id": "G#31",
         "line": "G",
-        "name": "",
+        "name": "G#31",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -262,13 +266,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "pont-de-la-rotonde-nord-32",
+        "id": "F#32-pont-de-la-rotonde-nord",
         "line": "F",
         "name": "Pont de la Rotonde Nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -304,13 +309,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-g-n-ral-de-gaulle-sud-2-37",
+        "id": "F#37-boulevard-g-n-ral-de-gaulle-sud-2",
         "line": "F",
         "name": "Boulevard Général de Gaulle Sud 2",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -331,13 +337,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "pont-de-la-rotonde-sud-55",
+        "id": "F#55-pont-de-la-rotonde-sud",
         "line": "F",
         "name": "Pont de la Rotonde Sud",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -358,13 +365,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "avenue-jean-claude-bonduele-56",
+        "id": "F#56-avenue-jean-claude-bonduele",
         "line": "F",
         "name": "Avenue Jean-Claude Bonduele",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -385,13 +393,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "pont-aristide-briand-57",
+        "id": "F#57-pont-aristide-briand",
         "line": "F",
         "name": "Pont Aristide-Briand",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -412,13 +421,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-du-g-n-ral-de-gaulle-nord-58",
+        "id": "F#58-boulevard-du-g-n-ral-de-gaulle-nord",
         "line": "F",
         "name": "Boulevard du Général de Gaulle Nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -439,13 +449,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-du-g-n-ral-de-gaulle-sud-59",
+        "id": "F#59-boulevard-du-g-n-ral-de-gaulle-sud",
         "line": "F",
         "name": "Boulevard du Général de Gaulle Sud",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -466,13 +477,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "pont-georges-clemenceau-60",
+        "id": "F#60-pont-georges-clemenceau",
         "line": "F",
         "name": "Pont Georges Clemenceau",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -493,13 +505,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-emile-gabory-61",
+        "id": "F#61-boulevard-emile-gabory",
         "line": "F",
         "name": "Boulevard Emile Gabory",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -520,13 +533,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "place-de-la-duchesse-anne-62",
+        "id": "F#62-place-de-la-duchesse-anne",
         "line": "F",
         "name": "Place de la Duchesse Anne",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -552,13 +566,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "cours-john-kennedy-63",
+        "id": "F#63-cours-john-kennedy",
         "line": "F",
         "name": "Cours John Kennedy",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -619,13 +634,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-stalingrad-64",
+        "id": "F#64-boulevard-stalingrad",
         "line": "F",
         "name": "Boulevard Stalingrad",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -676,13 +692,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-65",
+        "id": "G#65",
         "line": "G",
-        "name": "",
+        "name": "G#65",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -718,13 +735,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-100",
+        "id": "G#100",
         "line": "G",
-        "name": "",
+        "name": "G#100",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -780,13 +798,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-110",
+        "id": "H#110",
         "line": "H",
-        "name": "",
+        "name": "H#110",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -817,13 +836,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-143",
+        "id": "F#143",
         "line": "F",
-        "name": "",
+        "name": "F#143",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "secondaire"
       },
       "geometry": {
         "type": "LineString",
@@ -859,13 +879,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-152",
+        "id": "F#152",
         "line": "F",
-        "name": "",
+        "name": "F#152",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "secondaire"
       },
       "geometry": {
         "type": "LineString",
@@ -891,13 +912,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-153",
+        "id": "F#153",
         "line": "F",
-        "name": "",
+        "name": "F#153",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "structurante"
       },
       "geometry": {
         "type": "LineString",
@@ -983,13 +1005,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-154",
+        "id": "H#154",
         "line": "H",
-        "name": "",
+        "name": "H#154",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1035,13 +1058,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-155",
+        "id": "G#155",
         "line": "G",
-        "name": "",
+        "name": "G#155",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",

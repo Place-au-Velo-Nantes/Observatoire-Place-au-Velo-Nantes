@@ -31,9 +31,7 @@ const mapOptions = {
 };
 
 const { data: geojson } = await useAsyncData(() => {
-  return queryCollection('voiesCyclablesGeojson')
-    .path(`/voies-cyclables/ligne-${line}`)
-    .first();
+  return queryCollection('voiesCyclablesGeojson').path(`/voies-cyclables/ligne-${line.toLowerCase()}`).first();
 });
 
 const features: Ref<Collections['voiesCyclablesGeojson']['features']> = computed(() => {

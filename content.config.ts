@@ -69,6 +69,7 @@ export default defineContentConfig({
                   'inconnu'
                 ]),
                 link: z.string().optional(),
+                infrastructure: z.string().optional(),
                 quality: z.enum(['satisfactory', 'unsatisfactory']),
                 text: z.string().optional(),
                 doneAt: z.string().optional()

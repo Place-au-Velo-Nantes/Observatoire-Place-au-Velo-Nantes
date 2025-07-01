@@ -4,13 +4,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "indre-pirmil-0",
+        "id": "A#0-indre-pirmil",
         "line": "A",
         "name": "Indre-Pirmil",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -126,13 +127,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-79",
+        "id": "E#79",
         "line": "E",
-        "name": "",
+        "name": "E#79",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -208,13 +210,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-98",
+        "id": "D#98",
         "line": "D",
-        "name": "",
+        "name": "D#98",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -260,13 +263,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-137",
+        "id": "A#137",
         "line": "A",
-        "name": "",
+        "name": "A#137",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "structurante"
       },
       "geometry": {
         "type": "LineString",
@@ -447,13 +451,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-141",
+        "id": "A#141",
         "line": "A",
-        "name": "",
+        "name": "A#141",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "secondaire"
       },
       "geometry": {
         "type": "LineString",
@@ -624,13 +629,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-144",
+        "id": "A#144",
         "line": "A",
-        "name": "",
+        "name": "A#144",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "1"
       },
       "geometry": {
         "type": "LineString",
@@ -681,13 +687,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-des-pas-enchant-s-157",
+        "id": "A#157-boulevard-des-pas-enchant-s",
         "line": "A",
         "name": "Boulevard des Pas enchantés",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -718,13 +725,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-des-pas-enchant-s-158",
+        "id": "A#158-boulevard-des-pas-enchant-s",
         "line": "A",
         "name": "Boulevard des Pas enchantés",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -755,13 +763,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-159",
+        "id": "A#159",
         "line": "A",
-        "name": "",
+        "name": "A#159",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -787,13 +796,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-160",
+        "id": "G#160",
         "line": "G",
-        "name": "",
+        "name": "G#160",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -824,13 +834,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-161",
+        "id": "A#161",
         "line": "A",
-        "name": "",
+        "name": "A#161",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "maillage"
       },
       "geometry": {
         "type": "LineString",
@@ -886,13 +897,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-162",
+        "id": "C#162",
         "line": "C",
-        "name": "",
+        "name": "C#162",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -933,13 +945,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-165",
+        "id": "I#165",
         "line": "I",
-        "name": "",
+        "name": "I#165",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",

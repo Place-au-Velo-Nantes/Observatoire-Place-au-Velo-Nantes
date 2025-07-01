@@ -108,14 +108,20 @@ const processVoiesFiles = () => {
             lines[line_letter] = [];
           }
 
+          let id = line_letter + `#${index}`;
+          if (feature.properties.nom) {
+            id += `-${feature.properties.nom.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
+          }
+
           const properties = {
-            id: `${feature.properties.nom?.toLowerCase().replace(/[^a-z0-9]/g, '-') || 'unnamed'}-${index}`,
+            id,
             line: line_letter,
-            name: feature.properties.nom || '',
+            name: feature.properties.nom || id,
             status: fixStatus(feature.properties.status || ''),
             doneAt: '01/01/2000',
             type: fixType(feature.properties.type || ''),
-            quality: feature.properties.quality || ''
+            quality: feature.properties.quality || '',
+            infrastructure: feature.properties.infrastrcuture || ''
           };
 
           feature.properties = properties;

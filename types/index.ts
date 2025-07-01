@@ -36,6 +36,7 @@ export type LineStringFeature = {
     doneAt?: string; // si applicable, date de fin des travaux (utile pour suivre la progression)
     link?: string;
     quality?: LaneQuality; // tronçon de qualité ou non
+    infrastructure?: string; // niveau d'infrastructure (magistrale, secondaire, structurante, etc.)
   };
   geometry: {
     type: 'LineString';

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NewsBanner v-if="!isNewsBannerClosed" @close="closeNewsBanner" />
+    <!-- <NewsBanner v-if="!isNewsBannerClosed" @close="closeNewsBanner" /> -->
     <AppHeader class="sticky top-0" />
     <slot />
     <AppFooter />
@@ -44,7 +44,12 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   scroll-margin-top: calc(var(--navbar-height));
 }
 </style>

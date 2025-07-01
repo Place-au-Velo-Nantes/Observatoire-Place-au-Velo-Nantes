@@ -4,13 +4,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-de-la-gare---indre-4",
+        "id": "I#4-rue-de-la-gare---indre",
         "line": "I",
         "name": "Rue de la Gare - Indre",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -36,13 +37,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-d-indre-rue-de-la-gare-6",
+        "id": "I#6-rue-d-indre-rue-de-la-gare",
         "line": "I",
         "name": "Rue d'Indre/Rue de la Gare",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -158,13 +160,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "liaison-15",
+        "id": "I#15-liaison",
         "line": "I",
         "name": "Liaison",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -225,13 +228,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "avenue-du-pont-de-la-baronni-re-26",
+        "id": "I#26-avenue-du-pont-de-la-baronni-re",
         "line": "I",
         "name": "Avenue du Pont de la Baronnière",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -267,13 +271,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-119",
+        "id": "I#119",
         "line": "I",
-        "name": "",
+        "name": "I#119",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -389,13 +394,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-de-l-h-tel-de-ville-125",
+        "id": "I#125-rue-de-l-h-tel-de-ville",
         "line": "I",
         "name": "Rue de l'hôtel de ville",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -441,13 +447,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-de-la-gare-nord-126",
+        "id": "I#126-rue-de-la-gare-nord",
         "line": "I",
         "name": "Rue de la Gare Nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -468,13 +475,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-de-la-gare-sud-127",
+        "id": "I#127-rue-de-la-gare-sud",
         "line": "I",
         "name": "Rue de la Gare Sud",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -520,13 +528,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "rue-jean-jaur-s-128",
+        "id": "I#128-rue-jean-jaur-s",
         "line": "I",
         "name": "Rue Jean Jaurès",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -567,13 +576,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "quai-jean-bart-ouest-129",
+        "id": "I#129-quai-jean-bart-ouest",
         "line": "I",
         "name": "Quai Jean Bart Ouest",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -604,13 +614,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "quai-jean-bart-est-130",
+        "id": "I#130-quai-jean-bart-est",
         "line": "I",
         "name": "Quai Jean Bart Est",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -646,13 +657,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-134",
+        "id": "I#134",
         "line": "I",
-        "name": "",
+        "name": "I#134",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "maillage"
       },
       "geometry": {
         "type": "LineString",
@@ -733,13 +745,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-135",
+        "id": "I#135",
         "line": "I",
-        "name": "",
+        "name": "I#135",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "maillage"
       },
       "geometry": {
         "type": "LineString",
@@ -760,13 +773,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "u1mzm-138",
+        "id": "I#138-u1mzm",
         "line": "I",
         "name": "U1MzM",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "secondaire"
       },
       "geometry": {
         "type": "LineString",
@@ -867,13 +881,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-140",
+        "id": "I#140",
         "line": "I",
-        "name": "",
+        "name": "I#140",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "maillage"
       },
       "geometry": {
         "type": "LineString",
@@ -909,13 +924,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-147",
+        "id": "I#147",
         "line": "I",
-        "name": "",
+        "name": "I#147",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "structurante"
       },
       "geometry": {
         "type": "LineString",
@@ -996,13 +1012,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-148",
+        "id": "I#148",
         "line": "I",
-        "name": "",
+        "name": "I#148",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "structurante"
       },
       "geometry": {
         "type": "LineString",
@@ -1073,13 +1090,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-149",
+        "id": "I#149",
         "line": "I",
-        "name": "",
+        "name": "I#149",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "secondaire"
       },
       "geometry": {
         "type": "LineString",
@@ -1110,13 +1128,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "boulevard-fran-ois-mitterrand-150",
+        "id": "I#150-boulevard-fran-ois-mitterrand",
         "line": "I",
         "name": "Boulevard François Mitterrand",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -1172,13 +1191,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "indre-pirmil-151",
+        "id": "I#151-indre-pirmil",
         "line": "I",
         "name": "Indre-Pirmil",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -1229,13 +1249,14 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "unnamed-165",
+        "id": "I#165",
         "line": "I",
-        "name": "",
+        "name": "I#165",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",

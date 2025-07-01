@@ -17,17 +17,13 @@
     </div>
     <div class="px-2 divide-y">
       <div class="py-1 flex flex-col items-center">
-        <div class="text-base font-bold">
-          Tronçon
-        </div>
+        <div class="text-base font-bold">Tronçon</div>
         <div class="text-sm text-center">
           {{ feature.properties.name }}
         </div>
       </div>
       <div class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">
-          Statut
-        </div>
+        <div class="text-base font-bold">Statut</div>
         <div>
           <div class="text-sm" :class="getStatus(feature.properties).class">
             {{ getStatus(feature.properties).label }}
@@ -38,33 +34,39 @@
         </div>
       </div>
       <div class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">
-          Longueur
-        </div>
-        <div class="text-sm">
-          {{ Math.round(getDistance({ features: [feature] }) / 25) * 25 }}m
-        </div>
+        <div class="text-base font-bold">Longueur</div>
+        <div class="text-sm">{{ Math.round(getDistance({ features: [feature] }) / 25) * 25 }}m</div>
       </div>
       <div class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">
-          Type
-        </div>
+        <div class="text-base font-bold">Type</div>
         <div class="text-sm text-right">
           {{ typologyNames[feature.properties.type] ?? 'Inconnu' }}
         </div>
       </div>
-      <div v-if="displayQuality() && feature.properties.quality" class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">
-          Qualité
+      <div class="py-1 flex items-center justify-between">
+        <div class="text-base font-bold">Infrastructure</div>
+        <div class="text-sm text-right">
+          {{ feature.properties.infrastructure ?? 'Inconnu' }}
         </div>
-        <div class="text-xs" :class=" getQuality(feature.properties.quality).class">
-          <Icon :name="getQuality(feature.properties.quality).icon" class="h-4 w-4 align-middle" :class="getQuality(feature.properties.quality).classIcon" />
+      </div>
+      <div v-if="displayQuality() && feature.properties.quality" class="py-1 flex items-center justify-between">
+        <div class="text-base font-bold">Qualité</div>
+        <div class="text-xs" :class="getQuality(feature.properties.quality).class">
+          <Icon
+            :name="getQuality(feature.properties.quality).icon"
+            class="h-4 w-4 align-middle"
+            :class="getQuality(feature.properties.quality).classIcon"
+          />
           {{ getQuality(feature.properties.quality).label }}
         </div>
       </div>
     </div>
     <div class="bg-lvv-blue-600 flex justify-center">
-      <a class="p-1 text-white text-base italic hover:underline" :href="getSectionDetailsUrl(feature.properties)" target="_blank">
+      <a
+        class="p-1 text-white text-base italic hover:underline"
+        :href="getSectionDetailsUrl(feature.properties)"
+        target="_blank"
+      >
         voir le détail <Icon name="mdi:link-variant" class="h-4 w-4 text-white" />
       </a>
     </div>
@@ -105,7 +107,7 @@ function getDoneAtText(doneAt: string): string {
   return `le ${doneAt}`;
 }
 
-function getStatus(properties: LineStringFeature['properties']): { label: string, class: string; date?: string } {
+function getStatus(properties: LineStringFeature['properties']): { label: string; class: string; date?: string } {
   const statusMapping = {
     done: {
       label: 'terminé',
@@ -146,7 +148,7 @@ function getStatus(properties: LineStringFeature['properties']): { label: string
   return statusMapping[properties.status];
 }
 
-function getQuality(quality: LaneQuality): { label: string, class: string, icon: string, classIcon: string } {
+function getQuality(quality: LaneQuality): { label: string; class: string; icon: string; classIcon: string } {
   const statusMapping = {
     unsatisfactory: {
       label: qualityNames.unsatisfactory,
@@ -163,5 +165,4 @@ function getQuality(quality: LaneQuality): { label: string, class: string, icon:
   };
   return statusMapping[quality];
 }
-
 </script>
