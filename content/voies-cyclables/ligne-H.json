@@ -10,7 +10,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -152,7 +153,8 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -194,7 +196,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -301,7 +304,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -363,7 +367,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -400,7 +405,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "magistrale"
       },
       "geometry": {
         "type": "LineString",
@@ -512,7 +518,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "maillage"
       },
       "geometry": {
         "type": "LineString",
@@ -579,7 +586,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": "structurante"
       },
       "geometry": {
         "type": "LineString",
@@ -651,7 +659,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
@@ -703,7 +712,8 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": ""
+        "quality": "",
+        "infrastructure": ""
       },
       "geometry": {
         "type": "LineString",
