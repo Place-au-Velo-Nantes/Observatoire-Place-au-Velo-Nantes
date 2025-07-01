@@ -14,12 +14,29 @@ jobs:
       name: production
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate static site
+        run: npm run generate
+        env:
+          BEAM_ANALYTICS_TOKEN: ${{ secrets.BEAM_ANALYTICS_TOKEN }}
+
       - name: Delete zero byte files
         run: |
-          find . -size 0c -exec rm -f {} \;
+          find ./dist -size 0c -exec rm -f {} \;
         shell: bash
-      - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ vars.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
