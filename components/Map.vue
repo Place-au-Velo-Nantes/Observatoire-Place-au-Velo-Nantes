@@ -6,7 +6,7 @@
     <img
       v-if="options.logo"
       class="my-0 absolute bottom-0 right-0 z-10"
-      src="https://cyclopolis.lavilleavelo.org/logo-lvv-carte.png"
+      src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/cropped-logo_place_au_velo_nantes.png"
       width="75"
       height="75"
       :alt="`logo ${config.assoName}`"

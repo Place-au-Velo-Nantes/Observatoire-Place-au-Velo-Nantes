@@ -24,7 +24,7 @@ const features: Ref<Collections['voiesCyclablesGeojson']['features']> = computed
 });
 
 const description = `Découvrez la carte interactive des ${getRevName()}. Itinéraires rue par rue. Plan régulièrement mis à jour pour une information complète.`;
-const COVER_IMAGE_URL = 'https://cyclopolis.lavilleavelo.org/cyclopolis.png';
+const COVER_IMAGE_URL = 'https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/logo_place_au_velo_nantes.png';
 useHead({
   title: `Carte à jour des ${getRevName()}`,
   meta: [
