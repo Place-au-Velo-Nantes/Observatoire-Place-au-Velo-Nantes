@@ -1,8 +1,8 @@
 ---
 name: Grande Voie Vélo H
 line: H
-from: .
-to: .
+from: Orvault
+to: Basse-Goulaine
 description: (à rédiger)
 cover:
 ---

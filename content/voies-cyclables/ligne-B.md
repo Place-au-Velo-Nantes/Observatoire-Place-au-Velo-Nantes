@@ -1,8 +1,8 @@
 ---
 name: Grande Voie Vélo B
 line: B
-from: .
-to: .
+from: Couëron
+to: Mauves-sur-Loire
 description: (à rédiger)
 cover:
 ---

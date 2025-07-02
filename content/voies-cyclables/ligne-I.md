@@ -1,8 +1,8 @@
 ---
 name: Grande Voie Vélo I
 line: I
-from: .
-to: .
+from: Bouaye
+to: Orvault
 description: (à rédiger)
 cover:
 ---

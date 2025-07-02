@@ -1,8 +1,8 @@
 ---
 name: Grande Voie Vélo F
 line: F
-from: .
-to: .
+from: Carquefou
+to: Vertou
 description: (à rédiger)
 cover:
 ---

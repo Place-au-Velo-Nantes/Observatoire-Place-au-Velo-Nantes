@@ -1,8 +1,8 @@
 ---
 name: Grande Voie Vélo E
 line: E
-from: .
-to: .
+from: La-Chapelle-sur-Erdre
+to: Saint Aignan-de-Grandlieu
 description: (à rédiger)
 cover:
 ---
