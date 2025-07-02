@@ -161,6 +161,12 @@ function getQuality(quality: LaneQuality): { label: string; class: string; icon:
       class: 'rounded-xl px-1 border border-green-600',
       classIcon: 'text-green-600',
       icon: 'mdi:check'
+    },
+    'not-rated-yet': {
+      label: qualityNames.unknown,
+      class: 'rounded-xl px-1 border border-gray-600',
+      classIcon: '',
+      icon: ''
     }
   };
   return statusMapping[quality];
