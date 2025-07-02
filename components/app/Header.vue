@@ -240,9 +240,14 @@
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
               <NuxtLink to="/" @click="close()">
-                <img
+                <!-- <img
                   class="h-8 w-auto"
                   src="https://cyclopolis.lavilleavelo.org/logo-la-ville-a-velo.png"
+                  :alt="`logo ${getAssoName()}`"
+                /> -->
+                <img
+                  class="h-8 w-auto"
+                  src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/logo-250.png"
                   :alt="`logo ${getAssoName()}`"
                 />
               </NuxtLink>
