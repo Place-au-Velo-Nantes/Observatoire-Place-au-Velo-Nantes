@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center py-3 sm:py-6 md:justify-start md:space-x-10">
         <div class="flex justify-start items-center lg:w-0 lg:flex-1">
           <NuxtLink to="/" class="flex space-x-2">
-            <span class="sr-only">Cyclopolis</span>
+            <span class="sr-only">Observatoire Place au Vélo</span>
             <img
               class="h-8 w-auto sm:h-12"
               src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/logo-250.png"
