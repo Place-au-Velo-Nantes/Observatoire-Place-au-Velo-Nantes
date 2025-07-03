@@ -35,12 +35,16 @@ const fixType = type => {
 
   if (validTypes.includes(type)) {
     return type;
-  } else if (type === 'bande cyclable') {
+  } else if (type === 'bande cyclable' || type === 'bande cylable') {
     return 'bandes-cyclables';
   } else if (type === 'voie bus') {
     return 'voie-bus';
-  } else if (type === 'monodirectionnelle') {
+  } else if (type === 'chaussidou') {
+    return 'chaucidou';
+  } else if (type === 'monodirectionnelle' || type === 'monodirectionnellea') {
     return 'bandes-cyclables';
+  } else if (type === 'vélorue') {
+    return 'velorue';
   } else if (type === 'voie verte') {
     return 'voie-verte';
     // } else if (type === 'chaucidou') {
@@ -104,6 +108,9 @@ const processVoiesFiles = () => {
         }
 
         line_letters.split(',').forEach(line_letter => {
+          if (line_letter === '?') {
+            line_letter = 'X';
+          }
           if (!lines[line_letter]) {
             lines[line_letter] = [];
           }

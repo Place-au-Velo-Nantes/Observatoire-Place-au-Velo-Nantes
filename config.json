@@ -45,6 +45,10 @@
     {
       "line": "I",
       "color": "#EAAB50"
+    },
+    {
+      "line": "X",
+      "color": "#999"
     }
   ],
   "transports": [
