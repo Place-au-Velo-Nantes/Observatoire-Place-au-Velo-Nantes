@@ -75,17 +75,28 @@
                     >
                       Plan officiel
                     </NuxtLink>
-                    <!-- <NuxtLink
-                      to="https://barometre.parlons-velo.fr/2021/carte/#11.88/45.74926/4.84739"
+                    <NuxtLink
+                      to="https://www.barometre-velo.fr"
                       target="_blank"
                       class="flex align-center space-x-2 text-base font-medium text-gray-500 hover:text-lvv-blue-600"
                       @click="close()"
                     >
-                      <span>Baromètre FUB Lyon</span>
+                      <span>Baromètre vélo 2025</span>
                       <div class="flex items-center">
                         <Icon name="mdi:launch" class="h-4 w-4" aria-hidden="true" />
                       </div>
-                    </NuxtLink> -->
+                    </NuxtLink>
+                    <NuxtLink
+                      to="https://barometre.parlons-velo.fr/2021/carte/#11.11/47.2071/-1.5664"
+                      target="_blank"
+                      class="flex align-center space-x-2 text-base font-medium text-gray-500 hover:text-lvv-blue-600"
+                      @click="close()"
+                    >
+                      <span>Baromètre vélo 2021</span>
+                      <div class="flex items-center">
+                        <Icon name="mdi:launch" class="h-4 w-4" aria-hidden="true" />
+                      </div>
+                    </NuxtLink>
                     <!-- <NuxtLink
                       to="/services"
                       class="text-base font-medium text-gray-500 hover:text-lvv-blue-600"
@@ -240,9 +251,14 @@
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
               <NuxtLink to="/" @click="close()">
-                <img
+                <!-- <img
                   class="h-8 w-auto"
                   src="https://cyclopolis.lavilleavelo.org/logo-la-ville-a-velo.png"
+                  :alt="`logo ${getAssoName()}`"
+                /> -->
+                <img
+                  class="h-8 w-auto"
+                  src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/logo-250.png"
                   :alt="`logo ${getAssoName()}`"
                 />
               </NuxtLink>
@@ -272,7 +288,7 @@
                 </NuxtLink>
 
                 <!-- Compteurs -->
-                <hr class="h-px bg-gray-200 border-0" />
+                <!-- <hr class="h-px bg-gray-200 border-0" />
 
                 <NuxtLink
                   to="/compteurs/velo"
@@ -294,14 +310,14 @@
                   @click="close()"
                 >
                   <span class="ml-3 text-base font-medium text-gray-900"> Comparaison voiture/vélo </span>
-                </NuxtLink>
+                </NuxtLink> -->
 
                 <!-- Autres -->
                 <hr class="h-px bg-gray-200 border-0" />
 
-                <NuxtLink to="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" @click="close()">
+                <!-- <NuxtLink to="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" @click="close()">
                   <span class="ml-3 text-base font-medium text-gray-900"> Blog </span>
-                </NuxtLink>
+                </NuxtLink> -->
                 <NuxtLink
                   to="/tableau-de-bord"
                   class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
@@ -314,7 +330,7 @@
           </div>
           <div class="py-6 px-5 space-y-6 bg-gray-50">
             <div class="ml-3 text-base font-medium text-gray-900">Toutes les lignes</div>
-            <div class="grid grid-cols-4 gap-y-4 gap-x-8">
+            <div class="grid grid-cols-4 gap-y-4 gap-x-8 justify-items-center">
               <NuxtLink
                 v-for="voie in voies"
                 :key="voie.line"
@@ -350,8 +366,13 @@ const navItems = [
   { name: 'Plan officiel', path: '/plan-officiel', target: '_self' },
   { name: 'Évolution du réseau', path: '/evolution', target: '_self' },
   {
-    name: 'Baromètre FUB Lyon',
-    path: 'https://barometre.parlons-velo.fr/2021/carte/#11.88/45.74926/4.84739',
+    name: 'Baromètre vélo 2025',
+    path: 'https://www.barometre-velo.fr',
+    target: '_blank'
+  },
+  {
+    name: 'Baromètre vélo 2021',
+    path: 'https://barometre.parlons-velo.fr/2021/carte/#11.11/47.2071/-1.5664',
     target: '_blank'
   }
   // { name: 'Services', path: '/services' },

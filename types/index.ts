@@ -23,7 +23,7 @@ export type LaneStatus =
   | 'variante'
   | 'variante-postponed';
 
-export type LaneQuality = 'unsatisfactory' | 'satisfactory';
+export type LaneQuality = 'unsatisfactory' | 'satisfactory' | 'unknown';
 
 export type LineStringFeature = {
   type: 'Feature';

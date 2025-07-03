@@ -1,8 +1,8 @@
 ---
 name: Grande Voie Vélo A
 line: A
-from: .
-to: .
+from: Le Pellerin
+to: Basse-Goulaine
 description: (à rédiger)
 cover:
 ---

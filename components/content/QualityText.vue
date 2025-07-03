@@ -33,6 +33,12 @@ const qualities: QualityText = {
     color: {
       text: 'text-[#00b050]'
     }
+  },
+  unknown: {
+    title: qualityNames.unknown,
+    color: {
+      text: 'text-[#4a5565]'
+    }
   }
 };
 </script>
