@@ -4,7 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#2-avenue-de-la-bugalli-re-est",
         "line": "D",
         "name": "Avenue de la Bugallière Est",
         "status": "unknown",
@@ -118,7 +117,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#3-avenue-de-la-bugalli-re-ouest",
         "line": "D",
         "name": "Avenue de la Bugallière Ouest",
         "status": "unknown",
@@ -172,7 +170,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#8-route-de-vannes",
         "line": "D",
         "name": "Route de Vannes",
         "status": "postponed",
@@ -211,7 +208,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#10-rue-charles-monselet",
         "line": "D",
         "name": "Rue Charles Monselet",
         "status": "postponed",
@@ -245,7 +241,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#12-rue-de-nantes",
         "line": "D",
         "name": "Rue de Nantes",
         "status": "unknown",
@@ -284,7 +279,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#13-voie-verte-a82",
         "line": "D",
         "name": "Voie verte A82",
         "status": "unknown",
@@ -328,7 +322,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#14-rue-l-on-gaumont",
         "line": "D",
         "name": "Rue Léon Gaumont",
         "status": "planned",
@@ -382,7 +375,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#38-boulevard-gabriel-guist-hau",
         "line": "D",
         "name": "Boulevard Gabriel Guist'hau",
         "status": "unknown",
@@ -411,15 +403,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#44",
         "line": "D",
-        "name": "D#44",
+        "name": "Cours Olivier de Clisson",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "cours-olivier-de-clisson"
       },
       "geometry": {
         "type": "LineString",
@@ -460,7 +452,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#48-via-rue-de-carcou-t",
         "line": "D",
         "name": "Via Rue de Carcouët",
         "status": "postponed",
@@ -494,7 +485,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#49-via-rue-george-sand",
         "line": "D",
         "name": "Via Rue George Sand",
         "status": "postponed",
@@ -538,7 +528,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#50-boulevard-auguste-pageot---clovis-constat",
         "line": "D",
         "name": "Boulevard Auguste Pageot - Clovis Constat",
         "status": "unknown",
@@ -597,7 +586,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#51-boulevard-pierre-de-coubertin",
         "line": "D",
         "name": "Boulevard Pierre de Coubertin",
         "status": "unknown",
@@ -661,15 +649,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#68",
-        "line": "G",
-        "name": "G#68",
+        "line": "D",
+        "name": "Quai de Malakoff Ouest",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "quai-de-malakoff-ouest"
       },
       "geometry": {
         "type": "LineString",
@@ -735,15 +723,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#75",
-        "line": "G",
-        "name": "G#75",
+        "line": "D",
+        "name": "Pont Willy-Brandt",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "pont-willy-brandt"
       },
       "geometry": {
         "type": "LineString",
@@ -774,15 +762,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#98",
         "line": "D",
-        "name": "D#98",
+        "name": "Boulevard des Pas enchantés",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-des-pas-enchant-s"
       },
       "geometry": {
         "type": "LineString",
@@ -828,7 +816,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#99-boulevard-du-massacre",
         "line": "D",
         "name": "Boulevard Du Massacre",
         "status": "unknown",
@@ -877,15 +864,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#119",
-        "line": "I",
-        "name": "I#119",
+        "line": "D",
+        "name": "Avenue Claude Antoine Peccot Ouest",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "avenue-claude-antoine-peccot-ouest"
       },
       "geometry": {
         "type": "LineString",
@@ -1001,7 +988,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#120-avenue-claude-antoine-peccot-est",
         "line": "D",
         "name": "Avenue Claude Antoine Peccot Est",
         "status": "unknown",
@@ -1050,7 +1036,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#121-rue-du-solay",
         "line": "D",
         "name": "Rue du Solay",
         "status": "unknown",
@@ -1079,7 +1064,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#175",
         "line": "D",
         "name": "D#175",
         "status": "unknown",
@@ -1113,15 +1097,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#176",
         "line": "D",
-        "name": "D#176",
+        "name": "Cours des 50 otages",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "cours-des-50-otages"
       },
       "geometry": {
         "type": "LineString",
@@ -1157,7 +1141,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#177",
         "line": "D",
         "name": "D#177",
         "status": "unknown",
@@ -1196,7 +1179,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#178",
         "line": "D",
         "name": "D#178",
         "status": "unknown",

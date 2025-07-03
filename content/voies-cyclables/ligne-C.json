@@ -4,7 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#9-d17-boulevard-charles-de-gaulle",
         "line": "C",
         "name": "D17/Boulevard Charles de Gaulle",
         "status": "unknown",
@@ -93,7 +92,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#34-cours-commandant-d-estienne-d-orves-kennedy",
         "line": "C",
         "name": "Cours Commandant d'Estienne d'Orves/Kennedy",
         "status": "unknown",
@@ -217,7 +215,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#39-rez----les-sorini-res",
         "line": "C",
         "name": "Rezé - Les Sorinières",
         "status": "postponed",
@@ -281,7 +278,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#86-pont-des-3-continents",
         "line": "C",
         "name": "Pont des 3 continents",
         "status": "unknown",
@@ -335,15 +331,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#87",
-        "line": "G",
-        "name": "G#87",
+        "line": "C",
+        "name": "Boulevard Simone Veil",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-simone-veil"
       },
       "geometry": {
         "type": "LineString",
@@ -399,15 +395,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#89",
-        "line": "G",
-        "name": "G#89",
+        "line": "C",
+        "name": "Rue Simone Veil",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "rue-simone-veil"
       },
       "geometry": {
         "type": "LineString",
@@ -468,7 +464,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#90-pont-anne-de-bretagne-bd-l-on-bureau",
         "line": "C",
         "name": "Pont Anne de Bretagne/Bd Léon Bureau",
         "status": "postponed",
@@ -502,7 +497,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#101-boulevard-jean-philippot",
         "line": "C",
         "name": "Boulevard Jean Philippot",
         "status": "unknown",
@@ -556,7 +550,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#102-gloriette",
         "line": "C",
         "name": "Gloriette",
         "status": "postponed",
@@ -605,15 +598,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#105",
         "line": "C",
-        "name": "C#105",
+        "name": "Quai de la fosse",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "quai-de-la-fosse"
       },
       "geometry": {
         "type": "LineString",
@@ -724,7 +717,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#106-boulevard-ren--coty",
         "line": "C",
         "name": "Boulevard René Coty",
         "status": "unknown",
@@ -843,7 +835,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#107-boulevard-emile-romanet",
         "line": "C",
         "name": "Boulevard Emile Romanet",
         "status": "wip",
@@ -897,7 +888,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#108-rue-de-saint-nazaire",
         "line": "C",
         "name": "Rue de Saint nazaire",
         "status": "unknown",
@@ -966,7 +956,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#109-boulevard-charles-de-gaulle",
         "line": "C",
         "name": "Boulevard Charles de Gaulle",
         "status": "done",
@@ -995,15 +984,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#160",
-        "line": "G",
-        "name": "G#160",
+        "line": "C",
+        "name": "C#160",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#160"
       },
       "geometry": {
         "type": "LineString",
@@ -1034,15 +1023,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#162",
         "line": "C",
         "name": "C#162",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "maillage",
+        "link": "",
+        "id": "sans-titre#162"
       },
       "geometry": {
         "type": "LineString",
@@ -1083,15 +1072,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#170",
-        "line": "G",
-        "name": "G#170",
+        "line": "C",
+        "name": "Rezé - Les Sorinières",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "rez----les-sorini-res"
       },
       "geometry": {
         "type": "LineString",

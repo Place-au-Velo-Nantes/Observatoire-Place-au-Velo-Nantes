@@ -4,7 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#5-boulevard-henri-becquerel",
         "line": "E",
         "name": "Boulevard Henri Becquerel",
         "status": "unknown",
@@ -543,7 +542,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#22-boulevard-guy-mollet-sud",
         "line": "E",
         "name": "Boulevard Guy Mollet Sud",
         "status": "unknown",
@@ -592,7 +590,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#23-quai-ceineray",
         "line": "E",
         "name": "Quai Ceineray",
         "status": "unknown",
@@ -766,7 +763,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#24-boulevard-van-iseghem",
         "line": "E",
         "name": "Boulevard Van Iseghem",
         "status": "unknown",
@@ -835,7 +831,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#41-boulevard-jean-monnet",
         "line": "E",
         "name": "Boulevard Jean Monnet",
         "status": "unknown",
@@ -914,15 +909,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#44",
-        "line": "D",
-        "name": "D#44",
+        "line": "E",
+        "name": "Cours Olivier de Clisson",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "cours-olivier-de-clisson"
       },
       "geometry": {
         "type": "LineString",
@@ -963,7 +958,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#45-cours-des-50-otages",
         "line": "E",
         "name": "Cours des 50 otages",
         "status": "unknown",
@@ -1042,7 +1036,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#46-pont-g-n-ral-de-la-motte-rouge",
         "line": "E",
         "name": "Pont Général de la Motte Rouge",
         "status": "unknown",
@@ -1071,7 +1064,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#76-pont-g-n-ral-audibert",
         "line": "E",
         "name": "Pont Général Audibert",
         "status": "unknown",
@@ -1110,7 +1102,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#77-boulevard-des-martyrs-nantais-de-la-r-sistance",
         "line": "E",
         "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "unknown",
@@ -1144,7 +1135,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#78-place-magellan",
         "line": "E",
         "name": "Place Magellan",
         "status": "postponed",
@@ -1173,15 +1163,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#79",
         "line": "E",
-        "name": "E#79",
+        "name": "Pont de Pirmil/Pont-Rousseau",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "pont-de-pirmil-pont-rousseau"
       },
       "geometry": {
         "type": "LineString",
@@ -1257,7 +1247,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#111-promenade-van-iseghem",
         "line": "E",
         "name": "Promenade Van Iseghem",
         "status": "unknown",
@@ -1351,7 +1340,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#112-chemin-de-la-dame-de-nage-sud",
         "line": "E",
         "name": "Chemin de la Dame de Nage Sud",
         "status": "unknown",
@@ -1420,7 +1408,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#113-chemin-de-la-dame-de-nage-nord",
         "line": "E",
         "name": "Chemin de la Dame de Nage Nord",
         "status": "unknown",
@@ -1474,7 +1461,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#114-chemin-de-la-houssini-re",
         "line": "E",
         "name": "Chemin de la Houssinière",
         "status": "unknown",
@@ -1518,7 +1504,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#115-boulevard-du-petit-port",
         "line": "E",
         "name": "Boulevard du petit port",
         "status": "unknown",
@@ -1557,7 +1542,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#116-boulevard-guy-mollet-nord",
         "line": "E",
         "name": "Boulevard Guy Mollet Nord",
         "status": "done",
@@ -1591,7 +1575,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#117-boulevard-martin-luther-king",
         "line": "E",
         "name": "Boulevard Martin Luther King",
         "status": "unknown",
@@ -1675,7 +1658,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#142",
         "line": "E",
         "name": "E#142",
         "status": "unknown",
@@ -1764,7 +1746,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#167",
         "line": "E",
         "name": "E#167",
         "status": "unknown",
@@ -1843,7 +1824,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#168",
         "line": "E",
         "name": "E#168",
         "status": "unknown",
@@ -1872,15 +1852,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#169",
-        "line": "G",
-        "name": "G#169",
+        "line": "E",
+        "name": "Indre-Pirmil",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "indre-pirmil"
       },
       "geometry": {
         "type": "LineString",
@@ -1921,15 +1901,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#170",
-        "line": "G",
-        "name": "G#170",
+        "line": "E",
+        "name": "Rezé - Les Sorinières",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "rez----les-sorini-res"
       },
       "geometry": {
         "type": "LineString",
@@ -1955,15 +1935,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#176",
-        "line": "D",
-        "name": "D#176",
+        "line": "E",
+        "name": "Cours des 50 otages",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "cours-des-50-otages"
       },
       "geometry": {
         "type": "LineString",
@@ -1999,15 +1979,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#179",
-        "line": "G",
-        "name": "G#179",
+        "line": "E",
+        "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-des-martyrs-nantais-de-la-r-sistance"
       },
       "geometry": {
         "type": "LineString",
@@ -2033,7 +2013,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#180-pont-de-pirmil-pont-rousseau",
         "line": "E",
         "name": "Pont de Pirmil/Pont-Rousseau",
         "status": "unknown",

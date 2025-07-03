@@ -4,7 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#4-rue-de-la-gare---indre",
         "line": "I",
         "name": "Rue de la Gare - Indre",
         "status": "unknown",
@@ -38,7 +37,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#6-rue-d-indre-rue-de-la-gare",
         "line": "I",
         "name": "Rue d'Indre/Rue de la Gare",
         "status": "unknown",
@@ -162,7 +160,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#15-liaison",
         "line": "I",
         "name": "Liaison",
         "status": "unknown",
@@ -231,7 +228,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#26-avenue-du-pont-de-la-baronni-re",
         "line": "I",
         "name": "Avenue du Pont de la Baronnière",
         "status": "unknown",
@@ -275,15 +271,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#119",
         "line": "I",
-        "name": "I#119",
+        "name": "Avenue Claude Antoine Peccot Ouest",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "avenue-claude-antoine-peccot-ouest"
       },
       "geometry": {
         "type": "LineString",
@@ -399,7 +395,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#125-rue-de-l-h-tel-de-ville",
         "line": "I",
         "name": "Rue de l'hôtel de ville",
         "status": "unknown",
@@ -453,7 +448,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#126-rue-de-la-gare-nord",
         "line": "I",
         "name": "Rue de la Gare Nord",
         "status": "unknown",
@@ -482,7 +476,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#127-rue-de-la-gare-sud",
         "line": "I",
         "name": "Rue de la Gare Sud",
         "status": "unknown",
@@ -536,7 +529,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#128-rue-jean-jaur-s",
         "line": "I",
         "name": "Rue Jean Jaurès",
         "status": "unknown",
@@ -585,7 +577,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#129-quai-jean-bart-ouest",
         "line": "I",
         "name": "Quai Jean Bart Ouest",
         "status": "unknown",
@@ -624,7 +615,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#130-quai-jean-bart-est",
         "line": "I",
         "name": "Quai Jean Bart Est",
         "status": "unknown",
@@ -668,7 +658,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#134",
         "line": "I",
         "name": "I#134",
         "status": "unknown",
@@ -757,7 +746,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#135",
         "line": "I",
         "name": "I#135",
         "status": "unknown",
@@ -786,7 +774,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#138-u1mzm",
         "line": "I",
         "name": "U1MzM",
         "status": "unknown",
@@ -895,7 +882,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#140",
         "line": "I",
         "name": "I#140",
         "status": "unknown",
@@ -939,7 +925,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#147",
         "line": "I",
         "name": "I#147",
         "status": "unknown",
@@ -1028,7 +1013,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#148",
         "line": "I",
         "name": "I#148",
         "status": "unknown",
@@ -1107,7 +1091,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#149",
         "line": "I",
         "name": "I#149",
         "status": "unknown",
@@ -1146,7 +1129,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#150-boulevard-fran-ois-mitterrand",
         "line": "I",
         "name": "Boulevard François Mitterrand",
         "status": "unknown",
@@ -1210,7 +1192,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#151-indre-pirmil",
         "line": "I",
         "name": "Indre-Pirmil",
         "status": "postponed",
@@ -1269,15 +1250,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#165",
         "line": "I",
-        "name": "I#165",
+        "name": "Indre-Pirmil",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "indre-pirmil"
       },
       "geometry": {
         "type": "LineString",

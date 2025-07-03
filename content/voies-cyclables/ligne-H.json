@@ -4,7 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#11-route-de-nantes",
         "line": "H",
         "name": "Route de Nantes",
         "status": "unknown",
@@ -148,7 +147,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#17-route-de-nantes-boulevard-mend-s-france",
         "line": "H",
         "name": "Route de Nantes/Boulevard Mendès France",
         "status": "done",
@@ -192,7 +190,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#18-porte-de-la-chapelle---porte-de-sainte-luce",
         "line": "H",
         "name": "Porte de la Chapelle - Porte de Sainte Luce",
         "status": "unknown",
@@ -301,7 +298,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#27-cardo-porte-de-la-chapelle",
         "line": "H",
         "name": "Cardo-Porte de la Chapelle",
         "status": "unknown",
@@ -365,15 +361,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#110",
         "line": "H",
-        "name": "H#110",
+        "name": "Rue Albert Londres/ Rue Marguerite Yourcenar",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "rue-albert-londres--rue-marguerite-yourcenar"
       },
       "geometry": {
         "type": "LineString",
@@ -404,7 +400,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#118-boulevard-mend-s-france-cardo",
         "line": "H",
         "name": "Boulevard Mendès France/Cardo",
         "status": "unknown",
@@ -518,7 +513,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#145",
         "line": "H",
         "name": "H#145",
         "status": "unknown",
@@ -587,7 +581,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#146",
         "line": "H",
         "name": "H#146",
         "status": "unknown",
@@ -661,15 +654,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#154",
         "line": "H",
-        "name": "H#154",
+        "name": "Porte de la Chapelle - Porte de Sainte Luce",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "porte-de-la-chapelle---porte-de-sainte-luce"
       },
       "geometry": {
         "type": "LineString",
@@ -715,15 +708,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#156",
         "line": "H",
         "name": "H#156",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#156"
       },
       "geometry": {
         "type": "LineString",
