@@ -80,7 +80,8 @@
         <h2>Informations générales</h2>
         <p>
           <strong>PLACE AU VELO</strong>
-          1 rue d’Auvours 44000 NANTES
+          <br />
+          1 rue d’Auvours, 44000 NANTES
           <br />
           SIRET : 42459031300021
           <br />
