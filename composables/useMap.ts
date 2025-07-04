@@ -680,6 +680,7 @@ export const useMap = () => {
       properties: {
         type,
         name: counter.name,
+        idPdc: counter.idPdc,
         link: counter.path,
         counts: counter.counts
       },
@@ -848,7 +849,7 @@ export const useMap = () => {
         },
         getTooltipProps: () => {
           const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['compteurs'] })[0];
-          const feature = features.find(f => f.properties.name === mapFeature.properties.name);
+          const feature = features.find(f => f.properties.idPdc === mapFeature.properties.idPdc);
           return { feature };
         },
         component: CounterTooltip
