@@ -11,6 +11,9 @@
         <p class="mt-8 text-xl text-gray-500 leading-8">
           Chaque début de mois, nous remontons les données de {{ counters.length }} compteurs à vélo de l'agglomération nantaise.
         </p>
+        <p class="mt-1 text-xl text-gray-500 leading-8 prose max-w-none">
+          N'apparaisent pas ici, les comptages organisés par Place au vélo dont les données sont disponibles ici :<br/><a href="https://data.nantesmetropole.fr/explore/dataset/424590313_lieux-de-comptage-de-place-au-velo-nantes/map/?location=14,47.22102,-1.55685&basemap=jawg.streets" target="_blank" cla>lieux de comptage</a> | <a href="https://data.nantesmetropole.fr/explore/dataset/424590313_comptages-velo-place-au-velo-historique/information/" target="_blank"> comptages depuis 1998</a> | <a href="https://data.nantesmetropole.fr/explore/dataset/424590313_comptages-vae-bicloo-place-au-velo-historique/information/" target="_blank">comptages VAE et bicloo depuis 2010</a>
+        </p>
         <ClientOnly>
           <Map :features="features" :options="{ legend: false, filter: false }" class="mt-12" style="height: 40vh" />
         </ClientOnly>
