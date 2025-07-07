@@ -4,7 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A#0-indre-pirmil",
         "line": "A",
         "name": "Indre-Pirmil",
         "status": "postponed",
@@ -128,15 +127,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "E#79",
         "line": "A",
-        "name": "E#79",
+        "name": "Pont de Pirmil/Pont-Rousseau",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "pont-de-pirmil-pont-rousseau"
       },
       "geometry": {
         "type": "LineString",
@@ -212,15 +211,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D#98",
         "line": "A",
-        "name": "D#98",
+        "name": "Boulevard des Pas enchantés",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-des-pas-enchant-s"
       },
       "geometry": {
         "type": "LineString",
@@ -266,7 +265,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A#137",
         "line": "A",
         "name": "A#137",
         "status": "unknown",
@@ -455,7 +453,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A#141",
         "line": "A",
         "name": "A#141",
         "status": "unknown",
@@ -634,7 +631,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A#144",
         "line": "A",
         "name": "A#144",
         "status": "unknown",
@@ -693,7 +689,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A#157-boulevard-des-pas-enchant-s",
         "line": "A",
         "name": "Boulevard des Pas enchantés",
         "status": "wip",
@@ -732,7 +727,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A#158-boulevard-des-pas-enchant-s",
         "line": "A",
         "name": "Boulevard des Pas enchantés",
         "status": "wip",
@@ -771,7 +765,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A#159",
         "line": "A",
         "name": "A#159",
         "status": "unknown",
@@ -805,15 +798,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#160",
         "line": "A",
-        "name": "G#160",
+        "name": "A#160",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#160"
       },
       "geometry": {
         "type": "LineString",
@@ -844,7 +837,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A#161",
         "line": "A",
         "name": "A#161",
         "status": "unknown",
@@ -908,15 +900,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C#162",
         "line": "A",
-        "name": "C#162",
+        "name": "A#162",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "maillage",
+        "link": "",
+        "id": "sans-titre#162"
       },
       "geometry": {
         "type": "LineString",
@@ -957,15 +949,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "I#165",
         "line": "A",
-        "name": "I#165",
+        "name": "Indre-Pirmil",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "indre-pirmil"
       },
       "geometry": {
         "type": "LineString",

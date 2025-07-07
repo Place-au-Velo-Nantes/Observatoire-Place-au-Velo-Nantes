@@ -4,15 +4,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#21",
         "line": "G",
-        "name": "G#21",
+        "name": "Route de Sainte Luce",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "route-de-sainte-luce"
       },
       "geometry": {
         "type": "LineString",
@@ -98,15 +98,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#31",
         "line": "G",
-        "name": "G#31",
+        "name": "Boulevard Ernest Dalby",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-ernest-dalby"
       },
       "geometry": {
         "type": "LineString",
@@ -162,7 +162,45 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#36-mail-pablo-picasso",
+        "line": "G",
+        "name": "Boulevard de Sarrebruck 3",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "voie-verte",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-de-sarrebruck-3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.52758000475788,
+            47.21369019339005,
+            0
+          ],
+          [
+            -1.527261008917577,
+            47.21373912179058,
+            0
+          ],
+          [
+            -1.527123120393014,
+            47.21377267266831,
+            0
+          ],
+          [
+            -1.527213674051325,
+            47.2139124677621,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "line": "G",
         "name": "Mail Pablo Picasso",
         "status": "unknown",
@@ -211,15 +249,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#65",
         "line": "G",
-        "name": "G#65",
+        "name": "Boulevard Ernest Dalby Nord",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-ernest-dalby-nord"
       },
       "geometry": {
         "type": "LineString",
@@ -255,7 +293,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#66-rue-du-pont-de-l-arche-de-mauves",
         "line": "G",
         "name": "Rue du pont de l'arche de Mauves",
         "status": "unknown",
@@ -324,15 +361,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#68",
         "line": "G",
-        "name": "G#68",
+        "name": "Quai de Malakoff Ouest",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "quai-de-malakoff-ouest"
       },
       "geometry": {
         "type": "LineString",
@@ -398,15 +435,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#75",
         "line": "G",
-        "name": "G#75",
+        "name": "Pont Willy-Brandt",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "pont-willy-brandt"
       },
       "geometry": {
         "type": "LineString",
@@ -437,7 +474,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#82-pont-ferroviaire-de-pirmil",
         "line": "G",
         "name": "Pont ferroviaire de Pirmil",
         "status": "unknown",
@@ -511,15 +547,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#87",
         "line": "G",
-        "name": "G#87",
+        "name": "Boulevard Simone Veil",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-simone-veil"
       },
       "geometry": {
         "type": "LineString",
@@ -575,15 +611,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#89",
         "line": "G",
-        "name": "G#89",
+        "name": "Rue Simone Veil",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "rue-simone-veil"
       },
       "geometry": {
         "type": "LineString",
@@ -644,15 +680,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#100",
         "line": "G",
-        "name": "G#100",
+        "name": "Boulevard Ernest Dalby Sud",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-ernest-dalby-sud"
       },
       "geometry": {
         "type": "LineString",
@@ -708,7 +744,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#133",
         "line": "G",
         "name": "G#133",
         "status": "unknown",
@@ -797,7 +832,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#136",
         "line": "G",
         "name": "G#136",
         "status": "unknown",
@@ -1036,15 +1070,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#155",
         "line": "G",
         "name": "G#155",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#155"
       },
       "geometry": {
         "type": "LineString",
@@ -1070,15 +1104,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "H#156",
         "line": "G",
-        "name": "H#156",
+        "name": "G#156",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#156"
       },
       "geometry": {
         "type": "LineString",
@@ -1119,15 +1153,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#160",
         "line": "G",
         "name": "G#160",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#160"
       },
       "geometry": {
         "type": "LineString",
@@ -1158,7 +1192,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#164-indre-pirmil",
         "line": "G",
         "name": "Indre-Pirmil",
         "status": "postponed",
@@ -1277,7 +1310,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#166",
         "line": "G",
         "name": "G#166",
         "status": "unknown",
@@ -1326,15 +1358,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#169",
         "line": "G",
-        "name": "G#169",
+        "name": "Indre-Pirmil",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "indre-pirmil"
       },
       "geometry": {
         "type": "LineString",
@@ -1375,15 +1407,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#170",
         "line": "G",
-        "name": "G#170",
+        "name": "Rezé - Les Sorinières",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "rez----les-sorini-res"
       },
       "geometry": {
         "type": "LineString",
@@ -1409,7 +1441,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#171",
         "line": "G",
         "name": "G#171",
         "status": "unknown",
@@ -1458,7 +1489,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#172",
         "line": "G",
         "name": "G#172",
         "status": "unknown",
@@ -1487,7 +1517,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#173",
         "line": "G",
         "name": "G#173",
         "status": "unknown",
@@ -1526,7 +1555,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#174-boulevard-b-noni-goullin",
         "line": "G",
         "name": "Boulevard Bénoni Goullin",
         "status": "postponed",
@@ -1555,15 +1583,15 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#179",
         "line": "G",
-        "name": "G#179",
+        "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "boulevard-des-martyrs-nantais-de-la-r-sistance"
       },
       "geometry": {
         "type": "LineString",
