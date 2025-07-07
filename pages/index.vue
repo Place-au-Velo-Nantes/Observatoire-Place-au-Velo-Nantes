@@ -7,9 +7,10 @@
         <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl text-center">
           <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Où en est le projet ?</h2>
           <p class="text-xl text-gray-500">
-            (à remplacer ?) Après une phase d'étude et de concertation en 2022 et 2023, le projet entre en phase de
-            réalisation.<br />
-            Les travaux devraient se multiplier en 2024 et 2025.
+            Après une phase d'étude et de concertation en 2023 et 2024, le projet est entré en phase de réalisation.
+            <br />
+            Les travaux se multiplient en 2025. L'identification des lignes au sol est en cours de déploiement. S'y
+            ajouteront des totems pour rappeler les plans et sites d'intérêt sur le parcours.
           </p>
         </div>
       </div>
