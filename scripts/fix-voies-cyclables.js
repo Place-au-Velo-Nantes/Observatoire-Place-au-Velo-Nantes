@@ -107,6 +107,8 @@ const processVoiesFiles = () => {
           return;
         }
 
+        const is_multiple_lines = line_letters.split(',').length > 1;
+
         line_letters.split(',').forEach(line_letter => {
           if (line_letter === '?') {
             line_letter = 'X';
@@ -115,15 +117,11 @@ const processVoiesFiles = () => {
             lines[line_letter] = [];
           }
 
-          let id = line_letter + `#${index}`;
-          if (feature.properties.nom) {
-            id += `-${feature.properties.nom.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
-          }
+          let name = feature.properties.nom ? feature.properties.nom : line_letter + `#${index}`;
 
-          const properties = {
-            id,
+          let properties = {
             line: line_letter,
-            name: feature.properties.nom || id,
+            name,
             status: fixStatus(feature.properties.status || ''),
             doneAt: '01/01/2000',
             type: fixType(feature.properties.type || ''),
@@ -132,9 +130,16 @@ const processVoiesFiles = () => {
             link: feature.properties.link || ''
           };
 
-          feature.properties = properties;
+          if (is_multiple_lines) {
+            properties.id = feature.properties.nom
+              ? feature.properties.nom.toLowerCase().replace(/[^a-z0-9]/g, '-')
+              : 'sans-titre#' + index;
+          }
 
-          lines[line_letter].push(feature);
+          const line_feature = JSON.parse(JSON.stringify(feature));
+          line_feature.properties = properties;
+
+          lines[line_letter].push(line_feature);
         });
       });
 

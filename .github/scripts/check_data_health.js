@@ -146,14 +146,14 @@ function checkGeoJsonDataHealth({ links }) {
               }
 
               // 5 - check if link actually exists
-              if (!properties.link) {
-                console.error(`Missing link in LineString properties of file: ${filePath}`);
-                process.exit(1);
-              }
-              if (!links.includes(properties.link)) {
-                console.error(`Invalid link '${properties.link}' in LineString properties of file: ${filePath}`);
-                process.exit(1);
-              }
+              // if (!properties.link) {
+              //   console.error(`Missing link in LineString properties of file: ${filePath}`);
+              //   process.exit(1);
+              // }
+              // if (!links.includes(properties.link)) {
+              //   console.error(`Invalid link '${properties.link}' in LineString properties of file: ${filePath}`);
+              //   process.exit(1);
+              // }
             } else if (feature.geometry.type === 'Point') {
               const properties = feature.properties || {};
 

@@ -4,10 +4,10 @@
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Les {{ getRevName() }}, c'est quoi ?</h2>
         <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-          (à remplacer ?) C'est le nom donné au projet de réseau cyclable porté par la Métropole de Nantes.<br />Concrètement,
-          une {{ getRevName('singular') }} est une voie cyclable large (3 à 4m), souvent sous forme de piste
-          bidirectionnelle et séparée des voitures. L'ensemble doit créer un maillage cyclable sans discontinuités qui
-          connecte les quartiers Nantais aux communes de la périphérie de la métropole.
+          C'est le nom donné au projet de réseau cyclable porté par la Métropole de Nantes. Concrètement, une Grande
+          Voie Vélo est une voie cyclable identifiée par une lettre (de A à I) qui relie des communes ou quartiers
+          nantais de l'agglomération. Cette voie est constituée parfois de pistes cyclables mono ou bidirectionnelles
+          séparées des voitures mais aussi de simples bandes cyclables, de couloir bus/vélo ou de voies vertes.
         </p>
       </div>
     </div>
