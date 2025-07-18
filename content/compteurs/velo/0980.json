@@ -1,7 +1,8 @@
 {
-  "name": "Pont Tabarly vers Sud",
-  "description": "",
+  "name": "Pont Tabarly Trottoir vers Sud",
+  "description": "Comptage des vélos à l'entrée nord du pont sur le trottoir partagé (il y a aussi un compteur sur la bande cyclable).",
   "idPdc": 980,
+  "neighbor": 981,
   "coordinates": [
     -1.5295999063801857,
     47.213386158515206

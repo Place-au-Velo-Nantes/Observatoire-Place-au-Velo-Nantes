@@ -1,7 +1,8 @@
 {
   "name": "Van Iseghem vers Sud",
-  "description": "",
+  "description": "Comptage des vélos sur la piste bidirectionnelle vers le sud (centre-ville).",
   "idPdc": 997,
+  "neighbor": 996,
   "coordinates": [
     -1.548811760897268,
     47.23268018192289

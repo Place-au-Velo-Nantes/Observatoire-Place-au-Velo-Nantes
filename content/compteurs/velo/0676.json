@@ -1,7 +1,8 @@
 {
-  "name": "Pont Willy Brandt vers Beaulieu",
-  "description": "",
+  "name": "Pont Willy Brandt vers Sud",
+  "description": "Comptage des vélos sur la piste cyclable du pont et allant vers le sud (île de Nantes).",
   "idPdc": 676,
+  "neighbor": 677,
   "coordinates": [
     -1.5365033968187525,
     47.21266213415891

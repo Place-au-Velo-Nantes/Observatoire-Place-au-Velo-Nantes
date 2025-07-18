@@ -1,7 +1,8 @@
 {
   "name": "Pont Haudaudine vers Nord",
-  "description": "",
+  "description": "Comptage des vélos sur la bande cyclable au nord du pont et allant vers le nord (centre-ville).",
   "idPdc": 675,
+  "neighbor": 674,
   "coordinates": [
     -1.555389444114489,
     47.20907608646761

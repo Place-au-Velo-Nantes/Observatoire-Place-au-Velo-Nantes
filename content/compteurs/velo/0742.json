@@ -1,7 +1,8 @@
 {
   "name": "Philippot vers Est",
-  "description": "",
+  "description": "Comptage des vélos sur la bande cyclable juste après le rond-point en direction de l'est.",
   "idPdc": 742,
+  "neighbor": 743,
   "coordinates": [
     -1.5563430663233755,
     47.21165736518504

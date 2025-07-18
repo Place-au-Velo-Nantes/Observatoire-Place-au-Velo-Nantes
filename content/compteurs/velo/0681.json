@@ -1,7 +1,8 @@
 {
-  "name": "Stalingrad vers est",
-  "description": "",
+  "name": "Boulevard Stalingrad vers Est",
+  "description": "Comptage des vélos passant sur la piste cyclable du boulevard vers l'est (Dalby). Travaux en 2025 et absence de données du 16/10/24 au 09/07/25.",
   "idPdc": 681,
+  "neighbor": 680,
   "coordinates": [
     -1.5370432491894714,
     47.21890748612357
@@ -245,7 +246,7 @@
     },
     {
       "month": "2024-12-01",
-      "count": -6
+      "count": 0
     },
     {
       "month": "2025-01-01",
@@ -257,11 +258,11 @@
     },
     {
       "month": "2025-03-01",
-      "count": -114
+      "count": 0
     },
     {
       "month": "2025-04-01",
-      "count": -2
+      "count": 0
     },
     {
       "month": "2025-05-01",
@@ -269,7 +270,7 @@
     },
     {
       "month": "2025-06-01",
-      "count": -38
+      "count": 0
     }
   ]
 }

@@ -1,7 +1,8 @@
 {
   "name": "Chemin de halage Tortière vers Nord",
-  "description": "",
+  "description": "Comptage des vélos sur la voie verte sous le pont de la Tortière en direction du nord (Petit-Port).",
   "idPdc": 747,
+  "neighbor": 746,
   "coordinates": [
     -1.5495223616419478,
     47.235601216475615

@@ -1,10 +1,11 @@
 {
-  "name": "pont des 3 Continents vers Nord",
-  "description": "",
+  "name": "Pont des 3 Continents vers Nord",
+  "description": "Comptage (probable) des vélos allant vers le nord (île de Nantes) via la bande cyclable (au lieu de la piste bidirectionnelle).",
   "idPdc": 977,
+  "neighbor": 979,
   "coordinates": [
-    -1.5614005632982,
-    47.1991586337787
+    -1.5615269996874037,
+    47.19939094627478
   ],
   "counts": [
     {
