@@ -78,7 +78,7 @@ async function processFiles(month, year) {
 
         // Récupérer et traiter les données
         const data = await fetchBikeCounts(apiUrl);
-        if (data) {
+        if (data.total_count > 0) {
           const totalCounts = calculateTotalCounts(data);
           await updateJsonFile(filePath, month, year, totalCounts);
         }
@@ -112,7 +112,7 @@ async function iterateMonths(startMonth, startYear, endMonth, endYear) {
 }
 
 // pour demander sur 1 mois avec le numéro du mois et l'année
-//processFiles(3, 2025);
+processFiles(7, 2025);
 
 // Appeler la fonction pour itérer de janvier 2020 à juin 2025
-iterateMonths(1, 2020, 6, 2025).catch(console.error);
+//iterateMonths(1, 2020, 6, 2025).catch(console.error);
