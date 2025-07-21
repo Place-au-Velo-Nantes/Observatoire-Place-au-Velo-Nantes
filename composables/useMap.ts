@@ -681,6 +681,7 @@ export const useMap = () => {
         type,
         name: counter.name,
         idPdc: counter.idPdc,
+        neighbor: counter.neighbor,
         link: counter.path,
         counts: counter.counts
       },
@@ -854,6 +855,10 @@ export const useMap = () => {
         getTooltipProps: () => {
           const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['compteurs'] })[0];
           const feature = features.find(f => f.properties.idPdc === mapFeature.properties.idPdc);
+          if (feature.properties.neighbor && !feature.properties.neighborData) {
+            //ajout des données du compteur voisin
+            feature.properties.neighborData = features.find(f => f.properties.idPdc === feature.properties.neighbor);
+          }
           return { feature };
         },
         component: CounterTooltip
