@@ -6,6 +6,7 @@
     :description="counter.description"
     :image-url="counter.imageUrl"
   >
+    <div v-if="features[0].properties.neighborData">Compteur à proximité : <a :href="features[0].properties.neighborData.properties.link" class="hover:underline">{{ features[0].properties.neighborData.properties.name }}</a></div>
     <ClientOnly>
       <Map :features="features" :options="{ legend: false, filter: false }" class="mt-12" style="height: 40vh" />
     </ClientOnly>
@@ -59,6 +60,16 @@ const graphTitles = {
 };
 
 const features = getCompteursFeatures({ counters: [counter.value], type: 'compteur-velo' });
+
+if (counter.value.neighbor) {
+  //ajout des données du compteur voisin
+  const { data: neighborCounter } = await useAsyncData(() => {
+    return queryCollection('compteurs')
+      .where('idPdc', '=', counter.value.neighbor)
+      .all();
+  });
+  features[0].properties.neighborData = getCompteursFeatures({ counters: [neighborCounter.value[0]], type: 'compteur-velo' })[0];
+}
 
 const DESCRIPTION = `Compteur vélo ${counter.value.name}`;
 const IMAGE_URL = counter.value.imageUrl;

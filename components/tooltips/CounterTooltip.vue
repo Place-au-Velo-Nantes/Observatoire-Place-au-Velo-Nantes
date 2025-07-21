@@ -5,7 +5,7 @@
       <div class="font-bold text-base hover:underline text-center">
         <a :href="feature.properties.link">{{ feature.properties.name }}</a>
       </div>
-      <div v-if="feature.properties.neighborData">Compteur à proximité : <a :href="feature.properties.neighborData.properties.link" class="hover:underline">{{ feature.properties.neighborData.properties.name }}</a></div>
+      <div v-if="feature.properties.neighborData" class="text-center">Compteur à proximité : <a :href="feature.properties.neighborData.properties.link" class="hover:underline">{{ feature.properties.neighborData.properties.name }}</a></div>
     </div>
     <div class="divide-y">
       <div class="py-1 flex items-center justify-between bg-zinc-100">
