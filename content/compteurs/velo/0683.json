@@ -1,7 +1,8 @@
 {
-  "name": "pont Anne de Bretagne vers Nord",
-  "description": "",
+  "name": "Pont Anne de Bretagne vers Nord",
+  "description": "Comptage des vélos en sortie de la piste cyclable en allant vers le nord (Quai de la Fosse). Absence de données depuis avril 2023.",
   "idPdc": 683,
+  "neighbor": 682,
   "coordinates": [
     -1.5663860901495563,
     47.20889069766999
@@ -429,7 +430,7 @@
     },
     {
       "month": "2022-10-01",
-      "count": -4
+      "count": 0
     },
     {
       "month": "2022-11-01",
@@ -457,15 +458,15 @@
     },
     {
       "month": "2023-05-01",
-      "count": -2
+      "count": 0
     },
     {
       "month": "2023-06-01",
-      "count": -4
+      "count": 0
     },
     {
       "month": "2023-07-01",
-      "count": -2
+      "count": 0
     },
     {
       "month": "2023-08-01",
@@ -473,7 +474,7 @@
     },
     {
       "month": "2023-09-01",
-      "count": -96
+      "count": 0
     },
     {
       "month": "2023-10-01",
@@ -517,7 +518,7 @@
     },
     {
       "month": "2024-08-01",
-      "count": -40
+      "count": 0
     },
     {
       "month": "2024-09-01",
@@ -533,7 +534,7 @@
     },
     {
       "month": "2024-12-01",
-      "count": -6
+      "count": 0
     },
     {
       "month": "2025-01-01",
@@ -545,11 +546,11 @@
     },
     {
       "month": "2025-03-01",
-      "count": -114
+      "count": 0
     },
     {
       "month": "2025-04-01",
-      "count": -2
+      "count": 0
     },
     {
       "month": "2025-05-01",
@@ -557,7 +558,7 @@
     },
     {
       "month": "2025-06-01",
-      "count": -38
+      "count": 0
     }
   ]
 }

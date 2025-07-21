@@ -1,7 +1,8 @@
 {
-  "name": "pont Anne de Bretagne vers Sud",
-  "description": "",
+  "name": "Pont Anne de Bretagne vers Sud",
+  "description": "Comptage des vélos en entrée de la piste cyclable en allant vers le sud (île de Nantes). Absence de données depuis janvier 2025.",
   "idPdc": 682,
+  "neighbor": 683,
   "coordinates": [
     -1.5665279543131492,
     47.208842556632646
@@ -545,11 +546,11 @@
     },
     {
       "month": "2025-03-01",
-      "count": -114
+      "count": 0
     },
     {
       "month": "2025-04-01",
-      "count": -2
+      "count": 0
     },
     {
       "month": "2025-05-01",
@@ -557,7 +558,7 @@
     },
     {
       "month": "2025-06-01",
-      "count": -38
+      "count": 0
     }
   ]
 }

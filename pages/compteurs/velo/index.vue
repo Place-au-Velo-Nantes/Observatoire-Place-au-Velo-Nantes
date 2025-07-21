@@ -17,6 +17,7 @@
         <ClientOnly>
           <Map :features="features" :options="{ legend: false, filter: false }" class="mt-12" style="height: 40vh" />
         </ClientOnly>
+        <ChartAllTotalByYear title="Fréquentation cyclistes annuelle" :data="counters" class="mt-8 lg:p-4 lg:rounded-lg lg:shadow-md" />
       </div>
 
       <!-- search bar -->
@@ -32,7 +33,12 @@
 
       <!-- liste des compteurs -->
       <div class="mt-4 max-w-7xl mx-auto grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:max-w-none">
-        <CounterCard v-for="counter of counters" :key="counter.name" :counter="counter" />
+        <CounterCard v-for="counter of counters" :key="counter.name+counter.idPdc" :counter="counter" />
+      </div>
+
+      <div class="mt-8 prose" id="sources">
+        <h2>Source des données</h2>
+        <p>Les données proviennent de data.nantesmetropole.fr :<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-historique-jour/information/" target="_blank">données 2014-2019</a> : cumule par mois des comptages ajustés (c'est-à-dire avec une estimation sans les anomalies) pour 18 boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole/information/" target="_blank">données à partir de 2020</a> : cumule par mois des comptages pour {{ counters.length }}  boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-boucles-comptage/information/" target="_blank">boucles de comptage.</a></p>
       </div>
     </div>
   </div>
@@ -60,7 +66,7 @@ const counters = computed(() => {
       const count2 = counter2.counts.at(-1)?.count ?? 0;
       return count2 - count1;
     })
-    .filter(counter => removeDiacritics(`${counter.arrondissement} ${counter.name}`).includes(removeDiacritics(searchText.value)))
+    .filter(counter => removeDiacritics(`${counter.name}`).includes(removeDiacritics(searchText.value)))
     .map(counter => ({
       ...counter,
       counts: counter.counts.map(count => ({

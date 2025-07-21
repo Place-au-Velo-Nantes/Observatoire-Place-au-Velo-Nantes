@@ -1,7 +1,8 @@
 {
   "name": "Calvaire vers Ouest",
-  "description": "",
+  "description": "Comptage des vélos en montée, juste après l'arrêt de bus Saint-Nicolas.",
   "idPdc": 745,
+  "neighbor": 744,
   "coordinates": [
     -1.5606340872538647,
     47.215557371093816

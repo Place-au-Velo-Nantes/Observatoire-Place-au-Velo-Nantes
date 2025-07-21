@@ -1,7 +1,8 @@
 {
-  "name": "De Gaulle vers sud",
-  "description": "",
+  "name": "Pont Georges Clemenceau vers Sud",
+  "description": "Comptage des vélos allant de Beaulieu vers la piste du pont.",
   "idPdc": 668,
+  "neighbor": 669,
   "coordinates": [
     -1.5369205412444689,
     47.20350669597018

@@ -1,7 +1,8 @@
 {
-  "name": "Entrée pont Audibert vers Nord",
-  "description": "",
+  "name": "Pont Audibert Piste vers Nord",
+  "description": "Comptage des vélos sur la piste cyclable bidirectionnelle du pont en direction du nord (centre-ville)",
   "idPdc": 667,
+  "neighbor": 847,
   "coordinates": [
     -1.548628245726742,
     47.207184415056695

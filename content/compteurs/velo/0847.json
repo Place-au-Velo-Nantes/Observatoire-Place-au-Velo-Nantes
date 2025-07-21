@@ -1,7 +1,8 @@
 {
-  "name": "Entrée pont Audibert vers Sud",
-  "description": "",
+  "name": "Pont Audibert Piste vers Sud",
+  "description": "Comptage des vélos sur la piste cyclable bidirectionnelle du pont en direction du sud (île de Nantes)",
   "idPdc": 847,
+  "neighbor": 667,
   "coordinates": [
     -1.5486490203822572,
     47.20717855593781

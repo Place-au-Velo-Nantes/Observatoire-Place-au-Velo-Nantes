@@ -1,7 +1,8 @@
 {
   "name": "Van Iseghem vers Nord",
-  "description": "",
+  "description": "Comptage des vélos sur la piste bidirectionnelle vers le nord (Pont de la Tortière).",
   "idPdc": 996,
+  "neighbor": 997,
   "coordinates": [
     -1.5487986994027731,
     47.23266720647105

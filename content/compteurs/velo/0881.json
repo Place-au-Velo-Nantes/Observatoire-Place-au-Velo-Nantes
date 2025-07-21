@@ -1,7 +1,8 @@
 {
-  "name": "Madeleine vers Sud",
-  "description": "",
+  "name": "Hôtel Dieu vers Sud",
+  "description": "Comptage des vélos (avec totem) sur la piste cyclable longeant le tramway en direction du sud (île de Nantes).",
   "idPdc": 881,
+  "neighbor": 880,
   "coordinates": [
     -1.5528042782185094,
     47.21153640429157

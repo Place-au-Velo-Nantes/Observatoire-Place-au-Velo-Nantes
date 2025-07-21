@@ -6,6 +6,7 @@
     :description="counter.description"
     :image-url="counter.imageUrl"
   >
+    <div v-if="features[0].properties.neighborData">Compteur à proximité : <a :href="features[0].properties.neighborData.properties.link" class="hover:underline">{{ features[0].properties.neighborData.properties.name }}</a></div>
     <ClientOnly>
       <Map :features="features" :options="{ legend: false, filter: false }" class="mt-12" style="height: 40vh" />
     </ClientOnly>
@@ -32,7 +33,7 @@
     </template> -->
 
     <h2>Source des données</h2>
-    <p>Les données proviennent de data.nantesmetropole.fr :<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-historique-jour/information/" target="_blank">données 2014-2019</a> : cumule par mois des comptages ajustés pour 18 boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole/information/" target="_blank">données à partir de 2020</a> : cumule par mois des comptages pour 66 boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-boucles-comptage/information/" target="_blank">boucles de comptage.</a></p>
+    <p>Les données proviennent de data.nantesmetropole.fr :<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-historique-jour/information/" target="_blank">données 2014-2019</a> : cumule par mois des comptages ajustés (c'est-à-dire avec une estimation sans les anomalies) pour 18 boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole/information/" target="_blank">données à partir de 2020</a> : cumule par mois des comptages pour cette boucle.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-boucles-comptage/information/" target="_blank">boucles de comptage.</a></p>
   </ContentFrame>
 </template>
 
@@ -59,6 +60,16 @@ const graphTitles = {
 };
 
 const features = getCompteursFeatures({ counters: [counter.value], type: 'compteur-velo' });
+
+if (counter.value.neighbor) {
+  //ajout des données du compteur voisin
+  const { data: neighborCounter } = await useAsyncData(() => {
+    return queryCollection('compteurs')
+      .where('idPdc', '=', counter.value.neighbor)
+      .all();
+  });
+  features[0].properties.neighborData = getCompteursFeatures({ counters: [neighborCounter.value[0]], type: 'compteur-velo' })[0];
+}
 
 const DESCRIPTION = `Compteur vélo ${counter.value.name}`;
 const IMAGE_URL = counter.value.imageUrl;

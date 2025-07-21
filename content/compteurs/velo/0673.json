@@ -1,7 +1,8 @@
 {
   "name": "Pont de Pornic vers Sud",
-  "description": "",
+  "description": "Comptage des vélos allant vers le sud (Rezé) sur la piste qui longe la ligne de chemin de fer.",
   "idPdc": 673,
+  "neighbor": 672,
   "coordinates": [
     -1.5489384585186128,
     47.201374017938825

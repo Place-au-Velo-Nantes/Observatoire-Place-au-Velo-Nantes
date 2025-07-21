@@ -1,7 +1,8 @@
 {
-  "name": "avenue de la Libération vers Sud",
-  "description": "",
+  "name": "Avenue de la Libération Piste vers Sud",
+  "description": "Comptage des vélos sur la piste bidirectionnelle en direction du sud (Rezé).",
   "idPdc": 949,
+  "neighbor": 950,
   "coordinates": [
     -1.546842567007259,
     47.192618952694644

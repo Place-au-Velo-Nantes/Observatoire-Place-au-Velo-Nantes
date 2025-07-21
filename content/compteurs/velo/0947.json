@@ -1,120 +1,13 @@
 {
-  "name": "Bd Malakoff vers Ouest",
-  "description": "",
+  "name": "Boulevard Malakoff Piste vers Ouest",
+  "description": "Comptage des vélo allant vers l'est sur la piste bidirectionnelle.",
   "idPdc": 947,
+  "neighbor": 948,
   "coordinates": [
-    -1.53608563362513,
-    47.2129329547825
+    -1.5361739136640606,
+    47.21303539952693
   ],
   "counts": [
-    {
-      "month": "2014-01-01",
-      "count": 0
-    },
-    {
-      "month": "2014-02-01",
-      "count": 0
-    },
-    {
-      "month": "2014-03-01",
-      "count": 0
-    },
-    {
-      "month": "2014-04-01",
-      "count": 0
-    },
-    {
-      "month": "2014-05-01",
-      "count": 0
-    },
-    {
-      "month": "2014-06-01",
-      "count": 0
-    },
-    {
-      "month": "2014-07-01",
-      "count": 0
-    },
-    {
-      "month": "2014-08-01",
-      "count": 0
-    },
-    {
-      "month": "2014-09-01",
-      "count": 0
-    },
-    {
-      "month": "2014-10-01",
-      "count": 0
-    },
-    {
-      "month": "2014-11-01",
-      "count": 0
-    },
-    {
-      "month": "2014-12-01",
-      "count": 0
-    },
-    {
-      "month": "2015-01-01",
-      "count": 0
-    },
-    {
-      "month": "2015-02-01",
-      "count": 0
-    },
-    {
-      "month": "2015-03-01",
-      "count": 0
-    },
-    {
-      "month": "2015-04-01",
-      "count": 0
-    },
-    {
-      "month": "2015-05-01",
-      "count": 0
-    },
-    {
-      "month": "2015-06-01",
-      "count": 0
-    },
-    {
-      "month": "2015-07-01",
-      "count": 0
-    },
-    {
-      "month": "2015-08-01",
-      "count": 0
-    },
-    {
-      "month": "2015-09-01",
-      "count": 0
-    },
-    {
-      "month": "2015-10-01",
-      "count": 0
-    },
-    {
-      "month": "2015-11-01",
-      "count": 0
-    },
-    {
-      "month": "2015-12-01",
-      "count": 0
-    },
-    {
-      "month": "2016-01-01",
-      "count": 0
-    },
-    {
-      "month": "2016-02-01",
-      "count": 0
-    },
-    {
-      "month": "2016-03-01",
-      "count": 0
-    },
     {
       "month": "2016-04-01",
       "count": 3687

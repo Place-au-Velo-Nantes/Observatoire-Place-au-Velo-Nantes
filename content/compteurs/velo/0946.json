@@ -1,7 +1,8 @@
 {
-  "name": "Magellan vers Est",
-  "description": "",
+  "name": "Magellan côté Ouest vers Est",
+  "description": "Comptage des vélos sur la piste cyclable bidirectionelle continuant vers le quai à l'est.",
   "idPdc": 946,
+  "neighbor": 945,
   "coordinates": [
     -1.5493314999763097,
     47.208799340994744

@@ -1,10 +1,11 @@
 {
-  "name": "Tremie vers Ouest",
-  "description": "",
+  "name": "Tremie sous gare nord vers Ouest",
+  "description": "Piste cyclable passant sous le parvis nord de la gare en direction du Château.",
   "idPdc": 986,
+  "neighbor": 987,
   "coordinates": [
-    -1.54454760333977,
-    47.217186960343
+    -1.5444543029776603,
+    47.217355235455365
   ],
   "counts": [
     {

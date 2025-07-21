@@ -1,7 +1,8 @@
 {
   "name": "Pont Haudaudine vers Sud",
-  "description": "",
+  "description": "Comptage des vélos sur la bande cyclable au nord du pont et allant vers le sud (île de Nantes).",
   "idPdc": 674,
+  "neighbor": 675,
   "coordinates": [
     -1.5555717063397219,
     47.209096588583456

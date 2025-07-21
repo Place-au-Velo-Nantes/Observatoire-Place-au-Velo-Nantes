@@ -1,20 +1,13 @@
 {
   "name": "Kennedy vers Ouest",
-  "description": "",
+  "description": "Comptage (très probable) des vélos sur la piste bidirectionnelle allant vers la gare.",
   "idPdc": 989,
+  "neighbor": 989,
   "coordinates": [
     -1.54529606512988,
     47.2168261858339
   ],
   "counts": [
-    {
-      "month": "2020-01-01",
-      "count": 0
-    },
-    {
-      "month": "2020-02-01",
-      "count": 0
-    },
     {
       "month": "2020-03-01",
       "count": 0

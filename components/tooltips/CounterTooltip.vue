@@ -1,10 +1,11 @@
 <template>
   <div class="not-prose w-48">
     <div class="py-1 bg-lvv-blue-600 flex flex-col items-center justify-center text-white">
-      <div class="font-bold text-base hover:underline">
+      <div>{{ title }}</div>
+      <div class="font-bold text-base hover:underline text-center">
         <a :href="feature.properties.link">{{ feature.properties.name }}</a>
       </div>
-      <div>{{ title }}</div>
+      <div v-if="feature.properties.neighborData" class="text-center">Compteur à proximité : <a :href="feature.properties.neighborData.properties.link" class="hover:underline">{{ feature.properties.neighborData.properties.name }}</a></div>
     </div>
     <div class="divide-y">
       <div class="py-1 flex items-center justify-between bg-zinc-100">

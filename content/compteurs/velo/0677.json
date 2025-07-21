@@ -1,32 +1,13 @@
 {
-  "name": "Pont Willy Brandt vers Malakoff",
-  "description": "",
+  "name": "Pont Willy Brandt vers Nord",
+  "description": "Comptage des vélos allant vers le nord (Malakoff). La position gps indique sûrement le comptage des passages sur la bande cyclable et non sur la piste en bidirectionnelle.",
   "idPdc": 677,
+  "neighbor": 676,
   "coordinates": [
     -1.5363321300724169,
     47.212684909912554
   ],
   "counts": [
-    {
-      "month": "2020-01-01",
-      "count": 1
-    },
-    {
-      "month": "2020-02-01",
-      "count": 0
-    },
-    {
-      "month": "2020-03-01",
-      "count": 0
-    },
-    {
-      "month": "2020-04-01",
-      "count": 0
-    },
-    {
-      "month": "2020-05-01",
-      "count": 3
-    },
     {
       "month": "2020-06-01",
       "count": 5693

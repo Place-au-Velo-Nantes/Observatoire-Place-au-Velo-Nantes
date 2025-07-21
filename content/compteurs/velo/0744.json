@@ -1,7 +1,8 @@
 {
   "name": "Calvaire vers Est",
-  "description": "",
+  "description": "Comptage des vélos en descente vers Place du Cirque.",
   "idPdc": 744,
+  "neighbor": 745,
   "coordinates": [
     -1.5606018691288568,
     47.215489324621586

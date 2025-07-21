@@ -63,6 +63,8 @@ export type CompteurFeature = {
   properties: {
     type: 'compteur-velo' | 'compteur-voiture';
     idPdc: Number;
+    neighbor?: Number;
+    neighborData? : CompteurFeature;
     line?: string;
     name: string;
     link?: string;

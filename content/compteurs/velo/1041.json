@@ -1,96 +1,13 @@
 {
   "name": "Guy Mollet vers Nord",
-  "description": "",
+  "description": "Comptage des vélos sur la piste cyclable en direction du nord.",
   "idPdc": 1041,
+  "neighbor": 1042,
   "coordinates": [
     -1.5532727474949712,
     47.252189065198046
   ],
   "counts": [
-    {
-      "month": "2020-01-01",
-      "count": 0
-    },
-    {
-      "month": "2020-02-01",
-      "count": 0
-    },
-    {
-      "month": "2020-03-01",
-      "count": 0
-    },
-    {
-      "month": "2020-04-01",
-      "count": 0
-    },
-    {
-      "month": "2020-05-01",
-      "count": 0
-    },
-    {
-      "month": "2020-06-01",
-      "count": 0
-    },
-    {
-      "month": "2020-07-01",
-      "count": 0
-    },
-    {
-      "month": "2020-08-01",
-      "count": 0
-    },
-    {
-      "month": "2020-09-01",
-      "count": 0
-    },
-    {
-      "month": "2020-10-01",
-      "count": 0
-    },
-    {
-      "month": "2020-11-01",
-      "count": 0
-    },
-    {
-      "month": "2020-12-01",
-      "count": 0
-    },
-    {
-      "month": "2021-01-01",
-      "count": 0
-    },
-    {
-      "month": "2021-02-01",
-      "count": 0
-    },
-    {
-      "month": "2021-03-01",
-      "count": 0
-    },
-    {
-      "month": "2021-04-01",
-      "count": 0
-    },
-    {
-      "month": "2021-05-01",
-      "count": 0
-    },
-    {
-      "month": "2021-06-01",
-      "count": 0
-    },
-    {
-      "month": "2021-07-01",
-      "count": 0
-    },
-    {
-      "month": "2021-08-01",
-      "count": 0
-    },
-    {
-      "month": "2021-09-01",
-      "count": 0
-    },
     {
       "month": "2021-10-01",
       "count": 4798

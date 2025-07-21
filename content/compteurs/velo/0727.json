@@ -1,48 +1,13 @@
 {
-  "name": "Pont Tabarly vers Nord",
-  "description": "",
+  "name": "Pont Tabarly Bande vers Nord",
+  "description": "Comptage des vélos à l'entrée nord du pont sur la bande cyclable (il y a aussi un compteur sur le trottoir partagé).",
   "idPdc": 727,
+  "neighbor": 725,
   "coordinates": [
     -1.5293317342742991,
     47.21345667065047
   ],
   "counts": [
-    {
-      "month": "2020-01-01",
-      "count": 0
-    },
-    {
-      "month": "2020-02-01",
-      "count": 0
-    },
-    {
-      "month": "2020-03-01",
-      "count": 0
-    },
-    {
-      "month": "2020-04-01",
-      "count": 0
-    },
-    {
-      "month": "2020-05-01",
-      "count": 0
-    },
-    {
-      "month": "2020-06-01",
-      "count": 0
-    },
-    {
-      "month": "2020-07-01",
-      "count": 32
-    },
-    {
-      "month": "2020-08-01",
-      "count": 5
-    },
-    {
-      "month": "2020-09-01",
-      "count": 2
-    },
     {
       "month": "2020-10-01",
       "count": 7559

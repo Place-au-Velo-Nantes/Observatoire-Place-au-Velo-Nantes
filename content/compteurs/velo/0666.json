@@ -1,6 +1,6 @@
 {
-  "name": "Pont Audibert vers Sud",
-  "description": "",
+  "name": "Pont Audibert Bande vers Sud",
+  "description": "Comptage des vélos sur la bande cyclable du pont en direction du sud (île de Nantes)",
   "idPdc": 666,
   "coordinates": [
     -1.5497189172153978,

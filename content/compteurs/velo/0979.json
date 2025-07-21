@@ -1,7 +1,8 @@
 {
-  "name": "pont des 3 Continents vers Sud",
-  "description": "",
+  "name": "Pont des 3 Continents vers Sud",
+  "description": "Comptage des vélos sur la piste bidirectionnelle allant vers le sud (Rezé).",
   "idPdc": 979,
+  "neighbor": 977,
   "coordinates": [
     -1.5614005632982,
     47.1991586337787

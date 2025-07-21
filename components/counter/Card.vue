@@ -1,10 +1,7 @@
 <template>
   <NuxtLink class="rounded-lg shadow-md hover:shadow-lg overflow-hidden" :to="link">
     <div class="px-4 py-2 bg-lvv-blue-600 text-white">
-      <div class="text-base font-medium">
-        {{ arrondissement }}
-      </div>
-      <div class="mt-1 text-lg font-semibold">
+      <div class="text-lg font-semibold">
         {{ name }}
       </div>
     </div>
@@ -83,7 +80,6 @@ const props = defineProps<{
   counter: Counter;
 }>();
 
-const arrondissement = props.counter.arrondissement;
 const name = props.counter.name;
 const link = props.counter.path;
 

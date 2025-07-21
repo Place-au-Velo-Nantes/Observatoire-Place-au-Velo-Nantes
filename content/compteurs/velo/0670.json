@@ -1,6 +1,6 @@
 {
-  "name": "Pont de Pirmil vers Sud",
-  "description": "",
+  "name": "Pont de Pirmil côté voitures vers Sud",
+  "description": "Comptage des vélos allant sur la bande cyclable vers le sud du côté des voitures.",
   "idPdc": 670,
   "coordinates": [
     -1.5440620253453048,

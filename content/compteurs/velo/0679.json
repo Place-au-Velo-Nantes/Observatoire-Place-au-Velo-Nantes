@@ -1,7 +1,8 @@
 {
-  "name": "Bd Malakoff vers Gare Sud",
-  "description": "",
+  "name": "Boulevard Malakoff Bande vers Ouest",
+  "description": "Comptage des vélos allant vers l'ouest sur la bande cyclable entre la voie de circulation des motorisés et le stationnement de la rue.",
   "idPdc": 679,
+  "neighbor": 947,
   "coordinates": [
     -1.5359421578632508,
     47.21316284797035

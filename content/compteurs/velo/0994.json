@@ -1,7 +1,8 @@
 {
   "name": "Ceineray vers Est",
-  "description": "",
+  "description": "Comptage (très probable) des vélos sur la piste bidirectionnelle en montée.",
   "idPdc": 994,
+  "neighbor": 995,
   "coordinates": [
     -1.5520557476514105,
     47.2211808996175

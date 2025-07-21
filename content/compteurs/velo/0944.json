@@ -1,7 +1,8 @@
 {
-  "name": "Magellan vers Est",
-  "description": "",
+  "name": "Magellan côté Est vers Est",
+  "description": "Comptage des vélos sur la piste cyclable bidirectionelle allant sous le pont Aristide Briand en allant vers l'est (pont Tbilissi).",
   "idPdc": 944,
+  "neighbor": 943,
   "coordinates": [
     -1.5439240750859649,
     47.21038195207655

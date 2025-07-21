@@ -1,7 +1,8 @@
 {
-  "name": "De Gaulle sortie Clémenceau vers Nord",
-  "description": "",
+  "name": "Pont Georges Clémenceau vers Nord",
+  "description": "Comptage des vélos venant du pont sur la piste cyclable et allant vers Beaulieu.",
   "idPdc": 669,
+  "neighbor": 668,
   "coordinates": [
     -1.5366316681743837,
     47.20359482806785
