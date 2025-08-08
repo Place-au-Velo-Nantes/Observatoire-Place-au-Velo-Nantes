@@ -1,48 +1,13 @@
 {
-  "name": "Tremie vers Est",
-  "description": "",
+  "name": "Tremie sous gare nord vers Est",
+  "description": "Piste cyclable passant sous le parvis nord de la gare en direction du Boulevard de Stalingrad.",
   "idPdc": 987,
+  "neighbor": 986,
   "coordinates": [
-    -1.54457176311539,
-    47.2170861332701
+    -1.54439663548384,
+    47.21728891023882
   ],
   "counts": [
-    {
-      "month": "2020-01-01",
-      "count": 0
-    },
-    {
-      "month": "2020-02-01",
-      "count": 0
-    },
-    {
-      "month": "2020-03-01",
-      "count": 0
-    },
-    {
-      "month": "2020-04-01",
-      "count": 0
-    },
-    {
-      "month": "2020-05-01",
-      "count": 0
-    },
-    {
-      "month": "2020-06-01",
-      "count": 0
-    },
-    {
-      "month": "2020-07-01",
-      "count": 0
-    },
-    {
-      "month": "2020-08-01",
-      "count": 0
-    },
-    {
-      "month": "2020-09-01",
-      "count": 0
-    },
     {
       "month": "2020-10-01",
       "count": 116

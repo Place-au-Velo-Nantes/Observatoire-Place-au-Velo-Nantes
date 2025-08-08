@@ -1,7 +1,8 @@
 {
-  "name": "Madeleine vers Nord",
-  "description": "",
+  "name": "Hôtel Dieu vers Nord",
+  "description": "Comptage des vélos (avec totem) sur la piste cyclable longeant le tramway en direction du nord (centre-ville).",
   "idPdc": 880,
+  "neighbor": 881,
   "coordinates": [
     -1.5527808502938574,
     47.211547513955786

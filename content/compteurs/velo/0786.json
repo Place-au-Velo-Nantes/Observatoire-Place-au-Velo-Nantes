@@ -1,7 +1,8 @@
 {
-  "name": "50 Otages Vers Nord",
-  "description": "",
+  "name": "50 Otages entrée sud vers Nord",
+  "description": "Comptage des vélos allant vers le nord, au niveau de Commerce, de la piste cyclable centrale du Cours des 50 otages.",
   "idPdc": 786,
+  "neighbor": 785,
   "coordinates": [
     -1.5553816693267555,
     47.214222086752066

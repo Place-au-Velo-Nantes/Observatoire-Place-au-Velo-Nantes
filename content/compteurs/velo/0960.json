@@ -1,7 +1,8 @@
 {
-  "name": "Sorinières Vers Nord",
-  "description": "",
+  "name": "Sorinières vers Nord",
+  "description": "Comptage des vélos sur la piste bidirectionnelle allant vers le nord (Rezé).",
   "idPdc": 960,
+  "neighbor": 959,
   "coordinates": [
     -1.5420923531458324,
     47.16029353128087

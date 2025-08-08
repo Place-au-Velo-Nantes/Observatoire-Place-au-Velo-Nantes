@@ -1,7 +1,8 @@
 {
-  "name": "Bonduelle vers sud",
-  "description": "",
+  "name": "Pont Aristide Briand vers sud",
+  "description": "Comptage des vélos entrant sur le pont Aristide Briand depuis le nord.",
   "idPdc": 664,
+  "neighbor": 665,
   "coordinates": [
     -1.5434019650772974,
     47.21156230858751

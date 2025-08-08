@@ -1,6 +1,6 @@
 {
-  "name": "Pont de Pirmil vers Sud",
-  "description": "",
+  "name": "Pont de Pirmil Piste vers Sud",
+  "description": "Comptage des vélos sur la piste cyclable côté tramway et allant vers le sud (depuis l'Île des Nantes).",
   "idPdc": 890,
   "coordinates": [
     -1.5422919798047263,

@@ -1,7 +1,8 @@
 {
-  "name": "avenue de la Libération vers Nord",
-  "description": "",
+  "name": "Avenue de la Libération Piste vers Nord",
+  "description": "Comptage des vélos sur la piste bidirectionnelle en direction du nord (Nantes).",
   "idPdc": 950,
+  "neighbor": 949,
   "coordinates": [
     -1.5468218693151887,
     47.19261758551086

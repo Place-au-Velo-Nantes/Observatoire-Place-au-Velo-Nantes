@@ -1,7 +1,8 @@
 {
-  "name": "Magellan vers Ouest",
-  "description": "",
+  "name": "Magellan côté Ouest vers Ouest",
+  "description": "Comptage des vélos sur la piste cyclable bidirectionelle (et non sur la piste cyclable au nord de la route) et allant vers l'ouest (arrivée sur le carrefour avec le tramway).",
   "idPdc": 945,
+  "neighbor": 946,
   "coordinates": [
     -1.5492954525811475,
     47.208824293961634

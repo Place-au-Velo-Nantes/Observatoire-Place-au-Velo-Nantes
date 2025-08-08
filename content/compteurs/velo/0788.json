@@ -1,7 +1,8 @@
 {
-  "name": "50 Otages Vers Nord",
-  "description": "",
+  "name": "50 Otages entrée nord vers Nord",
+  "description": "Comptage des vélos, sortant vers Pont Morant, de la piste cyclable centrale du Cours des 50 otages.",
   "idPdc": 788,
+  "neighbor": 787,
   "coordinates": [
     -1.555035376121632,
     47.219956631104175

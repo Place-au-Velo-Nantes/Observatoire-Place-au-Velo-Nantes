@@ -1,7 +1,8 @@
 {
-  "name": "Magellan vers Ouest",
-  "description": "",
+  "name": "Magellan côté Est vers Ouest",
+  "description": "Comptage des vélos sur la piste cyclable bidirectionelle venant de passer sous le pont Aristide Briand en allant vers l'ouest (CHU).",
   "idPdc": 943,
+  "neighbor": 944,
   "coordinates": [
     -1.543937689328201,
     47.21039712998508

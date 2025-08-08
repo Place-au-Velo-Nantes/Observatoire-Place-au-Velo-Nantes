@@ -1,7 +1,8 @@
 {
   "name": "Pont de Pornic vers Nord",
-  "description": "",
+  "description": "Comptage des vélos allant vers le nord (île de Nantes) sur la piste qui longe la ligne de chemin de fer.",
   "idPdc": 672,
+  "neighbor": 673,
   "coordinates": [
     -1.548912422726574,
     47.20137134043221
