@@ -68,7 +68,7 @@ const socials = [
   },
   {
     name: 'Github',
-    href: 'https://github.com/louis-ev/Observatoire-Place-au-Velo-Nantes',
+    href: 'https://github.com/Place-au-Velo-Nantes/Observatoire-Place-au-Velo-Nantes',
     icon: 'mdi:github'
   },
   {
