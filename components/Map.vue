@@ -31,7 +31,7 @@ import FilterControl from '@/maplibre/FilterControl';
 import FullscreenControl from '@/maplibre/FullscreenControl';
 import ShrinkControl from '@/maplibre/ShrinkControl';
 
-import { isLineStringFeature, type CompteurFeature, type LaneStatus, type LaneType } from '~/types';
+import { isLineStringFeature, type CompteurFeature, type LaneQuality, type LaneStatus, type LaneType } from '~/types';
 import config from '~/config.json';
 
 // const config = useRuntimeConfig();
@@ -61,6 +61,7 @@ const filterModalComponent = ref<{ openModal: () => void } | null>(null);
 const { loadImages, plotFeatures, fitBounds, handleMapClick } = useMap();
 
 const statuses = ref(['planned', 'variante', 'done', 'postponed', 'variante-postponed', 'unknown', 'wip', 'tested']);
+
 const types = ref([
   'bidirectionnelle',
   'bilaterale',
@@ -74,11 +75,16 @@ const types = ref([
   'aucun',
   'inconnu'
 ]);
+const qualities = ref(['satisfactory', 'unsatisfactory']);
 
 const features = computed(() => {
   return (props.features ?? []).filter(feature => {
     if (isLineStringFeature(feature)) {
-      return statuses.value.includes(feature.properties.status) && types.value.includes(feature.properties.type);
+      return (
+        statuses.value.includes(feature.properties.status) &&
+        types.value.includes(feature.properties.type) &&
+        qualities.value.includes(feature.properties.quality)
+      );
     }
     return true;
   });
@@ -86,13 +92,16 @@ const features = computed(() => {
 
 function refreshFilters({
   visibleStatuses,
-  visibleTypes
+  visibleTypes,
+  visibleQualities
 }: {
   visibleStatuses: LaneStatus[];
   visibleTypes: LaneType[];
+  visibleQualities: LaneQuality[];
 }) {
   statuses.value = visibleStatuses;
   types.value = visibleTypes;
+  qualities.value = visibleQualities;
 }
 
 onMounted(() => {
