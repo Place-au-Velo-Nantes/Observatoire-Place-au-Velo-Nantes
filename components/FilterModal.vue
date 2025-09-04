@@ -106,7 +106,8 @@ const typeFilters = ref([
 
 const qualityFilters = ref([
   { label: 'Satisfaisant', isEnable: true, qualities: ['satisfactory'] },
-  { label: 'Non satisfaisant', isEnable: true, qualities: ['unsatisfactory'] }
+  { label: 'Non satisfaisant', isEnable: true, qualities: ['unsatisfactory'] },
+  { label: 'Pas encore évalué', isEnable: true, qualities: ['not-rated-yet'] }
 ]);
 
 function toggleStatusFilter(index: number) {

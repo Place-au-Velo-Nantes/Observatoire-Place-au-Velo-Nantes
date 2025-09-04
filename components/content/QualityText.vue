@@ -3,14 +3,13 @@
 </template>
 
 <script setup lang="ts">
-
 import type { LaneQuality } from '~/types';
 
 const { displayQuality } = useConfig();
 const { qualityNames } = useStats();
 
 const { type } = defineProps<{
-  type: LaneQuality
+  type: LaneQuality;
 }>();
 
 type QualityText = {
@@ -18,9 +17,9 @@ type QualityText = {
     title: string;
     color: {
       text: string;
-    }
-  }
-}
+    };
+  };
+};
 const qualities: QualityText = {
   unsatisfactory: {
     title: qualityNames.unsatisfactory,
@@ -34,8 +33,8 @@ const qualities: QualityText = {
       text: 'text-[#00b050]'
     }
   },
-  unknown: {
-    title: qualityNames.unknown,
+  'not-rated-yet': {
+    title: qualityNames.notRatedYet,
     color: {
       text: 'text-[#4a5565]'
     }

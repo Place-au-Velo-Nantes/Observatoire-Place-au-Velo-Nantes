@@ -75,7 +75,7 @@ const types = ref([
   'aucun',
   'inconnu'
 ]);
-const qualities = ref(['satisfactory', 'unsatisfactory']);
+const qualities = ref(['satisfactory', 'unsatisfactory', 'not-rated-yet']);
 
 const features = computed(() => {
   return (props.features ?? []).filter(feature => {

@@ -196,7 +196,7 @@ export const useStats = () => {
   const qualityNames: Record<LaneQuality, string> = {
     unsatisfactory: 'Non satisfaisant',
     satisfactory: 'Satisfaisant',
-    unknown: 'À définir'
+    'not-rated-yet': 'Pas encore évalué'
   };
 
   function getStatsByTypology(voies: Collections['voiesCyclablesGeojson'][]) {

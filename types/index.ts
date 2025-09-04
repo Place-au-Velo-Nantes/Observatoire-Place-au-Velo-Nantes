@@ -23,7 +23,7 @@ export type LaneStatus =
   | 'variante'
   | 'variante-postponed';
 
-export type LaneQuality = 'unsatisfactory' | 'satisfactory' | 'unknown';
+export type LaneQuality = 'unsatisfactory' | 'satisfactory' | 'not-rated-yet';
 
 export type LineStringFeature = {
   type: 'Feature';
@@ -64,7 +64,7 @@ export type CompteurFeature = {
     type: 'compteur-velo' | 'compteur-voiture';
     idPdc: Number;
     neighbor?: Number;
-    neighborData? : CompteurFeature;
+    neighborData?: CompteurFeature;
     line?: string;
     name: string;
     link?: string;
