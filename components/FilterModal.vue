@@ -123,23 +123,16 @@ function toggleQualityFilter(index: number) {
 
 const emit = defineEmits(['update']);
 
-watch([statusFilters, typeFilters, qualityFilters], () => {
-  const visibleStatuses = statusFilters.value
-    .filter(item => item.isEnable)
-    .flatMap(item => item.statuses);
+watch(
+  [statusFilters, typeFilters, qualityFilters],
+  () => {
+    const visibleStatuses = statusFilters.value.filter(item => item.isEnable).flatMap(item => item.statuses);
 
-  const visibleTypes = typeFilters.value
-    .filter(item => item.isEnable)
-    .flatMap(item => item.types);
+    const visibleTypes = typeFilters.value.filter(item => item.isEnable).flatMap(item => item.types);
 
-  const visibleQualities = qualityFilters.value
-    .filter(item => item.isEnable)
-    .flatMap(item => item.qualities);
+    const visibleQualities = qualityFilters.value.filter(item => item.isEnable).flatMap(item => item.qualities);
 
-  emit('update', { visibleStatuses, visibleTypes, visibleQualities });
-}, { deep: true });
-
-    emit('update', { visibleStatuses, visibleTypes });
+    emit('update', { visibleStatuses, visibleTypes, visibleQualities });
   },
   { deep: true }
 );
