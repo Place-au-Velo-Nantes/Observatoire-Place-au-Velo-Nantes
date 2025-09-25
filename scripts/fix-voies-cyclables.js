@@ -117,7 +117,7 @@ const processVoiesFiles = () => {
             lines[line_letter] = [];
           }
 
-          let name = feature.properties.nom ? feature.properties.nom : line_letter + `#${index}`;
+          let name = feature.properties.Nom ? feature.properties.Nom : line_letter + `#${index}`;
 
           let properties = {
             line: line_letter,
@@ -126,7 +126,7 @@ const processVoiesFiles = () => {
             doneAt: '01/01/2000',
             type: fixType(feature.properties.type || ''),
             quality: feature.properties.quality || 'not-rated-yet',
-            infrastructure: feature.properties.infrastrcuture || '',
+            infrastructure: feature.properties.infrastructure || '',
             link: feature.properties.link || ''
           };
 

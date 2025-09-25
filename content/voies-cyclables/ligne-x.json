@@ -3,6 +3,23 @@
   "features": [
     {
       "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.681764,
+            47.175436
+          ],
+          [
+            -1.67957,
+            47.17641
+          ],
+          [
+            -1.677371,
+            47.180049
+          ]
+        ]
+      },
       "properties": {
         "line": "X",
         "name": "X#139",
@@ -12,26 +29,6 @@
         "quality": "not-rated-yet",
         "infrastructure": "secondaire",
         "link": ""
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.681764,
-            47.175436,
-            0
-          ],
-          [
-            -1.67957,
-            47.17641,
-            0
-          ],
-          [
-            -1.677371,
-            47.180049,
-            0
-          ]
-        ]
       }
     }
   ]
