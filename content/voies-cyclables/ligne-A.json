@@ -3,16 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "line": "A",
-        "name": "Indre-Pirmil",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -101,6 +91,16 @@
             47.175053
           ]
         ]
+      },
+      "properties": {
+        "line": "A",
+        "name": "Indre-Pirmil",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
       }
     },
     {
@@ -631,7 +631,7 @@
       "properties": {
         "line": "A",
         "name": "Boulevard des Pas enchantés",
-        "status": "wip",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",

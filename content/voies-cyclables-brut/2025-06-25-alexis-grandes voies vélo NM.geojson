@@ -3,17 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "Nom": "Indre-Pirmil",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": "A",
-        "quality": null,
-        "infrastructure": "magistrale",
-        "id": null,
-        "calculated_length": 5888.488
-      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -39,6 +28,17 @@
           [-1.629128, 47.173186],
           [-1.623807, 47.175053]
         ]
+      },
+      "properties": {
+        "Nom": "Indre-Pirmil",
+        "status": "reporté",
+        "type": "",
+        "year": null,
+        "line": "A",
+        "quality": null,
+        "infrastructure": "magistrale",
+        "id": null,
+        "calculated_length": 5888.488
       }
     },
     {
@@ -4540,9 +4540,9 @@
       },
       "properties": {
         "Nom": "Boulevard des Pas enchantés",
-        "status": "en cours",
+        "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
+        "year": 2025,
         "line": "A",
         "quality": null,
         "infrastructure": "magistrale",

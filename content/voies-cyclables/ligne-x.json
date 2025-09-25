@@ -7,6 +7,1250 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.485954,
+            47.296646
+          ],
+          [
+            -1.483582,
+            47.287724
+          ],
+          [
+            -1.483882,
+            47.285307
+          ],
+          [
+            -1.493306,
+            47.274756
+          ],
+          [
+            -1.504172,
+            47.255182
+          ],
+          [
+            -1.507831,
+            47.249684
+          ],
+          [
+            -1.512283,
+            47.240412
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Carquefou - Route de Ste Luce",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.471353,
+            47.224691
+          ],
+          [
+            -1.480603,
+            47.214485
+          ],
+          [
+            -1.485409,
+            47.212794
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Liaison Pas enchantés/Pont de Bellevue",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.546268,
+            47.303288
+          ],
+          [
+            -1.542663,
+            47.307536
+          ],
+          [
+            -1.54262,
+            47.308235
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "D39",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.502056821,
+            47.246244634
+          ],
+          [
+            -1.500041,
+            47.243493
+          ],
+          [
+            -1.499344,
+            47.243034
+          ],
+          [
+            -1.499805,
+            47.242837
+          ],
+          [
+            -1.498808,
+            47.24192
+          ],
+          [
+            -1.498325,
+            47.242094
+          ],
+          [
+            -1.496437,
+            47.240405
+          ],
+          [
+            -1.495396,
+            47.240929
+          ],
+          [
+            -1.492563,
+            47.238576
+          ],
+          [
+            -1.493175,
+            47.238023
+          ],
+          [
+            -1.486851,
+            47.233144
+          ],
+          [
+            -1.485778,
+            47.232212
+          ],
+          [
+            -1.483943,
+            47.233712
+          ],
+          [
+            -1.480579,
+            47.236573
+          ],
+          [
+            -1.476674,
+            47.234481
+          ],
+          [
+            -1.474802,
+            47.233304
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Porte de Sainte Luce - Pont de Bellevue",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.474802,
+            47.233304
+          ],
+          [
+            -1.469679,
+            47.230578
+          ],
+          [
+            -1.469653,
+            47.228802
+          ],
+          [
+            -1.4694,
+            47.227394
+          ],
+          [
+            -1.471353,
+            47.224691
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Pont de Bellevue",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.544747948,
+            47.194651991
+          ],
+          [
+            -1.544995104,
+            47.194485618
+          ],
+          [
+            -1.545451289,
+            47.194226446
+          ],
+          [
+            -1.545726587,
+            47.194133382
+          ],
+          [
+            -1.545460973,
+            47.193956652
+          ],
+          [
+            -1.546510866,
+            47.192973267
+          ],
+          [
+            -1.546714121,
+            47.192804858
+          ],
+          [
+            -1.546811969,
+            47.192687262
+          ],
+          [
+            -1.546840272,
+            47.192586701
+          ],
+          [
+            -1.546930808,
+            47.192512002
+          ],
+          [
+            -1.54704383,
+            47.192479157
+          ],
+          [
+            -1.547134756,
+            47.192412729
+          ],
+          [
+            -1.547509885,
+            47.19205484
+          ],
+          [
+            -1.547558864,
+            47.191982674
+          ],
+          [
+            -1.547600734,
+            47.191778531
+          ],
+          [
+            -1.547744809,
+            47.191270579
+          ],
+          [
+            -1.547751153,
+            47.191236768
+          ],
+          [
+            -1.547870936,
+            47.191213856
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Avenue de la Libération",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562853651,
+            47.192589473
+          ],
+          [
+            -1.56219437,
+            47.196333557
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Victor Schoelcher",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.528687477,
+            47.193740165
+          ],
+          [
+            -1.528610117,
+            47.193436627
+          ],
+          [
+            -1.528380532,
+            47.193258573
+          ],
+          [
+            -1.525230388,
+            47.189336609
+          ],
+          [
+            -1.521581075,
+            47.185521524
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard de Vendée",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.556550363,
+            47.216116944
+          ],
+          [
+            -1.557453612,
+            47.215978822
+          ],
+          [
+            -1.55786947,
+            47.215956461
+          ],
+          [
+            -1.558386463,
+            47.215859893
+          ],
+          [
+            -1.55891016,
+            47.215786093
+          ],
+          [
+            -1.559614774,
+            47.215685677
+          ],
+          [
+            -1.56356068,
+            47.215054613
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue du Calvaire",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "voie-bus",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.552186657,
+            47.222841214
+          ],
+          [
+            -1.551218348,
+            47.22166954
+          ],
+          [
+            -1.551044982,
+            47.221583386
+          ],
+          [
+            -1.549598869,
+            47.219804594
+          ],
+          [
+            -1.548579728,
+            47.218571765
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Sully",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "voie-bus",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.548576944,
+            47.218569424
+          ],
+          [
+            -1.54776682,
+            47.217605944
+          ],
+          [
+            -1.547745678,
+            47.217537016
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Henri IV Nord",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "voie-bus",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.547749906,
+            47.217531272
+          ],
+          [
+            -1.547314837,
+            47.216949397
+          ],
+          [
+            -1.547314837,
+            47.216949397
+          ],
+          [
+            -1.547070119,
+            47.216664724
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Henri IV Sud",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.545733154,
+            47.200948508
+          ],
+          [
+            -1.547104915,
+            47.201569409
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Victor Hugo",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.548911568,
+            47.201580142
+          ],
+          [
+            -1.553992604,
+            47.201596156
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Bénoni Goullin",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.545727277,
+            47.194130748
+          ],
+          [
+            -1.546351154,
+            47.194374727
+          ],
+          [
+            -1.546992855,
+            47.19418958
+          ],
+          [
+            -1.554355409,
+            47.19233689
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Pont-Rousseau",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.554352856,
+            47.192335161
+          ],
+          [
+            -1.562858172,
+            47.192595726
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard du Général de Gaulle Est Rezé",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562858175,
+            47.192592265
+          ],
+          [
+            -1.567208192,
+            47.193019396
+          ],
+          [
+            -1.570552526,
+            47.192892638
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard du Général de Gaulle Ouest Rezé",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561972822,
+            47.201616265
+          ],
+          [
+            -1.553980234,
+            47.20159471
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Nouveau CHU",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.545731159,
+            47.2009466
+          ],
+          [
+            -1.543768181,
+            47.20147548
+          ],
+          [
+            -1.543096133,
+            47.202385406
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Mangin",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.547090913,
+            47.201564257
+          ],
+          [
+            -1.547646508,
+            47.201845769
+          ],
+          [
+            -1.542506308,
+            47.203296328
+          ],
+          [
+            -1.542404729,
+            47.2031912
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Square Vertais",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.542406817,
+            47.203187648
+          ],
+          [
+            -1.5430965,
+            47.202379996
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Anatole de Monzie Ouest",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.542409773,
+            47.203185423
+          ],
+          [
+            -1.542251077,
+            47.203232239
+          ],
+          [
+            -1.542129967,
+            47.203219471
+          ],
+          [
+            -1.542036002,
+            47.203219471
+          ],
+          [
+            -1.541781253,
+            47.20330459
+          ],
+          [
+            -1.541049479,
+            47.203590563
+          ],
+          [
+            -1.540414695,
+            47.203889898
+          ],
+          [
+            -1.539738147,
+            47.204253071
+          ],
+          [
+            -1.538956972,
+            47.204719876
+          ],
+          [
+            -1.538695963,
+            47.204935508
+          ],
+          [
+            -1.538579029,
+            47.205121346
+          ],
+          [
+            -1.538595375,
+            47.205320684
+          ],
+          [
+            -1.53829188,
+            47.20541847
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Anatole de Monzie Est",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535562978,
+            47.210723476
+          ],
+          [
+            -1.53401923,
+            47.210548572
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Maurice Bertin",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.534023406,
+            47.210548572
+          ],
+          [
+            -1.533962851,
+            47.210409562
+          ],
+          [
+            -1.534014598,
+            47.209718053
+          ],
+          [
+            -1.534507873,
+            47.208593834
+          ],
+          [
+            -1.534756358,
+            47.208351267
+          ],
+          [
+            -1.534862846,
+            47.208078911
+          ],
+          [
+            -1.535069569,
+            47.207935639
+          ],
+          [
+            -1.535247044,
+            47.207824997
+          ],
+          [
+            -1.53572571,
+            47.207338148
+          ],
+          [
+            -1.536166352,
+            47.206983539
+          ],
+          [
+            -1.536715513,
+            47.206592018
+          ],
+          [
+            -1.537116539,
+            47.206298297
+          ],
+          [
+            -1.537108187,
+            47.206201834
+          ],
+          [
+            -1.536698487,
+            47.205739985
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Allée de l'Île Beaulieu",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.536698498,
+            47.205739495
+          ],
+          [
+            -1.538112146,
+            47.205189078
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Gaëtan Rondeau",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539568219,
+            47.213716402
+          ],
+          [
+            -1.540154536,
+            47.213715088
+          ],
+          [
+            -1.542801919,
+            47.21543332
+          ],
+          [
+            -1.542954704,
+            47.215567506
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Gare Sud",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.635077944,
+            47.228416379
+          ],
+          [
+            -1.633797938,
+            47.229526533
+          ],
+          [
+            -1.631683901,
+            47.23122803
+          ],
+          [
+            -1.631575923,
+            47.231442756
+          ],
+          [
+            -1.631282842,
+            47.231652243
+          ],
+          [
+            -1.630271952,
+            47.233214713
+          ],
+          [
+            -1.630002015,
+            47.233555122
+          ],
+          [
+            -1.629107345,
+            47.235550379
+          ],
+          [
+            -1.628535206,
+            47.237496916
+          ],
+          [
+            -1.627578836,
+            47.240078499
+          ],
+          [
+            -1.626795463,
+            47.240812697
+          ],
+          [
+            -1.626093614,
+            47.241111166
+          ],
+          [
+            -1.624543367,
+            47.241524827
+          ],
+          [
+            -1.623540717,
+            47.241896602
+          ],
+          [
+            -1.620602189,
+            47.243168976
+          ],
+          [
+            -1.619476141,
+            47.243891551
+          ],
+          [
+            -1.617933607,
+            47.244928264
+          ],
+          [
+            -1.616799853,
+            47.246153449
+          ],
+          [
+            -1.615373008,
+            47.248305297
+          ],
+          [
+            -1.614691265,
+            47.249385422
+          ],
+          [
+            -1.614370206,
+            47.249637879
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Marcel Paul Nord",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.635076559,
+            47.228418065
+          ],
+          [
+            -1.635712864,
+            47.227836762
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Marcel Paul Sud",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.64393128,
+            47.21734276
+          ],
+          [
+            -1.64120732,
+            47.218468129
+          ],
+          [
+            -1.640558945,
+            47.219275116
+          ],
+          [
+            -1.640047962,
+            47.22135391
+          ],
+          [
+            -1.639622966,
+            47.222318206
+          ],
+          [
+            -1.63850708,
+            47.224709564
+          ],
+          [
+            -1.637679704,
+            47.225896063
+          ],
+          [
+            -1.636628362,
+            47.227022963
+          ],
+          [
+            -1.635712874,
+            47.227833746
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard François Mitterrand",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.540008,
+            47.256116
+          ],
+          [
+            -1.542454,
+            47.256858
+          ],
+          [
+            -1.545029,
+            47.258824
+          ],
+          [
+            -1.545737,
+            47.260951
+          ],
+          [
+            -1.544686,
+            47.265945
+          ],
+          [
+            -1.544643,
+            47.267489
+          ],
+          [
+            -1.54593,
+            47.267722
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Liaison Babinière",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.681764,
             47.175436
           ],
@@ -28,6 +1272,126 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "secondaire",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.477066925,
+            47.186947576
+          ],
+          [
+            -1.444386,
+            47.184944
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Saint-Sébastien-sur-Loire",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.542152,
+            47.197496
+          ],
+          [
+            -1.541262,
+            47.197904
+          ],
+          [
+            -1.540361,
+            47.197029
+          ],
+          [
+            -1.527916,
+            47.192742
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Saint-Sébastien-sur-Loire",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.547074341,
+            47.216665679
+          ],
+          [
+            -1.54690979,
+            47.216436411
+          ],
+          [
+            -1.546867824,
+            47.216363473
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Pont de la Rotonde Nord",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.545474166,
+            47.21657256
+          ],
+          [
+            -1.545615063,
+            47.216628733
+          ],
+          [
+            -1.545792476,
+            47.216606163
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Place de la Duchesse Anne",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "voie-verte",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
         "link": ""
       }
     }

@@ -45,6 +45,8 @@ const fixType = type => {
     return 'bandes-cyclables';
   } else if (type === 'vélorue') {
     return 'velorue';
+  } else if (type === 'zone de rencontre') {
+    return 'zone-de-rencontre';
   } else if (type === 'voie verte') {
     return 'voie-verte';
     // } else if (type === 'chaucidou') {
@@ -103,8 +105,8 @@ const processVoiesFiles = () => {
         let line_letters = feature.properties.line;
 
         if (!line_letters) {
-          line_letters = '0';
-          return;
+          line_letters = 'X';
+          console.warn(`Warning: Feature at index ${index} in ${filename} has no line property. Assigned to line 'X'.`);
         }
 
         const is_multiple_lines = line_letters.split(',').length > 1;

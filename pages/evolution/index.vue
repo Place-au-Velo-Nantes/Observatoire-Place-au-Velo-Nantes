@@ -76,7 +76,6 @@ function filterFeatures(jsons: typeof geojsons.value, selectedYears: typeof year
         return false;
       }
       const [, , featureYear] = feature.properties.doneAt.split('/');
-      debugger;
       return selectedYears.some(year => year.match(Number(featureYear)));
     });
 }
