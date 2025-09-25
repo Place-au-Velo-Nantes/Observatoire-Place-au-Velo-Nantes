@@ -76,6 +76,12 @@ const fixStatus = status => {
   return 'unknown';
 };
 
+const fixQuality = quality => {
+  if (quality === 'satisfaisant') return 'satisfactory';
+  else if (quality === 'non-satisfaisant') return 'unsatisfactory';
+  return 'not-rated-yet';
+};
+
 const processVoiesFiles = () => {
   const brutDir = 'content/voies-cyclables-brut';
   const outputDir = 'content/voies-cyclables';
@@ -119,7 +125,7 @@ const processVoiesFiles = () => {
             lines[line_letter] = [];
           }
 
-          let name = feature.properties.Nom ? feature.properties.Nom : line_letter + `#${index}`;
+          let name = feature.properties.name ? feature.properties.name : line_letter + `#${index}`;
 
           let properties = {
             line: line_letter,
@@ -127,7 +133,7 @@ const processVoiesFiles = () => {
             status: fixStatus(feature.properties.status || ''),
             doneAt: '01/01/2000',
             type: fixType(feature.properties.type || ''),
-            quality: feature.properties.quality || 'not-rated-yet',
+            quality: fixQuality(feature.properties.quality),
             infrastructure: feature.properties.infrastructure || '',
             link: feature.properties.link || ''
           };

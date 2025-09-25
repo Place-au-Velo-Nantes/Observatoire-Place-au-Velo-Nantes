@@ -398,6 +398,52 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.556550363,
+            47.216116944
+          ],
+          [
+            -1.557453612,
+            47.215978822
+          ],
+          [
+            -1.55786947,
+            47.215956461
+          ],
+          [
+            -1.558386463,
+            47.215859893
+          ],
+          [
+            -1.55891016,
+            47.215786093
+          ],
+          [
+            -1.559614774,
+            47.215685677
+          ],
+          [
+            -1.56356068,
+            47.215054613
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Rue du Calvaire",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "voie-bus",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.57091303,
             47.222733035
           ],

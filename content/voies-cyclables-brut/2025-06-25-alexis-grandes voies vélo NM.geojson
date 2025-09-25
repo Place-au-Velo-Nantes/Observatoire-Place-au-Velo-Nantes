@@ -30,14 +30,13 @@
         ]
       },
       "properties": {
-        "Nom": "Indre-Pirmil",
+        "name": "Indre-Pirmil",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "A",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 5888.488
       }
     },
@@ -52,14 +51,13 @@
         ]
       },
       "properties": {
-        "Nom": "Saint-Sébastien-sur-Loire",
+        "name": "Saint-Sébastien-sur-Loire",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": "",
         "calculated_length": 3943.798
       }
     },
@@ -90,14 +88,13 @@
         ]
       },
       "properties": {
-        "Nom": "Avenue de la Bugallière Est",
+        "name": "Avenue de la Bugallière Est",
         "status": null,
         "type": "bidirectionnelle",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1176.294
       }
     },
@@ -116,14 +113,13 @@
         ]
       },
       "properties": {
-        "Nom": "Avenue de la Bugallière Ouest",
+        "name": "Avenue de la Bugallière Ouest",
         "status": "",
         "type": "chaussidou",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 375.486
       }
     },
@@ -138,14 +134,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue de la Gare - Indre",
+        "name": "Rue de la Gare - Indre",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 281.785
       }
     },
@@ -261,14 +256,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Henri Becquerel",
+        "name": "Boulevard Henri Becquerel",
         "status": null,
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 5485.05
       }
     },
@@ -301,14 +295,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue d'Indre/Rue de la Gare",
+        "name": "Rue d'Indre/Rue de la Gare",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 847.016
       }
     },
@@ -412,14 +405,13 @@
         ]
       },
       "properties": {
-        "Nom": "Couëron-Nantes",
+        "name": "Couëron-Nantes",
         "status": "en cours",
         "type": "",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 15209.542
       }
     },
@@ -435,14 +427,13 @@
         ]
       },
       "properties": {
-        "Nom": "Route de Vannes",
+        "name": "Route de Vannes",
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 2539.853
       }
     },
@@ -468,14 +459,13 @@
         ]
       },
       "properties": {
-        "Nom": "D17/Boulevard Charles de Gaulle",
+        "name": "D17/Boulevard Charles de Gaulle",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1570.753
       }
     },
@@ -490,14 +480,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Charles Monselet",
+        "name": "Rue Charles Monselet",
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 537.024
       }
     },
@@ -534,14 +523,13 @@
         ]
       },
       "properties": {
-        "Nom": "Route de Nantes",
+        "name": "Route de Nantes",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "H",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1704.206
       }
     },
@@ -557,14 +545,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue de Nantes",
+        "name": "Rue de Nantes",
         "status": null,
         "type": "bidirectionnelle",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1825.364
       }
     },
@@ -581,14 +568,13 @@
         ]
       },
       "properties": {
-        "Nom": "Voie verte A82",
+        "name": "Voie verte A82",
         "status": null,
         "type": "voie verte",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 408.012
       }
     },
@@ -607,14 +593,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Léon Gaumont",
+        "name": "Rue Léon Gaumont",
         "status": "à venir",
         "type": "monodirectionnelle",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 920.752
       }
     },
@@ -636,14 +621,13 @@
         ]
       },
       "properties": {
-        "Nom": "Liaison",
+        "name": "Liaison",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1190.026
       }
     },
@@ -679,14 +663,13 @@
         ]
       },
       "properties": {
-        "Nom": "Chemin de Halage de la loire",
+        "name": "Chemin de Halage de la loire",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 3198.843
       }
     },
@@ -703,14 +686,13 @@
         ]
       },
       "properties": {
-        "Nom": "Route de Nantes/Boulevard Mendès France",
+        "name": "Route de Nantes/Boulevard Mendès France",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
         "line": "H",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 728.856
       }
     },
@@ -740,14 +722,13 @@
         ]
       },
       "properties": {
-        "Nom": "Porte de la Chapelle - Porte de Sainte Luce",
+        "name": "Porte de la Chapelle - Porte de Sainte Luce",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "H",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 3188.444
       }
     },
@@ -770,14 +751,13 @@
         ]
       },
       "properties": {
-        "Nom": "Carquefou - Saint Mars La Jaille",
+        "name": "Carquefou - Saint Mars La Jaille",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1232.161
       }
     },
@@ -796,14 +776,13 @@
         ]
       },
       "properties": {
-        "Nom": "Carquefou - Route de Ste Luce",
+        "name": "Carquefou - Route de Ste Luce",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 6732.34
       }
     },
@@ -830,14 +809,13 @@
         ]
       },
       "properties": {
-        "Nom": "Route de Sainte Luce",
+        "name": "Route de Sainte Luce",
         "status": "en cours",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1717.568
       }
     },
@@ -855,14 +833,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Guy Mollet Sud",
+        "name": "Boulevard Guy Mollet Sud",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 353.082
       }
     },
@@ -905,14 +882,13 @@
         ]
       },
       "properties": {
-        "Nom": "Quai Ceineray",
+        "name": "Quai Ceineray",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": "satisfaisant",
         "calculated_length": 1096.246
       }
     },
@@ -934,14 +910,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Van Iseghem",
+        "name": "Boulevard Van Iseghem",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 730.256
       }
     },
@@ -956,14 +931,13 @@
         ]
       },
       "properties": {
-        "Nom": "Liaison Pas enchantés/Pont de Bellevue",
+        "name": "Liaison Pas enchantés/Pont de Bellevue",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1743.277
       }
     },
@@ -980,14 +954,13 @@
         ]
       },
       "properties": {
-        "Nom": "Avenue du Pont de la Baronnière",
+        "name": "Avenue du Pont de la Baronnière",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 696.449
       }
     },
@@ -1008,14 +981,13 @@
         ]
       },
       "properties": {
-        "Nom": "Cardo-Porte de la Chapelle",
+        "name": "Cardo-Porte de la Chapelle",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "H",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 2187.255
       }
     },
@@ -1030,14 +1002,13 @@
         ]
       },
       "properties": {
-        "Nom": "D39",
+        "name": "D39",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 623.094
       }
     },
@@ -1065,14 +1036,13 @@
         ]
       },
       "properties": {
-        "Nom": "Porte de Sainte Luce - Pont de Bellevue",
+        "name": "Porte de Sainte Luce - Pont de Bellevue",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 3422.905
       }
     },
@@ -1089,14 +1059,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont de Bellevue",
+        "name": "Pont de Bellevue",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1182.386
       }
     },
@@ -1117,14 +1086,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Ernest Dalby",
+        "name": "Boulevard Ernest Dalby",
         "status": "en cours",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 458.56
       }
     },
@@ -1141,14 +1109,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont de la Rotonde Nord",
+        "name": "Pont de la Rotonde Nord",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 80.014
       }
     },
@@ -1178,14 +1145,13 @@
         ]
       },
       "properties": {
-        "Nom": "Avenue de la Libération",
+        "name": "Avenue de la Libération",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 490.188
       }
     },
@@ -1218,14 +1184,13 @@
         ]
       },
       "properties": {
-        "Nom": "Cours Commandant d'Estienne d'Orves/Kennedy",
+        "name": "Cours Commandant d'Estienne d'Orves/Kennedy",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 797.122
       }
     },
@@ -1241,14 +1206,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard de Sarrebruck 3",
+        "name": "Boulevard de Sarrebruck 3",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "B,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 52.849
       }
     },
@@ -1266,14 +1230,13 @@
         ]
       },
       "properties": {
-        "Nom": "Mail Pablo Picasso",
+        "name": "Mail Pablo Picasso",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 768.032
       }
     },
@@ -1287,14 +1250,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Général de Gaulle Sud 2",
+        "name": "Boulevard Général de Gaulle Sud 2",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 261.476
       }
     },
@@ -1308,14 +1270,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Gabriel Guist'hau",
+        "name": "Boulevard Gabriel Guist'hau",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 553.801
       }
     },
@@ -1336,14 +1297,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rezé - Les Sorinières",
+        "name": "Rezé - Les Sorinières",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 7274.432
       }
     },
@@ -1357,14 +1317,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Victor Schoelcher",
+        "name": "Boulevard Victor Schoelcher",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 419.235
       }
     },
@@ -1388,14 +1347,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Jean Monnet",
+        "name": "Boulevard Jean Monnet",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 549.606
       }
     },
@@ -1412,14 +1370,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard de Sarrebruck 5",
+        "name": "Boulevard de Sarrebruck 5",
         "status": "",
         "type": "voie bus",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 244.4
       }
     },
@@ -1436,14 +1393,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard de Vendée",
+        "name": "Boulevard de Vendée",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1064.056
       }
     },
@@ -1461,14 +1417,13 @@
         ]
       },
       "properties": {
-        "Nom": "Cours Olivier de Clisson",
+        "name": "Cours Olivier de Clisson",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E,D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 162.997
       }
     },
@@ -1492,14 +1447,13 @@
         ]
       },
       "properties": {
-        "Nom": "Cours des 50 otages",
+        "name": "Cours des 50 otages",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": "satisfaisant",
         "calculated_length": 529.099
       }
     },
@@ -1513,14 +1467,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont Général de la Motte Rouge",
+        "name": "Pont Général de la Motte Rouge",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 104.142
       }
     },
@@ -1539,14 +1492,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue du Calvaire",
+        "name": "Rue du Calvaire",
         "status": "",
         "type": "voie bus",
         "year": null,
-        "line": null,
-        "quality": null,
+        "line": "D",
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": "",
         "calculated_length": 544.391
       }
     },
@@ -1561,14 +1513,13 @@
         ]
       },
       "properties": {
-        "Nom": "Via Rue de Carcouët",
+        "name": "Via Rue de Carcouët",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 275.322
       }
     },
@@ -1585,14 +1536,13 @@
         ]
       },
       "properties": {
-        "Nom": "Via Rue George Sand",
+        "name": "Via Rue George Sand",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 327.186
       }
     },
@@ -1612,14 +1562,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Auguste Pageot - Clovis Constat",
+        "name": "Boulevard Auguste Pageot - Clovis Constat",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 743.901
       }
     },
@@ -1640,14 +1589,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Pierre de Coubertin",
+        "name": "Boulevard Pierre de Coubertin",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 956.743
       }
     },
@@ -1664,14 +1612,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Sully",
+        "name": "Rue Sully",
         "status": "",
         "type": "voie bus",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 549.109
       }
     },
@@ -1686,14 +1633,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Henri IV Nord",
+        "name": "Rue Henri IV Nord",
         "status": "",
         "type": "voie bus",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 131.275
       }
     },
@@ -1709,14 +1655,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Henri IV Sud",
+        "name": "Rue Henri IV Sud",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 109.278
       }
     },
@@ -1730,14 +1675,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont de la Rotonde Sud",
+        "name": "Pont de la Rotonde Sud",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 106.416
       }
     },
@@ -1751,14 +1695,13 @@
         ]
       },
       "properties": {
-        "Nom": "Avenue Jean-Claude Bonduele",
+        "name": "Avenue Jean-Claude Bonduele",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 394.118
       }
     },
@@ -1772,14 +1715,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont Aristide-Briand",
+        "name": "Pont Aristide-Briand",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 384.571
       }
     },
@@ -1793,14 +1735,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard du Général de Gaulle Nord",
+        "name": "Boulevard du Général de Gaulle Nord",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 213.438
       }
     },
@@ -1814,14 +1755,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard du Général de Gaulle Sud",
+        "name": "Boulevard du Général de Gaulle Sud",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 213.604
       }
     },
@@ -1835,14 +1775,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont Georges Clemenceau",
+        "name": "Pont Georges Clemenceau",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 389.529
       }
     },
@@ -1856,14 +1795,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Emile Gabory",
+        "name": "Boulevard Emile Gabory",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 834.375
       }
     },
@@ -1878,14 +1816,13 @@
         ]
       },
       "properties": {
-        "Nom": "Place de la Duchesse Anne",
+        "name": "Place de la Duchesse Anne",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 86.836
       }
     },
@@ -1907,14 +1844,13 @@
         ]
       },
       "properties": {
-        "Nom": "Cours John Kennedy",
+        "name": "Cours John Kennedy",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 467.971
       }
     },
@@ -1934,14 +1870,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Stalingrad",
+        "name": "Boulevard Stalingrad",
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 648.139
       }
     },
@@ -1958,14 +1893,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Ernest Dalby Nord",
+        "name": "Boulevard Ernest Dalby Nord",
         "status": "en cours",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 606.81
       }
     },
@@ -1987,14 +1921,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue du pont de l'arche de Mauves",
+        "name": "Rue du pont de l'arche de Mauves",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 294.569
       }
     },
@@ -2032,14 +1965,13 @@
         ]
       },
       "properties": {
-        "Nom": "Quai Magellan",
+        "name": "Quai Magellan",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 998.982
       }
     },
@@ -2062,14 +1994,13 @@
         ]
       },
       "properties": {
-        "Nom": "Quai de Malakoff Ouest",
+        "name": "Quai de Malakoff Ouest",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "B,D,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 254.39
       }
     },
@@ -2095,14 +2026,13 @@
         ]
       },
       "properties": {
-        "Nom": "Quai de Malakoff Est",
+        "name": "Quai de Malakoff Est",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 519.044
       }
     },
@@ -2118,14 +2048,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard de Sarrebruck 1",
+        "name": "Boulevard de Sarrebruck 1",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 93.818
       }
     },
@@ -2141,14 +2070,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard de Sarrebruck 2",
+        "name": "Boulevard de Sarrebruck 2",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 99.484
       }
     },
@@ -2169,14 +2097,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard de Sarrebruck 4",
+        "name": "Boulevard de Sarrebruck 4",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 712.188
       }
     },
@@ -2193,14 +2120,13 @@
         ]
       },
       "properties": {
-        "Nom": "Chemin des bateliers Ouest",
+        "name": "Chemin des bateliers Ouest",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 97.979
       }
     },
@@ -2219,14 +2145,13 @@
         ]
       },
       "properties": {
-        "Nom": "Chemin des bateliers Est",
+        "name": "Chemin des bateliers Est",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 368.848
       }
     },
@@ -2242,14 +2167,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont Willy-Brandt",
+        "name": "Pont Willy-Brandt",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "D,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 254.64
       }
     },
@@ -2265,14 +2189,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont Général Audibert",
+        "name": "Pont Général Audibert",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 320.065
       }
     },
@@ -2287,14 +2210,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard des Martyrs Nantais de la Résistance",
+        "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 445.32
       }
     },
@@ -2308,14 +2230,13 @@
         ]
       },
       "properties": {
-        "Nom": "Place Magellan",
+        "name": "Place Magellan",
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 123.958
       }
     },
@@ -2340,14 +2261,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont de Pirmil/Pont-Rousseau",
+        "name": "Pont de Pirmil/Pont-Rousseau",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "A,E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 402.719
       }
     },
@@ -2361,14 +2281,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Victor Hugo",
+        "name": "Boulevard Victor Hugo",
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 124.772
       }
     },
@@ -2382,14 +2301,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Bénoni Goullin",
+        "name": "Boulevard Bénoni Goullin",
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 384.991
       }
     },
@@ -2412,14 +2330,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont ferroviaire de Pirmil",
+        "name": "Pont ferroviaire de Pirmil",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 679.135
       }
     },
@@ -2435,14 +2352,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont-Rousseau",
+        "name": "Pont-Rousseau",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 702.059
       }
     },
@@ -2456,14 +2372,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard du Général de Gaulle Est Rezé",
+        "name": "Boulevard du Général de Gaulle Est Rezé",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 645.204
       }
     },
@@ -2478,14 +2393,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard du Général de Gaulle Ouest Rezé",
+        "name": "Boulevard du Général de Gaulle Ouest Rezé",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 586.886
       }
     },
@@ -2504,14 +2418,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont des 3 continents",
+        "name": "Pont des 3 continents",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 409.327
       }
     },
@@ -2532,14 +2445,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Simone Veil",
+        "name": "Boulevard Simone Veil",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
         "line": "C,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 215.567
       }
     },
@@ -2553,14 +2465,13 @@
         ]
       },
       "properties": {
-        "Nom": "Nouveau CHU",
+        "name": "Nouveau CHU",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 605.599
       }
     },
@@ -2582,14 +2493,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Simone Veil",
+        "name": "Rue Simone Veil",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
         "line": "C,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 300.022
       }
     },
@@ -2604,14 +2514,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont Anne de Bretagne/Bd Léon Bureau",
+        "name": "Pont Anne de Bretagne/Bd Léon Bureau",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 732.945
       }
     },
@@ -2626,14 +2535,13 @@
         ]
       },
       "properties": {
-        "Nom": "Mangin",
+        "name": "Mangin",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 273.189
       }
     },
@@ -2649,14 +2557,13 @@
         ]
       },
       "properties": {
-        "Nom": "Square Vertais",
+        "name": "Square Vertais",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 487.981
       }
     },
@@ -2670,14 +2577,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Anatole de Monzie Ouest",
+        "name": "Rue Anatole de Monzie Ouest",
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 103.889
       }
     },
@@ -2702,14 +2608,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Anatole de Monzie Est",
+        "name": "Rue Anatole de Monzie Est",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 418.557
       }
     },
@@ -2723,14 +2628,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Maurice Bertin",
+        "name": "Boulevard Maurice Bertin",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 118.555
       }
     },
@@ -2756,14 +2660,13 @@
         ]
       },
       "properties": {
-        "Nom": "Allée de l'Île Beaulieu",
+        "name": "Allée de l'Île Beaulieu",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 620.705
       }
     },
@@ -2777,14 +2680,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Gaëtan Rondeau",
+        "name": "Rue Gaëtan Rondeau",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 123.352
       }
     },
@@ -2803,14 +2705,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard des Pas enchantés",
+        "name": "Boulevard des Pas enchantés",
         "status": "en cours",
         "type": "bidirectionnelle",
         "year": null,
         "line": "A,D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1756.143
       }
     },
@@ -2828,14 +2729,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Du Massacre",
+        "name": "Boulevard Du Massacre",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 816.762
       }
     },
@@ -2856,14 +2756,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Ernest Dalby Sud",
+        "name": "Boulevard Ernest Dalby Sud",
         "status": "en cours",
         "type": "monodirectionnelle",
         "year": null,
         "line": "F,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 458.56
       }
     },
@@ -2882,14 +2781,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Jean Philippot",
+        "name": "Boulevard Jean Philippot",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 398.942
       }
     },
@@ -2907,14 +2805,13 @@
         ]
       },
       "properties": {
-        "Nom": "Gloriette",
+        "name": "Gloriette",
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 410.49
       }
     },
@@ -2930,14 +2827,13 @@
         ]
       },
       "properties": {
-        "Nom": "Gare Sud",
+        "name": "Gare Sud",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 340.257
       }
     },
@@ -2953,14 +2849,13 @@
         ]
       },
       "properties": {
-        "Nom": "Quai moncousu",
+        "name": "Quai moncousu",
         "status": "",
         "type": "monodirectionnellea",
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 507.616
       }
     },
@@ -2992,14 +2887,13 @@
         ]
       },
       "properties": {
-        "Nom": "Quai de la fosse",
+        "name": "Quai de la fosse",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "B,C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1318.783
       }
     },
@@ -3031,14 +2925,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard René Coty",
+        "name": "Boulevard René Coty",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 2129.41
       }
     },
@@ -3057,14 +2950,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Emile Romanet",
+        "name": "Boulevard Emile Romanet",
         "status": "en cours",
         "type": "monodirectionnelle",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 793.296
       }
     },
@@ -3086,14 +2978,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue de Saint nazaire",
+        "name": "Rue de Saint nazaire",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 887.96
       }
     },
@@ -3107,14 +2998,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Charles de Gaulle",
+        "name": "Boulevard Charles de Gaulle",
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
         "line": "C",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 393.334
       }
     },
@@ -3130,14 +3020,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Albert Londres/ Rue Marguerite Yourcenar",
+        "name": "Rue Albert Londres/ Rue Marguerite Yourcenar",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "F,H",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 285.245
       }
     },
@@ -3164,14 +3053,13 @@
         ]
       },
       "properties": {
-        "Nom": "Promenade Van Iseghem",
+        "name": "Promenade Van Iseghem",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 443.629
       }
     },
@@ -3193,14 +3081,13 @@
         ]
       },
       "properties": {
-        "Nom": "Chemin de la Dame de Nage Sud",
+        "name": "Chemin de la Dame de Nage Sud",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 330.667
       }
     },
@@ -3219,14 +3106,13 @@
         ]
       },
       "properties": {
-        "Nom": "Chemin de la Dame de Nage Nord",
+        "name": "Chemin de la Dame de Nage Nord",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 99.928
       }
     },
@@ -3243,14 +3129,13 @@
         ]
       },
       "properties": {
-        "Nom": "Chemin de la Houssinière",
+        "name": "Chemin de la Houssinière",
         "status": "",
         "type": "vélorue",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 182.831
       }
     },
@@ -3266,14 +3151,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard du petit port",
+        "name": "Boulevard du petit port",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 273.005
       }
     },
@@ -3288,14 +3172,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Guy Mollet Nord",
+        "name": "Boulevard Guy Mollet Nord",
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 669.087
       }
     },
@@ -3320,14 +3203,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Martin Luther King",
+        "name": "Boulevard Martin Luther King",
         "status": "",
         "type": "voie bus",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1011.286
       }
     },
@@ -3358,14 +3240,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Mendès France/Cardo",
+        "name": "Boulevard Mendès France/Cardo",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "H",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 914.471
       }
     },
@@ -3398,14 +3279,13 @@
         ]
       },
       "properties": {
-        "Nom": "Avenue Claude Antoine Peccot Ouest",
+        "name": "Avenue Claude Antoine Peccot Ouest",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "D,I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 894.833
       }
     },
@@ -3423,14 +3303,13 @@
         ]
       },
       "properties": {
-        "Nom": "Avenue Claude Antoine Peccot Est",
+        "name": "Avenue Claude Antoine Peccot Est",
         "status": "",
         "type": "bande cylable",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 317.872
       }
     },
@@ -3444,14 +3323,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue du Solay",
+        "name": "Rue du Solay",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 358.128
       }
     },
@@ -3484,14 +3362,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Marcel Paul Nord",
+        "name": "Boulevard Marcel Paul Nord",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 2955.867
       }
     },
@@ -3505,14 +3382,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Marcel Paul Sud",
+        "name": "Boulevard Marcel Paul Sud",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 80.615
       }
     },
@@ -3533,14 +3409,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard François Mitterrand",
+        "name": "Boulevard François Mitterrand",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1377.01
       }
     },
@@ -3559,14 +3434,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue de l'hôtel de ville",
+        "name": "Rue de l'hôtel de ville",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 745.435
       }
     },
@@ -3580,14 +3454,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue de la Gare Nord",
+        "name": "Rue de la Gare Nord",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 179.953
       }
     },
@@ -3606,14 +3479,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue de la Gare Sud",
+        "name": "Rue de la Gare Sud",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 508.725
       }
     },
@@ -3631,14 +3503,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rue Jean Jaurès",
+        "name": "Rue Jean Jaurès",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 807.693
       }
     },
@@ -3654,14 +3525,13 @@
         ]
       },
       "properties": {
-        "Nom": "Quai Jean Bart Ouest",
+        "name": "Quai Jean Bart Ouest",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 275.346
       }
     },
@@ -3678,14 +3548,13 @@
         ]
       },
       "properties": {
-        "Nom": "Quai Jean Bart Est",
+        "name": "Quai Jean Bart Est",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 398.817
       }
     },
@@ -3704,14 +3573,13 @@
         ]
       },
       "properties": {
-        "Nom": "Liaison Babinière",
+        "name": "Liaison Babinière",
         "status": null,
         "type": null,
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1571.35
       }
     },
@@ -3742,14 +3610,13 @@
         ]
       },
       "properties": {
-        "Nom": "Loire à vélo",
+        "name": "Loire à vélo",
         "status": null,
         "type": null,
         "year": null,
         "line": "B",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 9978.994
       }
     },
@@ -3775,14 +3642,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 4115.577
       }
     },
@@ -3808,14 +3674,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "maillage",
-        "id": null,
+        "quality": null,
         "calculated_length": 2529.036
       }
     },
@@ -3829,14 +3694,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "maillage",
-        "id": null,
+        "quality": null,
         "calculated_length": 795.104
       }
     },
@@ -3892,14 +3756,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 10211.023
       }
     },
@@ -3945,14 +3808,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "A",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 4507.714
       }
     },
@@ -3982,14 +3844,13 @@
         ]
       },
       "properties": {
-        "Nom": "U1MzM",
+        "name": "U1MzM",
         "status": "",
         "type": "",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "secondaire",
-        "id": null,
+        "quality": null,
         "calculated_length": 4338.805
       }
     },
@@ -4004,14 +3865,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "?",
-        "quality": null,
         "infrastructure": "secondaire",
-        "id": null,
+        "quality": null,
         "calculated_length": 636.02
       }
     },
@@ -4028,14 +3888,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "maillage",
-        "id": null,
+        "quality": null,
         "calculated_length": 862.805
       }
     },
@@ -4079,14 +3938,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "A",
-        "quality": null,
         "infrastructure": "secondaire",
-        "id": null,
+        "quality": null,
         "calculated_length": 5320.755
       }
     },
@@ -4112,14 +3970,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "secondaire",
-        "id": null,
+        "quality": null,
         "calculated_length": 5249.344
       }
     },
@@ -4136,14 +3993,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "secondaire",
-        "id": null,
+        "quality": null,
         "calculated_length": 2505.575
       }
     },
@@ -4163,14 +4019,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "A",
-        "quality": null,
         "infrastructure": "1",
-        "id": null,
+        "quality": null,
         "calculated_length": 1721.344
       }
     },
@@ -4192,14 +4047,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "H",
-        "quality": null,
         "infrastructure": "maillage",
-        "id": null,
+        "quality": null,
         "calculated_length": 2365.0
       }
     },
@@ -4222,14 +4076,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "H",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 2005.095
       }
     },
@@ -4255,14 +4108,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 1717.1
       }
     },
@@ -4286,14 +4138,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 4945.72
       }
     },
@@ -4309,14 +4160,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "secondaire",
-        "id": null,
+        "quality": null,
         "calculated_length": 972.7
       }
     },
@@ -4337,14 +4187,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard François Mitterrand",
+        "name": "Boulevard François Mitterrand",
         "status": "",
         "type": "bande cyclable",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 836.079
       }
     },
@@ -4364,14 +4213,13 @@
         ]
       },
       "properties": {
-        "Nom": "Indre-Pirmil",
+        "name": "Indre-Pirmil",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1972.098
       }
     },
@@ -4386,14 +4234,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "secondaire",
-        "id": null,
+        "quality": null,
         "calculated_length": 698.441
       }
     },
@@ -4420,14 +4267,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "F",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 5464.763
       }
     },
@@ -4446,14 +4292,13 @@
         ]
       },
       "properties": {
-        "Nom": "Porte de la Chapelle - Porte de Sainte Luce",
+        "name": "Porte de la Chapelle - Porte de Sainte Luce",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "F,H",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1178.511
       }
     },
@@ -4468,14 +4313,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "F,G",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 1061.209
       }
     },
@@ -4493,14 +4337,13 @@
         ]
       },
       "properties": {
-        "Nom": "",
+        "name": "",
         "status": "",
         "type": "",
         "year": null,
         "line": "G,H",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 1198.685
       }
     },
@@ -4516,14 +4359,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard des Pas enchantés",
+        "name": "Boulevard des Pas enchantés",
         "status": "en cours",
         "type": "bidirectionnelle",
         "year": null,
         "line": "A",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1330.119
       }
     },
@@ -4539,14 +4381,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard des Pas enchantés",
+        "name": "Boulevard des Pas enchantés",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2025,
         "line": "A",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 933.002
       }
     },
@@ -4561,14 +4402,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "A",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 701.803
       }
     },
@@ -4584,14 +4424,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "A,C,G",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 319.966
       }
     },
@@ -4612,14 +4451,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "A",
-        "quality": null,
         "infrastructure": "maillage",
-        "id": null,
+        "quality": null,
         "calculated_length": 2311.65
       }
     },
@@ -4637,14 +4475,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "A,C",
-        "quality": null,
         "infrastructure": "maillage",
-        "id": null,
+        "quality": null,
         "calculated_length": 951.395
       }
     },
@@ -4658,14 +4495,13 @@
         ]
       },
       "properties": {
-        "Nom": "Saint-Sébastien-sur-Loire",
+        "name": "Saint-Sébastien-sur-Loire",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 2486.939
       }
     },
@@ -4697,14 +4533,13 @@
         ]
       },
       "properties": {
-        "Nom": "Indre-Pirmil",
+        "name": "Indre-Pirmil",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 6091.291
       }
     },
@@ -4720,14 +4555,13 @@
         ]
       },
       "properties": {
-        "Nom": "Indre-Pirmil",
+        "name": "Indre-Pirmil",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "A,I",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1286.196
       }
     },
@@ -4745,14 +4579,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "maillage",
-        "id": null,
+        "quality": null,
         "calculated_length": 965.239
       }
     },
@@ -4776,14 +4609,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 4771.101
       }
     },
@@ -4797,14 +4629,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 448.982
       }
     },
@@ -4822,14 +4653,13 @@
         ]
       },
       "properties": {
-        "Nom": "Indre-Pirmil",
+        "name": "Indre-Pirmil",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "E,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 838.81
       }
     },
@@ -4844,14 +4674,13 @@
         ]
       },
       "properties": {
-        "Nom": "Rezé - Les Sorinières",
+        "name": "Rezé - Les Sorinières",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "C,E,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 460.803
       }
     },
@@ -4869,14 +4698,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 2377.302
       }
     },
@@ -4890,14 +4718,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 420.863
       }
     },
@@ -4913,14 +4740,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 363.834
       }
     },
@@ -4934,14 +4760,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard Bénoni Goullin",
+        "name": "Boulevard Bénoni Goullin",
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
         "line": "G",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 136.98
       }
     },
@@ -4956,14 +4781,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 397.583
       }
     },
@@ -4980,14 +4804,13 @@
         ]
       },
       "properties": {
-        "Nom": "Cours des 50 otages",
+        "name": "Cours des 50 otages",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E,D",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 281.817
       }
     },
@@ -5003,14 +4826,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 823.759
       }
     },
@@ -5029,14 +4851,13 @@
         ]
       },
       "properties": {
-        "Nom": null,
+        "name": null,
         "status": null,
         "type": null,
         "year": null,
         "line": "D",
-        "quality": null,
         "infrastructure": "structurante",
-        "id": null,
+        "quality": null,
         "calculated_length": 955.036
       }
     },
@@ -5051,14 +4872,13 @@
         ]
       },
       "properties": {
-        "Nom": "Boulevard des Martyrs Nantais de la Résistance",
+        "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "E,G",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 114.565
       }
     },
@@ -5073,14 +4893,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont de Pirmil/Pont-Rousseau",
+        "name": "Pont de Pirmil/Pont-Rousseau",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 348.779
       }
     },
@@ -5096,14 +4915,13 @@
         ]
       },
       "properties": {
-        "Nom": "Saint-Sébastien-sur-Loire",
+        "name": "Saint-Sébastien-sur-Loire",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 1256.782
       }
     },
@@ -5118,14 +4936,13 @@
         ]
       },
       "properties": {
-        "Nom": "Pont de la Rotonde Nord",
+        "name": "Pont de la Rotonde Nord",
         "status": "",
         "type": "aucun",
         "year": null,
         "line": null,
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 37.083
       }
     },
@@ -5140,14 +4957,13 @@
         ]
       },
       "properties": {
-        "Nom": "Place de la Duchesse Anne",
+        "name": "Place de la Duchesse Anne",
         "status": "",
         "type": "voie verte",
         "year": null,
         "line": "",
-        "quality": null,
         "infrastructure": "magistrale",
-        "id": null,
+        "quality": null,
         "calculated_length": 26.036
       }
     }
