@@ -82,6 +82,104 @@ const fixQuality = quality => {
   return 'not-rated-yet';
 };
 
+// Function to add dangers to appropriate lines
+const addDangersToLines = () => {
+  try {
+    // Read the dangers file
+    const dangersPath = path.join(__dirname, '../content/voies-cyclables-brut/dangers.geojson');
+    const dangersData = JSON.parse(fs.readFileSync(dangersPath, 'utf8'));
+
+    console.log(`\n=== ADDING DANGERS TO LINES ===`);
+    console.log(`Found ${dangersData.features.length} danger points`);
+
+    // Track which lines need to be updated
+    const linesToUpdate = {};
+
+    // Process each danger point
+    let assignedCount = 0;
+    let defaultToXCount = 0;
+
+    for (let i = 0; i < dangersData.features.length; i++) {
+      const danger = dangersData.features[i];
+
+      // Use the line field from the danger, or default to 'X' if empty
+      let targetLine = danger.properties.line;
+      if (!targetLine || targetLine.trim() === '') {
+        targetLine = 'X';
+        defaultToXCount++;
+        console.log(`Danger ${i + 1}: No line specified, adding to line X`);
+      } else {
+        assignedCount++;
+        console.log(`Danger ${i + 1}: Using specified line ${targetLine}`);
+      }
+
+      // Create a new feature with proper properties
+      const dangerFeature = {
+        type: 'Feature',
+        geometry: danger.geometry,
+        properties: {
+          line: targetLine,
+          name: danger.properties.name || `Danger ${i + 1}`,
+          status: 'unknown',
+          doneAt: '01/01/2000',
+          type: 'danger',
+          quality: 'not-rated-yet',
+          infrastructure: 'danger',
+          link: '',
+          description: danger.properties.description || '',
+          danger_type: danger.properties.danger || '',
+          info_barometre: danger.properties.info_barometre || 'oui'
+        }
+      };
+
+      // Add to the appropriate line
+      if (!linesToUpdate[targetLine]) {
+        linesToUpdate[targetLine] = [];
+      }
+      linesToUpdate[targetLine].push(dangerFeature);
+    }
+
+    // Update each line file
+    for (const [lineId, features] of Object.entries(linesToUpdate)) {
+      const linePath = path.join(__dirname, `../content/voies-cyclables/ligne-${lineId}.json`);
+
+      let lineData;
+      if (fs.existsSync(linePath)) {
+        lineData = JSON.parse(fs.readFileSync(linePath, 'utf8'));
+      } else {
+        lineData = {
+          type: 'FeatureCollection',
+          features: []
+        };
+      }
+
+      // Add the danger features to this line
+      lineData.features.push(...features);
+
+      // Write the updated line file
+      fs.writeFileSync(linePath, JSON.stringify(lineData, null, 2));
+      console.log(
+        `✓ Updated ligne-${lineId}.json with ${features.length} danger features (total: ${lineData.features.length})`
+      );
+    }
+
+    console.log('\n=== DANGERS SUMMARY ===');
+    console.log(`Total danger points: ${dangersData.features.length}`);
+    console.log(`Assigned to specified lines: ${assignedCount}`);
+    console.log(`Defaulted to line X: ${defaultToXCount}`);
+
+    // Show statistics by line
+    console.log('\n=== DANGERS BY LINE ===');
+    Object.entries(linesToUpdate)
+      .sort(([, a], [, b]) => b.length - a.length)
+      .forEach(([line, features]) => {
+        console.log(`Line ${line}: ${features.length} dangers`);
+      });
+  } catch (error) {
+    console.error('Error adding dangers to lines:', error);
+  }
+};
+
 const processVoiesFiles = () => {
   const brutDir = 'content/voies-cyclables-brut';
   const outputDir = 'content/voies-cyclables';
@@ -169,5 +267,16 @@ const processVoiesFiles = () => {
   console.log('Processing complete!');
 };
 
+// Main execution function
+const main = () => {
+  console.log('=== PROCESSING VOIES CYCLABLES ===');
+  processVoiesFiles();
+
+  console.log('\n=== ADDING DANGERS TO LINES ===');
+  addDangersToLines();
+
+  console.log('\n=== ALL PROCESSING COMPLETE ===');
+};
+
 // Run the script
-processVoiesFiles();
+main();
