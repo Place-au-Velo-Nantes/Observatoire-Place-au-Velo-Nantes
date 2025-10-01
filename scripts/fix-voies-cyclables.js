@@ -118,16 +118,10 @@ const addDangersToLines = () => {
         type: 'Feature',
         geometry: danger.geometry,
         properties: {
-          line: targetLine,
-          name: danger.properties.name || `Danger ${i + 1}`,
-          status: 'unknown',
-          doneAt: '01/01/2000',
           type: 'danger',
-          quality: 'not-rated-yet',
-          infrastructure: 'danger',
-          link: '',
+          name: danger.properties.name || `Danger ${i + 1}`,
           description: danger.properties.description || '',
-          danger_type: danger.properties.danger || '',
+          danger: danger.properties.danger || '',
           info_barometre: danger.properties.info_barometre || 'oui'
         }
       };

@@ -2353,16 +2353,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Rond point porte de la chapelle",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Rond point porte de la chapelle",
         "description": "Confusion des priorités pour les automobilistes",
-        "danger_type": "Priorité Intersection",
+        "danger": "Priorité Intersection",
         "info_barometre": "oui"
       }
     },
@@ -2376,16 +2370,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 2",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 2",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2399,16 +2387,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 3",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 3",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2422,16 +2404,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 4",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 4",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2445,16 +2421,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 5",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 5",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2468,16 +2438,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 6",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 6",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2491,16 +2455,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 7",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 7",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2514,16 +2472,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 8",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 8",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2537,16 +2489,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 9",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 9",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2560,16 +2506,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 10",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 10",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2583,16 +2523,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 11",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 11",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2606,16 +2540,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 12",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 12",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2629,16 +2557,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 13",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 13",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2652,16 +2574,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 14",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 14",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2675,16 +2591,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 15",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 15",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2698,16 +2608,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 16",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 16",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2721,16 +2625,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 17",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 17",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2744,16 +2642,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 18",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 18",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2767,16 +2659,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 19",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 19",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2790,16 +2676,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 20",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 20",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2813,16 +2693,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 21",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 21",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2836,16 +2710,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 22",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 22",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2859,16 +2727,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 23",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 23",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2882,16 +2744,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 24",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 24",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2905,16 +2761,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 25",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 25",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2928,16 +2778,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 26",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 26",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2951,16 +2795,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 27",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 27",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2974,16 +2812,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 28",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 28",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -2997,16 +2829,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 29",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 29",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3020,16 +2846,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 30",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 30",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3043,16 +2863,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 31",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 31",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3066,16 +2880,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 32",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 32",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3089,16 +2897,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 33",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 33",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3112,16 +2914,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 34",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 34",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3135,16 +2931,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 35",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 35",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3158,16 +2948,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 36",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 36",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3181,16 +2965,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 37",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 37",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3204,16 +2982,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 38",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 38",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3227,16 +2999,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 39",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 39",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3250,16 +3016,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 40",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 40",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3273,16 +3033,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 41",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 41",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3296,16 +3050,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 42",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 42",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3319,16 +3067,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 43",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 43",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3342,16 +3084,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 44",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 44",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     },
@@ -3365,16 +3101,10 @@
         ]
       },
       "properties": {
-        "line": "X",
-        "name": "Danger 45",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
         "type": "danger",
-        "quality": "not-rated-yet",
-        "infrastructure": "danger",
-        "link": "",
+        "name": "Danger 45",
         "description": "",
-        "danger_type": "",
+        "danger": "",
         "info_barometre": "oui"
       }
     }
