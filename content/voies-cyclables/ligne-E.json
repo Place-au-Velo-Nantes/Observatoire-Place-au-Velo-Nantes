@@ -427,7 +427,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard Henri Becquerel",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -611,7 +611,7 @@
       "properties": {
         "line": "E",
         "name": "Quai Ceineray",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
@@ -669,10 +669,10 @@
       "properties": {
         "line": "E",
         "name": "Boulevard Van Iseghem",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -735,7 +735,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard Jean Monnet",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -777,13 +777,13 @@
       "properties": {
         "line": "E",
         "name": "Cours Olivier de Clisson",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#44"
+        "id": "sans-titre#43"
       }
     },
     {
@@ -844,7 +844,7 @@
       "properties": {
         "line": "E",
         "name": "Cours des 50 otages",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
@@ -870,7 +870,7 @@
       "properties": {
         "line": "E",
         "name": "Pont Général de la Motte Rouge",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -904,10 +904,10 @@
       "properties": {
         "line": "E",
         "name": "Pont Général Audibert",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -934,7 +934,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard des Martyrs Nantais de la Résistance",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -1030,13 +1030,13 @@
       "properties": {
         "line": "E",
         "name": "Pont de Pirmil/Pont-Rousseau",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#79"
+        "id": "sans-titre#76"
       }
     },
     {
@@ -1109,10 +1109,10 @@
       "properties": {
         "line": "E",
         "name": "Promenade Van Iseghem",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1167,10 +1167,10 @@
       "properties": {
         "line": "E",
         "name": "Chemin de la Dame de Nage Sud",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1458,13 +1458,48 @@
       },
       "properties": {
         "line": "E",
-        "name": "E#142",
+        "name": "E#139",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "secondaire",
         "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.546143,
+            47.194438
+          ],
+          [
+            -1.546593,
+            47.194851
+          ],
+          [
+            -1.549093,
+            47.195537
+          ],
+          [
+            -1.549865,
+            47.195515
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "E#157",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#157"
       }
     },
     {
@@ -1517,6 +1552,14 @@
             47.18134
           ],
           [
+            -1.555277558,
+            47.183621844
+          ],
+          [
+            -1.554317487,
+            47.18466402
+          ],
+          [
             -1.553331,
             47.185401
           ]
@@ -1524,7 +1567,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "E#167",
+        "name": "E#164",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1550,7 +1593,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "E#168",
+        "name": "E#165",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1569,24 +1612,24 @@
             47.185401
           ],
           [
-            -1.551056,
-            47.188522
+            -1.551096261,
+            47.188704408
           ],
           [
-            -1.550846,
-            47.189597
+            -1.550000509,
+            47.188365755
           ],
           [
-            -1.550127,
-            47.190844
+            -1.548758109,
+            47.188089684
           ],
           [
-            -1.549054,
-            47.191492
+            -1.547792473,
+            47.188008083
           ],
           [
-            -1.54811,
-            47.191631
+            -1.54703636,
+            47.188083249
           ]
         ]
       },
@@ -1599,38 +1642,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#169"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.549766151,
-            47.195604833
-          ],
-          [
-            -1.549533,
-            47.193534
-          ],
-          [
-            -1.549054,
-            47.191492
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "Rezé - Les Sorinières",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#170"
+        "id": "sans-titre#166"
       }
     },
     {
@@ -1669,7 +1681,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#176"
+        "id": "sans-titre#173"
       }
     },
     {
@@ -1700,7 +1712,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#179"
+        "id": "sans-titre#176"
       }
     },
     {

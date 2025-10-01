@@ -189,8 +189,8 @@
             47.220755609
           ],
           [
-            -1.570906533,
-            47.222754133
+            -1.570802194,
+            47.222328961
           ]
         ]
       },
@@ -341,7 +341,7 @@
       "properties": {
         "line": "D",
         "name": "Boulevard Gabriel Guist'hau",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -383,13 +383,13 @@
       "properties": {
         "line": "D",
         "name": "Cours Olivier de Clisson",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#44"
+        "id": "sans-titre#43"
       }
     },
     {
@@ -430,39 +430,9 @@
       "properties": {
         "line": "D",
         "name": "Rue du Calvaire",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.57091303,
-            47.222733035
-          ],
-          [
-            -1.571887528,
-            47.223017282
-          ],
-          [
-            -1.574404981,
-            47.223386376
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Via Rue de Carcouët",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
@@ -664,13 +634,13 @@
       "properties": {
         "line": "D",
         "name": "Quai de Malakoff Ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#68"
+        "id": "sans-titre#66"
       }
     },
     {
@@ -699,13 +669,13 @@
       "properties": {
         "line": "D",
         "name": "Pont Willy-Brandt",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#75"
+        "id": "sans-titre#72"
       }
     },
     {
@@ -752,7 +722,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#98"
+        "id": "sans-titre#95"
       }
     },
     {
@@ -897,7 +867,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#119"
+        "id": "sans-titre#116"
       }
     },
     {
@@ -978,18 +948,18 @@
             47.208568
           ],
           [
-            -1.532415,
-            47.21075
+            -1.532485358,
+            47.210788833
           ],
           [
-            -1.533977,
-            47.210619
+            -1.534029769,
+            47.210553282
           ]
         ]
       },
       "properties": {
         "line": "D",
-        "name": "D#175",
+        "name": "D#172",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1034,7 +1004,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#176"
+        "id": "sans-titre#173"
       }
     },
     {
@@ -1062,7 +1032,7 @@
       },
       "properties": {
         "line": "D",
-        "name": "D#177",
+        "name": "D#174",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1093,8 +1063,16 @@
             47.215463
           ],
           [
-            -1.544603,
-            47.216148
+            -1.544948143,
+            47.216013887
+          ],
+          [
+            -1.544106802,
+            47.216132182
+          ],
+          [
+            -1.543818244,
+            47.21609984
           ],
           [
             -1.543527207,
@@ -1108,12 +1086,46 @@
       },
       "properties": {
         "line": "D",
-        "name": "D#178",
+        "name": "D#175",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.570674626,
+            47.222022139
+          ],
+          [
+            -1.570862106,
+            47.222016075
+          ],
+          [
+            -1.571573324,
+            47.219651912
+          ],
+          [
+            -1.569814468,
+            47.219176096
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "D#182",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "",
         "link": ""
       }
     }

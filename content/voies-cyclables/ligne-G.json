@@ -153,18 +153,26 @@
             47.213772673
           ],
           [
-            -1.527213674,
-            47.213912468
+            -1.521413927,
+            47.215546121
+          ],
+          [
+            -1.518733536,
+            47.21647229
+          ],
+          [
+            -1.515787689,
+            47.217725262
           ]
         ]
       },
       "properties": {
         "line": "G",
         "name": "Boulevard de Sarrebruck 3",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#35"
@@ -178,6 +186,14 @@
           [
             -1.531630092,
             47.217428388
+          ],
+          [
+            -1.533527278,
+            47.216566574
+          ],
+          [
+            -1.533892719,
+            47.216140616
           ],
           [
             -1.534403949,
@@ -204,7 +220,7 @@
       "properties": {
         "line": "G",
         "name": "Mail Pablo Picasso",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -242,13 +258,13 @@
       "properties": {
         "line": "G",
         "name": "Boulevard Ernest Dalby Nord",
-        "status": "wip",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#65"
+        "id": "sans-titre#63"
       }
     },
     {
@@ -301,7 +317,7 @@
       "properties": {
         "line": "G",
         "name": "Rue du pont de l'arche de Mauves",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -363,13 +379,13 @@
       "properties": {
         "line": "G",
         "name": "Quai de Malakoff Ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#68"
+        "id": "sans-titre#66"
       }
     },
     {
@@ -398,13 +414,13 @@
       "properties": {
         "line": "G",
         "name": "Pont Willy-Brandt",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#75"
+        "id": "sans-titre#72"
       }
     },
     {
@@ -464,7 +480,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -518,10 +534,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#87"
+        "id": "sans-titre#84"
       }
     },
     {
@@ -580,7 +596,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#89"
+        "id": "sans-titre#86"
       }
     },
     {
@@ -629,13 +645,13 @@
       "properties": {
         "line": "G",
         "name": "Boulevard Ernest Dalby Sud",
-        "status": "wip",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#100"
+        "id": "sans-titre#97"
       }
     },
     {
@@ -703,7 +719,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#133",
+        "name": "G#130",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -897,7 +913,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#136",
+        "name": "G#133",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -927,14 +943,14 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#155",
+        "name": "G#152",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#155"
+        "id": "sans-titre#152"
       }
     },
     {
@@ -970,14 +986,14 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#156",
+        "name": "G#153",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#156"
+        "id": "sans-titre#153"
       }
     },
     {
@@ -1005,14 +1021,14 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#160",
+        "name": "G#157",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#160"
+        "id": "sans-titre#157"
       }
     },
     {
@@ -1093,12 +1109,60 @@
             47.18076
           ],
           [
+            -1.579607026,
+            47.181372079
+          ],
+          [
+            -1.57706746,
+            47.181932691
+          ],
+          [
+            -1.576285052,
+            47.181984158
+          ],
+          [
+            -1.571934475,
+            47.182123221
+          ],
+          [
+            -1.572064707,
+            47.182754437
+          ],
+          [
             -1.569167,
             47.18333
           ],
           [
-            -1.553331,
-            47.185401
+            -1.564542438,
+            47.184128417
+          ],
+          [
+            -1.56464965,
+            47.185178829
+          ],
+          [
+            -1.561151474,
+            47.186215613
+          ],
+          [
+            -1.559584969,
+            47.186523679
+          ],
+          [
+            -1.557309139,
+            47.186642217
+          ],
+          [
+            -1.556204267,
+            47.186272106
+          ],
+          [
+            -1.554605261,
+            47.186003496
+          ],
+          [
+            -1.553206098,
+            47.185565114
           ]
         ]
       },
@@ -1146,7 +1210,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#166",
+        "name": "G#163",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1165,24 +1229,24 @@
             47.185401
           ],
           [
-            -1.551056,
-            47.188522
+            -1.551096261,
+            47.188704408
           ],
           [
-            -1.550846,
-            47.189597
+            -1.550000509,
+            47.188365755
           ],
           [
-            -1.550127,
-            47.190844
+            -1.548758109,
+            47.188089684
           ],
           [
-            -1.549054,
-            47.191492
+            -1.547792473,
+            47.188008083
           ],
           [
-            -1.54811,
-            47.191631
+            -1.54703636,
+            47.188083249
           ]
         ]
       },
@@ -1195,7 +1259,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#169"
+        "id": "sans-titre#166"
       }
     },
     {
@@ -1204,39 +1268,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.549766151,
-            47.195604833
-          ],
-          [
-            -1.549533,
-            47.193534
-          ],
-          [
-            -1.549054,
-            47.191492
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Rezé - Les Sorinières",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#170"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.535414,
-            47.210597
+            -1.535460316,
+            47.210704873
           ],
           [
             -1.535185,
@@ -1255,40 +1288,14 @@
             47.206742
           ],
           [
-            -1.562449218,
-            47.204509104
+            -1.564189762,
+            47.2043343
           ]
         ]
       },
       "properties": {
         "line": "G",
-        "name": "G#171",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.55158576,
-            47.203863035
-          ],
-          [
-            -1.547094,
-            47.201636
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "G#172",
+        "name": "G#168",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1322,36 +1329,10 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#173",
+        "name": "G#170",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.547103807,
-            47.201568139
-          ],
-          [
-            -1.548911568,
-            47.201580142
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Boulevard Bénoni Goullin",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": ""
@@ -1385,7 +1366,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#179"
+        "id": "sans-titre#176"
       }
     }
   ]

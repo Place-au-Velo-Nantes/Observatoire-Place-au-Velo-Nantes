@@ -371,8 +371,16 @@
             47.20516
           ],
           [
-            -1.57227,
-            47.207202
+            -1.573109596,
+            47.206496147
+          ],
+          [
+            -1.572753783,
+            47.206159012
+          ],
+          [
+            -1.571566169,
+            47.207120498
           ]
         ]
       },
@@ -519,59 +527,29 @@
             47.213772673
           ],
           [
-            -1.527213674,
-            47.213912468
+            -1.521413927,
+            47.215546121
+          ],
+          [
+            -1.518733536,
+            47.21647229
+          ],
+          [
+            -1.515787689,
+            47.217725262
           ]
         ]
       },
       "properties": {
         "line": "B",
         "name": "Boulevard de Sarrebruck 3",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#35"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.518731324,
-            47.216650494
-          ],
-          [
-            -1.517918399,
-            47.216952435
-          ],
-          [
-            -1.517111117,
-            47.217292998
-          ],
-          [
-            -1.516388746,
-            47.217596332
-          ],
-          [
-            -1.516042924,
-            47.217844823
-          ]
-        ]
-      },
-      "properties": {
-        "line": "B",
-        "name": "Boulevard de Sarrebruck 5",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "voie-bus",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
       }
     },
     {
@@ -688,10 +666,10 @@
       "properties": {
         "line": "B",
         "name": "Quai Magellan",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -750,13 +728,13 @@
       "properties": {
         "line": "B",
         "name": "Quai de Malakoff Ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#68"
+        "id": "sans-titre#66"
       }
     },
     {
@@ -825,10 +803,10 @@
       "properties": {
         "line": "B",
         "name": "Quai de Malakoff Est",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -859,10 +837,10 @@
       "properties": {
         "line": "B",
         "name": "Boulevard de Sarrebruck 1",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -893,10 +871,10 @@
       "properties": {
         "line": "B",
         "name": "Boulevard de Sarrebruck 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -907,66 +885,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.527220211,
-            47.213912348
+            -1.515802389,
+            47.217715124
           ],
           [
-            -1.526166552,
-            47.214205441
-          ],
-          [
-            -1.525242132,
-            47.214514306
-          ],
-          [
-            -1.523992904,
-            47.214891746
-          ],
-          [
-            -1.522212719,
-            47.215444642
-          ],
-          [
-            -1.52109749,
-            47.215820681
-          ],
-          [
-            -1.520221484,
-            47.216078113
-          ],
-          [
-            -1.519490885,
-            47.216328338
-          ],
-          [
-            -1.518731472,
-            47.216651251
-          ]
-        ]
-      },
-      "properties": {
-        "line": "B",
-        "name": "Boulevard de Sarrebruck 4",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.516042958,
-            47.217844715
-          ],
-          [
-            -1.515806751,
-            47.217736346
+            -1.515657432,
+            47.21779269
           ],
           [
             -1.515541264,
@@ -985,10 +909,10 @@
       "properties": {
         "line": "B",
         "name": "Chemin des bateliers Ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1031,10 +955,10 @@
       "properties": {
         "line": "B",
         "name": "Chemin des bateliers Est",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1163,13 +1087,13 @@
       "properties": {
         "line": "B",
         "name": "Quai de la fosse",
-        "status": "unknown",
+        "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#105"
+        "id": "sans-titre#102"
       }
     },
     {

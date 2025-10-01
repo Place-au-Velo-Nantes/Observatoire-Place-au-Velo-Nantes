@@ -172,7 +172,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -183,12 +183,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.549054,
-            47.191492
+            -1.547843753,
+            47.191269723
           ],
           [
-            -1.54811,
-            47.191631
+            -1.547782906,
+            47.19077523
           ],
           [
             -1.543976,
@@ -225,7 +225,7 @@
         "name": "Rezé - Les Sorinières",
         "status": "postponed",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
@@ -269,7 +269,7 @@
       "properties": {
         "line": "C",
         "name": "Pont des 3 continents",
-        "status": "unknown",
+        "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -326,10 +326,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#87"
+        "id": "sans-titre#84"
       }
     },
     {
@@ -388,7 +388,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#89"
+        "id": "sans-titre#86"
       }
     },
     {
@@ -401,8 +401,16 @@
             47.203587454
           ],
           [
-            -1.562449993,
-            47.204514374
+            -1.564161506,
+            47.204309581
+          ],
+          [
+            -1.565023591,
+            47.20610855
+          ],
+          [
+            -1.565431621,
+            47.207825262
           ],
           [
             -1.566525681,
@@ -599,13 +607,13 @@
       "properties": {
         "line": "C",
         "name": "Quai de la fosse",
-        "status": "unknown",
+        "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#105"
+        "id": "sans-titre#102"
       }
     },
     {
@@ -698,10 +706,10 @@
       "properties": {
         "line": "C",
         "name": "Boulevard René Coty",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -861,14 +869,14 @@
       },
       "properties": {
         "line": "C",
-        "name": "C#160",
+        "name": "C#157",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#160"
+        "id": "sans-titre#157"
       }
     },
     {
@@ -877,72 +885,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.549865,
-            47.195515
+            -1.556622905,
+            47.21157571
           ],
           [
-            -1.550184,
-            47.195634
+            -1.556997671,
+            47.211724213
           ],
           [
-            -1.552931,
-            47.195779
+            -1.557997046,
+            47.211405993
           ],
           [
-            -1.555999,
-            47.196159
+            -1.558933961,
+            47.211384778
           ],
           [
-            -1.557909,
-            47.196581
+            -1.559568981,
+            47.210741261
           ],
           [
-            -1.5622,
-            47.196304
+            -1.560079079,
+            47.210557397
+          ],
+          [
+            -1.561753005,
+            47.209882804
           ]
         ]
       },
       "properties": {
         "line": "C",
-        "name": "C#162",
-        "status": "unknown",
+        "name": "Parking Gloriette",
+        "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "maillage",
-        "link": "",
-        "id": "sans-titre#162"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.549766151,
-            47.195604833
-          ],
-          [
-            -1.549533,
-            47.193534
-          ],
-          [
-            -1.549054,
-            47.191492
-          ]
-        ]
-      },
-      "properties": {
-        "line": "C",
-        "name": "Rezé - Les Sorinières",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#170"
+        "infrastructure": "",
+        "link": ""
       }
     }
   ]
