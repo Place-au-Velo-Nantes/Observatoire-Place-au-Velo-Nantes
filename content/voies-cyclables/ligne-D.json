@@ -215,16 +215,16 @@
             47.259379957
           ],
           [
-            -1.669508673,
-            47.261782148
+            -1.663085753,
+            47.26078159
           ],
           [
-            -1.67618428,
-            47.263046273
+            -1.664368935,
+            47.260998084
           ],
           [
-            -1.677364196,
-            47.26335347
+            -1.665983639,
+            47.261288356
           ]
         ]
       },
@@ -684,6 +684,32 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.535562978,
+            47.210723476
+          ],
+          [
+            -1.53401923,
+            47.210548572
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Boulevard Maurice Bertin",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.502404,
             47.209995
           ],
@@ -715,7 +741,7 @@
       },
       "properties": {
         "line": "D",
-        "name": "Boulevard des Pas enchantés",
+        "name": "Boulevard des Pas enchantés - senghor/croix blanche",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -762,6 +788,40 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539568219,
+            47.213716402
+          ],
+          [
+            -1.540154536,
+            47.213715088
+          ],
+          [
+            -1.542801919,
+            47.21543332
+          ],
+          [
+            -1.542954704,
+            47.215567506
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Gare Sud",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""

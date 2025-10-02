@@ -7,6 +7,68 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.480875,
+            47.306523
+          ],
+          [
+            -1.480789,
+            47.306279
+          ],
+          [
+            -1.480902,
+            47.306159
+          ],
+          [
+            -1.483128,
+            47.304751
+          ],
+          [
+            -1.484329,
+            47.303573
+          ],
+          [
+            -1.485145,
+            47.30254
+          ],
+          [
+            -1.485928,
+            47.301004
+          ],
+          [
+            -1.486196,
+            47.299804
+          ],
+          [
+            -1.486255,
+            47.299054
+          ],
+          [
+            -1.486276,
+            47.29805
+          ],
+          [
+            -1.485954,
+            47.296646
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Carquefou - Saint Mars La Jaille",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.485954,
             47.296646
           ],
@@ -53,8 +115,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.471353,
-            47.224691
+            -1.471243032,
+            47.225243646
           ],
           [
             -1.480603,
@@ -185,134 +247,6 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.474802,
-            47.233304
-          ],
-          [
-            -1.469679,
-            47.230578
-          ],
-          [
-            -1.469653,
-            47.228802
-          ],
-          [
-            -1.4694,
-            47.227394
-          ],
-          [
-            -1.471353,
-            47.224691
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Pont de Bellevue",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.544747948,
-            47.194651991
-          ],
-          [
-            -1.544995104,
-            47.194485618
-          ],
-          [
-            -1.545451289,
-            47.194226446
-          ],
-          [
-            -1.545726587,
-            47.194133382
-          ],
-          [
-            -1.545460973,
-            47.193956652
-          ],
-          [
-            -1.546510866,
-            47.192973267
-          ],
-          [
-            -1.546714121,
-            47.192804858
-          ],
-          [
-            -1.546811969,
-            47.192687262
-          ],
-          [
-            -1.546840272,
-            47.192586701
-          ],
-          [
-            -1.546930808,
-            47.192512002
-          ],
-          [
-            -1.54704383,
-            47.192479157
-          ],
-          [
-            -1.547134756,
-            47.192412729
-          ],
-          [
-            -1.547509885,
-            47.19205484
-          ],
-          [
-            -1.547558864,
-            47.191982674
-          ],
-          [
-            -1.547600734,
-            47.191778531
-          ],
-          [
-            -1.54766756,
-            47.191607419
-          ],
-          [
-            -1.547731841,
-            47.191494867
-          ],
-          [
-            -1.547839914,
-            47.191270074
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Avenue de la Libération",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -538,10 +472,10 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Bénoni Goullin",
-        "status": "postponed",
+        "name": "Rue du Scorff",
+        "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
+        "type": "voie-verte",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
@@ -829,32 +763,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.535562978,
-            47.210723476
-          ],
-          [
-            -1.53401923,
-            47.210548572
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Boulevard Maurice Bertin",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.534023406,
             47.210548572
           ],
@@ -941,40 +849,6 @@
       "properties": {
         "line": "X",
         "name": "Rue Gaëtan Rondeau",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.539568219,
-            47.213716402
-          ],
-          [
-            -1.540154536,
-            47.213715088
-          ],
-          [
-            -1.542801919,
-            47.21543332
-          ],
-          [
-            -1.542954704,
-            47.215567506
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Gare Sud",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -1171,6 +1045,158 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.653310221,
+            47.211945643
+          ],
+          [
+            -1.655007713,
+            47.212204491
+          ],
+          [
+            -1.656000858,
+            47.212078317
+          ],
+          [
+            -1.656794452,
+            47.210410234
+          ],
+          [
+            -1.658026761,
+            47.209003606
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue de la Gare Nord",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.670503434,
+            47.199404898
+          ],
+          [
+            -1.672706819,
+            47.200251801
+          ],
+          [
+            -1.675103328,
+            47.201171249
+          ],
+          [
+            -1.676923889,
+            47.201875324
+          ],
+          [
+            -1.678343337,
+            47.202320369
+          ],
+          [
+            -1.679207985,
+            47.201303618
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Jean Jaurès",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.679208142,
+            47.201304677
+          ],
+          [
+            -1.678388478,
+            47.200820901
+          ],
+          [
+            -1.677316845,
+            47.20020121
+          ],
+          [
+            -1.676458059,
+            47.19968585
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Quai Jean Bart Ouest",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.676458473,
+            47.199684603
+          ],
+          [
+            -1.675622929,
+            47.199284493
+          ],
+          [
+            -1.674372618,
+            47.198686145
+          ],
+          [
+            -1.672869354,
+            47.197960771
+          ],
+          [
+            -1.673426659,
+            47.197503203
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Quai Jean Bart Est",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.540008,
             47.256116
           ],
@@ -1217,6 +1243,80 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.72024,
+            47.169234
+          ],
+          [
+            -1.719468,
+            47.170459
+          ],
+          [
+            -1.718138,
+            47.171072
+          ],
+          [
+            -1.71582,
+            47.171043
+          ],
+          [
+            -1.707323,
+            47.173989
+          ],
+          [
+            -1.704018,
+            47.176061
+          ],
+          [
+            -1.702431,
+            47.177402
+          ],
+          [
+            -1.701486,
+            47.177519
+          ],
+          [
+            -1.699426,
+            47.176352
+          ],
+          [
+            -1.699225094,
+            47.176334775
+          ],
+          [
+            -1.696556273,
+            47.17575926
+          ],
+          [
+            -1.69229983,
+            47.175732837
+          ],
+          [
+            -1.69229983,
+            47.175741043
+          ],
+          [
+            -1.692276,
+            47.175739
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "X#131",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "maillage",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.681764,
             47.175436
           ],
@@ -1247,6 +1347,226 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.695891,
+            47.191819
+          ],
+          [
+            -1.696829,
+            47.192028
+          ],
+          [
+            -1.699554,
+            47.191751
+          ],
+          [
+            -1.701721,
+            47.19057
+          ],
+          [
+            -1.704017,
+            47.190642
+          ],
+          [
+            -1.704897,
+            47.190963
+          ],
+          [
+            -1.7076,
+            47.191284
+          ],
+          [
+            -1.710497,
+            47.191255
+          ],
+          [
+            -1.713287,
+            47.191605
+          ],
+          [
+            -1.719188,
+            47.193413
+          ],
+          [
+            -1.722642,
+            47.19474
+          ],
+          [
+            -1.723661,
+            47.19533
+          ],
+          [
+            -1.724037,
+            47.195928
+          ],
+          [
+            -1.725464,
+            47.195797
+          ],
+          [
+            -1.726065,
+            47.195571
+          ],
+          [
+            -1.727481,
+            47.195199
+          ],
+          [
+            -1.728994,
+            47.195367
+          ],
+          [
+            -1.731654,
+            47.195381
+          ],
+          [
+            -1.734412,
+            47.19576
+          ],
+          [
+            -1.735785,
+            47.196198
+          ],
+          [
+            -1.737759,
+            47.196154
+          ],
+          [
+            -1.739905,
+            47.19576
+          ],
+          [
+            -1.742351,
+            47.196067
+          ],
+          [
+            -1.746857,
+            47.197627
+          ],
+          [
+            -1.750011,
+            47.198268
+          ],
+          [
+            -1.753016,
+            47.199449
+          ],
+          [
+            -1.755612,
+            47.199872
+          ],
+          [
+            -1.754925,
+            47.200834
+          ],
+          [
+            -1.754518,
+            47.202
+          ],
+          [
+            -1.754303,
+            47.202766
+          ],
+          [
+            -1.755204,
+            47.202955
+          ],
+          [
+            -1.755043,
+            47.20324
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "X#138",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "secondaire",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.598278,
+            47.155013
+          ],
+          [
+            -1.600102,
+            47.152299
+          ],
+          [
+            -1.604093,
+            47.144856
+          ],
+          [
+            -1.60744,
+            47.140857
+          ],
+          [
+            -1.608985,
+            47.138142
+          ],
+          [
+            -1.611388,
+            47.13499
+          ],
+          [
+            -1.612933,
+            47.133997
+          ],
+          [
+            -1.615637,
+            47.129501
+          ],
+          [
+            -1.61804,
+            47.125997
+          ],
+          [
+            -1.618813,
+            47.123603
+          ],
+          [
+            -1.62216,
+            47.124041
+          ],
+          [
+            -1.623791,
+            47.125413
+          ],
+          [
+            -1.62804,
+            47.126756
+          ],
+          [
+            -1.634863,
+            47.129326
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "X#139",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "secondaire",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.477066925,
             47.186947576
           ],
@@ -1258,7 +1578,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Saint-Sébastien-sur-Loire",
+        "name": "Route de clisson",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1273,8 +1593,34 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.549766151,
-            47.195604833
+            -1.59701,
+            47.157679
+          ],
+          [
+            -1.599047,
+            47.153887
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "X#165",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.549760051,
+            47.195591362
           ],
           [
             -1.549533,
@@ -1294,32 +1640,6 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.55158576,
-            47.203863035
-          ],
-          [
-            -1.547094,
-            47.201636
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "X#169",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
         "link": ""
       }
     },
@@ -1355,12 +1675,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.542024615,
-            47.197715554
+            -1.541261052,
+            47.197906611
           ],
           [
-            -1.541262,
-            47.197904
+            -1.540774554,
+            47.197367762
           ],
           [
             -1.540361,
@@ -1374,7 +1694,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Saint-Sébastien-sur-Loire",
+        "name": "Boulevard Joliot-Curie",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1440,6 +1760,230 @@
         "type": "voie-verte",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.497283482,
+            47.292616256
+          ],
+          [
+            -1.493759287,
+            47.293257943
+          ],
+          [
+            -1.490755444,
+            47.293177733
+          ],
+          [
+            -1.488200994,
+            47.293803371
+          ],
+          [
+            -1.487254902,
+            47.294717753
+          ],
+          [
+            -1.486852812,
+            47.295263166
+          ],
+          [
+            -1.486545332,
+            47.296241687
+          ],
+          [
+            -1.486048634,
+            47.296979577
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Louis Fouchard",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.387233558,
+            47.293283471
+          ],
+          [
+            -1.383318745,
+            47.294397697
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Quai des Mariniers",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.665976493,
+            47.261287411
+          ],
+          [
+            -1.670681507,
+            47.262000848
+          ],
+          [
+            -1.676194193,
+            47.263044884
+          ],
+          [
+            -1.677373652,
+            47.263340691
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue de Bretagne",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.44509065,
+            47.263268562
+          ],
+          [
+            -1.443867102,
+            47.264662883
+          ],
+          [
+            -1.443486186,
+            47.265085873
+          ],
+          [
+            -1.441223776,
+            47.266722966
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue de Nantes - Thouaré",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.491865863,
+            47.247415862
+          ],
+          [
+            -1.491046343,
+            47.248062334
+          ],
+          [
+            -1.489701034,
+            47.248654
+          ],
+          [
+            -1.488374673,
+            47.248936969
+          ],
+          [
+            -1.486423028,
+            47.249682971
+          ],
+          [
+            -1.48467981,
+            47.250480409
+          ],
+          [
+            -1.483410293,
+            47.250969155
+          ],
+          [
+            -1.482974489,
+            47.250917709
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Jean Moulin",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.624159864,
+            47.269197261
+          ],
+          [
+            -1.623153648,
+            47.27077569
+          ],
+          [
+            -1.623175287,
+            47.271120735
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Route de Basse-Indre",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
         "link": ""
       }
     },

@@ -6,13 +6,18 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.693788, 47.182974],
-          [-1.68984, 47.182449],
-          [-1.686235, 47.182654],
-          [-1.685248, 47.183062],
-          [-1.684047, 47.182916],
-          [-1.679025, 47.180087],
-          [-1.678725, 47.180408],
+          [-1.693761445, 47.194260627],
+          [-1.693342026, 47.194201721],
+          [-1.692922607, 47.194142814],
+          [-1.684224618, 47.19098769],
+          [-1.682882306, 47.190956645],
+          [-1.681266364, 47.190423269],
+          [-1.679078657, 47.189155011],
+          [-1.678879699, 47.188646979],
+          [-1.676097411, 47.18749195],
+          [-1.674360279, 47.185890325],
+          [-1.674210532, 47.185268911],
+          [-1.677365921, 47.180041372],
           [-1.673908, 47.178978],
           [-1.661497, 47.17229],
           [-1.661218, 47.172305],
@@ -30,14 +35,14 @@
         ]
       },
       "properties": {
-        "name": "Indre-Pirmil",
+        "name": "La Montagne - Bouguenais",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "A",
         "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 5888.488
+        "quality": "",
+        "calculated_length": 6974.994
       }
     },
     {
@@ -51,7 +56,7 @@
         ]
       },
       "properties": {
-        "name": "Saint-Sébastien-sur-Loire",
+        "name": "Clos Toreau Routeau de Clisson",
         "status": "reporté",
         "type": "",
         "year": null,
@@ -518,10 +523,10 @@
           [-1.614713669, 47.269536461],
           [-1.617105779, 47.269853176],
           [-1.617642869, 47.270052705],
-          [-1.618612286, 47.270655677],
-          [-1.618612286, 47.270957161],
-          [-1.619096925, 47.270969798],
-          [-1.620742436, 47.27196818]
+          [-1.618240565, 47.270416062],
+          [-1.618606091, 47.270646083],
+          [-1.618576516, 47.270826871],
+          [-1.618623629, 47.270992922]
         ]
       },
       "properties": {
@@ -532,7 +537,7 @@
         "line": "H",
         "infrastructure": "magistrale",
         "quality": null,
-        "calculated_length": 1704.206
+        "calculated_length": 1505.147
       }
     },
     {
@@ -541,9 +546,9 @@
         "type": "LineString",
         "coordinates": [
           [-1.653978777, 47.259379957],
-          [-1.669508673, 47.261782148],
-          [-1.67618428, 47.263046273],
-          [-1.677364196, 47.26335347]
+          [-1.663085753, 47.26078159],
+          [-1.664368935, 47.260998084],
+          [-1.665983639, 47.261288356]
         ]
       },
       "properties": {
@@ -554,7 +559,7 @@
         "line": "D",
         "infrastructure": "magistrale",
         "quality": null,
-        "calculated_length": 1825.364
+        "calculated_length": 933.12
       }
     },
     {
@@ -724,13 +729,13 @@
         ]
       },
       "properties": {
-        "name": "Porte de la Chapelle - Porte de Sainte Luce",
+        "name": "Porte de la Chapelle - Porte de Carquefou",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "H",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 3188.444
       }
     },
@@ -757,7 +762,7 @@
         "status": "terminé",
         "type": "voie verte",
         "year": null,
-        "line": "F",
+        "line": "",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 1232.161
@@ -927,7 +932,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.471353, 47.224691],
+          [-1.471243032, 47.225243646],
           [-1.480603, 47.214485],
           [-1.485409, 47.212794]
         ]
@@ -940,7 +945,7 @@
         "line": null,
         "infrastructure": "magistrale",
         "quality": null,
-        "calculated_length": 1743.277
+        "calculated_length": 1800.157
       }
     },
     {
@@ -1053,11 +1058,20 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.474802, 47.233304],
-          [-1.469679, 47.230578],
+          [-1.474680772, 47.233438698],
+          [-1.469939474, 47.230706636],
+          [-1.469875573, 47.230861437],
+          [-1.470900928, 47.231347473],
+          [-1.471280922, 47.231156304],
+          [-1.471291515, 47.23100694],
+          [-1.47035314, 47.230447314],
+          [-1.469992545, 47.230048485],
           [-1.469653, 47.228802],
           [-1.4694, 47.227394],
-          [-1.471353, 47.224691]
+          [-1.469872853, 47.226720723],
+          [-1.470345706, 47.226312621],
+          [-1.471048942, 47.225915128],
+          [-1.471291413, 47.225231242]
         ]
       },
       "properties": {
@@ -1065,10 +1079,10 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "",
+        "line": "H",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "calculated_length": 1182.386
+        "calculated_length": 1368.529
       }
     },
     {
@@ -1151,7 +1165,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "",
+        "line": "C,E,G",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 478.866
@@ -1291,8 +1305,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.547843753, 47.191269723],
-          [-1.547782906, 47.19077523],
+          [-1.547063891, 47.188066085],
+          [-1.546906642, 47.187522929],
           [-1.543976, 47.177055],
           [-1.541585, 47.157297],
           [-1.538416, 47.156626],
@@ -1310,7 +1324,7 @@
         "line": "C",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "calculated_length": 7158.307
+        "calculated_length": 6797.074
       }
     },
     {
@@ -1430,7 +1444,7 @@
         ]
       },
       "properties": {
-        "name": "Cours des 50 otages",
+        "name": "Cours des 50 otages Nord",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
@@ -2196,7 +2210,7 @@
         ]
       },
       "properties": {
-        "name": "Pont de Pirmil/Pont-Rousseau",
+        "name": "Pont des Bataillons FFI - Pirmil",
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
@@ -2239,13 +2253,13 @@
         ]
       },
       "properties": {
-        "name": "Boulevard Bénoni Goullin",
-        "status": "reporté",
-        "type": "bande cyclable",
+        "name": "Rue du Scorff",
+        "status": "terminé",
+        "type": "voie verte",
         "year": null,
-        "line": null,
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 424.029
       }
     },
@@ -2572,7 +2586,7 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "",
+        "line": "D",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 118.555
@@ -2645,13 +2659,13 @@
         ]
       },
       "properties": {
-        "name": "Boulevard des Pas enchantés",
+        "name": "Boulevard des Pas enchantés - senghor/croix blanche",
         "status": "en cours",
         "type": "bidirectionnelle",
         "year": null,
         "line": "A,D",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1756.143
       }
     },
@@ -2741,7 +2755,7 @@
           [-1.558181267, 47.210963887],
           [-1.560911382, 47.209858627],
           [-1.561181021, 47.209885688],
-          [-1.561312568, 47.209786295]
+          [-1.561323007, 47.209767599]
         ]
       },
       "properties": {
@@ -2752,7 +2766,7 @@
         "line": "C",
         "infrastructure": "magistrale",
         "quality": null,
-        "calculated_length": 410.49
+        "calculated_length": 412.582
       }
     },
     {
@@ -2771,9 +2785,9 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": null,
+        "line": "D",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 340.257
       }
     },
@@ -2804,16 +2818,16 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.556351255, 47.209378448],
-          [-1.557595951, 47.209506625],
-          [-1.558224785, 47.209542957],
-          [-1.558500036, 47.209541474],
-          [-1.558599683, 47.209360914],
-          [-1.559079412, 47.209452295],
-          [-1.560069663, 47.20954698],
-          [-1.56076225, 47.20962316],
-          [-1.561687673, 47.209863172],
-          [-1.562425458, 47.210038309],
+          [-1.561734106, 47.209872544],
+          [-1.561808781, 47.209890029],
+          [-1.561887482, 47.209909118],
+          [-1.562004385, 47.209940011],
+          [-1.562075523, 47.209960845],
+          [-1.562129412, 47.209974367],
+          [-1.562229964, 47.209995204],
+          [-1.562304115, 47.210008194],
+          [-1.562363072, 47.210018817],
+          [-1.562434585, 47.210030699],
           [-1.562848462, 47.210058127],
           [-1.563271466, 47.2100273],
           [-1.563652332, 47.209950232],
@@ -2834,7 +2848,7 @@
         "line": "B,C",
         "infrastructure": "magistrale",
         "quality": "",
-        "calculated_length": 1318.783
+        "calculated_length": 887.831
       }
     },
     {
@@ -3364,9 +3378,9 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.656808347, 47.210391791],
-          [-1.656004921, 47.212135302],
-          [-1.654977285, 47.212227319],
+          [-1.653298186, 47.211928935],
+          [-1.653002519, 47.211895361],
+          [-1.652416412, 47.211792427],
           [-1.652197997, 47.211764061],
           [-1.650879589, 47.211519402],
           [-1.649425244, 47.211197117],
@@ -3381,7 +3395,7 @@
         "line": "I",
         "infrastructure": "magistrale",
         "quality": null,
-        "calculated_length": 745.435
+        "calculated_length": 332.402
       }
     },
     {
@@ -3389,7 +3403,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.656809344, 47.210393503],
+          [-1.653310221, 47.211945643],
+          [-1.655007713, 47.212204491],
+          [-1.656000858, 47.212078317],
+          [-1.656794452, 47.210410234],
           [-1.658026761, 47.209003606]
         ]
       },
@@ -3398,10 +3415,10 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "I",
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 179.953
+        "quality": "",
+        "calculated_length": 585.384
       }
     },
     {
@@ -3447,9 +3464,9 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "line": "I",
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 807.693
       }
     },
@@ -3469,9 +3486,9 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "I",
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 275.346
       }
     },
@@ -3492,9 +3509,9 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "line": "I",
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 398.817
       }
     },
@@ -3545,8 +3562,8 @@
           [-1.403847, 47.283072],
           [-1.39977, 47.285401],
           [-1.391015, 47.292184],
-          [-1.38535, 47.293988],
-          [-1.383033, 47.294541]
+          [-1.388161122, 47.293034688],
+          [-1.387210275, 47.293284775]
         ]
       },
       "properties": {
@@ -3557,7 +3574,7 @@
         "line": "B",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 9978.994
+        "calculated_length": 9632.944
       }
     },
     {
@@ -3565,8 +3582,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.441423, 47.266551],
-          [-1.443784, 47.2646],
+          [-1.445101371, 47.263268389],
+          [-1.445634116, 47.26276901],
           [-1.446659, 47.262124],
           [-1.449706, 47.259998],
           [-1.454942, 47.258018],
@@ -3577,8 +3594,8 @@
           [-1.475498, 47.253211],
           [-1.478138, 47.251964],
           [-1.480498, 47.250945],
-          [-1.483674, 47.250872],
-          [-1.487193, 47.249415]
+          [-1.48294603, 47.250910011],
+          [-1.482951172, 47.250403296]
         ]
       },
       "properties": {
@@ -3589,7 +3606,7 @@
         "line": "G",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 4115.577
+        "calculated_length": 3347.285
       }
     },
     {
@@ -3618,9 +3635,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "I",
+        "line": "",
         "infrastructure": "maillage",
-        "quality": null,
+        "quality": "",
         "calculated_length": 2529.036
       }
     },
@@ -3809,9 +3826,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "?",
+        "line": "",
         "infrastructure": "secondaire",
-        "quality": null,
+        "quality": "",
         "calculated_length": 636.02
       }
     },
@@ -3882,9 +3899,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "A",
+        "line": "",
         "infrastructure": "secondaire",
-        "quality": null,
+        "quality": "",
         "calculated_length": 5320.755
       }
     },
@@ -3914,9 +3931,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "E",
+        "line": "",
         "infrastructure": "secondaire",
-        "quality": null,
+        "quality": "",
         "calculated_length": 5249.344
       }
     },
@@ -3926,10 +3943,10 @@
         "type": "LineString",
         "coordinates": [
           [-1.477085, 47.186909],
-          [-1.473021, 47.174762],
-          [-1.475682, 47.167906],
-          [-1.479158, 47.168198],
-          [-1.47985, 47.167831]
+          [-1.473415051, 47.174888052],
+          [-1.473549488, 47.174098776],
+          [-1.473571746, 47.173634421],
+          [-1.473800156, 47.172999584]
         ]
       },
       "properties": {
@@ -3940,7 +3957,7 @@
         "line": "F",
         "infrastructure": "secondaire",
         "quality": null,
-        "calculated_length": 2505.575
+        "calculated_length": 1577.725
       }
     },
     {
@@ -3974,11 +3991,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.471004, 47.231348],
-          [-1.469309, 47.230415],
-          [-1.466326, 47.230575],
-          [-1.466583, 47.229788],
-          [-1.467292, 47.226335],
+          [-1.471267647, 47.225226152],
+          [-1.470996875, 47.225562026],
+          [-1.470613192, 47.225908358],
+          [-1.469958737, 47.226050334],
+          [-1.468690885, 47.22609031],
+          [-1.467993038, 47.226263042],
+          [-1.467262661, 47.225506614],
+          [-1.466920265, 47.225397333],
           [-1.466519, 47.224863],
           [-1.464459, 47.223304],
           [-1.461004, 47.216877],
@@ -3994,7 +4014,7 @@
         "line": "H",
         "infrastructure": "maillage",
         "quality": null,
-        "calculated_length": 2365.0
+        "calculated_length": 1813.541
       }
     },
     {
@@ -4002,8 +4022,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.486909, 47.249428],
-          [-1.486523, 47.247476],
+          [-1.48641902, 47.247546386],
+          [-1.485417045, 47.246269069],
           [-1.484634, 47.245524],
           [-1.483433, 47.243893],
           [-1.48266, 47.243397],
@@ -4012,7 +4032,9 @@
           [-1.476437, 47.23824],
           [-1.47751, 47.237017],
           [-1.476824, 47.235691],
-          [-1.476674, 47.234481]
+          [-1.47705758, 47.235452656],
+          [-1.476513128, 47.234712398],
+          [-1.474679252, 47.233440845]
         ]
       },
       "properties": {
@@ -4023,7 +4045,7 @@
         "line": "H",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 2005.095
+        "calculated_length": 1976.148
       }
     },
     {
@@ -4031,9 +4053,9 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.623071, 47.271149],
-          [-1.623393, 47.270348],
-          [-1.624208, 47.269111],
+          [-1.62415862, 47.269202216],
+          [-1.624165276, 47.268875059],
+          [-1.623957532, 47.268643618],
           [-1.623908, 47.268484],
           [-1.623006, 47.268048],
           [-1.622835, 47.267189],
@@ -4055,7 +4077,7 @@
         "line": "I",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 1717.1
+        "calculated_length": 1485.409
       }
     },
     {
@@ -4074,7 +4096,7 @@
           [-1.647387, 47.233275],
           [-1.650305, 47.229428],
           [-1.651593, 47.227097],
-          [-1.655541, 47.219927]
+          [-1.655528262, 47.220076234]
         ]
       },
       "properties": {
@@ -4085,7 +4107,7 @@
         "line": "I",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 4945.72
+        "calculated_length": 4929.862
       }
     },
     {
@@ -4096,7 +4118,7 @@
           [-1.643944, 47.217345],
           [-1.645981, 47.218173],
           [-1.654221, 47.219572],
-          [-1.655937, 47.220242]
+          [-1.655526209, 47.220077627]
         ]
       },
       "properties": {
@@ -4107,7 +4129,7 @@
         "line": "I",
         "infrastructure": "secondaire",
         "quality": null,
-        "calculated_length": 972.7
+        "calculated_length": 936.619
       }
     },
     {
@@ -4153,13 +4175,13 @@
         ]
       },
       "properties": {
-        "name": "Indre-Pirmil",
+        "name": "Indre-La Montagne",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "I",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1972.098
       }
     },
@@ -4200,10 +4222,10 @@
           [-1.499148, 47.287303],
           [-1.498934, 47.288555],
           [-1.499148, 47.290185],
-          [-1.49726, 47.292594],
-          [-1.493784, 47.293169],
-          [-1.488119, 47.293969],
-          [-1.48603377, 47.296993815]
+          [-1.498522292, 47.291167056],
+          [-1.49773918, 47.291927574],
+          [-1.497396843, 47.29238513],
+          [-1.497278999, 47.292620306]
         ]
       },
       "properties": {
@@ -4214,7 +4236,7 @@
         "line": "F",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 5464.763
+        "calculated_length": 4388.539
       }
     },
     {
@@ -4232,13 +4254,13 @@
         ]
       },
       "properties": {
-        "name": "Porte de la Chapelle - Porte de Sainte Luce",
+        "name": "Porte de Carquefou - Porte de Sainte Luce",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "F,H",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1178.511
       }
     },
@@ -4268,9 +4290,9 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.487193, 47.249415],
-          [-1.490658, 47.248244],
-          [-1.491688, 47.24737],
+          [-1.491869077, 47.247416585],
+          [-1.49234477, 47.247281595],
+          [-1.493176616, 47.247056229],
           [-1.495507, 47.246554],
           [-1.498983, 47.246671],
           [-1.501773, 47.246321]
@@ -4284,7 +4306,7 @@
         "line": "G,H",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 1198.685
+        "calculated_length": 770.082
       }
     },
     {
@@ -4321,13 +4343,13 @@
         ]
       },
       "properties": {
-        "name": "Boulevard des Pas enchantés",
+        "name": "Boulevard des Pas enchantés - Gréneraie/Senghor",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2025,
         "line": "A",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 933.002
       }
     },
@@ -4358,10 +4380,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.546143, 47.194438],
+          [-1.546361811, 47.194374278],
           [-1.546593, 47.194851],
           [-1.549093, 47.195537],
-          [-1.549865, 47.195515]
+          [-1.549757786, 47.195584523]
         ]
       },
       "properties": {
@@ -4369,10 +4391,10 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "C,E,G",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "",
-        "calculated_length": 319.966
+        "calculated_length": 310.694
       }
     },
     {
@@ -4433,7 +4455,7 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "A",
+        "line": "A,C",
         "infrastructure": "maillage",
         "quality": "",
         "calculated_length": 1536.268
@@ -4449,13 +4471,13 @@
         ]
       },
       "properties": {
-        "name": "Saint-Sébastien-sur-Loire",
+        "name": "Route de clisson",
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": null,
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 2486.939
       }
     },
@@ -4499,13 +4521,13 @@
         ]
       },
       "properties": {
-        "name": "Indre-Pirmil",
+        "name": "Les Couëts",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "G",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 6339.225
       }
     },
@@ -4517,18 +4539,19 @@
           [-1.695891, 47.191819],
           [-1.69293, 47.190091],
           [-1.689754, 47.188662],
-          [-1.693788, 47.182974]
+          [-1.693018704, 47.184134689],
+          [-1.692633408, 47.182847431]
         ]
       },
       "properties": {
-        "name": "Indre-Pirmil",
+        "name": "Ouest de La Montagne",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "A,I",
         "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 1286.196
+        "quality": "",
+        "calculated_length": 1290.713
       }
     },
     {
@@ -4545,13 +4568,13 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "Quai président Wilson Ouest",
+        "status": "terminé",
+        "type": "bidirectionnelle",
         "year": null,
         "line": "G",
         "infrastructure": "maillage",
-        "quality": null,
+        "quality": "satisfaisant",
         "calculated_length": 965.239
       }
     },
@@ -4560,12 +4583,19 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.59701, 47.157679],
-          [-1.594778, 47.157649],
+          [-1.591081593, 47.154906403],
+          [-1.590175355, 47.155999066],
+          [-1.590217304, 47.15684137],
           [-1.59156, 47.158262],
           [-1.580702, 47.166345],
-          [-1.579415, 47.167366],
-          [-1.5792, 47.16935],
+          [-1.584096899, 47.169772457],
+          [-1.583923058, 47.170399302],
+          [-1.584542239, 47.170587896],
+          [-1.584543133, 47.170787121],
+          [-1.582696545, 47.170334107],
+          [-1.582212152, 47.171374675],
+          [-1.577761306, 47.171339713],
+          [-1.576361908, 47.1699888],
           [-1.576024, 47.170021],
           [-1.568128, 47.175535],
           [-1.565682, 47.175622],
@@ -4584,7 +4614,7 @@
         "line": "E",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 4779.343
+        "calculated_length": 5576.601
       }
     },
     {
@@ -4597,13 +4627,13 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "E",
+        "line": "",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 448.982
       }
     },
@@ -4617,18 +4647,19 @@
           [-1.550000509, 47.188365755],
           [-1.548758109, 47.188089684],
           [-1.547792473, 47.188008083],
-          [-1.54703636, 47.188083249]
+          [-1.547443414, 47.188023989],
+          [-1.547065357, 47.188067484]
         ]
       },
       "properties": {
-        "name": "Indre-Pirmil",
+        "name": "Indre-Pirmil - Rezé",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "E,G",
         "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 726.301
+        "quality": "",
+        "calculated_length": 723.961
       }
     },
     {
@@ -4636,7 +4667,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.549766151, 47.195604833],
+          [-1.549760051, 47.195591362],
           [-1.549533, 47.193534],
           [-1.549054, 47.191492]
         ]
@@ -4649,7 +4680,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "",
-        "calculated_length": 460.803
+        "calculated_length": 459.275
       }
     },
     {
@@ -4690,7 +4721,7 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "",
         "calculated_length": 420.863
@@ -4842,13 +4873,13 @@
         ]
       },
       "properties": {
-        "name": "Boulevard des Martyrs Nantais de la Résistance",
+        "name": "Boulevard des Martyrs Nantais de la Résistance Nord",
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
         "line": "E,G",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 114.565
       }
     },
@@ -4863,13 +4894,13 @@
         ]
       },
       "properties": {
-        "name": "Pont de Pirmil/Pont-Rousseau",
+        "name": "Pont de Pirmil",
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
         "line": "E",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 348.779
       }
     },
@@ -4878,21 +4909,21 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.542024615, 47.197715554],
-          [-1.541262, 47.197904],
+          [-1.541261052, 47.197906611],
+          [-1.540774554, 47.197367762],
           [-1.540361, 47.197029],
           [-1.527916, 47.192742]
         ]
       },
       "properties": {
-        "name": "Saint-Sébastien-sur-Loire",
+        "name": "Boulevard Joliot-Curie",
         "status": "reporté",
         "type": "",
         "year": null,
         "line": "",
         "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 1236.975
+        "quality": "",
+        "calculated_length": 1175.996
       }
     },
     {
@@ -4948,7 +4979,7 @@
           [-1.558933961, 47.211384778],
           [-1.559568981, 47.210741261],
           [-1.560079079, 47.210557397],
-          [-1.561753005, 47.209882804]
+          [-1.56173558, 47.209874348]
         ]
       },
       "properties": {
@@ -4959,7 +4990,7 @@
         "line": "C",
         "infrastructure": "",
         "quality": "",
-        "calculated_length": 464.682
+        "calculated_length": 464.032
       }
     },
     {
@@ -5005,6 +5036,420 @@
         "infrastructure": "",
         "quality": "",
         "calculated_length": 196.918
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.541257921, 47.197915085],
+          [-1.542016746, 47.197730776]
+        ]
+      },
+      "properties": {
+        "name": "Pirmil",
+        "status": "terminé",
+        "type": "",
+        "year": null,
+        "line": "A",
+        "infrastructure": "magistrale",
+        "quality": "",
+        "calculated_length": 61.042
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.556351408, 47.209377694],
+          [-1.557642544, 47.209514979],
+          [-1.558288915, 47.209548755],
+          [-1.558499025, 47.20953677],
+          [-1.55857922, 47.209343918],
+          [-1.559045954, 47.209402754],
+          [-1.559074824, 47.209449605],
+          [-1.559766104, 47.20951171],
+          [-1.560765331, 47.209616308],
+          [-1.561735689, 47.209873442]
+        ]
+      },
+      "properties": {
+        "name": "Rue Gaston Michel",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": null,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "",
+        "calculated_length": 436.261
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.547065517, 47.188068679],
+          [-1.547858119, 47.191109326],
+          [-1.547839474, 47.191270582]
+        ]
+      },
+      "properties": {
+        "name": "Avenue de la IVème république",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "C,E,G",
+        "infrastructure": "",
+        "quality": "",
+        "calculated_length": 361.321
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.497283482, 47.292616256],
+          [-1.493759287, 47.293257943],
+          [-1.490755444, 47.293177733],
+          [-1.488200994, 47.293803371],
+          [-1.487254902, 47.294717753],
+          [-1.486852812, 47.295263166],
+          [-1.486545332, 47.296241687],
+          [-1.486048634, 47.296979577]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Louis Fouchard",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "",
+        "calculated_length": 1102.315
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.387233558, 47.293283471],
+          [-1.383318745, 47.294397697]
+        ]
+      },
+      "properties": {
+        "name": "Quai des Mariniers",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "",
+        "calculated_length": 320.976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.665976493, 47.261287411],
+          [-1.670681507, 47.262000848],
+          [-1.676194193, 47.263044884],
+          [-1.677373652, 47.263340691]
+        ]
+      },
+      "properties": {
+        "name": "Rue de Bretagne",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "",
+        "calculated_length": 893.009
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.44509065, 47.263268562],
+          [-1.443867102, 47.264662883],
+          [-1.443486186, 47.265085873],
+          [-1.441223776, 47.266722966]
+        ]
+      },
+      "properties": {
+        "name": "Rue de Nantes - Thouaré",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "",
+        "calculated_length": 485.606
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.491859067, 47.247407884],
+          [-1.491702924, 47.247287426],
+          [-1.490708959, 47.246254797],
+          [-1.490036514, 47.246710826],
+          [-1.489479356, 47.247042259],
+          [-1.488950917, 47.247315201],
+          [-1.488169747, 47.247346394],
+          [-1.486653358, 47.247486764],
+          [-1.486400626, 47.247541352],
+          [-1.485768798, 47.247829888],
+          [-1.483942238, 47.24829778],
+          [-1.484252408, 47.248789063],
+          [-1.483643555, 47.248968419],
+          [-1.484103067, 47.249412908],
+          [-1.483574628, 47.249802807],
+          [-1.483861823, 47.25013032],
+          [-1.483172556, 47.250411044],
+          [-1.4829428, 47.250418842]
+        ]
+      },
+      "properties": {
+        "name": "Rue du petit chassais",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "G,H",
+        "infrastructure": "",
+        "quality": "",
+        "calculated_length": 1083.401
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.491865863, 47.247415862],
+          [-1.491046343, 47.248062334],
+          [-1.489701034, 47.248654],
+          [-1.488374673, 47.248936969],
+          [-1.486423028, 47.249682971],
+          [-1.48467981, 47.250480409],
+          [-1.483410293, 47.250969155],
+          [-1.482974489, 47.250917709]
+        ]
+      },
+      "properties": {
+        "name": "Rue Jean Moulin",
+        "status": "reporté",
+        "type": "",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "",
+        "calculated_length": 793.695
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.583417935, 47.262236597],
+          [-1.582818136, 47.261472334],
+          [-1.584690979, 47.260583449],
+          [-1.586025226, 47.260624986],
+          [-1.586416932, 47.260849285]
+        ]
+      },
+      "properties": {
+        "name": "GVV Le Cardo",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "H",
+        "infrastructure": "",
+        "quality": "",
+        "calculated_length": 408.956
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.624159864, 47.269197261],
+          [-1.623153648, 47.27077569],
+          [-1.623175287, 47.271120735]
+        ]
+      },
+      "properties": {
+        "name": "Route de Basse-Indre",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "",
+        "calculated_length": 229.686
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.653299176, 47.211946537],
+          [-1.653865217, 47.209995441],
+          [-1.654911126, 47.210127627],
+          [-1.655665153, 47.205708524],
+          [-1.655993519, 47.205262358],
+          [-1.656711061, 47.205014487],
+          [-1.660158612, 47.204849239],
+          [-1.660863992, 47.204907075]
+        ]
+      },
+      "properties": {
+        "name": "GVV Allée de la Bourgonnière",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "I",
+        "infrastructure": "",
+        "quality": "",
+        "calculated_length": 1228.418
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.670525545, 47.199387001],
+          [-1.670746936, 47.199286718],
+          [-1.671152818, 47.198840459],
+          [-1.671197096, 47.198659948],
+          [-1.671034743, 47.198539608],
+          [-1.672208113, 47.197611973],
+          [-1.672879664, 47.197957957],
+          [-1.673418381, 47.197486615]
+        ]
+      },
+      "properties": {
+        "name": "GVV Indre",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "I",
+        "infrastructure": "",
+        "quality": "",
+        "calculated_length": 383.415
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.692237341, 47.175663833],
+          [-1.696009561, 47.175810379],
+          [-1.698050227, 47.175941488],
+          [-1.699858391, 47.176387693],
+          [-1.701296567, 47.177247642],
+          [-1.701768002, 47.177482908],
+          [-1.702549749, 47.177300374],
+          [-1.704202757, 47.175933375],
+          [-1.705111439, 47.176267948],
+          [-1.705889323, 47.177164813],
+          [-1.709675499, 47.178477328],
+          [-1.710091978, 47.178708945],
+          [-1.71098173, 47.179017766],
+          [-1.715828034, 47.177447907],
+          [-1.718032838, 47.17565534],
+          [-1.720077373, 47.172798496],
+          [-1.721213225, 47.170752283],
+          [-1.721026631, 47.169970065],
+          [-1.72080534, 47.169642769],
+          [-1.720080954, 47.169454544],
+          [-1.720239186, 47.169140154]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "I",
+        "infrastructure": "",
+        "quality": "",
+        "calculated_length": 3156.336
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.693758247, 47.194261267],
+          [-1.694022328, 47.194767806],
+          [-1.694213901, 47.194997611],
+          [-1.697074285, 47.196218572],
+          [-1.698950974, 47.196756405],
+          [-1.700896957, 47.196910761],
+          [-1.702017122, 47.1966988],
+          [-1.704186554, 47.197064913],
+          [-1.705353346, 47.197138391],
+          [-1.706001129, 47.196842287],
+          [-1.707120026, 47.197282442],
+          [-1.70930833, 47.196988459],
+          [-1.710566847, 47.195117814],
+          [-1.711273616, 47.194818259],
+          [-1.712453475, 47.195005327],
+          [-1.714498565, 47.196728999],
+          [-1.714361449, 47.194986669],
+          [-1.719842453, 47.196097747],
+          [-1.719698561, 47.196488841],
+          [-1.719358451, 47.196391068],
+          [-1.719790129, 47.197457675],
+          [-1.722455561, 47.197130589],
+          [-1.722643599, 47.197865247],
+          [-1.724172696, 47.197104775],
+          [-1.724215633, 47.196834907],
+          [-1.725052906, 47.197053719],
+          [-1.724816752, 47.197680974],
+          [-1.724301507, 47.199066745],
+          [-1.726224559, 47.199518857],
+          [-1.729547798, 47.200212754],
+          [-1.735246147, 47.200751924],
+          [-1.735637686, 47.20049079],
+          [-1.73769101, 47.200376905],
+          [-1.738539578, 47.200177604],
+          [-1.738633863, 47.200049481],
+          [-1.739845882, 47.199645694],
+          [-1.742242819, 47.199879743],
+          [-1.743290583, 47.200347836],
+          [-1.751308309, 47.201888284],
+          [-1.754671965, 47.202840495]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "A",
+        "infrastructure": "",
+        "quality": "",
+        "calculated_length": 5956.434
       }
     }
   ]

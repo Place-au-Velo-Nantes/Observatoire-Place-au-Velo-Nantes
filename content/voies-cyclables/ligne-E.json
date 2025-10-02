@@ -683,6 +683,97 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.544747948,
+            47.194651991
+          ],
+          [
+            -1.544995104,
+            47.194485618
+          ],
+          [
+            -1.545451289,
+            47.194226446
+          ],
+          [
+            -1.545726587,
+            47.194133382
+          ],
+          [
+            -1.545460973,
+            47.193956652
+          ],
+          [
+            -1.546510866,
+            47.192973267
+          ],
+          [
+            -1.546714121,
+            47.192804858
+          ],
+          [
+            -1.546811969,
+            47.192687262
+          ],
+          [
+            -1.546840272,
+            47.192586701
+          ],
+          [
+            -1.546930808,
+            47.192512002
+          ],
+          [
+            -1.54704383,
+            47.192479157
+          ],
+          [
+            -1.547134756,
+            47.192412729
+          ],
+          [
+            -1.547509885,
+            47.19205484
+          ],
+          [
+            -1.547558864,
+            47.191982674
+          ],
+          [
+            -1.547600734,
+            47.191778531
+          ],
+          [
+            -1.54766756,
+            47.191607419
+          ],
+          [
+            -1.547731841,
+            47.191494867
+          ],
+          [
+            -1.547839914,
+            47.191270074
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Avenue de la Libération",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "sans-titre#33"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.549629227,
             47.208689404
           ],
@@ -843,7 +934,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "Cours des 50 otages",
+        "name": "Cours des 50 otages Nord",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -1029,7 +1120,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "Pont de Pirmil/Pont-Rousseau",
+        "name": "Pont des Bataillons FFI - Pirmil",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -1399,121 +1490,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.598278,
-            47.155013
+            -1.591081593,
+            47.154906403
           ],
           [
-            -1.600102,
-            47.152299
+            -1.590175355,
+            47.155999066
           ],
           [
-            -1.604093,
-            47.144856
-          ],
-          [
-            -1.60744,
-            47.140857
-          ],
-          [
-            -1.608985,
-            47.138142
-          ],
-          [
-            -1.611388,
-            47.13499
-          ],
-          [
-            -1.612933,
-            47.133997
-          ],
-          [
-            -1.615637,
-            47.129501
-          ],
-          [
-            -1.61804,
-            47.125997
-          ],
-          [
-            -1.618813,
-            47.123603
-          ],
-          [
-            -1.62216,
-            47.124041
-          ],
-          [
-            -1.623791,
-            47.125413
-          ],
-          [
-            -1.62804,
-            47.126756
-          ],
-          [
-            -1.634863,
-            47.129326
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "E#139",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "secondaire",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.546143,
-            47.194438
-          ],
-          [
-            -1.546593,
-            47.194851
-          ],
-          [
-            -1.549093,
-            47.195537
-          ],
-          [
-            -1.549865,
-            47.195515
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "E#157",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#157"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.59701,
-            47.157679
-          ],
-          [
-            -1.594778,
-            47.157649
+            -1.590217304,
+            47.15684137
           ],
           [
             -1.59156,
@@ -1524,12 +1510,36 @@
             47.166345
           ],
           [
-            -1.579415,
-            47.167366
+            -1.584096899,
+            47.169772457
           ],
           [
-            -1.5792,
-            47.16935
+            -1.583923058,
+            47.170399302
+          ],
+          [
+            -1.584542239,
+            47.170587896
+          ],
+          [
+            -1.584543133,
+            47.170787121
+          ],
+          [
+            -1.582696545,
+            47.170334107
+          ],
+          [
+            -1.582212152,
+            47.171374675
+          ],
+          [
+            -1.577761306,
+            47.171339713
+          ],
+          [
+            -1.576361908,
+            47.1699888
           ],
           [
             -1.576024,
@@ -1582,32 +1592,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.59701,
-            47.157679
-          ],
-          [
-            -1.599047,
-            47.153887
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "E#165",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.553331,
             47.185401
           ],
@@ -1628,14 +1612,18 @@
             47.188008083
           ],
           [
-            -1.54703636,
-            47.188083249
+            -1.547443414,
+            47.188023989
+          ],
+          [
+            -1.547065357,
+            47.188067484
           ]
         ]
       },
       "properties": {
         "line": "E",
-        "name": "Indre-Pirmil",
+        "name": "Indre-Pirmil - Rezé",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1705,7 +1693,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "Boulevard des Martyrs Nantais de la Résistance",
+        "name": "Boulevard des Martyrs Nantais de la Résistance Nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -1736,13 +1724,44 @@
       },
       "properties": {
         "line": "E",
-        "name": "Pont de Pirmil/Pont-Rousseau",
+        "name": "Pont de Pirmil",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.547065517,
+            47.188068679
+          ],
+          [
+            -1.547858119,
+            47.191109326
+          ],
+          [
+            -1.547839474,
+            47.191270582
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Avenue de la IVème république",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "",
+        "link": "",
+        "id": "sans-titre#186"
       }
     }
   ]

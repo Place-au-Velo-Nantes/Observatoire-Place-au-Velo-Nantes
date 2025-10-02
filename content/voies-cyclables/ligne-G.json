@@ -141,6 +141,97 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.544747948,
+            47.194651991
+          ],
+          [
+            -1.544995104,
+            47.194485618
+          ],
+          [
+            -1.545451289,
+            47.194226446
+          ],
+          [
+            -1.545726587,
+            47.194133382
+          ],
+          [
+            -1.545460973,
+            47.193956652
+          ],
+          [
+            -1.546510866,
+            47.192973267
+          ],
+          [
+            -1.546714121,
+            47.192804858
+          ],
+          [
+            -1.546811969,
+            47.192687262
+          ],
+          [
+            -1.546840272,
+            47.192586701
+          ],
+          [
+            -1.546930808,
+            47.192512002
+          ],
+          [
+            -1.54704383,
+            47.192479157
+          ],
+          [
+            -1.547134756,
+            47.192412729
+          ],
+          [
+            -1.547509885,
+            47.19205484
+          ],
+          [
+            -1.547558864,
+            47.191982674
+          ],
+          [
+            -1.547600734,
+            47.191778531
+          ],
+          [
+            -1.54766756,
+            47.191607419
+          ],
+          [
+            -1.547731841,
+            47.191494867
+          ],
+          [
+            -1.547839914,
+            47.191270074
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Avenue de la Libération",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "sans-titre#33"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.527580005,
             47.213690193
           ],
@@ -660,12 +751,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.441423,
-            47.266551
+            -1.445101371,
+            47.263268389
           ],
           [
-            -1.443784,
-            47.2646
+            -1.445634116,
+            47.26276901
           ],
           [
             -1.446659,
@@ -708,12 +799,12 @@
             47.250945
           ],
           [
-            -1.483674,
-            47.250872
+            -1.48294603,
+            47.250910011
           ],
           [
-            -1.487193,
-            47.249415
+            -1.482951172,
+            47.250403296
           ]
         ]
       },
@@ -959,16 +1050,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.487193,
-            47.249415
+            -1.491869077,
+            47.247416585
           ],
           [
-            -1.490658,
-            47.248244
+            -1.49234477,
+            47.247281595
           ],
           [
-            -1.491688,
-            47.24737
+            -1.493176616,
+            47.247056229
           ],
           [
             -1.495507,
@@ -1002,8 +1093,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.546143,
-            47.194438
+            -1.546361811,
+            47.194374278
           ],
           [
             -1.546593,
@@ -1014,8 +1105,8 @@
             47.195537
           ],
           [
-            -1.549865,
-            47.195515
+            -1.549757786,
+            47.195584523
           ]
         ]
       },
@@ -1027,8 +1118,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#157"
+        "link": ""
       }
     },
     {
@@ -1168,7 +1258,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "Indre-Pirmil",
+        "name": "Les Couëts",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1210,11 +1300,11 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#163",
-        "status": "unknown",
+        "name": "Quai président Wilson Ouest",
+        "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
         "infrastructure": "maillage",
         "link": ""
       }
@@ -1245,14 +1335,18 @@
             47.188008083
           ],
           [
-            -1.54703636,
-            47.188083249
+            -1.547443414,
+            47.188023989
+          ],
+          [
+            -1.547065357,
+            47.188067484
           ]
         ]
       },
       "properties": {
         "line": "G",
-        "name": "Indre-Pirmil",
+        "name": "Indre-Pirmil - Rezé",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1296,6 +1390,32 @@
       "properties": {
         "line": "G",
         "name": "G#168",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.55158576,
+            47.203863035
+          ],
+          [
+            -1.547094,
+            47.201636
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "G#169",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1359,7 +1479,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "Boulevard des Martyrs Nantais de la Résistance",
+        "name": "Boulevard des Martyrs Nantais de la Résistance Nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -1367,6 +1487,128 @@
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.547065517,
+            47.188068679
+          ],
+          [
+            -1.547858119,
+            47.191109326
+          ],
+          [
+            -1.547839474,
+            47.191270582
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Avenue de la IVème république",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "",
+        "link": "",
+        "id": "sans-titre#186"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.491859067,
+            47.247407884
+          ],
+          [
+            -1.491702924,
+            47.247287426
+          ],
+          [
+            -1.490708959,
+            47.246254797
+          ],
+          [
+            -1.490036514,
+            47.246710826
+          ],
+          [
+            -1.489479356,
+            47.247042259
+          ],
+          [
+            -1.488950917,
+            47.247315201
+          ],
+          [
+            -1.488169747,
+            47.247346394
+          ],
+          [
+            -1.486653358,
+            47.247486764
+          ],
+          [
+            -1.486400626,
+            47.247541352
+          ],
+          [
+            -1.485768798,
+            47.247829888
+          ],
+          [
+            -1.483942238,
+            47.24829778
+          ],
+          [
+            -1.484252408,
+            47.248789063
+          ],
+          [
+            -1.483643555,
+            47.248968419
+          ],
+          [
+            -1.484103067,
+            47.249412908
+          ],
+          [
+            -1.483574628,
+            47.249802807
+          ],
+          [
+            -1.483861823,
+            47.25013032
+          ],
+          [
+            -1.483172556,
+            47.250411044
+          ],
+          [
+            -1.4829428,
+            47.250418842
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue du petit chassais",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "",
+        "link": "",
+        "id": "sans-titre#191"
       }
     }
   ]

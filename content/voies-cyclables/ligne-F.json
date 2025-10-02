@@ -22,73 +22,11 @@
       },
       "properties": {
         "line": "F",
-        "name": "Saint-Sébastien-sur-Loire",
+        "name": "Clos Toreau Routeau de Clisson",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.480875,
-            47.306523
-          ],
-          [
-            -1.480789,
-            47.306279
-          ],
-          [
-            -1.480902,
-            47.306159
-          ],
-          [
-            -1.483128,
-            47.304751
-          ],
-          [
-            -1.484329,
-            47.303573
-          ],
-          [
-            -1.485145,
-            47.30254
-          ],
-          [
-            -1.485928,
-            47.301004
-          ],
-          [
-            -1.486196,
-            47.299804
-          ],
-          [
-            -1.486255,
-            47.299054
-          ],
-          [
-            -1.486276,
-            47.29805
-          ],
-          [
-            -1.485954,
-            47.296646
-          ]
-        ]
-      },
-      "properties": {
-        "line": "F",
-        "name": "Carquefou - Saint Mars La Jaille",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "voie-verte",
-        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -750,20 +688,20 @@
             47.186909
           ],
           [
-            -1.473021,
-            47.174762
+            -1.473415051,
+            47.174888052
           ],
           [
-            -1.475682,
-            47.167906
+            -1.473549488,
+            47.174098776
           ],
           [
-            -1.479158,
-            47.168198
+            -1.473571746,
+            47.173634421
           ],
           [
-            -1.47985,
-            47.167831
+            -1.473800156,
+            47.172999584
           ]
         ]
       },
@@ -858,20 +796,20 @@
             47.290185
           ],
           [
-            -1.49726,
-            47.292594
+            -1.498522292,
+            47.291167056
           ],
           [
-            -1.493784,
-            47.293169
+            -1.49773918,
+            47.291927574
           ],
           [
-            -1.488119,
-            47.293969
+            -1.497396843,
+            47.29238513
           ],
           [
-            -1.48603377,
-            47.296993815
+            -1.497278999,
+            47.292620306
           ]
         ]
       },
@@ -923,7 +861,7 @@
       },
       "properties": {
         "line": "F",
-        "name": "Porte de la Chapelle - Porte de Sainte Luce",
+        "name": "Porte de Carquefou - Porte de Sainte Luce",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
