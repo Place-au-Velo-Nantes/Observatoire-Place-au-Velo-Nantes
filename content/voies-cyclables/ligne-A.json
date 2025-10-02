@@ -51,8 +51,8 @@
             47.185268911
           ],
           [
-            -1.677365921,
-            47.180041372
+            -1.67740319,
+            47.17996035
           ],
           [
             -1.673908,
@@ -120,7 +120,8 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#0"
       }
     },
     {
@@ -191,7 +192,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#76"
+        "id": "sans-titre#66"
       }
     },
     {
@@ -238,7 +239,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#95"
+        "id": "sans-titre#73"
       }
     },
     {
@@ -386,13 +387,14 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#134",
+        "name": "A#103",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#103"
       }
     },
     {
@@ -436,13 +438,14 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#141",
+        "name": "A#107",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "1",
-        "link": ""
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#107"
       }
     },
     {
@@ -476,7 +479,8 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#120"
       }
     },
     {
@@ -510,7 +514,8 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#121"
       }
     },
     {
@@ -538,13 +543,14 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#156",
+        "name": "A#122",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#122"
       }
     },
     {
@@ -608,7 +614,7 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#158",
+        "name": "A#124",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -686,14 +692,14 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#159",
+        "name": "A#125",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
-        "id": "sans-titre#159"
+        "id": "sans-titre#125"
       }
     },
     {
@@ -732,7 +738,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#162"
+        "id": "sans-titre#127"
       }
     },
     {
@@ -758,7 +764,8 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#142"
       }
     },
     {
@@ -930,7 +937,7 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#198",
+        "name": "A#150",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",

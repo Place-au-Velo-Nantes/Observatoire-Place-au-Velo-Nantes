@@ -116,7 +116,8 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#11"
       }
     },
     {
@@ -154,7 +155,8 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#17"
       }
     },
     {
@@ -163,8 +165,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.556967,
-            47.257674
+            -1.556788397,
+            47.257677451
           ],
           [
             -1.55386,
@@ -183,8 +185,12 @@
             47.25685
           ],
           [
-            -1.541007,
-            47.256442
+            -1.542881375,
+            47.256669863
+          ],
+          [
+            -1.540018083,
+            47.256076265
           ],
           [
             -1.53678,
@@ -244,7 +250,8 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#18"
       }
     },
     {
@@ -253,8 +260,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.583440874,
-            47.262226691
+            -1.582794778,
+            47.261488345
+          ],
+          [
+            -1.580833924,
+            47.261647126
+          ],
+          [
+            -1.579496978,
+            47.261866395
           ],
           [
             -1.579901,
@@ -298,7 +313,8 @@
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#24"
       }
     },
     {
@@ -372,7 +388,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#25"
       }
     },
     {
@@ -407,7 +424,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#107"
+        "id": "sans-titre#85"
       }
     },
     {
@@ -460,36 +477,8 @@
             47.260820307
           ],
           [
-            -1.586185851,
-            47.260889618
-          ],
-          [
-            -1.585565133,
-            47.261219451
-          ],
-          [
-            -1.585594077,
-            47.26143511
-          ],
-          [
-            -1.585469529,
-            47.261615993
-          ],
-          [
-            -1.585257798,
-            47.261700517
-          ],
-          [
-            -1.584933839,
-            47.261697318
-          ],
-          [
-            -1.584438139,
-            47.261944128
-          ],
-          [
-            -1.583440076,
-            47.262226541
+            -1.586415672,
+            47.260849434
           ]
         ]
       },
@@ -501,7 +490,8 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#93"
       }
     },
     {
@@ -565,7 +555,7 @@
       },
       "properties": {
         "line": "H",
-        "name": "H#142",
+        "name": "H#108",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -635,13 +625,14 @@
       },
       "properties": {
         "line": "H",
-        "name": "H#143",
+        "name": "H#109",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": ""
+        "link": "",
+        "id": "sans-titre#109"
       }
     },
     {
@@ -688,7 +679,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#151"
+        "id": "sans-titre#117"
       }
     },
     {
@@ -724,14 +715,14 @@
       },
       "properties": {
         "line": "H",
-        "name": "H#153",
+        "name": "H#119",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#153"
+        "id": "sans-titre#119"
       }
     },
     {
@@ -822,7 +813,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "",
         "link": "",
-        "id": "sans-titre#191"
+        "id": "sans-titre#145"
       }
     },
     {
@@ -830,10 +821,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -1.583417935,
-            47.262236597
-          ],
           [
             -1.582818136,
             47.261472334

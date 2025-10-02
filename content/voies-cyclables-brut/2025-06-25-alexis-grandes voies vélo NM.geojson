@@ -17,7 +17,7 @@
           [-1.676097411, 47.18749195],
           [-1.674360279, 47.185890325],
           [-1.674210532, 47.185268911],
-          [-1.677365921, 47.180041372],
+          [-1.67740319, 47.17996035],
           [-1.673908, 47.178978],
           [-1.661497, 47.17229],
           [-1.661218, 47.172305],
@@ -39,10 +39,10 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "A",
+        "line": "A,M",
         "infrastructure": "magistrale",
         "quality": "",
-        "calculated_length": 6974.994
+        "calculated_length": 6983.424
       }
     },
     {
@@ -60,7 +60,7 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 3871.231
@@ -94,12 +94,12 @@
       },
       "properties": {
         "name": "Avenue de la Bugallière Est",
-        "status": null,
+        "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1176.294
       }
     },
@@ -122,9 +122,9 @@
         "status": "",
         "type": "chaussidou",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 375.486
       }
     },
@@ -143,9 +143,9 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "I",
+        "line": "I,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 281.785
       }
     },
@@ -265,10 +265,10 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "",
-        "calculated_length": 5485.05
+        "calculated_length": 5485.049
       }
     },
     {
@@ -304,9 +304,9 @@
         "status": "",
         "type": "voie verte",
         "year": null,
-        "line": "I",
+        "line": "I,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 847.016
       }
     },
@@ -416,9 +416,9 @@
         "status": "en cours",
         "type": "",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 15294.423
       }
     },
@@ -438,9 +438,9 @@
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 2539.853
       }
     },
@@ -470,9 +470,9 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1570.753
       }
     },
@@ -491,9 +491,9 @@
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 489.132
       }
     },
@@ -534,9 +534,9 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "H",
+        "line": "H,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1505.147
       }
     },
@@ -553,12 +553,12 @@
       },
       "properties": {
         "name": "Rue de Nantes",
-        "status": null,
+        "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 933.12
       }
     },
@@ -576,12 +576,12 @@
       },
       "properties": {
         "name": "Voie verte A82",
-        "status": null,
+        "status": "",
         "type": "voie verte",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 408.012
       }
     },
@@ -604,9 +604,9 @@
         "status": "à venir",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 920.752
       }
     },
@@ -632,9 +632,9 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "I",
+        "line": "I,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1190.026
       }
     },
@@ -674,9 +674,9 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 3198.843
       }
     },
@@ -697,9 +697,9 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "H",
+        "line": "H,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 728.856
       }
     },
@@ -708,12 +708,13 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.556967, 47.257674],
+          [-1.556788397, 47.257677451],
           [-1.55386, 47.257731],
           [-1.546672, 47.256966],
           [-1.545749, 47.25666],
           [-1.544719, 47.25685],
-          [-1.541007, 47.256442],
+          [-1.542881375, 47.256669863],
+          [-1.540018083, 47.256076265],
           [-1.53678, 47.255175],
           [-1.536243, 47.255219],
           [-1.531609, 47.254782],
@@ -733,64 +734,10 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "H",
+        "line": "H,M",
         "infrastructure": "magistrale",
         "quality": "",
-        "calculated_length": 3188.444
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.480875, 47.306523],
-          [-1.480789, 47.306279],
-          [-1.480902, 47.306159],
-          [-1.483128, 47.304751],
-          [-1.484329, 47.303573],
-          [-1.485145, 47.30254],
-          [-1.485928, 47.301004],
-          [-1.486196, 47.299804],
-          [-1.486255, 47.299054],
-          [-1.486276, 47.29805],
-          [-1.485954, 47.296646]
-        ]
-      },
-      "properties": {
-        "name": "Carquefou - Saint Mars La Jaille",
-        "status": "terminé",
-        "type": "voie verte",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "calculated_length": 1232.161
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.485954, 47.296646],
-          [-1.483582, 47.287724],
-          [-1.483882, 47.285307],
-          [-1.493306, 47.274756],
-          [-1.504172, 47.255182],
-          [-1.507831, 47.249684],
-          [-1.512283, 47.240412]
-        ]
-      },
-      "properties": {
-        "name": "Carquefou - Route de Ste Luce",
-        "status": "",
-        "type": "aucun",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 6732.34
+        "calculated_length": 3172.598
       }
     },
     {
@@ -820,9 +767,9 @@
         "status": "en cours",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F,G",
+        "line": "F,G,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1717.568
       }
     },
@@ -844,9 +791,9 @@
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 353.082
       }
     },
@@ -893,7 +840,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 1096.246
@@ -921,31 +868,10 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 730.256
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.471243032, 47.225243646],
-          [-1.480603, 47.214485],
-          [-1.485409, 47.212794]
-        ]
-      },
-      "properties": {
-        "name": "Liaison Pas enchantés/Pont de Bellevue",
-        "status": "",
-        "type": "aucun",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 1800.157
       }
     },
     {
@@ -965,7 +891,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "I",
+        "line": "I,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 696.449
@@ -976,7 +902,9 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.583440874, 47.262226691],
+          [-1.582794778, 47.261488345],
+          [-1.580833924, 47.261647126],
+          [-1.579496978, 47.261866395],
           [-1.579901, 47.263331],
           [-1.574129, 47.264409],
           [-1.570803, 47.264045],
@@ -992,65 +920,10 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "H",
+        "line": "H,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "calculated_length": 2187.255
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.546268, 47.303288],
-          [-1.542663, 47.307536],
-          [-1.54262, 47.308235]
-        ]
-      },
-      "properties": {
-        "name": "D39",
-        "status": "terminé",
-        "type": "bidirection",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "calculated_length": 623.094
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.502056821, 47.246244634],
-          [-1.500041, 47.243493],
-          [-1.499344, 47.243034],
-          [-1.499805, 47.242837],
-          [-1.498808, 47.24192],
-          [-1.498325, 47.242094],
-          [-1.496437, 47.240405],
-          [-1.495396, 47.240929],
-          [-1.492563, 47.238576],
-          [-1.493175, 47.238023],
-          [-1.486851, 47.233144],
-          [-1.485778, 47.232212],
-          [-1.483943, 47.233712],
-          [-1.480579, 47.236573],
-          [-1.476674, 47.234481],
-          [-1.474802, 47.233304]
-        ]
-      },
-      "properties": {
-        "name": "Porte de Sainte Luce - Pont de Bellevue",
-        "status": "",
-        "type": "aucun",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 3422.905
+        "calculated_length": 2311.764
       }
     },
     {
@@ -1079,7 +952,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "H",
+        "line": "H,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 1368.529
@@ -1106,9 +979,9 @@
         "status": "en cours",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F,G",
+        "line": "F,G,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 458.56
       }
     },
@@ -1129,7 +1002,7 @@
         "status": "",
         "type": "voie busway",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "non satisafaisant",
         "calculated_length": 80.014
@@ -1165,7 +1038,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "C,E,G",
+        "line": "C,E,G,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 478.866
@@ -1204,7 +1077,7 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 797.122
@@ -1228,7 +1101,7 @@
         "status": "terminé",
         "type": "voie verte",
         "year": null,
-        "line": "B,G",
+        "line": "B,G,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 1001.864
@@ -1254,7 +1127,7 @@
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
-        "line": "G",
+        "line": "G,M",
         "infrastructure": "magistrale",
         "quality": "non satisafaisant",
         "calculated_length": 782.767
@@ -1274,7 +1147,7 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 261.476
@@ -1294,7 +1167,7 @@
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 553.801
@@ -1321,30 +1194,10 @@
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 6797.074
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.562853651, 47.192589473],
-          [-1.56219437, 47.196333557]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Victor Schoelcher",
-        "status": "en cours",
-        "type": "bande cyclable",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 419.235
       }
     },
     {
@@ -1371,33 +1224,10 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 549.606
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.528687477, 47.193740165],
-          [-1.528610117, 47.193436627],
-          [-1.528380532, 47.193258573],
-          [-1.525230388, 47.189336609],
-          [-1.521581075, 47.185521524]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard de Vendée",
-        "status": "reporté",
-        "type": "bande cyclable",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "non satisfaisant",
-        "calculated_length": 1064.056
       }
     },
     {
@@ -1418,7 +1248,7 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E,D",
+        "line": "E,D,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 162.997
@@ -1448,7 +1278,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 529.099
@@ -1468,7 +1298,7 @@
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 104.142
@@ -1504,27 +1334,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.57091303, 47.222733035],
-          [-1.571887528, 47.223017282],
-          [-1.574404981, 47.223386376]
-        ]
-      },
-      "properties": {
-        "name": "Via Rue de Carcouët",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 275.322
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.570775601, 47.222279085],
           [-1.573505444, 47.222737277],
           [-1.574067655, 47.222839097],
@@ -1537,9 +1346,9 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 327.186
       }
     },
@@ -1563,7 +1372,7 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 743.901
@@ -1590,55 +1399,10 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 956.743
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.552186657, 47.222841214],
-          [-1.551218348, 47.22166954],
-          [-1.551044982, 47.221583386],
-          [-1.549598869, 47.219804594],
-          [-1.548579728, 47.218571765]
-        ]
-      },
-      "properties": {
-        "name": "Rue Sully",
-        "status": "",
-        "type": "voie bus",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "calculated_length": 549.109
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.547749906, 47.217531272],
-          [-1.547314837, 47.216949397],
-          [-1.547314837, 47.216949397],
-          [-1.547070119, 47.216664724]
-        ]
-      },
-      "properties": {
-        "name": "Rue Henri IV Sud",
-        "status": "",
-        "type": "bande cyclable",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "non satisfaisant",
-        "calculated_length": 109.278
       }
     },
     {
@@ -1655,7 +1419,7 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 106.416
@@ -1675,7 +1439,7 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 394.118
@@ -1695,7 +1459,7 @@
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 384.571
@@ -1715,7 +1479,7 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 213.438
@@ -1735,7 +1499,7 @@
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 213.604
@@ -1755,7 +1519,7 @@
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 389.529
@@ -1775,7 +1539,7 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 834.375
@@ -1796,9 +1560,9 @@
         "status": "",
         "type": "voie verte",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 86.836
       }
     },
@@ -1824,7 +1588,7 @@
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 467.971
@@ -1850,7 +1614,7 @@
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F",
+        "line": "F,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 648.139
@@ -1873,7 +1637,7 @@
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F,G",
+        "line": "F,G,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 606.81
@@ -1901,7 +1665,7 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "G",
+        "line": "G,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 294.569
@@ -1945,7 +1709,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 998.982
@@ -1974,7 +1738,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "B,D,G",
+        "line": "B,D,G,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 254.39
@@ -2006,7 +1770,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 519.044
@@ -2028,7 +1792,7 @@
         "status": "terminé",
         "type": "voie verte",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 93.818
@@ -2050,7 +1814,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 99.484
@@ -2073,7 +1837,7 @@
         "status": "terminé",
         "type": "voie verte",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 77.707
@@ -2098,7 +1862,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 368.848
@@ -2120,7 +1884,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "D,G",
+        "line": "D,G,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 254.64
@@ -2142,7 +1906,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 320.065
@@ -2163,7 +1927,7 @@
         "status": "reporté",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 445.32
@@ -2183,7 +1947,7 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 123.958
@@ -2214,53 +1978,10 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "A,E",
+        "line": "A,E,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 402.719
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.545733154, 47.200948508],
-          [-1.547104915, 47.201569409]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Victor Hugo",
-        "status": "reporté",
-        "type": "bidirectionnelle",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 124.772
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.548912952, 47.201576034],
-          [-1.550284629, 47.201639099],
-          [-1.55058417, 47.202082785],
-          [-1.552235441, 47.203112904],
-          [-1.551580256, 47.203851473]
-        ]
-      },
-      "properties": {
-        "name": "Rue du Scorff",
-        "status": "terminé",
-        "type": "voie verte",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 424.029
       }
     },
     {
@@ -2286,73 +2007,10 @@
         "status": "",
         "type": "voie verte",
         "year": null,
-        "line": "G",
+        "line": "G,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 679.135
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.545727277, 47.194130748],
-          [-1.546351154, 47.194374727],
-          [-1.546992855, 47.19418958],
-          [-1.554355409, 47.19233689]
-        ]
-      },
-      "properties": {
-        "name": "Pont-Rousseau",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 702.059
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.554352856, 47.192335161],
-          [-1.562858172, 47.192595726]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard du Général de Gaulle Est Rezé",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 645.204
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.562858175, 47.192592265],
-          [-1.567208192, 47.193019396],
-          [-1.570552526, 47.192892638]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard du Général de Gaulle Ouest Rezé",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 586.886
       }
     },
     {
@@ -2374,7 +2032,7 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 409.327
@@ -2401,30 +2059,10 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "C,G",
+        "line": "C,G,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 215.567
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.561972822, 47.201616265],
-          [-1.553980234, 47.20159471]
-        ]
-      },
-      "properties": {
-        "name": "Nouveau CHU",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 605.599
       }
     },
     {
@@ -2449,9 +2087,9 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "C,G",
+        "line": "C,G,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 300.022
       }
     },
@@ -2472,104 +2110,10 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 637.16
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.545731159, 47.2009466],
-          [-1.543768181, 47.20147548],
-          [-1.543096133, 47.202385406]
-        ]
-      },
-      "properties": {
-        "name": "Mangin",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 273.189
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.547090913, 47.201564257],
-          [-1.547646508, 47.201845769],
-          [-1.542506308, 47.203296328],
-          [-1.542404729, 47.2031912]
-        ]
-      },
-      "properties": {
-        "name": "Square Vertais",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 487.981
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.542406817, 47.203187648],
-          [-1.5430965, 47.202379996]
-        ]
-      },
-      "properties": {
-        "name": "Rue Anatole de Monzie Ouest",
-        "status": "reporté",
-        "type": "bidirectionnelle",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 103.889
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.542409773, 47.203185423],
-          [-1.542251077, 47.203232239],
-          [-1.542129967, 47.203219471],
-          [-1.542036002, 47.203219471],
-          [-1.541781253, 47.20330459],
-          [-1.541049479, 47.203590563],
-          [-1.540414695, 47.203889898],
-          [-1.539738147, 47.204253071],
-          [-1.538956972, 47.204719876],
-          [-1.538695963, 47.204935508],
-          [-1.538579029, 47.205121346],
-          [-1.538595375, 47.205320684],
-          [-1.53829188, 47.20541847]
-        ]
-      },
-      "properties": {
-        "name": "Rue Anatole de Monzie Est",
-        "status": "terminé",
-        "type": "bidirectionnelle",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "calculated_length": 418.557
       }
     },
     {
@@ -2586,62 +2130,10 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 118.555
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.534023406, 47.210548572],
-          [-1.533962851, 47.210409562],
-          [-1.534014598, 47.209718053],
-          [-1.534507873, 47.208593834],
-          [-1.534756358, 47.208351267],
-          [-1.534862846, 47.208078911],
-          [-1.535069569, 47.207935639],
-          [-1.535247044, 47.207824997],
-          [-1.53572571, 47.207338148],
-          [-1.536166352, 47.206983539],
-          [-1.536715513, 47.206592018],
-          [-1.537116539, 47.206298297],
-          [-1.537108187, 47.206201834],
-          [-1.536698487, 47.205739985]
-        ]
-      },
-      "properties": {
-        "name": "Allée de l'Île Beaulieu",
-        "status": "terminé",
-        "type": "bidirectionnelle",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "calculated_length": 620.705
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.536698498, 47.205739495],
-          [-1.538112146, 47.205189078]
-        ]
-      },
-      "properties": {
-        "name": "Rue Gaëtan Rondeau",
-        "status": "terminé",
-        "type": "bidirectionnelle",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "non satisfaisant",
-        "calculated_length": 123.352
       }
     },
     {
@@ -2663,7 +2155,7 @@
         "status": "en cours",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "A,D",
+        "line": "A,D,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 1756.143
@@ -2687,7 +2179,7 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 816.762
@@ -2714,7 +2206,7 @@
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "F,G",
+        "line": "F,G,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 458.56
@@ -2739,7 +2231,7 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 398.942
@@ -2763,9 +2255,9 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 412.582
       }
     },
@@ -2785,7 +2277,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 340.257
@@ -2807,7 +2299,7 @@
         "status": "",
         "type": "monodirectionnellea",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "calculated_length": 507.616
@@ -2845,7 +2337,7 @@
         "status": "en cours",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "B,C",
+        "line": "B,C,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 887.831
@@ -2883,7 +2375,7 @@
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 2129.41
@@ -2908,9 +2400,9 @@
         "status": "en cours",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 793.296
       }
     },
@@ -2936,9 +2428,9 @@
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 887.96
       }
     },
@@ -2956,9 +2448,9 @@
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "C",
+        "line": "C,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 393.334
       }
     },
@@ -3011,7 +2503,7 @@
         "status": "terminé",
         "type": "voie verte",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 443.629
@@ -3039,7 +2531,7 @@
         "status": "terminé",
         "type": "aucun",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "calculated_length": 330.667
@@ -3064,9 +2556,9 @@
         "status": "",
         "type": "voie verte",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 99.928
       }
     },
@@ -3087,9 +2579,9 @@
         "status": "",
         "type": "vélorue",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 182.831
       }
     },
@@ -3109,9 +2601,9 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 273.005
       }
     },
@@ -3130,9 +2622,9 @@
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 669.087
       }
     },
@@ -3161,9 +2653,9 @@
         "status": "",
         "type": "voie bus",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1011.286
       }
     },
@@ -3183,14 +2675,7 @@
           [-1.588833293, 47.26108978],
           [-1.587448322, 47.260917348],
           [-1.586664114, 47.260820307],
-          [-1.586185851, 47.260889618],
-          [-1.585565133, 47.261219451],
-          [-1.585594077, 47.26143511],
-          [-1.585469529, 47.261615993],
-          [-1.585257798, 47.261700517],
-          [-1.584933839, 47.261697318],
-          [-1.584438139, 47.261944128],
-          [-1.583440076, 47.262226541]
+          [-1.586415672, 47.260849434]
         ]
       },
       "properties": {
@@ -3198,10 +2683,10 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "H",
+        "line": "H,M",
         "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 914.471
+        "quality": "",
+        "calculated_length": 619.282
       }
     },
     {
@@ -3237,9 +2722,9 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "D,I",
+        "line": "D,I,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 894.833
       }
     },
@@ -3261,9 +2746,9 @@
         "status": "",
         "type": "bande cylable",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 317.872
       }
     },
@@ -3281,96 +2766,10 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "line": "D",
+        "line": "D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 358.128
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.635077944, 47.228416379],
-          [-1.633797938, 47.229526533],
-          [-1.631683901, 47.23122803],
-          [-1.631575923, 47.231442756],
-          [-1.631282842, 47.231652243],
-          [-1.630271952, 47.233214713],
-          [-1.630002015, 47.233555122],
-          [-1.629107345, 47.235550379],
-          [-1.628535206, 47.237496916],
-          [-1.627578836, 47.240078499],
-          [-1.626795463, 47.240812697],
-          [-1.626093614, 47.241111166],
-          [-1.624543367, 47.241524827],
-          [-1.623540717, 47.241896602],
-          [-1.620602189, 47.243168976],
-          [-1.619476141, 47.243891551],
-          [-1.617933607, 47.244928264],
-          [-1.616799853, 47.246153449],
-          [-1.615373008, 47.248305297],
-          [-1.614691265, 47.249385422],
-          [-1.614370206, 47.249637879]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Marcel Paul Nord",
-        "status": "",
-        "type": "bande cyclable",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 2955.867
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.635076559, 47.228418065],
-          [-1.635712864, 47.227836762]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Marcel Paul Sud",
-        "status": "",
-        "type": "aucun",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 80.615
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.64393128, 47.21734276],
-          [-1.64120732, 47.218468129],
-          [-1.640558945, 47.219275116],
-          [-1.640047962, 47.22135391],
-          [-1.639622966, 47.222318206],
-          [-1.63850708, 47.224709564],
-          [-1.637679704, 47.225896063],
-          [-1.636628362, 47.227022963],
-          [-1.635712874, 47.227833746]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard François Mitterrand",
-        "status": "",
-        "type": "bande cyclable",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 1377.01
       }
     },
     {
@@ -3392,9 +2791,9 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "line": "I",
+        "line": "I,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 332.402
       }
     },
@@ -3403,22 +2802,22 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.653310221, 47.211945643],
-          [-1.655007713, 47.212204491],
-          [-1.656000858, 47.212078317],
-          [-1.656794452, 47.210410234],
-          [-1.658026761, 47.209003606]
+          [-1.548912952, 47.201576034],
+          [-1.550287498, 47.201578732],
+          [-1.55058417, 47.202082785],
+          [-1.552235441, 47.203112904],
+          [-1.551580256, 47.203851473]
         ]
       },
       "properties": {
-        "name": "Rue de la Gare Nord",
-        "status": "",
-        "type": "bande cyclable",
+        "name": "Rue du Scorff",
+        "status": "terminé",
+        "type": "voie verte",
         "year": null,
-        "line": "",
+        "line": "G,M",
         "infrastructure": "magistrale",
         "quality": "",
-        "calculated_length": 585.384
+        "calculated_length": 430.091
       }
     },
     {
@@ -3426,126 +2825,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.660875683, 47.204925128],
-          [-1.660688896, 47.205154699],
-          [-1.660389861, 47.205700274],
-          [-1.660221023, 47.206344175],
-          [-1.659944741, 47.206750846],
-          [-1.659385946, 47.207754253],
-          [-1.658026981, 47.209004084]
-        ]
-      },
-      "properties": {
-        "name": "Rue de la Gare Sud",
-        "status": "",
-        "type": "aucun",
-        "year": null,
-        "line": "I",
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 508.725
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.670503434, 47.199404898],
-          [-1.672706819, 47.200251801],
-          [-1.675103328, 47.201171249],
-          [-1.676923889, 47.201875324],
-          [-1.678343337, 47.202320369],
-          [-1.679207985, 47.201303618]
-        ]
-      },
-      "properties": {
-        "name": "Rue Jean Jaurès",
-        "status": "",
-        "type": "aucun",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 807.693
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.679208142, 47.201304677],
-          [-1.678388478, 47.200820901],
-          [-1.677316845, 47.20020121],
-          [-1.676458059, 47.19968585]
-        ]
-      },
-      "properties": {
-        "name": "Quai Jean Bart Ouest",
-        "status": "",
-        "type": "bande cyclable",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 275.346
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.676458473, 47.199684603],
-          [-1.675622929, 47.199284493],
-          [-1.674372618, 47.198686145],
-          [-1.672869354, 47.197960771],
-          [-1.673426659, 47.197503203]
-        ]
-      },
-      "properties": {
-        "name": "Quai Jean Bart Est",
-        "status": "",
-        "type": "aucun",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 398.817
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.540008, 47.256116],
-          [-1.542454, 47.256858],
-          [-1.545029, 47.258824],
-          [-1.545737, 47.260951],
-          [-1.544686, 47.265945],
-          [-1.544643, 47.267489],
-          [-1.54593, 47.267722]
-        ]
-      },
-      "properties": {
-        "name": "Liaison Babinière",
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 1571.35
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.47543, 47.232537],
+          [-1.474825263, 47.233310363],
           [-1.473155, 47.23583],
           [-1.468134, 47.239997],
           [-1.467233, 47.241162],
@@ -3568,13 +2848,13 @@
       },
       "properties": {
         "name": "Loire à vélo",
-        "status": null,
-        "type": null,
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "B",
+        "line": "B,S",
         "infrastructure": "structurante",
-        "quality": null,
-        "calculated_length": 9632.944
+        "quality": "",
+        "calculated_length": 9535.688
       }
     },
     {
@@ -3603,42 +2883,10 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "G",
+        "line": "G,S",
         "infrastructure": "structurante",
-        "quality": null,
-        "calculated_length": 3347.285
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.72024, 47.169234],
-          [-1.719468, 47.170459],
-          [-1.718138, 47.171072],
-          [-1.71582, 47.171043],
-          [-1.707323, 47.173989],
-          [-1.704018, 47.176061],
-          [-1.702431, 47.177402],
-          [-1.701486, 47.177519],
-          [-1.699426, 47.176352],
-          [-1.699225094, 47.176334775],
-          [-1.696556273, 47.17575926],
-          [-1.69229983, 47.175732837],
-          [-1.69229983, 47.175741043],
-          [-1.692276, 47.175739]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "maillage",
         "quality": "",
-        "calculated_length": 2529.036
+        "calculated_length": 3347.285
       }
     },
     {
@@ -3717,9 +2965,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "G",
+        "line": "G,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 10211.023
       }
     },
@@ -3769,9 +3017,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "A",
+        "line": "A,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 4507.714
       }
     },
@@ -3816,27 +3064,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.681764, 47.175436],
-          [-1.67957, 47.17641],
-          [-1.677371, 47.180049]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "secondaire",
-        "quality": "",
-        "calculated_length": 636.02
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.692265818, 47.17573614],
           [-1.68747489, 47.175541269],
           [-1.683719, 47.176323],
@@ -3853,88 +3080,6 @@
         "infrastructure": "maillage",
         "quality": null,
         "calculated_length": 862.805
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.695891, 47.191819],
-          [-1.696829, 47.192028],
-          [-1.699554, 47.191751],
-          [-1.701721, 47.19057],
-          [-1.704017, 47.190642],
-          [-1.704897, 47.190963],
-          [-1.7076, 47.191284],
-          [-1.710497, 47.191255],
-          [-1.713287, 47.191605],
-          [-1.719188, 47.193413],
-          [-1.722642, 47.19474],
-          [-1.723661, 47.19533],
-          [-1.724037, 47.195928],
-          [-1.725464, 47.195797],
-          [-1.726065, 47.195571],
-          [-1.727481, 47.195199],
-          [-1.728994, 47.195367],
-          [-1.731654, 47.195381],
-          [-1.734412, 47.19576],
-          [-1.735785, 47.196198],
-          [-1.737759, 47.196154],
-          [-1.739905, 47.19576],
-          [-1.742351, 47.196067],
-          [-1.746857, 47.197627],
-          [-1.750011, 47.198268],
-          [-1.753016, 47.199449],
-          [-1.755612, 47.199872],
-          [-1.754925, 47.200834],
-          [-1.754518, 47.202],
-          [-1.754303, 47.202766],
-          [-1.755204, 47.202955],
-          [-1.755043, 47.20324]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "secondaire",
-        "quality": "",
-        "calculated_length": 5320.755
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.598278, 47.155013],
-          [-1.600102, 47.152299],
-          [-1.604093, 47.144856],
-          [-1.60744, 47.140857],
-          [-1.608985, 47.138142],
-          [-1.611388, 47.13499],
-          [-1.612933, 47.133997],
-          [-1.615637, 47.129501],
-          [-1.61804, 47.125997],
-          [-1.618813, 47.123603],
-          [-1.62216, 47.124041],
-          [-1.623791, 47.125413],
-          [-1.62804, 47.126756],
-          [-1.634863, 47.129326]
-        ]
-      },
-      "properties": {
-        "name": "",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "secondaire",
-        "quality": "",
-        "calculated_length": 5249.344
       }
     },
     {
@@ -3980,9 +3125,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "A",
-        "infrastructure": "1",
-        "quality": null,
+        "line": "A,S",
+        "infrastructure": "structurante",
+        "quality": "",
         "calculated_length": 1721.344
       }
     },
@@ -4042,9 +3187,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "H",
+        "line": "H,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1976.148
       }
     },
@@ -4070,13 +3215,13 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "I",
+        "line": "I,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1485.409
       }
     },
@@ -4104,9 +3249,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "I",
+        "line": "I,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 4929.862
       }
     },
@@ -4153,9 +3298,9 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "line": "I",
+        "line": "I,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 836.079
       }
     },
@@ -4179,7 +3324,7 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "I",
+        "line": "I,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 1972.098
@@ -4229,13 +3374,13 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "F",
+        "line": "F,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 4388.539
       }
     },
@@ -4258,7 +3403,7 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "F,H",
+        "line": "F,H,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 1178.511
@@ -4279,9 +3424,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "F,G",
+        "line": "F,G,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1061.209
       }
     },
@@ -4303,9 +3448,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "G,H",
+        "line": "G,H,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 770.082
       }
     },
@@ -4325,9 +3470,9 @@
         "status": "en cours",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "A",
+        "line": "A,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 1330.119
       }
     },
@@ -4346,8 +3491,8 @@
         "name": "Boulevard des Pas enchantés - Gréneraie/Senghor",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": 2025,
-        "line": "A",
+        "year": "2025",
+        "line": "A,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 933.002
@@ -4365,13 +3510,13 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "A",
+        "line": "A,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 637.112
       }
     },
@@ -4391,7 +3536,7 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "G",
+        "line": "G,S",
         "infrastructure": "structurante",
         "quality": "",
         "calculated_length": 310.694
@@ -4466,26 +3611,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.477066925, 47.186947576],
-          [-1.444386, 47.184944]
-        ]
-      },
-      "properties": {
-        "name": "Route de clisson",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 2486.939
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.623807, 47.175053],
           [-1.62003, 47.176512],
           [-1.617455, 47.17692],
@@ -4525,7 +3650,7 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "G",
+        "line": "G,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 6339.225
@@ -4548,7 +3673,7 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "A,I",
+        "line": "A,I,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 1290.713
@@ -4607,34 +3732,14 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": "E",
-        "infrastructure": "structurante",
-        "quality": null,
-        "calculated_length": 5576.601
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.59701, 47.157679],
-          [-1.599047, 47.153887]
-        ]
-      },
-      "properties": {
         "name": "",
         "status": "",
         "type": "",
         "year": null,
-        "line": "",
+        "line": "E,S",
         "infrastructure": "structurante",
         "quality": "",
-        "calculated_length": 448.982
+        "calculated_length": 5576.601
       }
     },
     {
@@ -4656,31 +3761,10 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "E,G",
+        "line": "E,G,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 723.961
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.549760051, 47.195591362],
-          [-1.549533, 47.193534],
-          [-1.549054, 47.191492]
-        ]
-      },
-      "properties": {
-        "name": "Rezé - Les Sorinières",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 459.275
       }
     },
     {
@@ -4697,34 +3781,14 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": "G",
-        "infrastructure": "structurante",
-        "quality": null,
-        "calculated_length": 2522.996
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.55158576, 47.203863035],
-          [-1.547094, 47.201636]
-        ]
-      },
-      "properties": {
         "name": "",
         "status": "",
         "type": "",
         "year": null,
-        "line": "G",
+        "line": "G,S",
         "infrastructure": "structurante",
         "quality": "",
-        "calculated_length": 420.863
+        "calculated_length": 2522.996
       }
     },
     {
@@ -4739,34 +3803,14 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "G",
-        "infrastructure": "structurante",
-        "quality": null,
-        "calculated_length": 363.834
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.547103807, 47.201568139],
-          [-1.548911568, 47.201580142]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Bénoni Goullin",
-        "status": "reporté",
-        "type": "bande cyclable",
-        "year": null,
-        "line": "",
+        "line": "G,S",
         "infrastructure": "structurante",
         "quality": "",
-        "calculated_length": 136.98
+        "calculated_length": 363.834
       }
     },
     {
@@ -4780,13 +3824,13 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "D",
+        "line": "D,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 404.64
       }
     },
@@ -4807,9 +3851,9 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E,D",
+        "line": "E,D,M",
         "infrastructure": "magistrale",
-        "quality": null,
+        "quality": "",
         "calculated_length": 281.817
       }
     },
@@ -4825,13 +3869,13 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "D",
+        "line": "D,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 823.759
       }
     },
@@ -4852,13 +3896,13 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "",
         "year": null,
-        "line": "D",
+        "line": "D,S",
         "infrastructure": "structurante",
-        "quality": null,
+        "quality": "",
         "calculated_length": 955.691
       }
     },
@@ -4877,7 +3921,7 @@
         "status": "",
         "type": "monodirectionnelle",
         "year": null,
-        "line": "E,G",
+        "line": "E,G,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 114.565
@@ -4898,74 +3942,10 @@
         "status": "",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "E",
+        "line": "E,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 348.779
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.541261052, 47.197906611],
-          [-1.540774554, 47.197367762],
-          [-1.540361, 47.197029],
-          [-1.527916, 47.192742]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Joliot-Curie",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 1175.996
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.547074341, 47.216665679],
-          [-1.54690979, 47.216436411],
-          [-1.546867824, 47.216363473]
-        ]
-      },
-      "properties": {
-        "name": "Pont de la Rotonde Nord",
-        "status": "",
-        "type": "aucun",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 37.083
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.545474166, 47.21657256],
-          [-1.545615063, 47.216628733],
-          [-1.545792476, 47.216606163]
-        ]
-      },
-      "properties": {
-        "name": "Place de la Duchesse Anne",
-        "status": "",
-        "type": "voie verte",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": null,
-        "calculated_length": 26.036
       }
     },
     {
@@ -5052,7 +4032,7 @@
         "status": "terminé",
         "type": "",
         "year": null,
-        "line": "A",
+        "line": "A,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 61.042
@@ -5080,7 +4060,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": null,
-        "line": "B",
+        "line": "B,M",
         "infrastructure": "magistrale",
         "quality": "",
         "calculated_length": 436.261
@@ -5105,96 +4085,6 @@
         "infrastructure": "",
         "quality": "",
         "calculated_length": 361.321
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.497283482, 47.292616256],
-          [-1.493759287, 47.293257943],
-          [-1.490755444, 47.293177733],
-          [-1.488200994, 47.293803371],
-          [-1.487254902, 47.294717753],
-          [-1.486852812, 47.295263166],
-          [-1.486545332, 47.296241687],
-          [-1.486048634, 47.296979577]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Louis Fouchard",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "structurante",
-        "quality": "",
-        "calculated_length": 1102.315
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.387233558, 47.293283471],
-          [-1.383318745, 47.294397697]
-        ]
-      },
-      "properties": {
-        "name": "Quai des Mariniers",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "structurante",
-        "quality": "",
-        "calculated_length": 320.976
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.665976493, 47.261287411],
-          [-1.670681507, 47.262000848],
-          [-1.676194193, 47.263044884],
-          [-1.677373652, 47.263340691]
-        ]
-      },
-      "properties": {
-        "name": "Rue de Bretagne",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "calculated_length": 893.009
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.44509065, 47.263268562],
-          [-1.443867102, 47.264662883],
-          [-1.443486186, 47.265085873],
-          [-1.441223776, 47.266722966]
-        ]
-      },
-      "properties": {
-        "name": "Rue de Nantes - Thouaré",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "structurante",
-        "quality": "",
-        "calculated_length": 485.606
       }
     },
     {
@@ -5238,33 +4128,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.491865863, 47.247415862],
-          [-1.491046343, 47.248062334],
-          [-1.489701034, 47.248654],
-          [-1.488374673, 47.248936969],
-          [-1.486423028, 47.249682971],
-          [-1.48467981, 47.250480409],
-          [-1.483410293, 47.250969155],
-          [-1.482974489, 47.250917709]
-        ]
-      },
-      "properties": {
-        "name": "Rue Jean Moulin",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "structurante",
-        "quality": "",
-        "calculated_length": 793.695
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.583417935, 47.262236597],
           [-1.582818136, 47.261472334],
           [-1.584690979, 47.260583449],
           [-1.586025226, 47.260624986],
@@ -5279,28 +4142,7 @@
         "line": "H",
         "infrastructure": "",
         "quality": "",
-        "calculated_length": 408.956
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.624159864, 47.269197261],
-          [-1.623153648, 47.27077569],
-          [-1.623175287, 47.271120735]
-        ]
-      },
-      "properties": {
-        "name": "Route de Basse-Indre",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "structurante",
-        "quality": "",
-        "calculated_length": 229.686
+        "calculated_length": 312.622
       }
     },
     {
