@@ -1632,6 +1632,33 @@
         "link": "",
         "id": "sans-titre#145"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.55158576,
+            47.203863035
+          ],
+          [
+            -1.547084398,
+            47.201564539
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "G#1",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#1"
+      }
     }
   ]
 }
