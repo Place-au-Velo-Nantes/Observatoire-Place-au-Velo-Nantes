@@ -183,8 +183,8 @@ const processVoiesFiles = () => {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Read all JSON files from brut directory
-  const files = fs.readdirSync(brutDir).filter(file => file.endsWith('.geojson'));
+  // Read all JSON files from brut directory, excluding dangers.geojson
+  const files = fs.readdirSync(brutDir).filter(file => file.endsWith('.geojson') && file !== 'dangers.geojson');
 
   console.log(`Found ${files.length} files to process...`);
 
