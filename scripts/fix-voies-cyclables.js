@@ -89,7 +89,6 @@ const addDangersToLines = () => {
     const dangersPath = path.join(__dirname, '../content/voies-cyclables-brut/dangers.geojson');
     const dangersData = JSON.parse(fs.readFileSync(dangersPath, 'utf8'));
 
-    console.log(`\n=== ADDING DANGERS TO LINES ===`);
     console.log(`Found ${dangersData.features.length} danger points`);
 
     // Track which lines need to be updated
@@ -140,6 +139,8 @@ const addDangersToLines = () => {
       let lineData;
       if (fs.existsSync(linePath)) {
         lineData = JSON.parse(fs.readFileSync(linePath, 'utf8'));
+        // Remove existing danger features to prevent duplicates
+        lineData.features = lineData.features.filter(feature => feature.properties.type !== 'danger');
       } else {
         lineData = {
           type: 'FeatureCollection',
