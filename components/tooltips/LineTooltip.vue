@@ -1,19 +1,24 @@
 <template>
   <div class="not-prose text-gray-900 w-48">
     <div class="py-1 bg-zinc-100 flex flex-col items-center justify-center">
-      <div class="font-bold text-base">
-        {{ title }}
-      </div>
-      <div class="flex flex-row space-x-1">
-        <div
-          v-for="line in lines"
-          :key="line"
-          class="h-8 w-8 rounded-full flex items-center justify-center text-white text-base font-bold"
-          :style="`background-color: ${getLineColor(line)}`"
-        >
-          {{ line }}
+      <template v-if="lines.includes('X')">
+        <div class="font-bold text-base">Autre axe principal</div>
+      </template>
+      <template v-else>
+        <div class="font-bold text-base">
+          {{ title }}
         </div>
-      </div>
+        <div class="flex flex-row space-x-1">
+          <div
+            v-for="line in lines"
+            :key="line"
+            class="h-8 w-8 rounded-full flex items-center justify-center text-white text-base font-bold"
+            :style="`background-color: ${getLineColor(line)}`"
+          >
+            {{ line }}
+          </div>
+        </div>
+      </template>
     </div>
     <div class="px-2 divide-y">
       <div class="py-1 flex flex-col items-center">
@@ -83,7 +88,7 @@ const { getVoieCyclablePath } = useUrl();
 
 const { feature, lines } = defineProps<{
   feature: LineStringFeature;
-  lines: number[];
+  lines: string[];
 }>();
 
 const title = computed(() => {

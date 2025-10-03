@@ -28,8 +28,7 @@
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#4"
+        "link": ""
       }
     },
     {
@@ -131,8 +130,7 @@
         "type": "voie-verte",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#6"
+        "link": ""
       }
     },
     {
@@ -190,8 +188,7 @@
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#15"
+        "link": ""
       }
     },
     {
@@ -229,8 +226,7 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#23"
+        "link": ""
       }
     },
     {
@@ -379,8 +375,7 @@
         "type": "aucun",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#97"
+        "link": ""
       }
     },
     {
@@ -608,8 +603,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#110"
+        "link": ""
       }
     },
     {
@@ -675,8 +669,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#111"
+        "link": ""
       }
     },
     {
@@ -764,8 +757,7 @@
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#113"
+        "link": ""
       }
     },
     {
@@ -815,8 +807,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#114"
+        "link": ""
       }
     },
     {
@@ -1058,53 +1049,6 @@
         "quality": "not-rated-yet",
         "infrastructure": "",
         "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.660875683,
-            47.204925128
-          ],
-          [
-            -1.660688896,
-            47.205154699
-          ],
-          [
-            -1.660389861,
-            47.205700274
-          ],
-          [
-            -1.660221023,
-            47.206344175
-          ],
-          [
-            -1.659944741,
-            47.206750846
-          ],
-          [
-            -1.659385946,
-            47.207754253
-          ],
-          [
-            -1.658026981,
-            47.209004084
-          ]
-        ]
-      },
-      "properties": {
-        "line": "I",
-        "name": "Rue de la Gare Sud",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "aucun",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#46"
       }
     }
   ]

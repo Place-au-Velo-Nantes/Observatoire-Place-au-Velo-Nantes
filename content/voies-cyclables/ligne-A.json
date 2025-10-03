@@ -120,8 +120,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#0"
+        "link": ""
       }
     },
     {
@@ -380,8 +379,8 @@
             47.187958
           ],
           [
-            -1.587509881,
-            47.188250712
+            -1.587418527,
+            47.188256111
           ]
         ]
       },
@@ -393,8 +392,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#103"
+        "link": ""
       }
     },
     {
@@ -444,8 +442,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#107"
+        "link": ""
       }
     },
     {
@@ -479,8 +476,7 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#120"
+        "link": ""
       }
     },
     {
@@ -514,8 +510,7 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#121"
+        "link": ""
       }
     },
     {
@@ -549,8 +544,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#122"
+        "link": ""
       }
     },
     {
@@ -607,8 +601,8 @@
             47.188986601
           ],
           [
-            -1.587542559,
-            47.188358601
+            -1.587415457,
+            47.188256028
           ]
         ]
       },
@@ -764,8 +758,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#142"
+        "link": ""
       }
     },
     {
