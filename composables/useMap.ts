@@ -456,9 +456,9 @@ export const useMap = () => {
           ['linear'],
           ['zoom'],
           11,
-          0.5, // opacity 0.4 at low zoom
+          0.2, // opacity 0.4 at low zoom
           14,
-          0.35 // opacity 0.35 at high zoom
+          0.15 // opacity 0.35 at high zoom
         ]
       }
     });
@@ -603,7 +603,7 @@ export const useMap = () => {
       id: 'dangers',
       source: 'dangers',
       type: 'symbol',
-      minzoom: 8,
+      minzoom: 11,
       layout: {
         'icon-image': 'danger-icon',
         'icon-size': 0.7
