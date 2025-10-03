@@ -1,0 +1,36 @@
+{
+  "name": "Gachet vers Est",
+  "description": "Comptage des vélos sur la piste cyclable allant vers l'est (Chantrerie) depuis avril 2025. (Emplacement de la boucle de comptage manuellement corrigé)",
+  "idPdc": 1065,
+  "neighbor": 1064,
+  "coordinates": [
+    -1.514646931513186,
+    47.28061676887507
+  ],
+  "counts": [
+    {
+      "month": "2025-04-01",
+      "count": 1872
+    },
+    {
+      "month": "2025-05-01",
+      "count": 1405
+    },
+    {
+      "month": "2025-06-01",
+      "count": 294
+    },
+    {
+      "month": "2025-07-01",
+      "count": 47
+    },
+    {
+      "month": "2025-08-01",
+      "count": 43
+    },
+    {
+      "month": "2025-09-01",
+      "count": 107
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Boulevard des Européens côté Nord vers Nord",
+  "description": "Comptage des vélos sur la voie verte allant vers le nord (rond-point) depuis juin 2025.",
+  "idPdc": 1066,
+  "neighbor": 1067,
+  "coordinates": [
+    -1.5020747,
+    47.2912539
+  ],
+  "counts": [
+    {
+      "month": "2025-06-01",
+      "count": 665
+    },
+    {
+      "month": "2025-07-01",
+      "count": 2629
+    },
+    {
+      "month": "2025-08-01",
+      "count": 1077
+    },
+    {
+      "month": "2025-09-01",
+      "count": 3226
+    }
+  ]
+}
