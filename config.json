@@ -47,6 +47,14 @@
       "color": "#EAAB50"
     },
     {
+      "line": "M",
+      "color": "#AAA"
+    },
+    {
+      "line": "S",
+      "color": "#BBB"
+    },
+    {
       "line": "X",
       "color": "#999"
     }
