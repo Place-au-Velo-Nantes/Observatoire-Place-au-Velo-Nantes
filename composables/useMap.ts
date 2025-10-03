@@ -603,7 +603,7 @@ export const useMap = () => {
       id: 'dangers',
       source: 'dangers',
       type: 'symbol',
-      minzoom: 11,
+      minzoom: 12,
       layout: {
         'icon-image': 'danger-icon',
         'icon-size': 0.7
