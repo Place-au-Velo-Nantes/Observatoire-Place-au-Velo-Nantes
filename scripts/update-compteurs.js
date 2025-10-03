@@ -112,7 +112,7 @@ async function iterateMonths(startMonth, startYear, endMonth, endYear) {
 }
 
 // pour demander sur 1 mois avec le numéro du mois et l'année
-processFiles(7, 2025);
+//processFiles(7, 2025);
 
-// Appeler la fonction pour itérer de janvier 2020 à juin 2025
-//iterateMonths(1, 2020, 6, 2025).catch(console.error);
+// Appeler la fonction pour itérer de mois début, année début à mois fin, année fin
+iterateMonths(8, 2025, 9, 2025).catch(console.error);

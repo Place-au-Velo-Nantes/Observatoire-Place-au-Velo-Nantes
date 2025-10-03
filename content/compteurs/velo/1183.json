@@ -1,6 +1,6 @@
 {
   "name": "Route de Nantes vers Sud",
-  "description": "Comptage des vélos sur la piste cyclable allant vers le sud (Nantes) depuis septembre 2025.",
+  "description": "Comptage des vélos sur la piste cyclable allant vers le sud (Nantes) depuis ? 2025.",
   "idPdc": 1183,
   "neighbor": 1184,
   "coordinates": [
@@ -8,5 +8,9 @@
     47.264188
   ],
   "counts": [
+    {
+      "month": "2025-09-01",
+      "count": 0
+    }
   ]
 }

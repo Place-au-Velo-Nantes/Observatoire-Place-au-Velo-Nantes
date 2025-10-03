@@ -1,6 +1,6 @@
 {
   "name": "Route de Nantes vers Nord (Orvault)",
-  "description": "Comptage des vélos sur la piste cyclable allant vers le nord (Orvault) depuis septembre 2025.",
+  "description": "Comptage des vélos sur la piste cyclable allant vers le nord (Orvault) depuis ? 2025.",
   "idPdc": 1184,
   "neighbor": 1183,
   "coordinates": [
@@ -8,5 +8,9 @@
     47.2641957
   ],
   "counts": [
+    {
+      "month": "2025-09-01",
+      "count": 0
+    }
   ]
 }
