@@ -211,7 +211,7 @@ const processVoiesFiles = () => {
         const is_multiple_lines = line_letters.split(',').length > 1;
 
         line_letters.split(',').forEach(line_letter => {
-          if (line_letter === '?') {
+          if (line_letter === '?' || line_letter === 'M' || line_letter === 'S') {
             line_letter = 'X';
           }
           if (!lines[line_letter]) {
