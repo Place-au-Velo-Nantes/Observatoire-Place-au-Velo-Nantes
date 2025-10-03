@@ -15,9 +15,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": "",
+        "line": null,
         "calculated_length": 448.982
       }
     },
@@ -35,9 +35,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "G,S",
         "infrastructure": "structurante",
         "quality": "",
+        "line": null,
         "calculated_length": 426.168
       }
     },
@@ -61,9 +61,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": "",
+        "line": null,
         "calculated_length": 1102.315
       }
     },
@@ -81,9 +81,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": "",
+        "line": null,
         "calculated_length": 320.976
       }
     },
@@ -103,9 +103,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": "",
+        "line": null,
         "calculated_length": 485.606
       }
     },
@@ -129,9 +129,9 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": "",
+        "line": null,
         "calculated_length": 793.695
       }
     },
@@ -150,9 +150,9 @@
         "status": "",
         "type": "",
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": "",
+        "line": null,
         "calculated_length": 229.686
       }
     },
@@ -161,7 +161,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.587304528, 47.188266827],
+          [-1.587403826, 47.188258729],
           [-1.586197834, 47.188438447],
           [-1.572882, 47.192872],
           [-1.5705, 47.192985]
@@ -172,10 +172,10 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 1390.048
+        "line": null,
+        "calculated_length": 1397.59
       }
     },
     {
@@ -196,9 +196,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 994.343
       }
     },
@@ -221,9 +221,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 2306.441
       }
     },
@@ -247,9 +247,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 2377.151
       }
     },
@@ -278,9 +278,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 5073.3
       }
     },
@@ -304,9 +304,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 6026.6
       }
     },
@@ -330,9 +330,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 4839.053
       }
     },
@@ -355,9 +355,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 2238.908
       }
     },
@@ -393,9 +393,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 9606.606
       }
     },
@@ -419,9 +419,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 1980.349
       }
     },
@@ -447,9 +447,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 2135.509
       }
     },
@@ -468,9 +468,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 1496.922
       }
     },
@@ -494,9 +494,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 1961.717
       }
     },
@@ -530,9 +530,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 6233.403
       }
     },
@@ -575,9 +575,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 11341.751
       }
     },
@@ -610,9 +610,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 6963.91
       }
     },
@@ -637,9 +637,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 3349.943
       }
     },
@@ -657,9 +657,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 423.027
       }
     },
@@ -677,9 +677,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 3.429
       }
     },
@@ -705,9 +705,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 2949.734
       }
     },
@@ -734,9 +734,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 1884.76
       }
     },
@@ -756,9 +756,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 622.936
       }
     },
@@ -778,9 +778,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 2055.892
       }
     },
@@ -801,9 +801,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 993.51
       }
     },
@@ -823,9 +823,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 546.954
       }
     },
@@ -844,9 +844,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 367.044
       }
     },
@@ -864,9 +864,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 0.435
       }
     },
@@ -901,9 +901,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 4472.243
       }
     },
@@ -952,9 +952,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 6110.864
       }
     },
@@ -974,9 +974,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 752.217
       }
     },
@@ -1008,9 +1008,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 3931.04
       }
     },
@@ -1034,9 +1034,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 2756.778
       }
     },
@@ -1054,9 +1054,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 2.187
       }
     },
@@ -1075,9 +1075,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 182.719
       }
     },
@@ -1092,7 +1092,8 @@
           [-1.552183, 47.193247],
           [-1.553985, 47.192781],
           [-1.55479, 47.192846],
-          [-1.554254, 47.192368]
+          [-1.554492813, 47.192607661],
+          [-1.554351291, 47.192334944]
         ]
       },
       "properties": {
@@ -1100,10 +1101,10 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 592.902
+        "line": null,
+        "calculated_length": 592.95
       }
     },
     {
@@ -1120,9 +1121,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 550.818
       }
     },
@@ -1141,9 +1142,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 995.436
       }
     },
@@ -1161,9 +1162,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 149.118
       }
     },
@@ -1173,7 +1174,7 @@
         "type": "LineString",
         "coordinates": [
           [-1.486909, 47.249428],
-          [-1.486523, 47.247476]
+          [-1.486425106, 47.247546363]
         ]
       },
       "properties": {
@@ -1181,10 +1182,10 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
-        "calculated_length": 218.973
+        "line": null,
+        "calculated_length": 212.375
       }
     },
     {
@@ -1201,9 +1202,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 853.387
       }
     },
@@ -1222,9 +1223,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 1275.982
       }
     },
@@ -1244,9 +1245,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "line": "S",
         "infrastructure": "structurante",
         "quality": null,
+        "line": null,
         "calculated_length": 1293.921
       }
     }
