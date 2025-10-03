@@ -2,7 +2,7 @@
   <div class="not-prose text-gray-900 w-48">
     <div class="py-1 bg-zinc-100 flex flex-col items-center justify-center">
       <template v-if="lines.includes('X')">
-        <div class="font-bold text-base">Axe secondaire</div>
+        <div class="font-bold text-base">Autre axe principal</div>
       </template>
       <template v-else>
         <div class="font-bold text-base">
@@ -88,7 +88,7 @@ const { getVoieCyclablePath } = useUrl();
 
 const { feature, lines } = defineProps<{
   feature: LineStringFeature;
-  lines: number[];
+  lines: string[];
 }>();
 
 const title = computed(() => {
