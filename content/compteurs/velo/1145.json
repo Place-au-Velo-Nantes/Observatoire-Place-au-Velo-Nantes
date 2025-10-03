@@ -1,0 +1,16 @@
+{
+  "name": "Côte de Saint-Sébastien vers Ouest",
+  "description": "Comptage des vélos sur la piste cyclable allant vers l'ouest (Pirmil) depuis juillet 2025.",
+  "idPdc": 1145,
+  "neighbor": 1146,
+  "coordinates": [
+    -1.5295602,
+    47.2025679
+  ],
+  "counts": [
+    {
+      "month": "2025-07-01",
+      "count": 8730
+    }
+  ]
+}

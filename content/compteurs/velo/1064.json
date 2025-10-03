@@ -1,0 +1,28 @@
+{
+  "name": "Gachet vers Ouest",
+  "description": "Comptage des vélos sur la fin de la piste cyclable allant vers l'ouest (rond-point) depuis avril 2025. (Emplacement de la boucle de comptage manuellement corrigé)",
+  "idPdc": 1064,
+  "neighbor": 1065,
+  "coordinates": [
+    -1.514646931513186,
+    47.28058754101622
+  ],
+  "counts": [
+    {
+      "month": "2025-04-01",
+      "count": 2174
+    },
+    {
+      "month": "2025-05-01",
+      "count": 1669
+    },
+    {
+      "month": "2025-06-01",
+      "count": 894
+    },
+    {
+      "month": "2025-07-01",
+      "count": 449
+    }
+  ]
+}
