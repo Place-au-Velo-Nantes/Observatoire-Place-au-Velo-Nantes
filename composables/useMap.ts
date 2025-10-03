@@ -603,7 +603,7 @@ export const useMap = () => {
       id: 'dangers',
       source: 'dangers',
       type: 'symbol',
-      minzoom: 14,
+      minzoom: 8,
       layout: {
         'icon-image': 'danger-icon',
         'icon-size': 0.7
@@ -760,7 +760,7 @@ export const useMap = () => {
     const layers = [
       {
         id: 'dangers',
-        minHeight: "50px",
+        minHeight: '50px',
         isClicked: () => {
           if (!map.getLayer('dangers')) {
             return false;
@@ -777,7 +777,7 @@ export const useMap = () => {
       },
       {
         id: 'perspectives',
-        minHeight: "50px",
+        minHeight: '50px',
         isClicked: () => {
           if (!map.getLayer('perspectives')) {
             return false;
@@ -801,7 +801,7 @@ export const useMap = () => {
       },
       {
         id: 'linestring', // not really a layer id. gather all linestrings.
-        minHeight: "313px",
+        minHeight: '313px',
         isClicked: () => {
           const mapFeature = map.queryRenderedFeatures(clickEvent.point, {
             filter: [
@@ -844,7 +844,7 @@ export const useMap = () => {
       },
       {
         id: 'compteurs',
-        minHeight: "123px",
+        minHeight: '123px',
         isClicked: () => {
           if (!map.getLayer('compteurs')) {
             return false;
