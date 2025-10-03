@@ -115,7 +115,7 @@
       "properties": {
         "line": "A",
         "name": "La Montagne - Bouguenais",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -185,7 +185,7 @@
       "properties": {
         "line": "A",
         "name": "Pont des Bataillons FFI - Pirmil",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -387,7 +387,7 @@
       "properties": {
         "line": "A",
         "name": "A#103",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -437,7 +437,7 @@
       "properties": {
         "line": "A",
         "name": "A#107",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -539,7 +539,7 @@
       "properties": {
         "line": "A",
         "name": "A#122",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -609,7 +609,7 @@
       "properties": {
         "line": "A",
         "name": "A#124",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -687,7 +687,7 @@
       "properties": {
         "line": "A",
         "name": "A#125",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -931,7 +931,7 @@
       "properties": {
         "line": "A",
         "name": "A#149",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",

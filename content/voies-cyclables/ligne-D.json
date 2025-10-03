@@ -87,7 +87,7 @@
       "properties": {
         "line": "D",
         "name": "Avenue de la Bugallière Est",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -133,7 +133,7 @@
       "properties": {
         "line": "D",
         "name": "Avenue de la Bugallière Ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "chaucidou",
         "quality": "not-rated-yet",
@@ -231,7 +231,7 @@
       "properties": {
         "line": "D",
         "name": "Rue de Nantes",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -269,7 +269,7 @@
       "properties": {
         "line": "D",
         "name": "Voie verte A82",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "not-rated-yet",
@@ -341,7 +341,7 @@
       "properties": {
         "line": "D",
         "name": "Boulevard Gabriel Guist'hau",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -383,7 +383,7 @@
       "properties": {
         "line": "D",
         "name": "Cours Olivier de Clisson",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -468,7 +468,7 @@
       "properties": {
         "line": "D",
         "name": "Via Rue George Sand",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -518,7 +518,7 @@
       "properties": {
         "line": "D",
         "name": "Boulevard Auguste Pageot - Clovis Constat",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -572,7 +572,7 @@
       "properties": {
         "line": "D",
         "name": "Boulevard Pierre de Coubertin",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -696,7 +696,7 @@
       "properties": {
         "line": "D",
         "name": "Boulevard Maurice Bertin",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -785,7 +785,7 @@
       "properties": {
         "line": "D",
         "name": "Boulevard Du Massacre",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -921,7 +921,7 @@
       "properties": {
         "line": "D",
         "name": "Avenue Claude Antoine Peccot Ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -964,7 +964,7 @@
       "properties": {
         "line": "D",
         "name": "Avenue Claude Antoine Peccot Est",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -990,7 +990,7 @@
       "properties": {
         "line": "D",
         "name": "Rue du Solay",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "not-rated-yet",
@@ -1020,7 +1020,7 @@
       "properties": {
         "line": "D",
         "name": "D#133",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1058,7 +1058,7 @@
       "properties": {
         "line": "D",
         "name": "Cours des 50 otages",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -1093,7 +1093,7 @@
       "properties": {
         "line": "D",
         "name": "D#135",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1147,7 +1147,7 @@
       "properties": {
         "line": "D",
         "name": "D#136",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1181,7 +1181,7 @@
       "properties": {
         "line": "D",
         "name": "D#140",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",

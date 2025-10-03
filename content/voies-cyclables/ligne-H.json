@@ -111,7 +111,7 @@
       "properties": {
         "line": "H",
         "name": "Route de Nantes",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -243,7 +243,7 @@
       "properties": {
         "line": "H",
         "name": "Porte de la Chapelle - Porte de Carquefou",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -305,7 +305,7 @@
       "properties": {
         "line": "H",
         "name": "Cardo-Porte de la Chapelle",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -413,7 +413,7 @@
       "properties": {
         "line": "H",
         "name": "Rue Albert Londres/ Rue Marguerite Yourcenar",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -480,7 +480,7 @@
       "properties": {
         "line": "H",
         "name": "Boulevard Mendès France/Cardo",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -550,7 +550,7 @@
       "properties": {
         "line": "H",
         "name": "H#108",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -620,7 +620,7 @@
       "properties": {
         "line": "H",
         "name": "H#109",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -666,7 +666,7 @@
       "properties": {
         "line": "H",
         "name": "Porte de Carquefou - Porte de Sainte Luce",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -709,7 +709,7 @@
       "properties": {
         "line": "H",
         "name": "H#119",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -744,7 +744,7 @@
       "properties": {
         "line": "H",
         "name": "GVV Le Cardo",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -786,7 +786,7 @@
       "properties": {
         "line": "H",
         "name": "Rue du petit chassais",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -845,7 +845,7 @@
       "properties": {
         "line": "H",
         "name": "H#152",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -879,7 +879,7 @@
       "properties": {
         "line": "H",
         "name": "H#153",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
         "quality": "not-rated-yet",

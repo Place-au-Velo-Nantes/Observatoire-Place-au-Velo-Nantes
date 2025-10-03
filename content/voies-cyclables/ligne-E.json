@@ -469,7 +469,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard Guy Mollet Sud",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -826,7 +826,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard Jean Monnet",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -868,7 +868,7 @@
       "properties": {
         "line": "E",
         "name": "Cours Olivier de Clisson",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -1033,7 +1033,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard des Martyrs Nantais de la Résistance",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -1059,7 +1059,7 @@
       "properties": {
         "line": "E",
         "name": "Place Magellan",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -1129,7 +1129,7 @@
       "properties": {
         "line": "E",
         "name": "Pont des Bataillons FFI - Pirmil",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -1312,7 +1312,7 @@
       "properties": {
         "line": "E",
         "name": "Chemin de la Dame de Nage Nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "not-rated-yet",
@@ -1350,7 +1350,7 @@
       "properties": {
         "line": "E",
         "name": "Chemin de la Houssinière",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "velorue",
         "quality": "not-rated-yet",
@@ -1384,7 +1384,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard du petit port",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -1484,7 +1484,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard Martin Luther King",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
         "quality": "not-rated-yet",
@@ -1586,7 +1586,7 @@
       "properties": {
         "line": "E",
         "name": "E#129",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1632,7 +1632,7 @@
       "properties": {
         "line": "E",
         "name": "Indre-Pirmil - Rezé",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1671,7 +1671,7 @@
       "properties": {
         "line": "E",
         "name": "Cours des 50 otages",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -1702,7 +1702,7 @@
       "properties": {
         "line": "E",
         "name": "Boulevard des Martyrs Nantais de la Résistance Nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -1733,7 +1733,7 @@
       "properties": {
         "line": "E",
         "name": "Pont de Pirmil",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -1763,7 +1763,7 @@
       "properties": {
         "line": "E",
         "name": "Avenue de la IVème république",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1802,7 +1802,7 @@
       "properties": {
         "line": "E",
         "name": "E#150",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1837,7 +1837,7 @@
       "properties": {
         "line": "E",
         "name": "E#153",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
         "quality": "not-rated-yet",

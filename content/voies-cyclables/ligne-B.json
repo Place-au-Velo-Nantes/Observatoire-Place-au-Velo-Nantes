@@ -501,7 +501,7 @@
       "properties": {
         "line": "B",
         "name": "Chemin de Halage de la loire",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "not-rated-yet",
@@ -988,7 +988,7 @@
       "properties": {
         "line": "B",
         "name": "Quai moncousu",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -1181,7 +1181,7 @@
       "properties": {
         "line": "B",
         "name": "Loire à vélo",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",

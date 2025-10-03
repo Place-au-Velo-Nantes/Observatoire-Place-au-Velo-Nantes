@@ -23,7 +23,7 @@
       "properties": {
         "line": "I",
         "name": "Rue de la Gare - Indre",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -125,7 +125,7 @@
       "properties": {
         "line": "I",
         "name": "Rue d'Indre/Rue de la Gare",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "not-rated-yet",
@@ -183,7 +183,7 @@
       "properties": {
         "line": "I",
         "name": "Liaison",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -323,7 +323,7 @@
       "properties": {
         "line": "I",
         "name": "Avenue Claude Antoine Peccot Ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -370,7 +370,7 @@
       "properties": {
         "line": "I",
         "name": "Rue de l'hôtel de ville",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "not-rated-yet",
@@ -396,7 +396,7 @@
       "properties": {
         "line": "I",
         "name": "I#101",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -485,8 +485,8 @@
       },
       "properties": {
         "line": "I",
-        "name": "U1MzM",
-        "status": "unknown",
+        "name": "I#104",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -524,7 +524,7 @@
       "properties": {
         "line": "I",
         "name": "I#105",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -598,7 +598,7 @@
       "properties": {
         "line": "I",
         "name": "I#110",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -664,7 +664,7 @@
       "properties": {
         "line": "I",
         "name": "I#111",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -698,7 +698,7 @@
       "properties": {
         "line": "I",
         "name": "I#112",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -752,7 +752,7 @@
       "properties": {
         "line": "I",
         "name": "Boulevard François Mitterrand",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -802,7 +802,7 @@
       "properties": {
         "line": "I",
         "name": "Indre-La Montagne",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -891,7 +891,7 @@
       "properties": {
         "line": "I",
         "name": "GVV Allée de la Bourgonnière",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -941,7 +941,7 @@
       "properties": {
         "line": "I",
         "name": "GVV Indre",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1043,7 +1043,7 @@
       "properties": {
         "line": "I",
         "name": "I#148",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",

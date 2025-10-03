@@ -268,7 +268,7 @@
       "properties": {
         "line": "G",
         "name": "Mail Pablo Picasso",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -365,7 +365,7 @@
       "properties": {
         "line": "G",
         "name": "Rue du pont de l'arche de Mauves",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -525,7 +525,7 @@
       "properties": {
         "line": "G",
         "name": "Pont ferroviaire de Pirmil",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "satisfactory",
@@ -814,7 +814,7 @@
       "properties": {
         "line": "G",
         "name": "G#100",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1008,7 +1008,7 @@
       "properties": {
         "line": "G",
         "name": "G#102",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1038,7 +1038,7 @@
       "properties": {
         "line": "G",
         "name": "G#118",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1081,7 +1081,7 @@
       "properties": {
         "line": "G",
         "name": "G#119",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1124,7 +1124,7 @@
       "properties": {
         "line": "G",
         "name": "G#123",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1270,7 +1270,7 @@
       "properties": {
         "line": "G",
         "name": "Les Couëts",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1358,7 +1358,7 @@
       "properties": {
         "line": "G",
         "name": "Indre-Pirmil - Rezé",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1401,7 +1401,7 @@
       "properties": {
         "line": "G",
         "name": "G#131",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1435,7 +1435,7 @@
       "properties": {
         "line": "G",
         "name": "G#132",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1465,7 +1465,7 @@
       "properties": {
         "line": "G",
         "name": "Boulevard des Martyrs Nantais de la Résistance Nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -1496,7 +1496,7 @@
       "properties": {
         "line": "G",
         "name": "Avenue de la IVème république",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1539,7 +1539,7 @@
       "properties": {
         "line": "G",
         "name": "Rue du petit chassais",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",

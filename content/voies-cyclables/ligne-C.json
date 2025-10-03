@@ -67,7 +67,7 @@
       "properties": {
         "line": "C",
         "name": "D17/Boulevard Charles de Gaulle",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -260,7 +260,7 @@
       "properties": {
         "line": "C",
         "name": "Cours Commandant d'Estienne d'Orves/Kennedy",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
@@ -360,7 +360,7 @@
       "properties": {
         "line": "C",
         "name": "Pont des 3 continents",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -524,7 +524,7 @@
       "properties": {
         "line": "C",
         "name": "Pont Anne de Bretagne/Bd Léon Bureau",
-        "status": "postponed",
+        "status": "wip",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -570,7 +570,7 @@
       "properties": {
         "line": "C",
         "name": "Boulevard Jean Philippot",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -913,7 +913,7 @@
       "properties": {
         "line": "C",
         "name": "Rue de Saint nazaire",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -1017,7 +1017,7 @@
       "properties": {
         "line": "C",
         "name": "C#125",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1094,7 +1094,7 @@
       "properties": {
         "line": "C",
         "name": "Avenue de la IVème république",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -1133,7 +1133,7 @@
       "properties": {
         "line": "C",
         "name": "C#150",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",

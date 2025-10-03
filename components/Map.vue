@@ -3,14 +3,19 @@
     <LegendModal ref="legendModalComponent" />
     <FilterModal ref="filterModalComponent" @update="refreshFilters" />
     <div id="map" class="rounded-lg h-full w-full" />
-    <img
-      v-if="options.logo"
-      class="my-0 absolute bottom-0 right-0 z-10"
-      src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/cropped-logo_place_au_velo_nantes.png"
-      width="75"
-      height="75"
-      :alt="`logo ${config.assoName}`"
-    />
+    <div class="my-0 absolute bottom-0 right-0 z-10 _tooltip">
+      <img
+        v-if="options.logo"
+        src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/cropped-logo_place_au_velo_nantes.png"
+        width="50"
+        height="50"
+        :alt="`logo ${config.assoName}`"
+      />
+      <div>
+        <div>Retours, questions ?</div>
+        <div><a href="mailto:observatoire@placeauvelo-nantes.fr" target="_blank">contactez-nous</a></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -238,5 +243,24 @@ onMounted(() => {
 
 .maplibregl-popup-anchor-right .maplibregl-popup-tip {
   border-left-color: transparent;
+}
+
+._tooltip {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  color: #333;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 }
 </style>

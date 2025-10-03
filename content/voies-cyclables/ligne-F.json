@@ -23,7 +23,7 @@
       "properties": {
         "line": "F",
         "name": "Clos Toreau Routeau de Clisson",
-        "status": "postponed",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -195,7 +195,7 @@
       "properties": {
         "line": "F",
         "name": "Pont de la Rotonde Nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -221,7 +221,7 @@
       "properties": {
         "line": "F",
         "name": "Boulevard Général de Gaulle Sud 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -247,7 +247,7 @@
       "properties": {
         "line": "F",
         "name": "Pont de la Rotonde Sud",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "not-rated-yet",
@@ -273,7 +273,7 @@
       "properties": {
         "line": "F",
         "name": "Avenue Jean-Claude Bonduele",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -299,7 +299,7 @@
       "properties": {
         "line": "F",
         "name": "Pont Aristide-Briand",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
@@ -325,7 +325,7 @@
       "properties": {
         "line": "F",
         "name": "Boulevard du Général de Gaulle Nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -351,7 +351,7 @@
       "properties": {
         "line": "F",
         "name": "Boulevard du Général de Gaulle Sud",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -377,7 +377,7 @@
       "properties": {
         "line": "F",
         "name": "Pont Georges Clemenceau",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
@@ -403,7 +403,7 @@
       "properties": {
         "line": "F",
         "name": "Boulevard Emile Gabory",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -433,7 +433,7 @@
       "properties": {
         "line": "F",
         "name": "Place de la Duchesse Anne",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "not-rated-yet",
@@ -491,7 +491,7 @@
       "properties": {
         "line": "F",
         "name": "Cours John Kennedy",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
@@ -669,7 +669,7 @@
       "properties": {
         "line": "F",
         "name": "Rue Albert Londres/ Rue Marguerite Yourcenar",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
@@ -708,7 +708,7 @@
       "properties": {
         "line": "F",
         "name": "F#106",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -738,7 +738,7 @@
       "properties": {
         "line": "F",
         "name": "F#115",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -816,7 +816,7 @@
       "properties": {
         "line": "F",
         "name": "F#116",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -862,7 +862,7 @@
       "properties": {
         "line": "F",
         "name": "Porte de Carquefou - Porte de Sainte Luce",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
@@ -893,7 +893,7 @@
       "properties": {
         "line": "F",
         "name": "F#118",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -932,7 +932,7 @@
       "properties": {
         "line": "F",
         "name": "F#141",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
