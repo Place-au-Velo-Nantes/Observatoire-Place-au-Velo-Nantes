@@ -273,8 +273,7 @@
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#31"
+        "link": ""
       }
     },
     {
@@ -371,8 +370,7 @@
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#54"
+        "link": ""
       }
     },
     {
@@ -532,8 +530,7 @@
         "type": "voie-verte",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#67"
+        "link": ""
       }
     },
     {
@@ -748,8 +745,7 @@
         "type": "voie-verte",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#98"
+        "link": ""
       }
     },
     {
@@ -823,8 +819,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#100"
+        "link": ""
       }
     },
     {
@@ -1018,8 +1013,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#102"
+        "link": ""
       }
     },
     {
@@ -1135,8 +1129,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#123"
+        "link": ""
       }
     },
     {
@@ -1282,8 +1275,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#126"
+        "link": ""
       }
     },
     {
@@ -1414,8 +1406,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#131"
+        "link": ""
       }
     },
     {
@@ -1449,8 +1440,7 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#132"
+        "link": ""
       }
     },
     {
@@ -1556,33 +1546,6 @@
         "infrastructure": "",
         "link": "",
         "id": "sans-titre#151"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.55158576,
-            47.203863035
-          ],
-          [
-            -1.547084398,
-            47.201564539
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "G#1",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": "",
-        "id": "sans-titre#1"
       }
     }
   ]
