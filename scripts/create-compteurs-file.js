@@ -8,7 +8,7 @@ const path = require('path');
 const directoryPath = path.join(__dirname, '../content/compteurs/velo');
 
 // simple copier-coller au 04/07/2025 de https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-boucles-comptage/information/
-const data = {
+/*const data = {
   total_count: 66,
   results: [
     {
@@ -408,11 +408,108 @@ const data = {
       geolocalisation: { lon: -1.54504032024001, lat: 47.2167676867801 }
     }
   ]
+};*/
+
+//Ajout nouveaux compteurs au 03/10/2025
+const data = {
+  total_count: 10,
+  results: [
+    {
+      boucle_num: '1069',
+      libelle: 'Européens vers Nord',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5138449,
+        lat: 47.2807668
+      }
+    },
+    {
+      boucle_num: '1146',
+      libelle: 'Côte de Saint Sébastien vers Est',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5295423,
+        lat: 47.2025541
+      }
+    },
+    {
+      boucle_num: '1184',
+      libelle: 'Route de Nantes vers Nord',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5967501,
+        lat: 47.2641957
+      }
+    },
+    {
+      boucle_num: '1067',
+      libelle: 'Européens vers Sud',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5021257,
+        lat: 47.2912699
+      }
+    },
+    {
+      boucle_num: '1068',
+      libelle: 'Européens vers Sud',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5139002,
+        lat: 47.2808063
+      }
+    },
+    {
+      boucle_num: '1183',
+      libelle: 'Route de Nantes vers Sud',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5967586,
+        lat: 47.264188
+      }
+    },
+    {
+      boucle_num: '1145',
+      libelle: 'Côte de Saint Sébastien vers Ouest',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5295602,
+        lat: 47.2025679
+      }
+    },
+    {
+      boucle_num: '1064',
+      libelle: 'Gachet vers Ouest',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5153717,
+        lat: 47.2805919
+      }
+    },
+    {
+      boucle_num: '1065',
+      libelle: 'Gachet vers Est',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5153627,
+        lat: 47.2805719
+      }
+    },
+    {
+      boucle_num: '1066',
+      libelle: 'Européens vers Nord',
+      observations: null,
+      geolocalisation: {
+        lon: -1.5020747,
+        lat: 47.2912539
+      }
+    }
+  ]
 };
 
 // Fonction pour transformer le numéro de boucle en un format à 4 chiffres
 function createFileName(boucle_num) {
-  return String(boucle_num).padStart(4, '0') + ".json";
+  return String(boucle_num).padStart(4, '0') + '.json';
 }
 
 // Parcourir chaque enregistrement et créer un fichier JSON

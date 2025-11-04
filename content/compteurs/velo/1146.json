@@ -1,0 +1,24 @@
+{
+  "name": "Côte de Saint-Sébastien vers Est",
+  "description": "Comptage des vélos sur la piste cyclable allant vers l'est (Boulevard des Pas Enchantés) depuis juillet 2025.",
+  "idPdc": 1146,
+  "neighbor": 1145,
+  "coordinates": [
+    -1.5295423,
+    47.2025541
+  ],
+  "counts": [
+    {
+      "month": "2025-07-01",
+      "count": 7935
+    },
+    {
+      "month": "2025-08-01",
+      "count": 10365
+    },
+    {
+      "month": "2025-09-01",
+      "count": 12039
+    }
+  ]
+}

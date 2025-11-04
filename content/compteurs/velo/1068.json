@@ -1,0 +1,28 @@
+{
+  "name": "Boulevard des Européens côté Sud vers Sud",
+  "description": "Comptage des vélos sur la voie verte allant vers le sud (rond-point) depuis juin 2025. (Emplacement de la boucle de comptage manuellement corrigé)",
+  "idPdc": 1068,
+  "neighbor": 1069,
+  "coordinates": [
+    -1.5139294406017023,
+    47.28078070615766
+  ],
+  "counts": [
+    {
+      "month": "2025-06-01",
+      "count": 270
+    },
+    {
+      "month": "2025-07-01",
+      "count": 2068
+    },
+    {
+      "month": "2025-08-01",
+      "count": 1890
+    },
+    {
+      "month": "2025-09-01",
+      "count": 3154
+    }
+  ]
+}

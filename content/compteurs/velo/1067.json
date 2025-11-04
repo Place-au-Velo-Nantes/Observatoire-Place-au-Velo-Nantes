@@ -1,0 +1,28 @@
+{
+  "name": "Boulevard des Européens côté Nord vers Sud",
+  "description": "Comptage des vélos sur la voie verte allant vers le sud (vers Gachet) depuis juin 2025.",
+  "idPdc": 1067,
+  "neighbor": 1066,
+  "coordinates": [
+    -1.5021257,
+    47.2912699
+  ],
+  "counts": [
+    {
+      "month": "2025-06-01",
+      "count": 447
+    },
+    {
+      "month": "2025-07-01",
+      "count": 2548
+    },
+    {
+      "month": "2025-08-01",
+      "count": 906
+    },
+    {
+      "month": "2025-09-01",
+      "count": 3479
+    }
+  ]
+}
