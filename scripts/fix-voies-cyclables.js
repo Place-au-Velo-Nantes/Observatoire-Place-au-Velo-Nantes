@@ -190,6 +190,8 @@ const processVoiesFiles = () => {
   console.log(`Found ${files.length} files to process...`);
 
   const lines = {};
+  // Track counters for auto-generated names per line to ensure uniqueness
+  const nameCounters = {};
 
   files.forEach(filename => {
     const inputPath = path.join(brutDir, filename);
@@ -217,8 +219,34 @@ const processVoiesFiles = () => {
           if (!lines[line_letter]) {
             lines[line_letter] = [];
           }
+          if (!nameCounters[line_letter]) {
+            nameCounters[line_letter] = 0;
+          }
 
-          let name = feature.properties.name ? feature.properties.name : line_letter + `#${index}`;
+          // Get existing names for this line to check for duplicates
+          const existingNames = new Set(lines[line_letter].map(f => f.properties?.name));
+
+          // Generate unique name if feature doesn't have one
+          let name = feature.properties.name;
+          if (!name || name.trim() === '') {
+            // Use counter to ensure uniqueness across all files
+            // Keep incrementing until we find a unique name
+            do {
+              nameCounters[line_letter]++;
+              name = line_letter + `#${nameCounters[line_letter]}`;
+            } while (existingNames.has(name));
+          } else {
+            // Check if name already exists for this line to avoid duplicates
+            if (existingNames.has(name)) {
+              // If duplicate, append counter to make it unique
+              // Keep incrementing until we find a unique name
+              const baseName = name;
+              do {
+                nameCounters[line_letter]++;
+                name = baseName + `-${nameCounters[line_letter]}`;
+              } while (existingNames.has(name));
+            }
+          }
 
           let properties = {
             line: line_letter,
