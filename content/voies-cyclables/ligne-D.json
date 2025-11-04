@@ -90,7 +90,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -199,7 +199,7 @@
         "name": "Rue Charles Monselet",
         "status": "postponed",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
+        "type": "voie-bus",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
@@ -272,7 +272,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1019,7 +1019,7 @@
       },
       "properties": {
         "line": "D",
-        "name": "D#133",
+        "name": "bd Millerand et Bertin",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1092,7 +1092,7 @@
       },
       "properties": {
         "line": "D",
-        "name": "D#135",
+        "name": "Pont Senghor, bd Millerand",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1146,7 +1146,7 @@
       },
       "properties": {
         "line": "D",
-        "name": "D#136",
+        "name": "Allée Baco",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1180,7 +1180,7 @@
       },
       "properties": {
         "line": "D",
-        "name": "D#140",
+        "name": "Rue Guibal",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",

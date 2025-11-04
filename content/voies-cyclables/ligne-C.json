@@ -363,7 +363,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -484,7 +484,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#70"
@@ -1016,7 +1016,7 @@
       },
       "properties": {
         "line": "C",
-        "name": "C#125",
+        "name": "Rue Félix Eboué Rezé",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1132,7 +1132,7 @@
       },
       "properties": {
         "line": "C",
-        "name": "C#150",
+        "name": "Rue du pont de pont-rousseau",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",

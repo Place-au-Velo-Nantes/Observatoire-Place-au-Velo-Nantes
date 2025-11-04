@@ -186,7 +186,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -395,7 +395,7 @@
       },
       "properties": {
         "line": "I",
-        "name": "I#101",
+        "name": "Chemin de la Bastille La Montagne",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -697,7 +697,7 @@
       },
       "properties": {
         "line": "I",
-        "name": "I#112",
+        "name": "Bd Gal de Gaulle St Herblain",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",

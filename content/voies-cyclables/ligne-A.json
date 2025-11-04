@@ -386,7 +386,7 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#103",
+        "name": "rue de l'ile ste Hélene",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -436,7 +436,7 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#107",
+        "name": "Rue du Grignon Basse Goulaine",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -538,10 +538,10 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#122",
+        "name": "Cote St Sébastien",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "voie-bus",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
@@ -608,10 +608,10 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#124",
+        "name": "Rue Gal Leclerc Rezé",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": ""
@@ -686,7 +686,7 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#125",
+        "name": "Rue Félix Eboué Rezé",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",

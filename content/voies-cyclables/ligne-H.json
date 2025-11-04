@@ -114,7 +114,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -152,7 +152,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -708,7 +708,7 @@
       },
       "properties": {
         "line": "H",
-        "name": "H#119",
+        "name": "Route de Ste Luce Est",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -878,7 +878,7 @@
       },
       "properties": {
         "line": "H",
-        "name": "H#153",
+        "name": "bd Martin Luther King",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",

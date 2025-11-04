@@ -387,10 +387,10 @@
       "properties": {
         "line": "B",
         "name": "Couëron-Nantes",
-        "status": "wip",
+        "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }

@@ -430,7 +430,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1801,7 +1801,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "E#150",
+        "name": "Rue du pont de pont-rousseau",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1836,7 +1836,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "E#153",
+        "name": "bd Martin Luther King",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",

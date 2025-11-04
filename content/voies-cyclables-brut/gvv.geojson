@@ -56,13 +56,13 @@
         ]
       },
       "properties": {
-        "name": "Clos Toreau Routeau de Clisson",
+        "name": "Clos Toreau Route de Clisson",
         "status": "terminé",
-        "type": "",
+        "type": "bande cyclable",
         "year": "",
         "line": "F",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "non satisfaisant",
         "calculated_length": 3871.231
       }
     },
@@ -99,7 +99,7 @@
         "year": "",
         "line": "D",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 1176.294
       }
     },
@@ -145,7 +145,7 @@
         "year": "",
         "line": "I",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "non satisfaisant",
         "calculated_length": 281.785
       }
     },
@@ -267,7 +267,7 @@
         "year": "",
         "line": "E",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 5485.049
       }
     },
@@ -413,12 +413,12 @@
       },
       "properties": {
         "name": "Couëron-Nantes",
-        "status": "en cours",
-        "type": "",
+        "status": "terminé",
+        "type": "bidirectionnelle",
         "year": "",
         "line": "B",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 15294.423
       }
     },
@@ -440,7 +440,7 @@
         "year": "",
         "line": "D",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "non satisfaisant",
         "calculated_length": 2539.853
       }
     },
@@ -489,7 +489,7 @@
       "properties": {
         "name": "Rue Charles Monselet",
         "status": "reporté",
-        "type": "bande cyclable",
+        "type": "voie bus",
         "year": "",
         "line": "D",
         "infrastructure": "magistrale",
@@ -536,7 +536,7 @@
         "year": "",
         "line": "H",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 1505.147
       }
     },
@@ -558,7 +558,7 @@
         "year": "",
         "line": "D",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "non satisfaisant",
         "calculated_length": 933.12
       }
     },
@@ -581,7 +581,7 @@
         "year": "",
         "line": "D",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 408.012
       }
     },
@@ -634,7 +634,7 @@
         "year": "",
         "line": "I",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 1190.026
       }
     },
@@ -699,7 +699,7 @@
         "year": "",
         "line": "H",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 728.856
       }
     },
@@ -2036,7 +2036,7 @@
         "year": "",
         "line": "C",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 409.327
       }
     },
@@ -2093,7 +2093,7 @@
         "year": "",
         "line": "C,G",
         "infrastructure": "magistrale",
-        "quality": "",
+        "quality": "satisfaisant",
         "calculated_length": 388.167
       }
     },
@@ -2884,9 +2884,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Route de Thouaré",
         "status": "terminé",
-        "type": "",
+        "type": "voie bus ou piste",
         "year": "",
         "line": "G",
         "infrastructure": "structurante",
@@ -2904,7 +2904,7 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Chemin de la Bastille La Montagne",
         "status": "terminé",
         "type": "",
         "year": "",
@@ -3018,9 +3018,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "rue de l'ile ste Hélene",
         "status": "terminé",
-        "type": "",
+        "type": "route partagée",
         "year": "",
         "line": "A",
         "infrastructure": "structurante",
@@ -3100,9 +3100,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Route de la Gare Vertou",
         "status": "terminé",
-        "type": "",
+        "type": "bande cyclable",
         "year": "",
         "line": "F",
         "infrastructure": "secondaire",
@@ -3126,9 +3126,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Rue du Grignon Basse Goulaine",
         "status": "terminé",
-        "type": "",
+        "type": "piste bidir",
         "year": "",
         "line": "A",
         "infrastructure": "structurante",
@@ -3159,7 +3159,7 @@
       "properties": {
         "name": "",
         "status": "terminé",
-        "type": "",
+        "type": "chemin rural",
         "year": "",
         "line": "H",
         "infrastructure": "maillage",
@@ -3222,7 +3222,7 @@
       "properties": {
         "name": "",
         "status": "terminé",
-        "type": "",
+        "type": "chaussidou et bandes cyclables",
         "year": "",
         "line": "I",
         "infrastructure": "structurante",
@@ -3272,7 +3272,7 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Bd Gal de Gaulle St Herblain",
         "status": "terminé",
         "type": "",
         "year": "",
@@ -3327,7 +3327,7 @@
       "properties": {
         "name": "Indre-La Montagne",
         "status": "terminé",
-        "type": "",
+        "type": "piste cyclable",
         "year": "",
         "line": "I",
         "infrastructure": "magistrale",
@@ -3346,9 +3346,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Bd du prof Auvigne",
         "status": "terminé",
-        "type": "",
+        "type": "bande cyclable côté Est, piste côté Ouest",
         "year": "",
         "line": "F",
         "infrastructure": "secondaire",
@@ -3379,9 +3379,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Route de Carquefou",
         "status": "terminé",
-        "type": "",
+        "type": "piste cyclable",
         "year": "",
         "line": "F",
         "infrastructure": "structurante",
@@ -3425,9 +3425,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Route de Ste Luce",
         "status": "terminé",
-        "type": "",
+        "type": "piste cyclable",
         "year": "",
         "line": "F,G",
         "infrastructure": "structurante",
@@ -3449,9 +3449,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Route de Ste Luce Est",
         "status": "terminé",
-        "type": "",
+        "type": "piste cyclable",
         "year": "",
         "line": "G,H",
         "infrastructure": "structurante",
@@ -3515,9 +3515,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Cote St Sébastien",
         "status": "terminé",
-        "type": "",
+        "type": "voie bus",
         "year": "",
         "line": "A",
         "infrastructure": "magistrale",
@@ -3539,7 +3539,7 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Rue Eric Tabarly",
         "status": "terminé",
         "type": "",
         "year": "",
@@ -3570,9 +3570,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Rue Gal Leclerc Rezé",
         "status": "terminé",
-        "type": "",
+        "type": "bande cyclable",
         "year": "",
         "line": "A",
         "infrastructure": "maillage",
@@ -3603,7 +3603,7 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Rue Félix Eboué Rezé",
         "status": "terminé",
         "type": "",
         "year": "",
@@ -3788,9 +3788,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "bd Babin Chevaye, V Gache",
         "status": "terminé",
-        "type": "",
+        "type": "piste cyclable",
         "year": "",
         "line": "G",
         "infrastructure": "structurante",
@@ -3810,9 +3810,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "bd Gustave Roch",
         "status": "terminé",
-        "type": "",
+        "type": "piste cyclable",
         "year": "",
         "line": "G",
         "infrastructure": "structurante",
@@ -3831,9 +3831,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "bd Millerand et Bertin",
         "status": "terminé",
-        "type": "",
+        "type": "piste ou bande cyclable",
         "year": "",
         "line": "D",
         "infrastructure": "structurante",
@@ -3876,9 +3876,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Pont Senghor, bd Millerand",
         "status": "terminé",
-        "type": "",
+        "type": "piste puis bande cyclble",
         "year": "",
         "line": "D",
         "infrastructure": "structurante",
@@ -3903,9 +3903,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Allée Baco",
         "status": "terminé",
-        "type": "",
+        "type": "piste cyclable",
         "year": "",
         "line": "D",
         "infrastructure": "structurante",
@@ -3992,7 +3992,7 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Rue Guibal",
         "status": "terminé",
         "type": "",
         "year": "",
@@ -4015,7 +4015,7 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Bd Emile Gabory Sud",
         "status": "terminé",
         "type": "bande cyclable",
         "year": "",
@@ -4278,9 +4278,9 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Rue du pont de pont-rousseau",
         "status": "terminé",
-        "type": "",
+        "type": "piste",
         "year": "",
         "line": "C,E",
         "infrastructure": "magistrale",
@@ -4352,7 +4352,7 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "bd Martin Luther King",
         "status": "terminé",
         "type": "voie bus",
         "year": "",

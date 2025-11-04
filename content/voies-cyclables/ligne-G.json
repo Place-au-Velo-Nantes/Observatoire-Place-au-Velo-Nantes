@@ -649,7 +649,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#70"
@@ -813,7 +813,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#100",
+        "name": "Route de Thouaré",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1037,7 +1037,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#118",
+        "name": "Route de Ste Luce",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1080,7 +1080,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#119",
+        "name": "Route de Ste Luce Est",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1123,7 +1123,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#123",
+        "name": "Rue Eric Tabarly",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1400,7 +1400,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#131",
+        "name": "bd Babin Chevaye, V Gache",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1434,7 +1434,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#132",
+        "name": "bd Gustave Roch",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",

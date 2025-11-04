@@ -22,10 +22,10 @@
       },
       "properties": {
         "line": "F",
-        "name": "Clos Toreau Routeau de Clisson",
+        "name": "Clos Toreau Route de Clisson",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
@@ -707,10 +707,10 @@
       },
       "properties": {
         "line": "F",
-        "name": "F#106",
+        "name": "Route de la Gare Vertou",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "secondaire",
         "link": ""
@@ -737,7 +737,7 @@
       },
       "properties": {
         "line": "F",
-        "name": "F#115",
+        "name": "Bd du prof Auvigne",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -815,7 +815,7 @@
       },
       "properties": {
         "line": "F",
-        "name": "F#116",
+        "name": "Route de Carquefou",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -892,7 +892,7 @@
       },
       "properties": {
         "line": "F",
-        "name": "F#118",
+        "name": "Route de Ste Luce",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -931,7 +931,7 @@
       },
       "properties": {
         "line": "F",
-        "name": "F#141",
+        "name": "Bd Emile Gabory Sud",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
