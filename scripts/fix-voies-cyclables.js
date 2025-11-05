@@ -39,7 +39,9 @@ const fixType = type => {
     return 'bandes-cyclables';
   } else if (type === 'voie bus') {
     return 'voie-bus';
-  } else if (type === 'chaussidou') {
+  } else if (type === 'piste bidir') {
+    return 'bidirectionnelle';
+  } else if (type === 'chaussidou' || type === 'chaussidou et bandes cyclables') {
     return 'chaucidou';
   } else if (type === 'monodirectionnelle' || type === 'monodirectionnellea') {
     return 'bandes-cyclables';
@@ -80,6 +82,16 @@ const fixQuality = quality => {
   if (quality === 'satisfaisant') return 'satisfactory';
   else if (quality === 'non-satisfaisant') return 'unsatisfactory';
   return 'not-rated-yet';
+};
+
+const fixDoneDate = doneAt => {
+  if (!doneAt) return '01/01/2000';
+  console.log(doneAt);
+  if (!/^\d{4}$/.test(doneAt)) {
+    console.error(`Invalid year '${doneAt}', expected a 4-digit year like 2025`);
+    process.exit(1);
+  }
+  return `${doneAt}`;
 };
 
 // Function to add dangers to appropriate lines
@@ -252,7 +264,7 @@ const processVoiesFiles = () => {
             line: line_letter,
             name,
             status: fixStatus(feature.properties.status || ''),
-            doneAt: '01/01/2000',
+            doneAt: fixDoneDate(feature.properties.year),
             type: fixType(feature.properties.type || ''),
             quality: fixQuality(feature.properties.quality),
             infrastructure: feature.properties.infrastructure || '',

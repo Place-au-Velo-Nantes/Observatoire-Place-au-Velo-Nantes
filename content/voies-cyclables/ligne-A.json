@@ -439,7 +439,7 @@
         "name": "Rue du Grignon Basse Goulaine",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": ""
@@ -506,7 +506,7 @@
         "line": "A",
         "name": "Boulevard des Pas enchantés - Gréneraie/Senghor",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "2025",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",

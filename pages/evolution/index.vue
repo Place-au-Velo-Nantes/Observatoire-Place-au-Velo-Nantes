@@ -75,6 +75,9 @@ function filterFeatures(jsons: typeof geojsons.value, selectedYears: typeof year
       if (!('status' in feature.properties) || !feature.properties.doneAt) {
         return false;
       }
+      if (/^\d{4}$/.test(feature.properties.doneAt)) {
+        return selectedYears.some(year => year.match(Number(feature.properties.doneAt)));
+      }
       const [, , featureYear] = feature.properties.doneAt.split('/');
       return selectedYears.some(year => year.match(Number(featureYear)));
     });

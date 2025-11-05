@@ -103,6 +103,10 @@ function getSectionDetailsUrl(properties: LineStringFeature['properties']): stri
 }
 
 function getDoneAtText(doneAt: string): string {
+  // If doneAt is just a year (e.g. "2022"), return "en 2022"
+  if (/^\d{4}$/.test(doneAt)) {
+    return `en ${doneAt}`;
+  }
   const [day, month, year] = doneAt.split('/');
   const isBeforeMandat =
     new Date(Number(year), Number(month) - 1, Number(day)).getTime() < new Date(2021, 0, 1).getTime();

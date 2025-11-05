@@ -118,7 +118,7 @@ function checkGeoJsonDataHealth({ links }) {
 
                 // 4.2 - Check if all done section have a valid doneAt date
                 const dateRegex = /^\d{2}\/\d{2}\/\d{4}$/;
-                if (!dateRegex.test(properties.doneAt)) {
+                if (!dateRegex.test(properties.doneAt) && !/^\d{4}$/.test(properties.doneAt)) {
                   console.error(
                     `Invalid doneAt format '${properties.doneAt}' in VL ${properties.line}, tronçon: ${properties.name}`
                   );
