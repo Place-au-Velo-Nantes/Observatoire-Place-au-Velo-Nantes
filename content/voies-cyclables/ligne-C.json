@@ -1135,7 +1135,7 @@
         "name": "Rue du pont de pont-rousseau",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bilaterale",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",

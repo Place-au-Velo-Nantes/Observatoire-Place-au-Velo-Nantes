@@ -197,7 +197,7 @@
         "name": "Pont de la Rotonde Nord",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "voie-bus",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
@@ -818,7 +818,7 @@
         "name": "Route de Carquefou",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bilaterale",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": ""
@@ -895,7 +895,7 @@
         "name": "Route de Ste Luce",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bilaterale",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",

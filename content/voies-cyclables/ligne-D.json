@@ -1022,7 +1022,7 @@
         "name": "bd Millerand et Bertin",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": ""
@@ -1149,7 +1149,7 @@
         "name": "Allée Baco",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bilaterale",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": ""

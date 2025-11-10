@@ -35,10 +35,12 @@ const fixType = type => {
 
   if (validTypes.includes(type)) {
     return type;
-  } else if (type === 'bande cyclable' || type === 'bande cylable') {
+  } else if (type === 'bande cyclable' || type === 'bande cylable' || type === 'piste ou bande cyclable') {
     return 'bandes-cyclables';
-  } else if (type === 'voie bus') {
+  } else if (type === 'voie bus' || type === 'voie busway' || type === 'voie bus ou piste') {
     return 'voie-bus';
+  } else if (type === 'piste cyclable' || type === 'piste') {
+    return 'bilaterale';
   } else if (type === 'piste bidir') {
     return 'bidirectionnelle';
   } else if (type === 'chaussidou' || type === 'chaussidou et bandes cyclables') {
@@ -51,8 +53,8 @@ const fixType = type => {
     return 'zone-de-rencontre';
   } else if (type === 'voie verte') {
     return 'voie-verte';
-    // } else if (type === 'chaucidou') {
-    //   return 'bandes-cyclables';
+  } else if (type === 'chemin rural' || type === 'route partagée') {
+    return 'aucun';
   } else if (type) {
     console.error(`Invalid type '${type}'`);
   }

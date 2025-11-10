@@ -804,7 +804,7 @@
         "name": "Indre-La Montagne",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bilaterale",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
