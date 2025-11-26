@@ -20,16 +20,6 @@
             {{ line }}
           </a>
         </div>
-        <div class="flex flex-row space-x-1">
-          <div
-            v-for="line in lines"
-            :key="line"
-            class="h-8 w-8 rounded-full flex items-center justify-center text-white text-base font-bold"
-            :style="`background-color: ${getLineColor(line)}`"
-          >
-            {{ line }}
-          </div>
-        </div>
       </div>
     </div>
     <div class="px-2 divide-y">
