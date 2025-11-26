@@ -6,6 +6,7 @@ import {
   type LaneQuality,
   type LaneStatus,
   type LaneType,
+  type LineFilterItem,
   type UseBikeLaneFiltersOptions,
 } from '~/types';
 import type { Collections } from '@nuxt/content';
@@ -59,7 +60,17 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         textColor: '#FFFFFF',
       },
     },
-    // { label: 'Inconnu', isEnabled: true, statuses: ['unknown'] },
+    {
+      label: 'À définir',
+      isEnabled: true,
+      statuses: ['unknown'],
+      customStyle: {
+        backgroundColor: '#E5E7EB',
+        borderColor: '#9CA3AF',
+        borderStyle: 'dashed' as const,
+        textColor: '#111827',
+      },
+    },
   ]);
 
   const typeFilters = ref([
@@ -70,7 +81,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     { label: 'Vélorue', isEnabled: true, types: ['velorue'] },
     { label: 'Bandes cyclables', isEnabled: true, types: ['bandes-cyclables'] },
     { label: 'Zone de rencontre', isEnabled: true, types: ['zone-de-rencontre'] },
-    // { label: 'Inconnu', isEnabled: true, types: ['inconnu'] },
+    { label: 'Inconnu', isEnabled: true, types: ['inconnu'] },
     { label: 'Aucun', isEnabled: true, types: ['aucun'] },
   ]);
 
@@ -92,9 +103,63 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         textColor: '#FFFFFF',
       },
     },
+    {
+      label: 'Pas encore évalué',
+      isEnabled: true,
+      qualities: ['not-rated-yet'],
+      customStyle: {
+        backgroundColor: '#E0DFE7',
+        borderColor: '#A7A5B4',
+        textColor: '#1F2933',
+      },
+    },
   ]);
 
-  const lineFilters = ref<{ label: string; isEnabled: boolean; line: number }[]>([]);
+  const lineFilters = ref<LineFilterItem[]>([]);
+  const NON_GVV_LINE_ID = 'X';
+  const NON_GVV_LABEL = 'Hors GVV';
+
+  const createLineFilter = (lineId: string, label?: string): LineFilterItem => {
+    const color = getLineColor(lineId);
+    return {
+      label: label ?? `${lineId}`,
+      isEnabled: true,
+      line: lineId,
+      color,
+      customStyle: {
+        backgroundColor: color,
+        borderColor: color,
+        textColor: '#FFFFFF',
+      },
+    };
+  };
+
+  const applyLineQueryFilter = () => {
+    if (!Object.hasOwn(route.query, 'lines')) {
+      return;
+    }
+
+    const linesQuery = route.query.lines;
+    const enabled = linesQuery && (linesQuery as string).length > 0 ? (linesQuery as string).split(',') : [];
+    lineFilters.value.forEach((f) => (f.isEnabled = enabled.includes(f.line)));
+  };
+
+  const upsertNonGvvFilter = () => {
+    const hasNonGvvSegments = (allFeatures.value ?? []).some(
+      (feature) => isLineStringFeature(feature) && feature.properties.line === NON_GVV_LINE_ID,
+    );
+
+    // Always remove the placeholder before re-adding it to avoid duplicates or stale entries
+    lineFilters.value = lineFilters.value.filter((filter) => filter.line !== NON_GVV_LINE_ID);
+
+    if (!hasNonGvvSegments) {
+      return;
+    }
+
+    lineFilters.value = [...lineFilters.value, createLineFilter(NON_GVV_LINE_ID, NON_GVV_LABEL)];
+
+    applyLineQueryFilter();
+  };
 
   const dateRange = ref<[number, number]>([0, 0]);
   const minDate = ref(0);
@@ -184,39 +249,30 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
       allLines,
       (newLines) => {
         if (newLines) {
-          const linesSet = new Set<number>();
+          const linesSet = new Set<string>();
           newLines.forEach((voie) => {
-            if (voie.line) linesSet.add(voie.line);
+            if (voie.line) linesSet.add(String(voie.line));
           });
 
           lineFilters.value = Array.from(linesSet)
-            .sort((a, b) => a - b)
-            .map((line) => {
-              const color = getLineColor(line);
-              return {
-                label: `${line}`,
-                isEnabled: true,
-                line,
-                color,
-                customStyle: {
-                  backgroundColor: color,
-                  borderColor: color,
-                  textColor: '#FFFFFF',
-                },
-              };
-            });
+            .sort((a, b) => a.localeCompare(b, 'fr', { numeric: true, sensitivity: 'base' }))
+            .map((lineId) => createLineFilter(lineId));
 
-          if (Object.hasOwn(route.query, 'lines')) {
-            const linesQuery = route.query.lines;
-            const enabled =
-              linesQuery && (linesQuery as string).length > 0 ? (linesQuery as string).split(',').map((l) => +l) : [];
-            lineFilters.value.forEach((f) => (f.isEnabled = enabled.includes(f.line)));
-          }
+          applyLineQueryFilter();
+          upsertNonGvvFilter();
         }
       },
       { immediate: true },
     );
   }
+
+  watch(
+    allFeatures,
+    () => {
+      upsertNonGvvFilter();
+    },
+    { immediate: true },
+  );
 
   const visibleStatuses = computed(() =>
     statusFilters.value.filter((item) => item.isEnabled).flatMap((item) => item.statuses as LaneStatus[]),

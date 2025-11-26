@@ -158,7 +158,7 @@ export interface StatusTypeQualityFilterItem extends BaseFilterItem {
 }
 
 export interface LineFilterItem extends BaseFilterItem {
-  line: number;
+  line: string;
   color?: string;
 }
 
