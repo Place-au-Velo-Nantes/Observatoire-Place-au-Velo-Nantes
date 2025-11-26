@@ -1,6 +1,6 @@
 export default class LogoControl {
-  _container: HTMLDivElement;
-  _image: HTMLImageElement;
+  _container!: HTMLDivElement;
+  _image!: HTMLImageElement;
   _src: string;
   _alt: string;
   _width: number;
@@ -32,9 +32,30 @@ export default class LogoControl {
       window.open('https://lavilleavelo.org/', '_blank');
     };
 
-    this._container.appendChild(this._image);
+    const tooltip = document.createElement('div');
+    tooltip.className = '_tooltip my-0';
+    tooltip.appendChild(this._image);
 
-    this._container.style.magin = 0;
+    const textWrapper = document.createElement('div');
+
+    const title = document.createElement('div');
+    title.textContent = 'Retours, questions ?';
+
+    const linkContainer = document.createElement('div');
+    const link = document.createElement('a');
+    link.href = 'mailto:observatoire@placeauvelo-nantes.fr';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = 'contactez-nous';
+    linkContainer.appendChild(link);
+
+    textWrapper.appendChild(title);
+    textWrapper.appendChild(linkContainer);
+    tooltip.appendChild(textWrapper);
+
+    this._container.appendChild(tooltip);
+
+    this._container.style.margin = '0';
 
     return this._container;
   }

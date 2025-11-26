@@ -22,19 +22,6 @@
         displayPercent(Math.round(((filteredDistance || 0) / totalDistance) * 100))
       }})
     </div>
-    <div class="my-0 absolute bottom-0 right-0 z-10 _tooltip">
-      <img
-        v-if="options.logo"
-        src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/cropped-logo_place_au_velo_nantes.png"
-        width="50"
-        height="50"
-        :alt="`logo ${config.assoName}`"
-      />
-      <div>
-        <div>Retours, questions ?</div>
-        <div><a href="mailto:observatoire@placeauvelo-nantes.fr" target="_blank">contactez-nous</a></div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -191,10 +178,10 @@ onMounted(() => {
 
   if (options.logo) {
     const logoControl = new LogoControl({
-      src: 'https://cyclopolis.lavilleavelo.org/logo-lvv-carte.png',
+      src: 'https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/cropped-logo_place_au_velo_nantes.png',
       alt: `logo ${config.assoName}`,
-      width: 75,
-      height: 75,
+      width: 50,
+      height: 50,
     });
     map.addControl(logoControl, 'bottom-right');
   }
@@ -369,7 +356,7 @@ onMounted(() => {
   box-shadow: none;
   background: transparent;
   padding: 0;
-  margin: 0 !important;
+  margin: 10px !important;
 }
 
 .maplibregl-logo-control img {
