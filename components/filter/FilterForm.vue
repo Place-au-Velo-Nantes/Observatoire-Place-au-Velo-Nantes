@@ -55,6 +55,8 @@
         </div>
       </div>
     </div>
+
+    <hr class="h-px bg-gray-200 border-0 my-4" />
   </div>
 </template>
 
