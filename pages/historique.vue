@@ -16,7 +16,9 @@
 
         <div class="relative pl-7 pt-2 md:w-3/4 md:pl-12 md:pt-0 pb-16">
           <div class="absolute bottom-0 left-0 w-px bg-slate-200 -top-3 md:top-2.5" />
-          <div class="absolute -left-1 -top-[1.0625rem] h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-slate-300 bg-white md:top-[0.4375rem]" />
+          <div
+            class="absolute -left-1 -top-[1.0625rem] h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-slate-300 bg-white md:top-[0.4375rem]"
+          />
           <div class="max-w-none prose-h3:mb-4 prose-h3:mt-0 prose prose-lg text-gray-500">
             <ContentRenderer :value="newsItem" />
           </div>
@@ -27,11 +29,9 @@
 </template>
 
 <script setup lang="ts">
-// const { data: news } = await useAsyncData(() => {
-//   return queryCollection('news')
-//     .order('date', 'DESC')
-//     .all()
-// });
+const { data: news } = await useAsyncData(() => {
+  return queryCollection('news').order('date', 'DESC').all();
+});
 
 // function formatDate(date: string) {
 //   const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };

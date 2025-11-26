@@ -10,11 +10,11 @@
               src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/logo-250.png"
               :alt="`logo ${getAssoName()}`"
             />
-            <!-- <img
+            <img
               class="h-8 w-auto sm:h-10"
               src="https://cyclopolis.lavilleavelo.org/logo-cyclopolis-header.png"
               alt="logo cyclopolis"
-            /> -->
+            />
           </NuxtLink>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -30,7 +30,7 @@
             <PopoverButton
               :class="[
                 open ? 'text-gray-900' : 'text-gray-500',
-                'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-lvv-blue-600 focus:outline-none focus:ring-2 focus:ring-lvv-blue-600 focus:ring-offset-2'
+                'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-lvv-blue-600 focus:outline-none focus:ring-2 focus:ring-lvv-blue-600 focus:ring-offset-2',
               ]"
             >
               <span>Cartes détaillées</span>
@@ -55,7 +55,7 @@
                 <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white">
                   <div class="p-4 flex flex-col gap-2">
                     <NuxtLink
-                      to="/carte-interactive"
+                      :to="linkToMap"
                       class="text-base font-medium text-gray-500 hover:text-lvv-blue-600"
                       @click="close()"
                     >
@@ -76,7 +76,7 @@
                       Plan officiel
                     </NuxtLink>
                     <NuxtLink
-                      to="https://www.barometre-velo.fr"
+                      :to="barometreVeloLink"
                       target="_blank"
                       class="flex align-center space-x-2 text-base font-medium text-gray-500 hover:text-lvv-blue-600"
                       @click="close()"
@@ -114,7 +114,7 @@
             <PopoverButton
               :class="[
                 open ? 'text-gray-900' : 'text-gray-500',
-                'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-lvv-blue-600 focus:outline-none focus:ring-2 focus:ring-lvv-blue-600 focus:ring-offset-2'
+                'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-lvv-blue-600 focus:outline-none focus:ring-2 focus:ring-lvv-blue-600 focus:ring-offset-2',
               ]"
             >
               <span>Lignes</span>
@@ -170,7 +170,7 @@
             <PopoverButton
               :class="[
                 open ? 'text-gray-900' : 'text-gray-500',
-                'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-lvv-blue-600 focus:outline-none focus:ring-2 focus:ring-lvv-blue-600 focus:ring-offset-2'
+                'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-lvv-blue-600 focus:outline-none focus:ring-2 focus:ring-lvv-blue-600 focus:ring-offset-2',
               ]"
             >
               <span>Compteurs</span>
@@ -251,11 +251,6 @@
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
               <NuxtLink to="/" @click="close()">
-                <!-- <img
-                  class="h-8 w-auto"
-                  src="https://cyclopolis.lavilleavelo.org/logo-la-ville-a-velo.png"
-                  :alt="`logo ${getAssoName()}`"
-                /> -->
                 <img
                   class="h-8 w-auto"
                   src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/logo-250.png"
@@ -313,6 +308,7 @@
                 </NuxtLink> -->
 
                 <!-- Autres -->
+
                 <hr class="h-px bg-gray-200 border-0" />
 
                 <!-- <NuxtLink to="/blog" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50" @click="close()">
@@ -330,7 +326,7 @@
           </div>
           <div class="py-6 px-5 space-y-6 bg-gray-50">
             <div class="ml-3 text-base font-medium text-gray-900">Toutes les lignes</div>
-            <div class="grid grid-cols-4 gap-y-4 gap-x-8 justify-items-center">
+            <div class="grid grid-cols-4 gap-y-4 gap-x-8">
               <NuxtLink
                 v-for="voie in voies"
                 :key="voie.line"
@@ -357,12 +353,20 @@
 
 <script setup lang="ts">
 import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue';
+import { useMediaQuery } from '@vueuse/core';
 const { getLineColor } = useColors();
 const { getVoieCyclablePath } = useUrl();
 const { getAssoName } = useConfig();
 
-const navItems = [
-  { name: 'Carte interactive', path: '/carte-interactive', target: '_self' },
+const barometreVeloLink = 'https://www.barometre-velo.fr/2025/carte/#11.1/45.7505/4.8316';
+
+const isLargeScreen = useMediaQuery('(min-width: 1024px)');
+const linkToMap = computed(() => {
+  return isLargeScreen.value ? '/carte-interactive?modal=filters' : '/carte-interactive';
+});
+
+const navItems = computed(() => [
+  { name: 'Carte interactive', path: linkToMap.value, target: '_self' },
   { name: 'Plan officiel', path: '/plan-officiel', target: '_self' },
   { name: 'Évolution du réseau', path: '/evolution', target: '_self' },
   {
@@ -374,11 +378,8 @@ const navItems = [
     name: 'Baromètre vélo 2021',
     path: 'https://barometre.parlons-velo.fr/2021/carte/#11.11/47.2071/-1.5664',
     target: '_blank'
-  }
-  // { name: 'Services', path: '/services' },
+  },
 ];
 
-const { data: voies } = await useAsyncData(() => {
-  return queryCollection('voiesCyclablesPage').order('line', 'ASC').all();
-});
+const { voies } = await useGetVoiesCyclablesNums();
 </script>

@@ -1,4 +1,5 @@
 import type { Collections } from '@nuxt/content';
+import type { Ref } from 'vue';
 
 export type LaneType =
   | 'bidirectionnelle'
@@ -106,31 +107,82 @@ export type Count = { month: string; count: number };
  * type helpers
  */
 export function isLineStringFeature(
-  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature,
 ): feature is Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }> {
   return feature.geometry.type === 'LineString';
 }
 
 export function isPointFeature(
-  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
-): feature is Extract<typeof feature, { geometry: { type: 'Point'; coordinates: [number, number] } }> {
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature,
+): feature is Extract<
+  typeof feature,
+  { geometry: { type: 'Point'; coordinates: [number, number]; properties: { line?: string } } }
+> {
   return feature.geometry.type === 'Point';
 }
 
 export function isPerspectiveFeature(
-  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature,
 ): feature is Extract<Collections['voiesCyclablesGeojson']['features'][0], { properties: { type: 'perspective' } }> {
   return isPointFeature(feature) && feature.properties.type === 'perspective';
 }
 
 export function isDangerFeature(
-  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature,
 ): feature is Extract<Collections['voiesCyclablesGeojson']['features'][0], { properties: { type: 'danger' } }> {
   return isPointFeature(feature) && feature.properties.type === 'danger';
 }
 
 export function isCompteurFeature(
-  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature
+  feature: Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature,
 ): feature is CompteurFeature {
   return isPointFeature(feature) && ['compteur-velo', 'compteur-voiture'].includes(feature.properties.type);
+}
+
+export interface BaseFilterItem {
+  label: string;
+  isEnabled: boolean;
+  customStyle?: {
+    backgroundColor?: string;
+    borderColor?: string;
+    borderStyle?: 'solid' | 'dashed' | 'dotted';
+    borderWidth?: string;
+    textColor?: string;
+  };
+}
+
+export interface StatusTypeQualityFilterItem extends BaseFilterItem {
+  statuses?: string[];
+  types?: string[];
+  qualities?: string[];
+}
+
+export interface LineFilterItem extends BaseFilterItem {
+  line: number;
+  color?: string;
+}
+
+export interface FiltersState {
+  statusFilters: Ref<Array<StatusTypeQualityFilterItem>>;
+  typeFilters: Ref<Array<StatusTypeQualityFilterItem>>;
+  qualityFilters: Ref<Array<StatusTypeQualityFilterItem>>;
+  lineFilters: Ref<Array<LineFilterItem>>;
+  dateRange: Ref<[number, number]>;
+  minDate: Ref<number>;
+  maxDate: Ref<number>;
+  dateSteps: Ref<number[]>;
+}
+
+export interface FilterActions {
+  toggleStatusFilter: (index: number) => void;
+  toggleTypeFilter: (index: number) => void;
+  toggleQualityFilter: (index: number) => void;
+  toggleLineFilter: (index: number) => void;
+  setDateRange: (newDateRange: [number, number]) => void;
+}
+
+export interface UseBikeLaneFiltersOptions {
+  allFeatures: Ref<Collections['voiesCyclablesGeojson']['features']>;
+  allGeojsons?: Ref<Collections['voiesCyclablesGeojson'][] | undefined | null>;
+  allLines?: Ref<LineStringFeature[] | undefined | null>;
 }

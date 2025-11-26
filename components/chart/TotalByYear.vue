@@ -11,11 +11,11 @@ import type { Count } from '~/types';
 
 const props = defineProps({
   title: { type: String, required: true },
-  data: { type: Object, required: true }
+  data: { type: Object, required: true },
 });
 
 const years = [...new Set(props.data.counts.map((item: Count) => new Date(item.month).getFullYear()))].sort();
-const countsValues = years.map(year => {
+const countsValues = years.map((year) => {
   return props.data.counts
     .filter((item: Count) => new Date(item.month).getFullYear() === year)
     .reduce((acc: number, item: Count) => acc + item.count, 0);
@@ -39,13 +39,13 @@ const chartOptions = {
     column: {
       stacking: 'normal', // Empiler les colonnes
       pointPadding: 0.2,
-      borderWidth: 0
+      borderWidth: 0,
     },
     series: {
       dataLabels: {
-        enabled: true
-      }
-    }
+        enabled: true,
+      },
+    },
   },
   series: [
     {
@@ -59,14 +59,14 @@ const chartOptions = {
             color: 'rgba(0,0,0,0)',
             dataLabels: { enabled: true, color: '#152B68', verticalAlign: 'top', format: '{point.customTotal:,.0f}' },
             customTotal: estimatedTotalCurrentYear,
-            dashStyle: 'ShortDot'
+            dashStyle: 'ShortDot',
           };
         }
         return { y: null };
       }),
       tooltip: {
-        pointFormat: 'Estimation totale : <strong>{point.customTotal:,.0f}</strong>'
-      }
+        pointFormat: 'Estimation totale : <strong>{point.customTotal:,.0f}</strong>',
+      },
     },
     {
       name: 'Passages',
@@ -78,11 +78,11 @@ const chartOptions = {
           dataLabels: {
             color,
             verticalAlign: 'top',
-            y: index == countsValues.length - 1 ? 0 : -20
-          }
+            y: index == countsValues.length - 1 ? 0 : -20,
+          },
         };
-      })
-    }
+      }),
+    },
   ],
   responsive: {
     rules: [
@@ -92,12 +92,12 @@ const chartOptions = {
           legend: {
             layout: 'horizontal',
             align: 'center',
-            verticalAlign: 'bottom'
+            verticalAlign: 'bottom',
           },
-          yAxis: { title: { text: undefined } }
-        }
-      }
-    ]
-  }
+          yAxis: { title: { text: undefined } },
+        },
+      },
+    ],
+  },
 };
 </script>

@@ -21,10 +21,10 @@
             <Icon :name="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>
         </div>
-        <div class="mt-8 md:mt-0 md:order-1">
-          <p class="text-center text-base text-gray-500">
+        <div class="mt-8 md:mt-0 md:order-1 sm:hidden md:block">
+          <a :href="getAssoLink()" class="text-center text-base text-gray-500">
             {{ getAssoName() }}
-          </p>
+          </a>
         </div>
       </div>
     </div>
@@ -32,12 +32,12 @@
 </template>
 
 <script setup lang="ts">
-const { getAssoName } = useConfig();
+const { getAssoName, getAssoLink } = useConfig();
 
 const links = [
   { name: 'Mentions légales', path: '/mentions-legales' },
   { name: 'Historique', path: '/historique' },
-  { name: 'Sites partenaires', path: '/sites-partenaires' }
+  { name: 'Sites partenaires', path: '/sites-partenaires' },
 ];
 
 const socials = [
@@ -54,32 +54,32 @@ const socials = [
   {
     name: 'Facebook',
     href: 'https://www.facebook.com/placeauvelonantes/',
-    icon: 'mdi:facebook'
+    icon: 'mdi:facebook',
   },
   {
     name: 'LinkedIn',
     href: 'https://fr.linkedin.com/company/place-au-v%C3%A9lo-nantes',
-    icon: 'mdi:linkedin'
+    icon: 'mdi:linkedin',
   },
   {
     name: 'Instagram',
     href: 'https://www.instagram.com/placeauvelonantes/',
-    icon: 'mdi:instagram'
+    icon: 'mdi:instagram',
   },
   {
     name: 'Github',
     href: 'https://github.com/Place-au-Velo-Nantes/Observatoire-Place-au-Velo-Nantes',
-    icon: 'mdi:github'
+    icon: 'mdi:github',
   },
   {
     name: 'Site web',
     href: 'https://placeauvelo-nantes.fr/',
-    icon: 'mdi:link'
+    icon: 'mdi:link',
   },
   {
     name: 'Email',
     href: 'mailto:observatoire@placeauvelo-nantes.fr',
-    icon: 'mdi:email-outline'
-  }
+    icon: 'mdi:email-outline',
+  },
 ];
 </script>

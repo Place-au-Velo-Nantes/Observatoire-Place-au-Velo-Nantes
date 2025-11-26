@@ -1,4 +1,5 @@
-import { defineCollection, defineContentConfig, z } from '@nuxt/content';
+import { defineCollection, defineContentConfig } from '@nuxt/content';
+import { z } from 'zod';
 
 export default defineContentConfig({
   collections: {
@@ -7,8 +8,8 @@ export default defineContentConfig({
       type: 'page',
       schema: z.object({
         date: z.string(),
-        newsBannerText: z.string()
-      })
+        newsBannerText: z.string(),
+      }),
     }),
     blog: defineCollection({
       source: 'blog/*.md',
@@ -16,8 +17,8 @@ export default defineContentConfig({
       schema: z.object({
         title: z.string(),
         description: z.string(),
-        imageUrl: z.string().url()
-      })
+        imageUrl: z.string().url(),
+      }),
     }),
     voiesCyclablesPage: defineCollection({
       source: 'voies-cyclables/*.md',
@@ -29,8 +30,8 @@ export default defineContentConfig({
         to: z.string(),
         description: z.string(),
         trafic: z.string(),
-        cover: z.string()
-      })
+        cover: z.string(),
+      }),
     }),
     voiesCyclablesGeojson: defineCollection({
       source: 'voies-cyclables/*.json',
@@ -53,7 +54,7 @@ export default defineContentConfig({
                   'wip',
                   'variante',
                   'tested',
-                  'unknown'
+                  'unknown',
                 ]),
                 type: z.enum([
                   'bidirectionnelle',
@@ -66,18 +67,18 @@ export default defineContentConfig({
                   'chaucidou',
                   'zone-de-rencontre',
                   'aucun',
-                  'inconnu'
+                  'inconnu',
                 ]),
                 link: z.string().optional(),
                 infrastructure: z.string().optional(),
                 quality: z.enum(['satisfactory', 'unsatisfactory', 'not-rated-yet']),
                 text: z.string().optional(),
-                doneAt: z.string().optional()
+                doneAt: z.string().optional(),
               }),
               geometry: z.object({
                 type: z.enum(['LineString']),
-                coordinates: z.array(z.tuple([z.number(), z.number()]))
-              })
+                coordinates: z.array(z.tuple([z.number(), z.number()])),
+              }),
             }),
             z.object({
               type: z.enum(['Feature']),
@@ -85,12 +86,12 @@ export default defineContentConfig({
                 type: z.enum(['perspective']),
                 name: z.string(),
                 line: z.string(),
-                imgUrl: z.string().url()
+                imgUrl: z.string().url(),
               }),
               geometry: z.object({
                 type: z.enum(['Point']),
-                coordinates: z.tuple([z.number(), z.number()])
-              })
+                coordinates: z.tuple([z.number(), z.number()]),
+              }),
             }),
             z.object({
               type: z.enum(['Feature']),
@@ -98,16 +99,16 @@ export default defineContentConfig({
                 type: z.enum(['danger']),
                 name: z.string(),
                 description: z.string(),
-                danger: z.string()
+                danger: z.string(),
               }),
               geometry: z.object({
                 type: z.enum(['Point']),
-                coordinates: z.tuple([z.number(), z.number()])
-              })
-            })
-          ])
-        )
-      })
+                coordinates: z.tuple([z.number(), z.number()]),
+              }),
+            }),
+          ]),
+        ),
+      }),
     }),
     compteurs: defineCollection({
       source: 'compteurs/**/*.json',
@@ -124,10 +125,10 @@ export default defineContentConfig({
         counts: z.array(
           z.object({
             month: z.string(),
-            count: z.number()
-          })
-        )
-      })
+            count: z.number(),
+          }),
+        ),
+      }),
     }),
     sitesPartenaires: defineCollection({
       source: 'sites-partenaires/**/*.md',
@@ -138,8 +139,8 @@ export default defineContentConfig({
         description: z.string(),
         city: z.string(),
         link: z.string().url(),
-        index: z.number()
-      })
+        index: z.number(),
+      }),
     }),
     cartesMinutes: defineCollection({
       source: 'cartes-minutes/**/*.md',
@@ -149,8 +150,8 @@ export default defineContentConfig({
         title: z.string(),
         description: z.string(),
         link: z.string().url(),
-        index: z.number()
-      })
-    })
-  }
+        index: z.number(),
+      }),
+    }),
+  },
 });

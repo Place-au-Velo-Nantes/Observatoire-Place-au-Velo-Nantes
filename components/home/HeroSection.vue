@@ -40,17 +40,29 @@
               </span>
             </h1>
             <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-              Une initiative de l’association <strong>{{ assoName }}</strong> pour suivre le développement du nouveau
-              réseau vélo Nantais.
+              Une initiative de l’association
+              <a :href="getAssoLink()"
+                ><strong>{{ assoName }}</strong></a
+              >
+              pour suivre le développement du nouveau réseau vélo Nantais.
             </p>
             <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
               <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                <NuxtLink
-                  to="/carte-interactive"
-                  class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-lvv-blue-600 hover:shadow-lg sm:px-8 transition duration-300 transform hover:scale-105"
-                >
-                  Carte interactive
-                </NuxtLink>
+                <ClientOnly>
+                  <template #fallback>
+                    <div
+                      class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-lvv-blue-600 sm:px-8"
+                    >
+                      Carte interactive
+                    </div>
+                  </template>
+                  <NuxtLink
+                    :to="linkToMap"
+                    class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-lvv-blue-600 hover:shadow-lg sm:px-8 transition duration-300 transform hover:scale-105"
+                  >
+                    Carte interactive
+                  </NuxtLink>
+                </ClientOnly>
                 <NuxtLink
                   to="/plan-officiel"
                   class="flex items-center justify-center px-4 py-3 text-base font-medium rounded-md shadow-sm text-lvv-blue-600 border border-lvv-blue-600 hover:shadow-lg sm:px-8 transition duration-300 transform hover:scale-105"
@@ -76,6 +88,13 @@
 </template>
 
 <script setup lang="ts">
-const { getRevName, getAssoName } = useConfig();
+import { useMediaQuery } from '@vueuse/core';
+
+const { getRevName, getAssoName, getAssoLink } = useConfig();
 const assoName = getAssoName();
+
+const isLargeScreen = useMediaQuery('(min-width: 1024px)');
+const linkToMap = computed(() => {
+  return isLargeScreen.value ? '/carte-interactive?modal=filters' : '/carte-interactive';
+});
 </script>

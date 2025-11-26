@@ -1,8 +1,27 @@
 <template>
   <div class="relative">
     <LegendModal ref="legendModalComponent" />
-    <FilterModal ref="filterModalComponent" @update="refreshFilters" />
-    <div id="map" class="rounded-lg h-full w-full" />
+    <div class="flex rounded-lg h-full w-full">
+      <div id="map" :class="[options.roundedCorners ? 'rounded-lg' : '', 'h-full w-full']" />
+      <FilterPanel
+        :show-line-filters="options.showLineFilters"
+        :show-date-filter="options.showDateFilter"
+        :can-use-side-panel="options.canUseSidePanel"
+        :filters="filters"
+        :actions="actions"
+        :filter-style="options.filterStyle"
+      />
+    </div>
+
+    <div
+      v-if="totalDistance"
+      class="absolute top-3 left-12 bg-white p-1 text-sm rounded-md shadow cursor-pointer select-none"
+      @click="toggleFilterSidebar"
+    >
+      Réseau affiché: {{ displayDistanceInKm(filteredDistance || 0, 1) }} ({{
+        displayPercent(Math.round(((filteredDistance || 0) / totalDistance) * 100))
+      }})
+    </div>
     <div class="my-0 absolute bottom-0 right-0 z-10 _tooltip">
       <img
         v-if="options.logo"
@@ -27,20 +46,23 @@ import {
   GeolocateControl,
   NavigationControl,
   type StyleSpecification,
-  type LngLatLike
+  type LngLatLike,
+  LngLat,
 } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import style from '@/assets/style.json';
 import LegendControl from '@/maplibre/LegendControl';
+import LegendInlineControl from '@/maplibre/LegendInlineControl';
 import FilterControl from '@/maplibre/FilterControl';
 import FullscreenControl from '@/maplibre/FullscreenControl';
 import ShrinkControl from '@/maplibre/ShrinkControl';
+import LogoControl from '@/maplibre/LogoControl';
 
-import { isLineStringFeature, type CompteurFeature, type LaneQuality, type LaneStatus, type LaneType } from '~/types';
+import type { CompteurFeature, FiltersState, FilterActions } from '~/types';
 import config from '~/config.json';
-
-// const config = useRuntimeConfig();
-// const maptilerKey = config.public.maptilerKey;
+import FilterPanel from '~/components/FilterPanel.vue';
+import LegendInline from '~/components/LegendInline.vue';
+const { displayDistanceInKm, displayPercent } = useStats();
 
 const defaultOptions = {
   logo: true,
@@ -50,63 +72,52 @@ const defaultOptions = {
   fullscreen: false,
   onFullscreenControlClick: () => {},
   shrink: false,
-  onShrinkControlClick: () => {}
+  showLineFilters: false,
+  showDateFilter: false,
+  canUseSidePanel: false,
+  onShrinkControlClick: () => {},
+  filterStyle: 'height: calc(100vh - 100px)',
+  roundedCorners: false,
+  updateUrlOnFeatureClick: false,
 };
 
 const props = defineProps<{
   features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[];
   options?: Partial<typeof defaultOptions>;
+  totalDistance?: number;
+  filteredDistance?: number;
+  geojsons?: Collections['voiesCyclablesGeojson'][];
+  filters?: FiltersState;
+  actions?: FilterActions;
 }>();
 
 const options = { ...defaultOptions, ...props.options };
 
 const legendModalComponent = ref<{ openModal: () => void } | null>(null);
-const filterModalComponent = ref<{ openModal: () => void } | null>(null);
+const filterControl = ref<FilterControl | null>(null);
 
-const { loadImages, plotFeatures, fitBounds, handleMapClick } = useMap();
-
-const statuses = ref(['planned', 'variante', 'done', 'postponed', 'variante-postponed', 'unknown', 'wip', 'tested']);
-
-const types = ref([
-  'bidirectionnelle',
-  'bilaterale',
-  'voie-bus',
-  'voie-bus-elargie',
-  'velorue',
-  'voie-verte',
-  'bandes-cyclables',
-  'chaucidou',
-  'zone-de-rencontre',
-  'aucun',
-  'inconnu'
-]);
-const qualities = ref(['satisfactory', 'unsatisfactory', 'not-rated-yet']);
-
-const features = computed(() => {
-  return (props.features ?? []).filter(feature => {
-    if (isLineStringFeature(feature)) {
-      return (
-        statuses.value.includes(feature.properties.status) &&
-        types.value.includes(feature.properties.type) &&
-        qualities.value.includes(feature.properties.quality)
-      );
-    }
-    return true;
-  });
+const { loadImages, plotFeatures, fitBounds, handleMapClick } = useMap({
+  updateUrlOnFeatureClick: options.updateUrlOnFeatureClick,
 });
 
-function refreshFilters({
-  visibleStatuses,
-  visibleTypes,
-  visibleQualities
-}: {
-  visibleStatuses: LaneStatus[];
-  visibleTypes: LaneType[];
-  visibleQualities: LaneQuality[];
-}) {
-  statuses.value = visibleStatuses;
-  types.value = visibleTypes;
-  qualities.value = visibleQualities;
+const router = useRouter();
+const route = useRoute();
+
+const highlightLine = route.query.line ? Number(route.query.line) : undefined;
+const highlightSection = route.query.sectionName as string | undefined;
+
+function toggleFilterSidebar() {
+  if (!props.filters || !props.actions) {
+    return;
+  }
+
+  const query = { ...route.query };
+  if (query.modal === 'filters') {
+    delete query.modal;
+  } else {
+    query.modal = 'filters';
+  }
+  router.replace({ query });
 }
 
 onMounted(() => {
@@ -116,76 +127,167 @@ onMounted(() => {
     // style: `https://api.maptiler.com/maps/dataviz/style.json?key=${maptilerKey}`,
     center: config.center as LngLatLike,
     zoom: config.zoom,
-    attributionControl: false
+    attributionControl: false,
   });
+
   map.addControl(new NavigationControl({ showCompass: false }), 'top-left');
   map.addControl(new AttributionControl({ compact: false }), 'bottom-left');
+
   if (options.fullscreen) {
     const fullscreenControl = new FullscreenControl({
-      onClick: () => options.onFullscreenControlClick()
+      onClick: () => options.onFullscreenControlClick(),
     });
     map.addControl(fullscreenControl, 'top-right');
   }
+
   if (options.geolocation) {
     map.addControl(
       new GeolocateControl({
         positionOptions: { enableHighAccuracy: true },
         // When active the map will receive updates to the device's location as it changes.
-        trackUserLocation: true
+        trackUserLocation: true,
       }),
-      'top-right'
+      'top-right',
     );
   }
+
   if (options.shrink) {
     const shrinkControl = new ShrinkControl({
-      onClick: () => options.onShrinkControlClick()
+      onClick: () => options.onShrinkControlClick(),
     });
     map.addControl(shrinkControl, 'top-right');
   }
+
   if (options.legend) {
-    const legendControl = new LegendControl({
-      onClick: () => {
-        if (legendModalComponent.value) {
-          legendModalComponent.value.openModal();
-        }
-      }
-    });
-    map.addControl(legendControl, 'top-right');
+    // Define breakpoint for showing inline legend (e.g., 1024px = large screens)
+    const legendInlineBreakpoint = 1024;
+    const isLargeMap = window.innerWidth >= legendInlineBreakpoint && !options.fullscreen;
+
+    if (isLargeMap) {
+      // Show inline legend in bottom-left corner for large screens
+      const legendInlineControl = new LegendInlineControl(LegendInline);
+      map.addControl(legendInlineControl, 'bottom-left');
+    } else {
+      // Show legend button for smaller screens
+      const legendControl = new LegendControl({
+        onClick: () => {
+          if (legendModalComponent.value) {
+            legendModalComponent.value.openModal();
+          }
+        },
+      });
+      map.addControl(legendControl, 'top-right');
+    }
   }
+
   if (options.filter) {
-    const filterControl = new FilterControl({
+    filterControl.value = new FilterControl({
       onClick: () => {
-        if (filterModalComponent.value) {
-          filterModalComponent.value.openModal();
-        }
-      }
+        toggleFilterSidebar();
+      },
     });
-    map.addControl(filterControl, 'top-right');
+    map.addControl(filterControl.value, 'top-right');
+  }
+
+  if (options.logo) {
+    const logoControl = new LogoControl({
+      src: 'https://cyclopolis.lavilleavelo.org/logo-lvv-carte.png',
+      alt: `logo ${config.assoName}`,
+      width: 75,
+      height: 75,
+    });
+    map.addControl(logoControl, 'bottom-right');
   }
 
   map.on('load', async () => {
     await loadImages({ map });
-    plotFeatures({ map, features: features.value });
+    plotFeatures({ map, features: props.features });
 
-    const tailwindMdBreakpoint = 768;
-    if (window.innerWidth > tailwindMdBreakpoint) {
-      fitBounds({ map, features: features.value });
+    if (highlightLine && highlightSection) {
+      const section = props.features.find((f) => {
+        if (f.geometry.type !== 'LineString') {
+          return false;
+        }
+        if (!('line' in f.properties) || f.properties.line !== highlightLine) {
+          return false;
+        }
+        return 'name' in f.properties && f.properties.name === highlightSection;
+      });
+
+      if (section?.geometry?.type === 'LineString') {
+        fitBounds({ map, features: [section] });
+
+        map.once('moveend', () => {
+          const coordinates = section.geometry.coordinates;
+          const midPoint = coordinates[Math.floor(coordinates.length / 2)] as [number, number];
+          const point = map.project(midPoint);
+
+          const renderedFeatures = map.queryRenderedFeatures(point, {
+            layers: ['highlight'],
+            filter: [
+              'all',
+              ['==', ['get', 'line'], section.properties.line],
+              ['==', ['get', 'name'], section.properties.name],
+            ],
+          });
+
+          const firstFeatureId = renderedFeatures?.[0].id;
+          if (firstFeatureId !== undefined) {
+            map.setFeatureState({ source: 'all-sections', id: firstFeatureId }, { hover: true });
+          }
+
+          if (!midPoint || midPoint?.length !== 2) {
+            return;
+          }
+
+          // small hack: simulate a click event to open the popup
+          handleMapClick({
+            map,
+            features: props.features,
+            clickEvent: {
+              lngLat: new LngLat(midPoint[0], midPoint[1]),
+              point,
+              originalEvent: new MouseEvent('click'),
+              target: map,
+              type: 'click',
+              preventDefault: () => {},
+              defaultPrevented: false,
+              _defaultPrevented: false,
+            },
+          });
+        });
+      }
+    } else {
+      const tailwindMdBreakpoint = 768;
+      if (window.innerWidth > tailwindMdBreakpoint) {
+        fitBounds({ map, features: props.features });
+      }
     }
-  });
-
-  watch(features, newFeatures => {
-    plotFeatures({ map, features: newFeatures });
   });
 
   watch(
     () => props.features,
-    newFeatures => {
-      plotFeatures({ map, features: newFeatures });
-    }
+    (newFeatures) => {
+      try {
+        plotFeatures({ map, features: newFeatures });
+      } catch (e) {
+        console.warn('not able to plot features', e);
+      }
+    },
   );
 
-  map.on('click', clickEvent => {
-    handleMapClick({ map, features: features.value, clickEvent });
+  watch(
+    () => [props.totalDistance, props.filteredDistance],
+    ([totalDistance, filteredDistance]) => {
+      if (filterControl.value && totalDistance && filteredDistance !== undefined) {
+        filterControl.value.setActive(totalDistance - filteredDistance > 0);
+      }
+    },
+    { immediate: true },
+  );
+
+  map.on('click', (clickEvent) => {
+    handleMapClick({ map, features: props.features, clickEvent });
   });
 });
 </script>
@@ -262,5 +364,17 @@ onMounted(() => {
     font-weight: bold;
     text-decoration: underline;
   }
+}
+.maplibregl-logo-control {
+  box-shadow: none;
+  background: transparent;
+  padding: 0;
+  margin: 0 !important;
+}
+
+.maplibregl-logo-control img {
+  display: block;
+  margin: 0;
+  pointer-events: auto;
 }
 </style>

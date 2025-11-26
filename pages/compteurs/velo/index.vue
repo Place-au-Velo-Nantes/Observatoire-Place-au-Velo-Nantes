@@ -9,15 +9,46 @@
           Suivi des compteurs vélo de l'agglomération nantaise
         </h2>
         <p class="mt-8 text-xl text-gray-500 leading-8">
-          Chaque début de mois, nous remontons les données de {{ counters.length }} compteurs à vélo de l'agglomération nantaise.
+          Chaque début de mois, nous remontons les données de {{ counters.length }} compteurs à vélo de l’agglomération
+          nantaise.
         </p>
         <p class="mt-1 text-xl text-gray-500 leading-8 prose max-w-none">
-          N'apparaisent pas ici, les comptages organisés par Place au vélo dont les données sont disponibles ici :<br/><a href="https://data.nantesmetropole.fr/explore/dataset/424590313_lieux-de-comptage-de-place-au-velo-nantes/map/?location=14,47.22102,-1.55685&basemap=jawg.streets" target="_blank" cla>lieux de comptage</a> | <a href="https://data.nantesmetropole.fr/explore/dataset/424590313_comptages-velo-place-au-velo-historique/information/" target="_blank"> comptages depuis 1998</a> | <a href="https://data.nantesmetropole.fr/explore/dataset/424590313_comptages-vae-bicloo-place-au-velo-historique/information/" target="_blank">comptages VAE et bicloo depuis 2010</a>
+          N'apparaisent pas ici, les comptages organisés par Place au vélo dont les données sont disponibles ici :<br /><a
+            href="https://data.nantesmetropole.fr/explore/dataset/424590313_lieux-de-comptage-de-place-au-velo-nantes/map/?location=14,47.22102,-1.55685&basemap=jawg.streets"
+            target="_blank"
+            cla
+            >lieux de comptage</a
+          >
+          |
+          <a
+            href="https://data.nantesmetropole.fr/explore/dataset/424590313_comptages-velo-place-au-velo-historique/information/"
+            target="_blank"
+          >
+            comptages depuis 1998</a
+          >
+          |
+          <a
+            href="https://data.nantesmetropole.fr/explore/dataset/424590313_comptages-vae-bicloo-place-au-velo-historique/information/"
+            target="_blank"
+            >comptages VAE et bicloo depuis 2010</a
+          >
         </p>
-        <ClientOnly>
-          <Map :features="features" :options="{ legend: false, filter: false }" class="mt-12" style="height: 40vh" />
+        <ClientOnly fallback-tag="div">
+          <template #fallback>
+            <MapPlaceholder style="height: 40vh" additional-class="mt-12" />
+          </template>
+          <Map
+            :features="features"
+            :options="{ roundedCorners: true, legend: false, filter: false }"
+            class="mt-12"
+            style="height: 40vh"
+          />
         </ClientOnly>
-        <ChartAllTotalByYear title="Fréquentation cyclistes annuelle" :data="counters" class="mt-8 lg:p-4 lg:rounded-lg lg:shadow-md" />
+        <ChartAllTotalByYear
+          title="Fréquentation cyclistes annuelle"
+          :data="counters"
+          class="mt-8 lg:p-4 lg:rounded-lg lg:shadow-md"
+        />
       </div>
 
       <!-- search bar -->
@@ -27,18 +58,44 @@
           <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <Icon name="mdi:magnify" class="h-6 w-6 text-gray-400" aria-hidden="true" />
           </div>
-          <input id="compteur" v-model="searchText" type="text" class="py-4 pl-10 pr-4 text-lg shadow-md focus:ring-lvv-blue-600 focus:border-lvv-blue-600 block w-full border-gray-900 text-gray-900 rounded-md" placeholder="Chercher un compteur...">
+          <input
+            id="compteur"
+            v-model="searchText"
+            type="text"
+            class="py-4 pl-10 pr-4 text-lg shadow-md focus:ring-lvv-blue-600 focus:border-lvv-blue-600 block w-full border-gray-900 text-gray-900 rounded-md"
+            placeholder="Chercher un compteur..."
+          />
         </div>
       </div>
 
       <!-- liste des compteurs -->
       <div class="mt-4 max-w-7xl mx-auto grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:max-w-none">
-        <CounterCard v-for="counter of counters" :key="counter.name+counter.idPdc" :counter="counter" />
+        <CounterCard v-for="counter of counters" :key="counter.name + counter.idPdc" :counter="counter" />
       </div>
 
       <div class="mt-8 prose" id="sources">
         <h2>Source des données</h2>
-        <p>Les données proviennent de data.nantesmetropole.fr :<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-historique-jour/information/" target="_blank">données 2014-2019</a> : cumule par mois des comptages ajustés (c'est-à-dire avec une estimation sans les anomalies) pour 18 boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole/information/" target="_blank">données à partir de 2020</a> : cumule par mois des comptages pour {{ counters.length }}  boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-boucles-comptage/information/" target="_blank">boucles de comptage.</a></p>
+        <p>
+          Les données proviennent de data.nantesmetropole.fr :<br />-
+          <a
+            href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-historique-jour/information/"
+            target="_blank"
+            >données 2014-2019</a
+          >
+          : cumule par mois des comptages ajustés (c'est-à-dire avec une estimation sans les anomalies) pour 18
+          boucles.<br />-
+          <a
+            href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole/information/"
+            target="_blank"
+            >données à partir de 2020</a
+          >
+          : cumule par mois des comptages pour {{ counters.length }} boucles.<br />-
+          <a
+            href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-boucles-comptage/information/"
+            target="_blank"
+            >boucles de comptage.</a
+          >
+        </p>
       </div>
     </div>
   </div>
@@ -47,29 +104,30 @@
 <script setup lang="ts">
 import { removeDiacritics } from '~/helpers/helpers';
 import type { CompteurFeature } from '~/types';
+import MapPlaceholder from '~/components/MapPlaceholder.vue';
 
 const { getCompteursFeatures } = useMap();
 
 const { data: allCounters } = await useAsyncData(() => {
-  return queryCollection('compteurs')
-    .where('path', 'LIKE', '/compteurs/velo%')
-    .all();
+  return queryCollection('compteurs').where('path', 'LIKE', '/compteurs/velo%').all();
 });
 
 const searchText = ref('');
 
 const counters = computed(() => {
-  if (!allCounters.value) { return []; }
+  if (!allCounters.value) {
+    return [];
+  }
   return [...allCounters.value]
     .sort((counter1, counter2) => {
       const count1 = counter1.counts.at(-1)?.count ?? 0;
       const count2 = counter2.counts.at(-1)?.count ?? 0;
       return count2 - count1;
     })
-    .filter(counter => removeDiacritics(`${counter.name}`).includes(removeDiacritics(searchText.value)))
-    .map(counter => ({
+    .filter((counter) => removeDiacritics(`${counter.name}`).includes(removeDiacritics(searchText.value)))
+    .map((counter) => ({
       ...counter,
-      counts: counter.counts.map(count => ({
+      counts: counter.counts.map((count) => ({
         month: count.month,
         veloCount: count.count,
       })),

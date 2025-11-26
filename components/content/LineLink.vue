@@ -1,8 +1,12 @@
 <template>
-  <NuxtLink :to="href" :style="`color: ${color}; text-decoration-color: ${color};`">
+  <NuxtLink
+    :to="href"
+    :style="`color: ${color}; text-decoration-color: ${color};`"
+    class="inline-flex items-center gap-2"
+  >
     {{ getRevName('singular') }}
     <span
-      class="h-6 w-6 rounded-full inline-flex items-center justify-center text-white"
+      class="inline-flex items-center justify-center h-10 w-10 rounded-full text-white leading-none"
       :style="`background-color: ${color};`"
     >
       {{ line }}
@@ -15,7 +19,7 @@ const { getLineColor } = useColors();
 const { getRevName } = useConfig();
 const { getVoieCyclablePath } = useUrl();
 
-const { line, anchor } = defineProps<{
+const { line, anchor = undefined } = defineProps<{
   line: string;
   anchor?: string;
 }>();
