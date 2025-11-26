@@ -194,7 +194,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
             .map((line) => {
               const color = getLineColor(line);
               return {
-                label: `VL ${line}`,
+                label: `${line}`,
                 isEnabled: true,
                 line,
                 color,

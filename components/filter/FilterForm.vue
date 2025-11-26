@@ -31,7 +31,7 @@
 
     <FilterSection
       v-if="options.showLineFilters"
-      title="Filtrer par voie lyonnaise"
+      title="Filtrer par grande voie vélo"
       :filters="filters.lineFilters.value"
       :show-selection-buttons="true"
       @toggle-filter="actions.toggleLineFilter"

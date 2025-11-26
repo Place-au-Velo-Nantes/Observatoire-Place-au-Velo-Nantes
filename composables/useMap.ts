@@ -2,7 +2,14 @@ import type { Collections } from '@nuxt/content';
 import type { GeoJSONSource, Map } from 'maplibre-gl';
 import { LngLatBounds, Popup } from 'maplibre-gl';
 import { createApp, defineComponent, h, Suspense } from 'vue';
-import { isCompteurFeature, isDangerFeature, isLineStringFeature, isPerspectiveFeature, isPointFeature, type CompteurFeature } from '~/types';
+import {
+  isCompteurFeature,
+  isDangerFeature,
+  isLineStringFeature,
+  isPerspectiveFeature,
+  isPointFeature,
+  type CompteurFeature,
+} from '~/types';
 
 // Tooltips
 import PerspectiveTooltip from '~/components/tooltips/PerspectiveTooltip.vue';
@@ -19,7 +26,10 @@ const { getNbVoiesCyclables } = useConfig();
 // features plotted last are on top
 const sortOrder = [1, 2].reverse();
 
-function sortByLine(featureA: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: "LineString" } }>, featureB: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: "LineString" } }>) {
+function sortByLine(
+  featureA: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }>,
+  featureB: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }>,
+) {
   const lineA = featureA.properties.line;
   const lineB = featureB.properties.line;
   return sortOrder.indexOf(lineA) - sortOrder.indexOf(lineB);
@@ -68,7 +78,9 @@ function groupFeaturesByColor(features: ColoredLineStringFeature[]) {
 export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: boolean } = {}) => {
   const { getLineColor } = useColors();
 
-  function addLineColor(feature: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: "LineString" } }>): ColoredLineStringFeature {
+  function addLineColor(
+    feature: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }>,
+  ): ColoredLineStringFeature {
     return {
       ...feature,
       properties: {
@@ -78,7 +90,11 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     };
   }
 
-  function upsertMapSource(map: Map, sourceName: string, features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[] ) {
+  function upsertMapSource(
+    map: Map,
+    sourceName: string,
+    features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[],
+  ) {
     const source = map.getSource(sourceName) as GeoJSONSource;
     if (source) {
       source.setData({ type: 'FeatureCollection', features });
@@ -106,9 +122,16 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     map.addImage('cross-icon', cross.data, { sdf: true });
   }
 
-  function plotUnsatisfactorySections({ map, features }: { map: Map; features: Collections['voiesCyclablesGeojson']['features'] }) {
-    const sections = features.filter(feature => {
-      return 'quality' in feature.properties &&
+  function plotUnsatisfactorySections({
+    map,
+    features,
+  }: {
+    map: Map;
+    features: Collections['voiesCyclablesGeojson']['features'];
+  }) {
+    const sections = features.filter((feature) => {
+      return (
+        'quality' in feature.properties &&
         feature.properties.quality === 'unsatisfactory' &&
         'status' in feature.properties &&
         feature.properties.status !== 'postponed'
@@ -136,7 +159,13 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     });
   }
 
-  function plotUnderlinedSections({ map, features }: { map: Map; features: Collections['voiesCyclablesGeojson']['features'] }) {
+  function plotUnderlinedSections({
+    map,
+    features,
+  }: {
+    map: Map;
+    features: Collections['voiesCyclablesGeojson']['features'];
+  }) {
     const sections = features.map((feature, index) => ({ id: index, ...feature }));
 
     if (sections.length === 0 && !map.getLayer('highlight')) {
@@ -283,7 +312,9 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
   }
 
   function plotPlannedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'planned');
+    const sections = features.filter(
+      (feature) => 'status' in feature.properties && feature.properties.status === 'planned',
+    );
 
     if (sections.length === 0 && !map.getLayer('planned-sections')) {
       return;
@@ -305,7 +336,9 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
   }
 
   function plotVarianteSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'variante');
+    const sections = features.filter(
+      (feature) => 'status' in feature.properties && feature.properties.status === 'variante',
+    );
 
     if (sections.length === 0 && !map.getLayer('variante-sections')) {
       return;
@@ -347,7 +380,9 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
   }
 
   function plotVariantePostponedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'variante-postponed');
+    const sections = features.filter(
+      (feature) => 'status' in feature.properties && feature.properties.status === 'variante-postponed',
+    );
 
     if (sections.length === 0 && !map.getLayer('variante-postponed-sections')) {
       return;
@@ -389,7 +424,9 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
   }
 
   function plotUnknownSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'unknown');
+    const sections = features.filter(
+      (feature) => 'status' in feature.properties && feature.properties.status === 'unknown',
+    );
 
     if (sections.length === 0 && !map.getLayer('unknown-sections')) {
       return;
@@ -423,9 +460,9 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
           11,
           0.2, // opacity 0.4 at low zoom
           14,
-          0.35 // opacity 0.35 at high zoom
-        ]
-      }
+          0.35, // opacity 0.35 at high zoom
+        ],
+      },
     });
     map.addLayer({
       id: 'unknown-symbols',
@@ -449,7 +486,10 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
   }
 
   function plotPostponedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'postponed');
+    const sections = features.filter(
+      (feature) => 'status' in feature.properties && feature.properties.status === 'postponed',
+    );
+    const featuresByColor = groupFeaturesByColor(sections);
 
     for (let line = 1; line <= getNbVoiesCyclables(); line++) {
       const lineColor = getLineColor(line);
@@ -459,7 +499,13 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     }
 
     for (const [color, sameColorFeatures] of Object.entries(featuresByColor)) {
-      if (upsertMapSource(map, `postponed-sections-${color}`, sameColorFeatures as Collections['voiesCyclablesGeojson']['features'])) {
+      upsertMapSource(
+        map,
+        `postponed-sections-${color}`,
+        sameColorFeatures as Collections['voiesCyclablesGeojson']['features'],
+      );
+
+      if (map.getLayer(`postponed-symbols-${color}`)) {
         continue;
       }
 
@@ -498,8 +544,14 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     }
   }
 
-  function plotPerspective({ map, features }: { map: Map; features: Collections['voiesCyclablesGeojson']['features'] }) {
-    const perspectives = features.filter(isPerspectiveFeature).map(feature => ({
+  function plotPerspective({
+    map,
+    features,
+  }: {
+    map: Map;
+    features: Collections['voiesCyclablesGeojson']['features'];
+  }) {
+    const perspectives = features.filter(isPerspectiveFeature).map((feature) => ({
       ...feature,
       properties: {
         color: getLineColor(feature.properties.line),
@@ -641,13 +693,24 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     }));
   }
 
-  function fitBounds({ map, features }: { map: Map; features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature> }) {
+  function fitBounds({
+    map,
+    features,
+  }: {
+    map: Map;
+    features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+  }) {
     const allLineStringsCoordinates: [number, number][] = features
       .filter(isLineStringFeature)
       .flatMap((feature) => feature.geometry.coordinates);
 
-    const allPointsCoordinates: [number, number][] = features.filter(isPointFeature).map(feature => feature.geometry.coordinates);
-    if (allPointsCoordinates.length === 0) return;
+    const allPointsCoordinates: [number, number][] = features
+      .filter(isPointFeature)
+      .map((feature) => feature.geometry.coordinates);
+
+    if (allLineStringsCoordinates.length === 0 && allPointsCoordinates.length === 0) {
+      return;
+    }
 
     if (features.length === 1 && allPointsCoordinates.length === 1 && allLineStringsCoordinates.length === 0) {
       map.flyTo({ center: allPointsCoordinates[0] as [number, number], zoom: 14 });
@@ -661,7 +724,13 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     }
   }
 
-  function plotFeatures({ map, features }: { map: Map; features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature> }) {
+  function plotFeatures({
+    map,
+    features,
+  }: {
+    map: Map;
+    features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+  }) {
     const lineStringFeatures = features.filter(isLineStringFeature).sort(sortByLine).map(addLineColor);
     plotUnderlinedSections({ map, features: lineStringFeatures });
     plotUnsatisfactorySections({ map, features: lineStringFeatures });
@@ -683,7 +752,15 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     plotPerspective({ map, features: perspectiveFeatures });
   }
 
-  function handleMapClick({ map, features, clickEvent }: { map: Map; features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>; clickEvent: maplibregl.MapMouseEvent }) {
+  function handleMapClick({
+    map,
+    features,
+    clickEvent,
+  }: {
+    map: Map;
+    features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+    clickEvent: maplibregl.MapMouseEvent;
+  }) {
     const layers = [
       {
         id: 'dangers',
@@ -714,10 +791,12 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
         },
         getTooltipProps: () => {
           const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['perspectives'] })[0];
-          const feature = features.find(f => {
-            return f.properties.type === 'perspective' &&
-            f.properties.line === mapFeature.properties.line &&
-            f.properties.imgUrl === mapFeature.properties.imgUrl;
+          const feature = features.find((f) => {
+            return (
+              f.properties.type === 'perspective' &&
+              f.properties.line === mapFeature.properties.line &&
+              f.properties.imgUrl === mapFeature.properties.imgUrl
+            );
           });
 
           return { feature };
@@ -753,11 +832,20 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
 
           const lineStringFeatures = features.filter(isLineStringFeature);
 
-          const feature = lineStringFeatures
-            .find(f => f.properties.line === line && f.properties.name === name);
+          const feature = lineStringFeatures.find((f) => f.properties.line === line && f.properties.name === name);
 
-          const lines = feature!.properties.id
-            ? [...new Set(lineStringFeatures.filter(f => f.properties.id === feature!.properties.id).map(f => f.properties.line))]
+          if (!feature) {
+            return;
+          }
+
+          const lines = feature.properties.id
+            ? [
+                ...new Set(
+                  lineStringFeatures
+                    .filter((f) => f.properties.id === feature!.properties.id)
+                    .map((f) => f.properties.line),
+                ),
+              ]
             : [feature!.properties.line];
 
           return { feature, lines };
@@ -776,15 +864,17 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
         },
         getTooltipProps: () => {
           const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['compteurs'] })[0];
-          const feature = features.find(f => f.properties.name === mapFeature.properties.name);
+          const feature = features.find((f) => f.properties.name === mapFeature.properties.name);
           return { feature };
         },
         component: CounterTooltip,
       },
     ];
 
-    const clickedLayer = layers.find(layer => layer.isClicked());
-    if (!clickedLayer) { return; }
+    const clickedLayer = layers.find((layer) => layer.isClicked());
+    if (!clickedLayer) {
+      return;
+    }
 
     const props = clickedLayer.getTooltipProps();
     if (!props) {
@@ -806,7 +896,9 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     const tooltipContentId = `${clickedLayer.id}-tooltip`;
     const popup = new Popup({ closeButton: false, closeOnClick: true })
       .setLngLat(clickEvent.lngLat)
-      .setHTML(`<div id="${clickedLayer.id}-tooltip-content"></div>`)
+      // set min dimensions so that the tooltip has some height/width before Vue mounts the component
+      // otherwise, if the popup is too close to the top of the map, it is not fully visible
+      .setHTML(`<div style="min-height: 500px; min-width: 100px" id="${tooltipContentId}"></div>`)
       .addTo(map);
 
     popup.on('close', () => {
@@ -826,11 +918,19 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     const component = defineComponent(clickedLayer.component);
     nextTick(() => {
       createApp({
-        render: () => h(Suspense, null, {
-          default: h(component, props),
-          fallback: 'Chargement...'
-        })
-      }).mount(`#${clickedLayer.id}-tooltip-content`);
+        render: () =>
+          h(Suspense, null, {
+            default: h(component, props),
+            fallback: 'Chargement...',
+          }),
+      }).mount(`#${tooltipContentId}`);
+
+      // reset dimensions set initially to position the popup in case the popup content ends up being smaller than the initial min dimensions
+      const tooltipContentEl = document.getElementById(tooltipContentId);
+      if (tooltipContentEl) {
+        tooltipContentEl.style.minHeight = 'initial';
+        tooltipContentEl.style.minWidth = 'initial';
+      }
     });
   }
 

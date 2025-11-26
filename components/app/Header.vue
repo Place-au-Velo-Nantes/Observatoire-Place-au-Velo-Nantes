@@ -372,14 +372,14 @@ const navItems = computed(() => [
   {
     name: 'Baromètre vélo 2025',
     path: 'https://www.barometre-velo.fr',
-    target: '_blank'
+    target: '_blank',
   },
   {
     name: 'Baromètre vélo 2021',
     path: 'https://barometre.parlons-velo.fr/2021/carte/#11.11/47.2071/-1.5664',
-    target: '_blank'
+    target: '_blank',
   },
-];
+]);
 
 const { voies } = await useGetVoiesCyclablesNums();
 </script>
