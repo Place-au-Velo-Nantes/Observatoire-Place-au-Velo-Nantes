@@ -6,14 +6,9 @@
           <NuxtLink to="/" class="flex space-x-2">
             <span class="sr-only">Observatoire Place au Vélo</span>
             <img
-              class="h-8 w-auto sm:h-12"
+              class="h-8 w-auto sm:h-14"
               src="https://placeauvelo-nantes.fr/wp-content/uploads/2017/04/logo-250.png"
               :alt="`logo ${getAssoName()}`"
-            />
-            <img
-              class="h-8 w-auto sm:h-10"
-              src="https://cyclopolis.lavilleavelo.org/logo-cyclopolis-header.png"
-              alt="logo cyclopolis"
             />
           </NuxtLink>
         </div>
