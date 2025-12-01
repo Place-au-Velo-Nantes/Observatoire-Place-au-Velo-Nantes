@@ -12,58 +12,58 @@
   "colors": [
     {
       "line": "A",
-      "color": "#00D764"
+      "color": "#333"
     },
     {
       "line": "B",
-      "color": "#E46B53"
+      "color": "#333"
     },
     {
       "line": "C",
-      "color": "#3B7B64"
+      "color": "#333"
     },
     {
       "line": "D",
-      "color": "#DC8953"
+      "color": "#333"
     },
     {
       "line": "E",
-      "color": "#AF7392"
+      "color": "#333"
     },
     {
       "line": "F",
-      "color": "#396083"
+      "color": "#333"
     },
     {
       "line": "G",
-      "color": "#75BCAE"
+      "color": "#333"
     },
     {
       "line": "H",
-      "color": "#7E6D98"
+      "color": "#333"
     },
     {
       "line": "I",
-      "color": "#EAAB50"
+      "color": "#333"
     },
     {
       "line": "M",
-      "color": "#AAA"
+      "color": "#333"
     },
     {
       "line": "S",
-      "color": "#BBB"
+      "color": "#333"
     },
     {
       "line": "X",
-      "color": "#AAA"
+      "color": "#333"
     }
   ],
   "transports": [
     {
       "type": "métro",
       "line": "A",
-      "color": "#EF3899",
+      "color": "#333",
       "link": "https://www.tcl.fr/lignes/metro-a"
     },
     {
