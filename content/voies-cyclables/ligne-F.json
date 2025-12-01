@@ -939,6 +939,125 @@
         "infrastructure": "",
         "link": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.558878136,
+          47.211399243
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Félix Eboué",
+        "description": "Tronçon entre deux giratoires importants; bandes cyclables peu larges",
+        "danger": "Trafic auto important ",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55670347,
+          47.211616941
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Jean Philippot",
+        "description": "Tronçon entre giratoires très fréquentés par les voitures. Couloir bus partagé avec les vélos. Piste cyclable manquante entre Gare nord et Place de la Petite Hollande",
+        "danger": "Priorité, voitures rapides",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.546463868,
+          47.215429935
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont de la Rotonde Sud",
+        "description": "Suppression de bande cyclable Sud/Nord. Réintégration avec les voitures ou avec le busway au centre.\r\nNord/Sud, partage de la voie du busway et réintégration difficile avec la voie auto",
+        "danger": "Partage difficile avec les voitures vers le nord; vitesse cycliste et danger pour retrouver la voie auto vers le sud",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.546775177,
+          47.215855486
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont de la Rotonde Nord",
+        "description": "Passage vers le nord avec traversée de voie busway puis piéton vers le chateau.\r\nVers le Sud, partage avec le busway",
+        "danger": "Pas de voie cyclable dédiée.",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.537987825,
+          47.205065055
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Général de Gaulle/Gaëtan Rondeau",
+        "description": "Giratoire très large partagé avec le busway et gros trafic auto. Pas de piste cyclable Est Ouest. Projet pour 2026 avec un axe de busway ligne 8.",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.532990439,
+          47.198968263
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Emile Gabory",
+        "description": "Pas d'aménagement. Défaut de priorité sur le rond point.",
+        "danger": "Vitesse, priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.528652108,
+          47.193732192
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Emile Gabory",
+        "description": "pas d'aménagement cyclable, trafic intense.",
+        "danger": "vitesse, priorité",
+        "info_barometre": "oui"
+      }
     }
   ]
 }

@@ -1141,6 +1141,40 @@
         "link": "",
         "id": "sans-titre#150"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.565196113,
+          47.207511626
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont Anne de Bretagne/Léon Bureau",
+        "description": "2025/2027 : travaux de construction d'un nouveau pont pour élargissement, piétons, TC, pistes cyclables, voies auto",
+        "danger": "En 2025, piste cyclable étroite et cohabitation avec les piétons difficile",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.596441624,
+          47.209603477
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond Point Croix-Bonneau",
+        "description": "grand giratoire, aménagement cyclable insuffisant, bandes cyclables étroites, trafic important",
+        "danger": "Priorité cycliste non respectée",
+        "info_barometre": "oui"
+      }
     }
   ]
 }

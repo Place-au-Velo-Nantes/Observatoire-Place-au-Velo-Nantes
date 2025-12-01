@@ -4165,32 +4165,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.577356656,
-          47.247121399
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 2",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.553311169,
           47.252331598
         ]
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 3",
-        "description": "",
-        "danger": "",
+        "name": "Rond point Bourgeonnière",
+        "description": "Grand giratoire sans aménagement cyclable, trafic dense et passage tram",
+        "danger": "priorité",
         "info_barometre": "oui"
       }
     },
@@ -4205,9 +4188,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 4",
-        "description": "",
-        "danger": "",
+        "name": "Porte de la Beaujoire",
+        "description": "Nombreux giratoires et bouchons fréquents de voitures et bus. Visibilité difficile par les espaces verts.",
+        "danger": "Automobilistes pressés de sortir des bouchons du périph.",
         "info_barometre": "oui"
       }
     },
@@ -4216,15 +4199,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.51707746,
-          47.252137767
+          -1.517034148,
+          47.252212688
         ]
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 5",
-        "description": "",
-        "danger": "",
+        "name": "Intersection Perray/Paris",
+        "description": "Carrefour à feu. Plusieurs voies auto et bus. traversée cyclable difficile pour une GVV.",
+        "danger": "Croisement cyclable difficile de plusieurs voies auto, gros trafic auto.",
         "info_barometre": "oui"
       }
     },
@@ -4239,9 +4222,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 6",
-        "description": "",
-        "danger": "",
+        "name": "Haluchère",
+        "description": "deux giratoires avec trafic intense de voitures, chronobus, cars et poids lourds. Refonte prochaine  de la route de Paris jusqu'à la porte de Carquefou ",
+        "danger": "gros véhicules, priorité",
         "info_barometre": "oui"
       }
     },
@@ -4256,9 +4239,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 7",
-        "description": "",
-        "danger": "",
+        "name": "Porte de Carquefou",
+        "description": "Carrefour géré par des feux mais sans aménagement cyclable et grand trafic. Projet de refondre tout le carrefour dans 2 ou 3 ans",
+        "danger": "nombreux poids lourds et voitures",
         "info_barometre": "oui"
       }
     },
@@ -4273,26 +4256,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 8",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.45376161,
-          47.282380453
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 9",
-        "description": "",
-        "danger": "",
+        "name": "Porte de Sainte Luce",
+        "description": "Piste cyclable mal identifiée, partagée avec les piétons sous le pont du périphérique",
+        "danger": "trafic intense, traversées de voies d'accès au périph difficile",
         "info_barometre": "oui"
       }
     },
@@ -4307,9 +4273,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 10",
-        "description": "",
-        "danger": "",
+        "name": "Rond Point des Combattants d'Indochine",
+        "description": "Grand giratoire à 5 branches. ",
+        "danger": "Vitesse élevée des véhicules",
         "info_barometre": "oui"
       }
     },
@@ -4324,9 +4290,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 11",
-        "description": "",
-        "danger": "",
+        "name": "Rond Point de Paris",
+        "description": "Carrefour à feux. trafic important",
+        "danger": "Croisement central pour tourner à gauche inconfortable",
         "info_barometre": "oui"
       }
     },
@@ -4341,9 +4307,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 12",
-        "description": "",
-        "danger": "",
+        "name": "Intersection Est du pont de la Tortière",
+        "description": "Carrefour à feux rénové en 2024. Grande largeur centrale avec des tourne à gauche difficiles",
+        "danger": "Tourne à gauche difficile dans le carrefour",
         "info_barometre": "oui"
       }
     },
@@ -4358,9 +4324,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 13",
-        "description": "",
-        "danger": "",
+        "name": "Rond Point de Rennes",
+        "description": "Double giratoire imbriqué avec trafic très dense",
+        "danger": "Trop de trafic de transit nord/sud; chronobus nombreux, pas d'aménagement cyclable",
         "info_barometre": "oui"
       }
     },
@@ -4375,60 +4341,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 14",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.565196113,
-          47.207511626
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 15",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.558878136,
-          47.211399243
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 16",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.55670347,
-          47.211616941
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 17",
-        "description": "",
-        "danger": "",
+        "name": "Place Zola",
+        "description": "Grand carrefour à feux. Pas d'aménagement cyclable. trafic intense dans tous les sens. Projet de réaménagement en 2025/2026",
+        "danger": "Traversée cyclable de voie auto difficile. Vitesse auto élevée?",
         "info_barometre": "oui"
       }
     },
@@ -4443,9 +4358,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 18",
-        "description": "",
-        "danger": "",
+        "name": "Intersection Nord Pont Haudine",
+        "description": "Carrefour géré par des feux. Aménagement cyclable avec couloir vélo en périphérie\r\n",
+        "danger": "Les tourne à gauche sont difficiles",
         "info_barometre": "oui"
       }
     },
@@ -4460,9 +4375,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 19",
-        "description": "",
-        "danger": "",
+        "name": "Intersection Sud Pont Haudine",
+        "description": "Carrefour très circulé, en pente aux bandes cyclables étroites nord/sud.",
+        "danger": "Tourne à gauche diffcile",
         "info_barometre": "oui"
       }
     },
@@ -4477,8 +4392,8 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 20",
-        "description": "",
+        "name": "Place de la République",
+        "description": "Grand giratoire aux vitesses élevées et croisement de voies auto difficiles",
         "danger": "",
         "info_barometre": "oui"
       }
@@ -4494,9 +4409,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 21",
-        "description": "",
-        "danger": "",
+        "name": "Intersection Nord Pont Général Audibert",
+        "description": "Carrefour à feu. croisement des flux nord/sud et Est/Ouest",
+        "danger": "espace trop étroit pour les pistes cyclables, les croisements, les arrêts de voiture sur la piste en plein carrefour et pas de R19 en lien avec le tram.",
         "info_barometre": "oui"
       }
     },
@@ -4511,263 +4426,8 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 22",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.547835958,
-          47.205975415
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 23",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.547286569,
-          47.20515118
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 24",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.553650456,
-          47.212773328
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 25",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.552389017,
-          47.213287446
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 26",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.546463868,
-          47.215429935
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 27",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.546775177,
-          47.215855486
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 28",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.53944554,
-          47.206855738
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 29",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.537987825,
-          47.205065055
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 30",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.544617956,
-          47.20094809
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 31",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.542206486,
-          47.197886829
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 32",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.54597743,
-          47.194439767
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 33",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.532990439,
-          47.198968263
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 34",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.527384295,
-          47.192907601
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 35",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.539580795,
-          47.213695886
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 36",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.53654441,
-          47.213011981
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 37",
-        "description": "",
+        "name": "Intersection Sud Pont Général Audibert",
+        "description": "Carrefour géré par des feux. Croisement étroit avec la piste Est/Ouest et Nord/Sud au trafic vélo élevé. Pas de R19 en lien avec le tram.",
         "danger": "",
         "info_barometre": "oui"
       }
@@ -4783,25 +4443,8 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 38",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.583531869,
-          47.262235874
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 39",
-        "description": "",
+        "name": "Intersection Boulevard de Berlin/Boulevard de Sarrebruck",
+        "description": "Continuité de la voie verte en bord de Loire, sous le pont Tabarly",
         "danger": "",
         "info_barometre": "oui"
       }
@@ -4817,42 +4460,8 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 40",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.551261246,
-          47.221593226
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 41",
-        "description": "",
-        "danger": "",
-        "info_barometre": "oui"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.554756357,
-          47.220074001
-        ]
-      },
-      "properties": {
-        "type": "danger",
-        "name": "Danger 42",
-        "description": "",
+        "name": "Place Maréchal Foch",
+        "description": "Grande place carrée pavée sans aménagement cyclable",
         "danger": "",
         "info_barometre": "oui"
       }
@@ -4868,9 +4477,9 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 43",
-        "description": "",
-        "danger": "",
+        "name": "Talensac/Bellamy",
+        "description": "double giratoire au milieu d'un trafic très dense sans aménagement cyclable",
+        "danger": "priorité",
         "info_barometre": "oui"
       }
     },
@@ -4885,7 +4494,7 @@
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 44",
+        "name": "Danger 41",
         "description": "",
         "danger": "",
         "info_barometre": "oui"
@@ -4896,13 +4505,2342 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.556748225,
-          47.240977196
+          -1.528396015,
+          47.210834824
         ]
       },
       "properties": {
         "type": "danger",
-        "name": "Danger 45",
+        "name": "Intersection Sud Pont Eric Tabarly",
+        "description": "Grand giratoire aux vitesses élevées",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.538385009,
+          47.22400466
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Coulmiers/Pipay",
+        "description": "Difficulté pour voir les véhicules venants de Pipay depuis la bande cyclable montante",
+        "danger": "Visibilité intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.536102913,
+          47.22152628
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Allonville/Coulmiers",
+        "description": "Carrefour avec stop et priorité à la vélorue",
+        "danger": "Stop VL non respecté",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.577445,
+          47.246989
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont du Cens",
+        "description": "Intersection dangereuse / discontinuité cyclable",
+        "danger": "Intersection / Discontinuité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.592417,
+          47.244979
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Av de la Jeunesse",
+        "description": "Aménagement cyclable très dégradé",
+        "danger": "Aménagement",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.615226,
+          47.254253
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Forum d'Orvault",
+        "description": "Intersection dangereuse / Fin d'aménagement cyclable",
+        "danger": "Discontinuité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.623209,
+          47.271116
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Orvault Bourg",
+        "description": "Intersection dangereuse / Pas d'aménagement cyclable",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.666768,
+          47.197101
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont Allard",
+        "description": "Intersection dangereuse / Stop non respecté",
+        "danger": "Intersection / Priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621739,
+          47.271746
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont de la Rousselière",
+        "description": "Trafic important / Fin d'aménagement cyclable",
+        "danger": "Trafic / Discontinuité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.622082,
+          47.225237
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte d'Armor",
+        "description": "Intersection dangereuse / Possibilité pour un cycliste égaré de se retrouvé sur cette intersection",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621063,
+          47.251297
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte de Sautron",
+        "description": "Intersection dangereuse / Trafic très important",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.62396,
+          47.219721
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte d'Atlantis",
+        "description": "Intersection dangereuse / Trafic très important / Refus de priorité",
+        "danger": "Intersection / Refus de priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621572,
+          47.219262
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte d'Atlantis",
+        "description": "Intersection dangereuse / Trafic très important / Refus de priorité",
+        "danger": "Intersection / Refus de priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.628337,
+          47.210852
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte de St Herblain",
+        "description": "Intersection dangereuse / Trafic très important",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.625977,
+          47.210823
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte de St Herblain",
+        "description": "Intersection dangereuse / Trafic très important / Aménagement vélo inadapté",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.603065,
+          47.221091
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Abel Durant (\"RP des Châtaigniers\")",
+        "description": "Intersection dangereuse / Aménagement vélo trop compliqué / Obligation de céder de très nombreuses fois le passage",
+        "danger": "Intersection / aménagement inadéquat",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.643958,
+          47.217353
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Bd Charles De Gaulle / François Mitterand",
+        "description": "Intersection dangereuse / Traffic très important / Sortie de piste cyclable obligatoire / Beaucoup d'enfant",
+        "danger": "Intersection / Discontinuité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.655535,
+          47.220075
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Bd Charles De Gaulle / M75",
+        "description": "Intersection dangereuse / Trafic très important / Refus de priorité / Vitesse excessive",
+        "danger": "Intersection / Vitesse",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.592379,
+          47.231729
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Bd Massacre / Parnasse",
+        "description": "Intersection dangereuse / Trafic très important",
+        "danger": "Intersection / Trafic",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.638476,
+          47.214842
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Charles de Gaulles / Rocher",
+        "description": "Intersection dangereuse / Trafic très important",
+        "danger": "Intersection / Trafic",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.62927,
+          47.254465
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Choisie (\"RP des concessionnaires\")",
+        "description": "Intersection dangereuse / Trafic très important / Refus de priorité / Vitesse excessive",
+        "danger": "Intersection / Vitesse / Refus de priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.624507,
+          47.258116
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP du Bois Cesbron",
+        "description": "Trafic très important / aménagement sous dimensionné par rapport au trafic",
+        "danger": "Trafic / Discontinuité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.639624,
+          47.222279
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP François Mitterrand",
+        "description": "Intersection dangereuse",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.596622,
+          47.263854
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Jallière",
+        "description": "Vitesse excessive / Refus de priorité",
+        "danger": "Vitesse / Priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.58348,
+          47.262234
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Le Cardo",
+        "description": "Intersection dangereuse / Trafic très important ",
+        "danger": "Intersection / Trafic",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.647928,
+          47.232552
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP M75 / N444",
+        "description": "Intersection dangereuse / Trafic très important / Absence d'aménagement et sortie de piste cyclable",
+        "danger": "Intersection / Trafic / Discontinuité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.647123,
+          47.23335
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP M75 / N444",
+        "description": "Intersection dangereuse / Trafic très important / Absence d'aménagement et sortie de piste cyclable",
+        "danger": "Intersection / Trafic / Discontinuité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.635702,
+          47.227824
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Marcel Paul / N444",
+        "description": "Intersection dangereuse / Trafic très important / Absence d'aménagement",
+        "danger": "Trafic / Absence d'aménagement",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.635112,
+          47.228385
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Marcel Paul / N444",
+        "description": "Intersection dangereuse / Trafic très important / Absence d'aménagement",
+        "danger": "Trafic / Absence d'aménagement",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.594064,
+          47.232891
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Parnasse / Baraudière",
+        "description": "Trafic très important et pas d'aménagement vélos",
+        "danger": "Trafic / Absence d'aménagement",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.670517,
+          47.199401
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Rue de la Gare",
+        "description": "Trafic très important / Refus de priorité",
+        "danger": "Trafic / Refus de priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.627264,
+          47.220366
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Scholcher",
+        "description": "Trafic très important / Refus de priorité / Conflit entre vélo qui vont tout droit et voiture qui tourne sur la rue Schoelcher",
+        "danger": "Trafic très important / Refus de priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.547465674,
+          47.274266167
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond-point sortie A11",
+        "description": "",
+        "danger": "Vitesse, densité et priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.548019893,
+          47.276205664
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond-point entrée A11/zone activité",
+        "description": "",
+        "danger": "Vitesse, densité et priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.549925396,
+          47.28551766
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond-point rue d'Utrecht Rue de l'Europe HyperU/Centre ville",
+        "description": "",
+        "danger": "Densité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.546452861,
+          47.303162466
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond-point Rue de Sucé",
+        "description": "",
+        "danger": "Vitesse, densité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.552469153,
+          47.300510103
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place de la paix en Algérie",
+        "description": "",
+        "danger": "Densité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.539076601,
+          47.255740937
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont de Jonelière",
+        "description": "",
+        "danger": "Scooters/piétons/joggeurs",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.483368167,
+          47.212368884
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte de Goulaine (entrée)",
+        "description": "Traversée dangereuse de la voie d'insertion sur la piste cyclable ",
+        "danger": "Intersection, manque de visibilité des cyclistes",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.484627684,
+          47.212741326
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte de Goulaine (sortie)",
+        "description": "Traversée dangereuse de la voie de décélération : les voitures arrivent encore très rapidement et la visibilité pour les cyclistes sur la piste cyclable est minimales vers Saint-Sébastien ",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.46241318,
+          47.229163479
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Quartier des Vallées",
+        "description": "Véhicules rapides les matins de semaines malgré la limitation à 30 km/h, et pas de bandes ni pistes cyclables",
+        "danger": "Vitesse excessive",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.453480874,
+          47.198309068
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Ronds-points de la route du Loroux avant Haute-Goulaine",
+        "description": "(3 ronds-points entre BG et HG) Le tracé de la piste cyclable à double sens sur un côté de la route n'est pas compris et parait dangereux car il nécessite de traverser la route à 70 km/h plusieurs fois",
+        "danger": "Intersection / Priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.477327581,
+          47.21451061
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue du Grignon",
+        "description": "La traversée vers la piste cyclable longeant le canal depuis la rue du Grignon (côté rue du Parc et La Rivière) est compliquée : refus de priorité aux ronds-points (du parc et de la croix des fossés), refus de traversée aux passages piétons. Des écoliers et collégiens concernés.",
+        "danger": "Intersection / Traversée à vélo",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.466977279,
+          47.21629283
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue du Grignon, accès école côté Saint Sébastien",
+        "description": "Le tracé nécessite de passer de la piste cyclable côté canal vers la bande cyclable de la rue du Grignon pour accéder à l'école donc 2 traversées pour les enfants à une heure de forte circulation où les voitures roulent vite. Conflits d'usages générés. Soit les vélos poursuivent à contre-sens sur la piste cyclable et conflit avec les cyclistes dans le bon sens + danger au stop / Soit les vélos prennent le chemin piéton longeant le canal et conflit avec les piétons. (Faire de ce chemin piéton, une voie partagée serait idéal pour les écoliers. Trouver une solution pour les collégiens.)",
+        "danger": "Intersection ",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.459872495,
+          47.195107877
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Route du Loroux x Rue de la cassardière",
+        "description": "Manque de visibilité pour tous les usagers (auto/vélo) ",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.463047097,
+          47.193663176
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond-Point rte Loroux x La Plée",
+        "description": "Le tracé vélo (piste ou bande cyclable) s'arrête au rond-point donc les priorités et traversées sont compliquées pour tous les usagers",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.471997235,
+          47.189448912
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond-point So Pool",
+        "description": "Le tracé vélo (piste ou bande) s'arrête au rond-point donc les priorités et traversées sont compliquées pour tous les usagers",
+        "danger": "Intersection",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.453420625,
+          47.198059044
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Lycée La Herdrie",
+        "description": "L'accès au lycée en vélo est peu compris et peu sécurisé alors que les autos sont rapides sur la route du Loroux. Difficultés à traverser pour atteindre le lycée.",
+        "danger": "Vitesse excessive, tracés non sécurisant",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.465769026,
+          47.210810894
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond-point de la Champagnère",
+        "description": "Sécuriser le parcours des vélos et piétons : vitesse excessive et dépassements inadaptés a fortiori en entrée/sortie d'école. Pas de tracé cyclable",
+        "danger": "Intersection, Vitesse excessive, écoliers",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.613018428,
+          47.219735735
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Collège Ernest Renan",
+        "description": "Aménagement vélo inadapté / Trafic très important",
+        "danger": "Trafic / Aménagement inadapté",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.703872123,
+          47.213504325
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont de Retz",
+        "description": "étroit et incontournable, une véritable épine dans le pied pour les cyclistes. La situation est certes tout aussi délicate à résoudre pour les aménageurs, mais elle reste un vrai point noir pour la sécurité et le confort des cyclistes",
+        "danger": "Voie étroite",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.566662258,
+          47.279021029
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Viaduc de Verrières",
+        "description": "La piste cyclable à double sens est réduite à l'usage de l'ancien trottoir, entre la proximité des véhicules et la rambarde de sécurité du pont pouvant donner des sueurs froides aux personnes sujettes au vertige",
+        "danger": "Piste à double sens étroite (une voie)",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.57197674,
+          47.269876511
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Chemin de l'Angle Chaillou",
+        "description": "L'ancienne maison masque la visibilité à l'instersection",
+        "danger": "Carrefour dangereux par manque de visibilité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.613158629,
+          47.175407517
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "*Rond point de la Bouvre",
+        "description": "*Rd point avec flux élevé de véhicules motorisés. Un aménagement complet a été réalisé, donnant une circulation piétons et vélos autour du rond point, zones dissociées par marquages, et prioritaires par rapport aux motorisés qui ont à céder le passage.",
+        "danger": "danger diminué, mais le flux routier doit faire l'apprentissage de cette structure",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.532327825,
+          47.199751958
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond Point Gréneraie",
+        "description": "Largeur et insertion dangereuse",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.526744785,
+          47.206766882
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond point d'urville",
+        "description": "Insertion dangereuse dans la bi-directionnelle",
+        "danger": "refus de priorité, faible visibilité des cyclistes par le flux auto",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.50002006,
+          47.199286904
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond point Bignon commune jaunaie",
+        "description": "Rond point large très fréquenté",
+        "danger": "Sans aménagement",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.522744638,
+          47.205053024
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond point Croix sourdeau x Pas enchantés",
+        "description": "",
+        "danger": "Insertion depuis croix sourdeau dangereuse.",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.517359112,
+          47.193028254
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place des libertés",
+        "description": "Intersection",
+        "danger": "Intersection dangereuse pour le débouché du contre-sens cyclable",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.517661388,
+          47.193010392
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place des libertés",
+        "description": "Chicane automobile",
+        "danger": "Bloque le cheminement cyclable.",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.518699323,
+          47.189752784
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond point Clisson & Bourdonnières",
+        "description": "Rond point dangereux, accès au Lycée",
+        "danger": "Difficile a franchir dans le flux.",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.490759325,
+          47.211424926
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond point Pas enchantés & Glinde",
+        "description": "",
+        "danger": "Vitesse excessive (sortie de rocade)",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.527068194,
+          47.192491245
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond Point Route de Clisson",
+        "description": "Très accidentogène",
+        "danger": "Contre allée cyclable peu visible",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.504193455,
+          47.180290921
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd pt traversée du périphe Porte de Vertou",
+        "description": "Très accidentogène",
+        "danger": "Beaucoup de voiture à cet endroit. La majorité des voitures laissent passer les vélos, mais pas toutes. Une voiture qui s'arrête peut être percutée par une voiture pressée qui la suit. Cela m'est arrivé une fois",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.502175196,
+          47.180153741
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd pt traversée du périphe Porte de Vertou",
+        "description": "Très accidentogène. Traversée de 2 voies de voitures, qui peuvent arriver assez vite.",
+        "danger": "La visibilité des conducteurs de VL sur la deuxième file peut être gêné par un véhicule qui s'est arrêté sur la 1er file. T ",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.498690641,
+          47.179997205
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd Pt Mortier Vannerie Vertou",
+        "description": "Les vélos doivent affronter ce rond point dangereux, avec une circulation intense de voitures, camionnettes, et poids lourds. ",
+        "danger": "Rond point très accidentogène.",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.491984743,
+          47.179258101
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd point des Clouzeaux",
+        "description": "Revoir l'entrée sur la piste cyclable en faisant un bateau directement accessible du rond point, comme cela existe au rond point de la Billardière. ",
+        "danger": "Entrée sur la piste cyclable pas du tout adaptée et dangereuse. Soit on passe avec les voitures et essaye de viser entre les poteaux, soit on fait un détour par le passage piéton. L'entrée directe par le rd pt serait plus adaptée",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.47506528,
+          47.179223928
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd pt de Vertou",
+        "description": "Revoir l'entrée sur la piste cyclable en faisant un bateau directement accessible du rond point, comme cela existe au rond point de la Billardière.\r\n",
+        "danger": "Entrée sur la piste cyclable pas du tout adaptée et dangereuse. Soit on passe avec les voitures et essaye de viser entre les poteaux, soit on fait un détour par le passage piéton. L'entrée directe par le rd pt serait plus adaptée",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.474840376,
+          47.178989961
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd pt de Vertou",
+        "description": "Rond point dangereux. Pourquoi ne pas envisager un rd pt Hollandais ?",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.473849357,
+          47.173021946
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd point bd de l'Europe Vertou (Super U)",
+        "description": "Rond point dangereux pour les vélos. A améliorer.",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.466107313,
+          47.168807241
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection BD de l'Europe - Rte de la Massonnière",
+        "description": "Intersection dangereuse pour les vélos",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.468615599,
+          47.1507456
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont de Portillon",
+        "description": "Pont dangereux pour les cyclistes et les piétons",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.482064418,
+          47.165092848
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont du Chêne",
+        "description": "Pont dangereux pour les cyclistes et les piétons",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.587499927,
+          47.18790166
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd point route de Pornic",
+        "description": "Rond point dangereux, insertion difficile",
+        "danger": "flux important et vitesse excessive des véhicules motorisés",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.598013907,
+          47.186587701
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd point toute de Pornic",
+        "description": "Rond point dangereux pour traversée des cyclistes et piétons",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.599045087,
+          47.186753795
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue de l'Ile Pointière",
+        "description": "Franchissement pour jonction cyclable dangereux",
+        "danger": "Entrée/sortie Port autonome de Nantes, voitures et camions en accélération",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.605855988,
+          47.179156354
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Bretelle d'accès périférique Porte de Bouguenais vers sud",
+        "description": "La piste cyclable bidirectionnelle faisant parallèle à la route de Pornic, et faisant itinéraire direct vers Nantes, fait intersection avec cette bretelle.",
+        "danger": "Vitesse de véhicules motorisés sur portion 50km/h, manque de visibilité des conducteurs sur un possible passage de cyclistes",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.605892846,
+          47.181891519
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Bretelle d'accès périphérique Porte de Bouguenais vers Route de Pornic",
+        "description": "La piste cyclable bidirectionnelle faisant parallèle à la route de Pornic, et faisant itinéraire direct vers Nantes, fait intersection avec cette bretelle.",
+        "danger": "Vitesse de véhicules motorisés, manque de visibilité des conducteurs sur un possible passage de cyclistes",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.610036113,
+          47.174008779
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd point accès route de Pornic",
+        "description": "Rd point sans aménagement donnant sur différents types d'accès (pont vers bourg, périphérique, un commerce, pénétrante vers les Couëts) dont une piste cyclable bidirectionnelle accès direct vers Nantes",
+        "danger": "traffic fort, compréhension du site",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.589094332,
+          47.184721063
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue de la Paix",
+        "description": "Étranglement de la rue, système à priorité de face, le vélo est mal considéré",
+        "danger": "longueur du système \"chicane priorité de face\"",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.624332773,
+          47.179480285
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue Aristide Briand",
+        "description": "Sens unique voiture, avec \"sens interdit sauf vélos\"",
+        "danger": "visibilité et place du vélo dans rue sinueuse avec dispositif de \"sens interdit sauf vélos\" sans matérialisation au sol d'une place pour circulation cycliste",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.383686456,
+          47.294318899
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "quai des mariniers",
+        "description": "vitesse excessive 70",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.398321969,
+          47.299727328
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "rue du Choiseau",
+        "description": "vitesse excessive dans cette zone",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.50259745,
+          47.273376092
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "champ de mars",
+        "description": "pas de piste sur la fin et obligation de traverser la rue dans un sens",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.485540395,
+          47.270692895
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Danger 130",
+        "description": "Absence de signalétique",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.499768134,
+          47.260312355
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "route de Paris",
+        "description": "temps de traversée court pour les cycles, éclairage faible, zone dangereuse",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.485378874,
+          47.27992028
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "avenue des villages",
+        "description": "Seul rond point où la voie verte n'est pas prioritaire",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.453801317,
+          47.282404914
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Belle Etoile",
+        "description": "Liaison Thouaré-Carquefou très dangereuse sur tout son axe. Aménagement quasi inexistant.",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.49874086,
+          47.299253137
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "rond point de la Fleuriaye",
+        "description": "gros trafic automobile",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.62707724,
+          47.16316902
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Echangeur traversée Route de Pornic",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.579151411,
+          47.16907539
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rd point échangeur Porte de Retz",
+        "description": "Rond point large, passage direct de la sortie de Rezéé et les Couëts vers Zone Airbus (donc direction GrandLieu), sans marquage ni aménagement, traffic fort, vitesse entrants et sortants excessive",
+        "danger": "très dangeureux. Vitesse et densité des véhicules motorisés.",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.584587106,
+          47.17079196
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue JB Clément",
+        "description": "Virage chargé en stationnement, manque de visibilité.\r\nInsertion dans cette voie des vélos en provenance passerelle.",
+        "danger": "visibilé",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.586869491,
+          47.161678751
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue de l'Aviation",
+        "description": "Obstacles (potelets) sur piste cyclable ",
+        "danger": "collision obstacles",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.718035,
+          47.13883
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "2RP Rue de Pornic / Echangeur D751",
+        "description": "Intersection dangereuse / pas sécurisé pour les vélos / trafic important",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.618692,
+          47.124279
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Champ de Foire",
+        "description": "Carrefour dangereux avec une discontinuité cyclable",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.628053,
+          47.126611
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Frères Rousseau",
+        "description": "\tCarrefour dangereux",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.68686,
+          47.144175
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP place des Échappés",
+        "description": "Trafic important / non respect de la priorité par les voitures",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.683998,
+          47.17367
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP de Belle vue",
+        "description": "\tRond point très fréquenté sans aménagement cyclable",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.720224,
+          47.169215
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection entre la rue de Bel Air / place de l'église",
+        "description": "\tIntersection dangereuse / vitesse execive",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.672824,
+          47.165887
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Inter. Rte Paimboeuf / Borne Seize",
+        "description": "Intersection dangereuse / Conflit entre les cyclistes voulant tourner à gauche et les voitures voulant aller tout droit",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.728399,
+          47.136523
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP rue de Nantes",
+        "description": "Discontinuité cyclable dangereuse",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.547067496,
+          47.192664512
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Danger 147",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.548135622,
+          47.191655296
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place des Martyrs de la Résistance",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.551201101,
+          47.188682963
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place du 8 Mai 1945",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.552111377,
+          47.189222164
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Danger 150",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.554385292,
+          47.192345928
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond Point du 18 juin 1940",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.562913459,
+          47.192619327
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond Point des Marguyonnes",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.549162324,
+          47.195492714
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue Eric Tabarly",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.54191565,
+          47.159085166
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Porte de Rezé",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.541703229,
+          47.157367941
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond point des Grand'Vignes",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.473645953,
+          47.278548358
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "avenue Syrma",
+        "description": "voie cyclable occupée, pas de solution de remplacement",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.724111,
+          47.19586
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Église Saint Jean",
+        "description": "Virage dangereux",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.69017,
+          47.188449
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Rue Briandière / Rte de Bouguennais / Rue de la Belle Étoile",
+        "description": "Intersection dangereuse pour les 2 roues",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.675297,
+          47.183496
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Rue de la Gaudinière / Allée du Château d'Aux",
+        "description": "Difficile de tourner sur la rue de la Gaudinière avec l'allée du Château d'Aux qui est très fréquenté.",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.723394,
+          47.192851
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection rue du Landas / rue des Violettes",
+        "description": "Nouvel aménagement plus dangereux qu'avant, risque de glissade sur les zébras en cas de virage sur chaussée mouillée",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.679505,
+          47.176461
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP de l'Europe",
+        "description": "Trafic dense et peu de sécurisation des vélos / vitesse excessives des voitures",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.69602,
+          47.191954
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP du Chat qui  Guette",
+        "description": "Rond point sans sécurisation pour les vélos",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.674224,
+          47.185279
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Rte de Bouguenais / Al du Château d'Aux",
+        "description": "Intersection avec discontinuité cyclable",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.72348,
+          47.184813
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rp rue du Landas / D723",
+        "description": "Rond point dangereux sans sécurisation vélo",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.677287,
+          47.186592
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP rue du Petit Bois / rue de Verdun",
+        "description": "Intersection avec manque de visibilité",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.759819,
+          47.20048
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Château / Jaunaie / Génolière",
+        "description": "Intersection dangereuse et manque de visibilité",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.752955,
+          47.199427
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Carrefour 11nov / Prieuré / Église / Clos Grillé",
+        "description": "Carrefour dangereux / priorité à droite non respecté",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.755034,
+          47.202929
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Quai des Coteaux",
+        "description": "Refus de priorité des voitures / Sortie du Bac et passage de la Loire à vélo",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.749884,
+          47.198188
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection rue du Prieuré / rue du Clos Roux",
+        "description": "Une nouvelle priorité à droite vraiment dangereuse / Manque de visibilité",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.492559119,
+          47.192524528
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP Pierre Mendès-France",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.50962006,
+          47.205432976
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont Maurice Daniel",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.506272757,
+          47.201851096
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Pont du Douet",
+        "description": "Franchissement dangereux et stratégique de la voie ferrée",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.484388452,
+          47.307936302
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "chemin de port Jean",
+        "description": "chicane dangereuse",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.480604794,
+          47.241138306
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue de la Loire sous le pont SNCF",
+        "description": "chaucidou, peu de visibilité car dans un virage et trafic et vitesse des voitures importantes",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.475646902,
+          47.253281234
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Giratoire Colonel Arnaud Beltrame",
+        "description": "ce rond-point dangereux créé une coupure dans la commune empêchant les cyclistes peu aguéris à le traverser",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.490493458,
+          47.248406952
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rue du Président Coty",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.487379591,
+          47.266067985
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Danger 177",
+        "description": "Très forte circulation, absence de sas vélo",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.503245485,
+          47.248007349
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Danger 178",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.466524185,
+          47.257012271
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Route de Thouaré",
+        "description": "La piste cyclable a été supprimée",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.433845165,
+          47.261211763
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Danger 180",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.428091925,
+          47.257991478
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Danger 181",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.44128879,
+          47.266702903
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Centre Thouaré",
+        "description": "",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.542199375,
+          47.161088719
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "RP de la Corbinerie",
         "description": "",
         "danger": "",
         "info_barometre": "oui"

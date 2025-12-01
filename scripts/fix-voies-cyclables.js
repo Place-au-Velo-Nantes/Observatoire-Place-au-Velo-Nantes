@@ -18,7 +18,7 @@ TSV / 1 2 1 3 2 1 --> score sur 20
 */
 
 // Fix functions extracted from the composable
-const fixType = type => {
+const fixType = (type) => {
   const validTypes = [
     'bidirectionnelle',
     'bilaterale',
@@ -30,7 +30,7 @@ const fixType = type => {
     'chaucidou',
     'zone-de-rencontre',
     'inconnu',
-    'aucun'
+    'aucun',
   ];
 
   if (validTypes.includes(type)) {
@@ -62,7 +62,7 @@ const fixType = type => {
   return 'inconnu';
 };
 
-const fixStatus = status => {
+const fixStatus = (status) => {
   const validStatus = ['done', 'wip', 'planned', 'tested', 'postponed', 'unknown', 'variante', 'variante-postponed'];
   if (validStatus.includes(status)) {
     return status;
@@ -80,13 +80,13 @@ const fixStatus = status => {
   return 'unknown';
 };
 
-const fixQuality = quality => {
+const fixQuality = (quality) => {
   if (quality === 'satisfaisant') return 'satisfactory';
   else if (quality === 'non-satisfaisant') return 'unsatisfactory';
   return 'not-rated-yet';
 };
 
-const fixDoneDate = doneAt => {
+const fixDoneDate = (doneAt) => {
   if (!doneAt) return '01/01/2000';
   console.log(doneAt);
   if (!/^\d{4}$/.test(doneAt)) {
@@ -115,18 +115,16 @@ const addDangersToLines = () => {
     for (let i = 0; i < dangersData.features.length; i++) {
       const danger = dangersData.features[i];
 
-      // Use the line field from the danger, or default to 'X' if empty
-      let targetLine = danger.properties.line;
-      if (!targetLine || targetLine.trim() === '') {
-        targetLine = 'X';
+      // Get lines from danger properties, or default to 'X' if empty
+      let targetLines = danger.properties.line;
+      if (!targetLines || targetLines.trim() === '') {
+        targetLines = 'X';
         defaultToXCount++;
-        console.log(`Danger ${i + 1}: No line specified, adding to line X`);
       } else {
         assignedCount++;
-        console.log(`Danger ${i + 1}: Using specified line ${targetLine}`);
       }
 
-      // Create a new feature with proper properties
+      // Create a new feature with proper properties (excluding line property)
       const dangerFeature = {
         type: 'Feature',
         geometry: danger.geometry,
@@ -135,15 +133,22 @@ const addDangersToLines = () => {
           name: danger.properties.name || `Danger ${i + 1}`,
           description: danger.properties.description || '',
           danger: danger.properties.danger || '',
-          info_barometre: danger.properties.info_barometre || 'oui'
-        }
+          info_barometre: danger.properties.info_barometre || 'oui',
+        },
       };
 
-      // Add to the appropriate line
-      if (!linesToUpdate[targetLine]) {
-        linesToUpdate[targetLine] = [];
-      }
-      linesToUpdate[targetLine].push(dangerFeature);
+      // Split by comma and add to all specified lines
+      const lines = targetLines.split(',').map((line) => line.trim());
+      lines.forEach((lineId) => {
+        // Normalize line IDs (handle special cases)
+        if (lineId === '?' || lineId === 'M' || lineId === 'S') {
+          lineId = 'X';
+        }
+        if (!linesToUpdate[lineId]) {
+          linesToUpdate[lineId] = [];
+        }
+        linesToUpdate[lineId].push(dangerFeature);
+      });
     }
 
     // Update each line file
@@ -154,11 +159,11 @@ const addDangersToLines = () => {
       if (fs.existsSync(linePath)) {
         lineData = JSON.parse(fs.readFileSync(linePath, 'utf8'));
         // Remove existing danger features to prevent duplicates
-        lineData.features = lineData.features.filter(feature => feature.properties.type !== 'danger');
+        lineData.features = lineData.features.filter((feature) => feature.properties.type !== 'danger');
       } else {
         lineData = {
           type: 'FeatureCollection',
-          features: []
+          features: [],
         };
       }
 
@@ -168,7 +173,7 @@ const addDangersToLines = () => {
       // Write the updated line file
       fs.writeFileSync(linePath, JSON.stringify(lineData, null, 2));
       console.log(
-        `✓ Updated ligne-${lineId}.json with ${features.length} danger features (total: ${lineData.features.length})`
+        `✓ Updated ligne-${lineId}.json with ${features.length} danger features (total: ${lineData.features.length})`,
       );
     }
 
@@ -199,7 +204,7 @@ const processVoiesFiles = () => {
   }
 
   // Read all JSON files from brut directory, excluding dangers.geojson
-  const files = fs.readdirSync(brutDir).filter(file => file.endsWith('.geojson') && file !== 'dangers.geojson');
+  const files = fs.readdirSync(brutDir).filter((file) => file.endsWith('.geojson') && file !== 'dangers.geojson');
 
   console.log(`Found ${files.length} files to process...`);
 
@@ -207,7 +212,7 @@ const processVoiesFiles = () => {
   // Track counters for auto-generated names per line to ensure uniqueness
   const nameCounters = {};
 
-  files.forEach(filename => {
+  files.forEach((filename) => {
     const inputPath = path.join(brutDir, filename);
     console.log(`Processing ${filename}...`);
 
@@ -226,7 +231,7 @@ const processVoiesFiles = () => {
 
         const is_multiple_lines = line_letters.split(',').length > 1;
 
-        line_letters.split(',').forEach(line_letter => {
+        line_letters.split(',').forEach((line_letter) => {
           if (line_letter === '?' || line_letter === 'M' || line_letter === 'S') {
             line_letter = 'X';
           }
@@ -238,7 +243,7 @@ const processVoiesFiles = () => {
           }
 
           // Get existing names for this line to check for duplicates
-          const existingNames = new Set(lines[line_letter].map(f => f.properties?.name));
+          const existingNames = new Set(lines[line_letter].map((f) => f.properties?.name));
 
           // Generate unique name if feature doesn't have one
           let name = feature.properties.name;
@@ -270,7 +275,7 @@ const processVoiesFiles = () => {
             type: fixType(feature.properties.type || ''),
             quality: fixQuality(feature.properties.quality),
             infrastructure: feature.properties.infrastructure || '',
-            link: feature.properties.link || ''
+            link: feature.properties.link || '',
           };
 
           if (is_multiple_lines) {
@@ -286,11 +291,11 @@ const processVoiesFiles = () => {
         });
       });
 
-      Object.keys(lines).forEach(line_letter => {
+      Object.keys(lines).forEach((line_letter) => {
         const outputPath = path.join(outputDir, `ligne-${line_letter}.json`);
         const processedData = {
           type: 'FeatureCollection',
-          features: lines[line_letter]
+          features: lines[line_letter],
         };
 
         fs.writeFileSync(outputPath, JSON.stringify(processedData, null, 2));
