@@ -115,6 +115,19 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     },
   ]);
 
+  const infrastructureFilters = ref([
+    {
+      label: 'Magistrale',
+      isEnabled: true,
+      infrastructures: ['magistrale'],
+    },
+    {
+      label: 'Structurante',
+      isEnabled: true,
+      infrastructures: ['structurante'],
+    },
+  ]);
+
   const lineFilters = ref<LineFilterItem[]>([]);
   const NON_GVV_LINE_ID = 'X';
   const NON_GVV_LABEL = 'Hors GVV';
@@ -185,6 +198,15 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     const enabled =
       qualitiesQuery && (qualitiesQuery as string).length > 0 ? (qualitiesQuery as string).split(',') : [];
     qualityFilters.value.forEach((f) => (f.isEnabled = f.qualities.every((q) => enabled.includes(q))));
+  }
+
+  if (Object.hasOwn(query, 'infrastructures')) {
+    const infrastructuresQuery = query.infrastructures;
+    const enabled =
+      infrastructuresQuery && (infrastructuresQuery as string).length > 0
+        ? (infrastructuresQuery as string).split(',')
+        : [];
+    infrastructureFilters.value.forEach((f) => (f.isEnabled = f.infrastructures.every((i) => enabled.includes(i))));
   }
 
   function processDateData(geojsonData: Collections['voiesCyclablesGeojson'][] | undefined | null) {
@@ -283,6 +305,9 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
   const visibleQualities = computed(() =>
     qualityFilters.value.filter((item) => item.isEnabled).flatMap((item) => item.qualities as LaneQuality[]),
   );
+  const visibleInfrastructures = computed(() =>
+    infrastructureFilters.value.filter((item) => item.isEnabled).flatMap((item) => item.infrastructures as string[]),
+  );
   const visibleLines = computed(() => lineFilters.value.filter((item) => item.isEnabled).map((item) => item.line));
   const visibleDateRange = computed(() => {
     if (dateSteps.value.length > 0) {
@@ -294,7 +319,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
   });
 
   watch(
-    [statusFilters, typeFilters, qualityFilters, lineFilters, dateRange],
+    [statusFilters, typeFilters, qualityFilters, infrastructureFilters, lineFilters, dateRange],
     () => {
       const newQuery = { ...route.query };
 
@@ -317,6 +342,13 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         newQuery.qualities = visibleQualities.value.join(',');
       } else {
         delete newQuery.qualities;
+      }
+
+      const allInfrastructures = infrastructureFilters.value.flatMap((f) => f.infrastructures);
+      if (visibleInfrastructures.value.length < allInfrastructures.length) {
+        newQuery.infrastructures = visibleInfrastructures.value.join(',');
+      } else {
+        delete newQuery.infrastructures;
       }
 
       if (lineFilters.value.length > 0) {
@@ -383,10 +415,16 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
           }
         }
 
+        const infrastructureMatch =
+          visibleInfrastructures.value.length === 0 ||
+          (feature.properties.infrastructure &&
+            visibleInfrastructures.value.includes(feature.properties.infrastructure));
+
         return (
           visibleStatuses.value.includes(feature.properties.status) &&
           visibleTypes.value.includes(feature.properties.type) &&
-          visibleQualities.value.includes(feature.properties.quality)
+          visibleQualities.value.includes(feature.properties.quality) &&
+          infrastructureMatch
         );
       }
 
@@ -410,6 +448,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     statusFilters,
     typeFilters,
     qualityFilters,
+    infrastructureFilters,
     lineFilters,
     dateRange,
     minDate,
@@ -426,6 +465,9 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     },
     toggleQualityFilter(index: number) {
       qualityFilters.value[index].isEnabled = !qualityFilters.value[index].isEnabled;
+    },
+    toggleInfrastructureFilter(index: number) {
+      infrastructureFilters.value[index].isEnabled = !infrastructureFilters.value[index].isEnabled;
     },
     toggleLineFilter(index: number) {
       lineFilters.value[index].isEnabled = !lineFilters.value[index].isEnabled;

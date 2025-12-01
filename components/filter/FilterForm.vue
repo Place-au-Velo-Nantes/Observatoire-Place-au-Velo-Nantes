@@ -30,6 +30,19 @@
     />
 
     <FilterSection
+      title="Filtrer par infrastructure"
+      :filters="filters.infrastructureFilters.value"
+      :show-selection-buttons="true"
+      @toggle-filter="actions.toggleInfrastructureFilter"
+      @select-all="
+        filters.infrastructureFilters.value.forEach((infra: StatusTypeQualityFilterItem) => (infra.isEnabled = true))
+      "
+      @deselect-all="
+        filters.infrastructureFilters.value.forEach((infra: StatusTypeQualityFilterItem) => (infra.isEnabled = false))
+      "
+    />
+
+    <FilterSection
       v-if="options.showLineFilters"
       title="Filtrer par grande voie vélo"
       :filters="filters.lineFilters.value"
