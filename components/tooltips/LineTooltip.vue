@@ -10,16 +10,24 @@
         </div>
       </template>
       <div class="flex flex-row space-x-1">
-        <div
-          v-for="line in lines"
-          :key="line"
-          class="h-8 w-8 rounded-full flex items-center justify-center text-white text-base font-bold"
-          :style="`background-color: ${getLineColor(line)}`"
-        >
-          <a :href="`/grandes-voies-velo-nantes-${line}`">
-            {{ line }}
-          </a>
-        </div>
+        <template v-for="line in lines" :key="line">
+          <div
+            v-if="line === 'X'"
+            class="px-2 rounded-full flex items-center justify-center text-white text-xs font-bold"
+            :style="`background-color: ${getLineColor(line)}`"
+          >
+            Hors grande voie
+          </div>
+          <div
+            v-else
+            class="h-8 w-8 rounded-full flex items-center justify-center text-white text-base font-bold"
+            :style="`background-color: ${getLineColor(line)}`"
+          >
+            <a :href="`/grandes-voies-velo-nantes-${line}`">
+              {{ line }}
+            </a>
+          </div>
+        </template>
       </div>
     </div>
     <div class="px-2 divide-y">
