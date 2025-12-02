@@ -150,6 +150,24 @@
                       </div>
                     </NuxtLink>
                   </div>
+                  <div class="bg-gray-50 border-t border-gray-200 px-5 py-3">
+                    <div class="grid grid-cols-2 gap-2">
+                      <NuxtLink
+                        to="/lignes/magistrale"
+                        class="text-sm font-medium text-gray-700 hover:text-lvv-blue-600 text-center py-2 px-3 rounded-md hover:bg-gray-100"
+                        @click="close()"
+                      >
+                        Infrastructure Magistrale
+                      </NuxtLink>
+                      <NuxtLink
+                        to="/lignes/structurante"
+                        class="text-sm font-medium text-gray-700 hover:text-lvv-blue-600 text-center py-2 px-3 rounded-md hover:bg-gray-100"
+                        @click="close()"
+                      >
+                        Infrastructure Structurante
+                      </NuxtLink>
+                    </div>
+                  </div>
                   <div class="bg-lvv-blue-600 text-white text-center py-1">
                     <NuxtLink to="/tableau-de-bord" class="hover:underline" @click="close()">
                       Tableau de bord
@@ -337,6 +355,23 @@
                     {{ voie.line }}
                   </div>
                 </div>
+              </NuxtLink>
+            </div>
+            <div class="ml-3 text-base font-medium text-gray-900">Infrastructures</div>
+            <div class="grid grid-cols-2 gap-2">
+              <NuxtLink
+                to="/lignes/magistrale"
+                class="text-sm font-medium text-gray-700 hover:text-lvv-blue-600 text-center py-2 px-3 rounded-md hover:bg-gray-100"
+                @click="close()"
+              >
+                Infrastructure Magistrale
+              </NuxtLink>
+              <NuxtLink
+                to="/lignes/structurante"
+                class="text-sm font-medium text-gray-700 hover:text-lvv-blue-600 text-center py-2 px-3 rounded-md hover:bg-gray-100"
+                @click="close()"
+              >
+                Infrastructure Structurante
               </NuxtLink>
             </div>
           </div>
