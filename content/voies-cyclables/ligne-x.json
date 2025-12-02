@@ -310,7 +310,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -412,7 +412,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -840,7 +840,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }

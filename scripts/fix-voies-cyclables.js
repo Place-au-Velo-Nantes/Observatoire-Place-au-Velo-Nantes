@@ -82,7 +82,11 @@ const fixStatus = (status) => {
 
 const fixQuality = (quality) => {
   if (quality === 'satisfaisant') return 'satisfactory';
-  else if (quality === 'non-satisfaisant') return 'unsatisfactory';
+  else if (quality === 'non satisfaisant' || quality === 'non satisafaisant') return 'unsatisfactory';
+  else if (quality !== null && quality !== '') {
+    console.error(`Invalid quality '${quality}'`);
+    process.exit(1);
+  }
   return 'not-rated-yet';
 };
 
