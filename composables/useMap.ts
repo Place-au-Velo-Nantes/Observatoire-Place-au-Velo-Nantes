@@ -148,7 +148,7 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
       id: 'unsatisfactory-sections',
       type: 'line',
       source: 'unsatisfactory-sections',
-      minzoom: 14,
+      minzoom: 10,
       paint: {
         'line-gap-width': 5,
         'line-width': 4,
