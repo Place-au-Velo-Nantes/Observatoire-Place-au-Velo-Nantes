@@ -938,6 +938,23 @@
         "infrastructure": "",
         "link": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.54597743,
+          47.194439767
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place Général Sarrail",
+        "description": "Gros carrefour carré et trafic élevé. pas d'aménagement cyclable continu.",
+        "danger": "",
+        "info_barometre": "oui"
+      }
     }
   ]
 }

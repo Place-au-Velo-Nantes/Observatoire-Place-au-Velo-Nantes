@@ -1188,6 +1188,23 @@
         "infrastructure": "",
         "link": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53654441,
+          47.213011981
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Willy-Brandt/Quai de Malakoff",
+        "description": "Piste cyclable prioritaire sur la traversée du pont",
+        "danger": "",
+        "info_barometre": "oui"
+      }
     }
   ]
 }

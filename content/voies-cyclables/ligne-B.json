@@ -1246,6 +1246,40 @@
         "infrastructure": "magistrale",
         "link": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.539580795,
+          47.213695886
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Tbilissi/Quai de Malakoff",
+        "description": "Gros giratoire, trafic intense. Projet de réaménagement repoussé.",
+        "danger": "Aménagement cyclable discontinu.",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53654441,
+          47.213011981
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Willy-Brandt/Quai de Malakoff",
+        "description": "Piste cyclable prioritaire sur la traversée du pont",
+        "danger": "",
+        "info_barometre": "oui"
+      }
     }
   ]
 }

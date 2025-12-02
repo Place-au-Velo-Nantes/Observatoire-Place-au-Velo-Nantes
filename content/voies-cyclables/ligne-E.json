@@ -1845,6 +1845,142 @@
         "link": "",
         "id": "sans-titre#153"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.547835958,
+          47.205975415
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Martys/Vincent Gâche",
+        "description": "Carrefour à feux. Angles droits, pistes cyclables étroites, manque feu R19 ",
+        "danger": "Circulation très importante",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.547286569,
+          47.20515118
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Martys/Gustave Roch",
+        "description": "Carrefour à feux, pistes étroites, manque feu R19, chaussée dégradée",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.544617956,
+          47.20094809
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place Mangin",
+        "description": "Grand giratoire en cours de réaménagement 2025/2026 pour une axe lourd TC busway 8",
+        "danger": "Gros trafic auto et vitesses élevées ",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.542206486,
+          47.197886829
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place Pirmil",
+        "description": "Gros carrefour à feu. Nombreuses voies auto. Arrêts d'auto sur la piste cyclable Nord/Sud. Croisement étroit et nombreux potelets gênants.",
+        "danger": "Voitures nombreuses et rapides",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.54597743,
+          47.194439767
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place Général Sarrail",
+        "description": "Gros carrefour carré et trafic élevé. pas d'aménagement cyclable continu.",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.551261246,
+          47.221593226
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Quai Ceineray",
+        "description": "Piste cyclable bidirectionnelle. ",
+        "danger": "Piétons fréquents dans la partie basse sur la piste",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.554756357,
+          47.220074001
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond Point du Pont Morand",
+        "description": "grand giratoire sans aménagement cyclable avec trafic auto et bus important",
+        "danger": "trafic élevé, bouchon fréquent, priorité",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.556748225,
+          47.240977196
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond point du Petit Port",
+        "description": "Grand giratoire et trafic très dense, vitesse élevée, pas d'aménagement cyclable",
+        "danger": "vitesse, priorité",
+        "info_barometre": "oui"
+      }
     }
   ]
 }

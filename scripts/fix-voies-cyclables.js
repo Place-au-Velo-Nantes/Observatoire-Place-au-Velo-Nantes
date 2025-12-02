@@ -148,6 +148,23 @@ const addDangersToLines = () => {
         if (lineId === '?' || lineId === 'M' || lineId === 'S') {
           lineId = 'X';
         }
+
+        // Remove quotes and extra spaces
+        lineId = lineId.replace(/['"]/g, '').trim();
+
+        // Split complex IDs like E/G into separate lines [E, G]
+        if (lineId.includes('/')) {
+          const splitLines = lineId.split('/');
+          splitLines.forEach((splitLine) => {
+            const cleanLine = splitLine.trim();
+            if (!linesToUpdate[cleanLine]) {
+              linesToUpdate[cleanLine] = [];
+            }
+            linesToUpdate[cleanLine].push(dangerFeature);
+          });
+          return; // Continue to next iteration of the outer loop
+        }
+
         if (!linesToUpdate[lineId]) {
           linesToUpdate[lineId] = [];
         }

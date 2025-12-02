@@ -1013,6 +1013,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.53944554,
+          47.206855738
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Général de Gaulle/René Viviani",
+        "description": "Giratoire très large partagé avec le busway et le chronobus. Pas de piste cyclable de traversée Est/Ouest",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.537987825,
           47.205065055
         ]

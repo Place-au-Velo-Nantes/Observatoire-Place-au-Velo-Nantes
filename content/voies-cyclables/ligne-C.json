@@ -1164,6 +1164,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.553650456,
+          47.212773328
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Jean Philippot",
+        "description": "Petit tronçon entre giratoires très circulés. Couloir bus partagé",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.552389017,
+          47.213287446
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Jean Philippot",
+        "description": "Petit tronçon entre  giratoires. bandes cyclables étroites",
+        "danger": "Proximité des nombeuses voitures",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.54597743,
+          47.194439767
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Place Général Sarrail",
+        "description": "Gros carrefour carré et trafic élevé. pas d'aménagement cyclable continu.",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.596441624,
           47.209603477
         ]

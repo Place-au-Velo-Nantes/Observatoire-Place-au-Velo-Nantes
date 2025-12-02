@@ -1547,6 +1547,108 @@
         "link": "",
         "id": "sans-titre#151"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.547835958,
+          47.205975415
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Martys/Vincent Gâche",
+        "description": "Carrefour à feux. Angles droits, pistes cyclables étroites, manque feu R19 ",
+        "danger": "Circulation très importante",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.547286569,
+          47.20515118
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Martys/Gustave Roch",
+        "description": "Carrefour à feux, pistes étroites, manque feu R19, chaussée dégradée",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53944554,
+          47.206855738
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Général de Gaulle/René Viviani",
+        "description": "Giratoire très large partagé avec le busway et le chronobus. Pas de piste cyclable de traversée Est/Ouest",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53654441,
+          47.213011981
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Intersection Willy-Brandt/Quai de Malakoff",
+        "description": "Piste cyclable prioritaire sur la traversée du pont",
+        "danger": "",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.533353423,
+          47.216612556
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Sortie Rond point de Berlin",
+        "description": "bande cyclable reserrée",
+        "danger": "Pincement de la piste cyclable",
+        "info_barometre": "oui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.533545829,
+          47.216334133
+        ]
+      },
+      "properties": {
+        "type": "danger",
+        "name": "Rond point de Berlin",
+        "description": "Piste cyclable hors giratoire et prioritaire",
+        "danger": "Priorité cycliste non respectée",
+        "info_barometre": "oui"
+      }
     }
   ]
 }
