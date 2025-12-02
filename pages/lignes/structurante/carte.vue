@@ -73,6 +73,8 @@ watchEffect(() => {
 const mapOptions = {
   shrink: true,
   canUseSidePanel: true,
+  showLineFilters: true,
+  showInfrastructureFilters: false,
   onShrinkControlClick: () => {
     return navigateTo({ path: '/lignes/structurante' });
   },

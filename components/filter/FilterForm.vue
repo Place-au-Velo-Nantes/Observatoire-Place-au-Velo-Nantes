@@ -30,6 +30,7 @@
     />
 
     <FilterSection
+      v-if="options.showInfrastructureFilters"
       title="Filtrer par infrastructure"
       :filters="filters.infrastructureFilters.value"
       :show-selection-buttons="true"
@@ -83,11 +84,12 @@ dayjs.locale('fr');
 
 const props = defineProps<{
   showLineFilters: boolean;
+  showInfrastructureFilters?: boolean;
   showDateFilter?: boolean;
   filters: FiltersState;
   actions: FilterActions;
 }>();
-const defaultOptions = { showLineFilters: false, showDateFilter: false };
+const defaultOptions = { showLineFilters: false, showInfrastructureFilters: true, showDateFilter: false };
 const options = { ...defaultOptions, ...props };
 
 function formatMonthYear(stepIndex: number) {

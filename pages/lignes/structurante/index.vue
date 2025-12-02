@@ -118,6 +118,8 @@ watchEffect(() => {
 const mapOptions = {
   fullscreen: true,
   roundedCorners: true,
+  showLineFilters: true,
+  showInfrastructureFilters: false,
   onFullscreenControlClick: () => {
     return navigateTo({ path: '/lignes/structurante/carte' });
   },

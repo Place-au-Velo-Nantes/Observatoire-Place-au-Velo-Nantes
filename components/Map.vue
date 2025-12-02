@@ -5,6 +5,7 @@
       <div id="map" :class="[options.roundedCorners ? 'rounded-lg' : '', 'h-full w-full']" />
       <FilterPanel
         :show-line-filters="options.showLineFilters"
+        :show-infrastructure-filters="options.showInfrastructureFilters"
         :show-date-filter="options.showDateFilter"
         :can-use-side-panel="options.canUseSidePanel"
         :filters="filters"
@@ -60,6 +61,7 @@ const defaultOptions = {
   onFullscreenControlClick: () => {},
   shrink: false,
   showLineFilters: false,
+  showInfrastructureFilters: true,
   showDateFilter: false,
   canUseSidePanel: false,
   onShrinkControlClick: () => {},

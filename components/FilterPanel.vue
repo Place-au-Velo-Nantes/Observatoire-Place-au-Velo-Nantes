@@ -9,6 +9,7 @@
     >
       <FilterForm
         :show-line-filters="showLineFilters"
+        :show-infrastructure-filters="showInfrastructureFilters"
         :show-date-filter="showDateFilter"
         :filters="filters"
         :actions="actions"
@@ -25,6 +26,7 @@
     <h2 class="text-lg font-medium leading-6 text-gray-900 mb-4">Filtres</h2>
     <FilterForm
       :show-line-filters="showLineFilters"
+      :show-infrastructure-filters="showInfrastructureFilters"
       :show-date-filter="showDateFilter"
       :filters="filters"
       :actions="actions"
@@ -41,6 +43,7 @@ import type { FiltersState, FilterActions } from '~/types';
 
 const props = defineProps<{
   showLineFilters: boolean;
+  showInfrastructureFilters?: boolean;
   showDateFilter?: boolean;
   canUseSidePanel?: boolean;
   filterStyle: string;
