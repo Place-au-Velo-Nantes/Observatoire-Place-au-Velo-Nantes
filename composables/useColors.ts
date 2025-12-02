@@ -10,5 +10,9 @@ export const useColors = () => {
     return lineConfig.color;
   }
 
-  return { getLineColor };
+  function getLines(): string[] {
+    return config.colors.map((color) => color.line);
+  }
+
+  return { getLineColor, getLines };
 };

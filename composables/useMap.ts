@@ -21,7 +21,6 @@ type ColoredLineStringFeature = Extract<
   Collections['voiesCyclablesGeojson']['features'][0],
   { geometry: { type: 'LineString' } }
 > & { properties: { color: string } };
-const { getNbVoiesCyclables } = useConfig();
 
 // features plotted last are on top
 const sortOrder = [1, 2].reverse();
@@ -76,7 +75,7 @@ function groupFeaturesByColor(features: ColoredLineStringFeature[]) {
 }
 
 export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: boolean } = {}) => {
-  const { getLineColor } = useColors();
+  const { getLineColor, getLines } = useColors();
 
   function addLineColor(
     feature: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }>,
@@ -491,7 +490,8 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     );
     const featuresByColor = groupFeaturesByColor(sections);
 
-    for (let line = 1; line <= getNbVoiesCyclables(); line++) {
+    const lines = getLines();
+    for (const line of lines) {
       const lineColor = getLineColor(line);
       if (!featuresByColor[lineColor]) {
         upsertMapSource(map, `postponed-sections-${lineColor}`, []);

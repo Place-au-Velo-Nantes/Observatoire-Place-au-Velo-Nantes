@@ -126,6 +126,11 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
       isEnabled: true,
       infrastructures: ['structurante'],
     },
+    {
+      label: 'Maillage',
+      isEnabled: true,
+      infrastructures: ['maillage'],
+    },
   ]);
 
   const lineFilters = ref<LineFilterItem[]>([]);
@@ -416,9 +421,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         }
 
         const infrastructureMatch =
-          visibleInfrastructures.value.length === 0 ||
-          (feature.properties.infrastructure &&
-            visibleInfrastructures.value.includes(feature.properties.infrastructure));
+          feature.properties.infrastructure && visibleInfrastructures.value.includes(feature.properties.infrastructure);
 
         return (
           visibleStatuses.value.includes(feature.properties.status) &&
