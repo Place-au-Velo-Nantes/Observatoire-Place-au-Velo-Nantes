@@ -15,9 +15,8 @@
         "status": "",
         "type": "",
         "year": null,
-        "infrastructure": "structurante",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 448.982
       }
     },
@@ -35,9 +34,8 @@
         "status": "",
         "type": "",
         "year": null,
-        "infrastructure": "structurante",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 426.168
       }
     },
@@ -61,9 +59,8 @@
         "status": "",
         "type": "",
         "year": null,
-        "infrastructure": "structurante",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1102.315
       }
     },
@@ -81,9 +78,8 @@
         "status": "",
         "type": "",
         "year": null,
-        "infrastructure": "structurante",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 320.976
       }
     },
@@ -103,9 +99,8 @@
         "status": "",
         "type": "",
         "year": null,
-        "infrastructure": "structurante",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 485.606
       }
     },
@@ -129,9 +124,8 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "structurante",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 793.695
       }
     },
@@ -150,9 +144,8 @@
         "status": "",
         "type": "",
         "year": null,
-        "infrastructure": "structurante",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 229.686
       }
     },
@@ -161,7 +154,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.587403826, 47.188258729],
+          [-1.587304528, 47.188266827],
           [-1.586197834, 47.188438447],
           [-1.572882, 47.192872],
           [-1.5705, 47.192985]
@@ -172,10 +165,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
-        "calculated_length": 1397.59
+        "cycloscore(optionnel)": null,
+        "calculated_length": 1390.048
       }
     },
     {
@@ -196,9 +188,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 994.343
       }
     },
@@ -221,9 +212,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2306.441
       }
     },
@@ -247,9 +237,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2377.151
       }
     },
@@ -278,9 +267,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 5073.3
       }
     },
@@ -304,9 +292,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 6026.6
       }
     },
@@ -330,9 +317,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 4839.053
       }
     },
@@ -355,48 +341,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2238.908
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.588382, 47.198281],
-          [-1.589195, 47.199853],
-          [-1.587024, 47.20876],
-          [-1.585908, 47.214125],
-          [-1.587667, 47.218031],
-          [-1.585307, 47.222315],
-          [-1.583118, 47.226425],
-          [-1.581659, 47.22762],
-          [-1.575308, 47.229048],
-          [-1.572218, 47.229689],
-          [-1.56578, 47.233302],
-          [-1.563291, 47.234293],
-          [-1.558184, 47.23304],
-          [-1.556597, 47.233011],
-          [-1.550975, 47.235051],
-          [-1.549223, 47.235334],
-          [-1.547198, 47.235371],
-          [-1.533379, 47.233565],
-          [-1.517501, 47.221966],
-          [-1.515712, 47.218011]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "line": null,
-        "calculated_length": 9606.606
       }
     },
     {
@@ -419,9 +366,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1980.349
       }
     },
@@ -447,9 +393,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2135.509
       }
     },
@@ -468,9 +413,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1496.922
       }
     },
@@ -494,9 +438,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1961.717
       }
     },
@@ -530,9 +473,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 6233.403
       }
     },
@@ -575,9 +517,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 11341.751
       }
     },
@@ -610,9 +551,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 6963.91
       }
     },
@@ -637,9 +577,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 3349.943
       }
     },
@@ -657,9 +596,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 423.027
       }
     },
@@ -677,9 +615,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 3.429
       }
     },
@@ -705,9 +642,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2949.734
       }
     },
@@ -734,9 +670,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1884.76
       }
     },
@@ -756,9 +691,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 622.936
       }
     },
@@ -778,9 +712,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2055.892
       }
     },
@@ -801,9 +734,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 993.51
       }
     },
@@ -823,9 +755,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 546.954
       }
     },
@@ -844,9 +775,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 367.044
       }
     },
@@ -864,9 +794,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 0.435
       }
     },
@@ -901,9 +830,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 4472.243
       }
     },
@@ -952,9 +880,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 6110.864
       }
     },
@@ -974,9 +901,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 752.217
       }
     },
@@ -1008,9 +934,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 3931.04
       }
     },
@@ -1034,9 +959,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2756.778
       }
     },
@@ -1054,9 +978,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2.187
       }
     },
@@ -1075,9 +998,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 182.719
       }
     },
@@ -1092,8 +1014,7 @@
           [-1.552183, 47.193247],
           [-1.553985, 47.192781],
           [-1.55479, 47.192846],
-          [-1.554492813, 47.192607661],
-          [-1.554351291, 47.192334944]
+          [-1.554254, 47.192368]
         ]
       },
       "properties": {
@@ -1101,10 +1022,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
-        "calculated_length": 592.95
+        "cycloscore(optionnel)": null,
+        "calculated_length": 592.902
       }
     },
     {
@@ -1117,13 +1037,12 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "line": null,
+        "name": "Rue Gaëtan Rondeau",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2011,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
         "calculated_length": 550.818
       }
     },
@@ -1142,9 +1061,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 995.436
       }
     },
@@ -1162,9 +1080,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 149.118
       }
     },
@@ -1174,7 +1091,7 @@
         "type": "LineString",
         "coordinates": [
           [-1.486909, 47.249428],
-          [-1.486425106, 47.247546363]
+          [-1.486523, 47.247476]
         ]
       },
       "properties": {
@@ -1182,10 +1099,9 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
-        "calculated_length": 212.375
+        "cycloscore(optionnel)": null,
+        "calculated_length": 218.973
       }
     },
     {
@@ -1202,9 +1118,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 853.387
       }
     },
@@ -1223,9 +1138,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1275.982
       }
     },
@@ -1245,10 +1159,470 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "structurante",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1293.921
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5359259, 47.2338686],
+          [-1.5354634, 47.2337989],
+          [-1.5345635, 47.2336835],
+          [-1.5343915, 47.2336582],
+          [-1.5341827, 47.2336131],
+          [-1.5339741, 47.2335649],
+          [-1.5337414, 47.2334991],
+          [-1.5334569, 47.2334291],
+          [-1.533365921, 47.233407365],
+          [-1.533296, 47.2333689],
+          [-1.5330402, 47.2332415],
+          [-1.5325748, 47.2329691],
+          [-1.531691, 47.2323346],
+          [-1.5309642, 47.2318036],
+          [-1.530912371, 47.231770487],
+          [-1.5308574, 47.231732],
+          [-1.5292275, 47.2305661],
+          [-1.5283069, 47.2298931],
+          [-1.5275475, 47.2293476],
+          [-1.5273632, 47.2292146],
+          [-1.5263011, 47.2284541]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard des Poilus",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
+        "calculated_length": 969.514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5858807, 47.2141779],
+          [-1.586001, 47.2136735],
+          [-1.5860408, 47.2135099],
+          [-1.5861042, 47.2132623],
+          [-1.586168, 47.2129831],
+          [-1.5861914, 47.2128913],
+          [-1.5862444, 47.2126652],
+          [-1.5863987, 47.2120391],
+          [-1.5864518, 47.211821],
+          [-1.5866224, 47.2111138],
+          [-1.5867693, 47.2105147],
+          [-1.5868929, 47.2099937],
+          [-1.5869431, 47.2098061],
+          [-1.5870407, 47.2093904],
+          [-1.5871732, 47.208936],
+          [-1.5872528, 47.2085487],
+          [-1.5873152, 47.2082927],
+          [-1.5874554, 47.2077175],
+          [-1.5876829, 47.2068]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard de l'Égalité",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
+        "calculated_length": 831.571
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.565833391, 47.233243908],
+          [-1.56596616, 47.233205662],
+          [-1.566303, 47.2330321],
+          [-1.5670139, 47.2326185],
+          [-1.5670501, 47.2325973],
+          [-1.5681402, 47.2319583],
+          [-1.568566563, 47.231688529],
+          [-1.5689866, 47.2314865],
+          [-1.5698723, 47.2309808],
+          [-1.5701647, 47.2308165],
+          [-1.5710446, 47.2303183],
+          [-1.5717448, 47.2299229],
+          [-1.5720948, 47.2297153],
+          [-1.572421566, 47.229571207]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Lelasseur",
+        "status": "A définir",
+        "type": "voie bus élargie",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (déjà comme ça en 2008)",
+        "calculated_length": 645.599
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.572421566, 47.229571207],
+          [-1.572574452, 47.229538877],
+          [-1.5730775, 47.2294345],
+          [-1.5733924, 47.2293744],
+          [-1.5740064, 47.229257],
+          [-1.5745801, 47.2291474],
+          [-1.5748692, 47.2290922],
+          [-1.575305, 47.2290089],
+          [-1.5759327, 47.2288854],
+          [-1.576547, 47.2287708],
+          [-1.577625, 47.2285607],
+          [-1.57784, 47.2285223],
+          [-1.578631, 47.2283683],
+          [-1.5790469, 47.2282899],
+          [-1.5795597, 47.2281937],
+          [-1.5802117, 47.2280662],
+          [-1.5806538, 47.2279802],
+          [-1.5810586, 47.2278692],
+          [-1.581223, 47.2278125],
+          [-1.5814317, 47.2277401],
+          [-1.5814992, 47.2277242],
+          [-1.581566, 47.2276983],
+          [-1.5820974, 47.227412],
+          [-1.5825016, 47.2271147],
+          [-1.582805, 47.2267946],
+          [-1.5828649, 47.2267211],
+          [-1.583074632, 47.226406453],
+          [-1.5832014, 47.2261472],
+          [-1.5836499, 47.2253938],
+          [-1.5838703, 47.224991],
+          [-1.5844389, 47.2240435],
+          [-1.5845857, 47.2237765],
+          [-1.5848355, 47.2233018],
+          [-1.5849883, 47.2230264],
+          [-1.5851882, 47.2226527],
+          [-1.585392394, 47.222320905]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard des Anglais",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
+        "calculated_length": 1397.581
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5471764, 47.2354662],
+          [-1.546897665, 47.235385212],
+          [-1.5467258, 47.2353664],
+          [-1.5464035, 47.2353307],
+          [-1.5460312, 47.2352895],
+          [-1.5458362, 47.235263],
+          [-1.5456532, 47.2352382],
+          [-1.5445154, 47.235076],
+          [-1.5434657, 47.234931],
+          [-1.5433621, 47.2349164],
+          [-1.5424361, 47.2347862],
+          [-1.5412733, 47.2346227],
+          [-1.5408986, 47.2345695],
+          [-1.5393047, 47.234343],
+          [-1.5391885, 47.2343265],
+          [-1.5380517, 47.2341649],
+          [-1.5369958, 47.23402],
+          [-1.5359259, 47.2338686]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard des Belges",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
+        "calculated_length": 870.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.585392394, 47.222320905],
+          [-1.585503009, 47.22209865],
+          [-1.585532, 47.2220404],
+          [-1.5860185, 47.2212052],
+          [-1.5863651, 47.220562],
+          [-1.5864572, 47.22041],
+          [-1.5865698, 47.2202071],
+          [-1.5866403, 47.2200802],
+          [-1.5868736, 47.2196533],
+          [-1.587247, 47.2190042],
+          [-1.5875536, 47.2184496],
+          [-1.587616, 47.2182986],
+          [-1.5876562, 47.2181246],
+          [-1.58766, 47.2180769],
+          [-1.5876667, 47.2179917],
+          [-1.5876728, 47.2178449],
+          [-1.5876651, 47.2177593],
+          [-1.5876581, 47.2176918],
+          [-1.5876485, 47.2176389],
+          [-1.5876371, 47.2175998],
+          [-1.5876156, 47.2175491],
+          [-1.587331, 47.2170112],
+          [-1.5872962, 47.2169378],
+          [-1.5871624, 47.2166572],
+          [-1.5870403, 47.2163769],
+          [-1.5870341, 47.2163169],
+          [-1.587045975, 47.216267488],
+          [-1.5869906, 47.2162365],
+          [-1.5867598, 47.2158533],
+          [-1.5864113, 47.215133],
+          [-1.5861665, 47.2146969],
+          [-1.5860742, 47.2145325],
+          [-1.5858807, 47.2141779]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard de la Fraternité",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
+        "calculated_length": 960.988
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.563349667, 47.234189135],
+          [-1.563478413, 47.234129035],
+          [-1.5637167, 47.2340262],
+          [-1.5639267, 47.2339545],
+          [-1.564501, 47.2337376],
+          [-1.5649478, 47.2335688],
+          [-1.565321268, 47.233427703],
+          [-1.5654118, 47.2333935],
+          [-1.565681846, 47.23328944],
+          [-1.565833391, 47.233243908]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard des Frères de Goncourt",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
+        "calculated_length": 215.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5263011, 47.2284541],
+          [-1.5256434, 47.2279787],
+          [-1.5245941, 47.2272202],
+          [-1.5241112, 47.226873],
+          [-1.5231708, 47.2262052],
+          [-1.5231232, 47.226187],
+          [-1.5230465, 47.2261555],
+          [-1.5229603, 47.2261283],
+          [-1.5227051, 47.2260652],
+          [-1.5226498, 47.2258979],
+          [-1.5225977, 47.2257882],
+          [-1.5224773, 47.2256974],
+          [-1.5224234, 47.2256571],
+          [-1.5214325, 47.2249483],
+          [-1.5210471, 47.2246694],
+          [-1.5204962, 47.2242683],
+          [-1.520415716, 47.22420867],
+          [-1.52037, 47.2241748],
+          [-1.5203384, 47.2241523],
+          [-1.5200263, 47.2239303],
+          [-1.5199647, 47.2238833],
+          [-1.5198416, 47.223797],
+          [-1.5194459, 47.223515],
+          [-1.5187879, 47.2230438],
+          [-1.5187258, 47.222991],
+          [-1.5185809, 47.2228731],
+          [-1.5184146, 47.2227415],
+          [-1.5182638, 47.2225995],
+          [-1.5181168, 47.2224511],
+          [-1.5180228, 47.2223514],
+          [-1.5179331, 47.2222608],
+          [-1.5178262, 47.2221504],
+          [-1.5177162, 47.2220281],
+          [-1.5175663, 47.2218403],
+          [-1.517212992, 47.221375243],
+          [-1.516767746, 47.220584632],
+          [-1.516322499, 47.219622768],
+          [-1.51594699, 47.218795696],
+          [-1.515869203, 47.218515143],
+          [-1.515855792, 47.218212729]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard de Doulon",
+        "status": "",
+        "type": "",
+        "year": null,
+        "quality": "",
+        "cycloscore(optionnel)": "fin du bd en Monodir. A redécouper + Bd de Seattle à séparer",
+        "calculated_length": 1424.223
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.549290867, 47.23522085],
+          [-1.5492252, 47.2352329],
+          [-1.5488138, 47.2352867],
+          [-1.5484077, 47.2353441],
+          [-1.5478062, 47.2354227],
+          [-1.5471764, 47.2354662]
+        ]
+      },
+      "properties": {
+        "name": "Pont de la Tortière",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2025,
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "B (~mars 2025)",
+        "calculated_length": 162.587
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.556552949, 47.233007144],
+          [-1.5567043, 47.2329938],
+          [-1.5570733, 47.2329762],
+          [-1.5574086, 47.2329755],
+          [-1.5577187, 47.2329939],
+          [-1.5580554, 47.2330235],
+          [-1.5585688, 47.2330979],
+          [-1.559476557, 47.233307653],
+          [-1.5605901, 47.2335484],
+          [-1.5607802, 47.2335893],
+          [-1.561369, 47.2337231],
+          [-1.56187479, 47.233837],
+          [-1.5619414, 47.233852],
+          [-1.562917831, 47.234068934],
+          [-1.56323165, 47.234161817],
+          [-1.563349667, 47.234189135]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Henry Orrion",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2016,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2016)",
+        "calculated_length": 535.911
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.556552949, 47.233007144],
+          [-1.5563924, 47.2330304],
+          [-1.5561131, 47.2330718],
+          [-1.5559528, 47.2330978],
+          [-1.555735, 47.2331376],
+          [-1.555399599, 47.233220233],
+          [-1.555219891, 47.233291262],
+          [-1.5549148, 47.2333946],
+          [-1.55471, 47.2334805],
+          [-1.5537649, 47.2339054],
+          [-1.5531657, 47.2341748],
+          [-1.5522996, 47.2345561],
+          [-1.5522015, 47.2345986],
+          [-1.5512834, 47.2349634],
+          [-1.5510623, 47.2350257],
+          [-1.5509849, 47.2350439],
+          [-1.5508676, 47.2350699],
+          [-1.5505291, 47.2351158],
+          [-1.5503599, 47.2351388],
+          [-1.5496171, 47.2352196],
+          [-1.549290867, 47.23522085]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Eugène Orieux",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2016)",
+        "calculated_length": 612.405
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5876829, 47.2068],
+          [-1.5877674, 47.2064484],
+          [-1.5878375, 47.2061779],
+          [-1.5878696, 47.206049],
+          [-1.5880705, 47.2052689],
+          [-1.5881137, 47.2050999],
+          [-1.5881481, 47.2049654],
+          [-1.5883043, 47.2043162],
+          [-1.5884002, 47.203919],
+          [-1.58844, 47.2037544],
+          [-1.5884725, 47.2036204],
+          [-1.5889826, 47.2015544],
+          [-1.5889934, 47.2015104],
+          [-1.5891567, 47.2008482],
+          [-1.5892755, 47.2003621],
+          [-1.5892858, 47.2002932],
+          [-1.5892878, 47.2002353],
+          [-1.5892866, 47.2001812],
+          [-1.589254, 47.1999763],
+          [-1.5892266, 47.1998393],
+          [-1.5891767, 47.1997083],
+          [-1.5886245, 47.1986065],
+          [-1.588529, 47.1984304]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard de la Liberté",
+        "status": "A définir",
+        "type": "bande cyclable",
+        "year": 2008,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
+        "calculated_length": 949.637
       }
     }
   ]

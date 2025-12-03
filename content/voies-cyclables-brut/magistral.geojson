@@ -24,9 +24,8 @@
         "status": "terminé",
         "type": "voie verte",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1232.161
       }
     },
@@ -49,9 +48,8 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 6732.34
       }
     },
@@ -70,9 +68,8 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1800.157
       }
     },
@@ -91,9 +88,8 @@
         "status": "terminé",
         "type": "bidirection",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 623.094
       }
     },
@@ -125,9 +121,8 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 3422.904
       }
     },
@@ -145,9 +140,8 @@
         "status": "en cours",
         "type": "bande cyclable",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 419.235
       }
     },
@@ -168,9 +162,8 @@
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1064.056
       }
     },
@@ -189,9 +182,8 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 275.322
       }
     },
@@ -211,10 +203,9 @@
         "name": "Rue Sully",
         "status": "",
         "type": "voie bus",
-        "year": null,
-        "infrastructure": "magistrale",
+        "year": 2014,
         "quality": "satisfaisant",
-        "line": null,
+        "cycloscore(optionnel)": "",
         "calculated_length": 680.751
       }
     },
@@ -234,9 +225,8 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 109.278
       }
     },
@@ -254,9 +244,8 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 124.772
       }
     },
@@ -274,9 +263,8 @@
         "status": "reporté",
         "type": "bande cyclable",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 136.98
       }
     },
@@ -285,10 +273,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.546371534, 47.194346111],
-          [-1.546690798, 47.194258886],
-          [-1.546903234, 47.194199358],
-          [-1.554349458, 47.192334768]
+          [-1.545727277, 47.194130748],
+          [-1.546351154, 47.194374727],
+          [-1.546992855, 47.19418958],
+          [-1.554355409, 47.19233689]
         ]
       },
       "properties": {
@@ -296,10 +284,9 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
-        "calculated_length": 644.626
+        "cycloscore(optionnel)": null,
+        "calculated_length": 702.059
       }
     },
     {
@@ -316,9 +303,8 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 645.204
       }
     },
@@ -337,9 +323,8 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 586.886
       }
     },
@@ -357,9 +342,8 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 885.4
       }
     },
@@ -378,9 +362,8 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 273.189
       }
     },
@@ -400,9 +383,8 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 325.556
       }
     },
@@ -420,9 +402,8 @@
         "status": "reporté",
         "type": "bidirectionnelle",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 103.889
       }
     },
@@ -450,10 +431,9 @@
         "name": "Rue Anatole de Monzie Est",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
-        "infrastructure": "magistrale",
+        "year": 2019,
         "quality": "satisfaisant",
-        "line": null,
+        "cycloscore(optionnel)": "",
         "calculated_length": 418.557
       }
     },
@@ -482,10 +462,9 @@
         "name": "Allée de l'Île Beaulieu",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
-        "infrastructure": "magistrale",
+        "year": 2016,
         "quality": "satisfaisant",
-        "line": null,
+        "cycloscore(optionnel)": "",
         "calculated_length": 620.705
       }
     },
@@ -502,10 +481,9 @@
         "name": "Rue Gaëtan Rondeau",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
-        "infrastructure": "magistrale",
-        "quality": "non satisfaisant",
-        "line": null,
+        "year": 2020,
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
         "calculated_length": 123.352
       }
     },
@@ -542,9 +520,8 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2955.867
       }
     },
@@ -562,9 +539,8 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 80.615
       }
     },
@@ -589,9 +565,8 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1377.01
       }
     },
@@ -612,9 +587,8 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 585.384
       }
     },
@@ -636,9 +610,8 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 807.693
       }
     },
@@ -658,9 +631,8 @@
         "status": "",
         "type": "bande cyclable",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 275.346
       }
     },
@@ -680,9 +652,8 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 332.702
       }
     },
@@ -705,9 +676,8 @@
         "status": "",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1571.35
       }
     },
@@ -725,10 +695,29 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2486.939
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.549760051, 47.195591362],
+          [-1.549533, 47.193534],
+          [-1.549054, 47.191492]
+        ]
+      },
+      "properties": {
+        "name": "Rezé - Les Sorinières",
+        "status": "reporté",
+        "type": "",
+        "year": null,
+        "quality": "",
+        "cycloscore(optionnel)": null,
+        "calculated_length": 459.275
       }
     },
     {
@@ -747,9 +736,8 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1175.996
       }
     },
@@ -764,13 +752,12 @@
         ]
       },
       "properties": {
-        "name": "Pont de la Rotonde Nord hors GVV",
+        "name": "Pont de la Rotonde Nord",
         "status": "",
         "type": "aucun",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 37.083
       }
     },
@@ -789,9 +776,8 @@
         "status": "",
         "type": "voie verte",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 26.036
       }
     },
@@ -811,9 +797,8 @@
         "status": "",
         "type": "",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 893.009
       }
     },
@@ -837,9 +822,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 294.094
       }
     },
@@ -858,9 +842,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 563.748
       }
     },
@@ -884,9 +867,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 1395.595
       }
     },
@@ -906,9 +888,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 528.883
       }
     },
@@ -927,9 +908,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 861.843
       }
     },
@@ -950,9 +930,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 354.973
       }
     },
@@ -973,9 +952,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 451.355
       }
     },
@@ -997,9 +975,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 2134.451
       }
     },
@@ -1017,9 +994,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 193.568
       }
     },
@@ -1038,9 +1014,8 @@
         "status": null,
         "type": null,
         "year": null,
-        "infrastructure": "magistrale",
         "quality": null,
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 995.086
       }
     },
@@ -1063,9 +1038,8 @@
         "status": "",
         "type": "aucun",
         "year": null,
-        "infrastructure": "magistrale",
         "quality": "",
-        "line": null,
+        "cycloscore(optionnel)": null,
         "calculated_length": 508.725
       }
     }

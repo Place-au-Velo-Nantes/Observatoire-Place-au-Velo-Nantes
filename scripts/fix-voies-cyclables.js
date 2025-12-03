@@ -288,6 +288,15 @@ const processVoiesFiles = () => {
             }
           }
 
+          let infrastructure = '';
+          if (filename === 'magistral.geojson') {
+            infrastructure = 'magistrale';
+          } else if (filename === 'structurante.geojson') {
+            infrastructure = 'structurante';
+          } else {
+            infrastructure = feature.properties.infrastructure || '';
+          }
+
           let properties = {
             line: line_letter,
             name,
@@ -295,7 +304,7 @@ const processVoiesFiles = () => {
             doneAt: fixDoneDate(feature.properties.year),
             type: fixType(feature.properties.type || ''),
             quality: fixQuality(feature.properties.quality),
-            infrastructure: feature.properties.infrastructure || '',
+            infrastructure,
             link: feature.properties.link || '',
           };
 
