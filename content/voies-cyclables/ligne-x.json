@@ -375,7 +375,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Sully",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2014",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -1313,7 +1313,7 @@
       "properties": {
         "line": "X",
         "name": "Quai Jean Bart Ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2009",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -1479,7 +1479,7 @@
       "properties": {
         "line": "X",
         "name": "Place de la Duchesse Anne",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2018",
         "type": "voie-verte",
         "quality": "unsatisfactory",
@@ -1841,7 +1841,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Meusnier de Querlon",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -1931,7 +1931,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Boulay Paty",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -2013,7 +2013,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Charles Monselet",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -2091,7 +2091,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Garenne",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -2345,7 +2345,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de Bretagne est",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2019",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
@@ -2403,7 +2403,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Nantes",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
@@ -2495,7 +2495,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Gare centrale",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2019",
         "type": "zone-de-rencontre",
         "quality": "satisfactory",
@@ -2675,7 +2675,7 @@
       "properties": {
         "line": "X",
         "name": "Accès sud Pont ferroviaire de Pirmil",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2020",
         "type": "voie-verte",
         "quality": "unsatisfactory",
@@ -2863,7 +2863,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Gare pieton",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2019",
         "type": "voie-verte",
         "quality": "unsatisfactory",
@@ -3247,7 +3247,7 @@
       "properties": {
         "line": "X",
         "name": "Quai Langlois",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2009",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -3669,7 +3669,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Niescierewicz sud",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2024",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -5609,7 +5609,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard des Poilus",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -5703,7 +5703,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard de l'Égalité",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -5777,7 +5777,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Lelasseur",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -5939,7 +5939,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard des Anglais",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -6029,7 +6029,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard des Belges",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -6179,7 +6179,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard de la Fraternité",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -6237,7 +6237,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard des Frères de Goncourt",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -6539,7 +6539,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Henry Orrion",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2016",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -6641,7 +6641,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Eugène Orieux",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -6751,7 +6751,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard de la Liberté",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -6797,7 +6797,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Patouillerie 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2014",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -6859,7 +6859,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Guillaume Grootaers",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -6941,7 +6941,7 @@
       "properties": {
         "line": "X",
         "name": "Rue des Dervallières",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2011",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -7011,7 +7011,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Bâtonnier Cholet 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -7243,7 +7243,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Édith Piaf",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-verte",
         "quality": "unsatisfactory",
@@ -7329,7 +7329,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Bâtonnier Cholet",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -7443,7 +7443,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Michael Faraday",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2019",
         "type": "voie-verte",
         "quality": "unsatisfactory",
@@ -7501,7 +7501,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Winston Churchill",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -7699,7 +7699,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard du Massacre",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -7737,7 +7737,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Édith Piaf 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2018",
         "type": "voie-verte",
         "quality": "unsatisfactory",
@@ -7875,7 +7875,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard du Tertre",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -7933,7 +7933,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Chevreul",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -7999,7 +7999,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Fontaine Salée",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2010",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -8155,7 +8155,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Winston Churchill 3",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2026",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -8233,7 +8233,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard de Cardiff",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -8393,7 +8393,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Philippe Lebon",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2015",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
@@ -8563,7 +8563,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Jean Ingres",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2014",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -8605,7 +8605,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Winston Churchill 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -8659,7 +8659,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard du Tertre 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -8733,7 +8733,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Paul Chabas",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2014",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -8823,7 +8823,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Benjamin Franklin",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2018",
         "type": "voie-verte",
         "quality": "unsatisfactory",
@@ -8901,7 +8901,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Charles Gautier",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2021",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
@@ -9007,7 +9007,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Maréchal Alphonse Juin",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -9209,7 +9209,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Patouillerie",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -9891,7 +9891,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Vannes-35",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2015",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
@@ -10523,7 +10523,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Paul Bellamy",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2024",
         "type": "inconnu",
         "quality": "unsatisfactory",
@@ -10577,7 +10577,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Rennes 3",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2014",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -10675,7 +10675,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Rennes 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2013",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -10825,7 +10825,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Robert Schuman 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2013",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -11033,7 +11033,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Rennes 8",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2022",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -11167,7 +11167,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Robert Schuman 3",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2013",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -11225,7 +11225,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Rennes 5",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2022",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -11423,7 +11423,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de Strasbourg",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2024",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -11473,7 +11473,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Rennes 6",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2022",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -11543,7 +11543,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Rennes 4",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2013",
         "type": "voie-bus",
         "quality": "unsatisfactory",
@@ -11621,7 +11621,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Rennes 7",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2022",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -11813,7 +11813,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Bertrand Geslin",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "2024",
         "type": "inconnu",
         "quality": "unsatisfactory",

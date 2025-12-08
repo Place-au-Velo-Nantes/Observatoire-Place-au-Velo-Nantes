@@ -327,11 +327,18 @@ const processVoiesFiles = () => {
             infrastructure = feature.properties.infrastructure || '';
           }
 
+          const doneAt = fixDoneDate(feature.properties.year);
+          let status = fixStatus(feature.properties.status || '');
+
+          if (feature.properties.year && status === 'unknown') {
+            status = 'done';
+          }
+
           let properties = {
             line: line_letter,
             name,
-            status: fixStatus(feature.properties.status || ''),
-            doneAt: fixDoneDate(feature.properties.year),
+            status,
+            doneAt,
             type: fixType(feature.properties.type || ''),
             quality: fixQuality(feature.properties.quality),
             infrastructure,
