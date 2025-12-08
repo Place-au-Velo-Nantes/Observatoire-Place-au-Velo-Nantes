@@ -97,7 +97,7 @@ const fixDoneDate = (doneAt) => {
     console.error(`Invalid year '${doneAt}', expected a 4-digit year like 2025`);
     process.exit(1);
   }
-  return `${doneAt}`;
+  return `01/01/${doneAt}`;
 };
 
 // Function to add dangers to appropriate lines
