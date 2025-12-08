@@ -7,140 +7,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.526308622,
-            47.228460116
-          ],
-          [
-            -1.525642462,
-            47.228919904
-          ],
-          [
-            -1.524936987,
-            47.22945088
-          ],
-          [
-            -1.523910595,
-            47.230279057
-          ],
-          [
-            -1.523235323,
-            47.2307688
-          ],
-          [
-            -1.522736145,
-            47.231417311
-          ],
-          [
-            -1.521574153,
-            47.233193154
-          ],
-          [
-            -1.521234112,
-            47.23368298
-          ],
-          [
-            -1.519316142,
-            47.235464467
-          ],
-          [
-            -1.51845137,
-            47.236184261
-          ],
-          [
-            -1.517168246,
-            47.237201009
-          ],
-          [
-            -1.516804019,
-            47.237321487
-          ],
-          [
-            -1.514139832,
-            47.23887298
-          ],
-          [
-            -1.512598869,
-            47.240210865
-          ],
-          [
-            -1.512278887,
-            47.240414048
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Route de Sainte Luce",
-        "status": "wip",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#19"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.529480212,
-            47.225044515
-          ],
-          [
-            -1.529250126,
-            47.225544252
-          ],
-          [
-            -1.528967552,
-            47.226117183
-          ],
-          [
-            -1.528809779,
-            47.226444192
-          ],
-          [
-            -1.528407162,
-            47.226894112
-          ],
-          [
-            -1.527869363,
-            47.227362379
-          ],
-          [
-            -1.527045366,
-            47.227962796
-          ],
-          [
-            -1.526419366,
-            47.228383679
-          ],
-          [
-            -1.526304055,
-            47.228460316
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Boulevard Ernest Dalby",
-        "status": "wip",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#26"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.545721891,
             47.194133055
           ],
@@ -223,7 +89,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#28"
+        "id": "sans-titre#17"
       }
     },
     {
@@ -312,7 +178,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#53"
+        "id": "sans-titre#40"
       }
     },
     {
@@ -433,7 +299,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#56"
+        "id": "sans-titre#43"
       }
     },
     {
@@ -468,7 +334,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#62"
+        "id": "sans-titre#49"
       }
     },
     {
@@ -585,7 +451,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#69"
+        "id": "sans-titre#56"
       }
     },
     {
@@ -652,7 +518,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#70"
+        "id": "sans-titre#57"
       }
     },
     {
@@ -707,7 +573,377 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#75"
+        "id": "sans-titre#60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.723772,
+            47.137193
+          ],
+          [
+            -1.722463,
+            47.137383
+          ],
+          [
+            -1.720017,
+            47.138726
+          ],
+          [
+            -1.719566,
+            47.139674
+          ],
+          [
+            -1.718901,
+            47.139616
+          ],
+          [
+            -1.717893,
+            47.138755
+          ],
+          [
+            -1.716691,
+            47.139762
+          ],
+          [
+            -1.714524,
+            47.140331
+          ],
+          [
+            -1.71255,
+            47.141076
+          ],
+          [
+            -1.70843,
+            47.141368
+          ],
+          [
+            -1.706713,
+            47.141835
+          ],
+          [
+            -1.701628,
+            47.142404
+          ],
+          [
+            -1.699074,
+            47.142798
+          ],
+          [
+            -1.695147,
+            47.143776
+          ],
+          [
+            -1.694214,
+            47.143812
+          ],
+          [
+            -1.693334,
+            47.143958
+          ],
+          [
+            -1.691875,
+            47.143929
+          ],
+          [
+            -1.689504,
+            47.144002
+          ],
+          [
+            -1.6868,
+            47.144177
+          ],
+          [
+            -1.685422,
+            47.143929
+          ],
+          [
+            -1.683984,
+            47.144046
+          ],
+          [
+            -1.681495,
+            47.143769
+          ],
+          [
+            -1.678684,
+            47.143608
+          ],
+          [
+            -1.676667,
+            47.143112
+          ],
+          [
+            -1.675015,
+            47.142966
+          ],
+          [
+            -1.672311,
+            47.141973
+          ],
+          [
+            -1.670294,
+            47.141667
+          ],
+          [
+            -1.669178,
+            47.141711
+          ],
+          [
+            -1.661797,
+            47.143783
+          ],
+          [
+            -1.656811,
+            47.144227
+          ],
+          [
+            -1.653399,
+            47.145511
+          ],
+          [
+            -1.649129,
+            47.14681
+          ],
+          [
+            -1.642584,
+            47.148109
+          ],
+          [
+            -1.638679,
+            47.150035
+          ],
+          [
+            -1.636233,
+            47.152282
+          ],
+          [
+            -1.627049,
+            47.163021
+          ],
+          [
+            -1.627307,
+            47.165268
+          ],
+          [
+            -1.626384,
+            47.165166
+          ],
+          [
+            -1.624431,
+            47.166683
+          ],
+          [
+            -1.62426,
+            47.167208
+          ],
+          [
+            -1.625032,
+            47.169323
+          ],
+          [
+            -1.624131,
+            47.171088
+          ],
+          [
+            -1.623737,
+            47.172972
+          ],
+          [
+            -1.623807,
+            47.175053
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "G#1",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561561,
+            47.199766
+          ],
+          [
+            -1.563921,
+            47.199635
+          ],
+          [
+            -1.567247,
+            47.199518
+          ],
+          [
+            -1.570423,
+            47.199474
+          ],
+          [
+            -1.571474,
+            47.199678
+          ],
+          [
+            -1.574221,
+            47.199926
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Quai président Wilson Ouest",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "maillage",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.526308622,
+            47.228460116
+          ],
+          [
+            -1.525642462,
+            47.228919904
+          ],
+          [
+            -1.524936987,
+            47.22945088
+          ],
+          [
+            -1.523910595,
+            47.230279057
+          ],
+          [
+            -1.523235323,
+            47.2307688
+          ],
+          [
+            -1.522736145,
+            47.231417311
+          ],
+          [
+            -1.521574153,
+            47.233193154
+          ],
+          [
+            -1.521234112,
+            47.23368298
+          ],
+          [
+            -1.519316142,
+            47.235464467
+          ],
+          [
+            -1.51845137,
+            47.236184261
+          ],
+          [
+            -1.517168246,
+            47.237201009
+          ],
+          [
+            -1.516804019,
+            47.237321487
+          ],
+          [
+            -1.514139832,
+            47.23887298
+          ],
+          [
+            -1.512598869,
+            47.240210865
+          ],
+          [
+            -1.512278887,
+            47.240414048
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Route de Sainte Luce",
+        "status": "wip",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "sans-titre#87"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.529480212,
+            47.225044515
+          ],
+          [
+            -1.529250126,
+            47.225544252
+          ],
+          [
+            -1.528967552,
+            47.226117183
+          ],
+          [
+            -1.528809779,
+            47.226444192
+          ],
+          [
+            -1.528407162,
+            47.226894112
+          ],
+          [
+            -1.527869363,
+            47.227362379
+          ],
+          [
+            -1.527045366,
+            47.227962796
+          ],
+          [
+            -1.526419366,
+            47.228383679
+          ],
+          [
+            -1.526304055,
+            47.228460316
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Boulevard Ernest Dalby",
+        "status": "wip",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "sans-titre#89"
       }
     },
     {
@@ -1007,7 +1243,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#1",
+        "name": "G#2",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1044,7 +1280,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#118"
+        "id": "sans-titre#131"
       }
     },
     {
@@ -1087,7 +1323,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#119"
+        "id": "sans-titre#132"
       }
     },
     {
@@ -1284,48 +1520,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.561561,
-            47.199766
-          ],
-          [
-            -1.563921,
-            47.199635
-          ],
-          [
-            -1.567247,
-            47.199518
-          ],
-          [
-            -1.570423,
-            47.199474
-          ],
-          [
-            -1.571474,
-            47.199678
-          ],
-          [
-            -1.574221,
-            47.199926
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Quai président Wilson Ouest",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
-        "infrastructure": "maillage",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.553331,
             47.185401
           ],
@@ -1364,7 +1558,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#130"
+        "id": "sans-titre#142"
       }
     },
     {
@@ -1471,7 +1665,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#137"
+        "id": "sans-titre#149"
       }
     },
     {
@@ -1502,7 +1696,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "",
         "link": "",
-        "id": "sans-titre#144"
+        "id": "sans-titre#156"
       }
     },
     {
@@ -1545,7 +1739,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "",
         "link": "",
-        "id": "sans-titre#151"
+        "id": "sans-titre#163"
       }
     },
     {

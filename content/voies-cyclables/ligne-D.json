@@ -101,52 +101,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.63904872,
-            47.260163739
-          ],
-          [
-            -1.640054555,
-            47.260344634
-          ],
-          [
-            -1.640519034,
-            47.260391877
-          ],
-          [
-            -1.642219474,
-            47.260682317
-          ],
-          [
-            -1.642578789,
-            47.2607114
-          ],
-          [
-            -1.643149079,
-            47.260675605
-          ],
-          [
-            -1.64389166,
-            47.260796325
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Avenue de la Bugallière Ouest",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "chaucidou",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.614371,
             47.249639
           ],
@@ -171,36 +125,6 @@
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.569414285,
-            47.218032234
-          ],
-          [
-            -1.570316603,
-            47.220755609
-          ],
-          [
-            -1.570802194,
-            47.222328961
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Rue Charles Monselet",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "voie-bus",
-        "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -283,52 +207,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.653978755,
-            47.259377847
-          ],
-          [
-            -1.652994763,
-            47.260242344
-          ],
-          [
-            -1.65253245,
-            47.26138221
-          ],
-          [
-            -1.650685068,
-            47.261184252
-          ],
-          [
-            -1.647999073,
-            47.2614317
-          ],
-          [
-            -1.64644339,
-            47.261357462
-          ],
-          [
-            -1.643891087,
-            47.260796577
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Rue Léon Gaumont",
-        "status": "planned",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.563545406,
             47.215061701
           ],
@@ -389,7 +267,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#36"
+        "id": "sans-titre#25"
       }
     },
     {
@@ -434,44 +312,6 @@
         "doneAt": "01/01/2000",
         "type": "voie-bus",
         "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.570775601,
-            47.222279085
-          ],
-          [
-            -1.573505444,
-            47.222737277
-          ],
-          [
-            -1.574067655,
-            47.222839097
-          ],
-          [
-            -1.574436215,
-            47.22320395
-          ],
-          [
-            -1.574398734,
-            47.223390619
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Via Rue George Sand",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -640,7 +480,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#56"
+        "id": "sans-titre#43"
       }
     },
     {
@@ -675,7 +515,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#62"
+        "id": "sans-titre#49"
       }
     },
     {
@@ -702,53 +542,6 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.502404,
-            47.209995
-          ],
-          [
-            -1.507983,
-            47.209849
-          ],
-          [
-            -1.512017,
-            47.209062
-          ],
-          [
-            -1.513905,
-            47.208275
-          ],
-          [
-            -1.518626,
-            47.207517
-          ],
-          [
-            -1.522706538,
-            47.205082756
-          ],
-          [
-            -1.523551996,
-            47.204845079
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Boulevard des Pas enchantés - senghor/croix blanche",
-        "status": "wip",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#73"
       }
     },
     {
@@ -799,6 +592,213 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.63904872,
+            47.260163739
+          ],
+          [
+            -1.640054555,
+            47.260344634
+          ],
+          [
+            -1.640519034,
+            47.260391877
+          ],
+          [
+            -1.642219474,
+            47.260682317
+          ],
+          [
+            -1.642578789,
+            47.2607114
+          ],
+          [
+            -1.643149079,
+            47.260675605
+          ],
+          [
+            -1.64389166,
+            47.260796325
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Avenue de la Bugallière Ouest",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "chaucidou",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.569414285,
+            47.218032234
+          ],
+          [
+            -1.570316603,
+            47.220755609
+          ],
+          [
+            -1.570802194,
+            47.222328961
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Rue Charles Monselet",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "voie-bus",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.653978755,
+            47.259377847
+          ],
+          [
+            -1.652994763,
+            47.260242344
+          ],
+          [
+            -1.65253245,
+            47.26138221
+          ],
+          [
+            -1.650685068,
+            47.261184252
+          ],
+          [
+            -1.647999073,
+            47.2614317
+          ],
+          [
+            -1.64644339,
+            47.261357462
+          ],
+          [
+            -1.643891087,
+            47.260796577
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Rue Léon Gaumont",
+        "status": "planned",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.570775601,
+            47.222279085
+          ],
+          [
+            -1.573505444,
+            47.222737277
+          ],
+          [
+            -1.574067655,
+            47.222839097
+          ],
+          [
+            -1.574436215,
+            47.22320395
+          ],
+          [
+            -1.574398734,
+            47.223390619
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Via Rue George Sand",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.502404,
+            47.209995
+          ],
+          [
+            -1.507983,
+            47.209849
+          ],
+          [
+            -1.512017,
+            47.209062
+          ],
+          [
+            -1.513905,
+            47.208275
+          ],
+          [
+            -1.518626,
+            47.207517
+          ],
+          [
+            -1.522706538,
+            47.205082756
+          ],
+          [
+            -1.523551996,
+            47.204845079
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Boulevard des Pas enchantés - senghor/croix blanche",
+        "status": "done",
+        "doneAt": "2025",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "sans-titre#93"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.539568219,
             47.213716402
           ],
@@ -820,9 +820,9 @@
         "line": "D",
         "name": "Gare Sud",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "2022",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -927,7 +927,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#94"
+        "id": "sans-titre#107"
       }
     },
     {
@@ -1059,12 +1059,12 @@
         "line": "D",
         "name": "Cours des 50 otages",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "2013",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#134"
+        "id": "sans-titre#146"
       }
     },
     {
@@ -1148,9 +1148,9 @@
         "line": "D",
         "name": "Allée Baco",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "2015",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": ""
       }
@@ -1185,6 +1185,252 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
+        "infrastructure": "",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5920982,
+            47.2344535
+          ],
+          [
+            -1.5925193,
+            47.2346807
+          ],
+          [
+            -1.5939386,
+            47.2354454
+          ],
+          [
+            -1.5940931,
+            47.235525
+          ],
+          [
+            -1.5944833,
+            47.2357345
+          ],
+          [
+            -1.5947047,
+            47.2358931
+          ],
+          [
+            -1.5948677,
+            47.2360282
+          ],
+          [
+            -1.5948983,
+            47.2360602
+          ],
+          [
+            -1.5949481,
+            47.2361124
+          ],
+          [
+            -1.595057,
+            47.2362414
+          ],
+          [
+            -1.595155,
+            47.2363914
+          ],
+          [
+            -1.5952371,
+            47.2365603
+          ],
+          [
+            -1.595288,
+            47.2366875
+          ],
+          [
+            -1.5954792,
+            47.2372757
+          ],
+          [
+            -1.5956255,
+            47.2377494
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Avenue des Grands Bois",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.593494,
+            47.238557
+          ],
+          [
+            -1.593431,
+            47.2383374
+          ],
+          [
+            -1.5934285,
+            47.2382849
+          ],
+          [
+            -1.5936605,
+            47.2379762
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Avenue des Genêts",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.593494,
+            47.238557
+          ],
+          [
+            -1.5937068,
+            47.2392771
+          ],
+          [
+            -1.593722,
+            47.2393899
+          ],
+          [
+            -1.5937128,
+            47.2395248
+          ],
+          [
+            -1.5934951,
+            47.2398796
+          ],
+          [
+            -1.593357,
+            47.2400052
+          ],
+          [
+            -1.5931732,
+            47.2401691
+          ],
+          [
+            -1.5927073,
+            47.2405805
+          ],
+          [
+            -1.5926319,
+            47.2406494
+          ],
+          [
+            -1.5925763,
+            47.2406973
+          ],
+          [
+            -1.592505916,
+            47.240790265
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Avenue de la Passagère",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5936605,
+            47.2379762
+          ],
+          [
+            -1.5938118,
+            47.2379708
+          ],
+          [
+            -1.5956255,
+            47.2377494
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Avenue de Chambord",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.590203817,
+            47.233444084
+          ],
+          [
+            -1.5902865,
+            47.2334689
+          ],
+          [
+            -1.5906377,
+            47.233665
+          ],
+          [
+            -1.5913658,
+            47.2340651
+          ],
+          [
+            -1.591642,
+            47.2342124
+          ],
+          [
+            -1.5920982,
+            47.2344535
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Avenue des Grands Bois 2",
+        "status": "unknown",
+        "doneAt": "2025",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
         "infrastructure": "",
         "link": ""
       }

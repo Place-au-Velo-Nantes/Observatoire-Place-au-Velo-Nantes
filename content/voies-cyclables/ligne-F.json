@@ -37,140 +37,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.526308622,
-            47.228460116
-          ],
-          [
-            -1.525642462,
-            47.228919904
-          ],
-          [
-            -1.524936987,
-            47.22945088
-          ],
-          [
-            -1.523910595,
-            47.230279057
-          ],
-          [
-            -1.523235323,
-            47.2307688
-          ],
-          [
-            -1.522736145,
-            47.231417311
-          ],
-          [
-            -1.521574153,
-            47.233193154
-          ],
-          [
-            -1.521234112,
-            47.23368298
-          ],
-          [
-            -1.519316142,
-            47.235464467
-          ],
-          [
-            -1.51845137,
-            47.236184261
-          ],
-          [
-            -1.517168246,
-            47.237201009
-          ],
-          [
-            -1.516804019,
-            47.237321487
-          ],
-          [
-            -1.514139832,
-            47.23887298
-          ],
-          [
-            -1.512598869,
-            47.240210865
-          ],
-          [
-            -1.512278887,
-            47.240414048
-          ]
-        ]
-      },
-      "properties": {
-        "line": "F",
-        "name": "Route de Sainte Luce",
-        "status": "wip",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#19"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.529480212,
-            47.225044515
-          ],
-          [
-            -1.529250126,
-            47.225544252
-          ],
-          [
-            -1.528967552,
-            47.226117183
-          ],
-          [
-            -1.528809779,
-            47.226444192
-          ],
-          [
-            -1.528407162,
-            47.226894112
-          ],
-          [
-            -1.527869363,
-            47.227362379
-          ],
-          [
-            -1.527045366,
-            47.227962796
-          ],
-          [
-            -1.526419366,
-            47.228383679
-          ],
-          [
-            -1.526304055,
-            47.228460316
-          ]
-        ]
-      },
-      "properties": {
-        "line": "F",
-        "name": "Boulevard Ernest Dalby",
-        "status": "wip",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#26"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.546867824,
             47.216363473
           ],
@@ -417,36 +283,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.545792476,
-            47.216606163
-          ],
-          [
-            -1.546509455,
-            47.216504945
-          ],
-          [
-            -1.546867824,
-            47.216363473
-          ]
-        ]
-      },
-      "properties": {
-        "line": "F",
-        "name": "Place de la Duchesse Anne",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "voie-verte",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.545793788,
             47.216607644
           ],
@@ -585,7 +421,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#53"
+        "id": "sans-titre#40"
       }
     },
     {
@@ -640,7 +476,171 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#75"
+        "id": "sans-titre#60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.526308622,
+            47.228460116
+          ],
+          [
+            -1.525642462,
+            47.228919904
+          ],
+          [
+            -1.524936987,
+            47.22945088
+          ],
+          [
+            -1.523910595,
+            47.230279057
+          ],
+          [
+            -1.523235323,
+            47.2307688
+          ],
+          [
+            -1.522736145,
+            47.231417311
+          ],
+          [
+            -1.521574153,
+            47.233193154
+          ],
+          [
+            -1.521234112,
+            47.23368298
+          ],
+          [
+            -1.519316142,
+            47.235464467
+          ],
+          [
+            -1.51845137,
+            47.236184261
+          ],
+          [
+            -1.517168246,
+            47.237201009
+          ],
+          [
+            -1.516804019,
+            47.237321487
+          ],
+          [
+            -1.514139832,
+            47.23887298
+          ],
+          [
+            -1.512598869,
+            47.240210865
+          ],
+          [
+            -1.512278887,
+            47.240414048
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de Sainte Luce",
+        "status": "wip",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "sans-titre#87"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.529480212,
+            47.225044515
+          ],
+          [
+            -1.529250126,
+            47.225544252
+          ],
+          [
+            -1.528967552,
+            47.226117183
+          ],
+          [
+            -1.528809779,
+            47.226444192
+          ],
+          [
+            -1.528407162,
+            47.226894112
+          ],
+          [
+            -1.527869363,
+            47.227362379
+          ],
+          [
+            -1.527045366,
+            47.227962796
+          ],
+          [
+            -1.526419366,
+            47.228383679
+          ],
+          [
+            -1.526304055,
+            47.228460316
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Boulevard Ernest Dalby",
+        "status": "wip",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "sans-titre#89"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.545792476,
+            47.216606163
+          ],
+          [
+            -1.546509455,
+            47.216504945
+          ],
+          [
+            -1.546867824,
+            47.216363473
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Place de la Duchesse Anne",
+        "status": "done",
+        "doneAt": "2020",
+        "type": "voie-verte",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
       }
     },
     {
@@ -675,7 +675,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#85"
+        "id": "sans-titre#100"
       }
     },
     {
@@ -740,7 +740,7 @@
         "name": "Bd du prof Auvigne",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bandes-cyclables",
         "quality": "not-rated-yet",
         "infrastructure": "secondaire",
         "link": ""
@@ -863,12 +863,12 @@
         "line": "F",
         "name": "Porte de Carquefou - Porte de Sainte Luce",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "2014",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#117"
+        "id": "sans-titre#130"
       }
     },
     {
@@ -899,7 +899,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#118"
+        "id": "sans-titre#131"
       }
     },
     {

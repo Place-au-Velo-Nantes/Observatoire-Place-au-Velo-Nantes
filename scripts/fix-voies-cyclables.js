@@ -224,8 +224,10 @@ const processVoiesFiles = () => {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Read all JSON files from brut directory, excluding dangers.geojson
-  const files = fs.readdirSync(brutDir).filter((file) => file.endsWith('.geojson') && file !== 'dangers.geojson');
+  // Read all JSON files from brut directory, excluding dangers.geojson and gvv-missing-info.geojson
+  const files = fs
+    .readdirSync(brutDir)
+    .filter((file) => file.endsWith('.geojson') && file !== 'dangers.geojson' && file !== 'gvv-missing-info.geojson');
 
   console.log(`Found ${files.length} files to process...`);
 
@@ -240,6 +242,34 @@ const processVoiesFiles = () => {
     try {
       // Read the raw JSON file
       const rawData = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
+
+      if (filename === 'gvv.geojson') {
+        const missingInfoPath = path.join(brutDir, 'gvv-missing-info.geojson');
+        if (fs.existsSync(missingInfoPath)) {
+          console.log('Merging gvv-missing-info.geojson into gvv.geojson...');
+          const missingInfoData = JSON.parse(fs.readFileSync(missingInfoPath, 'utf8'));
+
+          // Create set of names from missing info (ignoring empty names)
+          const missingInfoNames = new Set(
+            missingInfoData.features.map((f) => f.properties.name).filter((name) => name && name.trim() !== ''),
+          );
+
+          // Filter out features from gvv that exist in missing info
+          const originalCount = rawData.features.length;
+          rawData.features = rawData.features.filter((f) => {
+            const name = f.properties.name;
+            return !name || name.trim() === '' || !missingInfoNames.has(name);
+          });
+
+          console.log(
+            `Removed ${originalCount - rawData.features.length} features from gvv.geojson that are present in missing info.`,
+          );
+
+          // Add all features from missing info
+          rawData.features.push(...missingInfoData.features);
+          console.log(`Added ${missingInfoData.features.length} features from missing info.`);
+        }
+      }
 
       // Process each feature
       rawData.features.map((feature, index) => {

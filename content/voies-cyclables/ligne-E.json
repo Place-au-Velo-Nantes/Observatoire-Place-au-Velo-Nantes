@@ -441,48 +441,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.556588888,
-            47.243472823
-          ],
-          [
-            -1.556351681,
-            47.243951327
-          ],
-          [
-            -1.556317794,
-            47.244632269
-          ],
-          [
-            -1.556067033,
-            47.245239588
-          ],
-          [
-            -1.555606174,
-            47.2458515
-          ],
-          [
-            -1.555450296,
-            47.246514014
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "Boulevard Guy Mollet Sud",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.554733466,
             47.220077336
           ],
@@ -765,7 +723,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#28"
+        "id": "sans-titre#17"
       }
     },
     {
@@ -874,7 +832,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#36"
+        "id": "sans-titre#25"
       }
     },
     {
@@ -1135,7 +1093,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#66"
+        "id": "sans-titre#53"
       }
     },
     {
@@ -1280,6 +1238,150 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.591081593,
+            47.154906403
+          ],
+          [
+            -1.590175355,
+            47.155999066
+          ],
+          [
+            -1.590217304,
+            47.15684137
+          ],
+          [
+            -1.59156,
+            47.158262
+          ],
+          [
+            -1.580702,
+            47.166345
+          ],
+          [
+            -1.584096899,
+            47.169772457
+          ],
+          [
+            -1.583923058,
+            47.170399302
+          ],
+          [
+            -1.584542239,
+            47.170587896
+          ],
+          [
+            -1.584543133,
+            47.170787121
+          ],
+          [
+            -1.582696545,
+            47.170334107
+          ],
+          [
+            -1.582212152,
+            47.171374675
+          ],
+          [
+            -1.577761306,
+            47.171339713
+          ],
+          [
+            -1.576361908,
+            47.1699888
+          ],
+          [
+            -1.576024,
+            47.170021
+          ],
+          [
+            -1.568128,
+            47.175535
+          ],
+          [
+            -1.565682,
+            47.175622
+          ],
+          [
+            -1.562163,
+            47.177139
+          ],
+          [
+            -1.556326,
+            47.18134
+          ],
+          [
+            -1.555277558,
+            47.183621844
+          ],
+          [
+            -1.554317487,
+            47.18466402
+          ],
+          [
+            -1.553331,
+            47.185401
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "E#1",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.556588888,
+            47.243472823
+          ],
+          [
+            -1.556351681,
+            47.243951327
+          ],
+          [
+            -1.556317794,
+            47.244632269
+          ],
+          [
+            -1.556067033,
+            47.245239588
+          ],
+          [
+            -1.555945257,
+            47.245372209
+          ],
+          [
+            -1.555910839,
+            47.24540802
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Boulevard Guy Mollet Sud",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.554213187,
             47.239389944
           ],
@@ -1387,7 +1489,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1398,12 +1500,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.555469292,
-            47.246513525
+            -1.554535617,
+            47.249255716
           ],
           [
-            -1.554521623,
-            47.249267676
+            -1.554524609,
+            47.249272571
+          ],
+          [
+            -1.554523491,
+            47.249290213
+          ],
+          [
+            -1.554511441,
+            47.249315088
+          ],
+          [
+            -1.554494018,
+            47.24935638
           ],
           [
             -1.553317291,
@@ -1415,9 +1529,9 @@
         "line": "E",
         "name": "Boulevard Guy Mollet Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "2020",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1487,7 +1601,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1585,7 +1699,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "E#1",
+        "name": "E#2",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1638,7 +1752,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#130"
+        "id": "sans-titre#142"
       }
     },
     {
@@ -1672,12 +1786,12 @@
         "line": "E",
         "name": "Cours des 50 otages",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "2013",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#134"
+        "id": "sans-titre#146"
       }
     },
     {
@@ -1708,7 +1822,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#137"
+        "id": "sans-titre#149"
       }
     },
     {
@@ -1769,7 +1883,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "",
         "link": "",
-        "id": "sans-titre#144"
+        "id": "sans-titre#156"
       }
     },
     {
@@ -1808,7 +1922,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#150"
+        "id": "sans-titre#162"
       }
     },
     {
@@ -1843,7 +1957,71 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#153"
+        "id": "sans-titre#165"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.555912962,
+            47.24540967
+          ],
+          [
+            -1.55564203,
+            47.245777242
+          ],
+          [
+            -1.555511482,
+            47.2461566
+          ],
+          [
+            -1.55545077,
+            47.246522993
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Boulevard Guy Mollet Nord-3",
+        "status": "done",
+        "doneAt": "2025",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.554532338,
+            47.249260867
+          ],
+          [
+            -1.555233332,
+            47.247371872
+          ],
+          [
+            -1.555450769,
+            47.246522653
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Boulevard Guy Mollet Nord-4",
+        "status": "done",
+        "doneAt": "2025",
+        "type": "voie-bus",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
       }
     },
     {

@@ -163,100 +163,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.556788397,
-            47.257677451
-          ],
-          [
-            -1.55386,
-            47.257731
-          ],
-          [
-            -1.546672,
-            47.256966
-          ],
-          [
-            -1.545749,
-            47.25666
-          ],
-          [
-            -1.544719,
-            47.25685
-          ],
-          [
-            -1.542881375,
-            47.256669863
-          ],
-          [
-            -1.540018083,
-            47.256076265
-          ],
-          [
-            -1.53678,
-            47.255175
-          ],
-          [
-            -1.536243,
-            47.255219
-          ],
-          [
-            -1.531609,
-            47.254782
-          ],
-          [
-            -1.525064,
-            47.254461
-          ],
-          [
-            -1.52412,
-            47.25417
-          ],
-          [
-            -1.523455,
-            47.25385
-          ],
-          [
-            -1.523176,
-            47.253966
-          ],
-          [
-            -1.52279,
-            47.253952
-          ],
-          [
-            -1.522661,
-            47.254155
-          ],
-          [
-            -1.518899,
-            47.253028
-          ],
-          [
-            -1.517428443,
-            47.25241346
-          ],
-          [
-            -1.516764832,
-            47.252157967
-          ]
-        ]
-      },
-      "properties": {
-        "line": "H",
-        "name": "Porte de la Chapelle - Porte de Carquefou",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.582794778,
             47.261488345
           ],
@@ -383,107 +289,6 @@
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.502057068,
-            47.246244732
-          ],
-          [
-            -1.501703286,
-            47.246755838
-          ],
-          [
-            -1.503500678,
-            47.24764379
-          ],
-          [
-            -1.504133227,
-            47.247413191
-          ]
-        ]
-      },
-      "properties": {
-        "line": "H",
-        "name": "Rue Albert Londres/ Rue Marguerite Yourcenar",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#85"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.594040232,
-            47.262583652
-          ],
-          [
-            -1.59376606,
-            47.262541907
-          ],
-          [
-            -1.592698916,
-            47.262085487
-          ],
-          [
-            -1.592307837,
-            47.262029702
-          ],
-          [
-            -1.591984013,
-            47.261931654
-          ],
-          [
-            -1.591612213,
-            47.261699762
-          ],
-          [
-            -1.590945507,
-            47.261504914
-          ],
-          [
-            -1.590016144,
-            47.26129041
-          ],
-          [
-            -1.588833293,
-            47.26108978
-          ],
-          [
-            -1.587448322,
-            47.260917348
-          ],
-          [
-            -1.586664114,
-            47.260820307
-          ],
-          [
-            -1.586415672,
-            47.260849434
-          ]
-        ]
-      },
-      "properties": {
-        "line": "H",
-        "name": "Boulevard Mendès France/Cardo",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -634,6 +439,399 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.486406415,
+            47.247545334
+          ],
+          [
+            -1.485803374,
+            47.247814718
+          ],
+          [
+            -1.483936482,
+            47.248309048
+          ],
+          [
+            -1.484253306,
+            47.248800627
+          ],
+          [
+            -1.483645418,
+            47.248968165
+          ],
+          [
+            -1.484110955,
+            47.249420237
+          ],
+          [
+            -1.483587226,
+            47.249797693
+          ],
+          [
+            -1.483865255,
+            47.250131256
+          ],
+          [
+            -1.483186347,
+            47.250416538
+          ],
+          [
+            -1.482989874,
+            47.250425198
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "H#3",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.556788397,
+            47.257677451
+          ],
+          [
+            -1.55386,
+            47.257731
+          ],
+          [
+            -1.546672,
+            47.256966
+          ],
+          [
+            -1.545749,
+            47.25666
+          ],
+          [
+            -1.544719,
+            47.25685
+          ],
+          [
+            -1.542881375,
+            47.256669863
+          ],
+          [
+            -1.540018083,
+            47.256076265
+          ],
+          [
+            -1.53678,
+            47.255175
+          ],
+          [
+            -1.536243,
+            47.255219
+          ],
+          [
+            -1.531609,
+            47.254782
+          ],
+          [
+            -1.525064,
+            47.254461
+          ],
+          [
+            -1.52412,
+            47.25417
+          ],
+          [
+            -1.523455,
+            47.25385
+          ],
+          [
+            -1.523176,
+            47.253966
+          ],
+          [
+            -1.52279,
+            47.253952
+          ],
+          [
+            -1.522661,
+            47.254155
+          ],
+          [
+            -1.518899,
+            47.253028
+          ],
+          [
+            -1.517428443,
+            47.25241346
+          ],
+          [
+            -1.516764832,
+            47.252157967
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "Porte de la Chapelle - Porte de Carquefou",
+        "status": "done",
+        "doneAt": "2014",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.502057068,
+            47.246244732
+          ],
+          [
+            -1.501703286,
+            47.246755838
+          ],
+          [
+            -1.503500678,
+            47.24764379
+          ],
+          [
+            -1.504133227,
+            47.247413191
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "Rue Albert Londres/ Rue Marguerite Yourcenar",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": "",
+        "id": "sans-titre#100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.594040232,
+            47.262583652
+          ],
+          [
+            -1.59376606,
+            47.262541907
+          ],
+          [
+            -1.592698916,
+            47.262085487
+          ],
+          [
+            -1.592307837,
+            47.262029702
+          ],
+          [
+            -1.591984013,
+            47.261931654
+          ],
+          [
+            -1.591612213,
+            47.261699762
+          ],
+          [
+            -1.590945507,
+            47.261504914
+          ],
+          [
+            -1.590016144,
+            47.26129041
+          ],
+          [
+            -1.588833293,
+            47.26108978
+          ],
+          [
+            -1.587448322,
+            47.260917348
+          ],
+          [
+            -1.586664114,
+            47.260820307
+          ],
+          [
+            -1.586415672,
+            47.260849434
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "Boulevard Mendès France/Cardo",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bidirectionnelle",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.471267647,
+            47.225226152
+          ],
+          [
+            -1.470996875,
+            47.225562026
+          ],
+          [
+            -1.470613192,
+            47.225908358
+          ],
+          [
+            -1.469958737,
+            47.226050334
+          ],
+          [
+            -1.468690885,
+            47.22609031
+          ],
+          [
+            -1.467993038,
+            47.226263042
+          ],
+          [
+            -1.467262661,
+            47.225506614
+          ],
+          [
+            -1.466920265,
+            47.225397333
+          ],
+          [
+            -1.466519,
+            47.224863
+          ],
+          [
+            -1.464459,
+            47.223304
+          ],
+          [
+            -1.461004,
+            47.216877
+          ],
+          [
+            -1.46197,
+            47.216717
+          ],
+          [
+            -1.465291,
+            47.216486
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "H#4",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "maillage",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.48641902,
+            47.247546386
+          ],
+          [
+            -1.485417045,
+            47.246269069
+          ],
+          [
+            -1.484634,
+            47.245524
+          ],
+          [
+            -1.483433,
+            47.243893
+          ],
+          [
+            -1.48266,
+            47.243397
+          ],
+          [
+            -1.480686,
+            47.241067
+          ],
+          [
+            -1.476437,
+            47.239289
+          ],
+          [
+            -1.476437,
+            47.23824
+          ],
+          [
+            -1.47751,
+            47.237017
+          ],
+          [
+            -1.476824,
+            47.235691
+          ],
+          [
+            -1.47705758,
+            47.235452656
+          ],
+          [
+            -1.476513128,
+            47.234712398
+          ],
+          [
+            -1.474679252,
+            47.233440845
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "H#5",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.516764832,
             47.252157967
           ],
@@ -667,12 +865,12 @@
         "line": "H",
         "name": "Porte de Carquefou - Porte de Sainte Luce",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "2014",
         "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#117"
+        "id": "sans-titre#130"
       }
     },
     {
@@ -715,7 +913,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#119"
+        "id": "sans-titre#132"
       }
     },
     {
@@ -792,7 +990,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "",
         "link": "",
-        "id": "sans-titre#151"
+        "id": "sans-titre#163"
       }
     },
     {
@@ -844,7 +1042,7 @@
       },
       "properties": {
         "line": "H",
-        "name": "H#3",
+        "name": "H#6",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -885,7 +1083,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#153"
+        "id": "sans-titre#165"
       }
     }
   ]
