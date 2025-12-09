@@ -1238,108 +1238,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.591081593,
-            47.154906403
-          ],
-          [
-            -1.590175355,
-            47.155999066
-          ],
-          [
-            -1.590217304,
-            47.15684137
-          ],
-          [
-            -1.59156,
-            47.158262
-          ],
-          [
-            -1.580702,
-            47.166345
-          ],
-          [
-            -1.584096899,
-            47.169772457
-          ],
-          [
-            -1.583923058,
-            47.170399302
-          ],
-          [
-            -1.584542239,
-            47.170587896
-          ],
-          [
-            -1.584543133,
-            47.170787121
-          ],
-          [
-            -1.582696545,
-            47.170334107
-          ],
-          [
-            -1.582212152,
-            47.171374675
-          ],
-          [
-            -1.577761306,
-            47.171339713
-          ],
-          [
-            -1.576361908,
-            47.1699888
-          ],
-          [
-            -1.576024,
-            47.170021
-          ],
-          [
-            -1.568128,
-            47.175535
-          ],
-          [
-            -1.565682,
-            47.175622
-          ],
-          [
-            -1.562163,
-            47.177139
-          ],
-          [
-            -1.556326,
-            47.18134
-          ],
-          [
-            -1.555277558,
-            47.183621844
-          ],
-          [
-            -1.554317487,
-            47.18466402
-          ],
-          [
-            -1.553331,
-            47.185401
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "E#1",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.556588888,
             47.243472823
           ],
@@ -1699,7 +1597,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "E#2",
+        "name": "E#1",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -1752,7 +1650,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#142"
+        "id": "sans-titre#130"
       }
     },
     {
@@ -1791,7 +1689,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#146"
+        "id": "sans-titre#134"
       }
     },
     {
@@ -1822,7 +1720,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#149"
+        "id": "sans-titre#137"
       }
     },
     {
@@ -1883,7 +1781,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "",
         "link": "",
-        "id": "sans-titre#156"
+        "id": "sans-titre#144"
       }
     },
     {
@@ -1922,7 +1820,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#162"
+        "id": "sans-titre#150"
       }
     },
     {
@@ -1957,7 +1855,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#165"
+        "id": "sans-titre#153"
       }
     },
     {
@@ -1985,7 +1883,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "Boulevard Guy Mollet Nord-3",
+        "name": "Boulevard Guy Mollet Nord-2",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
@@ -2015,7 +1913,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "Boulevard Guy Mollet Nord-4",
+        "name": "Boulevard Guy Mollet Nord-3",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "voie-bus",
