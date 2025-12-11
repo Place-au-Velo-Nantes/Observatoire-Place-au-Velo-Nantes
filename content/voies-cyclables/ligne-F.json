@@ -936,7 +936,7 @@
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "maillage",
+        "infrastructure": "aucune",
         "link": ""
       }
     },

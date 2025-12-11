@@ -78,7 +78,7 @@ function checkGeoJsonDataHealth({ links }) {
               allLineStrings.push(feature);
               // 2 - check if all properties are present
               const properties = feature.properties || {};
-              const requiredKeys = ['line', 'name', 'status', 'quality'];
+              const requiredKeys = ['line', 'name', 'status', 'quality', 'infrastructure'];
               for (const key of requiredKeys) {
                 if (!Object.hasOwn(properties, key)) {
                   console.error(`Missing key '${key}' in LineString properties of file: ${filePath}`);
@@ -142,6 +142,15 @@ function checkGeoJsonDataHealth({ links }) {
               ];
               if (!validTypes.includes(properties.type)) {
                 console.error(`Invalid type '${properties.type}' in LineString properties of file: ${filePath}`);
+                process.exit(1);
+              }
+
+              // 4.4 - check if infrastructure is valid
+              const validInfrastructures = ['magistrale', 'structurante', 'secondaire', 'maillage', 'aucune'];
+              if (!validInfrastructures.includes(properties.infrastructure)) {
+                console.error(
+                  `Invalid infrastructure '${properties.infrastructure}' in LineString properties of file: ${filePath}`,
+                );
                 process.exit(1);
               }
 

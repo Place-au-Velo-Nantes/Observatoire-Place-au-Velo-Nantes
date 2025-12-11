@@ -9,7 +9,7 @@ const path = require('path');
 - structurante
 - secondaire
 - maillage
-- liaisons
+- aucune
 */
 
 // quality
@@ -324,7 +324,7 @@ const processVoiesFiles = () => {
           } else if (filename === 'structurante.geojson') {
             infrastructure = 'structurante';
           } else {
-            infrastructure = feature.properties.infrastructure || 'maillage';
+            infrastructure = feature.properties.infrastructure || 'aucune';
           }
 
           const doneAt = fixDoneDate(feature.properties.year);

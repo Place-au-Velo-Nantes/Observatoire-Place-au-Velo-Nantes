@@ -127,9 +127,19 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
       infrastructures: ['structurante'],
     },
     {
+      label: 'Secondaire',
+      isEnabled: true,
+      infrastructures: ['secondaire'],
+    },
+    {
       label: 'Maillage',
       isEnabled: true,
       infrastructures: ['maillage'],
+    },
+    {
+      label: 'Aucune',
+      isEnabled: true,
+      infrastructures: ['aucune'],
     },
   ]);
 
