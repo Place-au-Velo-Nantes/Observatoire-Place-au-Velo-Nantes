@@ -935,7 +935,7 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
+        "infrastructure": "maillage",
         "link": ""
       }
     },

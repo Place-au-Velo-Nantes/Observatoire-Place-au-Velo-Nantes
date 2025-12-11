@@ -748,7 +748,7 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
+        "infrastructure": "maillage",
         "link": ""
       }
     },
@@ -790,7 +790,7 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
+        "infrastructure": "maillage",
         "link": "",
         "id": "sans-titre#151"
       }
@@ -849,7 +849,7 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "",
+        "infrastructure": "maillage",
         "link": ""
       }
     },

@@ -324,7 +324,7 @@ const processVoiesFiles = () => {
           } else if (filename === 'structurante.geojson') {
             infrastructure = 'structurante';
           } else {
-            infrastructure = feature.properties.infrastructure || '';
+            infrastructure = feature.properties.infrastructure || 'maillage';
           }
 
           const doneAt = fixDoneDate(feature.properties.year);
