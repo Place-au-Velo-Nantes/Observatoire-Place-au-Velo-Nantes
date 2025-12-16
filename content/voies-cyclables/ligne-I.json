@@ -942,7 +942,7 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "unsatisfactory",
-        "infrastructure": "??",
+        "infrastructure": "aucune",
         "link": ""
       }
     },
@@ -1160,7 +1160,7 @@
         "doneAt": "01/01/2018",
         "type": "aucun",
         "quality": "unsatisfactory",
-        "infrastructure": "??",
+        "infrastructure": "aucune",
         "link": ""
       }
     },
@@ -1194,7 +1194,7 @@
         "doneAt": "01/01/2012",
         "type": "voie-verte",
         "quality": "unsatisfactory",
-        "infrastructure": "??",
+        "infrastructure": "aucune",
         "link": ""
       }
     },
@@ -1252,7 +1252,7 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
-        "infrastructure": "??",
+        "infrastructure": "aucune",
         "link": ""
       }
     },
@@ -1322,7 +1322,7 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
-        "infrastructure": "??",
+        "infrastructure": "aucune",
         "link": ""
       }
     },
@@ -1574,7 +1574,7 @@
         "doneAt": "01/01/2017",
         "type": "voie-verte",
         "quality": "unsatisfactory",
-        "infrastructure": "??",
+        "infrastructure": "aucune",
         "link": ""
       }
     },
@@ -1608,7 +1608,7 @@
         "doneAt": "01/01/2012",
         "type": "voie-verte",
         "quality": "unsatisfactory",
-        "infrastructure": "??",
+        "infrastructure": "aucune",
         "link": ""
       }
     },
@@ -2052,7 +2052,7 @@
         "doneAt": "01/01/2018",
         "type": "inconnu",
         "quality": "unsatisfactory",
-        "infrastructure": "??",
+        "infrastructure": "aucune",
         "link": ""
       }
     },

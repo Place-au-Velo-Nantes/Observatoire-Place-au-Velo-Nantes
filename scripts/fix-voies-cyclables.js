@@ -103,6 +103,18 @@ const fixDoneDate = (doneAt) => {
   return `01/01/${doneAt}`;
 };
 
+const fixInfrastructure = (infrastructure) => {
+  const validInfrastructures = ['magistrale', 'structurante', 'secondaire', 'maillage', 'aucune'];
+
+  if (validInfrastructures.includes(infrastructure)) {
+    return infrastructure;
+  } else if (infrastructure && infrastructure.trim() !== '') {
+    console.error(`Invalid infrastructure '${infrastructure}', defaulting to 'aucune'`);
+  }
+
+  return 'aucune';
+};
+
 // Function to add dangers to appropriate lines
 const addDangersToLines = () => {
   try {
@@ -327,7 +339,7 @@ const processVoiesFiles = () => {
           } else if (filename === 'structurante.geojson') {
             infrastructure = 'structurante';
           } else {
-            infrastructure = feature.properties.infrastructure || 'aucune';
+            infrastructure = fixInfrastructure(feature.properties.infrastructure || 'aucune');
           }
 
           const doneAt = fixDoneDate(feature.properties.year);
