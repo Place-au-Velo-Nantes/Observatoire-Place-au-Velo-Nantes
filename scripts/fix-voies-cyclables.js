@@ -471,17 +471,6 @@ const outputInvalidValues = (invalidValues) => {
 
   fs.writeFileSync(markdownPath, markdown);
   console.log(`\n✓ Invalid values report saved to: ${markdownPath}`);
-
-  // Also save JSON for programmatic access
-  const jsonPath = path.join(__dirname, '../invalid-values-report.json');
-  const report = {
-    generatedAt: new Date().toISOString(),
-    total: invalidValues.length,
-    issues: invalidValues,
-  };
-
-  fs.writeFileSync(jsonPath, JSON.stringify(report, null, 2));
-  console.log(`✓ JSON report saved to: ${jsonPath}`);
 };
 
 // Main execution function
