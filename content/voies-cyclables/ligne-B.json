@@ -432,7 +432,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -619,7 +619,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#43"
+        "id": "sans-titre#42"
       }
     },
     {
@@ -725,7 +725,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -877,7 +877,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1089,10 +1089,10 @@
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#84"
+        "id": "sans-titre#82"
       }
     },
     {
@@ -1242,7 +1242,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }

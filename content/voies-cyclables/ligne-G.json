@@ -89,7 +89,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#17"
+        "id": "sans-titre#16"
       }
     },
     {
@@ -173,12 +173,12 @@
         "line": "G",
         "name": "Boulevard Ernest Dalby Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#40"
+        "id": "sans-titre#39"
       }
     },
     {
@@ -234,7 +234,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -299,7 +299,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#43"
+        "id": "sans-titre#42"
       }
     },
     {
@@ -334,7 +334,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#49"
+        "id": "sans-titre#48"
       }
     },
     {
@@ -394,7 +394,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -446,12 +446,12 @@
         "line": "G",
         "name": "Boulevard Simone Veil",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2021",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#56"
+        "id": "sans-titre#55"
       }
     },
     {
@@ -513,12 +513,12 @@
         "line": "G",
         "name": "Rue Simone Veil",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2024",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#57"
+        "id": "sans-titre#56"
       }
     },
     {
@@ -573,7 +573,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#60"
+        "id": "sans-titre#59"
       }
     },
     {
@@ -611,7 +611,7 @@
         "line": "G",
         "name": "Quai président Wilson Ouest",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2020",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "maillage",
@@ -694,7 +694,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#75"
+        "id": "sans-titre#73"
       }
     },
     {
@@ -749,7 +749,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#77"
+        "id": "sans-titre#75"
       }
     },
     {
@@ -1086,7 +1086,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#119"
+        "id": "sans-titre#116"
       }
     },
     {
@@ -1129,7 +1129,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#120"
+        "id": "sans-titre#117"
       }
     },
     {
@@ -1364,7 +1364,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#130"
+        "id": "sans-titre#127"
       }
     },
     {
@@ -1471,7 +1471,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#137"
+        "id": "sans-titre#134"
       }
     },
     {
@@ -1497,12 +1497,12 @@
         "line": "G",
         "name": "Avenue de la IVème république",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "aucune",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#144"
+        "id": "sans-titre#141"
       }
     },
     {
@@ -1545,7 +1545,65 @@
         "quality": "not-rated-yet",
         "infrastructure": "aucune",
         "link": "",
-        "id": "sans-titre#151"
+        "id": "sans-titre#146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.486406415,
+            47.247545334
+          ],
+          [
+            -1.485803374,
+            47.247814718
+          ],
+          [
+            -1.483936482,
+            47.248309048
+          ],
+          [
+            -1.484253306,
+            47.248800627
+          ],
+          [
+            -1.483645418,
+            47.248968165
+          ],
+          [
+            -1.484110955,
+            47.249420237
+          ],
+          [
+            -1.483587226,
+            47.249797693
+          ],
+          [
+            -1.483865255,
+            47.250131256
+          ],
+          [
+            -1.483186347,
+            47.250416538
+          ],
+          [
+            -1.482989874,
+            47.250425198
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "G#2",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "not-rated-yet",
+        "infrastructure": "aucune",
+        "link": ""
       }
     },
     {

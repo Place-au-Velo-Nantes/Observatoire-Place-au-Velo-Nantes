@@ -382,7 +382,7 @@
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -419,7 +419,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#88"
+        "id": "sans-titre#86"
       }
     },
     {
@@ -483,7 +483,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -672,7 +672,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#118"
+        "id": "sans-titre#115"
       }
     },
     {
@@ -715,7 +715,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#120"
+        "id": "sans-titre#117"
       }
     },
     {
@@ -792,65 +792,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "aucune",
         "link": "",
-        "id": "sans-titre#151"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.486406415,
-            47.247545334
-          ],
-          [
-            -1.485803374,
-            47.247814718
-          ],
-          [
-            -1.483936482,
-            47.248309048
-          ],
-          [
-            -1.484253306,
-            47.248800627
-          ],
-          [
-            -1.483645418,
-            47.248968165
-          ],
-          [
-            -1.484110955,
-            47.249420237
-          ],
-          [
-            -1.483587226,
-            47.249797693
-          ],
-          [
-            -1.483865255,
-            47.250131256
-          ],
-          [
-            -1.483186347,
-            47.250416538
-          ],
-          [
-            -1.482989874,
-            47.250425198
-          ]
-        ]
-      },
-      "properties": {
-        "line": "H",
-        "name": "H#3",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "aucune",
-        "link": ""
+        "id": "sans-titre#146"
       }
     },
     {
@@ -885,7 +827,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#153"
+        "id": "sans-titre#148"
       }
     }
   ]

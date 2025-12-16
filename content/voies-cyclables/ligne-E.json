@@ -430,7 +430,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -723,7 +723,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#17"
+        "id": "sans-titre#16"
       }
     },
     {
@@ -787,7 +787,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -829,10 +829,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#25"
+        "id": "sans-titre#24"
       }
     },
     {
@@ -894,7 +894,7 @@
         "line": "E",
         "name": "Cours des 50 otages Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -1020,7 +1020,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1090,10 +1090,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#53"
+        "id": "sans-titre#52"
       }
     },
     {
@@ -1169,7 +1169,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1227,7 +1227,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1650,7 +1650,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#130"
+        "id": "sans-titre#127"
       }
     },
     {
@@ -1689,7 +1689,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#134"
+        "id": "sans-titre#131"
       }
     },
     {
@@ -1720,7 +1720,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#137"
+        "id": "sans-titre#134"
       }
     },
     {
@@ -1748,7 +1748,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1776,12 +1776,12 @@
         "line": "E",
         "name": "Avenue de la IVème république",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "aucune",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#144"
+        "id": "sans-titre#141"
       }
     },
     {
@@ -1820,7 +1820,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#150"
+        "id": "sans-titre#145"
       }
     },
     {
@@ -1855,7 +1855,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#153"
+        "id": "sans-titre#148"
       }
     },
     {
@@ -1916,8 +1916,8 @@
         "name": "Boulevard Guy Mollet Nord-3",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "voie-bus",
-        "quality": "satisfactory",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }

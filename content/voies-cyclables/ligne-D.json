@@ -158,7 +158,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -196,7 +196,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -220,7 +220,7 @@
         "line": "D",
         "name": "Boulevard Gabriel Guist'hau",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2019",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -264,10 +264,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#25"
+        "id": "sans-titre#24"
       }
     },
     {
@@ -309,7 +309,7 @@
         "line": "D",
         "name": "Rue du Calvaire",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -359,10 +359,10 @@
         "line": "D",
         "name": "Boulevard Auguste Pageot - Clovis Constat",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
+        "infrastructure": "secondaire",
         "link": ""
       }
     },
@@ -412,11 +412,11 @@
       "properties": {
         "line": "D",
         "name": "Boulevard Pierre de Coubertin",
-        "status": "done",
-        "doneAt": "01/01/2000",
+        "status": "wip",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
+        "infrastructure": "secondaire",
         "link": ""
       }
     },
@@ -480,7 +480,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#43"
+        "id": "sans-titre#42"
       }
     },
     {
@@ -515,7 +515,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#49"
+        "id": "sans-titre#48"
       }
     },
     {
@@ -648,6 +648,10 @@
           [
             -1.570802194,
             47.222328961
+          ],
+          [
+            -1.570913518,
+            47.222733186
           ]
         ]
       },
@@ -655,9 +659,9 @@
         "line": "D",
         "name": "Rue Charles Monselet",
         "status": "postponed",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "voie-bus",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -740,9 +744,9 @@
         "name": "Via Rue George Sand",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
+        "infrastructure": "secondaire",
         "link": ""
       }
     },
@@ -790,7 +794,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#81"
+        "id": "sans-titre#79"
       }
     },
     {
@@ -924,10 +928,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#95"
+        "id": "sans-titre#93"
       }
     },
     {
@@ -1064,7 +1068,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#134"
+        "id": "sans-titre#131"
       }
     },
     {
@@ -1171,10 +1175,6 @@
           [
             -1.571573324,
             47.219651912
-          ],
-          [
-            -1.569814468,
-            47.219176096
           ]
         ]
       },
@@ -1184,8 +1184,8 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "aucune",
+        "quality": "unsatisfactory",
+        "infrastructure": "maillage",
         "link": ""
       }
     },
@@ -1263,7 +1263,7 @@
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "unsatisfactory",
-        "infrastructure": "aucune",
+        "infrastructure": "secondaire",
         "link": ""
       }
     },
@@ -1429,9 +1429,9 @@
         "name": "Avenue des Grands Bois 2",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "inconnu",
+        "type": "velorue",
         "quality": "unsatisfactory",
-        "infrastructure": "aucune",
+        "infrastructure": "secondaire",
         "link": ""
       }
     },

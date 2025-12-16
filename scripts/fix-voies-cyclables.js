@@ -64,18 +64,22 @@ const fixType = (type) => {
 
 const fixStatus = (status) => {
   const validStatus = ['done', 'wip', 'planned', 'tested', 'postponed', 'unknown', 'variante', 'variante-postponed'];
-  if (validStatus.includes(status)) {
+
+  const lowercaseStatus = status.toLowerCase();
+  if (validStatus.includes(lowercaseStatus)) {
     return status;
-  } else if (status === 'réalisé' || status === 'terminé') {
+  } else if (lowercaseStatus === 'réalisé' || lowercaseStatus === 'terminé' || lowercaseStatus === 'Terminé') {
     return 'done';
-  } else if (status === 'en cours') {
+  } else if (lowercaseStatus === 'en cours' || lowercaseStatus === 'en travaux') {
     return 'wip';
-  } else if (status === 'à venir') {
+  } else if (lowercaseStatus === 'à venir') {
     return 'planned';
-  } else if (status === 'reporté') {
+  } else if (lowercaseStatus === 'reporté') {
     return 'postponed';
-  } else if (status) {
-    console.error(`Invalid status '${status}'`);
+  } else if (['à définir', 'a définir', 'aucun'].includes(lowercaseStatus)) {
+    return 'unknown';
+  } else if (lowercaseStatus) {
+    console.error(`Invalid status '${lowercaseStatus}'`);
   }
   return 'unknown';
 };
@@ -92,7 +96,6 @@ const fixQuality = (quality) => {
 
 const fixDoneDate = (doneAt) => {
   if (!doneAt) return '01/01/2000';
-  console.log(doneAt);
   if (!/^\d{4}$/.test(doneAt)) {
     console.error(`Invalid year '${doneAt}', expected a 4-digit year like 2025`);
     process.exit(1);
@@ -277,7 +280,7 @@ const processVoiesFiles = () => {
 
         if (!line_letters) {
           line_letters = 'X';
-          console.warn(`Warning: Feature at index ${index} in ${filename} has no line property. Assigned to line 'X'.`);
+          // console.warn(`Warning: Feature at index ${index} in ${filename} has no line property. Assigned to line 'X'.`);
         }
 
         const is_multiple_lines = line_letters.split(',').length > 1;

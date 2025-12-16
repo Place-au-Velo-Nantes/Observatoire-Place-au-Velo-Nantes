@@ -164,7 +164,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -339,9 +339,9 @@
         "name": "Via Rue de Carcouët",
         "status": "postponed",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "scondaire",
         "link": ""
       }
     },
@@ -1019,44 +1019,6 @@
       "properties": {
         "line": "X",
         "name": "Boulevard François Mitterrand",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.653310221,
-            47.211945643
-          ],
-          [
-            -1.655007713,
-            47.212204491
-          ],
-          [
-            -1.656000858,
-            47.212078317
-          ],
-          [
-            -1.656794452,
-            47.210410234
-          ],
-          [
-            -1.658026761,
-            47.209003606
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Rue de la Gare Nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -2777,36 +2739,152 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.5491879,
-            47.1919491
+            -1.6608592,
+            47.2049295
           ],
           [
-            -1.5492064,
-            47.1919991
+            -1.6608306,
+            47.2049987
           ],
           [
-            -1.5490656,
-            47.1924184
+            -1.6607227,
+            47.2051059
           ],
           [
-            -1.5490257,
-            47.1925338
+            -1.6606422,
+            47.2052226
           ],
           [
-            -1.5489643,
-            47.1926697
+            -1.6604548,
+            47.2055561
           ],
           [
-            -1.548841911,
-            47.192725451
+            -1.6603972,
+            47.2056798
           ],
           [
-            -1.548727923,
-            47.192816643
+            -1.6603685,
+            47.20576
           ],
           [
-            -1.5486815,
-            47.1928463
+            -1.6602309,
+            47.2062484
+          ],
+          [
+            -1.6602079,
+            47.2063301
+          ],
+          [
+            -1.6601684,
+            47.2064176
+          ],
+          [
+            -1.6601414,
+            47.2064773
+          ],
+          [
+            -1.6600324,
+            47.2066536
+          ],
+          [
+            -1.6599863,
+            47.2067037
+          ],
+          [
+            -1.6599299,
+            47.2067651
+          ],
+          [
+            -1.6598752,
+            47.2068692
+          ],
+          [
+            -1.6598255,
+            47.2069638
+          ],
+          [
+            -1.6598149,
+            47.2069831
+          ],
+          [
+            -1.6597813,
+            47.2070736
+          ],
+          [
+            -1.659762,
+            47.2071104
+          ],
+          [
+            -1.6597043,
+            47.2072203
+          ],
+          [
+            -1.6596877,
+            47.2072485
+          ],
+          [
+            -1.6595604,
+            47.2074563
+          ],
+          [
+            -1.6595265,
+            47.2075115
+          ],
+          [
+            -1.659423,
+            47.2076711
+          ],
+          [
+            -1.659382,
+            47.2077343
+          ],
+          [
+            -1.6593087,
+            47.2078326
+          ],
+          [
+            -1.6592281,
+            47.2079211
+          ],
+          [
+            -1.6587678,
+            47.208331
+          ],
+          [
+            -1.6586443,
+            47.2084424
+          ],
+          [
+            -1.6585369,
+            47.2085394
+          ],
+          [
+            -1.6583473,
+            47.2086855
+          ],
+          [
+            -1.6583399,
+            47.2086951
+          ],
+          [
+            -1.6583041,
+            47.2087243
+          ],
+          [
+            -1.658211,
+            47.2088079
+          ],
+          [
+            -1.6580424,
+            47.2089896
+          ],
+          [
+            -1.6580089,
+            47.209022
+          ],
+          [
+            -1.6579601,
+            47.2090692
           ]
         ]
       },
@@ -2815,7 +2893,7 @@
         "name": "Rue de la Gare sud",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -3059,52 +3137,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.5491556,
-            47.1954968
+            -1.656812772,
+            47.21039409
           ],
           [
-            -1.5491577,
-            47.1954624
+            -1.656735,
+            47.2104718
           ],
           [
-            -1.5491619,
-            47.1954309
+            -1.6567268,
+            47.2105192
           ],
           [
-            -1.5491818,
-            47.1953919
+            -1.6567068,
+            47.210546
           ],
           [
-            -1.5492053,
-            47.1953397
+            -1.6566002,
+            47.2107362
           ],
           [
-            -1.5492141,
-            47.1952677
+            -1.6565223,
+            47.2109232
           ],
           [
-            -1.5492535,
-            47.1950424
+            -1.6561757,
+            47.2117556
           ],
           [
-            -1.5492589,
-            47.1948466
+            -1.6560805,
+            47.2119843
           ],
           [
-            -1.5492633,
-            47.1941877
+            -1.6560726,
+            47.2120031
           ],
           [
-            -1.5492849,
-            47.193952
-          ],
-          [
-            -1.5492874,
-            47.1939278
-          ],
-          [
-            -1.5492973,
-            47.193723
+            -1.6560114,
+            47.2121316
           ]
         ]
       },
@@ -3113,7 +3183,7 @@
         "name": "Rue de la Gare nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -3987,56 +4057,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.577112,
-            47.2326
-          ],
-          [
-            -1.574467,
-            47.231188
-          ],
-          [
-            -1.569961,
-            47.227429
-          ],
-          [
-            -1.566657,
-            47.224864
-          ],
-          [
-            -1.564725,
-            47.223786
-          ],
-          [
-            -1.56185,
-            47.220259
-          ],
-          [
-            -1.561292,
-            47.219151
-          ],
-          [
-            -1.560906,
-            47.218918
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "X#6",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.553245,
             47.228541
           ],
@@ -4192,7 +4212,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#7",
+        "name": "X#6",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4318,7 +4338,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#8",
+        "name": "X#7",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4404,7 +4424,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#9",
+        "name": "X#8",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4458,7 +4478,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#10",
+        "name": "X#9",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4484,7 +4504,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#11",
+        "name": "X#10",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4510,7 +4530,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#12",
+        "name": "X#11",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4568,7 +4588,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#13",
+        "name": "X#12",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4630,7 +4650,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#14",
+        "name": "X#13",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4664,7 +4684,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#15",
+        "name": "X#14",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4698,7 +4718,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#16",
+        "name": "X#15",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4736,7 +4756,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#17",
+        "name": "X#16",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4770,7 +4790,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#18",
+        "name": "X#17",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4800,7 +4820,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#19",
+        "name": "X#18",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4826,7 +4846,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#20",
+        "name": "X#19",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -4920,7 +4940,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#21",
+        "name": "X#20",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5070,7 +5090,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#22",
+        "name": "X#21",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5104,7 +5124,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#23",
+        "name": "X#22",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5186,7 +5206,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#24",
+        "name": "X#23",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5236,7 +5256,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#25",
+        "name": "X#24",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5262,7 +5282,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#26",
+        "name": "X#25",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5292,7 +5312,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#27",
+        "name": "X#26",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5338,7 +5358,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#28",
+        "name": "X#27",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5364,7 +5384,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Gaëtan Rondeau-29",
+        "name": "Rue Gaëtan Rondeau-28",
         "status": "done",
         "doneAt": "01/01/2011",
         "type": "bandes-cyclables",
@@ -5394,7 +5414,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#30",
+        "name": "X#29",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5420,7 +5440,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#31",
+        "name": "X#30",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5446,7 +5466,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#32",
+        "name": "X#31",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5472,7 +5492,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#33",
+        "name": "X#32",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -5502,7 +5522,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#34",
+        "name": "X#33",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -8155,7 +8175,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Winston Churchill 3",
-        "status": "done",
+        "status": "wip",
         "doneAt": "01/01/2026",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -9890,7 +9910,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Vannes-35",
+        "name": "Route de Vannes-34",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
@@ -11752,7 +11772,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Jean Jaurès-36",
+        "name": "Rue Jean Jaurès-35",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -11965,6 +11985,972 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.6509847,
+            47.2115391
+          ],
+          [
+            -1.6511252,
+            47.2115615
+          ],
+          [
+            -1.6519617,
+            47.2116947
+          ],
+          [
+            -1.6520428,
+            47.2117156
+          ],
+          [
+            -1.6520803,
+            47.2117241
+          ],
+          [
+            -1.6521245,
+            47.2117342
+          ],
+          [
+            -1.6521793,
+            47.211744
+          ],
+          [
+            -1.6530781,
+            47.2119084
+          ],
+          [
+            -1.6532122,
+            47.2119325
+          ],
+          [
+            -1.6533667,
+            47.2119578
+          ],
+          [
+            -1.6543616,
+            47.2121206
+          ],
+          [
+            -1.6544693,
+            47.2121332
+          ],
+          [
+            -1.6547735,
+            47.2121837
+          ],
+          [
+            -1.6549762,
+            47.2122187
+          ],
+          [
+            -1.6551457,
+            47.2122142
+          ],
+          [
+            -1.6557652,
+            47.2121684
+          ],
+          [
+            -1.6557965,
+            47.2121661
+          ],
+          [
+            -1.6560114,
+            47.2121316
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Pierre Blard",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.6579601,
+            47.2090692
+          ],
+          [
+            -1.657855,
+            47.2091768
+          ],
+          [
+            -1.6577069,
+            47.2093402
+          ],
+          [
+            -1.6574697,
+            47.2096112
+          ],
+          [
+            -1.6572266,
+            47.2098945
+          ],
+          [
+            -1.6570864,
+            47.2100581
+          ],
+          [
+            -1.6569239,
+            47.2102686
+          ],
+          [
+            -1.6569045,
+            47.2102874
+          ],
+          [
+            -1.6568725,
+            47.2103171
+          ],
+          [
+            -1.656812772,
+            47.21039409
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue de la Gare milieu",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.570043301,
+            47.22750261
+          ],
+          [
+            -1.570140704,
+            47.227567368
+          ],
+          [
+            -1.570209176,
+            47.227621464
+          ],
+          [
+            -1.57056779,
+            47.227907678
+          ],
+          [
+            -1.57084919,
+            47.228139753
+          ],
+          [
+            -1.571062064,
+            47.228323235
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue des Hauts Pavés centre sud",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.571062064,
+            47.228323235
+          ],
+          [
+            -1.571537722,
+            47.228758915
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue des Hauts Pavés centre nord",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.572420914,
+            47.229573656
+          ],
+          [
+            -1.572509086,
+            47.22966791
+          ],
+          [
+            -1.572576121,
+            47.229726628
+          ],
+          [
+            -1.572779881,
+            47.229919405
+          ],
+          [
+            -1.573065654,
+            47.230197919
+          ],
+          [
+            -1.573101109,
+            47.230230723
+          ],
+          [
+            -1.573145822,
+            47.230269681
+          ],
+          [
+            -1.573173103,
+            47.23029328
+          ],
+          [
+            -1.573309272,
+            47.230423302
+          ],
+          [
+            -1.573431577,
+            47.230540492
+          ],
+          [
+            -1.573633027,
+            47.230708929
+          ],
+          [
+            -1.573814954,
+            47.230867792
+          ],
+          [
+            -1.573957154,
+            47.230986655
+          ],
+          [
+            -1.574126449,
+            47.231114703
+          ],
+          [
+            -1.574251631,
+            47.231212304
+          ],
+          [
+            -1.574418686,
+            47.231318566
+          ],
+          [
+            -1.574566845,
+            47.231413155
+          ],
+          [
+            -1.574720663,
+            47.231512017
+          ],
+          [
+            -1.574889686,
+            47.231601419
+          ],
+          [
+            -1.575055122,
+            47.23169443
+          ],
+          [
+            -1.575130718,
+            47.23173263
+          ],
+          [
+            -1.575423559,
+            47.231866731
+          ],
+          [
+            -1.575695781,
+            47.231996469
+          ],
+          [
+            -1.57671585,
+            47.23244296
+          ],
+          [
+            -1.576767404,
+            47.232462475
+          ],
+          [
+            -1.576942216,
+            47.232540572
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Jean XXIII",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.560864014,
+            47.21890452
+          ],
+          [
+            -1.560975403,
+            47.218964148
+          ],
+          [
+            -1.561099963,
+            47.219043085
+          ],
+          [
+            -1.561264017,
+            47.219148724
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue du Marchix",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5628691,
+            47.2217517
+          ],
+          [
+            -1.5628897,
+            47.2217524
+          ],
+          [
+            -1.5629117,
+            47.2217519
+          ],
+          [
+            -1.5629378,
+            47.2217556
+          ],
+          [
+            -1.5629615,
+            47.2217645
+          ],
+          [
+            -1.5629754,
+            47.2217719
+          ],
+          [
+            -1.5629943,
+            47.2217849
+          ],
+          [
+            -1.5630085,
+            47.221797
+          ],
+          [
+            -1.563077349,
+            47.221791163
+          ],
+          [
+            -1.563130731,
+            47.221863125
+          ],
+          [
+            -1.563323267,
+            47.222116988
+          ],
+          [
+            -1.563743908,
+            47.222675688
+          ],
+          [
+            -1.563766776,
+            47.22270505
+          ],
+          [
+            -1.563990954,
+            47.223004688
+          ],
+          [
+            -1.564045022,
+            47.223074151
+          ],
+          [
+            -1.564167763,
+            47.223239025
+          ],
+          [
+            -1.564203172,
+            47.223275201
+          ],
+          [
+            -1.564276322,
+            47.223347875
+          ],
+          [
+            -1.564351945,
+            47.223428575
+          ],
+          [
+            -1.564395254,
+            47.22347725
+          ],
+          [
+            -1.5644662,
+            47.223538551
+          ],
+          [
+            -1.564492622,
+            47.223568688
+          ],
+          [
+            -1.5645138,
+            47.223587663
+          ],
+          [
+            -1.564571845,
+            47.223636013
+          ],
+          [
+            -1.564615809,
+            47.223677688
+          ],
+          [
+            -1.564673809,
+            47.223728813
+          ],
+          [
+            -1.564801022,
+            47.223830651
+          ],
+          [
+            -1.564994022,
+            47.223967576
+          ],
+          [
+            -1.5651103,
+            47.224049401
+          ],
+          [
+            -1.565235677,
+            47.224131326
+          ],
+          [
+            -1.565411,
+            47.224247676
+          ],
+          [
+            -1.565480431,
+            47.224296163
+          ],
+          [
+            -1.565646827,
+            47.224395851
+          ],
+          [
+            -1.565792231,
+            47.224482389
+          ],
+          [
+            -1.565956322,
+            47.224577339
+          ],
+          [
+            -1.5661456,
+            47.224680676
+          ],
+          [
+            -1.566413341,
+            47.224827176
+          ],
+          [
+            -1.56648689,
+            47.224870527
+          ],
+          [
+            -1.566539945,
+            47.224902365
+          ],
+          [
+            -1.566603372,
+            47.22493419
+          ],
+          [
+            -1.566713799,
+            47.225005315
+          ],
+          [
+            -1.566881099,
+            47.225116265
+          ],
+          [
+            -1.566995344,
+            47.22519104
+          ],
+          [
+            -1.567140966,
+            47.225299858
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue du Poitou",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567140966,
+            47.225299858
+          ],
+          [
+            -1.567233735,
+            47.225365189
+          ],
+          [
+            -1.567290376,
+            47.225411678
+          ],
+          [
+            -1.56746429,
+            47.225555264
+          ],
+          [
+            -1.568061145,
+            47.225956452
+          ],
+          [
+            -1.568182863,
+            47.226051041
+          ],
+          [
+            -1.568280272,
+            47.226125053
+          ],
+          [
+            -1.568373722,
+            47.226199589
+          ],
+          [
+            -1.568484168,
+            47.226290589
+          ],
+          [
+            -1.569751509,
+            47.227293331
+          ],
+          [
+            -1.569804131,
+            47.22733632
+          ],
+          [
+            -1.569869649,
+            47.227390504
+          ],
+          [
+            -1.569939371,
+            47.227430928
+          ],
+          [
+            -1.570043301,
+            47.22750261
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue des Hauts Pavés sud",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.571537722,
+            47.228758915
+          ],
+          [
+            -1.571672627,
+            47.22887898
+          ],
+          [
+            -1.571941763,
+            47.229127679
+          ],
+          [
+            -1.57219079,
+            47.22936172
+          ],
+          [
+            -1.572261486,
+            47.229419645
+          ],
+          [
+            -1.572308958,
+            47.229465356
+          ],
+          [
+            -1.572335635,
+            47.22948707
+          ],
+          [
+            -1.572420914,
+            47.229573656
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue des Hauts Pavés nord",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561814964,
+            47.220296989
+          ],
+          [
+            -1.5618007,
+            47.2203331
+          ],
+          [
+            -1.5617918,
+            47.2203553
+          ],
+          [
+            -1.5617833,
+            47.2203735
+          ],
+          [
+            -1.5617768,
+            47.220383
+          ],
+          [
+            -1.5617673,
+            47.2203948
+          ],
+          [
+            -1.5617514,
+            47.2204151
+          ],
+          [
+            -1.5618356,
+            47.2204931
+          ],
+          [
+            -1.5620743,
+            47.2208589
+          ],
+          [
+            -1.562219,
+            47.2210664
+          ],
+          [
+            -1.5622336,
+            47.2211041
+          ],
+          [
+            -1.5626107,
+            47.221599
+          ],
+          [
+            -1.5628464,
+            47.2217095
+          ],
+          [
+            -1.5628691,
+            47.2217517
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Place Viarme",
+        "status": "done",
+        "doneAt": "01/01/2019",
+        "type": "voie-verte",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561264017,
+            47.219148724
+          ],
+          [
+            -1.56133504,
+            47.219206662
+          ],
+          [
+            -1.561399485,
+            47.2192718
+          ],
+          [
+            -1.561456144,
+            47.21933575
+          ],
+          [
+            -1.561499999,
+            47.21939175
+          ],
+          [
+            -1.561523899,
+            47.2194292
+          ],
+          [
+            -1.56154904,
+            47.219467
+          ],
+          [
+            -1.561568072,
+            47.219500312
+          ],
+          [
+            -1.56159204,
+            47.219548962
+          ],
+          [
+            -1.56161513,
+            47.2195895
+          ],
+          [
+            -1.561671008,
+            47.219708725
+          ],
+          [
+            -1.561732408,
+            47.219851662
+          ],
+          [
+            -1.561752049,
+            47.219907325
+          ],
+          [
+            -1.561864144,
+            47.220115162
+          ],
+          [
+            -1.561883294,
+            47.220162476
+          ],
+          [
+            -1.561944125,
+            47.22026789
+          ],
+          [
+            -1.561814964,
+            47.220296989
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue Porte Neuve",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5491879,
+            47.1919491
+          ],
+          [
+            -1.5492064,
+            47.1919991
+          ],
+          [
+            -1.5490656,
+            47.1924184
+          ],
+          [
+            -1.5490257,
+            47.1925338
+          ],
+          [
+            -1.5489643,
+            47.1926697
+          ],
+          [
+            -1.548841911,
+            47.192725451
+          ],
+          [
+            -1.548727923,
+            47.192816643
+          ],
+          [
+            -1.5486815,
+            47.1928463
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue de la Gare sud reze",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5491556,
+            47.1954968
+          ],
+          [
+            -1.5491577,
+            47.1954624
+          ],
+          [
+            -1.5491619,
+            47.1954309
+          ],
+          [
+            -1.5491818,
+            47.1953919
+          ],
+          [
+            -1.5492053,
+            47.1953397
+          ],
+          [
+            -1.5492141,
+            47.1952677
+          ],
+          [
+            -1.5492535,
+            47.1950424
+          ],
+          [
+            -1.5492589,
+            47.1948466
+          ],
+          [
+            -1.5492633,
+            47.1941877
+          ],
+          [
+            -1.5492849,
+            47.193952
+          ],
+          [
+            -1.5492874,
+            47.1939278
+          ],
+          [
+            -1.5492973,
+            47.193723
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue de la Gare nord reze",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "inconnu",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.480875,
             47.306523
           ],
@@ -12012,7 +12998,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Carquefou - Saint Mars La Jaille-37",
+        "name": "Carquefou - Saint Mars La Jaille-36",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
@@ -12058,7 +13044,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Carquefou - Route de Ste Luce-38",
+        "name": "Carquefou - Route de Ste Luce-37",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -12088,7 +13074,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Liaison Pas enchantés/Pont de Bellevue-39",
+        "name": "Liaison Pas enchantés/Pont de Bellevue-38",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -12118,7 +13104,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "D39-40",
+        "name": "D39-39",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -12200,7 +13186,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Porte de Sainte Luce - Pont de Bellevue-41",
+        "name": "Porte de Sainte Luce - Pont de Bellevue-40",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -12226,7 +13212,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Victor Schoelcher-42",
+        "name": "Boulevard Victor Schoelcher-41",
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -12264,7 +13250,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard de Vendée-43",
+        "name": "Boulevard de Vendée-42",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -12294,7 +13280,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Via Rue de Carcouët-44",
+        "name": "Via Rue de Carcouët-43",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -12332,7 +13318,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Sully-45",
+        "name": "Rue Sully-44",
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "voie-bus",
@@ -12366,7 +13352,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Henri IV Sud-46",
+        "name": "Rue Henri IV Sud-45",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -12392,7 +13378,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Victor Hugo-47",
+        "name": "Boulevard Victor Hugo-46",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -12418,7 +13404,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Bénoni Goullin-48",
+        "name": "Boulevard Bénoni Goullin-47",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -12452,7 +13438,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Pont-Rousseau-49",
+        "name": "Pont-Rousseau-48",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -12478,7 +13464,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard du Général de Gaulle Est Rezé-50",
+        "name": "Boulevard du Général de Gaulle Est Rezé-49",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -12508,7 +13494,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard du Général de Gaulle Ouest Rezé-51",
+        "name": "Boulevard du Général de Gaulle Ouest Rezé-50",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -12534,7 +13520,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Nouveau CHU-52",
+        "name": "Nouveau CHU-51",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -12564,7 +13550,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Mangin-53",
+        "name": "Mangin-52",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -12598,7 +13584,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Square Vertais-54",
+        "name": "Square Vertais-53",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -12624,7 +13610,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Anatole de Monzie Ouest-55",
+        "name": "Rue Anatole de Monzie Ouest-54",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
@@ -12694,7 +13680,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Anatole de Monzie Est-56",
+        "name": "Rue Anatole de Monzie Est-55",
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "bidirectionnelle",
@@ -12768,7 +13754,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Allée de l'Île Beaulieu-57",
+        "name": "Allée de l'Île Beaulieu-56",
         "status": "done",
         "doneAt": "01/01/2016",
         "type": "bidirectionnelle",
@@ -12794,7 +13780,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Gaëtan Rondeau-58",
+        "name": "Rue Gaëtan Rondeau-57",
         "status": "done",
         "doneAt": "01/01/2020",
         "type": "bidirectionnelle",
@@ -12896,7 +13882,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Marcel Paul Nord-59",
+        "name": "Boulevard Marcel Paul Nord-58",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -12922,7 +13908,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Marcel Paul Sud-60",
+        "name": "Boulevard Marcel Paul Sud-59",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -12976,7 +13962,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard François Mitterrand-61",
+        "name": "Boulevard François Mitterrand-60",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -13014,7 +14000,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Gare Nord-62",
+        "name": "Rue de la Gare Nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -13220,7 +14206,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Jean Jaurès-63",
+        "name": "Rue Jean Jaurès-61",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -13270,7 +14256,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Quai Jean Bart Ouest-64",
+        "name": "Quai Jean Bart Ouest-62",
         "status": "done",
         "doneAt": "01/01/2009",
         "type": "bandes-cyclables",
@@ -13316,7 +14302,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Liaison Babinière-65",
+        "name": "Liaison Babinière-63",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -13342,7 +14328,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de clisson-66",
+        "name": "Route de clisson-64",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -13376,7 +14362,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Joliot-Curie-67",
+        "name": "Boulevard Joliot-Curie-65",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -13406,7 +14392,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Pont de la Rotonde Nord-68",
+        "name": "Pont de la Rotonde Nord-66",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -13436,7 +14422,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Place de la Duchesse Anne-69",
+        "name": "Place de la Duchesse Anne-67",
         "status": "done",
         "doneAt": "01/01/2018",
         "type": "voie-verte",
@@ -13486,7 +14472,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#70",
+        "name": "X#68",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -13516,7 +14502,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#71",
+        "name": "X#69",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -13562,7 +14548,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Gare Sud-72",
+        "name": "Rue de la Gare Sud-70",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -13700,7 +14686,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Vannes-73",
+        "name": "Route de Vannes-71",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -13798,7 +14784,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Meusnier de Querlon-74",
+        "name": "Boulevard Meusnier de Querlon-72",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -13888,7 +14874,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Boulay Paty-75",
+        "name": "Boulevard Boulay Paty-73",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -13970,7 +14956,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Charles Monselet-76",
+        "name": "Rue Charles Monselet-74",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
@@ -14048,7 +15034,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Garenne-77",
+        "name": "Rue de la Garenne-75",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -14106,7 +15092,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Avenue de la Pentecôte-78",
+        "name": "Avenue de la Pentecôte-76",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -14228,7 +15214,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de Bretagne ouest-79",
+        "name": "Rue de Bretagne ouest-77",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -14302,7 +15288,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de Bretagne est-80",
+        "name": "Rue de Bretagne est-78",
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "bandes-cyclables",
@@ -14360,7 +15346,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Nantes-81",
+        "name": "Route de Nantes-79",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
@@ -14406,7 +15392,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Avenue d'Anjou-82",
+        "name": "Avenue d'Anjou-80",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -14452,7 +15438,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Gare centrale-83",
+        "name": "Rue de la Gare centrale-81",
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "zone-de-rencontre",
@@ -14598,7 +15584,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Avenue de la Libération-84",
+        "name": "Avenue de la Libération-82",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -14632,7 +15618,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Accès sud Pont ferroviaire de Pirmil-85",
+        "name": "Accès sud Pont ferroviaire de Pirmil-83",
         "status": "done",
         "doneAt": "01/01/2020",
         "type": "voie-verte",
@@ -14670,7 +15656,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Éric Tabarly-86",
+        "name": "Rue Éric Tabarly-84",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -14720,7 +15706,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Georges Barbeau-87",
+        "name": "Rue Georges Barbeau-85",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -14770,7 +15756,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Gare sud-88",
+        "name": "Rue de la Gare sud-86",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -14820,7 +15806,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Gare pieton-89",
+        "name": "Rue de la Gare pieton-87",
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "voie-verte",
@@ -15002,7 +15988,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Avenue de Bretagne-90",
+        "name": "Avenue de Bretagne-88",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15068,7 +16054,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Gare nord-91",
+        "name": "Rue de la Gare nord-89",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15146,7 +16132,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Quai Besnard-92",
+        "name": "Quai Besnard-90",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15204,7 +16190,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Quai Langlois-93",
+        "name": "Quai Langlois-91",
         "status": "done",
         "doneAt": "01/01/2009",
         "type": "bandes-cyclables",
@@ -15270,7 +16256,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Pasteur-94",
+        "name": "Rue Pasteur-92",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15432,7 +16418,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Jean Mermoz-95",
+        "name": "Rue Jean Mermoz-93",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15478,7 +16464,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Quai Jean Bart est-96",
+        "name": "Quai Jean Bart est-94",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15556,7 +16542,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Niescierewicz nord-97",
+        "name": "Rue Niescierewicz nord-95",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15626,7 +16612,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Niescierewicz sud-98",
+        "name": "Rue Niescierewicz sud-96",
         "status": "done",
         "doneAt": "01/01/2024",
         "type": "bandes-cyclables",
@@ -15652,7 +16638,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#99",
+        "name": "X#97",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15678,7 +16664,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#100",
+        "name": "X#98",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15728,7 +16714,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Louis Fouchard-101",
+        "name": "Boulevard Louis Fouchard-99",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15754,7 +16740,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Quai des Mariniers-102",
+        "name": "Quai des Mariniers-100",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15788,7 +16774,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de Nantes - Thouaré-103",
+        "name": "Rue de Nantes - Thouaré-101",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15838,7 +16824,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Jean Moulin-104",
+        "name": "Rue Jean Moulin-102",
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15896,7 +16882,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de B asse-Indre-105",
+        "name": "Route de B asse-Indre-103",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15930,7 +16916,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#106",
+        "name": "X#104",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -15980,7 +16966,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#107",
+        "name": "X#105",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16010,7 +16996,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Michelet-108",
+        "name": "Boulevard Michelet-106",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16060,7 +17046,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard des tribunes-109",
+        "name": "Boulevard des tribunes-107",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
@@ -16150,7 +17136,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#110",
+        "name": "X#108",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16276,7 +17262,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#111",
+        "name": "X#109",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16362,7 +17348,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#112",
+        "name": "X#110",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16416,7 +17402,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#113",
+        "name": "X#111",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16442,7 +17428,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#114",
+        "name": "X#112",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16468,7 +17454,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#115",
+        "name": "X#113",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16526,7 +17512,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#116",
+        "name": "X#114",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16588,7 +17574,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#117",
+        "name": "X#115",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16622,7 +17608,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#118",
+        "name": "X#116",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16656,7 +17642,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#119",
+        "name": "X#117",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16694,7 +17680,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#120",
+        "name": "X#118",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16728,7 +17714,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#121",
+        "name": "X#119",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16758,7 +17744,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#122",
+        "name": "X#120",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16784,7 +17770,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#123",
+        "name": "X#121",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -16878,7 +17864,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#124",
+        "name": "X#122",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17028,7 +18014,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#125",
+        "name": "X#123",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17062,7 +18048,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#126",
+        "name": "X#124",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17144,7 +18130,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#127",
+        "name": "X#125",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17194,7 +18180,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#128",
+        "name": "X#126",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17220,7 +18206,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#129",
+        "name": "X#127",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17250,7 +18236,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#130",
+        "name": "X#128",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17296,7 +18282,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#131",
+        "name": "X#129",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17322,7 +18308,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Gaëtan Rondeau-132",
+        "name": "Rue Gaëtan Rondeau-130",
         "status": "done",
         "doneAt": "01/01/2011",
         "type": "bandes-cyclables",
@@ -17352,7 +18338,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#133",
+        "name": "X#131",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17378,7 +18364,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#134",
+        "name": "X#132",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17404,7 +18390,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#135",
+        "name": "X#133",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17430,7 +18416,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#136",
+        "name": "X#134",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17460,7 +18446,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#137",
+        "name": "X#135",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -17566,7 +18552,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard des Poilus-138",
+        "name": "Boulevard des Poilus-136",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -17660,7 +18646,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard de l'Égalité-139",
+        "name": "Boulevard de l'Égalité-137",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -17734,7 +18720,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Lelasseur-140",
+        "name": "Boulevard Lelasseur-138",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
@@ -17896,7 +18882,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard des Anglais-141",
+        "name": "Boulevard des Anglais-139",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -17986,7 +18972,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard des Belges-142",
+        "name": "Boulevard des Belges-140",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -18136,7 +19122,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard de la Fraternité-143",
+        "name": "Boulevard de la Fraternité-141",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -18194,7 +19180,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard des Frères de Goncourt-144",
+        "name": "Boulevard des Frères de Goncourt-142",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -18372,7 +19358,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard de Doulon-145",
+        "name": "Boulevard de Doulon-143",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -18414,7 +19400,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Pont de la Tortière-146",
+        "name": "Pont de la Tortière-144",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
@@ -18496,7 +19482,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Henry Orrion-147",
+        "name": "Boulevard Henry Orrion-145",
         "status": "done",
         "doneAt": "01/01/2016",
         "type": "bandes-cyclables",
@@ -18598,7 +19584,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Eugène Orieux-148",
+        "name": "Boulevard Eugène Orieux-146",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -18708,7 +19694,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard de la Liberté-149",
+        "name": "Boulevard de la Liberté-147",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -18754,7 +19740,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Patouillerie 2-150",
+        "name": "Rue de la Patouillerie 2-148",
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "voie-bus",
@@ -18816,7 +19802,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Guillaume Grootaers-151",
+        "name": "Rue Guillaume Grootaers-149",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -18898,7 +19884,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue des Dervallières-152",
+        "name": "Rue des Dervallières-150",
         "status": "done",
         "doneAt": "01/01/2011",
         "type": "bandes-cyclables",
@@ -18968,7 +19954,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Bâtonnier Cholet 2-153",
+        "name": "Boulevard Bâtonnier Cholet 2-151",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
@@ -19026,7 +20012,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Bastille-154",
+        "name": "Rue de la Bastille-152",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -19200,7 +20186,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Édith Piaf-155",
+        "name": "Rue Édith Piaf-153",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-verte",
@@ -19286,7 +20272,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Bâtonnier Cholet-156",
+        "name": "Boulevard Bâtonnier Cholet-154",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
@@ -19400,7 +20386,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Michael Faraday-157",
+        "name": "Rue Michael Faraday-155",
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "voie-verte",
@@ -19458,7 +20444,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Winston Churchill-158",
+        "name": "Boulevard Winston Churchill-156",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
@@ -19656,7 +20642,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard du Massacre-159",
+        "name": "Boulevard du Massacre-157",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -19694,7 +20680,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Édith Piaf 2-160",
+        "name": "Rue Édith Piaf 2-158",
         "status": "done",
         "doneAt": "01/01/2018",
         "type": "voie-verte",
@@ -19832,7 +20818,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard du Tertre-161",
+        "name": "Boulevard du Tertre-159",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -19890,7 +20876,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Chevreul-162",
+        "name": "Rue Chevreul-160",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -19956,7 +20942,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Fontaine Salée-163",
+        "name": "Rue de la Fontaine Salée-161",
         "status": "done",
         "doneAt": "01/01/2010",
         "type": "bandes-cyclables",
@@ -20050,7 +21036,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue des Dervallières 2-164",
+        "name": "Rue des Dervallières 2-162",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -20112,8 +21098,8 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Winston Churchill 3-165",
-        "status": "done",
+        "name": "Boulevard Winston Churchill 3-163",
+        "status": "wip",
         "doneAt": "01/01/2026",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -20190,7 +21176,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard de Cardiff-166",
+        "name": "Boulevard de Cardiff-164",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
@@ -20284,7 +21270,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Janvraie-167",
+        "name": "Rue de la Janvraie-165",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -20350,7 +21336,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Philippe Lebon-168",
+        "name": "Rue Philippe Lebon-166",
         "status": "done",
         "doneAt": "01/01/2015",
         "type": "bidirectionnelle",
@@ -20520,7 +21506,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Jean Ingres-169",
+        "name": "Boulevard Jean Ingres-167",
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "bandes-cyclables",
@@ -20562,7 +21548,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Winston Churchill 2-170",
+        "name": "Boulevard Winston Churchill 2-168",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -20616,7 +21602,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard du Tertre 2-171",
+        "name": "Boulevard du Tertre 2-169",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
@@ -20690,7 +21676,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Paul Chabas-172",
+        "name": "Boulevard Paul Chabas-170",
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "bandes-cyclables",
@@ -20780,7 +21766,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Benjamin Franklin-173",
+        "name": "Rue Benjamin Franklin-171",
         "status": "done",
         "doneAt": "01/01/2018",
         "type": "voie-verte",
@@ -20858,7 +21844,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Charles Gautier-174",
+        "name": "Boulevard Charles Gautier-172",
         "status": "done",
         "doneAt": "01/01/2021",
         "type": "bidirectionnelle",
@@ -20964,7 +21950,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Maréchal Alphonse Juin-175",
+        "name": "Boulevard Maréchal Alphonse Juin-173",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
@@ -21166,7 +22152,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Patouillerie-176",
+        "name": "Rue de la Patouillerie-174",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
@@ -21408,7 +22394,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "M 75-177",
+        "name": "M 75-175",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -21590,7 +22576,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Vannes 2-178",
+        "name": "Route de Vannes 2-176",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -21652,7 +22638,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "M 965 2-179",
+        "name": "M 965 2-177",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -21742,7 +22728,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Syonnière-180",
+        "name": "Rue de la Syonnière-178",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -21848,7 +22834,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Vannes-181",
+        "name": "Route de Vannes-179",
         "status": "done",
         "doneAt": "01/01/2015",
         "type": "bandes-cyclables",
@@ -21986,7 +22972,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "M 965-182",
+        "name": "M 965-180",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -22088,7 +23074,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Syonnière 2-183",
+        "name": "Rue de la Syonnière 2-181",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -22130,7 +23116,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Place de l'Église-184",
+        "name": "Place de l'Église-182",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -22480,7 +23466,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Paul Bellamy-185",
+        "name": "Rue Paul Bellamy-183",
         "status": "done",
         "doneAt": "01/01/2024",
         "type": "inconnu",
@@ -22534,7 +23520,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Rennes 3-186",
+        "name": "Route de Rennes 3-184",
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "voie-bus",
@@ -22632,7 +23618,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Rennes 2-187",
+        "name": "Route de Rennes 2-185",
         "status": "done",
         "doneAt": "01/01/2013",
         "type": "bandes-cyclables",
@@ -22782,7 +23768,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Robert Schuman 2-188",
+        "name": "Boulevard Robert Schuman 2-186",
         "status": "done",
         "doneAt": "01/01/2013",
         "type": "bandes-cyclables",
@@ -22920,7 +23906,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Rennes-189",
+        "name": "Route de Rennes-187",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -22990,7 +23976,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Rennes 8-190",
+        "name": "Route de Rennes 8-188",
         "status": "done",
         "doneAt": "01/01/2022",
         "type": "voie-bus",
@@ -23124,7 +24110,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Robert Schuman 3-191",
+        "name": "Boulevard Robert Schuman 3-189",
         "status": "done",
         "doneAt": "01/01/2013",
         "type": "voie-bus",
@@ -23182,7 +24168,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Rennes 5-192",
+        "name": "Route de Rennes 5-190",
         "status": "done",
         "doneAt": "01/01/2022",
         "type": "bandes-cyclables",
@@ -23380,7 +24366,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de Strasbourg-193",
+        "name": "Rue de Strasbourg-191",
         "status": "done",
         "doneAt": "01/01/2024",
         "type": "bandes-cyclables",
@@ -23430,7 +24416,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Rennes 6-194",
+        "name": "Route de Rennes 6-192",
         "status": "done",
         "doneAt": "01/01/2022",
         "type": "bandes-cyclables",
@@ -23500,7 +24486,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Rennes 4-195",
+        "name": "Route de Rennes 4-193",
         "status": "done",
         "doneAt": "01/01/2013",
         "type": "voie-bus",
@@ -23578,7 +24564,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Rennes 7-196",
+        "name": "Route de Rennes 7-194",
         "status": "done",
         "doneAt": "01/01/2022",
         "type": "bandes-cyclables",
@@ -23684,7 +24670,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Boulevard Robert Schuman-197",
+        "name": "Boulevard Robert Schuman-195",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -23710,7 +24696,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Jean Jaurès-198",
+        "name": "Rue Jean Jaurès-196",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -23744,7 +24730,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Descartes-199",
+        "name": "Rue Descartes-197",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -23770,7 +24756,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Bertrand Geslin-200",
+        "name": "Rue Bertrand Geslin-198",
         "status": "done",
         "doneAt": "01/01/2024",
         "type": "inconnu",
@@ -23804,7 +24790,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Rosière d'Artois-201",
+        "name": "Rue de la Rosière d'Artois-199",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -23842,7 +24828,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de la Verrerie-202",
+        "name": "Rue de la Verrerie-200",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",
@@ -23908,7 +24894,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue de Bel Air-203",
+        "name": "Rue de Bel Air-201",
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "inconnu",

@@ -89,7 +89,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#17"
+        "id": "sans-titre#16"
       }
     },
     {
@@ -287,7 +287,7 @@
         "line": "C",
         "name": "Pont des 3 continents",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2020",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -341,12 +341,12 @@
         "line": "C",
         "name": "Boulevard Simone Veil",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2021",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#56"
+        "id": "sans-titre#55"
       }
     },
     {
@@ -408,12 +408,12 @@
         "line": "C",
         "name": "Rue Simone Veil",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2024",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#57"
+        "id": "sans-titre#56"
       }
     },
     {
@@ -551,9 +551,9 @@
       },
       "properties": {
         "line": "C",
-        "name": "Boulevard René Coty",
+        "name": "Boulevard René Coty - Léon Jouhaux",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2019",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -629,7 +629,7 @@
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -811,10 +811,10 @@
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#84"
+        "id": "sans-titre#82"
       }
     },
     {
@@ -856,9 +856,9 @@
         "line": "C",
         "name": "Boulevard Emile Romanet",
         "status": "wip",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2014",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -914,9 +914,9 @@
         "line": "C",
         "name": "Rue de Saint nazaire",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -940,9 +940,9 @@
         "line": "C",
         "name": "Boulevard Charles de Gaulle",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1023,7 +1023,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
-        "id": "sans-titre#126"
+        "id": "sans-titre#123"
       }
     },
     {
@@ -1068,7 +1068,7 @@
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "aucune",
+        "infrastructure": "magistrale",
         "link": ""
       }
     },
@@ -1095,12 +1095,12 @@
         "line": "C",
         "name": "Avenue de la IVème république",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "aucune",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#144"
+        "id": "sans-titre#141"
       }
     },
     {
@@ -1139,7 +1139,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#150"
+        "id": "sans-titre#145"
       }
     },
     {

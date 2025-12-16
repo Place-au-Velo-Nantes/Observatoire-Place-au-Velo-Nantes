@@ -378,7 +378,7 @@
         "line": "F",
         "name": "Boulevard Stalingrad",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -416,12 +416,12 @@
         "line": "F",
         "name": "Boulevard Ernest Dalby Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#40"
+        "id": "sans-titre#39"
       }
     },
     {
@@ -476,7 +476,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#60"
+        "id": "sans-titre#59"
       }
     },
     {
@@ -555,7 +555,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#75"
+        "id": "sans-titre#73"
       }
     },
     {
@@ -610,7 +610,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#77"
+        "id": "sans-titre#75"
       }
     },
     {
@@ -675,7 +675,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#88"
+        "id": "sans-titre#86"
       }
     },
     {
@@ -868,7 +868,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#118"
+        "id": "sans-titre#115"
       }
     },
     {
@@ -899,7 +899,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#119"
+        "id": "sans-titre#116"
       }
     },
     {
@@ -936,7 +936,7 @@
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "not-rated-yet",
-        "infrastructure": "aucune",
+        "infrastructure": "magistrale",
         "link": ""
       }
     },

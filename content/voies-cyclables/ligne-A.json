@@ -66,10 +66,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "unsatisfactory",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#53"
+        "id": "sans-titre#52"
       }
     },
     {
@@ -238,7 +238,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#81"
+        "id": "sans-titre#79"
       }
     },
     {
@@ -440,7 +440,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": ""
       }
@@ -474,7 +474,7 @@
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -508,7 +508,7 @@
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -693,46 +693,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
-        "id": "sans-titre#126"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.695891,
-            47.191819
-          ],
-          [
-            -1.69293,
-            47.190091
-          ],
-          [
-            -1.689754,
-            47.188662
-          ],
-          [
-            -1.693018704,
-            47.184134689
-          ],
-          [
-            -1.692633408,
-            47.182847431
-          ]
-        ]
-      },
-      "properties": {
-        "line": "A",
-        "name": "Ouest de La Montagne",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#128"
+        "id": "sans-titre#123"
       }
     },
     {
@@ -930,12 +891,12 @@
       },
       "properties": {
         "line": "A",
-        "name": "A#1",
+        "name": "La montagne - Pellerin",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
-        "infrastructure": "aucune",
+        "infrastructure": "secondaire",
         "link": ""
       }
     },
