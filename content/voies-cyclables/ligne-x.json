@@ -1227,7 +1227,7 @@
         "name": "Rue Jean Jaurès",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -1707,7 +1707,7 @@
         "name": "Route de Vannes",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -2113,7 +2113,7 @@
         "name": "Avenue de la Pentecôte",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -2235,7 +2235,7 @@
         "name": "Rue de Bretagne ouest",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -2413,7 +2413,7 @@
         "name": "Avenue d'Anjou",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -2605,7 +2605,7 @@
         "name": "Avenue de la Libération",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -2677,7 +2677,7 @@
         "name": "Rue Éric Tabarly",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -2727,7 +2727,7 @@
         "name": "Rue Georges Barbeau",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -3125,7 +3125,7 @@
         "name": "Avenue de Bretagne",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -3261,7 +3261,7 @@
         "name": "Quai Besnard",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -3385,7 +3385,7 @@
         "name": "Rue Pasteur",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -3547,7 +3547,7 @@
         "name": "Rue Jean Mermoz",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -3593,7 +3593,7 @@
         "name": "Quai Jean Bart est",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -4011,7 +4011,7 @@
         "name": "Route de B asse-Indre",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -4075,7 +4075,7 @@
         "name": "Boulevard Michelet",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -7091,7 +7091,7 @@
         "name": "Rue de la Bastille",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -8115,7 +8115,7 @@
         "name": "Rue des Dervallières 2",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -8349,7 +8349,7 @@
         "name": "Rue de la Janvraie",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -9473,7 +9473,7 @@
         "name": "M 75",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -9655,7 +9655,7 @@
         "name": "Route de Vannes 2",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -9717,7 +9717,7 @@
         "name": "M 965 2",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -9807,7 +9807,7 @@
         "name": "Rue de la Syonnière",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -10051,7 +10051,7 @@
         "name": "M 965",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -10153,7 +10153,7 @@
         "name": "Rue de la Syonnière 2",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -10195,7 +10195,7 @@
         "name": "Place de l'Église",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -10545,7 +10545,7 @@
         "name": "Rue Paul Bellamy",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -10985,7 +10985,7 @@
         "name": "Route de Rennes",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -11749,7 +11749,7 @@
         "name": "Boulevard Robert Schuman",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -11775,7 +11775,7 @@
         "name": "Rue Jean Jaurès-35",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -11809,7 +11809,7 @@
         "name": "Rue Descartes",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -11835,7 +11835,7 @@
         "name": "Rue Bertrand Geslin",
         "status": "done",
         "doneAt": "01/01/2024",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -11869,7 +11869,7 @@
         "name": "Rue de la Rosière d'Artois",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -11907,7 +11907,7 @@
         "name": "Rue de la Verrerie",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -11973,7 +11973,7 @@
         "name": "Rue de Bel Air",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -12163,7 +12163,7 @@
         "name": "Rue des Hauts Pavés centre sud",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -12311,7 +12311,7 @@
         "name": "Boulevard Jean XXIII",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -12539,7 +12539,7 @@
         "name": "Rue du Poitou",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -12613,7 +12613,7 @@
         "name": "Rue des Hauts Pavés sud",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -12663,7 +12663,7 @@
         "name": "Rue des Hauts Pavés nord",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -12873,7 +12873,7 @@
         "name": "Rue de la Gare sud reze",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -12939,7 +12939,7 @@
         "name": "Rue de la Gare nord reze",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -14209,7 +14209,7 @@
         "name": "Rue Jean Jaurès-61",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -14689,7 +14689,7 @@
         "name": "Route de Vannes-71",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -15095,7 +15095,7 @@
         "name": "Avenue de la Pentecôte-76",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -15217,7 +15217,7 @@
         "name": "Rue de Bretagne ouest-77",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -15395,7 +15395,7 @@
         "name": "Avenue d'Anjou-80",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -15587,7 +15587,7 @@
         "name": "Avenue de la Libération-82",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -15659,7 +15659,7 @@
         "name": "Rue Éric Tabarly-84",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -15709,7 +15709,7 @@
         "name": "Rue Georges Barbeau-85",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -15759,7 +15759,7 @@
         "name": "Rue de la Gare sud-86",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -15991,7 +15991,7 @@
         "name": "Avenue de Bretagne-88",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -16057,7 +16057,7 @@
         "name": "Rue de la Gare nord-89",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -16135,7 +16135,7 @@
         "name": "Quai Besnard-90",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -16259,7 +16259,7 @@
         "name": "Rue Pasteur-92",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -16421,7 +16421,7 @@
         "name": "Rue Jean Mermoz-93",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -16467,7 +16467,7 @@
         "name": "Quai Jean Bart est-94",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -16885,7 +16885,7 @@
         "name": "Route de B asse-Indre-103",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -16999,7 +16999,7 @@
         "name": "Boulevard Michelet-106",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -20015,7 +20015,7 @@
         "name": "Rue de la Bastille-152",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -21039,7 +21039,7 @@
         "name": "Rue des Dervallières 2-162",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -21273,7 +21273,7 @@
         "name": "Rue de la Janvraie-165",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -22397,7 +22397,7 @@
         "name": "M 75-175",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -22579,7 +22579,7 @@
         "name": "Route de Vannes 2-176",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -22641,7 +22641,7 @@
         "name": "M 965 2-177",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -22731,7 +22731,7 @@
         "name": "Rue de la Syonnière-178",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -22975,7 +22975,7 @@
         "name": "M 965-180",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -23077,7 +23077,7 @@
         "name": "Rue de la Syonnière 2-181",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -23119,7 +23119,7 @@
         "name": "Place de l'Église-182",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -23469,7 +23469,7 @@
         "name": "Rue Paul Bellamy-183",
         "status": "done",
         "doneAt": "01/01/2024",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -23909,7 +23909,7 @@
         "name": "Route de Rennes-187",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -24673,7 +24673,7 @@
         "name": "Boulevard Robert Schuman-195",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -24699,7 +24699,7 @@
         "name": "Rue Jean Jaurès-196",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -24733,7 +24733,7 @@
         "name": "Rue Descartes-197",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -24759,7 +24759,7 @@
         "name": "Rue Bertrand Geslin-198",
         "status": "done",
         "doneAt": "01/01/2024",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -24793,7 +24793,7 @@
         "name": "Rue de la Rosière d'Artois-199",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -24831,7 +24831,7 @@
         "name": "Rue de la Verrerie-200",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -24897,7 +24897,7 @@
         "name": "Rue de Bel Air-201",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""

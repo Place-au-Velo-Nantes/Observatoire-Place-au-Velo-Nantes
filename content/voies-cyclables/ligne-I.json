@@ -940,7 +940,7 @@
         "name": "Rue Édouard Vaillant",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": ""
@@ -1084,7 +1084,7 @@
         "name": "Quai Besnard est",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -2050,7 +2050,7 @@
         "name": "Rue Albert Thomas",
         "status": "done",
         "doneAt": "01/01/2018",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": ""

@@ -18,7 +18,7 @@ TSV / 1 2 1 3 2 1 --> score sur 20
 */
 
 // Fix functions extracted from the composable
-const fixType = (type) => {
+const fixType = (type, context, invalidValues) => {
   const validTypes = [
     'bidirectionnelle',
     'bilaterale',
@@ -33,36 +33,53 @@ const fixType = (type) => {
     'aucun',
   ];
 
-  if (validTypes.includes(type)) {
-    return type;
-  } else if (type === 'bande cyclable' || type === 'bande cylable' || type === 'piste ou bande cyclable') {
+  if (!type) {
+    return 'inconnu';
+  }
+
+  const originalType = type;
+  const lowerType = type.toLowerCase();
+  if (validTypes.includes(lowerType)) {
+    return lowerType;
+  } else if (
+    lowerType === 'bande cyclable' ||
+    lowerType === 'bande cylable' ||
+    lowerType === 'piste ou bande cyclable'
+  ) {
     return 'bandes-cyclables';
-  } else if (type === 'voie bus' || type === 'voie busway' || type === 'voie bus ou piste') {
+  } else if (lowerType === 'voie bus' || lowerType === 'voie busway' || lowerType === 'voie bus ou piste') {
     return 'voie-bus';
-  } else if (type === 'piste cyclable' || type === 'piste') {
+  } else if (lowerType === 'piste cyclable' || lowerType === 'piste') {
     return 'bilaterale';
-  } else if (type === 'piste bidir') {
+  } else if (lowerType === 'piste bidir') {
     return 'bidirectionnelle';
-  } else if (type === 'chaussidou' || type === 'chaussidou et bandes cyclables') {
+  } else if (lowerType === 'chaussidou' || lowerType === 'chaussidou et bandes cyclables') {
     return 'chaucidou';
-  } else if (type === 'monodirectionnelle' || type === 'monodirectionnellea') {
+  } else if (lowerType === 'monodirectionnelle' || lowerType === 'monodirectionnellea') {
     return 'bandes-cyclables';
-  } else if (type === 'vélorue') {
+  } else if (lowerType === 'vélorue') {
     return 'velorue';
-  } else if (type === 'zone de rencontre') {
+  } else if (lowerType === 'zone de rencontre') {
     return 'zone-de-rencontre';
-  } else if (type === 'voie verte') {
+  } else if (lowerType === 'voie verte') {
     return 'voie-verte';
-  } else if (type === 'chemin rural' || type === 'route partagée') {
+  } else if (lowerType === 'chemin rural' || lowerType === 'route partagée') {
     return 'aucun';
-  } else if (type) {
-    console.error(`Invalid type '${type}'`);
+  } else {
+    if (invalidValues && context) {
+      invalidValues.push({
+        name: context.name,
+        line: context.line,
+        field: 'type',
+        value: originalType,
+      });
+    }
   }
 
   return 'inconnu';
 };
 
-const fixStatus = (status) => {
+const fixStatus = (status, context, invalidValues) => {
   const validStatus = ['done', 'wip', 'planned', 'tested', 'postponed', 'unknown', 'variante', 'variante-postponed'];
 
   const lowercaseStatus = status.toLowerCase();
@@ -79,37 +96,64 @@ const fixStatus = (status) => {
   } else if (['à définir', 'a définir', 'aucun'].includes(lowercaseStatus)) {
     return 'unknown';
   } else if (lowercaseStatus) {
-    console.error(`Invalid status '${lowercaseStatus}'`);
+    if (invalidValues && context) {
+      invalidValues.push({
+        name: context.name,
+        line: context.line,
+        field: 'status',
+        value: status,
+      });
+    }
   }
   return 'unknown';
 };
 
-const fixQuality = (quality) => {
+const fixQuality = (quality, context, invalidValues) => {
   if (quality === 'satisfaisant') return 'satisfactory';
   else if (quality === 'non satisfaisant' || quality === 'non satisafaisant') return 'unsatisfactory';
   else if (quality !== null && quality !== '') {
-    console.error(`Invalid quality '${quality}'`);
-    process.exit(1);
+    if (invalidValues && context) {
+      invalidValues.push({
+        name: context.name,
+        line: context.line,
+        field: 'quality',
+        value: quality,
+      });
+    }
   }
   return 'not-rated-yet';
 };
 
-const fixDoneDate = (doneAt) => {
+const fixDoneDate = (doneAt, context, invalidValues) => {
   if (!doneAt) return '01/01/2000';
   if (!/^\d{4}$/.test(doneAt)) {
-    console.error(`Invalid year '${doneAt}', expected a 4-digit year like 2025`);
-    process.exit(1);
+    if (invalidValues && context) {
+      invalidValues.push({
+        name: context.name,
+        line: context.line,
+        field: 'doneAt',
+        value: doneAt,
+      });
+    }
+    return '01/01/2000'; // Default value instead of exiting
   }
   return `01/01/${doneAt}`;
 };
 
-const fixInfrastructure = (infrastructure) => {
+const fixInfrastructure = (infrastructure, context, invalidValues) => {
   const validInfrastructures = ['magistrale', 'structurante', 'secondaire', 'maillage', 'aucune'];
 
   if (validInfrastructures.includes(infrastructure)) {
     return infrastructure;
   } else if (infrastructure && infrastructure.trim() !== '') {
-    console.error(`Invalid infrastructure '${infrastructure}', defaulting to 'aucune'`);
+    if (invalidValues && context) {
+      invalidValues.push({
+        name: context.name,
+        line: context.line,
+        field: 'infrastructure',
+        value: infrastructure,
+      });
+    }
   }
 
   return 'aucune';
@@ -249,6 +293,8 @@ const processVoiesFiles = () => {
   const lines = {};
   // Track counters for auto-generated names per line to ensure uniqueness
   const nameCounters = {};
+  // Track invalid values for reporting
+  const invalidValues = [];
 
   files.forEach((filename) => {
     const inputPath = path.join(brutDir, filename);
@@ -333,17 +379,20 @@ const processVoiesFiles = () => {
             }
           }
 
+          // Create context for tracking invalid values
+          const context = { name, line: line_letter };
+
           let infrastructure = '';
           if (filename === 'magistral.geojson') {
             infrastructure = 'magistrale';
           } else if (filename === 'structurante.geojson') {
             infrastructure = 'structurante';
           } else {
-            infrastructure = fixInfrastructure(feature.properties.infrastructure || 'aucune');
+            infrastructure = fixInfrastructure(feature.properties.infrastructure || 'aucune', context, invalidValues);
           }
 
-          const doneAt = fixDoneDate(feature.properties.year);
-          let status = fixStatus(feature.properties.status || '');
+          const doneAt = fixDoneDate(feature.properties.year, context, invalidValues);
+          let status = fixStatus(feature.properties.status || '', context, invalidValues);
 
           if (feature.properties.year && status === 'unknown') {
             status = 'done';
@@ -354,8 +403,8 @@ const processVoiesFiles = () => {
             name,
             status,
             doneAt,
-            type: fixType(feature.properties.type || ''),
-            quality: fixQuality(feature.properties.quality),
+            type: fixType(feature.properties.type || '', context, invalidValues),
+            quality: fixQuality(feature.properties.quality, context, invalidValues),
             infrastructure,
             link: feature.properties.link || '',
           };
@@ -389,15 +438,62 @@ const processVoiesFiles = () => {
   });
 
   console.log('Processing complete!');
+
+  return invalidValues;
+};
+
+// Function to output invalid values
+const outputInvalidValues = (invalidValues) => {
+  if (invalidValues.length === 0) {
+    console.log('\n✓ No invalid values found!');
+    return;
+  }
+
+  console.log('\n=== INVALID VALUES FOUND ===');
+  console.log(`Total: ${invalidValues.length} invalid value(s)\n`);
+
+  // Output to terminal in markdown format
+  console.log('```');
+  invalidValues.forEach((item) => {
+    console.log(`- **${item.name}** (ligne ${item.line}): \`${item.field}\` = \`${item.value}\``);
+  });
+  console.log('```');
+
+  // Output to markdown file
+  const markdownPath = path.join(__dirname, '../invalid-values-report.md');
+  let markdown = `# Invalid Values Report\n\n`;
+  markdown += `Generated: ${new Date().toISOString()}\n\n`;
+  markdown += `Total: ${invalidValues.length} invalid value(s)\n\n`;
+  markdown += `## Issues\n\n`;
+  invalidValues.forEach((item) => {
+    markdown += `- **${item.name}** (ligne ${item.line}): \`${item.field}\` = \`${item.value}\`\n`;
+  });
+
+  fs.writeFileSync(markdownPath, markdown);
+  console.log(`\n✓ Invalid values report saved to: ${markdownPath}`);
+
+  // Also save JSON for programmatic access
+  const jsonPath = path.join(__dirname, '../invalid-values-report.json');
+  const report = {
+    generatedAt: new Date().toISOString(),
+    total: invalidValues.length,
+    issues: invalidValues,
+  };
+
+  fs.writeFileSync(jsonPath, JSON.stringify(report, null, 2));
+  console.log(`✓ JSON report saved to: ${jsonPath}`);
 };
 
 // Main execution function
 const main = () => {
   console.log('=== PROCESSING VOIES CYCLABLES ===');
-  processVoiesFiles();
+  const invalidValues = processVoiesFiles();
 
   console.log('\n=== ADDING DANGERS TO LINES ===');
   addDangersToLines();
+
+  // Output invalid values
+  outputInvalidValues(invalidValues);
 
   console.log('\n=== ALL PROCESSING COMPLETE ===');
 };

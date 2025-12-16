@@ -1183,7 +1183,7 @@
         "name": "Rue Guibal",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": ""
@@ -1261,7 +1261,7 @@
         "name": "Avenue des Grands Bois",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": ""
@@ -1295,7 +1295,7 @@
         "name": "Avenue des Genêts",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": ""
@@ -1357,7 +1357,7 @@
         "name": "Avenue de la Passagère",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": ""
@@ -1387,7 +1387,7 @@
         "name": "Avenue de Chambord",
         "status": "unknown",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": ""
