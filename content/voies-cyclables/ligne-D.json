@@ -88,9 +88,9 @@
         "line": "D",
         "name": "Avenue de la Bugallière Est",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
+        "doneAt": "01/01/2017",
+        "type": "voie-verte",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -156,9 +156,9 @@
         "line": "D",
         "name": "Rue de Nantes",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -194,7 +194,7 @@
         "line": "D",
         "name": "Voie verte A82",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "voie-verte",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -579,7 +579,7 @@
         "line": "D",
         "name": "Boulevard Du Massacre",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -627,7 +627,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "chaucidou",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -688,6 +688,10 @@
             47.261184252
           ],
           [
+            -1.64934207,
+            47.261307976
+          ],
+          [
             -1.647999073,
             47.2614317
           ],
@@ -703,11 +707,11 @@
       },
       "properties": {
         "line": "D",
-        "name": "Rue Léon Gaumont",
-        "status": "planned",
-        "doneAt": "01/01/2000",
+        "name": "Rue Léon Gaumont ouest",
+        "status": "done",
+        "doneAt": "01/01/2020",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -745,7 +749,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": ""
       }
@@ -926,7 +930,7 @@
         "line": "D",
         "name": "Avenue Claude Antoine Peccot Ouest",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -969,9 +973,9 @@
         "line": "D",
         "name": "Avenue Claude Antoine Peccot Est",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -997,7 +1001,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1027,7 +1031,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
       }
@@ -1068,7 +1072,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#130"
+        "id": "sans-titre#128"
       }
     },
     {
@@ -1432,6 +1436,74 @@
         "type": "velorue",
         "quality": "unsatisfactory",
         "infrastructure": "secondaire",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.642219474,
+            47.260682317
+          ],
+          [
+            -1.642578789,
+            47.2607114
+          ],
+          [
+            -1.643149079,
+            47.260675605
+          ],
+          [
+            -1.64389166,
+            47.260796325
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "rue léon Gaumont",
+        "status": "done",
+        "doneAt": "01/01/2022",
+        "type": "chaucidou",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.63904872,
+            47.260163739
+          ],
+          [
+            -1.640054555,
+            47.260344634
+          ],
+          [
+            -1.640519034,
+            47.260391877
+          ],
+          [
+            -1.642219474,
+            47.260682317
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Avenue de la Bugallière Ouest-1",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "voie-bus",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
         "link": ""
       }
     },

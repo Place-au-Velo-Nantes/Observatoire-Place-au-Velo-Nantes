@@ -167,7 +167,7 @@
         "name": "Pont Aristide-Briand",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -219,8 +219,8 @@
         "name": "Boulevard du Général de Gaulle Sud",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -245,7 +245,7 @@
         "name": "Pont Georges Clemenceau",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -329,7 +329,7 @@
         "name": "Cours John Kennedy",
         "status": "done",
         "doneAt": "01/01/2019",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -379,7 +379,7 @@
         "name": "Boulevard Stalingrad",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -417,7 +417,7 @@
         "name": "Boulevard Ernest Dalby Sud",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
@@ -472,7 +472,7 @@
         "name": "Boulevard Ernest Dalby Nord",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
@@ -549,10 +549,10 @@
       "properties": {
         "line": "F",
         "name": "Route de Sainte Luce",
-        "status": "wip",
+        "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#73"
@@ -583,7 +583,7 @@
         "status": "done",
         "doneAt": "01/01/2020",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -617,7 +617,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#85"
@@ -656,7 +656,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": ""
       }
@@ -686,7 +686,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": ""
       }
@@ -764,7 +764,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": ""
       }
@@ -810,10 +810,10 @@
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#114"
+        "id": "sans-titre#112"
       }
     },
     {
@@ -841,10 +841,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#115"
+        "id": "sans-titre#113"
       }
     },
     {
@@ -880,7 +880,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }

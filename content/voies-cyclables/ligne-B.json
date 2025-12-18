@@ -797,7 +797,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -876,7 +876,7 @@
         "name": "Quai moncousu",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -991,7 +991,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }

@@ -390,7 +390,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
       }
@@ -542,7 +542,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -612,7 +612,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": ""
       }
@@ -693,7 +693,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
-        "id": "sans-titre#122"
+        "id": "sans-titre#120"
       }
     },
     {

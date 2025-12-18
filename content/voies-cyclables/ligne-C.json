@@ -554,7 +554,7 @@
         "name": "Boulevard René Coty - Léon Jouhaux",
         "status": "done",
         "doneAt": "01/01/2019",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -713,7 +713,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -857,7 +857,7 @@
         "name": "Boulevard Emile Romanet",
         "status": "wip",
         "doneAt": "01/01/2014",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -915,7 +915,7 @@
         "name": "Rue de Saint nazaire",
         "status": "done",
         "doneAt": "01/01/2013",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -941,7 +941,7 @@
         "name": "Boulevard Charles de Gaulle",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -1023,7 +1023,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
-        "id": "sans-titre#122"
+        "id": "sans-titre#120"
       }
     },
     {
@@ -1100,7 +1100,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#140"
+        "id": "sans-titre#138"
       }
     },
     {
@@ -1136,10 +1136,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#144"
+        "id": "sans-titre#142"
       }
     },
     {

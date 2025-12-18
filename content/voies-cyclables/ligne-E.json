@@ -921,8 +921,8 @@
         "name": "Pont Général de la Motte Rouge",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -993,8 +993,8 @@
         "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1268,7 +1268,7 @@
         "name": "Boulevard Guy Mollet Sud",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -1315,7 +1315,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1353,7 +1353,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "velorue",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1428,7 +1428,7 @@
         "name": "Boulevard Guy Mollet Nord",
         "status": "done",
         "doneAt": "01/01/2020",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -1650,7 +1650,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#126"
+        "id": "sans-titre#124"
       }
     },
     {
@@ -1689,7 +1689,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#130"
+        "id": "sans-titre#128"
       }
     },
     {
@@ -1716,11 +1716,11 @@
         "name": "Boulevard des Martyrs Nantais de la Résistance Nord",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#133"
+        "id": "sans-titre#131"
       }
     },
     {
@@ -1781,7 +1781,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#140"
+        "id": "sans-titre#138"
       }
     },
     {
@@ -1817,10 +1817,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#144"
+        "id": "sans-titre#142"
       }
     },
     {
@@ -1852,10 +1852,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#147"
+        "id": "sans-titre#145"
       }
     },
     {

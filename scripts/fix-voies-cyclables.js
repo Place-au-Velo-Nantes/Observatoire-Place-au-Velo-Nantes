@@ -49,14 +49,12 @@ const fixType = (type, context, invalidValues) => {
     return 'bandes-cyclables';
   } else if (lowerType === 'voie bus' || lowerType === 'voie busway' || lowerType === 'voie bus ou piste') {
     return 'voie-bus';
-  } else if (lowerType === 'piste cyclable' || lowerType === 'piste') {
+  } else if (['piste cyclable', 'piste', 'monodirectionnelle', 'monodirectionnellea'].includes(lowerType)) {
     return 'bilaterale';
   } else if (lowerType === 'piste bidir') {
     return 'bidirectionnelle';
   } else if (lowerType === 'chaussidou' || lowerType === 'chaussidou et bandes cyclables') {
     return 'chaucidou';
-  } else if (lowerType === 'monodirectionnelle' || lowerType === 'monodirectionnellea') {
-    return 'bandes-cyclables';
   } else if (lowerType === 'vélorue') {
     return 'velorue';
   } else if (lowerType === 'zone de rencontre') {

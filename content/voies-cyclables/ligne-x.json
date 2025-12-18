@@ -58,7 +58,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -104,7 +104,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -134,7 +134,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -246,7 +246,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -272,7 +272,7 @@
         "status": "wip",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -438,7 +438,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -464,7 +464,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -670,7 +670,7 @@
         "status": "postponed",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -841,188 +841,6 @@
         "doneAt": "01/01/2020",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.635077944,
-            47.228416379
-          ],
-          [
-            -1.633797938,
-            47.229526533
-          ],
-          [
-            -1.631683901,
-            47.23122803
-          ],
-          [
-            -1.631575923,
-            47.231442756
-          ],
-          [
-            -1.631282842,
-            47.231652243
-          ],
-          [
-            -1.630271952,
-            47.233214713
-          ],
-          [
-            -1.630002015,
-            47.233555122
-          ],
-          [
-            -1.629107345,
-            47.235550379
-          ],
-          [
-            -1.628535206,
-            47.237496916
-          ],
-          [
-            -1.627578836,
-            47.240078499
-          ],
-          [
-            -1.626795463,
-            47.240812697
-          ],
-          [
-            -1.626093614,
-            47.241111166
-          ],
-          [
-            -1.624543367,
-            47.241524827
-          ],
-          [
-            -1.623540717,
-            47.241896602
-          ],
-          [
-            -1.620602189,
-            47.243168976
-          ],
-          [
-            -1.619476141,
-            47.243891551
-          ],
-          [
-            -1.617933607,
-            47.244928264
-          ],
-          [
-            -1.616799853,
-            47.246153449
-          ],
-          [
-            -1.615373008,
-            47.248305297
-          ],
-          [
-            -1.614691265,
-            47.249385422
-          ],
-          [
-            -1.614370206,
-            47.249637879
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Boulevard Marcel Paul Nord",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.635076559,
-            47.228418065
-          ],
-          [
-            -1.635712864,
-            47.227836762
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Boulevard Marcel Paul Sud",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "aucun",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.64393128,
-            47.21734276
-          ],
-          [
-            -1.64120732,
-            47.218468129
-          ],
-          [
-            -1.640558945,
-            47.219275116
-          ],
-          [
-            -1.640047962,
-            47.22135391
-          ],
-          [
-            -1.639622966,
-            47.222318206
-          ],
-          [
-            -1.63850708,
-            47.224709564
-          ],
-          [
-            -1.637679704,
-            47.225896063
-          ],
-          [
-            -1.636628362,
-            47.227022963
-          ],
-          [
-            -1.635712874,
-            47.227833746
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Boulevard François Mitterrand",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1414,7 +1232,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -1570,7 +1388,7 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -2309,65 +2127,7 @@
         "name": "Rue de Bretagne est",
         "status": "done",
         "doneAt": "01/01/2019",
-        "type": "bandes-cyclables",
-        "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.618894355,
-            47.270833897
-          ],
-          [
-            -1.6190317,
-            47.2709089
-          ],
-          [
-            -1.6190735,
-            47.2709291
-          ],
-          [
-            -1.6191234,
-            47.2709533
-          ],
-          [
-            -1.6194049,
-            47.2710619
-          ],
-          [
-            -1.6204807,
-            47.2717476
-          ],
-          [
-            -1.6206053,
-            47.2718267
-          ],
-          [
-            -1.62063,
-            47.2718486
-          ],
-          [
-            -1.6206607,
-            47.2718843
-          ],
-          [
-            -1.620739991,
-            47.271967451
-          ]
-        ]
-      },
-      "properties": {
-        "line": "X",
-        "name": "Route de Nantes",
-        "status": "done",
-        "doneAt": "01/01/2008",
-        "type": "bidirectionnelle",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
@@ -2460,7 +2220,7 @@
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "zone-de-rencontre",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -6479,7 +6239,7 @@
         "name": "Pont de la Tortière",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -9913,7 +9673,7 @@
         "name": "Route de Vannes-34",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": ""
@@ -12940,6 +12700,312 @@
         "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.635076559,
+            47.228418065
+          ],
+          [
+            -1.635726956,
+            47.227851505
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Marcel Paul pont",
+        "status": "unknown",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.629107345,
+            47.235550379
+          ],
+          [
+            -1.628535206,
+            47.237496916
+          ],
+          [
+            -1.627578836,
+            47.240078499
+          ],
+          [
+            -1.626795463,
+            47.240812697
+          ],
+          [
+            -1.626093614,
+            47.241111166
+          ],
+          [
+            -1.624543367,
+            47.241524827
+          ],
+          [
+            -1.623540717,
+            47.241896602
+          ],
+          [
+            -1.620602189,
+            47.243168976
+          ],
+          [
+            -1.620571913,
+            47.24322257
+          ],
+          [
+            -1.620000602,
+            47.243538499
+          ],
+          [
+            -1.619568766,
+            47.24378341
+          ],
+          [
+            -1.619521828,
+            47.243797977
+          ],
+          [
+            -1.619476141,
+            47.243891551
+          ],
+          [
+            -1.619382352,
+            47.243931358
+          ],
+          [
+            -1.619229466,
+            47.244018305
+          ],
+          [
+            -1.618694366,
+            47.244371557
+          ],
+          [
+            -1.618208887,
+            47.244781254
+          ],
+          [
+            -1.617953724,
+            47.244901406
+          ],
+          [
+            -1.617921892,
+            47.244967893
+          ],
+          [
+            -1.617849472,
+            47.245106278
+          ],
+          [
+            -1.617591978,
+            47.245330241
+          ],
+          [
+            -1.61731638,
+            47.245609968
+          ],
+          [
+            -1.61715612,
+            47.245770884
+          ],
+          [
+            -1.616842433,
+            47.246143207
+          ],
+          [
+            -1.616674664,
+            47.246369935
+          ],
+          [
+            -1.615599098,
+            47.247995894
+          ],
+          [
+            -1.615435482,
+            47.248267185
+          ],
+          [
+            -1.615385078,
+            47.24831258
+          ],
+          [
+            -1.615363064,
+            47.248360043
+          ],
+          [
+            -1.614831985,
+            47.24920577
+          ],
+          [
+            -1.614681877,
+            47.249383601
+          ],
+          [
+            -1.61446251,
+            47.249518021
+          ],
+          [
+            -1.614370206,
+            47.249637879
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Marcel Paul Nord",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.635077944,
+            47.228416379
+          ],
+          [
+            -1.633797938,
+            47.229526533
+          ],
+          [
+            -1.631683901,
+            47.23122803
+          ],
+          [
+            -1.631575923,
+            47.231442756
+          ],
+          [
+            -1.631282842,
+            47.231652243
+          ],
+          [
+            -1.630271952,
+            47.233214713
+          ],
+          [
+            -1.630002015,
+            47.233555122
+          ],
+          [
+            -1.629107345,
+            47.235550379
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Marcel Paul milieu",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "voie-bus",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.64393128,
+            47.21734276
+          ],
+          [
+            -1.64120732,
+            47.218468129
+          ],
+          [
+            -1.640558945,
+            47.219275116
+          ],
+          [
+            -1.640047962,
+            47.22135391
+          ],
+          [
+            -1.639698746,
+            47.222096617
+          ],
+          [
+            -1.639649788,
+            47.222307276
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard François Mitterrand nord",
+        "status": "done",
+        "doneAt": "01/01/2022",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.635726956,
+            47.227851505
+          ],
+          [
+            -1.636628362,
+            47.227022963
+          ],
+          [
+            -1.637679704,
+            47.225896063
+          ],
+          [
+            -1.63850708,
+            47.224709564
+          ],
+          [
+            -1.639649788,
+            47.222307276
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Boulevard Marcel Paul Sud",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""

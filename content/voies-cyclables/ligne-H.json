@@ -112,7 +112,7 @@
         "line": "H",
         "name": "Route de Nantes",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -150,7 +150,7 @@
         "line": "H",
         "name": "Route de Nantes/Boulevard Mendès France",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -416,7 +416,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#85"
@@ -553,7 +553,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": ""
       }
@@ -669,10 +669,10 @@
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "bidirectionnelle",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#114"
+        "id": "sans-titre#112"
       }
     },
     {
@@ -712,10 +712,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#116"
+        "id": "sans-titre#114"
       }
     },
     {
@@ -792,7 +792,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "aucune",
         "link": "",
-        "id": "sans-titre#145"
+        "id": "sans-titre#143"
       }
     },
     {
@@ -824,10 +824,92 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#147"
+        "id": "sans-titre#145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.620739991,
+            47.271967451
+          ],
+          [
+            -1.6206022,
+            47.2719392
+          ],
+          [
+            -1.6205605,
+            47.2719079
+          ],
+          [
+            -1.6205262,
+            47.2718752
+          ],
+          [
+            -1.6203663,
+            47.2717605
+          ],
+          [
+            -1.6201184,
+            47.2716002
+          ],
+          [
+            -1.6196232,
+            47.2712935
+          ],
+          [
+            -1.6193726,
+            47.271143
+          ],
+          [
+            -1.6192812,
+            47.2710934
+          ],
+          [
+            -1.6191333,
+            47.271042
+          ],
+          [
+            -1.6190689,
+            47.2710282
+          ],
+          [
+            -1.6189519,
+            47.271003
+          ],
+          [
+            -1.6188541,
+            47.2709962
+          ],
+          [
+            -1.6187616,
+            47.2709965
+          ],
+          [
+            -1.6186929,
+            47.2709898
+          ],
+          [
+            -1.618622225,
+            47.270993045
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "Route de Nantes-3",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": ""
       }
     }
   ]

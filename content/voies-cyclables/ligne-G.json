@@ -174,7 +174,7 @@
         "name": "Boulevard Ernest Dalby Sud",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
@@ -569,7 +569,7 @@
         "name": "Boulevard Ernest Dalby Nord",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
@@ -688,10 +688,10 @@
       "properties": {
         "line": "G",
         "name": "Route de Sainte Luce",
-        "status": "wip",
+        "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#73"
@@ -730,7 +730,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -804,7 +804,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": ""
       }
@@ -1028,10 +1028,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#115"
+        "id": "sans-titre#113"
       }
     },
     {
@@ -1071,10 +1071,10 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#116"
+        "id": "sans-titre#114"
       }
     },
     {
@@ -1309,7 +1309,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#126"
+        "id": "sans-titre#124"
       }
     },
     {
@@ -1349,7 +1349,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": ""
       }
@@ -1383,7 +1383,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": ""
       }
@@ -1412,11 +1412,11 @@
         "name": "Boulevard des Martyrs Nantais de la Résistance Nord",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#133"
+        "id": "sans-titre#131"
       }
     },
     {
@@ -1447,7 +1447,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#140"
+        "id": "sans-titre#138"
       }
     },
     {
@@ -1490,7 +1490,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "aucune",
         "link": "",
-        "id": "sans-titre#145"
+        "id": "sans-titre#143"
       }
     },
     {
