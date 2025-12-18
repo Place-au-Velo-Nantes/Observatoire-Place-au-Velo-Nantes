@@ -171,7 +171,7 @@
       },
       "properties": {
         "line": "G",
-        "name": "Boulevard Ernest Dalby Nord",
+        "name": "Boulevard Ernest Dalby Sud",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
@@ -566,9 +566,9 @@
       },
       "properties": {
         "line": "G",
-        "name": "Boulevard Ernest Dalby Sud",
+        "name": "Boulevard Ernest Dalby Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -695,61 +695,6 @@
         "infrastructure": "magistrale",
         "link": "",
         "id": "sans-titre#73"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.529480212,
-            47.225044515
-          ],
-          [
-            -1.529250126,
-            47.225544252
-          ],
-          [
-            -1.528967552,
-            47.226117183
-          ],
-          [
-            -1.528809779,
-            47.226444192
-          ],
-          [
-            -1.528407162,
-            47.226894112
-          ],
-          [
-            -1.527869363,
-            47.227362379
-          ],
-          [
-            -1.527045366,
-            47.227962796
-          ],
-          [
-            -1.526419366,
-            47.228383679
-          ],
-          [
-            -1.526304055,
-            47.228460316
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Boulevard Ernest Dalby",
-        "status": "wip",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#75"
       }
     },
     {
@@ -1086,7 +1031,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#116"
+        "id": "sans-titre#115"
       }
     },
     {
@@ -1129,7 +1074,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#117"
+        "id": "sans-titre#116"
       }
     },
     {
@@ -1364,7 +1309,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#127"
+        "id": "sans-titre#126"
       }
     },
     {
@@ -1471,7 +1416,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#134"
+        "id": "sans-titre#133"
       }
     },
     {
@@ -1502,7 +1447,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#141"
+        "id": "sans-titre#140"
       }
     },
     {
@@ -1545,7 +1490,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "aucune",
         "link": "",
-        "id": "sans-titre#146"
+        "id": "sans-titre#145"
       }
     },
     {

@@ -177,7 +177,7 @@
       "properties": {
         "name": "Boulevard Henri Becquerel",
         "status": "terminé",
-        "type": "bidirectionnelle",
+        "type": "voie verte",
         "year": null,
         "line": "E",
         "infrastructure": "magistrale",
@@ -1297,7 +1297,7 @@
         ]
       },
       "properties": {
-        "name": "Boulevard Ernest Dalby Nord",
+        "name": "Boulevard Ernest Dalby Sud",
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": 2025,
@@ -1862,15 +1862,15 @@
         ]
       },
       "properties": {
-        "name": "Boulevard Ernest Dalby Sud",
+        "name": "Boulevard Ernest Dalby Nord",
         "status": "terminé",
         "type": "monodirectionnelle",
-        "year": null,
+        "year": 2025,
         "line": "F,G",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "inauguration 20/12/2025",
         "calculated_length": 458.56
       }
     },
@@ -2356,35 +2356,6 @@
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 224.18
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.529480212, 47.225044515],
-          [-1.529250126, 47.225544252],
-          [-1.528967552, 47.226117183],
-          [-1.528809779, 47.226444192],
-          [-1.528407162, 47.226894112],
-          [-1.527869363, 47.227362379],
-          [-1.527045366, 47.227962796],
-          [-1.526419366, 47.228383679],
-          [-1.526304055, 47.228460316]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Ernest Dalby",
-        "status": "en cours",
-        "type": "monodirectionnelle",
-        "year": null,
-        "line": "F,G",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 458.56
       }
     },
     {

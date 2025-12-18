@@ -414,7 +414,7 @@
       },
       "properties": {
         "line": "F",
-        "name": "Boulevard Ernest Dalby Nord",
+        "name": "Boulevard Ernest Dalby Sud",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
@@ -469,9 +469,9 @@
       },
       "properties": {
         "line": "F",
-        "name": "Boulevard Ernest Dalby Sud",
+        "name": "Boulevard Ernest Dalby Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -564,61 +564,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.529480212,
-            47.225044515
-          ],
-          [
-            -1.529250126,
-            47.225544252
-          ],
-          [
-            -1.528967552,
-            47.226117183
-          ],
-          [
-            -1.528809779,
-            47.226444192
-          ],
-          [
-            -1.528407162,
-            47.226894112
-          ],
-          [
-            -1.527869363,
-            47.227362379
-          ],
-          [
-            -1.527045366,
-            47.227962796
-          ],
-          [
-            -1.526419366,
-            47.228383679
-          ],
-          [
-            -1.526304055,
-            47.228460316
-          ]
-        ]
-      },
-      "properties": {
-        "line": "F",
-        "name": "Boulevard Ernest Dalby",
-        "status": "wip",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "id": "sans-titre#75"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.545792476,
             47.216606163
           ],
@@ -675,7 +620,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#86"
+        "id": "sans-titre#85"
       }
     },
     {
@@ -868,7 +813,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#115"
+        "id": "sans-titre#114"
       }
     },
     {
@@ -899,7 +844,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#116"
+        "id": "sans-titre#115"
       }
     },
     {
