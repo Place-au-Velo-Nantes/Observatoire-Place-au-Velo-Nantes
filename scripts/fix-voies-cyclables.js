@@ -479,6 +479,13 @@ const outputInvalidValues = (invalidValues) => {
 
 // Main execution function
 const main = () => {
+  // Remove invalid-values-report.md if it exists
+  const markdownPath = path.join(__dirname, '../invalid-values-report.md');
+  if (fs.existsSync(markdownPath)) {
+    fs.unlinkSync(markdownPath);
+    console.log('Removed existing invalid-values-report.md');
+  }
+
   console.log('=== PROCESSING VOIES CYCLABLES ===');
   const invalidValues = processVoiesFiles();
 
