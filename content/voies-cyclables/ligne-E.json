@@ -428,9 +428,9 @@
         "line": "E",
         "name": "Boulevard Henri Becquerel",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "voie-verte",
-        "quality": "unsatisfactory",
+        "doneAt": "01/01/2015",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": ""
       }
@@ -723,7 +723,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#16"
+        "id": "sans-titre#12"
       }
     },
     {
@@ -832,7 +832,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#24"
+        "id": "sans-titre#20"
       }
     },
     {
@@ -1093,7 +1093,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#52"
+        "id": "sans-titre#48"
       }
     },
     {
@@ -1271,7 +1271,8 @@
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": "B"
       }
     },
     {
@@ -1389,7 +1390,8 @@
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": "E"
       }
     },
     {
@@ -1431,7 +1433,8 @@
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": "A"
       }
     },
     {
@@ -1497,11 +1500,12 @@
         "line": "E",
         "name": "Boulevard Martin Luther King",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": "E"
       }
     },
     {
@@ -1650,7 +1654,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#124"
+        "id": "sans-titre#119"
       }
     },
     {
@@ -1689,7 +1693,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#128"
+        "id": "sans-titre#123"
       }
     },
     {
@@ -1720,7 +1724,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#131"
+        "id": "sans-titre#126"
       }
     },
     {
@@ -1781,7 +1785,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#138"
+        "id": "sans-titre#133"
       }
     },
     {
@@ -1816,11 +1820,11 @@
         "name": "Rue du pont de pont-rousseau",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bilaterale",
+        "type": "bandes-cyclables",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#142"
+        "id": "sans-titre#136"
       }
     },
     {
@@ -1850,12 +1854,12 @@
         "line": "E",
         "name": "bd Martin Luther King",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#145"
+        "id": "sans-titre#138"
       }
     },
     {
@@ -1919,7 +1923,8 @@
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": "E"
       }
     },
     {

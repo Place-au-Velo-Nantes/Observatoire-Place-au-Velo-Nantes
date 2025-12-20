@@ -89,7 +89,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#16"
+        "id": "sans-titre#12"
       }
     },
     {
@@ -178,7 +178,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#39"
+        "id": "sans-titre#35"
       }
     },
     {
@@ -299,7 +299,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#42"
+        "id": "sans-titre#38"
       }
     },
     {
@@ -334,7 +334,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#48"
+        "id": "sans-titre#44"
       }
     },
     {
@@ -451,7 +451,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#55"
+        "id": "sans-titre#51"
       }
     },
     {
@@ -518,7 +518,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#56"
+        "id": "sans-titre#52"
       }
     },
     {
@@ -573,7 +573,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#59"
+        "id": "sans-titre#55"
       }
     },
     {
@@ -694,7 +694,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#73"
+        "id": "sans-titre#69"
       }
     },
     {
@@ -1031,7 +1031,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#113"
+        "id": "sans-titre#108"
       }
     },
     {
@@ -1069,12 +1069,12 @@
         "line": "G",
         "name": "Route de Ste Luce Est",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2015",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "id": "sans-titre#114"
+        "id": "sans-titre#109"
       }
     },
     {
@@ -1309,7 +1309,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#124"
+        "id": "sans-titre#119"
       }
     },
     {
@@ -1416,7 +1416,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#131"
+        "id": "sans-titre#126"
       }
     },
     {
@@ -1447,50 +1447,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#138"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.491860164,
-            47.247420018
-          ],
-          [
-            -1.49168884,
-            47.247273112
-          ],
-          [
-            -1.490715,
-            47.246244759
-          ],
-          [
-            -1.489641972,
-            47.246911966
-          ],
-          [
-            -1.488974711,
-            47.247279233
-          ],
-          [
-            -1.486413872,
-            47.247530197
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Rue du petit chassais",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "aucune",
-        "link": "",
-        "id": "sans-titre#143"
+        "id": "sans-titre#133"
       }
     },
     {
@@ -1542,13 +1499,206 @@
       },
       "properties": {
         "line": "G",
-        "name": "G#2",
-        "status": "done",
+        "name": "Eudes Fremond",
+        "status": "variante",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "aucun",
+        "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.491865863,
+            47.247415862
+          ],
+          [
+            -1.491046343,
+            47.248062334
+          ],
+          [
+            -1.489701034,
+            47.248654
+          ],
+          [
+            -1.488374673,
+            47.248936969
+          ],
+          [
+            -1.486423028,
+            47.249682971
+          ],
+          [
+            -1.48467981,
+            47.250480409
+          ],
+          [
+            -1.483410293,
+            47.250969155
+          ],
+          [
+            -1.482974489,
+            47.250917709
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue Jean Moulin",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "id": "sans-titre#208"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.491866712,
+            47.247415536
+          ],
+          [
+            -1.491795801,
+            47.247329578
+          ],
+          [
+            -1.491696188,
+            47.247336454
+          ],
+          [
+            -1.491655668,
+            47.247304363
+          ],
+          [
+            -1.491215911,
+            47.246735864
+          ],
+          [
+            -1.491016685,
+            47.24655363
+          ],
+          [
+            -1.490906291,
+            47.246377036
+          ],
+          [
+            -1.490794859,
+            47.246292222
+          ],
+          [
+            -1.490754339,
+            47.246276176
+          ],
+          [
+            -1.490690182,
+            47.246270445
+          ],
+          [
+            -1.490614206,
+            47.246278468
+          ],
+          [
+            -1.490565243,
+            47.246299098
+          ],
+          [
+            -1.490450435,
+            47.246364428
+          ],
+          [
+            -1.490382901,
+            47.246387351
+          ],
+          [
+            -1.490345757,
+            47.246434342
+          ],
+          [
+            -1.490236014,
+            47.246504256
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Chemin Aubinière",
+        "status": "variante",
+        "doneAt": "01/01/2000",
+        "type": "voie-verte",
+        "quality": "unsatisfactory",
+        "infrastructure": "aucune",
+        "link": "",
+        "id": "sans-titre#356"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.490232286,
+            47.246506593
+          ],
+          [
+            -1.490275652,
+            47.246549619
+          ],
+          [
+            -1.48964851,
+            47.246931191
+          ],
+          [
+            -1.489101429,
+            47.247227842
+          ],
+          [
+            -1.48897133,
+            47.247277661
+          ],
+          [
+            -1.488761171,
+            47.247309364
+          ],
+          [
+            -1.488400349,
+            47.24733887
+          ],
+          [
+            -1.487509814,
+            47.247407683
+          ],
+          [
+            -1.486705872,
+            47.247474486
+          ],
+          [
+            -1.486415652,
+            47.247541288
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue du petit Chassay",
+        "status": "variante",
+        "doneAt": "01/01/2024",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "aucune",
+        "link": "",
+        "id": "sans-titre#357"
       }
     },
     {

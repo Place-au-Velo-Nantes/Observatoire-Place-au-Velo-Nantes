@@ -89,7 +89,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#16"
+        "id": "sans-titre#12"
       }
     },
     {
@@ -346,7 +346,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#55"
+        "id": "sans-titre#51"
       }
     },
     {
@@ -413,7 +413,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#56"
+        "id": "sans-titre#52"
       }
     },
     {
@@ -814,7 +814,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#81"
+        "id": "sans-titre#77"
       }
     },
     {
@@ -1023,7 +1023,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
-        "id": "sans-titre#120"
+        "id": "sans-titre#115"
       }
     },
     {
@@ -1100,7 +1100,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#138"
+        "id": "sans-titre#133"
       }
     },
     {
@@ -1135,11 +1135,11 @@
         "name": "Rue du pont de pont-rousseau",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bilaterale",
+        "type": "bandes-cyclables",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "id": "sans-titre#142"
+        "id": "sans-titre#136"
       }
     },
     {
