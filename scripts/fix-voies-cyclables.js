@@ -408,9 +408,12 @@ const processVoiesFiles = () => {
           };
 
           // Add cycloscore if present (from "cycloscore(optionnel)" field)
+          // Keep the full cycloscore value as-is (filters will extract first letter for matching)
           const cycloscore = feature.properties['cycloscore(optionnel)'];
           if (cycloscore && cycloscore.trim() !== '') {
-            properties.cycloscore = cycloscore.trim();
+            properties.cycloscore = cycloscore;
+          } else {
+            properties.cycloscore = '';
           }
 
           if (is_multiple_lines) {

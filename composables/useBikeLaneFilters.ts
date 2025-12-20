@@ -144,6 +144,34 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     },
   ]);
 
+  const cycloscoreFilters = ref([
+    {
+      label: 'A',
+      isEnabled: true,
+      cycloscores: ['A'],
+    },
+    {
+      label: 'B',
+      isEnabled: true,
+      cycloscores: ['B'],
+    },
+    {
+      label: 'C',
+      isEnabled: true,
+      cycloscores: ['C'],
+    },
+    {
+      label: 'E',
+      isEnabled: true,
+      cycloscores: ['E'],
+    },
+    {
+      label: 'Non renseigné',
+      isEnabled: true,
+      cycloscores: [null as unknown as string],
+    },
+  ]);
+
   const lineFilters = ref<LineFilterItem[]>([]);
   const NON_GVV_LINE_ID = 'X';
   const NON_GVV_LABEL = 'Hors GVV';
@@ -223,6 +251,25 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         ? (infrastructuresQuery as string).split(',')
         : [];
     infrastructureFilters.value.forEach((f) => (f.isEnabled = f.infrastructures.every((i) => enabled.includes(i))));
+  }
+
+  if (Object.hasOwn(query, 'cycloscores')) {
+    const cycloscoresQuery = query.cycloscores;
+    const enabled =
+      cycloscoresQuery && (cycloscoresQuery as string).length > 0
+        ? (cycloscoresQuery as string).split(',').filter((s) => s.length > 0)
+        : [];
+    cycloscoreFilters.value.forEach((f) => {
+      // Handle null/empty cycloscore for "Non renseigné"
+      if (f.cycloscores.includes(null as unknown as string)) {
+        // "Non renseigné" is enabled by default, and disabled only if letter scores are explicitly in the query
+        // Since we don't store "Non renseigné" in the URL, if there's a query, it means some letters are selected
+        // So "Non renseigné" should be disabled when there's a query
+        f.isEnabled = enabled.length === 0;
+      } else {
+        f.isEnabled = f.cycloscores.some((c) => enabled.includes(c));
+      }
+    });
   }
 
   function processDateData(geojsonData: Collections['voiesCyclablesGeojson'][] | undefined | null) {
@@ -324,6 +371,20 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
   const visibleInfrastructures = computed(() =>
     infrastructureFilters.value.filter((item) => item.isEnabled).flatMap((item) => item.infrastructures as string[]),
   );
+  const visibleCycloscores = computed(() => {
+    const enabled = cycloscoreFilters.value.filter((item) => item.isEnabled);
+    const scores: (string | null)[] = [];
+    enabled.forEach((item) => {
+      item.cycloscores.forEach((c) => {
+        if (c === null) {
+          scores.push(null);
+        } else {
+          scores.push(c);
+        }
+      });
+    });
+    return scores;
+  });
   const visibleLines = computed(() => lineFilters.value.filter((item) => item.isEnabled).map((item) => item.line));
   const visibleDateRange = computed(() => {
     if (dateSteps.value.length > 0) {
@@ -335,7 +396,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
   });
 
   watch(
-    [statusFilters, typeFilters, qualityFilters, infrastructureFilters, lineFilters, dateRange],
+    [statusFilters, typeFilters, qualityFilters, infrastructureFilters, cycloscoreFilters, lineFilters, dateRange],
     () => {
       const newQuery = { ...route.query };
 
@@ -365,6 +426,22 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         newQuery.infrastructures = visibleInfrastructures.value.join(',');
       } else {
         delete newQuery.infrastructures;
+      }
+
+      const allCycloscores = cycloscoreFilters.value.flatMap((f) => f.cycloscores);
+      const nonNullCycloscores = visibleCycloscores.value.filter((c) => c !== null) as string[];
+
+      // Only add query param if not all cycloscores are selected (including "Non renseigné")
+      if (visibleCycloscores.value.length < allCycloscores.length) {
+        // If only "Non renseigné" is selected, we don't add the query param (it's the default)
+        if (nonNullCycloscores.length > 0) {
+          newQuery.cycloscores = nonNullCycloscores.join(',');
+        } else {
+          // All letter filters are deselected, only "Non renseigné" is selected - remove query param
+          delete newQuery.cycloscores;
+        }
+      } else {
+        delete newQuery.cycloscores;
       }
 
       if (lineFilters.value.length > 0) {
@@ -431,14 +508,85 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
           }
         }
 
-        const infrastructureMatch =
-          feature.properties.infrastructure && visibleInfrastructures.value.includes(feature.properties.infrastructure);
+        const infrastructureMatch = (() => {
+          // If no infrastructure filters are enabled, show all features
+          if (visibleInfrastructures.value.length === 0) {
+            return true;
+          }
+
+          // If all infrastructure filters are enabled, show all features
+          const allInfrastructureFiltersEnabled = infrastructureFilters.value.every((f) => f.isEnabled);
+          if (allInfrastructureFiltersEnabled) {
+            return true;
+          }
+
+          // If feature has no infrastructure, check if "Aucune" is enabled
+          if (!feature.properties.infrastructure) {
+            return visibleInfrastructures.value.includes('aucune');
+          }
+          // Check if the feature's infrastructure is in the visible list
+          return visibleInfrastructures.value.includes(feature.properties.infrastructure);
+        })();
+
+        const cycloscoreMatch = (() => {
+          // If no cycloscore filters are enabled, show no segments
+          if (visibleCycloscores.value.length === 0) {
+            return false;
+          }
+
+          // If all cycloscore filters are enabled (A, B, C, E, and "Non renseigné"), show all features
+          const allFiltersEnabled = cycloscoreFilters.value.every((f) => f.isEnabled);
+          if (allFiltersEnabled) {
+            return true;
+          }
+
+          const featureCycloscore = feature.properties.cycloscore;
+
+          // Check if cycloscore doesn't exist (undefined, null) or is empty
+          const hasNoCycloscore =
+            featureCycloscore === undefined ||
+            featureCycloscore === null ||
+            (typeof featureCycloscore === 'string' && featureCycloscore.trim() === '');
+
+          if (hasNoCycloscore) {
+            // Only match "Non renseigné" filter if cycloscore is truly missing/empty
+            return visibleCycloscores.value.some((score) => score === null || score === undefined);
+          }
+
+          // Extract the first letter from the trimmed string (e.g., "E (bandes présentes en 2016)" -> "E")
+          const trimmed = typeof featureCycloscore === 'string' ? featureCycloscore.trim() : '';
+          if (trimmed.length === 0) {
+            // Empty after processing, only match "Non renseigné"
+            return visibleCycloscores.value.some((score) => score === null || score === undefined);
+          }
+
+          const cycloscoreLetter = trimmed.charAt(0).toUpperCase();
+
+          // Check if the first letter is A, B, C, D, or E
+          const isValidLetter = ['A', 'B', 'C', 'D', 'E'].includes(cycloscoreLetter);
+
+          if (isValidLetter) {
+            // Check if the feature's cycloscore first letter matches any visible cycloscore
+            // This will match if the first letter is A, B, C, D, or E and that filter is enabled
+            return visibleCycloscores.value.some((visibleScore) => {
+              if (visibleScore === null || visibleScore === undefined) {
+                return false; // "Non renseigné" only matches segments without cycloscore
+              }
+              // Match by first letter (A, B, C, D, E)
+              return cycloscoreLetter === visibleScore;
+            });
+          }
+
+          // If first letter is not A, B, C, D, or E, treat as "Non renseigné"
+          return visibleCycloscores.value.some((score) => score === null || score === undefined);
+        })();
 
         return (
           visibleStatuses.value.includes(feature.properties.status) &&
           visibleTypes.value.includes(feature.properties.type) &&
           visibleQualities.value.includes(feature.properties.quality) &&
-          infrastructureMatch
+          infrastructureMatch &&
+          cycloscoreMatch
         );
       }
 
@@ -463,6 +611,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     typeFilters,
     qualityFilters,
     infrastructureFilters,
+    cycloscoreFilters,
     lineFilters,
     dateRange,
     minDate,
@@ -482,6 +631,9 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     },
     toggleInfrastructureFilter(index: number) {
       infrastructureFilters.value[index].isEnabled = !infrastructureFilters.value[index].isEnabled;
+    },
+    toggleCycloscoreFilter(index: number) {
+      cycloscoreFilters.value[index].isEnabled = !cycloscoreFilters.value[index].isEnabled;
     },
     toggleLineFilter(index: number) {
       lineFilters.value[index].isEnabled = !lineFilters.value[index].isEnabled;

@@ -69,6 +69,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#48"
       }
     },
@@ -191,7 +192,8 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -238,6 +240,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#74"
       }
     },
@@ -392,7 +395,8 @@
         "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -442,7 +446,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "structurante",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -476,7 +481,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -510,7 +516,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -544,7 +551,8 @@
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -614,7 +622,8 @@
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "maillage",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -693,6 +702,7 @@
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#115"
       }
     },
@@ -719,7 +729,8 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -897,7 +908,8 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "secondaire",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {

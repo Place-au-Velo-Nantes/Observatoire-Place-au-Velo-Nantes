@@ -116,7 +116,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -190,7 +191,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -284,7 +286,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -319,6 +322,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#81"
       }
     },
@@ -389,7 +393,8 @@
         "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "maillage",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -459,7 +464,8 @@
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -506,6 +512,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#107"
       }
     },
@@ -549,6 +556,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#109"
       }
     },
@@ -584,6 +592,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#138"
       }
     },
@@ -635,6 +644,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#208"
       }
     },
@@ -661,7 +671,8 @@
         "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -743,7 +754,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -845,7 +857,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -975,7 +988,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -1093,7 +1107,8 @@
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -1399,7 +1414,8 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
-        "link": ""
+        "link": "",
+        "cycloscore": ""
       }
     },
     {
@@ -1482,6 +1498,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#356"
       }
     },
@@ -1541,6 +1558,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
+        "cycloscore": "",
         "id": "sans-titre#357"
       }
     }

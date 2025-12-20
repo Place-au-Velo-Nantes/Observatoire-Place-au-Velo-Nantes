@@ -44,6 +44,23 @@
     />
 
     <FilterSection
+      title="Filtrer par cycloscore"
+      :filters="filters.cycloscoreFilters.value"
+      :show-selection-buttons="true"
+      @toggle-filter="actions.toggleCycloscoreFilter"
+      @select-all="
+        filters.cycloscoreFilters.value.forEach(
+          (cycloscore: StatusTypeQualityFilterItem) => (cycloscore.isEnabled = true),
+        )
+      "
+      @deselect-all="
+        filters.cycloscoreFilters.value.forEach(
+          (cycloscore: StatusTypeQualityFilterItem) => (cycloscore.isEnabled = false),
+        )
+      "
+    />
+
+    <FilterSection
       v-if="options.showLineFilters"
       title="Filtrer par grande voie vélo"
       :filters="filters.lineFilters.value"

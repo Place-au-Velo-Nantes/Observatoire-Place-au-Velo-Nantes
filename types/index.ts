@@ -157,6 +157,7 @@ export interface StatusTypeQualityFilterItem extends BaseFilterItem {
   types?: string[];
   qualities?: string[];
   infrastructures?: string[];
+  cycloscores?: string[];
 }
 
 export interface LineFilterItem extends BaseFilterItem {
@@ -169,6 +170,7 @@ export interface FiltersState {
   typeFilters: Ref<Array<StatusTypeQualityFilterItem>>;
   qualityFilters: Ref<Array<StatusTypeQualityFilterItem>>;
   infrastructureFilters: Ref<Array<StatusTypeQualityFilterItem>>;
+  cycloscoreFilters: Ref<Array<StatusTypeQualityFilterItem>>;
   lineFilters: Ref<Array<LineFilterItem>>;
   dateRange: Ref<[number, number]>;
   minDate: Ref<number>;
@@ -181,6 +183,7 @@ export interface FilterActions {
   toggleTypeFilter: (index: number) => void;
   toggleQualityFilter: (index: number) => void;
   toggleInfrastructureFilter: (index: number) => void;
+  toggleCycloscoreFilter: (index: number) => void;
   toggleLineFilter: (index: number) => void;
   setDateRange: (newDateRange: [number, number]) => void;
 }
