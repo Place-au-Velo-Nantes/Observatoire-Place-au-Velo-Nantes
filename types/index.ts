@@ -38,6 +38,7 @@ export type LineStringFeature = {
     link?: string;
     quality?: LaneQuality; // tronçon de qualité ou non
     infrastructure?: string; // niveau d'infrastructure (magistrale, secondaire, structurante, maillage, aucune, etc.)
+    cycloscore?: string; // cycloscore (optionnel)
   };
   geometry: {
     type: 'LineString';

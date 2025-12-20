@@ -75,6 +75,12 @@
           {{ getQuality(feature.properties.quality).label }}
         </div>
       </div>
+      <div v-if="feature.properties.cycloscore" class="py-1 flex items-center justify-between">
+        <div class="text-base font-bold">Cycloscore</div>
+        <div class="text-sm text-right">
+          {{ feature.properties.cycloscore }}
+        </div>
+      </div>
     </div>
     <div class="bg-lvv-blue-600 flex justify-center">
       <a class="p-1 text-white text-base italic hover:underline" :href="getSectionDetailsUrl(feature.properties)">

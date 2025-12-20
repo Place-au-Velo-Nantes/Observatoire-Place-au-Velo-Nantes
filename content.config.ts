@@ -74,6 +74,7 @@ export default defineContentConfig({
                 quality: z.enum(['satisfactory', 'unsatisfactory', 'not-rated-yet']),
                 text: z.string().optional(),
                 doneAt: z.string().optional(),
+                cycloscore: z.string().optional(),
               }),
               geometry: z.object({
                 type: z.enum(['LineString']),

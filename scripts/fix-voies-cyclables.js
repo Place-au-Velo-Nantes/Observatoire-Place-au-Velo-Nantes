@@ -407,6 +407,12 @@ const processVoiesFiles = () => {
             link: feature.properties.link || '',
           };
 
+          // Add cycloscore if present (from "cycloscore(optionnel)" field)
+          const cycloscore = feature.properties['cycloscore(optionnel)'];
+          if (cycloscore && cycloscore.trim() !== '') {
+            properties.cycloscore = cycloscore.trim();
+          }
+
           if (is_multiple_lines) {
             properties.id = feature.properties.nom
               ? feature.properties.nom.toLowerCase().replace(/[^a-z0-9]/g, '-')
