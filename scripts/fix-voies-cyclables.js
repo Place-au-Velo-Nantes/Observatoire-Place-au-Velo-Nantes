@@ -29,6 +29,7 @@ const fixType = (type, context, invalidValues) => {
     'bandes-cyclables',
     'chaucidou',
     'zone-de-rencontre',
+    'aire-pietonne',
     'inconnu',
     'aucun',
   ];
@@ -59,6 +60,8 @@ const fixType = (type, context, invalidValues) => {
     return 'velorue';
   } else if (lowerType === 'zone de rencontre') {
     return 'zone-de-rencontre';
+  } else if (lowerType === 'aire piétonne' || lowerType === 'aire pietonne' || lowerType === 'aire-pietonne') {
+    return 'aire-pietonne';
   } else if (lowerType === 'voie verte') {
     return 'voie-verte';
   } else if (lowerType === 'chemin rural' || lowerType === 'route partagée') {

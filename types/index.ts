@@ -11,6 +11,7 @@ export type LaneType =
   | 'bandes-cyclables'
   | 'chaucidou'
   | 'zone-de-rencontre'
+  | 'aire-pietonne'
   | 'aucun'
   | 'inconnu';
 

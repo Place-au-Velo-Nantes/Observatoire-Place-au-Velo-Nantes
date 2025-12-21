@@ -66,6 +66,7 @@ export default defineContentConfig({
                   'bandes-cyclables',
                   'chaucidou',
                   'zone-de-rencontre',
+                  'aire-pietonne',
                   'aucun',
                   'inconnu',
                 ]),

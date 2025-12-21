@@ -225,6 +225,7 @@ export const useStats = () => {
     'bandes-cyclables': 'Bandes cyclables',
     chaucidou: 'Chaucidou',
     'zone-de-rencontre': 'Zone de rencontre',
+    'aire-pietonne': 'Aire piétonne',
     aucun: 'Aucun',
     inconnu: 'Inconnu',
   };

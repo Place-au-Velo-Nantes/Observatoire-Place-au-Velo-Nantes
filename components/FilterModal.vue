@@ -100,6 +100,7 @@ const typeFilters = ref([
   { label: 'Bandes cyclables', isEnable: true, types: ['bandes-cyclables'] },
   { label: 'Chaucidou', isEnable: true, types: ['chaucidou'] },
   { label: 'Zone de rencontre', isEnable: true, types: ['zone-de-rencontre'] },
+  { label: 'Aire piétonne', isEnable: true, types: ['aire-pietonne'] },
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
   { label: 'Aucun', isEnable: true, types: ['aucun'] }
 ]);

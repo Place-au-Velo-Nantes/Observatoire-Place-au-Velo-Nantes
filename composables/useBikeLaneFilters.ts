@@ -82,6 +82,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     { label: 'Bandes cyclables', isEnabled: true, types: ['bandes-cyclables'] },
     { label: 'Chaucidou', isEnabled: true, types: ['chaucidou'] },
     { label: 'Zone de rencontre', isEnabled: true, types: ['zone-de-rencontre'] },
+    { label: 'Aire piétonne', isEnabled: true, types: ['aire-pietonne'] },
     { label: 'Inconnu', isEnabled: true, types: ['inconnu'] },
     { label: 'Aucun', isEnabled: true, types: ['aucun'] },
   ]);

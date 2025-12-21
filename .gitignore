@@ -10,3 +10,4 @@ dist
 .idea/*
 .data/
 .vscode/
+invalid-values-report.md
