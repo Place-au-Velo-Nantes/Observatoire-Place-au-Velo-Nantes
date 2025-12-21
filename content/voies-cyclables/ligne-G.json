@@ -90,7 +90,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#12"
+        "id": "sans-titre#11"
       }
     },
     {
@@ -181,7 +181,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#35"
+        "id": "sans-titre#34"
       }
     },
     {
@@ -304,7 +304,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#38"
+        "id": "sans-titre#37"
       }
     },
     {
@@ -340,7 +340,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#44"
+        "id": "sans-titre#43"
       }
     },
     {
@@ -459,7 +459,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#51"
+        "id": "sans-titre#50"
       }
     },
     {
@@ -527,7 +527,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#52"
+        "id": "sans-titre#51"
       }
     },
     {
@@ -583,7 +583,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#55"
+        "id": "sans-titre#54"
       }
     },
     {
@@ -706,7 +706,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#69"
+        "id": "sans-titre#67"
       }
     },
     {
@@ -1047,7 +1047,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#108"
+        "id": "sans-titre#106"
       }
     },
     {
@@ -1091,7 +1091,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#109"
+        "id": "sans-titre#107"
       }
     },
     {
@@ -1100,28 +1100,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.545725692,
-            47.194132217
+            -1.546355307,
+            47.194377095
           ],
           [
-            -1.546058662,
-            47.19407721
+            -1.546319621,
+            47.194589482
           ],
           [
-            -1.546369265,
-            47.194341401
+            -1.546452109,
+            47.194760787
           ],
           [
             -1.546593,
             47.194851
           ],
           [
-            -1.549093,
-            47.195537
+            -1.548371734,
+            47.195359081
           ],
           [
-            -1.549757786,
-            47.195584523
+            -1.549157073,
+            47.195500902
           ]
         ]
       },
@@ -1130,7 +1130,7 @@
         "name": "Rue Eric Tabarly",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "not-rated-yet",
         "infrastructure": "structurante",
         "link": "",
@@ -1329,50 +1329,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#119"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.535460316,
-            47.210704873
-          ],
-          [
-            -1.535185,
-            47.209581
-          ],
-          [
-            -1.535827,
-            47.208491
-          ],
-          [
-            -1.537973,
-            47.206669
-          ],
-          [
-            -1.540097,
-            47.206742
-          ],
-          [
-            -1.564189762,
-            47.2043343
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "bd Babin Chevaye, V Gache",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bilaterale",
-        "quality": "satisfactory",
-        "infrastructure": "structurante",
-        "link": "",
-        "cycloscore": ""
+        "id": "sans-titre#117"
       }
     },
     {
@@ -1439,7 +1396,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#126"
+        "id": "sans-titre#122"
       }
     },
     {
@@ -1471,7 +1428,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#133"
+        "id": "sans-titre#129"
       }
     },
     {
@@ -1582,7 +1539,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#208"
+        "id": "sans-titre#203"
       }
     },
     {
@@ -1666,7 +1623,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#356"
+        "id": "sans-titre#342"
       }
     },
     {
@@ -1726,7 +1683,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#357"
+        "id": "sans-titre#343"
       }
     },
     {

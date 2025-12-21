@@ -225,6 +225,14 @@
             47.256669863
           ],
           [
+            -1.541291721,
+            47.256547916
+          ],
+          [
+            -1.540754516,
+            47.256270125
+          ],
+          [
             -1.540018083,
             47.256076265
           ],
@@ -323,7 +331,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#81"
+        "id": "sans-titre#79"
       }
     },
     {
@@ -513,7 +521,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#107"
+        "id": "sans-titre#105"
       }
     },
     {
@@ -557,7 +565,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#109"
+        "id": "sans-titre#107"
       }
     },
     {
@@ -593,7 +601,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#138"
+        "id": "sans-titre#134"
       }
     },
     {
@@ -645,7 +653,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#208"
+        "id": "sans-titre#203"
       }
     },
     {
@@ -1499,7 +1507,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#356"
+        "id": "sans-titre#342"
       }
     },
     {
@@ -1559,7 +1567,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#357"
+        "id": "sans-titre#343"
       }
     }
   ]

@@ -90,7 +90,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#12"
+        "id": "sans-titre#11"
       }
     },
     {
@@ -351,7 +351,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#51"
+        "id": "sans-titre#50"
       }
     },
     {
@@ -419,7 +419,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#52"
+        "id": "sans-titre#51"
       }
     },
     {
@@ -679,7 +679,7 @@
         "name": "Pont Anne de Bretagne/Bd Léon Bureau",
         "status": "wip",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "bidirectionnelle",
         "quality": "not-rated-yet",
         "infrastructure": "magistrale",
         "link": "",
@@ -826,7 +826,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#77"
+        "id": "sans-titre#75"
       }
     },
     {
@@ -1033,13 +1033,13 @@
         "line": "C",
         "name": "Rue Félix Eboué Rezé",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "doneAt": "01/01/2016",
+        "type": "voie-verte",
+        "quality": "satisfactory",
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#115"
+        "id": "sans-titre#113"
       }
     },
     {
@@ -1118,7 +1118,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#133"
+        "id": "sans-titre#129"
       }
     },
     {
@@ -1158,7 +1158,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#136"
+        "id": "sans-titre#132"
       }
     },
     {

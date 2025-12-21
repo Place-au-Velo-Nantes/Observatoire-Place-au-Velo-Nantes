@@ -192,120 +192,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.751949, 47.205718],
-          [-1.751815, 47.206031],
-          [-1.750082, 47.206599],
-          [-1.749685, 47.206957],
-          [-1.748735, 47.209421],
-          [-1.743624, 47.210029],
-          [-1.742401, 47.210561],
-          [-1.740502, 47.211781],
-          [-1.737519, 47.211173],
-          [-1.736312, 47.211089],
-          [-1.7318, 47.211293],
-          [-1.731371, 47.210309],
-          [-1.730304, 47.209825],
-          [-1.728002, 47.209165],
-          [-1.72583, 47.208903],
-          [-1.722751, 47.208651],
-          [-1.718717, 47.208487],
-          [-1.716453, 47.208338],
-          [-1.715691, 47.20836],
-          [-1.714956, 47.20836],
-          [-1.713797, 47.208305],
-          [-1.713111, 47.208436],
-          [-1.712826, 47.208746],
-          [-1.712607, 47.209256],
-          [-1.712199, 47.209777],
-          [-1.711053, 47.21047],
-          [-1.710788, 47.210539],
-          [-1.7103, 47.210342],
-          [-1.707972, 47.209661],
-          [-1.70743, 47.209573],
-          [-1.707006, 47.209562],
-          [-1.705676, 47.209719],
-          [-1.704651, 47.209803],
-          [-1.703578, 47.209792],
-          [-1.702167, 47.209693],
-          [-1.700784, 47.209468],
-          [-1.69912, 47.209493],
-          [-1.694979, 47.209212],
-          [-1.690639, 47.208899],
-          [-1.689202, 47.208706],
-          [-1.687496, 47.20829],
-          [-1.684701, 47.207474],
-          [-1.684062, 47.207193],
-          [-1.682979, 47.206957],
-          [-1.678365, 47.205594],
-          [-1.676821, 47.205047],
-          [-1.67622, 47.204843],
-          [-1.675774, 47.204544],
-          [-1.675442, 47.204515],
-          [-1.675211, 47.204293],
-          [-1.674734, 47.204165],
-          [-1.668838, 47.201526],
-          [-1.667874, 47.201152],
-          [-1.665384, 47.201176],
-          [-1.663114, 47.201235],
-          [-1.662803, 47.201278],
-          [-1.66253, 47.201249],
-          [-1.661934, 47.201235],
-          [-1.661323, 47.201206],
-          [-1.659837, 47.201067],
-          [-1.658549, 47.200841],
-          [-1.654606, 47.200141],
-          [-1.653813, 47.19997],
-          [-1.652927, 47.199708],
-          [-1.651774, 47.19927],
-          [-1.640007, 47.194754],
-          [-1.638376, 47.194453],
-          [-1.636292, 47.194475],
-          [-1.63493, 47.194648],
-          [-1.632253, 47.194989],
-          [-1.631636, 47.195057],
-          [-1.631306, 47.195071],
-          [-1.630965, 47.195075],
-          [-1.630499, 47.195067],
-          [-1.630027, 47.195035],
-          [-1.628171, 47.19486],
-          [-1.625558, 47.194732],
-          [-1.624204, 47.19467],
-          [-1.622138, 47.194666],
-          [-1.620446, 47.194634],
-          [-1.619414, 47.194591],
-          [-1.618326, 47.194329],
-          [-1.614899, 47.194957],
-          [-1.610278, 47.194666],
-          [-1.598576, 47.195803],
-          [-1.589759, 47.197807],
-          [-1.587946, 47.197765],
-          [-1.582212, 47.199187],
-          [-1.578322, 47.200478],
-          [-1.575683, 47.202943],
-          [-1.574749, 47.20516],
-          [-1.573109596, 47.206496147],
-          [-1.572753783, 47.206159012],
-          [-1.571566169, 47.207120498]
-        ]
-      },
-      "properties": {
-        "name": "Couëron-Nantes",
-        "status": "terminé",
-        "type": "bidirectionnelle",
-        "year": null,
-        "line": "B",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "A découper",
-        "calculated_length": 15294.423
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.614371, 47.249639],
           [-1.60756, 47.247795],
           [-1.604213, 47.246484],
@@ -957,7 +843,7 @@
         "infrastructure": "secondaire",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "",
-        "commentaire sur les données": "Travaux en cours 2025 : vérifier l'emprise et la finalité",
+        "commentaire sur les données": "travaux terminés. Bande puis pc puis bande, à Découper",
         "calculated_length": 956.743
       }
     },
@@ -1950,52 +1836,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.693761445, 47.194260627],
-          [-1.693342026, 47.194201721],
-          [-1.692922607, 47.194142814],
-          [-1.684224618, 47.19098769],
-          [-1.682882306, 47.190956645],
-          [-1.681266364, 47.190423269],
-          [-1.679078657, 47.189155011],
-          [-1.678879699, 47.188646979],
-          [-1.676097411, 47.18749195],
-          [-1.674360279, 47.185890325],
-          [-1.674210532, 47.185268911],
-          [-1.67740319, 47.17996035],
-          [-1.673908, 47.178978],
-          [-1.661497, 47.17229],
-          [-1.661218, 47.172305],
-          [-1.66096, 47.172188],
-          [-1.657334, 47.171502],
-          [-1.654732, 47.171591],
-          [-1.653466, 47.171825],
-          [-1.652951, 47.171504],
-          [-1.652522, 47.171124],
-          [-1.64735, 47.170804],
-          [-1.644411, 47.170847],
-          [-1.63454, 47.171868],
-          [-1.629128, 47.173186],
-          [-1.623807, 47.175053]
-        ]
-      },
-      "properties": {
-        "name": "La Montagne - Bouguenais",
-        "status": "terminé",
-        "type": "",
-        "year": null,
-        "line": "A",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 6983.424
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.63904872, 47.260163739],
           [-1.640054555, 47.260344634],
           [-1.640519034, 47.260391877],
@@ -2159,6 +1999,8 @@
           [-1.545749, 47.25666],
           [-1.544719, 47.25685],
           [-1.542881375, 47.256669863],
+          [-1.541291721, 47.256547916],
+          [-1.540754516, 47.256270125],
           [-1.540018083, 47.256076265],
           [-1.53678, 47.255175],
           [-1.536243, 47.255219],
@@ -2184,7 +2026,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "",
         "commentaire sur les données": "",
-        "calculated_length": 3172.598
+        "calculated_length": 3177.954
       }
     },
     {
@@ -2312,13 +2154,13 @@
       "properties": {
         "name": "Pont Anne de Bretagne/Bd Léon Bureau",
         "status": "en cours",
-        "type": "",
+        "type": "bidirectionnelle",
         "year": null,
         "line": "C",
         "infrastructure": "magistrale",
         "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 551.509
       }
     },
@@ -2820,13 +2662,13 @@
       "properties": {
         "name": "Loire à vélo",
         "status": "terminé",
-        "type": "",
+        "type": "voie verte",
         "year": null,
         "line": "B",
         "infrastructure": "structurante",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 9535.688
       }
     },
@@ -3031,14 +2873,14 @@
       },
       "properties": {
         "name": "",
-        "status": "terminé",
+        "status": "en cours",
         "type": "",
         "year": null,
         "line": "I",
         "infrastructure": "secondaire",
         "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 4338.805
       }
     },
@@ -3509,25 +3351,25 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.545725692, 47.194132217],
-          [-1.546058662, 47.19407721],
-          [-1.546369265, 47.194341401],
+          [-1.546355307, 47.194377095],
+          [-1.546319621, 47.194589482],
+          [-1.546452109, 47.194760787],
           [-1.546593, 47.194851],
-          [-1.549093, 47.195537],
-          [-1.549757786, 47.195584523]
+          [-1.548371734, 47.195359081],
+          [-1.549157073, 47.195500902]
         ]
       },
       "properties": {
         "name": "Rue Eric Tabarly",
         "status": "terminé",
-        "type": "",
-        "year": null,
+        "type": "aucun",
+        "year": 0,
         "line": "G",
         "infrastructure": "structurante",
         "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 377.613
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 267.656
       }
     },
     {
@@ -3588,13 +3430,13 @@
       "properties": {
         "name": "Rue Félix Eboué Rezé",
         "status": "terminé",
-        "type": "",
-        "year": null,
+        "type": "voie verte",
+        "year": 2016,
         "line": "A,C",
         "infrastructure": "maillage",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 1537.424
       }
     },
@@ -3748,32 +3590,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.535460316, 47.210704873],
-          [-1.535185, 47.209581],
-          [-1.535827, 47.208491],
-          [-1.537973, 47.206669],
-          [-1.540097, 47.206742],
-          [-1.564189762, 47.2043343]
-        ]
-      },
-      "properties": {
-        "name": "bd Babin Chevaye, V Gache",
-        "status": "terminé",
-        "type": "piste cyclable",
-        "year": null,
-        "line": "G",
-        "infrastructure": "structurante",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "mono ou bi?",
-        "calculated_length": 2522.996
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.547303639, 47.205144881],
           [-1.547369, 47.20512],
           [-1.550866, 47.204202],
@@ -3846,30 +3662,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.530613, 47.208568],
-          [-1.528489, 47.206003],
-          [-1.526836, 47.206834],
-          [-1.523425, 47.204837]
-        ]
-      },
-      "properties": {
-        "name": "Pont Senghor, bd Millerand",
-        "status": "terminé",
-        "type": "",
-        "year": null,
-        "line": "D",
-        "infrastructure": "structurante",
-        "quality": "",
-        "cycloscore(optionnel)": "A découper piste puis bande cyclble",
-        "commentaire sur les données": "A redécouper pour le type",
-        "calculated_length": 823.759
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.553857, 47.212631],
           [-1.552945, 47.21266],
           [-1.551127, 47.213472],
@@ -3884,7 +3676,7 @@
       "properties": {
         "name": "Allée Baco",
         "status": "terminé",
-        "type": "piste cyclable",
+        "type": "",
         "year": 2015,
         "line": "D",
         "infrastructure": "structurante",
@@ -4027,13 +3819,13 @@
       "properties": {
         "name": "Pirmil",
         "status": "terminé",
-        "type": "",
+        "type": "bande cyclable",
         "year": null,
         "line": "A",
         "infrastructure": "magistrale",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 61.042
       }
     },
@@ -4657,11 +4449,11 @@
         "name": "Via Rue de Carcouët",
         "status": "reporté",
         "type": "aucun",
-        "year": null,
-        "line": "",
+        "year": 0,
+        "line": "D",
         "infrastructure": "secondaire",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E  voie D déviée à cet endroit, c'est du secondaire du SDIC, à déplacer sur la couche GVV ?",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 275.322
       }
@@ -4773,13 +4565,13 @@
       "properties": {
         "name": "Pont-Rousseau",
         "status": "reporté",
-        "type": "",
+        "type": "bande cyclable",
         "year": null,
-        "line": null,
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 702.059
       }
     },
@@ -5108,33 +4900,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.540008, 47.256116],
-          [-1.542454, 47.256858],
-          [-1.545029, 47.258824],
-          [-1.545737, 47.260951],
-          [-1.544686, 47.265945],
-          [-1.544643, 47.267489],
-          [-1.54593, 47.267722]
-        ]
-      },
-      "properties": {
-        "name": "Liaison Babinière",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": null,
-        "infrastructure": "magistrale",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 1571.35
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.477066925, 47.186947576],
           [-1.444386, 47.184944]
         ]
@@ -5157,23 +4922,24 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.541261052, 47.197906611],
-          [-1.540774554, 47.197367762],
-          [-1.540361, 47.197029],
+          [-1.540320447, 47.197062405],
+          [-1.539613915, 47.196773897],
+          [-1.539054791, 47.196561705],
+          [-1.538206031, 47.196218168],
           [-1.527916, 47.192742]
         ]
       },
       "properties": {
         "name": "Boulevard Joliot-Curie",
         "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": null,
+        "type": "aucun",
+        "year": 0,
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 1175.996
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 1055.993
       }
     },
     {
@@ -5261,15 +5027,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
+        "name": "",
+        "status": "",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
         "infrastructure": "magistrale",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 563.748
       }
     },
@@ -6211,8 +5977,8 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "refait pendant mandat !!",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "refait pendant mandat !!",
         "calculated_length": 195.273
       }
     },
@@ -6249,14 +6015,14 @@
       },
       "properties": {
         "name": "",
-        "status": "",
-        "type": "",
+        "status": "terminé",
+        "type": "bande cyclable",
         "year": null,
-        "line": null,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 426.168
       }
     },
@@ -6510,53 +6276,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.557119, 47.217808],
-          [-1.554458, 47.217778],
-          [-1.551476, 47.218143],
-          [-1.550789, 47.21858],
-          [-1.549544, 47.219396],
-          [-1.549523, 47.219819],
-          [-1.546047, 47.222748],
-          [-1.542614, 47.227105],
-          [-1.535876, 47.233895],
-          [-1.533278, 47.236961],
-          [-1.530295, 47.240676],
-          [-1.517056, 47.252169],
-          [-1.51039, 47.256105],
-          [-1.502064, 47.259221],
-          [-1.483847, 47.267755],
-          [-1.481315, 47.268774],
-          [-1.480521, 47.268701],
-          [-1.48139, 47.269451],
-          [-1.481636, 47.270266],
-          [-1.480263, 47.271504],
-          [-1.479963, 47.272654],
-          [-1.47904, 47.272669],
-          [-1.478868, 47.271955],
-          [-1.477216, 47.271446],
-          [-1.474513, 47.27229],
-          [-1.46814, 47.275376],
-          [-1.453716, 47.282439]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 11341.751
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.48651, 47.296303],
           [-1.481563, 47.295567],
           [-1.478102, 47.295402],
@@ -6697,37 +6416,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.543772088, 47.216072094],
-          [-1.542929, 47.215996],
-          [-1.539239, 47.216192],
-          [-1.536514, 47.216468],
-          [-1.533939, 47.216381],
-          [-1.532587, 47.21625],
-          [-1.530398, 47.2152],
-          [-1.529411, 47.213539],
-          [-1.528854, 47.211221],
-          [-1.528274, 47.210828],
-          [-1.530613, 47.208568]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 1884.76
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.580702, 47.166345],
           [-1.579415, 47.167366],
           [-1.5792, 47.16935],
@@ -6752,30 +6440,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.573781, 47.19935],
-          [-1.571313, 47.202835],
-          [-1.553235, 47.204689],
-          [-1.550424, 47.205695]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 2055.892
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.556608, 47.211491],
           [-1.555844, 47.210562],
           [-1.554664, 47.2053],
@@ -6784,15 +6448,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "bande cyclable",
         "year": null,
-        "line": null,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 993.51
       }
     },
@@ -6808,15 +6472,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "reporté",
+        "type": "",
         "year": null,
-        "line": null,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 546.954
       }
     },
@@ -6831,15 +6495,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
+        "name": "",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2024,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 367.044
       }
     },
@@ -6962,30 +6626,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.564212503, 47.204305836],
-          [-1.571839, 47.203534],
-          [-1.570863, 47.203629],
-          [-1.571308, 47.202846]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 752.217
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.518128, 47.181145],
           [-1.517506, 47.181553],
           [-1.511584, 47.180503],
@@ -7078,15 +6718,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
+        "name": "",
+        "status": "",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 182.719
       }
     },
@@ -7105,15 +6745,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "",
+        "status": "",
+        "type": "bande cyclable",
         "year": null,
-        "line": null,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 592.902
       }
     },
@@ -7137,51 +6777,6 @@
         "cycloscore(optionnel)": "",
         "commentaire sur les données": "",
         "calculated_length": 550.818
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.525476, 47.250864],
-          [-1.529937, 47.253438],
-          [-1.53678, 47.255175]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 995.436
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.529937, 47.253438],
-          [-1.529851, 47.254778]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 149.118
       }
     },
     {
@@ -7233,29 +6828,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.521485, 47.248329],
-          [-1.525476, 47.250864],
-          [-1.52014012, 47.257721992]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 1275.982
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.5359259, 47.2338686],
           [-1.5354634, 47.2337989],
           [-1.5345635, 47.2336835],
@@ -7288,8 +6860,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2008)",
         "calculated_length": 969.514
       }
     },
@@ -7327,8 +6899,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2008)",
         "calculated_length": 831.571
       }
     },
@@ -7361,8 +6933,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (déjà comme ça en 2008)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (déjà comme ça en 2008)",
         "calculated_length": 645.599
       }
     },
@@ -7417,8 +6989,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2008)",
         "calculated_length": 1397.581
       }
     },
@@ -7455,8 +7027,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2008)",
         "calculated_length": 870.751
       }
     },
@@ -7508,8 +7080,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2008)",
         "calculated_length": 960.988
       }
     },
@@ -7538,69 +7110,9 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2008)",
         "calculated_length": 215.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.5263011, 47.2284541],
-          [-1.5256434, 47.2279787],
-          [-1.5245941, 47.2272202],
-          [-1.5241112, 47.226873],
-          [-1.5231708, 47.2262052],
-          [-1.5231232, 47.226187],
-          [-1.5230465, 47.2261555],
-          [-1.5229603, 47.2261283],
-          [-1.5227051, 47.2260652],
-          [-1.5226498, 47.2258979],
-          [-1.5225977, 47.2257882],
-          [-1.5224773, 47.2256974],
-          [-1.5224234, 47.2256571],
-          [-1.5214325, 47.2249483],
-          [-1.5210471, 47.2246694],
-          [-1.5204962, 47.2242683],
-          [-1.520415716, 47.22420867],
-          [-1.52037, 47.2241748],
-          [-1.5203384, 47.2241523],
-          [-1.5200263, 47.2239303],
-          [-1.5199647, 47.2238833],
-          [-1.5198416, 47.223797],
-          [-1.5194459, 47.223515],
-          [-1.5187879, 47.2230438],
-          [-1.5187258, 47.222991],
-          [-1.5185809, 47.2228731],
-          [-1.5184146, 47.2227415],
-          [-1.5182638, 47.2225995],
-          [-1.5181168, 47.2224511],
-          [-1.5180228, 47.2223514],
-          [-1.5179331, 47.2222608],
-          [-1.5178262, 47.2221504],
-          [-1.5177162, 47.2220281],
-          [-1.5175663, 47.2218403],
-          [-1.517212992, 47.221375243],
-          [-1.516767746, 47.220584632],
-          [-1.516322499, 47.219622768],
-          [-1.51594699, 47.218795696],
-          [-1.515869203, 47.218515143],
-          [-1.515855792, 47.218212729]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard de Doulon",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "structurante",
-        "quality": "",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "fin du bd en Monodir. A redécouper + Bd de Seattle à séparer",
-        "calculated_length": 1424.223
       }
     },
     {
@@ -7624,8 +7136,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "B (~mars 2025)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": " (~mars 2025)",
         "calculated_length": 162.587
       }
     },
@@ -7660,8 +7172,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2016)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2016)",
         "calculated_length": 535.911
       }
     },
@@ -7701,8 +7213,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2016)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2016)",
         "calculated_length": 612.405
       }
     },
@@ -7744,8 +7256,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E (bandes présentes en 2008)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": " (bandes présentes en 2008)",
         "calculated_length": 949.637
       }
     },
@@ -8353,41 +7865,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.588488123, 47.198278542],
-          [-1.5883609, 47.1982943],
-          [-1.588102, 47.1983187],
-          [-1.5876079, 47.1983631],
-          [-1.5866678, 47.1984551],
-          [-1.586287, 47.198491],
-          [-1.5859942, 47.1985191],
-          [-1.5849501, 47.1986163],
-          [-1.5848117, 47.1986322],
-          [-1.5845925, 47.1986695],
-          [-1.5843742, 47.1987178],
-          [-1.5842101, 47.1987573],
-          [-1.5839328, 47.1988239],
-          [-1.5834479, 47.1989403],
-          [-1.582998657, 47.199034107]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard de Cardiff",
-        "status": "A définir",
-        "type": "voie bus",
-        "year": 2008,
-        "line": "",
-        "infrastructure": "structurante",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
-        "calculated_length": 425.885
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.617253892, 47.197177301],
           [-1.6170305, 47.1973892],
           [-1.6168777, 47.1974576],
@@ -8449,8 +7926,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "C (à cause des intersections)",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "cycloscore C (à cause des intersections)",
         "calculated_length": 325.988
       }
     },
@@ -12039,6 +11516,1713 @@
         "cycloscore(optionnel)": "",
         "commentaire sur les données": "",
         "calculated_length": 329.877
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.573186816, 47.206550005],
+          [-1.574671948, 47.205164492],
+          [-1.575024977, 47.204319705],
+          [-1.575738846, 47.202805258],
+          [-1.576271153, 47.202038301],
+          [-1.57748625, 47.200983903],
+          [-1.578503826, 47.200430799],
+          [-1.579987755, 47.199838366],
+          [-1.584734984, 47.198636707],
+          [-1.588457943, 47.198284906]
+        ]
+      },
+      "properties": {
+        "name": "Quai Marquis d'aiguillon",
+        "status": "A définir",
+        "type": "voie bus",
+        "year": 2008,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 1606.079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.619368591, 47.194667105],
+          [-1.620009646, 47.194573762],
+          [-1.623967082, 47.194582618],
+          [-1.627842306, 47.194756792],
+          [-1.630498106, 47.194987928],
+          [-1.631826006, 47.194970148],
+          [-1.636040175, 47.194438104],
+          [-1.638250612, 47.19432578],
+          [-1.639349043, 47.194518663],
+          [-1.644177111, 47.196285895],
+          [-1.653216025, 47.19975678],
+          [-1.660676324, 47.201231463],
+          [-1.667859015, 47.20111964],
+          [-1.675457179, 47.204451987],
+          [-1.678310632, 47.205556553],
+          [-1.684014351, 47.207174633],
+          [-1.689102132, 47.208644508],
+          [-1.690980474, 47.20894662],
+          [-1.699068837, 47.209483871],
+          [-1.700758406, 47.209471661],
+          [-1.703382991, 47.209791025],
+          [-1.704656199, 47.209775299],
+          [-1.707133168, 47.209523688],
+          [-1.708429526, 47.209728122],
+          [-1.710775285, 47.21050886],
+          [-1.711568243, 47.210167453],
+          [-1.712383539, 47.209606024],
+          [-1.712975466, 47.208741108],
+          [-1.713366361, 47.208422451],
+          [-1.721292502, 47.208637834],
+          [-1.725086164, 47.208974623]
+        ]
+      },
+      "properties": {
+        "name": "Magistrale Nantes Coueron",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2025,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 8559.012
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.588486324, 47.198288197],
+          [-1.588525865, 47.198142351],
+          [-1.588599297, 47.198057914],
+          [-1.589452239, 47.197938935],
+          [-1.589587805, 47.19786985],
+          [-1.589565211, 47.197766222],
+          [-1.591412903, 47.197480084],
+          [-1.592337554, 47.197316608],
+          [-1.592683355, 47.197223807]
+        ]
+      },
+      "properties": {
+        "name": "Rue Jules Launay",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 361.969
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.592678537, 47.197231795],
+          [-1.593583708, 47.196921166],
+          [-1.594859176, 47.196719257],
+          [-1.596148358, 47.196421051],
+          [-1.59662798, 47.19630617],
+          [-1.598740046, 47.195647624],
+          [-1.599378605, 47.195510719],
+          [-1.602926143, 47.195228038],
+          [-1.603781027, 47.195156591],
+          [-1.604201611, 47.195156591],
+          [-1.60591595, 47.195026123],
+          [-1.606990269, 47.194892547],
+          [-1.6079823, 47.194774503],
+          [-1.609413187, 47.194675886]
+        ]
+      },
+      "properties": {
+        "name": "Rue des usines",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2018,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 1310.989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.609407569, 47.194672798],
+          [-1.610013065, 47.194622826],
+          [-1.610589144, 47.194624492],
+          [-1.610868603, 47.194639483]
+        ]
+      },
+      "properties": {
+        "name": "Rue des usines - passage à niveau",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 2018,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 111.117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.610874038, 47.194642596],
+          [-1.61230089, 47.19471425],
+          [-1.613899095, 47.194801577],
+          [-1.614679568, 47.194851345],
+          [-1.614986028, 47.194802084],
+          [-1.61543748, 47.194643103],
+          [-1.615628606, 47.194605037]
+        ]
+      },
+      "properties": {
+        "name": "Rue des usines - route de roche maurice",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2018,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 366.776
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.61562839, 47.194605282],
+          [-1.616173821, 47.194531488],
+          [-1.617243067, 47.194463291],
+          [-1.618128867, 47.19432165],
+          [-1.618727182, 47.194350503],
+          [-1.619371818, 47.194662637]
+        ]
+      },
+      "properties": {
+        "name": "Route de Roche Maurice",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2018,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 297.842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.725070844, 47.208980683],
+          [-1.727971033, 47.209128151],
+          [-1.730254714, 47.209800599]
+        ]
+      },
+      "properties": {
+        "name": "Quai Jean-Pierre-Fougerat",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2016,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 408.795
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.730217643, 47.209797359],
+          [-1.731299236, 47.210305424],
+          [-1.73169045, 47.211212111],
+          [-1.732064405, 47.211262917],
+          [-1.734152009, 47.211143114],
+          [-1.736953793, 47.211064952],
+          [-1.740457462, 47.211737143],
+          [-1.742173578, 47.210578364],
+          [-1.743508309, 47.21001168],
+          [-1.748577396, 47.209415638],
+          [-1.748819028, 47.209220226],
+          [-1.749704541, 47.206961338],
+          [-1.749897602, 47.206698866],
+          [-1.751818824, 47.206031123],
+          [-1.751994295, 47.205698904]
+        ]
+      },
+      "properties": {
+        "name": "Coueron",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 2095.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.573199446, 47.206544806],
+          [-1.572752648, 47.206156165],
+          [-1.571575103, 47.207114997]
+        ]
+      },
+      "properties": {
+        "name": "Quai de la Fosse vers Coueron",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2019,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 193.892
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.623820712, 47.175059419],
+          [-1.629006133, 47.173275988],
+          [-1.632338876, 47.172330114]
+        ]
+      },
+      "properties": {
+        "name": "Route de Paimboeuf Est",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2017,
+        "line": "A",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 713.937
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.653004129, 47.171260692],
+          [-1.647072228, 47.170797937],
+          [-1.643603849, 47.170963208],
+          [-1.634882437, 47.171859338],
+          [-1.632313801, 47.172338133]
+        ]
+      },
+      "properties": {
+        "name": "Route de Paimboeuf Ouest",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2012,
+        "line": "A",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 1586.769
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.652985585, 47.171269179],
+          [-1.652930998, 47.171582539],
+          [-1.653228193, 47.171751588],
+          [-1.653956017, 47.171710357],
+          [-1.65479908, 47.171582539],
+          [-1.656192061, 47.171494255],
+          [-1.65761287, 47.171528938],
+          [-1.660402995, 47.172018278],
+          [-1.661076232, 47.172179079],
+          [-1.661239992, 47.17228628],
+          [-1.661591774, 47.172290403]
+        ]
+      },
+      "properties": {
+        "name": "rue de la mouchonnerie",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "A",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 715.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.661540789, 47.172306025],
+          [-1.673902292, 47.178988795]
+        ]
+      },
+      "properties": {
+        "name": "chemin de la pièce audrain",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2008,
+        "line": "A",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 1195.867
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.67389657, 47.17900141],
+          [-1.677379595, 47.179969902],
+          [-1.67422528, 47.185286616],
+          [-1.674362491, 47.185910684],
+          [-1.675569806, 47.186337603],
+          [-1.676076428, 47.186796679],
+          [-1.676224193, 47.187148156],
+          [-1.676139756, 47.187513977],
+          [-1.677015789, 47.187980216],
+          [-1.678862848, 47.188661634],
+          [-1.679083127, 47.189190595],
+          [-1.67984306, 47.189506193],
+          [-1.681141278, 47.190345389],
+          [-1.681703846, 47.190612929],
+          [-1.682833191, 47.190950036],
+          [-1.683740888, 47.19102176],
+          [-1.684300283, 47.190985898],
+          [-1.685736656, 47.191526704],
+          [-1.686507143, 47.191720358],
+          [-1.686623244, 47.191541049],
+          [-1.688794823, 47.192197472],
+          [-1.69040933, 47.193003],
+          [-1.690191459, 47.193380501],
+          [-1.692939767, 47.194173469]
+        ]
+      },
+      "properties": {
+        "name": "la Montagne",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "A",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 2817.748
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.692932624, 47.194174969],
+          [-1.693118138, 47.194124545],
+          [-1.693778568, 47.193837128],
+          [-1.694023446, 47.193605176],
+          [-1.694231222, 47.19314127],
+          [-1.694490941, 47.192798379],
+          [-1.694691297, 47.192747954]
+        ]
+      },
+      "properties": {
+        "name": "rue de la Garenne",
+        "status": "terminé",
+        "type": "zone de rencontre",
+        "year": 2018,
+        "line": "A",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "date à confirmer",
+        "calculated_length": 219.295
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.576347748, 47.254035348],
+          [-1.575898634, 47.256466161]
+        ]
+      },
+      "properties": {
+        "name": "route de la Chapelle sur Erdre Sud",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 272.377
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.575899298, 47.256467958],
+          [-1.574773427, 47.260555288],
+          [-1.574576439, 47.26169163],
+          [-1.574570746, 47.262614372],
+          [-1.57402903, 47.264391218]
+        ]
+      },
+      "properties": {
+        "name": "route de la Chapelle sur Erdre Nord",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 893.884
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.574034802, 47.264386858],
+          [-1.573397838, 47.266353643],
+          [-1.572325212, 47.268284178],
+          [-1.571915713, 47.269875782],
+          [-1.572047806, 47.272292001],
+          [-1.57192364, 47.273569757],
+          [-1.570299131, 47.27766258],
+          [-1.569816869, 47.278201883],
+          [-1.568585554, 47.278819634],
+          [-1.56514969, 47.279209577],
+          [-1.564332262, 47.279385072],
+          [-1.561047253, 47.281662458]
+        ]
+      },
+      "properties": {
+        "name": "Route de la Chapelle sur Erdre/Nantes",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2025,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 2384.641
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.557667755, 47.286363327],
+          [-1.558541794, 47.285122373],
+          [-1.559556473, 47.28356478],
+          [-1.5608586, 47.281840518],
+          [-1.561048741, 47.281656638]
+        ]
+      },
+      "properties": {
+        "name": "Route de Nantes",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2008,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 582.934
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.55596696, 47.290412981],
+          [-1.555978732, 47.289957867],
+          [-1.556332524, 47.288719466],
+          [-1.556766254, 47.287713931],
+          [-1.557348948, 47.286770305],
+          [-1.557663917, 47.286367923]
+        ]
+      },
+      "properties": {
+        "name": "rue Hervé le Guyader",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 471.849
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.557115859, 47.217815671],
+          [-1.555364593, 47.217733068],
+          [-1.554452475, 47.21777437],
+          [-1.551533817, 47.218125709],
+          [-1.551460847, 47.218319825],
+          [-1.551181131, 47.218394167],
+          [-1.551071677, 47.218406557],
+          [-1.550761557, 47.218633712],
+          [-1.550354144, 47.219005419],
+          [-1.550007539, 47.219203661],
+          [-1.549837277, 47.219509283]
+        ]
+      },
+      "properties": {
+        "name": "Cathédrale",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 636.823
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.549851908, 47.219509028],
+          [-1.547651238, 47.221524941]
+        ]
+      },
+      "properties": {
+        "name": "Rue Maréchal Joffre - piétonne",
+        "status": "terminé",
+        "type": "aire piétonne",
+        "year": 2025,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 279.308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.547668239, 47.221521133],
+          [-1.546036483, 47.22278237]
+        ]
+      },
+      "properties": {
+        "name": "Eglise Saint Clément",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 186.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.546043801, 47.222782314],
+          [-1.545215043, 47.223845377]
+        ]
+      },
+      "properties": {
+        "name": "Rue Maréchal Joffre",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2013,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 133.821
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.545237145, 47.223844343],
+          [-1.542633345, 47.227105379],
+          [-1.540592483, 47.229130537]
+        ]
+      },
+      "properties": {
+        "name": "Rue du Général Buhat Sud",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 685.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.540601683, 47.229128292],
+          [-1.535912169, 47.233867936],
+          [-1.530291581, 47.240668574],
+          [-1.524301088, 47.245914159]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Jules Verne Sud",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2010,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 2241.824
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.524304515, 47.245913488],
+          [-1.521146108, 47.248659328]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Jules Verne Nord",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 387.765
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.521155235, 47.248658105],
+          [-1.517023037, 47.252216308]
+        ]
+      },
+      "properties": {
+        "name": "Route de Paris Sud",
+        "status": "terminé",
+        "type": "voie bus",
+        "year": 2012,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 504.318
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.481233158, 47.269098715],
+          [-1.500584666, 47.259776325],
+          [-1.510024239, 47.256147794],
+          [-1.517006813, 47.25220522]
+        ]
+      },
+      "properties": {
+        "name": "Route de Paris centrale",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 3301.294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.481253964, 47.269123579],
+          [-1.481660081, 47.270260303],
+          [-1.480287528, 47.271562931],
+          [-1.48008447, 47.272665159],
+          [-1.479069179, 47.272693862],
+          [-1.478874582, 47.271941825],
+          [-1.477148588, 47.271425151],
+          [-1.474534215, 47.272234604]
+        ]
+      },
+      "properties": {
+        "name": "Route de Paris échangeur",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2019,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 953.576
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.474544817, 47.272235333],
+          [-1.45381192, 47.282391695]
+        ]
+      },
+      "properties": {
+        "name": "Route de Paris nord",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 1932.806
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.529794882, 47.253317671],
+          [-1.530859483, 47.2535915],
+          [-1.53120062, 47.253650929],
+          [-1.534279687, 47.254524024],
+          [-1.534373073, 47.254617834],
+          [-1.536195967, 47.255122376],
+          [-1.536255734, 47.25521872]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 538.446
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.529865565, 47.25469609],
+          [-1.529777123, 47.253672577]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 113.987
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.521143253, 47.248667721],
+          [-1.521829648, 47.248844326],
+          [-1.523706163, 47.250039212]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 250.038
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.523701657, 47.250029575],
+          [-1.523906469, 47.250044605],
+          [-1.525401038, 47.250968932],
+          [-1.527546253, 47.252254259],
+          [-1.528338765, 47.252672278],
+          [-1.529180152, 47.253032975],
+          [-1.529384963, 47.253160721],
+          [-1.529805657, 47.253326039]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 593.687
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.525395089, 47.250966158],
+          [-1.525012776, 47.251372272],
+          [-1.523028041, 47.25391953],
+          [-1.520287655, 47.257707245],
+          [-1.519959901, 47.257756678]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 869.033
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.543156903, 47.25670133],
+          [-1.543138953, 47.25664529],
+          [-1.542489178, 47.256550265],
+          [-1.541792734, 47.256272499],
+          [-1.541656317, 47.256223768],
+          [-1.541588109, 47.25625057],
+          [-1.541624008, 47.256301737],
+          [-1.541907612, 47.256401636],
+          [-1.542381481, 47.256577067],
+          [-1.542998946, 47.256857268],
+          [-1.543490765, 47.257091173],
+          [-1.544083102, 47.25748345],
+          [-1.544973081, 47.258428585],
+          [-1.545242621, 47.258692122],
+          [-1.545300059, 47.258728669],
+          [-1.545174412, 47.25882369],
+          [-1.545181592, 47.2588578],
+          [-1.54527134, 47.258908965],
+          [-1.545615972, 47.259040532],
+          [-1.545641102, 47.259096569]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2025,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 600.612
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.545016594, 47.26438316],
+          [-1.545520982, 47.263071791],
+          [-1.545845637, 47.262354467],
+          [-1.545971407, 47.261508333],
+          [-1.545888339, 47.260586032],
+          [-1.545750824, 47.260085723],
+          [-1.545750824, 47.259798775],
+          [-1.545815, 47.259652739],
+          [-1.545788574, 47.259542571],
+          [-1.545762149, 47.259463147],
+          [-1.545739499, 47.259396534]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2025,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 565.938
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.545750824, 47.259409344],
+          [-1.545731948, 47.259337606],
+          [-1.545630022, 47.259250496],
+          [-1.545611146, 47.259153137],
+          [-1.545637572, 47.259091648]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "aire piétonne",
+        "year": 2025,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 38.525
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.545191356, 47.267572464],
+          [-1.544822666, 47.267371699],
+          [-1.544650477, 47.267085065],
+          [-1.544564209, 47.266627075],
+          [-1.544746894, 47.266000345],
+          [-1.545025996, 47.265603908],
+          [-1.544960027, 47.264953061],
+          [-1.545020922, 47.264374523]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 378.417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.545193371, 47.267577209],
+          [-1.545170068, 47.267629165],
+          [-1.545416413, 47.267712747],
+          [-1.545642785, 47.267841508],
+          [-1.546008974, 47.267832472]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": null,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 76.923
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.515640863, 47.217820335],
+          [-1.515868012, 47.218236111],
+          [-1.515887415, 47.21872865],
+          [-1.516253162, 47.219413752]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2022,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 185.148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.516257138, 47.219411648],
+          [-1.516870476, 47.220759121],
+          [-1.517211189, 47.221386645],
+          [-1.51757646, 47.221848465]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "voie bus",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 289.551
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.517574641, 47.221847754],
+          [-1.517847482, 47.222175407],
+          [-1.518285205, 47.222618518],
+          [-1.518428665, 47.222750976],
+          [-1.518799077, 47.223055308],
+          [-1.520013751, 47.223923245]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2014,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 296.834
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.520014274, 47.223925114],
+          [-1.521384856, 47.224919111],
+          [-1.522407867, 47.225643565],
+          [-1.522609777, 47.225803538],
+          [-1.522697271, 47.226089202],
+          [-1.523191951, 47.226208038],
+          [-1.524378129, 47.227074122],
+          [-1.525596579, 47.227940665]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 624.084
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.526309123, 47.228457551],
+          [-1.525595707, 47.227941092]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 78.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.542971313, 47.215579389],
+          [-1.542752096, 47.215734092],
+          [-1.541132167, 47.216026092],
+          [-1.539521026, 47.216133237],
+          [-1.539296115, 47.216189316]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2022,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 291.601
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.539296385, 47.216186512],
+          [-1.536451815, 47.216507117],
+          [-1.534481183, 47.216444589],
+          [-1.533711495, 47.216358884]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2019,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 426.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.533707313, 47.216359803],
+          [-1.532462827, 47.216188154],
+          [-1.531384947, 47.21579099],
+          [-1.530809659, 47.215457852],
+          [-1.530421603, 47.215148578]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 291.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.530423544, 47.215153193],
+          [-1.529748326, 47.214142768]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "zone de rencontre",
+        "year": 2013,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 123.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.529755362, 47.214144163],
+          [-1.529513703, 47.213655281]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2013,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 57.352
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.530619096, 47.208567259],
+          [-1.528310488, 47.210839874],
+          [-1.528789974, 47.211221572],
+          [-1.52952071, 47.213659059]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 639.728
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.530628594, 47.208582415],
+          [-1.52860841, 47.206078335],
+          [-1.528321313, 47.206085695],
+          [-1.526837076, 47.206806982]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 477.569
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.526851749, 47.206806399],
+          [-1.523566594, 47.204858365]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2025,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 329.927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.571316309, 47.202849311],
+          [-1.573411362, 47.199859458]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 368.356
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.571347616, 47.202838061],
+          [-1.570501743, 47.20323694],
+          [-1.554563408, 47.204917817]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "bande au Nord, voie bus au Sud",
+        "calculated_length": 1299.892
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.55442885, 47.204534429],
+          [-1.554125707, 47.204506764],
+          [-1.553695877, 47.204531355],
+          [-1.553238899, 47.204691197]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 94.771
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.55324424, 47.204685418],
+          [-1.551656131, 47.205263304],
+          [-1.550963878, 47.205373963],
+          [-1.550371164, 47.20564446],
+          [-1.550402836, 47.205715158]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2017,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 252.536
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.554662782, 47.205290042],
+          [-1.547810749, 47.205983028]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 524.821
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.539370779, 47.206744324],
+          [-1.540107874, 47.206744324],
+          [-1.547790043, 47.205987631]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 643.914
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.539369831, 47.206749771],
+          [-1.537960603, 47.206752394],
+          [-1.537779141, 47.206915015]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 129.479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.537781059, 47.206916707],
+          [-1.536290899, 47.208145028]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "voie bus",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 177.183
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.536289442, 47.208143338],
+          [-1.535816482, 47.208488242]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 52.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.535818413, 47.208488242],
+          [-1.535509541, 47.208931498],
+          [-1.535239593, 47.209458726],
+          [-1.535171964, 47.2097394],
+          [-1.535202095, 47.210119525],
+          [-1.535460359, 47.210716023]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 259.718
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.541257782, 47.197919243],
+          [-1.541083809, 47.19759839],
+          [-1.54031336, 47.197069259]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "terminé",
+        "type": "voie bus",
+        "year": null,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 120.907
       }
     }
   ]

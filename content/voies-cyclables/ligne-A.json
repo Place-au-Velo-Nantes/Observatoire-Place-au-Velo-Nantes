@@ -70,130 +70,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#48"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.693761445,
-            47.194260627
-          ],
-          [
-            -1.693342026,
-            47.194201721
-          ],
-          [
-            -1.692922607,
-            47.194142814
-          ],
-          [
-            -1.684224618,
-            47.19098769
-          ],
-          [
-            -1.682882306,
-            47.190956645
-          ],
-          [
-            -1.681266364,
-            47.190423269
-          ],
-          [
-            -1.679078657,
-            47.189155011
-          ],
-          [
-            -1.678879699,
-            47.188646979
-          ],
-          [
-            -1.676097411,
-            47.18749195
-          ],
-          [
-            -1.674360279,
-            47.185890325
-          ],
-          [
-            -1.674210532,
-            47.185268911
-          ],
-          [
-            -1.67740319,
-            47.17996035
-          ],
-          [
-            -1.673908,
-            47.178978
-          ],
-          [
-            -1.661497,
-            47.17229
-          ],
-          [
-            -1.661218,
-            47.172305
-          ],
-          [
-            -1.66096,
-            47.172188
-          ],
-          [
-            -1.657334,
-            47.171502
-          ],
-          [
-            -1.654732,
-            47.171591
-          ],
-          [
-            -1.653466,
-            47.171825
-          ],
-          [
-            -1.652951,
-            47.171504
-          ],
-          [
-            -1.652522,
-            47.171124
-          ],
-          [
-            -1.64735,
-            47.170804
-          ],
-          [
-            -1.644411,
-            47.170847
-          ],
-          [
-            -1.63454,
-            47.171868
-          ],
-          [
-            -1.629128,
-            47.173186
-          ],
-          [
-            -1.623807,
-            47.175053
-          ]
-        ]
-      },
-      "properties": {
-        "line": "A",
-        "name": "La Montagne - Bouguenais",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": ""
+        "id": "sans-titre#47"
       }
     },
     {
@@ -241,7 +118,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#74"
+        "id": "sans-titre#72"
       }
     },
     {
@@ -697,13 +574,13 @@
         "line": "A",
         "name": "Rue Félix Eboué Rezé",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "doneAt": "01/01/2016",
+        "type": "voie-verte",
+        "quality": "satisfactory",
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#115"
+        "id": "sans-titre#113"
       }
     },
     {
@@ -726,8 +603,8 @@
         "name": "Pirmil",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": ""
@@ -908,6 +785,328 @@
         "type": "inconnu",
         "quality": "not-rated-yet",
         "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.623820712,
+            47.175059419
+          ],
+          [
+            -1.629006133,
+            47.173275988
+          ],
+          [
+            -1.632338876,
+            47.172330114
+          ]
+        ]
+      },
+      "properties": {
+        "line": "A",
+        "name": "Route de Paimboeuf Est",
+        "status": "done",
+        "doneAt": "01/01/2017",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.653004129,
+            47.171260692
+          ],
+          [
+            -1.647072228,
+            47.170797937
+          ],
+          [
+            -1.643603849,
+            47.170963208
+          ],
+          [
+            -1.634882437,
+            47.171859338
+          ],
+          [
+            -1.632313801,
+            47.172338133
+          ]
+        ]
+      },
+      "properties": {
+        "line": "A",
+        "name": "Route de Paimboeuf Ouest",
+        "status": "done",
+        "doneAt": "01/01/2012",
+        "type": "bilaterale",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.652985585,
+            47.171269179
+          ],
+          [
+            -1.652930998,
+            47.171582539
+          ],
+          [
+            -1.653228193,
+            47.171751588
+          ],
+          [
+            -1.653956017,
+            47.171710357
+          ],
+          [
+            -1.65479908,
+            47.171582539
+          ],
+          [
+            -1.656192061,
+            47.171494255
+          ],
+          [
+            -1.65761287,
+            47.171528938
+          ],
+          [
+            -1.660402995,
+            47.172018278
+          ],
+          [
+            -1.661076232,
+            47.172179079
+          ],
+          [
+            -1.661239992,
+            47.17228628
+          ],
+          [
+            -1.661591774,
+            47.172290403
+          ]
+        ]
+      },
+      "properties": {
+        "line": "A",
+        "name": "rue de la mouchonnerie",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.661540789,
+            47.172306025
+          ],
+          [
+            -1.673902292,
+            47.178988795
+          ]
+        ]
+      },
+      "properties": {
+        "line": "A",
+        "name": "chemin de la pièce audrain",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "voie-verte",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.67389657,
+            47.17900141
+          ],
+          [
+            -1.677379595,
+            47.179969902
+          ],
+          [
+            -1.67422528,
+            47.185286616
+          ],
+          [
+            -1.674362491,
+            47.185910684
+          ],
+          [
+            -1.675569806,
+            47.186337603
+          ],
+          [
+            -1.676076428,
+            47.186796679
+          ],
+          [
+            -1.676224193,
+            47.187148156
+          ],
+          [
+            -1.676139756,
+            47.187513977
+          ],
+          [
+            -1.677015789,
+            47.187980216
+          ],
+          [
+            -1.678862848,
+            47.188661634
+          ],
+          [
+            -1.679083127,
+            47.189190595
+          ],
+          [
+            -1.67984306,
+            47.189506193
+          ],
+          [
+            -1.681141278,
+            47.190345389
+          ],
+          [
+            -1.681703846,
+            47.190612929
+          ],
+          [
+            -1.682833191,
+            47.190950036
+          ],
+          [
+            -1.683740888,
+            47.19102176
+          ],
+          [
+            -1.684300283,
+            47.190985898
+          ],
+          [
+            -1.685736656,
+            47.191526704
+          ],
+          [
+            -1.686507143,
+            47.191720358
+          ],
+          [
+            -1.686623244,
+            47.191541049
+          ],
+          [
+            -1.688794823,
+            47.192197472
+          ],
+          [
+            -1.69040933,
+            47.193003
+          ],
+          [
+            -1.690191459,
+            47.193380501
+          ],
+          [
+            -1.692939767,
+            47.194173469
+          ]
+        ]
+      },
+      "properties": {
+        "line": "A",
+        "name": "la Montagne",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.692932624,
+            47.194174969
+          ],
+          [
+            -1.693118138,
+            47.194124545
+          ],
+          [
+            -1.693778568,
+            47.193837128
+          ],
+          [
+            -1.694023446,
+            47.193605176
+          ],
+          [
+            -1.694231222,
+            47.19314127
+          ],
+          [
+            -1.694490941,
+            47.192798379
+          ],
+          [
+            -1.694691297,
+            47.192747954
+          ]
+        ]
+      },
+      "properties": {
+        "line": "A",
+        "name": "rue de la Garenne",
+        "status": "done",
+        "doneAt": "01/01/2018",
+        "type": "zone-de-rencontre",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
         "link": "",
         "cycloscore": ""
       }

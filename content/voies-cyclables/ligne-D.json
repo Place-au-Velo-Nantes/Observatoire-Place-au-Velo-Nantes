@@ -273,7 +273,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#20"
+        "id": "sans-titre#19"
       }
     },
     {
@@ -490,7 +490,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#38"
+        "id": "sans-titre#37"
       }
     },
     {
@@ -526,7 +526,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#44"
+        "id": "sans-titre#43"
       }
     },
     {
@@ -816,7 +816,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#74"
+        "id": "sans-titre#72"
       }
     },
     {
@@ -955,7 +955,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#87"
+        "id": "sans-titre#85"
       }
     },
     {
@@ -1096,42 +1096,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#123"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.530613,
-            47.208568
-          ],
-          [
-            -1.528489,
-            47.206003
-          ],
-          [
-            -1.526836,
-            47.206834
-          ],
-          [
-            -1.523425,
-            47.204837
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Pont Senghor, bd Millerand",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": "",
-        "cycloscore": "A découper piste puis bande cyclble"
+        "id": "sans-titre#120"
       }
     },
     {
@@ -1182,7 +1147,7 @@
         "name": "Allée Baco",
         "status": "done",
         "doneAt": "01/01/2015",
-        "type": "bilaterale",
+        "type": "inconnu",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
@@ -1469,6 +1434,37 @@
         "infrastructure": "secondaire",
         "link": "",
         "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.57091303,
+            47.222733035
+          ],
+          [
+            -1.571887528,
+            47.223017282
+          ],
+          [
+            -1.574404981,
+            47.223386376
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Via Rue de Carcouët",
+        "status": "postponed",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": "E"
       }
     },
     {

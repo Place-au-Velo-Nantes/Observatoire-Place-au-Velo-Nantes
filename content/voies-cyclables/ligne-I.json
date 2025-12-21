@@ -102,7 +102,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#87"
+        "id": "sans-titre#85"
       }
     },
     {
@@ -214,7 +214,7 @@
       "properties": {
         "line": "I",
         "name": "I#1",
-        "status": "done",
+        "status": "wip",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
