@@ -178,6 +178,16 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
       },
     },
     {
+      label: 'D',
+      isEnabled: true,
+      cycloscores: ['D'],
+      customStyle: {
+        backgroundColor: getCycloscoreColor('D'),
+        borderColor: getCycloscoreColor('D'),
+        textColor: '#000000',
+      },
+    },
+    {
       label: 'E',
       isEnabled: true,
       cycloscores: ['E'],
@@ -411,6 +421,57 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
       });
     });
     return scores;
+  });
+
+  // Compute which cycloscore filters have matching features
+  const cycloscoreFilterHasMatches = computed(() => {
+    const hasMatches = new Map<string | null, boolean>();
+
+    // Initialize all filters to false
+    cycloscoreFilters.value.forEach((filter) => {
+      filter.cycloscores.forEach((score) => {
+        hasMatches.set(score, false);
+      });
+    });
+
+    // Check all features for matching cycloscores
+    (allFeatures.value ?? []).forEach((feature) => {
+      if (!isLineStringFeature(feature)) {
+        return;
+      }
+
+      const featureCycloscore = feature.properties.cycloscore;
+
+      // Check if cycloscore doesn't exist (undefined, null) or is empty
+      const hasNoCycloscore =
+        featureCycloscore === undefined ||
+        featureCycloscore === null ||
+        (typeof featureCycloscore === 'string' && featureCycloscore.trim() === '');
+
+      if (hasNoCycloscore) {
+        hasMatches.set(null, true);
+        return;
+      }
+
+      // Extract the first letter from the trimmed string
+      const trimmed = typeof featureCycloscore === 'string' ? featureCycloscore.trim() : '';
+      if (trimmed.length === 0) {
+        hasMatches.set(null, true);
+        return;
+      }
+
+      const cycloscoreLetter = trimmed.charAt(0).toUpperCase();
+
+      // Check if the first letter is A, B, C, D, or E
+      if (['A', 'B', 'C', 'D', 'E'].includes(cycloscoreLetter)) {
+        hasMatches.set(cycloscoreLetter, true);
+      } else {
+        // If first letter is not A-E, treat as "Non renseigné"
+        hasMatches.set(null, true);
+      }
+    });
+
+    return hasMatches;
   });
   const visibleLines = computed(() => lineFilters.value.filter((item) => item.isEnabled).map((item) => item.line));
   const visibleDateRange = computed(() => {
@@ -670,11 +731,20 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     },
   };
 
+  // Computed property to check if a cycloscore filter has matches (for disabling)
+  const cycloscoreFilterDisabled = computed(() => {
+    return cycloscoreFilters.value.map((filter) => {
+      // Check if any of the filter's cycloscores have matches
+      return !filter.cycloscores.some((score) => cycloscoreFilterHasMatches.value.get(score) === true);
+    });
+  });
+
   return {
     filters,
     actions,
     filteredFeatures,
     totalDistance,
     filteredDistance,
+    cycloscoreFilterDisabled,
   };
 }

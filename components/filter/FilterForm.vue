@@ -47,6 +47,7 @@
       title="Filtrer par cycloscore"
       :filters="filters.cycloscoreFilters.value"
       :show-selection-buttons="true"
+      :disabled-indices="filters.cycloscoreFilterDisabled?.value"
       @toggle-filter="actions.toggleCycloscoreFilter"
       @select-all="
         filters.cycloscoreFilters.value.forEach(

@@ -1,16 +1,19 @@
 <template>
   <button
     type="button"
-    class="px-2 py-1.5 rounded-2xl text-sm cursor-pointer outline outline-2 outline-offset-[-1px] focus:outline-none transition-all flex items-center gap-2"
+    class="px-2 py-1.5 rounded-2xl text-sm outline outline-2 outline-offset-[-1px] focus:outline-none transition-all flex items-center gap-2"
     :class="{
       'bg-lvv-blue-600 text-white hover:bg-lvv-blue-700 outline-lvv-blue-800 focus:ring-lvv-blue-400':
         isEnabled && !customStyle && !isCycloscore,
       'bg-white text-gray-900 hover:bg-gray-50 outline-gray-300 focus:ring-gray-300':
         !isEnabled && !customStyle && !isCycloscore,
-      'focus-visible:opacity-80 hover:opacity-80': isEnabled,
+      'focus-visible:opacity-80 hover:opacity-80': isEnabled && !disabled,
+      'cursor-not-allowed opacity-50': disabled,
+      'cursor-pointer': !disabled,
     }"
     :style="computedStyle"
-    @click="emit('click')"
+    :disabled="disabled"
+    @click="!disabled && emit('click')"
   >
     <span
       v-if="isCycloscore"
@@ -32,6 +35,7 @@ const props = defineProps<{
   label: string;
   isEnabled: boolean;
   customStyle?: BaseFilterItem['customStyle'];
+  disabled?: boolean;
 }>();
 
 const emit = defineEmits(['click']);
@@ -68,12 +72,12 @@ const cycloscoreSquareStyle = computed(() => {
   }
 
   const style: Record<string, string> = {
-    backgroundColor: props.isEnabled ? props.customStyle.backgroundColor : '#FFFFFF',
-    color: props.isEnabled ? props.customStyle.textColor || '#000000' : '#9CA3AF',
-    border: props.isEnabled ? 'none' : `1px solid ${props.customStyle.backgroundColor}`,
+    backgroundColor: props.isEnabled && !props.disabled ? props.customStyle.backgroundColor : '#FFFFFF',
+    color: props.isEnabled && !props.disabled ? props.customStyle.textColor || '#000000' : '#9CA3AF',
+    border: props.isEnabled && !props.disabled ? 'none' : `1px solid ${props.customStyle.backgroundColor}`,
   };
 
-  if (!props.isEnabled) {
+  if (!props.isEnabled || props.disabled) {
     style.opacity = '0.5';
   }
 
@@ -88,9 +92,12 @@ const computedStyle = computed(() => {
   // For cycloscore filters, use transparent background to show the square
   if (isCycloscore.value && props.customStyle) {
     style.backgroundColor = 'transparent';
-    style.outlineColor = props.isEnabled ? props.customStyle.backgroundColor || '#D1D5DB' : '#D1D5DB';
+    style.outlineColor = props.isEnabled && !props.disabled ? props.customStyle.backgroundColor || '#D1D5DB' : '#D1D5DB';
     style.border = 'none';
-    style.outline = props.isEnabled ? '2px solid' : '1px solid';
+    style.outline = props.isEnabled && !props.disabled ? '2px solid' : '1px solid';
+    if (props.disabled) {
+      style.opacity = '0.5';
+    }
     return style;
   }
 

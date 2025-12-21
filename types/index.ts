@@ -177,6 +177,7 @@ export interface FiltersState {
   minDate: Ref<number>;
   maxDate: Ref<number>;
   dateSteps: Ref<number[]>;
+  cycloscoreFilterDisabled?: Ref<boolean[]>;
 }
 
 export interface FilterActions {

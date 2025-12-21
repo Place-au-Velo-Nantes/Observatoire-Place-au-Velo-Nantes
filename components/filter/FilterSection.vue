@@ -8,6 +8,7 @@
         :label="filter.label"
         :is-enabled="filter.isEnabled"
         :custom-style="filter.customStyle"
+        :disabled="disabledIndices?.[index]"
         @click="emit('toggleFilter', index)"
       />
     </div>
@@ -42,6 +43,7 @@ defineProps<{
   title: string;
   filters: BaseFilterItem[];
   showSelectionButtons: boolean;
+  disabledIndices?: boolean[];
 }>();
 
 const emit = defineEmits(['toggleFilter', 'selectAll', 'deselectAll']);

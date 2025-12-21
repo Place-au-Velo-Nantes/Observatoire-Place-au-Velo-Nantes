@@ -151,7 +151,7 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
       minzoom: 10,
       paint: {
         'line-gap-width': 5,
-        'line-width': 3,
+        'line-width': 2,
         'line-color': '#c84271',
         'line-dasharray': [0.8, 0.8],
       },
