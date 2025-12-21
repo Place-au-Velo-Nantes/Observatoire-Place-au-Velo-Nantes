@@ -77,8 +77,21 @@
       </div>
       <div v-if="feature.properties.cycloscore" class="py-1 flex items-center justify-between">
         <div class="text-base font-bold">Cycloscore</div>
-        <div class="text-sm text-right">
-          {{ feature.properties.cycloscore }}
+        <div class="text-sm text-right flex items-center gap-2">
+          <span
+            class="inline-flex items-center justify-center w-6 h-6 rounded text-sm font-bold"
+            :style="getCycloscoreSquareStyle(feature.properties.cycloscore)"
+          >
+            {{ getCycloscoreLetter(feature.properties.cycloscore) }}
+          </span>
+          <span
+            v-if="
+              getCycloscoreFullText(feature.properties.cycloscore) !==
+              getCycloscoreLetter(feature.properties.cycloscore)
+            "
+          >
+            {{ getCycloscoreFullText(feature.properties.cycloscore) }}
+          </span>
         </div>
       </div>
     </div>
@@ -92,8 +105,9 @@
 
 <script setup lang="ts">
 import type { LaneQuality, LineStringFeature } from '~/types';
+import { CYCLOSCORE_COLORS } from '~/composables/useColors';
 
-const { getLineColor } = useColors();
+const { getLineColor, getCycloscoreColor } = useColors();
 const { getRevName, displayQuality } = useConfig();
 const { getDistance, typologyNames, qualityNames } = useStats();
 const { getVoieCyclablePath } = useUrl();
@@ -191,5 +205,28 @@ function getQuality(quality: LaneQuality): { label: string; class: string; icon:
     },
   };
   return statusMapping[quality];
+}
+
+function getCycloscoreLetter(cycloscore: string | null | undefined): string {
+  if (!cycloscore) return '';
+  const trimmed = cycloscore.trim().toUpperCase();
+  if (trimmed.startsWith('A+')) return 'A+';
+  return trimmed.charAt(0);
+}
+
+function getCycloscoreFullText(cycloscore: string | null | undefined): string {
+  if (!cycloscore) return '';
+  return cycloscore.trim();
+}
+
+function getCycloscoreSquareStyle(cycloscore: string | null | undefined): string {
+  const bgColor = getCycloscoreColor(cycloscore);
+  // Determine text color based on background brightness
+  // Light colors (yellow, light green) need dark text, dark colors need white text
+  const lightColors = [CYCLOSCORE_COLORS.C, CYCLOSCORE_COLORS.D, CYCLOSCORE_COLORS.E];
+  const isLight = lightColors.includes(bgColor as (typeof lightColors)[number]);
+  const textColor = isLight ? '#000000' : '#FFFFFF';
+
+  return `background-color: ${bgColor}; color: ${textColor};`;
 }
 </script>

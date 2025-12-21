@@ -13,11 +13,12 @@ import type { Collections } from '@nuxt/content';
 import { useRoute, useRouter } from 'vue-router';
 import dayjs from 'dayjs';
 import 'dayjs/locale/fr';
+import { CYCLOSCORE_COLORS } from '~/composables/useColors';
 dayjs.locale('fr');
 
 export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBikeLaneFiltersOptions) {
   const { getAllUniqLineStrings, getDistance } = useStats();
-  const { getLineColor } = useColors();
+  const { getLineColor, getCycloscoreColor } = useColors();
   const route = useRoute();
   const router = useRouter();
   const currentPage = route.name;
@@ -150,26 +151,51 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
       label: 'A',
       isEnabled: true,
       cycloscores: ['A'],
+      customStyle: {
+        backgroundColor: getCycloscoreColor('A'),
+        borderColor: getCycloscoreColor('A'),
+        textColor: '#FFFFFF',
+      },
     },
     {
       label: 'B',
       isEnabled: true,
       cycloscores: ['B'],
+      customStyle: {
+        backgroundColor: getCycloscoreColor('B'),
+        borderColor: getCycloscoreColor('B'),
+        textColor: '#FFFFFF',
+      },
     },
     {
       label: 'C',
       isEnabled: true,
       cycloscores: ['C'],
+      customStyle: {
+        backgroundColor: getCycloscoreColor('C'),
+        borderColor: getCycloscoreColor('C'),
+        textColor: '#000000',
+      },
     },
     {
       label: 'E',
       isEnabled: true,
       cycloscores: ['E'],
+      customStyle: {
+        backgroundColor: getCycloscoreColor('E'),
+        borderColor: getCycloscoreColor('E'),
+        textColor: '#000000',
+      },
     },
     {
       label: 'Non renseigné',
       isEnabled: true,
       cycloscores: [null as unknown as string],
+      customStyle: {
+        backgroundColor: CYCLOSCORE_COLORS.UNKNOWN,
+        borderColor: CYCLOSCORE_COLORS.UNKNOWN,
+        textColor: '#FFFFFF',
+      },
     },
   ]);
 
