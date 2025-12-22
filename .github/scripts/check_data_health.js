@@ -137,6 +137,7 @@ function checkGeoJsonDataHealth({ links }) {
                 'bandes-cyclables',
                 'chaucidou',
                 'zone-de-rencontre',
+                'aire-pietonne',
                 'inconnu',
                 'aucun',
               ];
