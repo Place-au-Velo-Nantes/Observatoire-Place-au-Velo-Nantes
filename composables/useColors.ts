@@ -2,12 +2,12 @@ import config from '~/config.json';
 
 // Single source of truth for cycloscore colors
 export const CYCLOSCORE_COLORS = {
-  A: '#5F9642',
-  B: '#86B346',
-  C: '#CAD24D',
-  D: '#FBEF5C',
-  E: '#F4CD51',
-  'A+': '#5F9642', // Same as A
+  A: '#2F6D41',
+  B: '#69B149',
+  C: '#F5CA49',
+  D: '#E18938',
+  E: '#C54E4E',
+  'A+': '#2F6D41', // Same as A
   UNKNOWN: '#9CA3AF', // Gray for "Non renseigné"
 } as const;
 
