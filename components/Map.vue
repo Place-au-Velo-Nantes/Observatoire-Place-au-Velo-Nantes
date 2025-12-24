@@ -85,12 +85,18 @@ const options = { ...defaultOptions, ...props.options };
 const legendModalComponent = ref<{ openModal: () => void } | null>(null);
 const filterControl = ref<FilterControl | null>(null);
 
-const { loadImages, plotFeatures, fitBounds, handleMapClick } = useMap({
-  updateUrlOnFeatureClick: options.updateUrlOnFeatureClick,
-});
-
 const router = useRouter();
 const route = useRoute();
+
+// Color mode: false = line colors (GVV/non-GVV), true = cycloscore colors
+const useCycloscoreColors = computed(() => {
+  return route.query.colorMode === 'cycloscore';
+});
+
+const { loadImages, plotFeatures, fitBounds, handleMapClick } = useMap({
+  updateUrlOnFeatureClick: options.updateUrlOnFeatureClick,
+  useCycloscoreColors,
+});
 
 const highlightLine = route.query.line ? Number(route.query.line) : undefined;
 const highlightSection = route.query.sectionName as string | undefined;
@@ -259,6 +265,17 @@ onMounted(() => {
     (newFeatures) => {
       try {
         plotFeatures({ map, features: newFeatures });
+      } catch (e) {
+        console.warn('not able to plot features', e);
+      }
+    },
+  );
+
+  watch(
+    () => useCycloscoreColors.value,
+    () => {
+      try {
+        plotFeatures({ map, features: props.features });
       } catch (e) {
         console.warn('not able to plot features', e);
       }

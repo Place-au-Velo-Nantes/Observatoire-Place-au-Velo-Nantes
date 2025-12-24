@@ -88,6 +88,26 @@
       </div>
     </div>
 
+    <!-- <div class="mt-6 pt-4 border-t border-gray-200">
+      <h3 class="text-base font-medium mb-3">Couleurs des segments</h3>
+      <div class="flex items-center justify-between">
+        <div class="flex flex-col">
+          <span class="text-sm" :class="isCycloscoreColorMode ? 'text-gray-500' : 'text-gray-700'">
+            Couleurs par ligne (GVV/non-GVV)
+          </span>
+          <span class="text-xs" :class="isCycloscoreColorMode ? 'text-gray-700' : 'text-gray-500'">
+            Couleurs par cycloscore
+          </span>
+        </div>
+        <label class="relative inline-flex items-center cursor-pointer">
+          <input type="checkbox" :checked="isCycloscoreColorMode" class="sr-only peer" @change="toggleColorMode" />
+          <div
+            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"
+          ></div>
+        </label>
+      </div>
+    </div> -->
+
     <hr class="h-px bg-gray-200 border-0 my-4" />
   </div>
 </template>
@@ -109,6 +129,24 @@ const props = defineProps<{
 }>();
 const defaultOptions = { showLineFilters: false, showInfrastructureFilters: true, showDateFilter: false };
 const options = { ...defaultOptions, ...props };
+
+const route = useRoute();
+const router = useRouter();
+
+const isCycloscoreColorMode = computed(() => route.query.colorMode === 'cycloscore');
+
+function toggleColorMode(event: Event) {
+  const target = event.target as HTMLInputElement;
+  const query = { ...route.query };
+
+  if (target.checked) {
+    query.colorMode = 'cycloscore';
+  } else {
+    delete query.colorMode;
+  }
+
+  router.replace({ query });
+}
 
 function formatMonthYear(stepIndex: number) {
   if (stepIndex >= props.filters.dateSteps.value.length || stepIndex < 0) {

@@ -24,7 +24,7 @@
             :class="{
               'bg-lvv-blue-600 border-transparent text-white ring-offset-1 hover:bg-lvv-blue-500':
                 statusFilter.isEnable,
-              'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !statusFilter.isEnable
+              'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !statusFilter.isEnable,
             }"
             @click="toggleStatusFilter(index)"
           >
@@ -39,7 +39,7 @@
             class="px-2 py-1 border rounded-2xl text-sm cursor-pointer focus:outline-none ring-lvv-blue-600 ring-2"
             :class="{
               'bg-lvv-blue-600 border-transparent text-white ring-offset-1 hover:bg-lvv-blue-500': typeFilter.isEnable,
-              'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !typeFilter.isEnable
+              'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !typeFilter.isEnable,
             }"
             @click="toggleTypeFilter(index)"
           >
@@ -55,7 +55,7 @@
             :class="{
               'bg-lvv-blue-600 border-transparent text-white ring-offset-1 hover:bg-lvv-blue-500':
                 qualityFilter.isEnable,
-              'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !qualityFilter.isEnable
+              'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !qualityFilter.isEnable,
             }"
             @click="toggleQualityFilter(index)"
           >
@@ -80,7 +80,7 @@ function openModal() {
 }
 
 defineExpose({
-  openModal
+  openModal,
 });
 
 const statusFilters = ref([
@@ -88,7 +88,7 @@ const statusFilters = ref([
   { label: 'En travaux', isEnable: true, statuses: ['wip', 'tested'] },
   { label: 'Prévu pour 2026', isEnable: true, statuses: ['planned', 'variante'] },
   { label: 'Reporté', isEnable: true, statuses: ['postponed', 'variante-postponed'] },
-  { label: 'À définir', isEnable: true, statuses: ['unknown'] }
+  { label: 'À définir', isEnable: true, statuses: ['unknown'] },
 ]);
 
 const typeFilters = ref([
@@ -102,13 +102,13 @@ const typeFilters = ref([
   { label: 'Zone de rencontre', isEnable: true, types: ['zone-de-rencontre'] },
   { label: 'Aire piétonne', isEnable: true, types: ['aire-pietonne'] },
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
-  { label: 'Aucun', isEnable: true, types: ['aucun'] }
+  { label: 'Aucun', isEnable: true, types: ['aucun'] },
 ]);
 
 const qualityFilters = ref([
   { label: 'Satisfaisant', isEnable: true, qualities: ['satisfactory'] },
   { label: 'Non satisfaisant', isEnable: true, qualities: ['unsatisfactory'] },
-  { label: 'Pas encore évalué', isEnable: true, qualities: ['not-rated-yet'] }
+  { label: 'Pas encore évalué', isEnable: true, qualities: ['not-rated-yet'] },
 ]);
 
 function toggleStatusFilter(index: number) {
@@ -128,14 +128,14 @@ const emit = defineEmits(['update']);
 watch(
   [statusFilters, typeFilters, qualityFilters],
   () => {
-    const visibleStatuses = statusFilters.value.filter(item => item.isEnable).flatMap(item => item.statuses);
+    const visibleStatuses = statusFilters.value.filter((item) => item.isEnable).flatMap((item) => item.statuses);
 
-    const visibleTypes = typeFilters.value.filter(item => item.isEnable).flatMap(item => item.types);
+    const visibleTypes = typeFilters.value.filter((item) => item.isEnable).flatMap((item) => item.types);
 
-    const visibleQualities = qualityFilters.value.filter(item => item.isEnable).flatMap(item => item.qualities);
+    const visibleQualities = qualityFilters.value.filter((item) => item.isEnable).flatMap((item) => item.qualities);
 
     emit('update', { visibleStatuses, visibleTypes, visibleQualities });
   },
-  { deep: true }
+  { deep: true },
 );
 </script>

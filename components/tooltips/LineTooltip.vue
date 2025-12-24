@@ -75,23 +75,27 @@
           {{ getQuality(feature.properties.quality).label }}
         </div>
       </div>
-      <div v-if="feature.properties.cycloscore" class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">Cycloscore</div>
-        <div class="text-sm text-right flex items-center gap-2">
+      <div class="py-1">
+        <div class="text-base font-bold mb-1">Cycloscore</div>
+        <div v-if="feature.properties.cycloscore" class="flex items-center gap-1 mb-1">
+          <span
+            v-for="score in allCycloscores"
+            :key="score"
+            class="inline-flex items-center justify-center w-5 h-5 rounded text-xs font-bold transition-all"
+            :class="isCurrentCycloscore(score) ? 'ring-2 ring-gray-900 ring-offset-1 scale-110' : 'opacity-60'"
+            :style="getCycloscoreSquareStyle(score)"
+          >
+            {{ score }}
+          </span>
+        </div>
+        <div v-else class="text-sm font-bold flex items-center gap-2">
           <span
             class="inline-flex items-center justify-center w-6 h-6 rounded text-sm font-bold"
-            :style="getCycloscoreSquareStyle(feature.properties.cycloscore)"
+            :style="getCycloscoreSquareStyle(null)"
           >
-            {{ getCycloscoreLetter(feature.properties.cycloscore) }}
+            ?
           </span>
-          <span
-            v-if="
-              getCycloscoreFullText(feature.properties.cycloscore) !==
-              getCycloscoreLetter(feature.properties.cycloscore)
-            "
-          >
-            {{ getCycloscoreFullText(feature.properties.cycloscore) }}
-          </span>
+          <span class="text-sm" style="color: #9ca3af"> Non renseigné </span>
         </div>
       </div>
     </div>
@@ -120,6 +124,17 @@ const { feature, lines } = defineProps<{
 const title = computed(() => {
   return lines.length > 1 ? getRevName() : getRevName('singular');
 });
+
+const allCycloscores = ['A', 'B', 'C', 'D', 'E'];
+
+function isCurrentCycloscore(score: string): boolean {
+  const currentLetter = getCycloscoreLetter(feature.properties.cycloscore);
+  // Handle A+ case - it should match A
+  if (currentLetter === 'A+' || currentLetter === 'A') {
+    return score === 'A';
+  }
+  return currentLetter === score;
+}
 
 function getSectionDetailsUrl(properties: LineStringFeature['properties']): string {
   if (properties.link) {

@@ -74,16 +74,21 @@ function groupFeaturesByColor(features: ColoredLineStringFeature[]) {
   return featuresByColor;
 }
 
-export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: boolean } = {}) => {
-  const { getLineColor, getLines } = useColors();
+export const useMap = ({ updateUrlOnFeatureClick, useCycloscoreColors }: { updateUrlOnFeatureClick?: boolean; useCycloscoreColors?: Ref<boolean> } = {}) => {
+  const { getLineColor, getLines, getCycloscoreColor } = useColors();
 
   function addLineColor(
     feature: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }>,
   ): ColoredLineStringFeature {
+    const shouldUseCycloscore = useCycloscoreColors?.value ?? false;
+    const color = shouldUseCycloscore 
+      ? getCycloscoreColor(feature.properties.cycloscore)
+      : getLineColor(feature.properties.line);
+    
     return {
       ...feature,
       properties: {
-        color: getLineColor(feature.properties.line),
+        color,
         ...feature.properties,
       },
     };
@@ -551,10 +556,13 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
     map: Map;
     features: Collections['voiesCyclablesGeojson']['features'];
   }) {
+    const shouldUseCycloscore = useCycloscoreColors?.value ?? false;
     const perspectives = features.filter(isPerspectiveFeature).map((feature) => ({
       ...feature,
       properties: {
-        color: getLineColor(feature.properties.line),
+        color: shouldUseCycloscore
+          ? getCycloscoreColor(feature.properties.cycloscore)
+          : getLineColor(feature.properties.line),
         ...feature.properties,
       },
     }));
