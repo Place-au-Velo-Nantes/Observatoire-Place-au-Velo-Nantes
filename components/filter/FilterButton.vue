@@ -1,8 +1,10 @@
 <template>
   <button
     type="button"
-    class="px-2 py-1.5 rounded-2xl text-sm outline outline-2 outline-offset-[-1px] focus:outline-none transition-all flex items-center gap-2"
+    class="text-sm outline outline-2 outline-offset-[-1px] focus:outline-none transition-all flex items-center gap-2"
     :class="{
+      'px-2 py-1.5 rounded-2xl': !isCycloscore,
+      rounded: isCycloscore,
       'bg-lvv-blue-600 text-white hover:bg-lvv-blue-700 outline-lvv-blue-800 focus:ring-lvv-blue-400':
         isEnabled && !customStyle && !isCycloscore,
       'bg-white text-gray-900 hover:bg-gray-50 outline-gray-300 focus:ring-gray-300':
@@ -92,7 +94,8 @@ const computedStyle = computed(() => {
   // For cycloscore filters, use transparent background to show the square
   if (isCycloscore.value && props.customStyle) {
     style.backgroundColor = 'transparent';
-    style.outlineColor = props.isEnabled && !props.disabled ? props.customStyle.backgroundColor || '#D1D5DB' : '#D1D5DB';
+    style.outlineColor =
+      props.isEnabled && !props.disabled ? props.customStyle.backgroundColor || '#D1D5DB' : '#D1D5DB';
     style.border = 'none';
     style.outline = props.isEnabled && !props.disabled ? '2px solid' : '1px solid';
     if (props.disabled) {
