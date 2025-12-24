@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <!-- <div class="mt-6 pt-4 border-t border-gray-200">
+    <div class="mt-6 pt-4 border-t border-gray-200">
       <h3 class="text-base font-medium mb-3">Couleurs des segments</h3>
       <div class="flex items-center justify-between">
         <div class="flex flex-col">
@@ -106,7 +106,7 @@
           ></div>
         </label>
       </div>
-    </div> -->
+    </div>
 
     <hr class="h-px bg-gray-200 border-0 my-4" />
   </div>

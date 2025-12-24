@@ -15,7 +15,7 @@
         </button>
         <DialogTitle class="text-lg font-medium leading-6 text-gray-900"> Légende </DialogTitle>
         <div class="mt-2">
-          <LegendContent size="large" />
+          <LegendContent size="large" :color-mode="colorMode" />
         </div>
       </DialogPanel>
     </div>
@@ -24,6 +24,9 @@
 
 <script setup lang="ts">
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/vue';
+
+const route = useRoute();
+const colorMode = computed(() => (route.query.colorMode === 'cycloscore' ? 'cycloscore' : 'line'));
 
 const isOpen = ref(false);
 
