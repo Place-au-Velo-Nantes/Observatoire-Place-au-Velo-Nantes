@@ -15,7 +15,7 @@
         </button>
         <DialogTitle class="text-lg font-medium leading-6 text-gray-900"> Filtres </DialogTitle>
 
-        <div class="mt-2 text-base font-medium">Filtrer par statut d'avancement</div>
+        <div class="mt-2 text-base font-medium">Statut d'avancement</div>
         <div class="mt-2 flex flex-wrap gap-x-2 gap-y-3">
           <div
             v-for="(statusFilter, index) in statusFilters"
@@ -31,7 +31,7 @@
             {{ statusFilter.label }}
           </div>
         </div>
-        <div class="mt-2 text-base font-medium">Filtrer par type d'aménagement</div>
+        <div class="mt-2 text-base font-medium">Type d'aménagement</div>
         <div class="mt-2 flex flex-wrap gap-x-2 gap-y-3">
           <div
             v-for="(typeFilter, index) in typeFilters"
@@ -46,7 +46,7 @@
             {{ typeFilter.label }}
           </div>
         </div>
-        <div class="mt-2 text-base font-medium">Filtrer par qualité d'aménagement</div>
+        <div class="mt-2 text-base font-medium">Qualité d'aménagement</div>
         <div class="mt-2 flex flex-wrap gap-x-2 gap-y-3">
           <div
             v-for="(qualityFilter, index) in qualityFilters"

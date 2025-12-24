@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-6">
     <FilterSection
-      title="Filtrer par statut d'avancement"
+      title="Statut d'avancement"
       :filters="filters.statusFilters.value"
       :show-selection-buttons="true"
       @toggle-filter="actions.toggleStatusFilter"
@@ -14,14 +14,14 @@
     />
 
     <FilterSection
-      title="Filtrer par qualité d'aménagement"
+      title="Qualité d'aménagement"
       :filters="filters.qualityFilters.value"
       :show-selection-buttons="false"
       @toggle-filter="actions.toggleQualityFilter"
     />
 
     <FilterSection
-      title="Filtrer par type d'aménagement"
+      title="Type d'aménagement"
       :filters="filters.typeFilters.value"
       :show-selection-buttons="true"
       @toggle-filter="actions.toggleTypeFilter"
@@ -31,7 +31,7 @@
 
     <FilterSection
       v-if="options.showInfrastructureFilters"
-      title="Filtrer par infrastructure"
+      title="Infrastructure"
       :filters="filters.infrastructureFilters.value"
       :show-selection-buttons="true"
       @toggle-filter="actions.toggleInfrastructureFilter"
@@ -44,7 +44,7 @@
     />
 
     <FilterSection
-      title="Filtrer par cycloscore"
+      title="Cycloscore"
       :filters="filters.cycloscoreFilters.value"
       :show-selection-buttons="true"
       :disabled-indices="filters.cycloscoreFilterDisabled?.value"
@@ -63,7 +63,7 @@
 
     <FilterSection
       v-if="options.showLineFilters"
-      title="Filtrer par grande voie vélo"
+      title="Grande voie vélo"
       :filters="filters.lineFilters.value"
       :show-selection-buttons="true"
       @toggle-filter="actions.toggleLineFilter"
@@ -72,7 +72,7 @@
     />
 
     <div v-if="options.showDateFilter && filters.minDate.value !== filters.maxDate.value" class="mt-2">
-      <h3 class="text-base font-medium mb-4">Filtrer par date de réalisation</h3>
+      <h3 class="text-base font-medium mb-4">Date de réalisation</h3>
       <div>
         <DoubleRangeSlider
           :model-value="filters.dateRange.value"
