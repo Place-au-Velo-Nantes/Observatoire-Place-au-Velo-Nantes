@@ -653,7 +653,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#203"
+        "id": "sans-titre#202"
       }
     },
     {
@@ -1506,8 +1506,8 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#342"
+        "cycloscore": "D",
+        "id": "sans-titre#340"
       }
     },
     {
@@ -1567,7 +1567,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#343"
+        "id": "sans-titre#341"
       }
     }
   ]

@@ -117,12 +117,12 @@
         "line": "F",
         "name": "Pont de la Rotonde Sud",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {

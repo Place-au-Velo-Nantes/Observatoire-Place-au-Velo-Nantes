@@ -1025,7 +1025,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -1109,36 +1109,40 @@
             47.212631
           ],
           [
-            -1.552945,
-            47.21266
+            -1.552934525,
+            47.212377637
+          ],
+          [
+            -1.552910716,
+            47.212794791
           ],
           [
             -1.551127,
             47.213472
           ],
           [
-            -1.546578,
-            47.215463
+            -1.548807517,
+            47.214536509
           ],
           [
-            -1.544948143,
-            47.216013887
+            -1.548185981,
+            47.214833591
           ],
           [
-            -1.544106802,
-            47.216132182
+            -1.547929662,
+            47.21495146
           ],
           [
-            -1.543818244,
-            47.21609984
+            -1.547221887,
+            47.215246184
           ],
           [
-            -1.543527207,
-            47.215943136
+            -1.546916111,
+            47.215351326
           ],
           [
-            -1.542958791,
-            47.215578224
+            -1.546770491,
+            47.215335446
           ]
         ]
       },
@@ -1147,11 +1151,11 @@
         "name": "Allée Baco",
         "status": "done",
         "doneAt": "01/01/2015",
-        "type": "inconnu",
+        "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1296,7 +1300,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1359,7 +1363,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1390,7 +1394,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1433,7 +1437,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1535,6 +1539,65 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.54677736,
+            47.215337482
+          ],
+          [
+            -1.546445404,
+            47.215484353
+          ],
+          [
+            -1.54555613,
+            47.215786369
+          ],
+          [
+            -1.544943992,
+            47.216001503
+          ],
+          [
+            -1.544113216,
+            47.216129059
+          ],
+          [
+            -1.543776836,
+            47.216054857
+          ],
+          [
+            -1.543489222,
+            47.215966201
+          ],
+          [
+            -1.543266582,
+            47.215863164
+          ],
+          [
+            -1.543261764,
+            47.215804428
+          ],
+          [
+            -1.542934195,
+            47.215604765
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Quai de Malakoff",
+        "status": "done",
+        "doneAt": "01/01/2025",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
       }
     },
     {

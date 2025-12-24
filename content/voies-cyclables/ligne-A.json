@@ -269,7 +269,7 @@
         "name": "rue de l'ile ste Hélene",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "aucun",
+        "type": "inconnu",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
@@ -919,7 +919,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -1061,7 +1061,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {

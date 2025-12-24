@@ -1179,12 +1179,12 @@
         "line": "E",
         "name": "Promenade Van Iseghem",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "voie-verte",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1243,7 +1243,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
