@@ -77,7 +77,7 @@
       </div>
       <div class="py-1">
         <div class="text-base font-bold mb-1">Cycloscore</div>
-        <div v-if="feature.properties.cycloscore" class="flex items-center gap-1 mb-1">
+        <div class="flex items-center gap-1 mb-1">
           <span
             v-for="score in allCycloscores"
             :key="score"
@@ -88,15 +88,7 @@
             {{ score }}
           </span>
         </div>
-        <div v-else class="text-sm font-bold flex items-center gap-2">
-          <span
-            class="inline-flex items-center justify-center w-6 h-6 rounded text-sm font-bold"
-            :style="getCycloscoreSquareStyle(null)"
-          >
-            ?
-          </span>
-          <span class="text-sm" style="color: #9ca3af"> Non renseigné </span>
-        </div>
+        <div v-if="!feature.properties.cycloscore" class="text-sm" style="color: #9ca3af">Non renseigné</div>
       </div>
     </div>
     <div class="bg-lvv-blue-600 flex justify-center">
