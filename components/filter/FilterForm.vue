@@ -82,8 +82,8 @@
           @update:model-value="actions.setDateRange"
         />
         <div class="flex justify-between text-xs text-gray-500 mt-2">
-          <span>{{ formatMonthYear(filters.dateRange.value[0]) }}</span>
-          <span>{{ formatMonthYear(filters.dateRange.value[1]) }}</span>
+          <span>{{ formatMonthYear(filters.dateRange.value[0], true) }}</span>
+          <span>{{ formatMonthYear(filters.dateRange.value[1], false) }}</span>
         </div>
       </div>
     </div>
@@ -148,7 +148,7 @@ function toggleColorMode(event: Event) {
   router.replace({ query });
 }
 
-function formatMonthYear(stepIndex: number) {
+function formatMonthYear(stepIndex: number, isMinimum: boolean = false) {
   if (stepIndex >= props.filters.dateSteps.value.length || stepIndex < 0) {
     return '2026+';
   }
@@ -160,6 +160,13 @@ function formatMonthYear(stepIndex: number) {
 
   const year = Math.floor(monthIndex / 12);
   const month = monthIndex % 12;
-  return dayjs(new Date(year, month)).format('MMM YYYY');
+  const formatted = dayjs(new Date(year, month)).format('MMM YYYY');
+  
+  // If it's the minimum date and it's January 2000, prefix with "avant "
+  if (isMinimum && formatted === 'janv. 2000') {
+    return `avant ${formatted}`;
+  }
+  
+  return formatted;
 }
 </script>
