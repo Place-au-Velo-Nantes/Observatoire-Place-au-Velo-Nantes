@@ -380,61 +380,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.583048444,
-            47.226405767
-          ],
-          [
-            -1.583872385,
-            47.226554506
-          ],
-          [
-            -1.584529452,
-            47.226604085
-          ],
-          [
-            -1.585906163,
-            47.227000719
-          ],
-          [
-            -1.586604933,
-            47.227871877
-          ],
-          [
-            -1.587376725,
-            47.22857305
-          ],
-          [
-            -1.588398829,
-            47.229196306
-          ],
-          [
-            -1.591548577,
-            47.230867731
-          ],
-          [
-            -1.592404847,
-            47.231720568
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Boulevard Pierre de Coubertin",
-        "status": "wip",
-        "doneAt": "01/01/2008",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
-        "infrastructure": "secondaire",
-        "link": "",
-        "cycloscore": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.539849031,
             47.213435867
           ],
@@ -490,7 +435,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#37"
+        "id": "sans-titre#36"
       }
     },
     {
@@ -526,7 +471,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#43"
+        "id": "sans-titre#42"
       }
     },
     {
@@ -816,7 +761,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#72"
+        "id": "sans-titre#71"
       }
     },
     {
@@ -955,7 +900,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#85"
+        "id": "sans-titre#84"
       }
     },
     {
@@ -1096,7 +1041,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#120"
+        "id": "sans-titre#119"
       }
     },
     {
@@ -1596,6 +1541,214 @@
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.583065072,
+            47.226414554
+          ],
+          [
+            -1.583872652,
+            47.226556084
+          ],
+          [
+            -1.584539557,
+            47.226605619
+          ],
+          [
+            -1.585224691,
+            47.226812958
+          ],
+          [
+            -1.585903312,
+            47.226998785
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Bd Pierre de coubertin est",
+        "status": "done",
+        "doneAt": "01/01/2025",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.585900956,
+            47.226991746
+          ],
+          [
+            -1.586010401,
+            47.227073893
+          ],
+          [
+            -1.586321456,
+            47.227465069
+          ],
+          [
+            -1.586551867,
+            47.227754538
+          ],
+          [
+            -1.586718915,
+            47.227969682
+          ],
+          [
+            -1.586868682,
+            47.228165267
+          ],
+          [
+            -1.587070292,
+            47.228325646
+          ],
+          [
+            -1.587364066,
+            47.228572081
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Bd Pierre de coubertin mid est",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.587365012,
+            47.228577181
+          ],
+          [
+            -1.587598833,
+            47.228742968
+          ],
+          [
+            -1.587832653,
+            47.228887739
+          ],
+          [
+            -1.588118052,
+            47.229044184
+          ],
+          [
+            -1.588420644,
+            47.22920063
+          ],
+          [
+            -1.588974249,
+            47.229515854
+          ],
+          [
+            -1.589469398,
+            47.229775036
+          ],
+          [
+            -1.590081458,
+            47.230097262
+          ],
+          [
+            -1.590167422,
+            47.230125281
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Bd Pierre de coubertin mid ouest",
+        "status": "done",
+        "doneAt": "01/01/2021",
+        "type": "bilaterale",
+        "quality": "satisfactory",
+        "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": "B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.590165226,
+            47.230123483
+          ],
+          [
+            -1.590661439,
+            47.230383369
+          ],
+          [
+            -1.59112862,
+            47.230634293
+          ],
+          [
+            -1.591413679,
+            47.2307956
+          ],
+          [
+            -1.591585242,
+            47.230895969
+          ],
+          [
+            -1.591693459,
+            47.230969453
+          ],
+          [
+            -1.591833349,
+            47.231103875
+          ],
+          [
+            -1.591994355,
+            47.231259804
+          ],
+          [
+            -1.592139524,
+            47.231421109
+          ],
+          [
+            -1.592316366,
+            47.231616467
+          ],
+          [
+            -1.592411386,
+            47.231727588
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Bd Pierre de coubertin ouest",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "secondaire",
         "link": "",
         "cycloscore": "E"
       }

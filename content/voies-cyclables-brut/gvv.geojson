@@ -823,35 +823,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.583048444, 47.226405767],
-          [-1.583872385, 47.226554506],
-          [-1.584529452, 47.226604085],
-          [-1.585906163, 47.227000719],
-          [-1.586604933, 47.227871877],
-          [-1.587376725, 47.22857305],
-          [-1.588398829, 47.229196306],
-          [-1.591548577, 47.230867731],
-          [-1.592404847, 47.231720568]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard Pierre de Coubertin",
-        "status": "En cours",
-        "type": "bande cyclable",
-        "year": 2008,
-        "line": "D",
-        "infrastructure": "secondaire",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "travaux terminés. Bande puis pc puis bande, à Découper",
-        "calculated_length": 956.743
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.546722189, 47.215680768],
           [-1.546034878, 47.21484596]
         ]
@@ -2081,12 +2052,12 @@
         "name": "Boulevard Guy Mollet Sud",
         "status": "terminé",
         "type": "monodirectionnelle",
-        "year": null,
+        "year": 2020,
         "line": "E",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "grace aux plots on considère que c'est une monodir",
         "calculated_length": 224.18
       }
     },
@@ -2402,11 +2373,11 @@
         "name": "Chemin de la Dame de Nage Nord",
         "status": "terminé",
         "type": "voie verte",
-        "year": null,
+        "year": 2022,
         "line": "E",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 99.928
       }
@@ -2427,11 +2398,11 @@
         "name": "Chemin de la Houssinière",
         "status": "terminé",
         "type": "vélorue",
-        "year": null,
+        "year": 2022,
         "line": "E",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 182.831
       }
@@ -2451,7 +2422,7 @@
         "name": "Boulevard du petit port",
         "status": "terminé",
         "type": "bande cyclable",
-        "year": null,
+        "year": 2008,
         "line": "E",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
@@ -2842,7 +2813,7 @@
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "",
-        "commentaire sur les données": "A découper plusieurs type d'aménagements",
+        "commentaire sur les données": "A découper plusieurs type d'aménagements voie verte 2022 puis voie verte 2021 puis plus rien en arrivant sur bouguenais. il y a une différence entre le trajet de la magistrale dans bouguenais et le tracé de la voie A sur openstreetmap",
         "calculated_length": 4514.62
       }
     },
@@ -5966,15 +5937,15 @@
         ]
       },
       "properties": {
-        "name": "",
-        "status": "",
-        "type": "",
-        "year": null,
-        "line": null,
+        "name": "Rue Charles Lindbergh",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 448.982
       }
     },
@@ -6144,15 +6115,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
+        "name": "Route de pornic",
+        "status": "En cours",
+        "type": "Bande cyclable",
+        "year": 2008,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "Non satisfaisant ",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
         "calculated_length": 1390.048
       }
     },
@@ -6168,9 +6139,9 @@
       },
       "properties": {
         "name": "Boulevard Michelet",
-        "status": "A définir",
+        "status": "terminé",
         "type": "Aucun",
-        "year": null,
+        "year": 0,
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -6198,7 +6169,7 @@
         "name": "Boulevard des tribunes",
         "status": "A définir",
         "type": "voie bus",
-        "year": null,
+        "year": 2008,
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -6359,15 +6330,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
+        "name": "Porte de Retz",
+        "status": "terminé",
+        "type": "Aucun",
+        "year": 0,
+        "line": "",
         "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 622.936
       }
     },
@@ -6591,34 +6562,6 @@
         "cycloscore(optionnel)": null,
         "commentaire sur les données": null,
         "calculated_length": 3931.04
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.509807, 47.180457],
-          [-1.508305, 47.181303],
-          [-1.506728, 47.181791],
-          [-1.504014, 47.180588],
-          [-1.498628, 47.179997],
-          [-1.491772, 47.179297],
-          [-1.484734, 47.178889],
-          [-1.474735, 47.179006]
-        ]
-      },
-      "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": "structurante",
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
-        "calculated_length": 2756.778
       }
     },
     {
@@ -12473,14 +12416,14 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Piste vers Babinière",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2025,
         "line": "",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 600.612
       }
@@ -12504,15 +12447,15 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "VV babinière",
         "status": "terminé",
         "type": "voie verte",
         "year": 2025,
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "B compte tenu de la largeur et faible fréquentation ?",
         "calculated_length": 565.938
       }
     },
@@ -12529,14 +12472,14 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Jonction babinière",
         "status": "terminé",
         "type": "aire piétonne",
         "year": 2025,
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 38.525
       }
@@ -12582,14 +12525,14 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Becquerel Gouniere",
         "status": "terminé",
         "type": "voie verte",
-        "year": null,
+        "year": 2019,
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 76.923
       }
@@ -13349,6 +13292,318 @@
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 340.342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.583065072, 47.226414554],
+          [-1.583872652, 47.226556084],
+          [-1.584539557, 47.226605619],
+          [-1.585224691, 47.226812958],
+          [-1.585903312, 47.226998785]
+        ]
+      },
+      "properties": {
+        "name": "Bd Pierre de coubertin est",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2025,
+        "line": "D",
+        "infrastructure": "secondaire",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 226.128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.585900956, 47.226991746],
+          [-1.586010401, 47.227073893],
+          [-1.586321456, 47.227465069],
+          [-1.586551867, 47.227754538],
+          [-1.586718915, 47.227969682],
+          [-1.586868682, 47.228165267],
+          [-1.587070292, 47.228325646],
+          [-1.587364066, 47.228572081]
+        ]
+      },
+      "properties": {
+        "name": "Bd Pierre de coubertin mid est",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "D",
+        "infrastructure": "secondaire",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 208.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.587365012, 47.228577181],
+          [-1.587598833, 47.228742968],
+          [-1.587832653, 47.228887739],
+          [-1.588118052, 47.229044184],
+          [-1.588420644, 47.22920063],
+          [-1.588974249, 47.229515854],
+          [-1.589469398, 47.229775036],
+          [-1.590081458, 47.230097262],
+          [-1.590167422, 47.230125281]
+        ]
+      },
+      "properties": {
+        "name": "Bd Pierre de coubertin mid ouest",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2021,
+        "line": "D",
+        "infrastructure": "secondaire",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "",
+        "calculated_length": 273.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.590165226, 47.230123483],
+          [-1.590661439, 47.230383369],
+          [-1.59112862, 47.230634293],
+          [-1.591413679, 47.2307956],
+          [-1.591585242, 47.230895969],
+          [-1.591693459, 47.230969453],
+          [-1.591833349, 47.231103875],
+          [-1.591994355, 47.231259804],
+          [-1.592139524, 47.231421109],
+          [-1.592316366, 47.231616467],
+          [-1.592411386, 47.231727588]
+        ]
+      },
+      "properties": {
+        "name": "Bd Pierre de coubertin ouest",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "D",
+        "infrastructure": "secondaire",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 249.576
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.4748766, 47.179064047],
+          [-1.475876483, 47.179052228],
+          [-1.477028521, 47.179040408],
+          [-1.478342142, 47.179028389],
+          [-1.479459402, 47.179013615],
+          [-1.480437492, 47.178995176],
+          [-1.481908272, 47.178976193],
+          [-1.483700474, 47.178955949],
+          [-1.484741989, 47.178954894],
+          [-1.486399494, 47.178967286],
+          [-1.487754037, 47.179021613],
+          [-1.489420217, 47.179115047],
+          [-1.490892929, 47.179224757],
+          [-1.491357751, 47.179257094],
+          [-1.491750191, 47.179257091],
+          [-1.49199546, 47.179269953]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Auguste Priou",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2016,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 1299.263
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.491969003, 47.179265672],
+          [-1.493620463, 47.179491426],
+          [-1.495198372, 47.179664021],
+          [-1.496493864, 47.179798492],
+          [-1.497660223, 47.179923978],
+          [-1.498447313, 47.180004602],
+          [-1.49868999, 47.180017789],
+          [-1.499301174, 47.180075089],
+          [-1.500439487, 47.18018744],
+          [-1.501654821, 47.180312637],
+          [-1.501897498, 47.180325824]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Auguste priou ouest",
+        "status": "terminé",
+        "type": "voie bus",
+        "year": 2008,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 761.997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.501893007, 47.180318843],
+          [-1.50214797, 47.180358752],
+          [-1.502841515, 47.180410695],
+          [-1.503830864, 47.180520171],
+          [-1.504131076, 47.180548447]
+        ]
+      },
+      "properties": {
+        "name": "Pont Auguste Priou",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2019,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 171.661
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.506889425, 47.181763959],
+          [-1.506679113, 47.181571951],
+          [-1.506399405, 47.181371419],
+          [-1.505931502, 47.181120841],
+          [-1.505652218, 47.180953596],
+          [-1.50539971, 47.180825168],
+          [-1.505012561, 47.180724327],
+          [-1.504577537, 47.18061646],
+          [-1.504137007, 47.180545164]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Auguste Priou ouest perif",
+        "status": "terminé",
+        "type": "bande cylable",
+        "year": 2017,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 255.382
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.506890781, 47.181765719],
+          [-1.507401856, 47.181608945],
+          [-1.507990458, 47.181426856],
+          [-1.508336399, 47.181308696],
+          [-1.508764978, 47.181053897],
+          [-1.508895646, 47.180975712],
+          [-1.509028612, 47.180913848],
+          [-1.50918648, 47.180797149],
+          [-1.509792772, 47.180417012]
+        ]
+      },
+      "properties": {
+        "name": "Rue de la Fontenelle",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 269.365
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.596943804, 47.157731157],
+          [-1.595402489, 47.157596646],
+          [-1.592764945, 47.157932924],
+          [-1.591578332, 47.158273121]
+        ]
+      },
+      "properties": {
+        "name": "Rue de l'aviation",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2020,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 418.915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.591592598, 47.158289637],
+          [-1.590249099, 47.156950126],
+          [-1.590150191, 47.156384047],
+          [-1.590298553, 47.155845985],
+          [-1.59113927, 47.154949204]
+        ]
+      },
+      "properties": {
+        "name": "Rue René Mouchotte",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2017,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 423.021
       }
     }
   ]

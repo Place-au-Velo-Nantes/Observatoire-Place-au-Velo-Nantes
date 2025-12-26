@@ -1105,7 +1105,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#47"
+        "id": "sans-titre#46"
       }
     },
     {
@@ -1281,7 +1281,7 @@
         "line": "E",
         "name": "Boulevard Guy Mollet Sud",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2020",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -1328,12 +1328,12 @@
         "line": "E",
         "name": "Chemin de la Dame de Nage Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2022",
         "type": "voie-verte",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1367,12 +1367,12 @@
         "line": "E",
         "name": "Chemin de la Houssinière",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2022",
         "type": "velorue",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1402,7 +1402,7 @@
         "line": "E",
         "name": "Boulevard du petit port",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -1672,7 +1672,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#117"
+        "id": "sans-titre#116"
       }
     },
     {
@@ -1712,7 +1712,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#120"
+        "id": "sans-titre#119"
       }
     },
     {
@@ -1744,7 +1744,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#122"
+        "id": "sans-titre#121"
       }
     },
     {
@@ -1807,7 +1807,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#129"
+        "id": "sans-titre#128"
       }
     },
     {
@@ -1847,7 +1847,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#132"
+        "id": "sans-titre#131"
       }
     },
     {
@@ -1883,7 +1883,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#134"
+        "id": "sans-titre#133"
       }
     },
     {
