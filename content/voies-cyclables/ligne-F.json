@@ -68,7 +68,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -343,7 +343,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -394,7 +394,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -433,7 +433,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "B",
         "id": "sans-titre#33"
       }
     },
@@ -489,7 +489,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "B",
         "id": "sans-titre#53"
       }
     },
@@ -547,16 +547,16 @@
             47.237321487
           ],
           [
-            -1.514139832,
-            47.23887298
+            -1.515758505,
+            47.237918593
           ],
           [
-            -1.512598869,
-            47.240210865
+            -1.515364927,
+            47.238122632
           ],
           [
-            -1.512278887,
-            47.240414048
+            -1.515135396,
+            47.238256381
           ]
         ]
       },
@@ -569,7 +569,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "B",
         "id": "sans-titre#66"
       }
     },
@@ -834,7 +834,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#104"
+        "id": "sans-titre#103"
       }
     },
     {
@@ -866,7 +866,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#105"
+        "id": "sans-titre#104"
       }
     },
     {
@@ -906,6 +906,46 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515135144,
+            47.2382561
+          ],
+          [
+            -1.514148222,
+            47.238903698
+          ],
+          [
+            -1.513040202,
+            47.239793049
+          ],
+          [
+            -1.51255034,
+            47.2402442
+          ],
+          [
+            -1.512307539,
+            47.240411934
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de Ste Luce Nord",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "D",
+        "id": "sans-titre#444"
       }
     },
     {

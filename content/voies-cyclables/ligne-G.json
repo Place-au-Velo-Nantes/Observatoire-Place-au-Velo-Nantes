@@ -141,7 +141,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -180,7 +180,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "B",
         "id": "sans-titre#33"
       }
     },
@@ -303,7 +303,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "C",
         "id": "sans-titre#36"
       }
     },
@@ -582,7 +582,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "B",
         "id": "sans-titre#53"
       }
     },
@@ -683,16 +683,16 @@
             47.237321487
           ],
           [
-            -1.514139832,
-            47.23887298
+            -1.515758505,
+            47.237918593
           ],
           [
-            -1.512598869,
-            47.240210865
+            -1.515364927,
+            47.238122632
           ],
           [
-            -1.512278887,
-            47.240414048
+            -1.515135396,
+            47.238256381
           ]
         ]
       },
@@ -705,7 +705,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "B",
         "id": "sans-titre#66"
       }
     },
@@ -1047,7 +1047,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#105"
+        "id": "sans-titre#104"
       }
     },
     {
@@ -1091,7 +1091,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#106"
+        "id": "sans-titre#105"
       }
     },
     {
@@ -1290,54 +1290,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.553331,
-            47.185401
-          ],
-          [
-            -1.551096261,
-            47.188704408
-          ],
-          [
-            -1.550000509,
-            47.188365755
-          ],
-          [
-            -1.548758109,
-            47.188089684
-          ],
-          [
-            -1.547792473,
-            47.188008083
-          ],
-          [
-            -1.547443414,
-            47.188023989
-          ],
-          [
-            -1.547065357,
-            47.188067484
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Indre-Pirmil - Rezé",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#116"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.547303639,
             47.205144881
           ],
@@ -1396,7 +1348,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#121"
+        "id": "sans-titre#118"
       }
     },
     {
@@ -1428,7 +1380,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#128"
+        "id": "sans-titre#125"
       }
     },
     {
@@ -1539,7 +1491,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#201"
+        "id": "sans-titre#198"
       }
     },
     {
@@ -1623,7 +1575,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#338"
+        "id": "sans-titre#335"
       }
     },
     {
@@ -1683,7 +1635,47 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#339"
+        "id": "sans-titre#336"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.515135144,
+            47.2382561
+          ],
+          [
+            -1.514148222,
+            47.238903698
+          ],
+          [
+            -1.513040202,
+            47.239793049
+          ],
+          [
+            -1.51255034,
+            47.2402442
+          ],
+          [
+            -1.512307539,
+            47.240411934
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Route de Ste Luce Nord",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "D",
+        "id": "sans-titre#444"
       }
     },
     {

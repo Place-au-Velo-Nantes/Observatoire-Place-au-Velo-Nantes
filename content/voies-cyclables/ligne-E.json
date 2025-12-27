@@ -576,7 +576,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -635,7 +635,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "B"
       }
     },
     {
@@ -932,7 +932,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1530,157 +1530,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.591081593,
-            47.154906403
-          ],
-          [
-            -1.590175355,
-            47.155999066
-          ],
-          [
-            -1.590217304,
-            47.15684137
-          ],
-          [
-            -1.59156,
-            47.158262
-          ],
-          [
-            -1.580702,
-            47.166345
-          ],
-          [
-            -1.584096899,
-            47.169772457
-          ],
-          [
-            -1.583923058,
-            47.170399302
-          ],
-          [
-            -1.584542239,
-            47.170587896
-          ],
-          [
-            -1.584543133,
-            47.170787121
-          ],
-          [
-            -1.582696545,
-            47.170334107
-          ],
-          [
-            -1.582212152,
-            47.171374675
-          ],
-          [
-            -1.577761306,
-            47.171339713
-          ],
-          [
-            -1.576361908,
-            47.1699888
-          ],
-          [
-            -1.576024,
-            47.170021
-          ],
-          [
-            -1.568128,
-            47.175535
-          ],
-          [
-            -1.565682,
-            47.175622
-          ],
-          [
-            -1.562163,
-            47.177139
-          ],
-          [
-            -1.556326,
-            47.18134
-          ],
-          [
-            -1.555277558,
-            47.183621844
-          ],
-          [
-            -1.554317487,
-            47.18466402
-          ],
-          [
-            -1.553331,
-            47.185401
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "E#1",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "structurante",
-        "link": "",
-        "cycloscore": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.553331,
-            47.185401
-          ],
-          [
-            -1.551096261,
-            47.188704408
-          ],
-          [
-            -1.550000509,
-            47.188365755
-          ],
-          [
-            -1.548758109,
-            47.188089684
-          ],
-          [
-            -1.547792473,
-            47.188008083
-          ],
-          [
-            -1.547443414,
-            47.188023989
-          ],
-          [
-            -1.547065357,
-            47.188067484
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "Indre-Pirmil - Rezé",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#116"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.5550107,
             47.2138549
           ],
@@ -1712,7 +1561,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#119"
+        "id": "sans-titre#116"
       }
     },
     {
@@ -1744,7 +1593,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#121"
+        "id": "sans-titre#118"
       }
     },
     {
@@ -1807,7 +1656,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#128"
+        "id": "sans-titre#125"
       }
     },
     {
@@ -1847,7 +1696,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#131"
+        "id": "sans-titre#128"
       }
     },
     {
@@ -1883,7 +1732,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#133"
+        "id": "sans-titre#130"
       }
     },
     {
@@ -1911,7 +1760,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "Boulevard Guy Mollet Nord-2",
+        "name": "Boulevard Guy Mollet Nord-1",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
@@ -1942,7 +1791,7 @@
       },
       "properties": {
         "line": "E",
-        "name": "Boulevard Guy Mollet Nord-3",
+        "name": "Boulevard Guy Mollet Nord-2",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bandes-cyclables",
@@ -1950,6 +1799,658 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.585182838,
+            47.162859755
+          ],
+          [
+            -1.588933462,
+            47.160103326
+          ],
+          [
+            -1.591443156,
+            47.158577251
+          ],
+          [
+            -1.59157591,
+            47.158276542
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue de l'aviation Sud",
+        "status": "done",
+        "doneAt": "01/01/2016",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.585211512,
+            47.162868206
+          ],
+          [
+            -1.580708165,
+            47.166341072
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue de l'aviation",
+        "status": "done",
+        "doneAt": "01/01/2024",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.580703021,
+            47.166346201
+          ],
+          [
+            -1.581399544,
+            47.166971453
+          ],
+          [
+            -1.581626559,
+            47.167074055
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue des canuts",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.581636108,
+            47.167075423
+          ],
+          [
+            -1.581701682,
+            47.16732508
+          ],
+          [
+            -1.583241224,
+            47.168872226
+          ],
+          [
+            -1.584038077,
+            47.169669854
+          ],
+          [
+            -1.584055563,
+            47.169779817
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue des canuts nord",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.584059017,
+            47.169778262
+          ],
+          [
+            -1.584133692,
+            47.169900563
+          ],
+          [
+            -1.583948701,
+            47.17039899
+          ],
+          [
+            -1.583974158,
+            47.170449756
+          ],
+          [
+            -1.584030165,
+            47.170483215
+          ],
+          [
+            -1.584481611,
+            47.170587054
+          ],
+          [
+            -1.584530829,
+            47.170622821
+          ],
+          [
+            -1.584547801,
+            47.170685124
+          ],
+          [
+            -1.584459548,
+            47.170786655
+          ],
+          [
+            -1.583846871,
+            47.170663203
+          ],
+          [
+            -1.58366188,
+            47.170536289
+          ],
+          [
+            -1.583403122,
+            47.170459141
+          ],
+          [
+            -1.582563714,
+            47.170332844
+          ],
+          [
+            -1.582193988,
+            47.171243499
+          ],
+          [
+            -1.582145472,
+            47.171295179
+          ],
+          [
+            -1.582072494,
+            47.171306717
+          ],
+          [
+            -1.577325938,
+            47.171230974
+          ],
+          [
+            -1.576686881,
+            47.170501913
+          ],
+          [
+            -1.576560199,
+            47.170126808
+          ],
+          [
+            -1.576033766,
+            47.170017721
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue du moulin cassé",
+        "status": "done",
+        "doneAt": "01/01/2019",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.576040118,
+            47.170018713
+          ],
+          [
+            -1.575345426,
+            47.170319895
+          ],
+          [
+            -1.575059684,
+            47.170537316
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue Jules Vallès Sud",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.575062014,
+            47.170541164
+          ],
+          [
+            -1.573712404,
+            47.171577115
+          ],
+          [
+            -1.572627052,
+            47.172135547
+          ],
+          [
+            -1.572309664,
+            47.172315504
+          ],
+          [
+            -1.571624403,
+            47.17282474
+          ],
+          [
+            -1.569122418,
+            47.174836895
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue Jules Vallès",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56912323,
+            47.174839118
+          ],
+          [
+            -1.568186872,
+            47.175529264
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue Jules Vallès Nord",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.567584752,
+            47.175552121
+          ],
+          [
+            -1.568188266,
+            47.175529439
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue de l'aérorome Sud",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562746449,
+            47.176973267
+          ],
+          [
+            -1.563933173,
+            47.176404455
+          ],
+          [
+            -1.564201475,
+            47.176262344
+          ],
+          [
+            -1.565794848,
+            47.175679109
+          ],
+          [
+            -1.567586429,
+            47.175552254
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue de l'aérorome",
+        "status": "done",
+        "doneAt": "01/01/2020",
+        "type": "bilaterale",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.562440424,
+            47.177104181
+          ],
+          [
+            -1.562746605,
+            47.176973142
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue de l'aérorome Nord",
+        "status": "done",
+        "doneAt": "01/01/2020",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56244247,
+            47.17710734
+          ],
+          [
+            -1.561716709,
+            47.177413098
+          ],
+          [
+            -1.561047981,
+            47.177805841
+          ],
+          [
+            -1.559754774,
+            47.178789742
+          ],
+          [
+            -1.559519646,
+            47.178877143
+          ],
+          [
+            -1.559416777,
+            47.179014488
+          ],
+          [
+            -1.558575458,
+            47.179678732
+          ],
+          [
+            -1.556947717,
+            47.18087223
+          ],
+          [
+            -1.556905834,
+            47.180961427
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue de la Chesnaie",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.556916056,
+            47.180959153
+          ],
+          [
+            -1.55674305,
+            47.181050984
+          ],
+          [
+            -1.556476127,
+            47.181278323
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue Victor Fortun Nord",
+        "status": "done",
+        "doneAt": "01/01/2017",
+        "type": "inconnu",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.556482273,
+            47.181275454
+          ],
+          [
+            -1.556013815,
+            47.181928128
+          ],
+          [
+            -1.555394687,
+            47.183250221
+          ],
+          [
+            -1.555040906,
+            47.183888724
+          ],
+          [
+            -1.554903445,
+            47.184070782
+          ],
+          [
+            -1.55436484,
+            47.184641105
+          ],
+          [
+            -1.554132215,
+            47.184875861
+          ],
+          [
+            -1.553723358,
+            47.18518727
+          ],
+          [
+            -1.553480158,
+            47.185503468
+          ],
+          [
+            -1.553109876,
+            47.185687295
+          ],
+          [
+            -1.55222527,
+            47.186960337
+          ],
+          [
+            -1.55136601,
+            47.18825889
+          ],
+          [
+            -1.551242648,
+            47.188577466
+          ],
+          [
+            -1.551182729,
+            47.188680463
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue de la commune de 1871",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.551182729,
+            47.188682858
+          ],
+          [
+            -1.549903377,
+            47.188325171
+          ],
+          [
+            -1.548965825,
+            47.188111988
+          ],
+          [
+            -1.548317293,
+            47.188042524
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Avenue Louise Michel Ouest",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.548324342,
+            47.188042524
+          ],
+          [
+            -1.547481955,
+            47.188011385
+          ],
+          [
+            -1.547062524,
+            47.188071267
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Avenue Louise Michel Est",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
       }
     },
     {

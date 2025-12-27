@@ -393,7 +393,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -1157,7 +1157,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -1188,7 +1188,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -3449,8 +3449,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.59701,
-            47.157679
+            -1.597121812,
+            47.157738341
           ],
           [
             -1.599047,
@@ -3988,12 +3988,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.591728,
-            47.178043
+            -1.590628593,
+            47.176817133
           ],
           [
-            -1.589285,
-            47.175272
+            -1.589406947,
+            47.17530916
           ],
           [
             -1.591517,
@@ -4016,29 +4016,29 @@
             47.158846
           ],
           [
-            -1.59701,
-            47.157679
+            -1.597939838,
+            47.158565818
           ],
           [
-            -1.594778,
-            47.157649
+            -1.597386376,
+            47.158092411
           ],
           [
-            -1.591603548,
-            47.158253704
+            -1.597122195,
+            47.157744603
           ]
         ]
       },
       "properties": {
         "line": "X",
         "name": "X#3",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "aucun",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -14519,7 +14519,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": "E"
+        "cycloscore": "C"
       }
     },
     {
@@ -14638,8 +14638,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.596943804,
-            47.157731157
+            -1.597112886,
+            47.157742283
           ],
           [
             -1.595402489,
@@ -14701,6 +14701,33 @@
         "doneAt": "01/01/2017",
         "type": "voie-verte",
         "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.591727926,
+            47.178043598
+          ],
+          [
+            -1.590628245,
+            47.176820438
+          ]
+        ]
+      },
+      "properties": {
+        "line": "X",
+        "name": "Rue de la neustrie",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": ""
