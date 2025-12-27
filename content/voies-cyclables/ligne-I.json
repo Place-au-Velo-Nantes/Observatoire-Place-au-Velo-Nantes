@@ -382,7 +382,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -620,7 +620,7 @@
       "properties": {
         "line": "I",
         "name": "Rue Édouard Vaillant",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -766,7 +766,7 @@
       "properties": {
         "line": "I",
         "name": "Quai Besnard est",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -935,7 +935,7 @@
       "properties": {
         "line": "I",
         "name": "Rue François Mabit",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -1006,7 +1006,7 @@
       "properties": {
         "line": "I",
         "name": "Rue Jean-Marie Brulé est",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -1053,7 +1053,7 @@
       "properties": {
         "line": "I",
         "name": "Rue de l'Hôtel de Ville",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -1334,7 +1334,7 @@
       "properties": {
         "line": "I",
         "name": "Quai Victor Boquien",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -1432,7 +1432,7 @@
       "properties": {
         "line": "I",
         "name": "Rue Jules Guesde",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2471,7 +2471,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {

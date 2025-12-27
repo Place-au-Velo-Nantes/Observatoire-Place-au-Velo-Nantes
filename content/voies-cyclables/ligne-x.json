@@ -319,7 +319,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -482,7 +482,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -806,7 +806,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1034,7 +1034,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Jean Jaurès",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -1539,7 +1539,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -1630,7 +1630,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -1845,7 +1845,7 @@
       "properties": {
         "line": "X",
         "name": "Avenue de la Pentecôte",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -1968,7 +1968,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de Bretagne ouest",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2090,7 +2090,7 @@
       "properties": {
         "line": "X",
         "name": "Avenue d'Anjou",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2284,7 +2284,7 @@
       "properties": {
         "line": "X",
         "name": "Avenue de la Libération",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2358,7 +2358,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Éric Tabarly",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2409,7 +2409,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Georges Barbeau",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2576,7 +2576,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Gare sud",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2810,7 +2810,7 @@
       "properties": {
         "line": "X",
         "name": "Avenue de Bretagne",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2869,7 +2869,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Gare nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -2948,7 +2948,7 @@
       "properties": {
         "line": "X",
         "name": "Quai Besnard",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -3074,7 +3074,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Pasteur",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -3237,7 +3237,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Jean Mermoz",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -3284,7 +3284,7 @@
       "properties": {
         "line": "X",
         "name": "Quai Jean Bart est",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -3363,7 +3363,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Niescierewicz nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "unsatisfactory",
@@ -3494,7 +3494,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -3660,7 +3660,7 @@
       "properties": {
         "line": "X",
         "name": "Route de B asse-Indre",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -4112,7 +4112,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -4639,7 +4639,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -4666,7 +4666,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -5884,7 +5884,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -6091,7 +6091,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Bastille",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -6732,7 +6732,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -6910,7 +6910,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -6969,7 +6969,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -7125,7 +7125,7 @@
       "properties": {
         "line": "X",
         "name": "Rue des Dervallières 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -7283,7 +7283,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Janvraie",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -7527,7 +7527,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -7570,7 +7570,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -7700,7 +7700,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -7977,7 +7977,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -8180,7 +8180,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -8417,7 +8417,7 @@
       "properties": {
         "line": "X",
         "name": "M 75",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -8600,7 +8600,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Vannes 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -8663,7 +8663,7 @@
       "properties": {
         "line": "X",
         "name": "M 965 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -8754,7 +8754,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Syonnière",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -9000,7 +9000,7 @@
       "properties": {
         "line": "X",
         "name": "M 965",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -9103,7 +9103,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Syonnière 2",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -9146,7 +9146,7 @@
       "properties": {
         "line": "X",
         "name": "Place de l'Église",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -9497,7 +9497,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Paul Bellamy",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -9941,7 +9941,7 @@
       "properties": {
         "line": "X",
         "name": "Route de Rennes",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -10212,7 +10212,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -10462,7 +10462,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -10612,7 +10612,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -10713,7 +10713,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Robert Schuman",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -10740,7 +10740,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Jean Jaurès-17",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -10775,7 +10775,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Descartes",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -10837,7 +10837,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Rosière d'Artois",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -10876,7 +10876,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Verrerie",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -10943,7 +10943,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de Bel Air",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11034,7 +11034,7 @@
       "properties": {
         "line": "X",
         "name": "Rue Pierre Blard",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11136,7 +11136,7 @@
       "properties": {
         "line": "X",
         "name": "Rue des Hauts Pavés centre sud",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11169,7 +11169,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -11286,7 +11286,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Jean XXIII",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11327,7 +11327,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -11516,7 +11516,7 @@
       "properties": {
         "line": "X",
         "name": "Rue du Poitou",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11591,7 +11591,7 @@
       "properties": {
         "line": "X",
         "name": "Rue des Hauts Pavés sud",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11642,7 +11642,7 @@
       "properties": {
         "line": "X",
         "name": "Rue des Hauts Pavés nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11810,7 +11810,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -11855,7 +11855,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Gare sud reze",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11922,7 +11922,7 @@
       "properties": {
         "line": "X",
         "name": "Rue de la Gare nord reze",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -11949,7 +11949,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard Marcel Paul pont",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -12305,7 +12305,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -12544,7 +12544,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -12598,7 +12598,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -12664,7 +12664,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -13481,7 +13481,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -13547,7 +13547,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -13582,7 +13582,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -13621,7 +13621,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -13675,7 +13675,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -13710,7 +13710,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -13745,7 +13745,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -13772,7 +13772,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -13799,7 +13799,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -13830,7 +13830,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -13865,7 +13865,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {

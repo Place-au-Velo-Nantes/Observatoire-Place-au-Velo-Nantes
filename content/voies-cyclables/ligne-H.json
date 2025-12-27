@@ -192,7 +192,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -402,7 +402,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -674,7 +674,7 @@
       "properties": {
         "line": "H",
         "name": "Rue de la Loire Nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -1116,7 +1116,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {

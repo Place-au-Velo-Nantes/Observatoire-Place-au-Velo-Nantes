@@ -433,7 +433,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -726,7 +726,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "C",
         "id": "sans-titre#11"
       }
     },
@@ -794,7 +794,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -837,7 +837,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "B",
         "id": "sans-titre#19"
       }
     },
@@ -975,7 +975,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1006,7 +1006,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1104,7 +1104,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "D",
         "id": "sans-titre#46"
       }
     },
@@ -1560,7 +1560,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "D",
         "id": "sans-titre#116"
       }
     },
@@ -1592,7 +1592,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "C",
         "id": "sans-titre#118"
       }
     },
@@ -1655,7 +1655,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "E",
         "id": "sans-titre#125"
       }
     },
@@ -1691,7 +1691,7 @@
         "name": "Rue du pont de pont-rousseau",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
+        "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
@@ -1767,7 +1767,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
