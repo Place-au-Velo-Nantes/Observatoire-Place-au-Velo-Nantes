@@ -24,20 +24,20 @@ const qualities: QualityText = {
   unsatisfactory: {
     title: qualityNames.unsatisfactory,
     color: {
-      text: 'text-[#FF0000]'
-    }
+      text: 'text-[#FF0000]',
+    },
   },
   satisfactory: {
     title: qualityNames.satisfactory,
     color: {
-      text: 'text-[#00b050]'
-    }
+      text: 'text-[#00b050]',
+    },
   },
   'not-rated-yet': {
     title: qualityNames.notRatedYet,
     color: {
-      text: 'text-[#4a5565]'
-    }
-  }
+      text: 'text-[#4a5565]',
+    },
+  },
 };
 </script>

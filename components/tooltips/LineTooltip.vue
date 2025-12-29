@@ -1,5 +1,5 @@
 <template>
-  <div class="not-prose text-gray-900 w-48">
+  <div class="bg-white not-prose text-gray-900 w-48">
     <div class="py-1 bg-zinc-100 flex flex-col items-center justify-center">
       <template v-if="lines.includes('X')">
         <div class="font-bold text-base">Autre axe principal</div>
@@ -32,7 +32,7 @@
     </div>
     <div class="px-2 divide-y">
       <div class="py-1 flex flex-col items-center">
-        <div class="text-base font-bold">Tronçon</div>
+        <div class="text-sm font-bold">Tronçon</div>
         <div class="text-sm text-center">
           {{ feature.properties.name }}
         </div>
@@ -91,7 +91,7 @@
         <div v-if="!feature.properties.cycloscore" class="text-sm" style="color: #9ca3af">Non renseigné</div>
       </div>
     </div>
-    <div class="bg-lvv-blue-600 flex justify-center">
+    <div v-if="!hasDetailsPanel" class="bg-lvv-blue-600 flex justify-center">
       <a class="p-1 text-white text-base italic hover:underline" :href="getSectionDetailsUrl(feature.properties)">
         voir le détail <Icon name="mdi:link-variant" class="h-4 w-4 text-white" />
       </a>
@@ -106,11 +106,12 @@ import { CYCLOSCORE_COLORS } from '~/composables/useColors';
 const { getLineColor, getCycloscoreColor } = useColors();
 const { getRevName, displayQuality } = useConfig();
 const { getDistance, typologyNames, qualityNames } = useStats();
-const { getVoieCyclablePath } = useUrl();
+const { getSectionDetailsUrl } = useUrl();
 
-const { feature, lines } = defineProps<{
+const { feature, lines, hasDetailsPanel } = defineProps<{
   feature: LineStringFeature;
-  lines: string[];
+  lines: number[];
+  hasDetailsPanel: boolean;
 }>();
 
 const title = computed(() => {
@@ -126,13 +127,6 @@ function isCurrentCycloscore(score: string): boolean {
     return score === 'A';
   }
   return currentLetter === score;
-}
-
-function getSectionDetailsUrl(properties: LineStringFeature['properties']): string {
-  if (properties.link) {
-    return properties.link;
-  }
-  return getVoieCyclablePath(properties.line);
 }
 
 function getDoneAtText(doneAt: string): string {

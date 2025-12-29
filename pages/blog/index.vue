@@ -8,7 +8,12 @@
         </p>
       </div>
       <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-4">
-        <div v-for="article in articles" :key="article.title" class="p-4 rounded-lg hover:bg-gray-50">
+        <NuxtLink
+          v-for="article in articles"
+          :key="article.title"
+          :to="article.path"
+          class="block p-4 rounded-lg hover:bg-gray-50"
+        >
           <div>
             <div class="inline-block">
               <span
@@ -18,15 +23,50 @@
               </span>
             </div>
           </div>
-          <NuxtLink :to="article.path" class="block mt-4">
+          <div class="mt-4">
             <p class="text-xl font-semibold text-gray-900">
               {{ article.title }}
             </p>
             <p class="mt-3 text-base text-gray-500">
               {{ article.description }}
             </p>
-          </NuxtLink>
-        </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/historique" class="block p-4 rounded-lg hover:bg-gray-50">
+          <div>
+            <div class="inline-block">
+              <span
+                class="bg-lvv-blue-200 text-lvv-blue-600 inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium"
+              >
+                page
+              </span>
+            </div>
+          </div>
+          <div class="mt-4">
+            <p class="text-xl font-semibold text-gray-900">Historique des changements</p>
+            <p class="mt-3 text-base text-gray-500">
+              Retrouver l'historique des mises à jour de la plateforme Cyclopolis.
+            </p>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/sites-partenaires" class="block p-4 rounded-lg hover:bg-gray-50">
+          <div>
+            <div class="inline-block">
+              <span
+                class="bg-lvv-blue-200 text-lvv-blue-600 inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium"
+              >
+                page
+              </span>
+            </div>
+          </div>
+          <div class="mt-4">
+            <p class="text-xl font-semibold text-gray-900">Sites partenaires</p>
+            <p class="mt-3 text-base text-gray-500">
+              Découvrez d'autres observatoires à travers le pays, dont certains sont basés sur notre travail en Open
+              Source.
+            </p>
+          </div>
+        </NuxtLink>
       </div>
     </div>
   </div>

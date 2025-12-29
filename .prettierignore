@@ -11,7 +11,8 @@ dist
 .data/
 .vscode/
 
-# content/
+content/
+!components/content/
 public/
 assets/style.json
 package-lock.json

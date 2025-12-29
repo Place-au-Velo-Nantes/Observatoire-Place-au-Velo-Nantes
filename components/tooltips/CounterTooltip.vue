@@ -1,11 +1,9 @@
 <template>
-  <div class="not-prose w-48">
-    <div class="py-1 bg-lvv-blue-600 flex flex-col items-center justify-center text-white">
-      <div>{{ title }}</div>
-      <div class="font-bold text-base hover:underline text-center">
+  <div class="bg-white not-prose w-48">
+    <div class="py-1 bg-lvv-blue-600 flex flex-col items-center justify-center text-center text-white">
+      <div class="font-bold text-base hover:underline">
         <a :href="feature.properties.link">{{ feature.properties.name }}</a>
       </div>
-      <div v-if="feature.properties.neighborData" class="text-center">Compteur à proximité : <a :href="feature.properties.neighborData.properties.link" class="hover:underline">{{ feature.properties.neighborData.properties.name }}</a></div>
     </div>
     <div class="divide-y">
       <div class="py-1 flex items-center justify-between bg-zinc-100">
@@ -19,7 +17,31 @@
           <Icon v-if="!isLastMonth" name="mdi:chevron-right" class="cursor-pointer" @click="changeMonth(+1)" />
         </div>
       </div>
-      <div class="py-1 flex items-center justify-center text-black">
+      <div v-if="isComparaison" class="py-1 flex items-center justify-center text-black">
+        <div class="text-base font-bold">
+          {{ averageDailyVeloTraffic }}
+        </div>
+        <div class="px-2 text-3xl flex items-center">
+          <Icon name="game-icons:dutch-bike" />
+        </div>
+        <div class="text-left leading-3">
+          <div class="font-bold">vélos/jour</div>
+          <div>en moyenne</div>
+        </div>
+      </div>
+      <div v-if="isComparaison" class="py-1 flex items-center justify-center text-black">
+        <div class="text-base font-bold">
+          {{ averageDailyVoitureTraffic }}
+        </div>
+        <div class="px-2 text-3xl flex items-center">
+          <Icon name="fluent:vehicle-car-profile-ltr-16-regular" />
+        </div>
+        <div class="text-left leading-3">
+          <div class="font-bold">voitures/jour</div>
+          <div>en moyenne</div>
+        </div>
+      </div>
+      <div v-if="!isComparaison" class="py-1 flex items-center justify-center text-black">
         <div class="text-base font-bold">
           {{ averageDailyTraffic }}
         </div>
@@ -31,21 +53,6 @@
           <div>en moyenne</div>
         </div>
       </div>
-      <!--      <div v-if="isAbsoluteBest">-->
-      <!--        <div class="my-2 mx-8 bg-lvv-pink text-sm text-white font-semibold rounded-xl px-1.5 border-black border-2">-->
-      <!--          record absolu-->
-      <!--        </div>-->
-      <!--      </div>-->
-      <!--      <div v-if="isMonthBest && !isAbsoluteBest">-->
-      <!--        <div class="my-2 mx-8 bg-lvv-pink text-sm text-white font-semibold rounded-xl px-1.5 border-white border-2">-->
-      <!--          record mensuel-->
-      <!--        </div>-->
-      <!--      </div>-->
-      <!--      <div v-if="!isMonthBest && !isAbsoluteBest">-->
-      <!--        <div class="my-2 mx-8 text-sm text-white font-semibold rounded-xl px-1.5 border-white border-2">-->
-      <!--          aucun record-->
-      <!--        </div>-->
-      <!--      </div>-->
     </div>
   </div>
 </template>
@@ -57,7 +64,14 @@ const { feature } = defineProps<{
   feature: CompteurFeature;
 }>();
 
-const title = computed(() => (feature.properties.type === 'compteur-velo' ? 'Compteur vélo' : 'Compteur voiture'));
+const title = computed(() =>
+  feature.properties.type === 'compteur-comparaison'
+    ? 'Compteur traffic'
+    : feature.properties.type === 'compteur-velo'
+      ? 'Compteur vélo'
+      : 'Compteur voiture',
+);
+const isComparaison = computed(() => feature.properties.type === 'compteur-comparaison');
 const countIndex = ref(feature.properties.counts.length - 1);
 const count = computed(() => feature.properties.counts.at(countIndex.value)!);
 const isFirstMonth = computed(() => countIndex.value === 0);
@@ -65,41 +79,38 @@ const isLastMonth = computed(() => countIndex.value === feature.properties.count
 const humanDate = computed(() =>
   new Date(count.value.month).toLocaleString('fr-Fr', { month: 'long', year: 'numeric' }),
 );
-const averageDailyTraffic = computed(() => getAverageDailyTraffic(count.value));
+const averageDailyTraffic = computed(() => {
+  if ('count' in count.value) {
+    return getAverageDailyTraffic(count.value.month, count.value.count);
+  }
+  return 0;
+});
+
+const averageDailyVeloTraffic = computed(() => {
+  if ('veloCount' in count.value) {
+    return getAverageDailyTraffic(count.value.month, count.value.veloCount);
+  }
+  return 0;
+});
+
+const averageDailyVoitureTraffic = computed(() => {
+  if ('voitureCount' in count.value) {
+    return getAverageDailyTraffic(count.value.month, count.value.voitureCount);
+  }
+  return 0;
+});
+
 const icon = computed(() =>
   feature.properties.type === 'compteur-velo' ? 'game-icons:dutch-bike' : 'fluent:vehicle-car-profile-ltr-16-regular',
 );
-// const monthBests = findMonthBests(feature.properties.counts);
-// const absoluteBest = findAbsoluteBest(feature.properties.counts)!;
-// const isMonthBest = computed(() => monthBests.get(new Date(count.value.month).getMonth()));
-// const isAbsoluteBest = computed(() => count.value.month === absoluteBest.month);
 
-function getAverageDailyTraffic({ month, count }: { month: string; count: number }) {
+const numberFormatter = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 });
+
+function getAverageDailyTraffic(month: string, count: number) {
   const date = new Date(month);
   const daysInMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
-  return Math.round(count / daysInMonth);
+  return numberFormatter.format(count / daysInMonth);
 }
-
-// function findMonthBests(counts: Array<{ month: string; count: number }>) {
-//   const monthBests = new Map();
-//
-//   counts.forEach(count => {
-//     const month = new Date(count.month).getMonth();
-//
-//     if (!monthBests.has(month)) {
-//       monthBests.set(month, 0);
-//     }
-//     if (count.count > monthBests.get(month)) {
-//       monthBests.set(month, count.count);
-//     }
-//   });
-//
-//   return monthBests;
-// }
-//
-// function findAbsoluteBest(counts: Array<{ month: string; count: number }>) {
-//   return counts.toSorted((a, b) => (a.count > b.count ? 1 : a.count < b.count ? -1 : 0)).at(-1);
-// }
 
 const changeMonth = (offset: number) => {
   countIndex.value += offset;

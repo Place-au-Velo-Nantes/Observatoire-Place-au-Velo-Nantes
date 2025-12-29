@@ -13,7 +13,7 @@
       <StatsQuality v-if="displayQuality()" :voies="[geojson]" :precision="1" />
       <Typology :voies="[geojson]" />
     </div>
-    <section aria-labelledby="shipping-heading" class="mt-10">
+    <section v-if="showMap" aria-labelledby="shipping-heading" class="mt-10">
       <ClientOnly fallback-tag="div">
         <template #fallback>
           <MapPlaceholder :custom-style="{ height: '40vh' }" />
@@ -29,26 +29,38 @@
         />
       </ClientOnly>
 
-      <div class="mt-2 flex justify-end gap-4">
+      <div class="mt-2 flex justify-between gap-4">
         <button
           type="button"
-          title="Télécharger le tracé au format GPX"
+          title="Afficher les compteurs vélos"
           class="flex items-center gap-2 text-base font-semibold text-gray-500 hover:text-lvv-blue-600 no-underline"
-          @click="downloadGpx"
+          @click="displayBikeCounters = !displayBikeCounters"
         >
-          <span>GPX</span>
-          <Icon name="mdi:download" class="h-5 w-5" aria-hidden="true" />
+          <span> Compteurs vélos </span>
+          <Icon :name="displayBikeCounters ? 'mdi:eye' : 'mdi:eye-off'" class="h-5 w-5" aria-hidden="true" />
         </button>
-        <a
-          :href="linkToGeoJSON"
-          target="_blank"
-          title="Voir le fichier GEOJSON sur GitHub"
-          class="flex items-center gap-2 text-base font-semibold text-gray-500 hover:text-lvv-blue-600 no-underline"
-          rel="noopener noreferrer"
-        >
-          <span>GEOJSON</span>
-          <Icon name="mdi:open-in-new" class="h-5 w-5" aria-hidden="true" />
-        </a>
+
+        <div class="flex items-center gap-4">
+          <button
+            type="button"
+            title="Télécharger le tracé au format GPX"
+            class="flex items-center gap-2 text-base font-semibold text-gray-500 hover:text-lvv-blue-600 no-underline"
+            @click="downloadGpx"
+          >
+            <span>GPX</span>
+            <Icon name="mdi:download" class="h-5 w-5" aria-hidden="true" />
+          </button>
+          <a
+            :href="linkToGeoJSON"
+            target="_blank"
+            title="Voir le fichier GEOJSON sur GitHub"
+            class="flex items-center gap-2 text-base font-semibold text-gray-500 hover:text-lvv-blue-600 no-underline"
+            rel="noopener noreferrer"
+          >
+            <span>GEOJSON</span>
+            <Icon name="mdi:open-in-new" class="h-5 w-5" aria-hidden="true" />
+          </a>
+        </div>
       </div>
     </section>
   </div>
@@ -59,37 +71,63 @@ import type { Collections } from '@nuxt/content';
 import GeoJsonToGpx from '@dwayneparton/geojson-to-gpx';
 import MapPlaceholder from '~/components/MapPlaceholder.vue';
 import { useBikeLaneFilters } from '~/composables/useBikeLaneFilters';
+import type { Ref } from 'vue';
+import type { CompteurFeature } from '~/types';
 
 const { path } = useRoute();
 const { getLineColor } = useColors();
 const { getTotalDistance, displayDistanceInKm } = useStats();
 const { displayQuality } = useConfig();
+const { getCompteursFeatures } = useMap();
 
-const { voie } = defineProps<{ voie: Collections['voiesCyclablesPage'] }>();
+const props = withDefaults(
+  defineProps<{
+    voie: Collections['voiesCyclablesPage'];
+    showMap?: boolean;
+  }>(),
+  {
+    showMap: true,
+  },
+);
 
 const mapOptions = {
   fullscreen: true,
   roundedCorners: true,
   onFullscreenControlClick: () => {
     const route = useRoute();
-    return navigateTo({ path: `/${route.params._slug}/carte` });
-  }
+    return navigateTo({ path: `${route.params._slug}/carte` });
+  },
 };
 
+const displayBikeCounters = ref(false);
+
 const { data: geojson } = await useAsyncData(`geojson-${path}`, () => {
-  return queryCollection('voiesCyclablesGeojson').path(voie.path).first();
+  return queryCollection('voiesCyclablesGeojson').path(props.voie.path).first();
 });
 
-const features: Ref<Collections['voiesCyclablesGeojson']['features']> = computed(() => geojson.value?.features || []);
+const { data: allCounters } = await useAsyncData(() => {
+  return queryCollection('compteurs').where('path', 'LIKE', '/compteurs/velo%').all();
+});
+
+const features: Ref<Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[]> = computed(() => {
+  const compteurFeatures = displayBikeCounters.value
+    ? getCompteursFeatures({
+        counters: (allCounters.value || []).filter((counter) => counter.lines?.includes(+props.voie.line)),
+        type: 'compteur-velo',
+      })
+    : [];
+
+  return [...(geojson.value?.features || []), ...compteurFeatures];
+});
 
 const { filters, actions, filteredFeatures, totalDistance, filteredDistance } = useBikeLaneFilters({
-  allFeatures: features
+  allFeatures: features,
 });
 
-const color = getLineColor(Number(voie.line));
+const color = getLineColor(Number(props.voie.line));
 const distance = geojson.value ? getTotalDistance([geojson.value]) : 0;
 
-const linkToGeoJSON = `https://github.com/lavilleavelo/cyclopolis/blob/main/content/voies-cyclables/ligne-${voie.line}.json`;
+const linkToGeoJSON = `https://github.com/lavilleavelo/cyclopolis/blob/main/content/voies-cyclables/ligne-${props.voie.line}.json`;
 
 function downloadGpx() {
   if (!geojson.value) {
@@ -99,16 +137,16 @@ function downloadGpx() {
   const gpx = GeoJsonToGpx(geojson.value, {
     creator: 'Cyclopolis - La Ville à Vélo',
     metadata: {
-      name: `Voie Lyonnaise ${voie.line}`,
-      desc: `Tracé de la voie lyonnaise ${voie.line} - Source: La Ville à Vélo`,
+      name: `Voie Lyonnaise ${props.voie.line}`,
+      desc: `Tracé de la voie lyonnaise ${props.voie.line} - Source: La Ville à Vélo`,
       author: {
         name: 'Cyclopolis - La Ville à Vélo',
         link: {
-          href: `https://cyclopolis.fr/voie-lyonnaise-${voie.line}`,
-          text: 'Cyclopolis - La Ville à Vélo'
-        }
-      }
-    }
+          href: `https://cyclopolis.fr/voie-lyonnaise-${props.voie.line}`,
+          text: 'Cyclopolis - La Ville à Vélo',
+        },
+      },
+    },
   });
 
   const gpxString = new XMLSerializer().serializeToString(gpx);
@@ -116,7 +154,7 @@ function downloadGpx() {
 
   const downloadAnchorNode = document.createElement('a');
   downloadAnchorNode.setAttribute('href', dataStr);
-  downloadAnchorNode.setAttribute('download', `voie-lyonaise-${voie.line}.gpx`);
+  downloadAnchorNode.setAttribute('download', `voie-lyonaise-${props.voie.line}.gpx`);
   document.body.appendChild(downloadAnchorNode);
   downloadAnchorNode.click();
   downloadAnchorNode.remove();

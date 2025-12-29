@@ -3,11 +3,11 @@
   "version": "0.4.2",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "dev": "nuxt dev",
+    "postinstall": "nuxt prepare",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "patch-package && nuxt prepare",
     "test": "vitest",
     "format": "prettier --write .",
     "lint": "eslint .",
@@ -19,31 +19,31 @@
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.23",
-    "@nuxt/content": "^3.8.2",
-    "@nuxt/eslint": "^1.10.0",
-    "@nuxt/icon": "^2.1.0",
+    "@nuxt/content": "^3.10.0",
+    "@nuxt/eslint": "^1.12.1",
+    "@nuxt/icon": "^2.1.1",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@tailwindcss/typography": "^0.5.19",
     "dayjs": "^1.11.19",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "happy-dom": "^20.0.10",
-    "nuxt": "^4.2.1",
+    "nuxt": "^4.2.2",
     "nuxt-umami": "^3.2.1",
-    "patch-package": "^8.0.1",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.4",
     "sitemap": "^9.0.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.14"
+    "vitest": "^4.0.16"
   },
   "dependencies": {
     "@dwayneparton/geojson-to-gpx": "^0.2.0",
+    "@panoramax/web-viewer": "^4.2.0",
     "@vueuse/core": "^14.0.0",
     "better-sqlite3": "^12.4.6",
     "highcharts": "^12.4.0",
     "highcharts-vue": "^2.0.1",
-    "maplibre-gl": "^5.13.0",
-    "zod": "^4.1.13"
+    "maplibre-gl": "^5.15.0",
+    "zod": "^4.2.1"
   }
 }

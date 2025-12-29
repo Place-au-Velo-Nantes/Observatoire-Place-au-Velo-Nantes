@@ -4,6 +4,7 @@
     <div class="flex rounded-lg h-full w-full">
       <div id="map" :class="[options.roundedCorners ? 'rounded-lg' : '', 'h-full w-full']" />
       <FilterPanel
+        :open="route.query.modal === 'filters' && mapReady"
         :show-line-filters="options.showLineFilters"
         :show-infrastructure-filters="options.showInfrastructureFilters"
         :show-date-filter="options.showDateFilter"
@@ -11,6 +12,13 @@
         :filters="filters"
         :actions="actions"
         :filter-style="options.filterStyle"
+        @close="closeFilterPanel"
+      />
+      <DetailPanel
+        v-if="options.showDetailsPanel"
+        :open="route.query.modal === 'details' && mapReady"
+        :line="route.query.line ? +route.query.line : null"
+        @close="closeSidebar"
       />
     </div>
 
@@ -29,13 +37,13 @@
 <script setup lang="ts">
 import type { Collections } from '@nuxt/content';
 import {
-  Map,
   AttributionControl,
   GeolocateControl,
+  LngLat,
+  type LngLatLike,
+  Map,
   NavigationControl,
   type StyleSpecification,
-  type LngLatLike,
-  LngLat,
 } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import style from '@/assets/style.json';
@@ -44,12 +52,14 @@ import LegendInlineControl from '@/maplibre/LegendInlineControl';
 import FilterControl from '@/maplibre/FilterControl';
 import FullscreenControl from '@/maplibre/FullscreenControl';
 import ShrinkControl from '@/maplibre/ShrinkControl';
+import DetailPanel from '~/components/DetailPanel.vue';
 import LogoControl from '@/maplibre/LogoControl';
 
-import type { CompteurFeature, FiltersState, FilterActions } from '~/types';
+import type { CompteurFeature, FilterActions, FiltersState } from '~/types';
 import config from '~/config.json';
 import FilterPanel from '~/components/FilterPanel.vue';
 import LegendInline from '~/components/LegendInline.vue';
+
 const { displayDistanceInKm, displayPercent } = useStats();
 
 const defaultOptions = {
@@ -60,6 +70,7 @@ const defaultOptions = {
   fullscreen: false,
   onFullscreenControlClick: () => {},
   shrink: false,
+  showDetailsPanel: false,
   showLineFilters: false,
   showInfrastructureFilters: true,
   showDateFilter: false,
@@ -93,13 +104,26 @@ const useCycloscoreColors = computed(() => {
   return route.query.colorMode === 'cycloscore';
 });
 
-const { loadImages, plotFeatures, fitBounds, handleMapClick } = useMap({
+const { loadImages, plotFeatures, fitBounds, handleMapClick, handleMapHover, highlightLines } = useMap({
   updateUrlOnFeatureClick: options.updateUrlOnFeatureClick,
   useCycloscoreColors,
 });
 
-const highlightLine = route.query.line ? Number(route.query.line) : undefined;
+function closeSidebar() {
+  const query = { ...route.query };
+  delete query.sectionAnchor;
+  delete query.modal;
+  router.replace({ query });
+}
+
 const highlightSection = route.query.sectionName as string | undefined;
+
+function closeFilterPanel() {
+  const query = { ...route.query };
+  delete query.modal;
+  sessionStorage.removeItem('wasFiltersOpen');
+  router.replace({ query });
+}
 
 function toggleFilterSidebar() {
   if (!props.filters || !props.actions) {
@@ -109,11 +133,15 @@ function toggleFilterSidebar() {
   const query = { ...route.query };
   if (query.modal === 'filters') {
     delete query.modal;
+    sessionStorage.removeItem('wasFiltersOpen');
   } else {
     query.modal = 'filters';
+    sessionStorage.setItem('wasFiltersOpen', 'true');
   }
   router.replace({ query });
 }
+
+const mapReady = ref(false);
 
 onMounted(() => {
   const map = new Map({
@@ -154,16 +182,13 @@ onMounted(() => {
   }
 
   if (options.legend) {
-    // Define breakpoint for showing inline legend (e.g., 1024px = large screens)
     const legendInlineBreakpoint = 1024;
     const isLargeMap = window.innerWidth >= legendInlineBreakpoint && !options.fullscreen;
 
     if (isLargeMap) {
-      // Show inline legend in bottom-left corner for large screens
       const legendInlineControl = new LegendInlineControl(LegendInline);
       map.addControl(legendInlineControl, 'bottom-left');
     } else {
-      // Show legend button for smaller screens
       const legendControl = new LegendControl({
         onClick: () => {
           if (legendModalComponent.value) {
@@ -194,69 +219,86 @@ onMounted(() => {
     map.addControl(logoControl, 'bottom-right');
   }
 
-  map.on('load', async () => {
+  async function onMapLoaded() {
     await loadImages({ map });
     plotFeatures({ map, features: props.features });
+    highlightLines({ map, selections: null });
 
-    if (highlightLine && highlightSection) {
-      const section = props.features.find((f) => {
-        if (f.geometry.type !== 'LineString') {
-          return false;
+    if (!+(route.query.line || -1) || !highlightSection) {
+      fitBounds({ map, features: props.features });
+      return;
+    }
+
+    const section = props.features.find((f) => {
+      if (f.geometry.type !== 'LineString') {
+        return false;
+      }
+      if (!('line' in f.properties) || f.properties.line !== +(route.query.line || -1)) {
+        return false;
+      }
+      return 'name' in f.properties && f.properties.name === highlightSection;
+    });
+    if (section?.geometry?.type !== 'LineString') {
+      return;
+    }
+
+    return new Promise<void>((resolve) => {
+      map.once('moveend', () => {
+        const coordinates = structuredClone(section.geometry.coordinates);
+        const midPoint = coordinates[Math.floor(coordinates.length / 2)] as [number, number];
+        if (coordinates.length == 2 && Array.isArray(coordinates[0]) && Array.isArray(coordinates[1])) {
+          midPoint[0] = (coordinates[0][0] + coordinates[1][0]) / 2;
+          midPoint[1] = (coordinates[0][1] + coordinates[1][1]) / 2;
         }
-        if (!('line' in f.properties) || f.properties.line !== highlightLine) {
-          return false;
+
+        const point = map.project(midPoint);
+
+        if (!midPoint || midPoint?.length !== 2) {
+          return resolve();
         }
-        return 'name' in f.properties && f.properties.name === highlightSection;
+
+        // small hack: simulate a click event to open the popup
+        handleMapClick({
+          map,
+          features: props.features,
+          hasDetailsPanel: options.showDetailsPanel,
+          clickEvent: {
+            lngLat: new LngLat(midPoint[0], midPoint[1]),
+            point,
+            originalEvent: new MouseEvent('click'),
+            target: map,
+            type: 'click',
+            preventDefault: () => {},
+            defaultPrevented: false,
+            _defaultPrevented: false,
+          },
+        });
+        resolve();
       });
 
-      if (section?.geometry?.type === 'LineString') {
-        fitBounds({ map, features: [section] });
+      fitBounds({
+        map,
+        features: [section],
+        padding:
+          window.innerWidth < 1024
+            ? {
+                bottom: window.innerHeight * 0.75,
+                top: 0,
+                left: 20,
+                right: 20,
+              }
+            : 20,
+      });
+    });
+  }
 
-        map.once('moveend', () => {
-          const coordinates = section.geometry.coordinates;
-          const midPoint = coordinates[Math.floor(coordinates.length / 2)] as [number, number];
-          const point = map.project(midPoint);
-
-          const renderedFeatures = map.queryRenderedFeatures(point, {
-            layers: ['highlight'],
-            filter: [
-              'all',
-              ['==', ['get', 'line'], section.properties.line],
-              ['==', ['get', 'name'], section.properties.name],
-            ],
-          });
-
-          const firstFeatureId = renderedFeatures?.[0].id;
-          if (firstFeatureId !== undefined) {
-            map.setFeatureState({ source: 'all-sections', id: firstFeatureId }, { hover: true });
-          }
-
-          if (!midPoint || midPoint?.length !== 2) {
-            return;
-          }
-
-          // small hack: simulate a click event to open the popup
-          handleMapClick({
-            map,
-            features: props.features,
-            clickEvent: {
-              lngLat: new LngLat(midPoint[0], midPoint[1]),
-              point,
-              originalEvent: new MouseEvent('click'),
-              target: map,
-              type: 'click',
-              preventDefault: () => {},
-              defaultPrevented: false,
-              _defaultPrevented: false,
-            },
-          });
-        });
-      }
-    } else {
-      const tailwindMdBreakpoint = 768;
-      if (window.innerWidth > tailwindMdBreakpoint) {
-        fitBounds({ map, features: props.features });
-      }
+  map.on('load', async () => {
+    try {
+      await onMapLoaded();
+    } catch (e) {
+      console.error('Error during map load', e);
+    } finally {
+      mapReady.value = true;
     }
   });
 
@@ -292,8 +334,32 @@ onMounted(() => {
     { immediate: true },
   );
 
+  watch(
+    () => [props.totalDistance, props.filteredDistance],
+    ([totalDistance, filteredDistance]) => {
+      if (filterControl.value && totalDistance && filteredDistance !== undefined) {
+        filterControl.value.setActive(totalDistance - filteredDistance > 0);
+      }
+    },
+    { immediate: true },
+  );
+
   map.on('click', (clickEvent) => {
-    handleMapClick({ map, features: props.features, clickEvent });
+    handleMapClick({
+      map,
+      features: props.features,
+      clickEvent,
+      hasDetailsPanel: options.showDetailsPanel,
+    });
+  });
+
+  map.on('mousemove', (hoverEvent) => {
+    handleMapHover({
+      map,
+      features: props.features,
+      hoverEvent,
+      hasDetailsPanel: options.showDetailsPanel,
+    });
   });
 });
 </script>
@@ -301,6 +367,18 @@ onMounted(() => {
 <style>
 .maplibregl-popup-content {
   @apply p-0 rounded-lg overflow-hidden;
+  background: unset !important;
+  transition: box-shadow 0.3s ease-in-out;
+  animation: popup-shadow 0.3s ease-in-out;
+}
+
+@keyframes popup-shadow {
+  from {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    box-shadow: 0 1px 2px #0000001a;
+  }
 }
 
 .maplibregl-info {
