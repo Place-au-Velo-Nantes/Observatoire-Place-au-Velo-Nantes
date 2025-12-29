@@ -45,6 +45,7 @@ export const useMap = ({
 }: { updateUrlOnFeatureClick?: boolean; useCycloscoreColors?: Ref<boolean> } = {}) => {
   const { getLineColor, getLines, getCycloscoreColor } = useColors();
   const { getLineStringDistance } = useStats();
+  const { getNbVoiesCyclables } = useConfig();
   const router = useRouter();
   const route = useRoute();
   const { extractLineAndAnchorFromPath } = useUrl();
@@ -152,7 +153,6 @@ export const useMap = ({
       id: 'unsatisfactory-sections',
       type: 'line',
       source: 'unsatisfactory-sections',
-<<<<<<< HEAD
       minzoom: 13,
       paint: {
         'line-gap-width': 5,
@@ -1183,7 +1183,6 @@ export const useMap = ({
     };
 
     const { getLineColor } = useColors();
-    const { getNbVoiesCyclables } = useConfig();
     const postponedLayerIds: string[] = [];
     for (let line = 1; line <= getNbVoiesCyclables(); line++) {
       const lineColor = getLineColor(line);

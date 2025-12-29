@@ -24,7 +24,7 @@
 
     <div
       v-if="totalDistance"
-      class="absolute top-3 left-12 bg-white p-1 text-sm rounded-md shadow cursor-pointer select-none"
+      class="absolute top-3 left-1/2 -translate-x-1/2 bg-white p-1 text-sm rounded-md shadow cursor-pointer select-none z-10"
       @click="toggleFilterSidebar"
     >
       Réseau affiché: {{ displayDistanceInKm(filteredDistance || 0, 1) }} ({{
@@ -54,6 +54,8 @@ import FullscreenControl from '@/maplibre/FullscreenControl';
 import ShrinkControl from '@/maplibre/ShrinkControl';
 import DetailPanel from '~/components/DetailPanel.vue';
 import LogoControl from '@/maplibre/LogoControl';
+import ColorModeControl from '@/maplibre/ColorModeControl';
+import ColorModeSelector from '~/components/ColorModeSelector.vue';
 
 import type { CompteurFeature, FilterActions, FiltersState } from '~/types';
 import config from '~/config.json';
@@ -153,6 +155,8 @@ onMounted(() => {
     attributionControl: false,
   });
 
+  const colorModeControl = new ColorModeControl(ColorModeSelector);
+  map.addControl(colorModeControl, 'top-left');
   map.addControl(new NavigationControl({ showCompass: false }), 'top-left');
   map.addControl(new AttributionControl({ compact: false }), 'bottom-left');
 
