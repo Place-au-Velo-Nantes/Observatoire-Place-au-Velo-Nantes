@@ -74,17 +74,20 @@ function groupFeaturesByColor(features: ColoredLineStringFeature[]) {
   return featuresByColor;
 }
 
-export const useMap = ({ updateUrlOnFeatureClick, useCycloscoreColors }: { updateUrlOnFeatureClick?: boolean; useCycloscoreColors?: Ref<boolean> } = {}) => {
+export const useMap = ({
+  updateUrlOnFeatureClick,
+  useCycloscoreColors,
+}: { updateUrlOnFeatureClick?: boolean; useCycloscoreColors?: Ref<boolean> } = {}) => {
   const { getLineColor, getLines, getCycloscoreColor } = useColors();
 
   function addLineColor(
     feature: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }>,
   ): ColoredLineStringFeature {
     const shouldUseCycloscore = useCycloscoreColors?.value ?? false;
-    const color = shouldUseCycloscore 
+    const color = shouldUseCycloscore
       ? getCycloscoreColor(feature.properties.cycloscore)
       : getLineColor(feature.properties.line);
-    
+
     return {
       ...feature,
       properties: {
@@ -495,21 +498,43 @@ export const useMap = ({ updateUrlOnFeatureClick, useCycloscoreColors }: { updat
     );
     const featuresByColor = groupFeaturesByColor(sections);
 
+    // Get all existing postponed sources to clean them up if needed
     const lines = getLines();
+    const allLineColors = new Set(lines.map((line) => getLineColor(line)));
+
+    // First, ensure all sources for current lines are updated (either with data or empty)
     for (const line of lines) {
       const lineColor = getLineColor(line);
-      if (!featuresByColor[lineColor]) {
+      if (featuresByColor[lineColor]) {
+        upsertMapSource(
+          map,
+          `postponed-sections-${lineColor}`,
+          featuresByColor[lineColor] as Collections['voiesCyclablesGeojson']['features'],
+        );
+      } else {
         upsertMapSource(map, `postponed-sections-${lineColor}`, []);
       }
     }
 
-    for (const [color, sameColorFeatures] of Object.entries(featuresByColor)) {
-      upsertMapSource(
-        map,
-        `postponed-sections-${color}`,
-        sameColorFeatures as Collections['voiesCyclablesGeojson']['features'],
-      );
+    // Clean up any sources that might exist but are not in the current lines
+    // This handles edge cases where sources were created for colors that are no longer in use
+    const style = map.getStyle();
+    if (style && style.sources) {
+      for (const sourceName of Object.keys(style.sources)) {
+        if (sourceName.startsWith('postponed-sections-')) {
+          const color = sourceName.replace('postponed-sections-', '');
+          if (!featuresByColor[color] && !allLineColors.has(color)) {
+            // This source exists but shouldn't - clean it up
+            if (map.getSource(sourceName)) {
+              upsertMapSource(map, sourceName, []);
+            }
+          }
+        }
+      }
+    }
 
+    // Create or update layers for colors that have features
+    for (const [color, sameColorFeatures] of Object.entries(featuresByColor)) {
       if (map.getLayer(`postponed-symbols-${color}`)) {
         continue;
       }
