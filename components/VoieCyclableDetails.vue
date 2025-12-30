@@ -58,7 +58,7 @@ const line = computed(() => {
 const { data: voie } = useAsyncData(
   () => `voie-${line.value}`,
   () => {
-    return queryCollection('voiesCyclablesPage').where('line', '=', Number(line.value)).first();
+    return queryCollection('voiesCyclablesPage').where('line', '=', String(line.value)).first();
   },
   {
     watch: [line, () => props.line],
