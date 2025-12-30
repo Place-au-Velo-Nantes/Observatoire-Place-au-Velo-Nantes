@@ -1039,7 +1039,7 @@
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#111"
+        "id": "sans-titre#110"
       }
     },
     {
@@ -1118,7 +1118,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#125"
+        "id": "sans-titre#124"
       }
     },
     {
@@ -1157,8 +1157,8 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#128"
+        "cycloscore": "C",
+        "id": "sans-titre#127"
       }
     },
     {

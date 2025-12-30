@@ -319,12 +319,12 @@
         "line": "A",
         "name": "Rue du Grignon Basse Goulaine",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -353,13 +353,13 @@
       "properties": {
         "line": "A",
         "name": "Boulevard des Pas enchantés",
-        "status": "wip",
-        "doneAt": "01/01/2000",
+        "status": "done",
+        "doneAt": "01/01/2025",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "B"
       }
     },
     {
@@ -494,7 +494,7 @@
       "properties": {
         "line": "A",
         "name": "Rue Gal Leclerc Rezé",
-        "status": "done",
+        "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -580,7 +580,7 @@
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#111"
+        "id": "sans-titre#110"
       }
     },
     {

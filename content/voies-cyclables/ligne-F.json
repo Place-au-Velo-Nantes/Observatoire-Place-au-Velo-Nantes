@@ -601,7 +601,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -834,7 +834,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#103"
+        "id": "sans-titre#102"
       }
     },
     {
@@ -860,13 +860,13 @@
         "line": "F",
         "name": "Route de Ste Luce",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2014",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#104"
+        "cycloscore": "D",
+        "id": "sans-titre#103"
       }
     },
     {
@@ -939,13 +939,13 @@
         "line": "F",
         "name": "Route de Ste Luce Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2010",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#444"
+        "id": "sans-titre#443"
       }
     },
     {

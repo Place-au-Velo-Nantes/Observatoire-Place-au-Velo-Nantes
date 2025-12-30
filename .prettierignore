@@ -13,6 +13,7 @@ dist
 
 content/
 !components/content/
+!content/voies-cyclables-brut/gvv.geojson
 public/
 assets/style.json
 package-lock.json

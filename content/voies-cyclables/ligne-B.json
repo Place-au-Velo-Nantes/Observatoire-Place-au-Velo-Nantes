@@ -412,7 +412,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "B"
       }
     },
     {
@@ -459,7 +459,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -494,7 +494,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "V"
       }
     },
     {
@@ -603,7 +603,7 @@
       "properties": {
         "line": "B",
         "name": "Chemin de Halage de la loire",
-        "status": "done",
+        "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -798,7 +798,7 @@
       "properties": {
         "line": "B",
         "name": "Loire à vélo",
-        "status": "done",
+        "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "satisfactory",
@@ -863,7 +863,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1461,7 +1461,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {

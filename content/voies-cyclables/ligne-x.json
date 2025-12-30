@@ -133,13 +133,13 @@
       "properties": {
         "line": "X",
         "name": "Liaison Pas enchantés/Pont de Bellevue",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -148,11 +148,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.546268,
-            47.303288
+            -1.546536617,
+            47.303628302
           ],
           [
-            -1.542663,
+            -1.543005228,
             47.307536
           ],
           [
@@ -504,12 +504,12 @@
         "line": "X",
         "name": "Boulevard du Général de Gaulle Est Rezé",
         "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -534,7 +534,7 @@
       "properties": {
         "line": "X",
         "name": "Boulevard du Général de Gaulle Ouest Rezé",
-        "status": "postponed",
+        "status": "wip",
         "doneAt": "01/01/2000",
         "type": "inconnu",
         "quality": "not-rated-yet",
@@ -731,7 +731,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -833,7 +833,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1182,7 +1182,7 @@
       "properties": {
         "line": "X",
         "name": "Pont de la Rotonde Nord",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
@@ -1713,7 +1713,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -3566,13 +3566,13 @@
       "properties": {
         "line": "X",
         "name": "Quai des Mariniers",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "aucun",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -4106,7 +4106,7 @@
       "properties": {
         "line": "X",
         "name": "X#4",
-        "status": "unknown",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -4178,7 +4178,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -4585,14 +4585,14 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#12",
-        "status": "unknown",
+        "name": "Promenade Villa El Salvador",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -4632,9 +4632,9 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#13",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
+        "name": "Rue de l'ile Macé",
+        "status": "done",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -4659,7 +4659,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Gaëtan Rondeau-14",
+        "name": "Rue Gaëtan Rondeau-12",
         "status": "done",
         "doneAt": "01/01/2011",
         "type": "bandes-cyclables",
@@ -4686,14 +4686,14 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#15",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
+        "name": "Pont de mauves sur Loire",
+        "status": "done",
+        "doneAt": "01/01/2021",
         "type": "inconnu",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -8860,7 +8860,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Route de Vannes-16",
+        "name": "Route de Vannes-13",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bilaterale",
@@ -10739,7 +10739,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "Rue Jean Jaurès-17",
+        "name": "Rue Jean Jaurès-14",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -11142,7 +11142,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -11292,7 +11292,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -11522,7 +11522,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -11597,7 +11597,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -11648,7 +11648,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -11723,7 +11723,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -12871,7 +12871,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#18",
+        "name": "X#15",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
@@ -12898,7 +12898,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#19",
+        "name": "X#16",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bilaterale",
@@ -12980,7 +12980,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#20",
+        "name": "X#17",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
@@ -13345,14 +13345,14 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#21",
+        "name": "X#18",
         "status": "done",
         "doneAt": "01/01/2022",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -13380,14 +13380,14 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#22",
+        "name": "X#19",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -13423,14 +13423,14 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#23",
+        "name": "X#20",
         "status": "done",
         "doneAt": "01/01/2014",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -13474,7 +13474,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#24",
+        "name": "X#21",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -13540,7 +13540,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#25",
+        "name": "X#22",
         "status": "done",
         "doneAt": "01/01/2022",
         "type": "bidirectionnelle",
@@ -13575,7 +13575,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#26",
+        "name": "X#23",
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "bilaterale",
@@ -13614,7 +13614,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#27",
+        "name": "X#24",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -13641,7 +13641,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#28",
+        "name": "X#25",
         "status": "done",
         "doneAt": "01/01/2013",
         "type": "zone-de-rencontre",
@@ -13668,7 +13668,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#29",
+        "name": "X#26",
         "status": "done",
         "doneAt": "01/01/2013",
         "type": "bilaterale",
@@ -13703,7 +13703,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#30",
+        "name": "X#27",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -13738,7 +13738,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#31",
+        "name": "X#28",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -13765,7 +13765,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#32",
+        "name": "X#29",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bidirectionnelle",
@@ -13792,7 +13792,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#33",
+        "name": "X#30",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -13812,19 +13812,23 @@
             47.202838061
           ],
           [
-            -1.570501743,
-            47.20323694
+            -1.57092767,
+            47.203366235
           ],
           [
-            -1.554563408,
-            47.204917817
+            -1.570166489,
+            47.203650436
+          ],
+          [
+            -1.55469028,
+            47.205262592
           ]
         ]
       },
       "properties": {
         "line": "X",
-        "name": "X#34",
-        "status": "unknown",
+        "name": "Boulevard de la prairie au Duc",
+        "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
@@ -13858,9 +13862,9 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#35",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
+        "name": "Boulevard de l'estuaire est",
+        "status": "done",
+        "doneAt": "01/01/2014",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -13897,14 +13901,14 @@
       },
       "properties": {
         "line": "X",
-        "name": "X#36",
+        "name": "Rue Paul Nizan",
         "status": "done",
         "doneAt": "01/01/2017",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "B"
       }
     },
     {
@@ -14141,7 +14145,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "rue Hervé le Guyader-37",
+        "name": "rue Hervé le Guyader-31",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -14172,7 +14176,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "rue Hervé le Guyader-38",
+        "name": "rue Hervé le Guyader-32",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "bandes-cyclables",
@@ -14203,7 +14207,7 @@
       },
       "properties": {
         "line": "X",
-        "name": "rue Hervé le Guyader-39",
+        "name": "rue Hervé le Guyader-33",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",

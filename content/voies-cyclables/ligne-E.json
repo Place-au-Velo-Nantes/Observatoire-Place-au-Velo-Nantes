@@ -419,8 +419,8 @@
             47.303255918
           ],
           [
-            -1.546267083,
-            47.303294271
+            -1.546531764,
+            47.30363037
           ]
         ]
       },
@@ -905,7 +905,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1561,7 +1561,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#116"
+        "id": "sans-titre#115"
       }
     },
     {
@@ -1593,7 +1593,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#118"
+        "id": "sans-titre#117"
       }
     },
     {
@@ -1624,7 +1624,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1656,7 +1656,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#125"
+        "id": "sans-titre#124"
       }
     },
     {
@@ -1695,8 +1695,8 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#128"
+        "cycloscore": "C",
+        "id": "sans-titre#127"
       }
     },
     {
@@ -1732,7 +1732,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#130"
+        "id": "sans-titre#129"
       }
     },
     {
@@ -2278,7 +2278,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -2305,11 +2305,11 @@
         "name": "Rue Victor Fortun Nord",
         "status": "done",
         "doneAt": "01/01/2017",
-        "type": "inconnu",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -2384,7 +2384,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -2419,7 +2419,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -2450,7 +2450,42 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.571326942,
+            47.20284832
+          ],
+          [
+            -1.565223497,
+            47.203466924
+          ],
+          [
+            -1.564172904,
+            47.203582486
+          ],
+          [
+            -1.554405949,
+            47.20454688
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Boulevard de l'estuaire",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
       }
     },
     {

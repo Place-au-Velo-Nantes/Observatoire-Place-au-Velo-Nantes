@@ -320,7 +320,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -796,7 +796,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1041,7 +1041,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#116"
+        "id": "sans-titre#115"
       }
     },
     {

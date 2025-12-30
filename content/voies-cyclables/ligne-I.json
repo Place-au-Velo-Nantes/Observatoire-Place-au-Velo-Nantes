@@ -161,14 +161,14 @@
       },
       "properties": {
         "line": "I",
-        "name": "I#1",
+        "name": "Rue du bois bougnon",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
+        "type": "aucun",
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -3898,11 +3898,11 @@
         "name": "Route de paimboeuf",
         "status": "done",
         "doneAt": "01/01/2025",
-        "type": "inconnu",
+        "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "maillage",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "B"
       }
     },
     {
@@ -3932,12 +3932,12 @@
         "line": "I",
         "name": "Chemin des amoureux",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "voie-verte",
         "quality": "satisfactory",
         "infrastructure": "maillage",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "B"
       }
     },
     {
@@ -3963,12 +3963,12 @@
         "line": "I",
         "name": "Allée daniel brottier",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "zone-de-rencontre",
         "quality": "not-rated-yet",
         "infrastructure": "maillage",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -4138,7 +4138,7 @@
         "name": "Route de la barre",
         "status": "done",
         "doneAt": "01/01/2009",
-        "type": "inconnu",
+        "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "maillage",
         "link": "",

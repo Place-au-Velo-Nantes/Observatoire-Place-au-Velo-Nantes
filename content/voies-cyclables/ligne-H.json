@@ -187,7 +187,7 @@
         "line": "H",
         "name": "Pont de Bellevue",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -340,77 +340,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.471267647,
-            47.225226152
-          ],
-          [
-            -1.470996875,
-            47.225562026
-          ],
-          [
-            -1.470613192,
-            47.225908358
-          ],
-          [
-            -1.469958737,
-            47.226050334
-          ],
-          [
-            -1.468690885,
-            47.22609031
-          ],
-          [
-            -1.467993038,
-            47.226263042
-          ],
-          [
-            -1.467262661,
-            47.225506614
-          ],
-          [
-            -1.466920265,
-            47.225397333
-          ],
-          [
-            -1.466519,
-            47.224863
-          ],
-          [
-            -1.464459,
-            47.223304
-          ],
-          [
-            -1.461004,
-            47.216877
-          ],
-          [
-            -1.46197,
-            47.216717
-          ],
-          [
-            -1.465291,
-            47.216486
-          ]
-        ]
-      },
-      "properties": {
-        "line": "H",
-        "name": "H#1",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "aucun",
-        "quality": "unsatisfactory",
-        "infrastructure": "maillage",
-        "link": "",
-        "cycloscore": "E"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.48641902,
             47.247546386
           ],
@@ -521,7 +450,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#103"
+        "id": "sans-titre#102"
       }
     },
     {
@@ -565,7 +494,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#105"
+        "id": "sans-titre#104"
       }
     },
     {
@@ -601,7 +530,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#130"
+        "id": "sans-titre#129"
       }
     },
     {
@@ -653,7 +582,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#198"
+        "id": "sans-titre#197"
       }
     },
     {
@@ -756,7 +685,7 @@
       },
       "properties": {
         "line": "H",
-        "name": "Route de Nantes-2",
+        "name": "Route de Nantes-1",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
@@ -1507,7 +1436,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#335"
+        "id": "sans-titre#334"
       }
     },
     {
@@ -1567,7 +1496,405 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#336"
+        "id": "sans-titre#335"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.471302428,
+            47.225232503
+          ],
+          [
+            -1.471234533,
+            47.225227079
+          ],
+          [
+            -1.471182612,
+            47.225281325
+          ],
+          [
+            -1.471150662,
+            47.225349133
+          ],
+          [
+            -1.47108676,
+            47.225449488
+          ],
+          [
+            -1.471026852,
+            47.225533569
+          ],
+          [
+            -1.47091103,
+            47.225669183
+          ],
+          [
+            -1.470831152,
+            47.225753264
+          ],
+          [
+            -1.470699355,
+            47.225837345
+          ],
+          [
+            -1.470575545,
+            47.225910576
+          ],
+          [
+            -1.470407802,
+            47.225981095
+          ],
+          [
+            -1.470228078,
+            47.226024491
+          ],
+          [
+            -1.470052348,
+            47.226054326
+          ],
+          [
+            -1.469848661,
+            47.226059751
+          ],
+          [
+            -1.469501195,
+            47.226062463
+          ],
+          [
+            -1.469097814,
+            47.226062463
+          ],
+          [
+            -1.468711937,
+            47.226060229
+          ],
+          [
+            -1.468552182,
+            47.226114474
+          ],
+          [
+            -1.468408403,
+            47.226203979
+          ],
+          [
+            -1.468324532,
+            47.226269073
+          ],
+          [
+            -1.468152796,
+            47.226317893
+          ],
+          [
+            -1.467981059,
+            47.226293483
+          ],
+          [
+            -1.467865237,
+            47.226182281
+          ],
+          [
+            -1.467805329,
+            47.226084639
+          ],
+          [
+            -1.467669538,
+            47.225911054
+          ],
+          [
+            -1.467633593,
+            47.225851384
+          ],
+          [
+            -1.467501795,
+            47.225707633
+          ],
+          [
+            -1.467358016,
+            47.225580156
+          ],
+          [
+            -1.46709894,
+            47.225441829
+          ],
+          [
+            -1.467023056,
+            47.225411994
+          ],
+          [
+            -1.466911228,
+            47.225401144
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "chemin du collège jonction",
+        "status": "done",
+        "doneAt": "01/01/2012",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "maillage",
+        "link": "",
+        "cycloscore": "B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.466907234,
+            47.225403857
+          ],
+          [
+            -1.466899247,
+            47.225300789
+          ],
+          [
+            -1.466859308,
+            47.225238406
+          ],
+          [
+            -1.466787418,
+            47.225132626
+          ],
+          [
+            -1.466683578,
+            47.225053969
+          ],
+          [
+            -1.46655178,
+            47.224956326
+          ],
+          [
+            -1.466404007,
+            47.224836983
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "chemin du collège nord",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "maillage",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.466405322,
+            47.224831663
+          ],
+          [
+            -1.465987963,
+            47.224514319
+          ],
+          [
+            -1.465630512,
+            47.224240372
+          ],
+          [
+            -1.464829742,
+            47.223636869
+          ],
+          [
+            -1.464699941,
+            47.223525661
+          ],
+          [
+            -1.46454418,
+            47.223390041
+          ],
+          [
+            -1.464448328,
+            47.223277476
+          ],
+          [
+            -1.464382429,
+            47.223173048
+          ],
+          [
+            -1.464028207,
+            47.222488564
+          ],
+          [
+            -1.463866455,
+            47.222171206
+          ],
+          [
+            -1.463795421,
+            47.222032481
+          ],
+          [
+            -1.463585743,
+            47.221620184
+          ],
+          [
+            -1.463419998,
+            47.221308247
+          ],
+          [
+            -1.463098293,
+            47.220666195
+          ],
+          [
+            -1.462828442,
+            47.22013792
+          ],
+          [
+            -1.46259464,
+            47.219683188
+          ],
+          [
+            -1.462371465,
+            47.21925552
+          ],
+          [
+            -1.462073899,
+            47.218690704
+          ],
+          [
+            -1.461712568,
+            47.217977909
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "chemin du collège",
+        "status": "done",
+        "doneAt": "01/01/2009",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "maillage",
+        "link": "",
+        "cycloscore": "B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.461918243,
+            47.216712884
+          ],
+          [
+            -1.462338347,
+            47.21673599
+          ],
+          [
+            -1.462781245,
+            47.216720586
+          ],
+          [
+            -1.46383719,
+            47.216635881
+          ],
+          [
+            -1.464614761,
+            47.216593541
+          ],
+          [
+            -1.465085812,
+            47.2165666
+          ],
+          [
+            -1.465352463,
+            47.216466507
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "Rue de la Quaintaine ouest",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "maillage",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.461700425,
+            47.21798505
+          ],
+          [
+            -1.461227239,
+            47.217089576
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "chemin du collège sud",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "not-rated-yet",
+        "infrastructure": "maillage",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.461218981,
+            47.217079049
+          ],
+          [
+            -1.461539314,
+            47.21697377
+          ],
+          [
+            -1.461802814,
+            47.216882527
+          ],
+          [
+            -1.461864814,
+            47.21681234
+          ],
+          [
+            -1.461916481,
+            47.216717588
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "rue de la quintaine ouest",
+        "status": "done",
+        "doneAt": "01/01/2009",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "maillage",
+        "link": "",
+        "cycloscore": "B"
       }
     }
   ]
