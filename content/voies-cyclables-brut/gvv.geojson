@@ -1182,7 +1182,7 @@
         "name": "Boulevard de Sarrebruck 2",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
+        "year": 2015,
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
@@ -1207,7 +1207,7 @@
         "name": "Chemin des bateliers Ouest",
         "status": "terminé",
         "type": "voie verte",
-        "year": null,
+        "year": 2010,
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
@@ -1234,7 +1234,7 @@
         "name": "Chemin des bateliers Est",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
+        "year": 2010,
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
@@ -1258,7 +1258,7 @@
         "name": "Pont Willy-Brandt",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
+        "year": 2020,
         "line": "D,G",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
@@ -1284,7 +1284,7 @@
         "name": "Pont Général Audibert",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
+        "year": 2014,
         "line": "E",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
@@ -1307,7 +1307,7 @@
         "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "terminé",
         "type": "monodirectionnelle",
-        "year": null,
+        "year": 2014,
         "line": "E",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
@@ -1340,7 +1340,7 @@
         "name": "Pont des Bataillons FFI - Pirmil",
         "status": "terminé",
         "type": "bidirectionnelle",
-        "year": null,
+        "year": 2013,
         "line": "A,E",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
@@ -2793,34 +2793,6 @@
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 838.567
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.67526, 47.195109],
-          [-1.676638, 47.193927],
-          [-1.678419, 47.193766],
-          [-1.688295, 47.196689],
-          [-1.690699, 47.196514],
-          [-1.694089, 47.194064],
-          [-1.694475, 47.192869],
-          [-1.695891, 47.191819]
-        ]
-      },
-      "properties": {
-        "name": "Indre-La Montagne",
-        "status": "à définir",
-        "type": "monodirectionnelle",
-        "year": 2018,
-        "line": "I",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "A découper une partie est en bande cyclable",
-        "calculated_length": 1972.098
       }
     },
     {
@@ -14453,10 +14425,10 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "chemin Higonière - port navalo",
         "status": "terminé",
         "type": "voie verte",
-        "year": null,
+        "year": 0,
         "line": "A",
         "infrastructure": "secondaire",
         "quality": "satisfaisant",
@@ -14525,10 +14497,10 @@
         ]
       },
       "properties": {
-        "name": "",
+        "name": "Saint jean de boiseau coté loire",
         "status": "terminé",
         "type": "voie verte",
-        "year": null,
+        "year": 0,
         "line": "A",
         "infrastructure": "secondaire",
         "quality": "satisfaisant",
@@ -16371,6 +16343,232 @@
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 216.378
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.679175614, 47.193913444],
+          [-1.678748428, 47.193807887],
+          [-1.678486292, 47.193761706],
+          [-1.678195028, 47.19372652],
+          [-1.677962018, 47.19372652],
+          [-1.677651337, 47.193744113],
+          [-1.677308294, 47.193783697],
+          [-1.677106852, 47.193832292],
+          [-1.676880314, 47.193898266],
+          [-1.676708793, 47.193951044],
+          [-1.676475782, 47.194043406],
+          [-1.676275134, 47.194148962],
+          [-1.676077722, 47.194272111],
+          [-1.675895371, 47.194427313],
+          [-1.675762685, 47.194563655],
+          [-1.675652652, 47.194684604],
+          [-1.675562037, 47.194809951],
+          [-1.675461713, 47.194944094],
+          [-1.675348444, 47.195109023],
+          [-1.675286955, 47.195203582],
+          [-1.675228702, 47.195295941]
+        ]
+      },
+      "properties": {
+        "name": "rue du bac est",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2010,
+        "line": "I",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 385.364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.693835364, 47.194191009],
+          [-1.693427195, 47.19457456],
+          [-1.693162437, 47.194820681],
+          [-1.692934451, 47.195001835]
+        ]
+      },
+      "properties": {
+        "name": "rue du bac ouest rupture",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2018,
+        "line": "I",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 113.143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.696034165, 47.191964976],
+          [-1.695711375, 47.192025907],
+          [-1.695534609, 47.192104246],
+          [-1.695188763, 47.192382784],
+          [-1.695006873, 47.192529016],
+          [-1.694700496, 47.192775617],
+          [-1.69453654, 47.192925329],
+          [-1.694428943, 47.193075042],
+          [-1.694352088, 47.19323868],
+          [-1.694288043, 47.193487618],
+          [-1.694238047, 47.193682793],
+          [-1.694194496, 47.193776797],
+          [-1.694066405, 47.193971768],
+          [-1.693846088, 47.194191109]
+        ]
+      },
+      "properties": {
+        "name": "rue du bac chat qui guette",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2018,
+        "line": "I",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 311.964
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.692946619, 47.195003068],
+          [-1.692651674, 47.195229252],
+          [-1.692306167, 47.195489792],
+          [-1.691904392, 47.195793235],
+          [-1.691592593, 47.196030868],
+          [-1.691289221, 47.196228417],
+          [-1.691027984, 47.196377294],
+          [-1.69074568, 47.1964775]
+        ]
+      },
+      "properties": {
+        "name": "rue du bac ouest",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2018,
+        "line": "I",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 235.289
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.690754932, 47.196478557],
+          [-1.690432108, 47.196578613],
+          [-1.690131937, 47.196645959],
+          [-1.689843094, 47.196694063],
+          [-1.689553566, 47.196715322],
+          [-1.689264723, 47.19674226],
+          [-1.68894473, 47.196734564],
+          [-1.688715355, 47.196721094],
+          [-1.688333062, 47.196667218],
+          [-1.688194305, 47.196634507],
+          [-1.686880352, 47.196220811],
+          [-1.686030813, 47.195955274],
+          [-1.68489048, 47.195593494],
+          [-1.683982361, 47.195309083],
+          [-1.683403036, 47.195130816],
+          [-1.682927295, 47.194967257],
+          [-1.681981475, 47.194667078],
+          [-1.681397714, 47.19451036],
+          [-1.680616139, 47.194281375],
+          [-1.67987473, 47.1941044],
+          [-1.679169439, 47.193909087]
+        ]
+      },
+      "properties": {
+        "name": "rue du bac Indret",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2018,
+        "line": "I",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 948.305
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.7356558, 47.200476658],
+          [-1.735537296, 47.200644399],
+          [-1.735394103, 47.200751753],
+          [-1.735285474, 47.200785301],
+          [-1.735063279, 47.20079201],
+          [-1.734880586, 47.200781946],
+          [-1.734554699, 47.200711495],
+          [-1.734209062, 47.200721559],
+          [-1.733942428, 47.200691366],
+          [-1.733754797, 47.200654463],
+          [-1.733414098, 47.200681302],
+          [-1.733092293, 47.200669097],
+          [-1.732965199, 47.200642259],
+          [-1.73279238, 47.200642259],
+          [-1.732442887, 47.200682517],
+          [-1.732210816, 47.200689226],
+          [-1.732082437, 47.200692581],
+          [-1.731756551, 47.20062884],
+          [-1.731534356, 47.200625485],
+          [-1.731238095, 47.200595292],
+          [-1.730852957, 47.20052484],
+          [-1.730389981, 47.200493357],
+          [-1.730071193, 47.200446389],
+          [-1.729873686, 47.200406131],
+          [-1.729765057, 47.200369228],
+          [-1.729641616, 47.20023839],
+          [-1.729567551, 47.200191422],
+          [-1.72912316, 47.200208196],
+          [-1.728284756, 47.200004191],
+          [-1.728057623, 47.199896836],
+          [-1.727692236, 47.199802899],
+          [-1.7273861, 47.199752576],
+          [-1.727218219, 47.199725737],
+          [-1.726902209, 47.199695544],
+          [-1.726536821, 47.199655285],
+          [-1.726196122, 47.199564703],
+          [-1.725820859, 47.199420443],
+          [-1.72548016, 47.199276182]
+        ]
+      },
+      "properties": {
+        "name": "Chemin du pré varades",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": null,
+        "line": "A",
+        "infrastructure": "",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 828.573
       }
     }
   ]
