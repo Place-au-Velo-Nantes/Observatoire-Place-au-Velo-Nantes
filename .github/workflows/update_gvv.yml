@@ -1,0 +1,48 @@
+name: Update GVV GeoJSON
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Every hour
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download GVV GeoJSON
+        run: |
+          curl -L -H "Cookie: ${{ secrets.COCARTO_COOKIE }}" -o content/voies-cyclables-brut/gvv.geojson "https://cocarto.com/fr/layers/8defff02-6f42-44e5-bb92-c315c6331f47.geojson"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Format GeoJSON
+        run: npx --yes prettier --write content/voies-cyclables-brut/gvv.geojson
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet content/voies-cyclables-brut/gvv.geojson; then
+            echo "No changes detected."
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected."
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add content/voies-cyclables-brut/gvv.geojson
+          git commit -m "chore: update GVV GeoJSON data [skip ci]"
+          git push
