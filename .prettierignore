@@ -11,9 +11,11 @@ dist
 .data/
 .vscode/
 
-content/
-!components/content/
+content/*
+!content/voies-cyclables-brut/
+content/voies-cyclables-brut/*
 !content/voies-cyclables-brut/gvv.geojson
+!components/content/
 public/
 assets/style.json
 package-lock.json
