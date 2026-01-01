@@ -1,26 +1,10 @@
 <template>
-  <div class="h-full w-full flex flex-col overflow-hidden">
-    <div class="flex-grow relative">
-      <BeforeAfterImageSlider
-        before-image="https://cyclopolis.lavilleavelo.org/Carte_VL2026_prevu.png"
-        after-image="https://cyclopolis.lavilleavelo.org/Carte_VL2026_reel.png"
-        :before-alt="`Plan prévu des ${getRevName()}`"
-        :after-alt="`Plan réel des ${getRevName()}`"
-        before-label="Prévu"
-        after-label="Réel"
-        height="100%"
-      />
-    </div>
-    <div class="bg-lvv-blue-600 text-white border-gray-200 py-1 px-3">
-      <a
-        href="https://cyclopolis.fr/plan-officiel"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="text-xs transition-colors hover:text-gray-200"
-      >
-        Source : cyclopolis.fr / La Ville à Vélo
-      </a>
-    </div>
+  <div class="w-full">
+    <img
+      src="~/assets/grandes_voies_velo.png"
+      class="object-contain w-full h-screen"
+      :alt="`plan officiel des ${getRevName()}`"
+    />
   </div>
 </template>
 
@@ -31,7 +15,7 @@ definePageMeta({
 
 const { getRevName } = useConfig();
 
-const description = `Découvrez le plan officiel des ${getRevName()}, le futur réseau vélo lyonnais de 260km.`;
+const description = `Découvrez le plan officiel des ${getRevName()}.`;
 const COVER_IMAGE_URL = 'https://cyclopolis.lavilleavelo.org/cyclopolis.png';
 
 useHead({
