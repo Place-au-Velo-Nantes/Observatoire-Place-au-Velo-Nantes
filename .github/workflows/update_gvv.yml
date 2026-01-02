@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
 
     steps:
       - name: Checkout repository
@@ -46,3 +47,11 @@ jobs:
           git add content/voies-cyclables-brut/gvv.geojson
           git commit -m "chore: update GVV GeoJSON data"
           git push
+
+      - name: Trigger Release
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          gh workflow run release.yml --ref main
+          gh workflow run check_data_health.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
