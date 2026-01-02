@@ -92,6 +92,7 @@ const props = withDefaults(
 
 const mapOptions = {
   fullscreen: true,
+  showColorModeControl: true,
   roundedCorners: true,
   onFullscreenControlClick: () => {
     const route = useRoute();

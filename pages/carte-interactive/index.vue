@@ -14,6 +14,7 @@
           showLineFilters: true,
           showDetailsPanel: true,
           showDateFilter: true,
+          showColorModeControl: true,
         }"
         class="h-full flex-1"
         :total-distance="totalDistance"

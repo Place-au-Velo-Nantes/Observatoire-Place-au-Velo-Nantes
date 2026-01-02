@@ -1,6 +1,6 @@
 {
   "name": "Pont Georges Clémenceau vers Nord",
-  "description": "Comptage des vélos venant du pont sur la piste cyclable et allant vers Beaulieu.",
+  "description": "Comptage des vélos venant du pont sur la piste cyclable et allant vers Beaulieu. 12/2025 : retrait de 61829 passages (erreur le 15/12/25).",
   "idPdc": 669,
   "neighbor": 668,
   "coordinates": [
@@ -571,6 +571,18 @@
     {
       "month": "2025-09-01",
       "count": 26930
+    },
+    {
+      "month": "2025-10-01",
+      "count": 35492
+    },
+    {
+      "month": "2025-11-01",
+      "count": 21343
+    },
+    {
+      "month": "2025-12-01",
+      "count": 18568
     }
   ]
 }
