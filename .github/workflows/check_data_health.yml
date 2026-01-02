@@ -1,6 +1,10 @@
 name: Check Data Health
 
 on:
+  workflow_run:
+    workflows: ['Update GVV GeoJSON']
+    types:
+      - completed
   push:
     branches:
       - main
@@ -10,6 +14,7 @@ on:
 
 jobs:
   syntax_check:
+    if: ${{ !github.event.workflow_run || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
