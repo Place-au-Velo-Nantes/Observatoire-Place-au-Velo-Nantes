@@ -22,7 +22,7 @@ function getMonthDateRange(month, year) {
 
 // Fonction pour construire l'URL API
 function buildApiUrl(boucleNum, startDate, endDate) {
-  return `https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_comptages-velo-nantes-metropole/records?select=sum(total)%20as%20total&where=boucle_num%3D%22${boucleNum.toString().padStart(4, '0')}%22%20and%20jour%3E%3D${startDate}%20and%20jour%3C%3D${endDate}&limit=40`;
+  return `https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_comptages-velo-nantes-metropole/records?select=sum(total)%20as%20total&where=boucle_num%3D%22${boucleNum.toString()}%22%20and%20jour%3E%3D${startDate}%20and%20jour%3C%3D${endDate}&limit=40`;
   //Select sum(total) as total where boucle_num="boucleNum" and jour>=startDate and jour<=endDate
 }
 
@@ -112,7 +112,7 @@ async function iterateMonths(startMonth, startYear, endMonth, endYear) {
 }
 
 // pour demander sur 1 mois avec le numéro du mois et l'année
-//processFiles(7, 2025);
+processFiles(12, 2025);
 
 // Appeler la fonction pour itérer de mois début, année début à mois fin, année fin
-iterateMonths(8, 2025, 9, 2025).catch(console.error);
+// iterateMonths(8, 2025, 9, 2025).catch(console.error);
