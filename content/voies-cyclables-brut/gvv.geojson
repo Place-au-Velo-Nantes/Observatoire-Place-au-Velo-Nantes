@@ -14169,36 +14169,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.644335973, 47.147799363],
-          [-1.643442207, 47.147985319],
-          [-1.642745423, 47.148171275]
-        ]
-      },
-      "properties": {
-        "name": "M751A 2",
-        "status": "terminé",
-        "type": "bande cyclable",
-        "year": 2018,
-        "line": "G",
-        "infrastructure": "structurante",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
-        "calculated_length": 127.618
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.627149984, 47.162784047],
-          [-1.627556568, 47.162038241],
-          [-1.637573575, 47.150833986],
-          [-1.639027503, 47.149863331],
-          [-1.640216603, 47.149100849],
-          [-1.641830381, 47.148453887],
-          [-1.642747463, 47.148171968]
+          [-1.62718518, 47.162757717],
+          [-1.627591764, 47.162011911],
+          [-1.637608771, 47.150807656],
+          [-1.639062699, 47.149837001],
+          [-1.640251799, 47.149074519],
+          [-1.641072766, 47.148757022],
+          [-1.641893734, 47.148439526],
+          [-1.642606677, 47.148215055]
         ]
       },
       "properties": {
@@ -14211,7 +14189,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
-        "calculated_length": 2043.747
+        "calculated_length": 2028.194
       }
     },
     {
