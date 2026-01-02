@@ -76,6 +76,7 @@ const defaultOptions = {
   showLineFilters: false,
   showInfrastructureFilters: true,
   showDateFilter: false,
+  showColorModeControl: false,
   canUseSidePanel: false,
   onShrinkControlClick: () => {},
   filterStyle: 'height: calc(100vh - 100px)',
@@ -155,8 +156,10 @@ onMounted(() => {
     attributionControl: false,
   });
 
-  const colorModeControl = new ColorModeControl(ColorModeSelector);
-  map.addControl(colorModeControl, 'top-left');
+  if (options.showColorModeControl) {
+    const colorModeControl = new ColorModeControl(ColorModeSelector);
+    map.addControl(colorModeControl, 'top-left');
+  }
   map.addControl(new NavigationControl({ showCompass: false }), 'top-left');
   map.addControl(new AttributionControl({ compact: false }), 'bottom-left');
 
