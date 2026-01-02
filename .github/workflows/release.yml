@@ -13,8 +13,32 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  check-condition:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check if release is needed
+        id: check
+        run: |
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # For workflow_run, check if the latest commit is the automated update
+          LATEST_COMMIT=$(git log -1 --pretty=%s)
+          echo "Latest commit: $LATEST_COMMIT"
+          if [[ "$LATEST_COMMIT" == "chore: update GVV GeoJSON data" ]]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          fi
+
   deploy:
-    if: ${{ !github.event.workflow_run || github.event.workflow_run.conclusion == 'success' }}
+    needs: check-condition
+    if: needs.check-condition.outputs.should_run == 'true' && (!github.event.workflow_run || github.event.workflow_run.conclusion == 'success')
     environment:
       name: production
     runs-on: ubuntu-latest
