@@ -12025,8 +12025,11 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.530423544, 47.215153193],
-          [-1.529748326, 47.214142768]
+          [-1.53042474, 47.21514754],
+          [-1.530246596, 47.214901088],
+          [-1.530075741, 47.21466034],
+          [-1.52989537, 47.214404678],
+          [-1.529758842, 47.214146327]
         ]
       },
       "properties": {
@@ -12039,7 +12042,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "Panneau zone de rencontre mais aussi des pistes cyclables sur trottoirs avec poteaux métaliques",
-        "calculated_length": 123.43
+        "calculated_length": 122.336
       }
     },
     {
