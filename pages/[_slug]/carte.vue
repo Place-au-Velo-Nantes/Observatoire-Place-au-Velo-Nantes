@@ -41,6 +41,7 @@ const mapOptions = {
   shrink: true,
   canUseSidePanel: true,
   showDetailsPanel: true,
+  showColorModeControl: true,
   updateUrlOnFeatureClick: true,
   onShrinkControlClick: () => {
     const route = useRoute();
