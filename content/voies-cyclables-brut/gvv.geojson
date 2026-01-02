@@ -16503,7 +16503,7 @@
       "properties": {
         "name": "rue du bac Indret",
         "status": "terminé",
-        "type": "monodirectionnellea",
+        "type": "monodirectionnelle",
         "year": 2018,
         "line": "I",
         "infrastructure": "magistrale",
