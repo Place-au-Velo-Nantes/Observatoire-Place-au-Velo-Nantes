@@ -13,8 +13,30 @@ on:
       - main
 
 jobs:
+  check-condition:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check if run is needed
+        id: check
+        run: |
+          if [[ "${{ github.event_name }}" != "workflow_run" ]]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          LATEST_COMMIT=$(git log -1 --pretty=%s)
+          if [[ "$LATEST_COMMIT" == "chore: update GVV GeoJSON data" ]]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          fi
+
   syntax_check:
-    if: ${{ !github.event.workflow_run || github.event.workflow_run.conclusion == 'success' }}
+    needs: check-condition
+    if: needs.check-condition.outputs.should_run == 'true' && (!github.event.workflow_run || github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
 
     steps:
