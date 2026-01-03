@@ -1251,7 +1251,9 @@
           [-1.536655135, 47.212881981],
           [-1.536572054, 47.212756908],
           [-1.536529391, 47.212735555],
-          [-1.535563031, 47.210723477]
+          [-1.535555749, 47.210683847],
+          [-1.535530325, 47.21060123],
+          [-1.535379239, 47.210521558]
         ]
       },
       "properties": {
@@ -1264,7 +1266,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
-        "calculated_length": 254.64
+        "calculated_length": 282.858
       }
     },
     {
@@ -1473,7 +1475,11 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.535562978, 47.210723476],
+          [-1.535383724, 47.210524639],
+          [-1.534982518, 47.210533405],
+          [-1.534581311, 47.210512487],
+          [-1.534455129, 47.210524291],
+          [-1.534042187, 47.210588041],
           [-1.53401923, 47.210548572]
         ]
       },
@@ -1481,13 +1487,13 @@
         "name": "Boulevard Maurice Bertin",
         "status": "terminé",
         "type": "bande cyclable",
-        "year": null,
+        "year": 2008,
         "line": "D",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
-        "calculated_length": 118.555
+        "calculated_length": 107.337
       }
     },
     {
@@ -3123,21 +3129,22 @@
         "type": "LineString",
         "coordinates": [
           [-1.530613, 47.208568],
-          [-1.532485358, 47.210788833],
-          [-1.534029769, 47.210553282]
+          [-1.531441728, 47.209512506],
+          [-1.532355174, 47.210637885],
+          [-1.532516943, 47.210786566]
         ]
       },
       "properties": {
-        "name": "bd Millerand et Bertin",
+        "name": "bd Millerand",
         "status": "terminé",
-        "type": "bande cyclable",
-        "year": null,
+        "type": "monodirectionnelle",
+        "year": 2014,
         "line": "D",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
-        "calculated_length": 404.64
+        "calculated_length": 285.897
       }
     },
     {
@@ -12291,8 +12298,9 @@
         "type": "LineString",
         "coordinates": [
           [-1.539369831, 47.206749771],
-          [-1.537960603, 47.206752394],
-          [-1.537779141, 47.206915015]
+          [-1.539134846, 47.206684764],
+          [-1.537915751, 47.206752394],
+          [-1.537756451, 47.206891893]
         ]
       },
       "properties": {
@@ -12305,7 +12313,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
-        "calculated_length": 129.479
+        "calculated_length": 131.532
       }
     },
     {
@@ -12313,7 +12321,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.537781059, 47.206916707],
+          [-1.537755253, 47.206892081],
+          [-1.536428475, 47.207964341],
           [-1.536290899, 47.208145028]
         ]
       },
@@ -12327,7 +12336,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
-        "calculated_length": 177.183
+        "calculated_length": 178.562
       }
     },
     {
@@ -12362,7 +12371,7 @@
           [-1.535239593, 47.209458726],
           [-1.535171964, 47.2097394],
           [-1.535202095, 47.210119525],
-          [-1.535460359, 47.210716023]
+          [-1.535385481, 47.21052181]
         ]
       },
       "properties": {
@@ -12375,7 +12384,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
-        "calculated_length": 259.718
+        "calculated_length": 237.408
       }
     },
     {
@@ -16558,6 +16567,222 @@
         "cycloscore(optionnel)": "",
         "commentaire sur les données": "",
         "calculated_length": 828.573
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.534038363, 47.210585144],
+          [-1.533913949, 47.210603403],
+          [-1.533663586, 47.210640966],
+          [-1.533279691, 47.210699164],
+          [-1.533096142, 47.210729944],
+          [-1.532981712, 47.21074716],
+          [-1.532838866, 47.210775331],
+          [-1.532748244, 47.210791504],
+          [-1.532654549, 47.210800895],
+          [-1.532531671, 47.210797764],
+          [-1.532517848, 47.210785765]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard maurice Bertin est",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "D",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 118.601
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.505006334, 47.209933937],
+          [-1.504999877, 47.2098835],
+          [-1.504967596, 47.209844027],
+          [-1.504802962, 47.209822098],
+          [-1.504431727, 47.209817712],
+          [-1.504354252, 47.209806748],
+          [-1.504289689, 47.209787011],
+          [-1.504257408, 47.209745346],
+          [-1.504241267, 47.209664208],
+          [-1.504218671, 47.209317725],
+          [-1.504267092, 47.209126939],
+          [-1.504370393, 47.208737206],
+          [-1.504374394, 47.208726556]
+        ]
+      },
+      "properties": {
+        "name": "Rue du clos rivière",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 182.521
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.504376986, 47.208726333],
+          [-1.504353937, 47.208672401],
+          [-1.504353937, 47.208632387],
+          [-1.504374425, 47.208190494],
+          [-1.504392739, 47.20761832],
+          [-1.504382495, 47.207515674],
+          [-1.50434152, 47.207327779],
+          [-1.504297984, 47.207183377]
+        ]
+      },
+      "properties": {
+        "name": "Rue du General Duez",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 172.418
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.504298004, 47.207183772],
+          [-1.504304908, 47.207096999],
+          [-1.50435669, 47.206881238],
+          [-1.504536202, 47.206360596],
+          [-1.504636314, 47.20603226],
+          [-1.504529297, 47.205250228],
+          [-1.504384307, 47.204764749]
+        ]
+      },
+      "properties": {
+        "name": "Rue Henry Mainguet",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 273.107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.504385625, 47.204772222],
+          [-1.504423912, 47.204749926],
+          [-1.504474505, 47.204686756],
+          [-1.504549711, 47.204594788],
+          [-1.504619447, 47.204448939],
+          [-1.50479037, 47.204081062],
+          [-1.504958845, 47.203720913],
+          [-1.505103954, 47.203403758],
+          [-1.505286143, 47.203022967],
+          [-1.505460377, 47.202678581],
+          [-1.505516439, 47.202580106],
+          [-1.505627167, 47.202430194],
+          [-1.505830978, 47.202168297],
+          [-1.505852856, 47.202141355],
+          [-1.505939001, 47.202059602],
+          [-1.50597592, 47.20202337],
+          [-1.506133169, 47.201917462],
+          [-1.50643536, 47.201771605],
+          [-1.506631463, 47.201675226],
+          [-1.506791446, 47.201559098],
+          [-1.506962369, 47.201390015],
+          [-1.507119309, 47.20119028],
+          [-1.507175372, 47.201098306],
+          [-1.507242373, 47.200965453],
+          [-1.507300512, 47.200780644],
+          [-1.507441138, 47.200434119],
+          [-1.507516344, 47.200226012],
+          [-1.507562928, 47.200114814],
+          [-1.507703768, 47.19974412],
+          [-1.50777077, 47.199579734],
+          [-1.507830934, 47.199476608],
+          [-1.507873323, 47.199406928],
+          [-1.507996387, 47.199248058]
+        ]
+      },
+      "properties": {
+        "name": "Rue du Douet nord-est",
+        "status": "à définir",
+        "type": "",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "inchoérence entre vue panoramax et changement très récent dans openstreetmap",
+        "calculated_length": 685.786
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.510415561, 47.195264349],
+          [-1.510310647, 47.195389418],
+          [-1.51019469, 47.195530745],
+          [-1.510128301, 47.195620547],
+          [-1.510039952, 47.19575687],
+          [-1.509901908, 47.196012008],
+          [-1.509810104, 47.196197026],
+          [-1.509718074, 47.196382124],
+          [-1.509622363, 47.196590985],
+          [-1.509504376, 47.196840079],
+          [-1.509391494, 47.197072477],
+          [-1.509327346, 47.197212933],
+          [-1.509233476, 47.197404281],
+          [-1.509144542, 47.197591444],
+          [-1.509065397, 47.197766532],
+          [-1.508968072, 47.197963926],
+          [-1.508894448, 47.198130259],
+          [-1.508824435, 47.198274338],
+          [-1.508796826, 47.198341872],
+          [-1.508706637, 47.198450675],
+          [-1.508524426, 47.198666782],
+          [-1.508246496, 47.198970679],
+          [-1.508066118, 47.199167023],
+          [-1.507998016, 47.199248311]
+        ]
+      },
+      "properties": {
+        "name": "Rue du Douet sud-ouest",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 481.819
       }
     }
   ]
