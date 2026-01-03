@@ -1951,7 +1951,7 @@
         "name": "Route de Sainte Luce",
         "status": "terminé",
         "type": "monodirectionnelle",
-        "year": null,
+        "year": 2025,
         "line": "F,G",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
@@ -2591,7 +2591,7 @@
         "name": "Chemin de la Bastille La Montagne",
         "status": "terminé",
         "type": "aucun",
-        "year": null,
+        "year": 0,
         "line": "I",
         "infrastructure": "maillage",
         "quality": "satisfaisant",
@@ -3067,9 +3067,15 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.695891, 47.191819],
-          [-1.69293, 47.190091],
-          [-1.689754, 47.188662],
+          [-1.696011536, 47.191958728],
+          [-1.69451331, 47.191008],
+          [-1.693296235, 47.190212217],
+          [-1.692953044, 47.190064499],
+          [-1.691760721, 47.189664445],
+          [-1.690289128, 47.188842067],
+          [-1.690363962, 47.188096875],
+          [-1.690659887, 47.187652189],
+          [-1.691817174, 47.186097303],
           [-1.692836236, 47.184417163],
           [-1.693038892, 47.18406002]
         ]
@@ -3078,13 +3084,13 @@
         "name": "Ouest de La Montagne",
         "status": "reporté",
         "type": "aucun",
-        "year": null,
+        "year": 0,
         "line": "I",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
-        "calculated_length": 1152.945
+        "calculated_length": 1134.489
       }
     },
     {
@@ -3826,7 +3832,8 @@
           [-1.528610117, 47.193436627],
           [-1.528380532, 47.193258573],
           [-1.525230388, 47.189336609],
-          [-1.521581075, 47.185521524]
+          [-1.523191766, 47.18713948],
+          [-1.521550589, 47.185524114]
         ]
       },
       "properties": {
@@ -3839,7 +3846,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
-        "calculated_length": 1064.056
+        "calculated_length": 1065.19
       }
     },
     {
@@ -4380,9 +4387,10 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.518, 47.180972],
-          [-1.519974, 47.183684],
-          [-1.52148003, 47.18545056]
+          [-1.518112977, 47.181159705],
+          [-1.51876047, 47.182337062],
+          [-1.519799735, 47.183647557],
+          [-1.52153365, 47.185523443]
         ]
       },
       "properties": {
@@ -4395,7 +4403,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "jonction avec la structurante le long de la vélidéale impossible ?",
-        "calculated_length": 563.748
+        "calculated_length": 551.92
       }
     },
     {
@@ -16007,7 +16015,7 @@
       },
       "properties": {
         "name": "rue des Lauriers",
-        "status": "terrminé",
+        "status": "terminé",
         "type": "aucun",
         "year": 0,
         "line": "C",
