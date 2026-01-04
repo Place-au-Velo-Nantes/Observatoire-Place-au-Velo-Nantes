@@ -28,10 +28,16 @@ jobs:
       - name: Format GeoJSON
         run: npx --yes prettier --write content/voies-cyclables-brut/gvv.geojson
 
+      - name: Fix Voies Cyclables
+        run: npm run fix-voies
+
+      - name: Format Processed Data
+        run: npx --yes prettier --write "content/voies-cyclables/*.json"
+
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet content/voies-cyclables-brut/gvv.geojson; then
+          if git diff --quiet content/voies-cyclables-brut/gvv.geojson content/voies-cyclables/; then
             echo "No changes detected."
             echo "changes=false" >> $GITHUB_OUTPUT
           else
@@ -44,7 +50,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add content/voies-cyclables-brut/gvv.geojson
+          git add content/voies-cyclables-brut/gvv.geojson content/voies-cyclables/
           git commit -m "chore: update GVV GeoJSON data"
           git push
 

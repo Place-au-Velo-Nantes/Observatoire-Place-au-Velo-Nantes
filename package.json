@@ -6,6 +6,7 @@
     "build": "nuxt generate",
     "dev": "nuxt dev",
     "postinstall": "nuxt prepare",
+    "pregenerate": "npm run fix-voies",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "test": "vitest",

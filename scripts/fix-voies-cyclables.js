@@ -287,7 +287,8 @@ const processVoiesFiles = () => {
   // Read all JSON files from brut directory, excluding dangers.geojson and gvv-missing-info.geojson
   const files = fs
     .readdirSync(brutDir)
-    .filter((file) => file.endsWith('.geojson') && file !== 'dangers.geojson' && file !== 'gvv-missing-info.geojson');
+    .filter((file) => file.endsWith('.geojson') && file !== 'dangers.geojson' && file !== 'gvv-missing-info.geojson')
+    .sort();
 
   console.log(`Found ${files.length} files to process...`);
 
