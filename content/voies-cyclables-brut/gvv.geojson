@@ -5523,7 +5523,7 @@
         "year": 2008,
         "line": "",
         "infrastructure": "structurante",
-        "quality": "non satisfaisant ",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 1390.048
@@ -8452,7 +8452,7 @@
         "name": "Rue Bertrand Geslin",
         "status": "Terminé",
         "type": "Aucun",
-        "year": 2024,
+        "year": 0,
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -11133,7 +11133,7 @@
       },
       "properties": {
         "name": "la Montagne",
-        "status": "à définir",
+        "status": "terminé",
         "type": "aucun",
         "year": 0,
         "line": "A",
