@@ -415,7 +415,7 @@
         "year": 2013,
         "line": "F",
         "infrastructure": "magistrale",
-        "quality": "non non satisnon non satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 80.014
@@ -2625,7 +2625,7 @@
         "year": 0,
         "line": "I",
         "infrastructure": "maillage",
-        "quality": "Non satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 862.805
@@ -5523,7 +5523,7 @@
         "year": 2008,
         "line": "",
         "infrastructure": "structurante",
-        "quality": "Non satisfaisant ",
+        "quality": "non satisfaisant ",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 1390.048
@@ -15411,7 +15411,7 @@
       },
       "properties": {
         "name": "Rue Anatole de Monzie",
-        "status": "termine",
+        "status": "terminé",
         "type": "bande cyclable",
         "year": 2008,
         "line": "",
@@ -15439,7 +15439,7 @@
       },
       "properties": {
         "name": "Monzie - mangin",
-        "status": "termine",
+        "status": "terminé",
         "type": "monodirectionnelle",
         "year": 2017,
         "line": "",
@@ -15494,7 +15494,7 @@
         "year": 2008,
         "line": "",
         "infrastructure": "magistrale",
-        "quality": "non satisfaisante",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 762.225
@@ -16332,7 +16332,7 @@
       },
       "properties": {
         "name": "rue Albert Londres",
-        "status": "terminé ",
+        "status": "terminé",
         "type": "bande cyclable",
         "year": 2008,
         "line": "F,H",
