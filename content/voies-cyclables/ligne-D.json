@@ -93,42 +93,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.614371,
-            47.249639
-          ],
-          [
-            -1.60756,
-            47.247795
-          ],
-          [
-            -1.604213,
-            47.246484
-          ],
-          [
-            -1.586059,
-            47.237598
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Route de Vannes",
-        "status": "postponed",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": ""
+        "cycloscore": "B"
       }
     },
     {
@@ -267,13 +232,13 @@
         "line": "D",
         "name": "Cours Olivier de Clisson",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#19"
+        "id": "sans-titre#17"
       }
     },
     {
@@ -429,13 +394,13 @@
         "line": "D",
         "name": "Quai de Malakoff Ouest",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2015",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#36"
+        "id": "sans-titre#34"
       }
     },
     {
@@ -456,8 +421,16 @@
             47.212735555
           ],
           [
-            -1.535563031,
-            47.210723477
+            -1.535555749,
+            47.210683847
+          ],
+          [
+            -1.535530325,
+            47.21060123
+          ],
+          [
+            -1.535379239,
+            47.210521558
           ]
         ]
       },
@@ -465,13 +438,13 @@
         "line": "D",
         "name": "Pont Willy-Brandt",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2020",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#42"
+        "id": "sans-titre#40"
       }
     },
     {
@@ -480,8 +453,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.535562978,
-            47.210723476
+            -1.535383724,
+            47.210524639
+          ],
+          [
+            -1.534982518,
+            47.210533405
+          ],
+          [
+            -1.534581311,
+            47.210512487
+          ],
+          [
+            -1.534455129,
+            47.210524291
+          ],
+          [
+            -1.534042187,
+            47.210588041
           ],
           [
             -1.53401923,
@@ -493,7 +482,7 @@
         "line": "D",
         "name": "Boulevard Maurice Bertin",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -761,7 +750,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#71"
+        "id": "sans-titre#68"
       }
     },
     {
@@ -900,7 +889,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#84"
+        "id": "sans-titre#80"
       }
     },
     {
@@ -983,25 +972,29 @@
             47.208568
           ],
           [
-            -1.532485358,
-            47.210788833
+            -1.531441728,
+            47.209512506
           ],
           [
-            -1.534029769,
-            47.210553282
+            -1.532355174,
+            47.210637885
+          ],
+          [
+            -1.532516943,
+            47.210786566
           ]
         ]
       },
       "properties": {
         "line": "D",
-        "name": "bd Millerand et Bertin",
+        "name": "bd Millerand",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
+        "doneAt": "01/01/2014",
+        "type": "bilaterale",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": "E"
+        "cycloscore": "B"
       }
     },
     {
@@ -1041,7 +1034,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#115"
+        "id": "sans-titre#106"
       }
     },
     {
@@ -1749,6 +1742,397 @@
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.588485399,
+            47.238785066
+          ],
+          [
+            -1.588117853,
+            47.238616952
+          ],
+          [
+            -1.587978572,
+            47.238553909
+          ],
+          [
+            -1.587850898,
+            47.238501373
+          ],
+          [
+            -1.587696141,
+            47.238627459
+          ],
+          [
+            -1.587583943,
+            47.238669488
+          ],
+          [
+            -1.587506564,
+            47.238677368
+          ],
+          [
+            -1.58730925,
+            47.23857755
+          ],
+          [
+            -1.587061639,
+            47.238459345
+          ],
+          [
+            -1.586837242,
+            47.238343766
+          ],
+          [
+            -1.586492242,
+            47.238159629
+          ],
+          [
+            -1.586275582,
+            47.238044049
+          ],
+          [
+            -1.586279451,
+            47.237965244
+          ],
+          [
+            -1.586256238,
+            47.237852291
+          ],
+          [
+            -1.586275582,
+            47.23777086
+          ],
+          [
+            -1.586182729,
+            47.237639518
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Routes de Vannes Chêne vert",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.588485254,
+            47.238785754
+          ],
+          [
+            -1.588749293,
+            47.23891779
+          ],
+          [
+            -1.589309104,
+            47.239204118
+          ],
+          [
+            -1.589464578,
+            47.239277688
+          ],
+          [
+            -1.590286374,
+            47.239672581
+          ],
+          [
+            -1.591289892,
+            47.240184369
+          ],
+          [
+            -1.592514842,
+            47.240792111
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Route de vannes beauséjour-Ferrière",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.615013201,
+            47.249831117
+          ],
+          [
+            -1.614701316,
+            47.249727187
+          ],
+          [
+            -1.614361078,
+            47.249634805
+          ],
+          [
+            -1.613777002,
+            47.249484684
+          ],
+          [
+            -1.612041787,
+            47.24901507
+          ],
+          [
+            -1.611174179,
+            47.248784112
+          ],
+          [
+            -1.610575537,
+            47.248635674
+          ],
+          [
+            -1.609985791,
+            47.24848555
+          ],
+          [
+            -1.60979866,
+            47.248462454
+          ],
+          [
+            -1.609645553,
+            47.248362371
+          ],
+          [
+            -1.608987759,
+            47.248169903
+          ],
+          [
+            -1.608142833,
+            47.247958187
+          ],
+          [
+            -1.607575769,
+            47.247796513
+          ],
+          [
+            -1.607361201,
+            47.2477524
+          ],
+          [
+            -1.607179741,
+            47.247675412
+          ],
+          [
+            -1.605966224,
+            47.247194235
+          ],
+          [
+            -1.605297088,
+            47.246920924
+          ],
+          [
+            -1.604270928,
+            47.246509107
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Route de Vannes Sillon-forum",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bilaterale",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.604269427,
+            47.246512409
+          ],
+          [
+            -1.603979223,
+            47.246386662
+          ],
+          [
+            -1.603293846,
+            47.246021992
+          ],
+          [
+            -1.602336788,
+            47.245565104
+          ],
+          [
+            -1.60202806,
+            47.245472888
+          ],
+          [
+            -1.601571142,
+            47.24522558
+          ],
+          [
+            -1.601182145,
+            47.245036954
+          ],
+          [
+            -1.600069915,
+            47.244538617
+          ],
+          [
+            -1.599207792,
+            47.244129591
+          ],
+          [
+            -1.598707463,
+            47.243868205
+          ],
+          [
+            -1.598144144,
+            47.243595518
+          ],
+          [
+            -1.597869832,
+            47.243502405
+          ],
+          [
+            -1.597791457,
+            47.243435896
+          ],
+          [
+            -1.597517146,
+            47.243266297
+          ],
+          [
+            -1.596978319,
+            47.243010235
+          ],
+          [
+            -1.596419898,
+            47.242737544
+          ],
+          [
+            -1.595130661,
+            47.242080675
+          ],
+          [
+            -1.594288131,
+            47.241655003
+          ],
+          [
+            -1.593233938,
+            47.241124861
+          ],
+          [
+            -1.592802876,
+            47.240925324
+          ],
+          [
+            -1.592626533,
+            47.240838857
+          ],
+          [
+            -1.592508971,
+            47.240788973
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Route de Vannes mollière-ferrières",
+        "status": "done",
+        "doneAt": "01/01/2013",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.534038363,
+            47.210585144
+          ],
+          [
+            -1.533913949,
+            47.210603403
+          ],
+          [
+            -1.533663586,
+            47.210640966
+          ],
+          [
+            -1.533279691,
+            47.210699164
+          ],
+          [
+            -1.533096142,
+            47.210729944
+          ],
+          [
+            -1.532981712,
+            47.21074716
+          ],
+          [
+            -1.532838866,
+            47.210775331
+          ],
+          [
+            -1.532748244,
+            47.210791504
+          ],
+          [
+            -1.532654549,
+            47.210800895
+          ],
+          [
+            -1.532531671,
+            47.210797764
+          ],
+          [
+            -1.532517848,
+            47.210785765
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Boulevard maurice Bertin est",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E"
       }

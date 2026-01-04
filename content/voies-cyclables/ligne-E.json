@@ -571,7 +571,7 @@
         "line": "E",
         "name": "Quai Ceineray",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2019",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -630,7 +630,7 @@
         "line": "E",
         "name": "Boulevard Van Iseghem",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2019",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -721,13 +721,13 @@
         "line": "E",
         "name": "Avenue de la Libération",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#11"
+        "id": "sans-titre#10"
       }
     },
     {
@@ -789,7 +789,7 @@
         "line": "E",
         "name": "Boulevard Jean Monnet",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2014",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -832,13 +832,13 @@
         "line": "E",
         "name": "Cours Olivier de Clisson",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#19"
+        "id": "sans-titre#17"
       }
     },
     {
@@ -927,7 +927,7 @@
         "line": "E",
         "name": "Pont Général de la Motte Rouge",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2015",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -970,7 +970,7 @@
         "line": "E",
         "name": "Pont Général Audibert",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2014",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -1001,39 +1001,12 @@
         "line": "E",
         "name": "Boulevard des Martyrs Nantais de la Résistance",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2014",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.544912099,
-            47.201486787
-          ],
-          [
-            -1.544020407,
-            47.200551979
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "Place Magellan",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": ""
       }
     },
     {
@@ -1099,13 +1072,13 @@
         "line": "E",
         "name": "Pont des Bataillons FFI - Pirmil",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#46"
+        "id": "sans-titre#43"
       }
     },
     {
@@ -1561,7 +1534,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#115"
+        "id": "sans-titre#106"
       }
     },
     {
@@ -1593,7 +1566,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#117"
+        "id": "sans-titre#108"
       }
     },
     {
@@ -1619,7 +1592,7 @@
         "line": "E",
         "name": "Pont de Pirmil",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2014",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -1656,7 +1629,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#124"
+        "id": "sans-titre#115"
       }
     },
     {
@@ -1696,7 +1669,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#127"
+        "id": "sans-titre#117"
       }
     },
     {
@@ -1732,7 +1705,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#129"
+        "id": "sans-titre#119"
       }
     },
     {
@@ -2098,7 +2071,7 @@
         "line": "E",
         "name": "Rue Jules Vallès",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -2486,6 +2459,85 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.54492249,
+            47.20151984
+          ],
+          [
+            -1.544771469,
+            47.201564818
+          ],
+          [
+            -1.544581141,
+            47.201283702
+          ],
+          [
+            -1.544537424,
+            47.201211383
+          ],
+          [
+            -1.544475361,
+            47.201134076
+          ],
+          [
+            -1.54440916,
+            47.201094719
+          ],
+          [
+            -1.544297445,
+            47.201086286
+          ],
+          [
+            -1.544235382,
+            47.201100342
+          ],
+          [
+            -1.544165043,
+            47.201006167
+          ],
+          [
+            -1.544196075,
+            47.200980867
+          ],
+          [
+            -1.544218831,
+            47.200951349
+          ],
+          [
+            -1.544200212,
+            47.200897937
+          ],
+          [
+            -1.544165043,
+            47.20085858
+          ],
+          [
+            -1.544052862,
+            47.200690884
+          ],
+          [
+            -1.543968041,
+            47.200562974
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Place Mangin voie E",
+        "status": "done",
+        "doneAt": "01/01/2014",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "C"
       }
     },
     {

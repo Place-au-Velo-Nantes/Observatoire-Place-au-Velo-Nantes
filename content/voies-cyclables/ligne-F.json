@@ -24,7 +24,7 @@
         "line": "F",
         "name": "Clos Toreau Route de Clisson",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2020",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -63,7 +63,7 @@
         "line": "F",
         "name": "Pont de la Rotonde Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -90,7 +90,7 @@
         "line": "F",
         "name": "Boulevard Général de Gaulle Sud 2",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -144,7 +144,7 @@
         "line": "F",
         "name": "Avenue Jean-Claude Bonduele",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -171,7 +171,7 @@
         "line": "F",
         "name": "Pont Aristide-Briand",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -198,7 +198,7 @@
         "line": "F",
         "name": "Boulevard du Général de Gaulle Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -225,7 +225,7 @@
         "line": "F",
         "name": "Boulevard du Général de Gaulle Sud",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -252,7 +252,7 @@
         "line": "F",
         "name": "Pont Georges Clemenceau",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -279,7 +279,7 @@
         "line": "F",
         "name": "Boulevard Emile Gabory",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -434,7 +434,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#33"
+        "id": "sans-titre#31"
       }
     },
     {
@@ -490,7 +490,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#53"
+        "id": "sans-titre#50"
       }
     },
     {
@@ -564,13 +564,13 @@
         "line": "F",
         "name": "Route de Sainte Luce",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2025",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#66"
+        "id": "sans-titre#63"
       }
     },
     {
@@ -602,42 +602,6 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.502057068,
-            47.246244732
-          ],
-          [
-            -1.501703286,
-            47.246755838
-          ],
-          [
-            -1.503500678,
-            47.24764379
-          ],
-          [
-            -1.504133227,
-            47.247413191
-          ]
-        ]
-      },
-      "properties": {
-        "line": "F",
-        "name": "Rue Albert Londres/ Rue Marguerite Yourcenar",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#78"
       }
     },
     {
@@ -782,7 +746,7 @@
         "name": "Route de Carquefou",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "bilaterale",
+        "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
@@ -834,7 +798,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#102"
+        "id": "sans-titre#95"
       }
     },
     {
@@ -851,8 +815,8 @@
             47.241878
           ],
           [
-            -1.512276808,
-            47.240409903
+            -1.5087312,
+            47.241339449
           ]
         ]
       },
@@ -866,7 +830,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#103"
+        "id": "sans-titre#96"
       }
     },
     {
@@ -900,7 +864,7 @@
         "line": "F",
         "name": "Bd Emile Gabory Sud",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -945,7 +909,107 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#443"
+        "id": "sans-titre#426"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.512295872,
+            47.240418294
+          ],
+          [
+            -1.511090974,
+            47.240841413
+          ],
+          [
+            -1.508955395,
+            47.241275812
+          ],
+          [
+            -1.508797512,
+            47.241236322
+          ],
+          [
+            -1.508706106,
+            47.241343511
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de sainte Luce Cousteau-Perray",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E",
+        "id": "sans-titre#482"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.504135315,
+            47.247412953
+          ],
+          [
+            -1.503924246,
+            47.24741099
+          ],
+          [
+            -1.503840396,
+            47.247334443
+          ],
+          [
+            -1.503421149,
+            47.247122465
+          ],
+          [
+            -1.502906487,
+            47.24684964
+          ],
+          [
+            -1.502426085,
+            47.246609356
+          ],
+          [
+            -1.502212125,
+            47.246507291
+          ],
+          [
+            -1.502113819,
+            47.246360082
+          ],
+          [
+            -1.502079122,
+            47.246271756
+          ],
+          [
+            -1.502038643,
+            47.246206984
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "rue Albert Londres",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E",
+        "id": "sans-titre#511"
       }
     },
     {

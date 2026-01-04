@@ -304,42 +304,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.502057068,
-            47.246244732
-          ],
-          [
-            -1.501703286,
-            47.246755838
-          ],
-          [
-            -1.503500678,
-            47.24764379
-          ],
-          [
-            -1.504133227,
-            47.247413191
-          ]
-        ]
-      },
-      "properties": {
-        "line": "H",
-        "name": "Rue Albert Londres/ Rue Marguerite Yourcenar",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#78"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.48641902,
             47.247546386
           ],
@@ -450,7 +414,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#102"
+        "id": "sans-titre#95"
       }
     },
     {
@@ -494,7 +458,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#104"
+        "id": "sans-titre#97"
       }
     },
     {
@@ -530,7 +494,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#129"
+        "id": "sans-titre#119"
       }
     },
     {
@@ -582,7 +546,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#197"
+        "id": "sans-titre#184"
       }
     },
     {
@@ -1436,7 +1400,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#334"
+        "id": "sans-titre#317"
       }
     },
     {
@@ -1496,7 +1460,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#335"
+        "id": "sans-titre#318"
       }
     },
     {
@@ -1852,7 +1816,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "D"
@@ -1895,6 +1859,66 @@
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.504135315,
+            47.247412953
+          ],
+          [
+            -1.503924246,
+            47.24741099
+          ],
+          [
+            -1.503840396,
+            47.247334443
+          ],
+          [
+            -1.503421149,
+            47.247122465
+          ],
+          [
+            -1.502906487,
+            47.24684964
+          ],
+          [
+            -1.502426085,
+            47.246609356
+          ],
+          [
+            -1.502212125,
+            47.246507291
+          ],
+          [
+            -1.502113819,
+            47.246360082
+          ],
+          [
+            -1.502079122,
+            47.246271756
+          ],
+          [
+            -1.502038643,
+            47.246206984
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "rue Albert Londres",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E",
+        "id": "sans-titre#511"
       }
     }
   ]

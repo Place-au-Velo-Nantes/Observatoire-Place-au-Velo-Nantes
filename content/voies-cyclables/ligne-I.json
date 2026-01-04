@@ -102,7 +102,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#84"
+        "id": "sans-titre#80"
       }
     },
     {
@@ -125,11 +125,11 @@
         "name": "Chemin de la Bastille La Montagne",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "aucun",
+        "quality": "satisfactory",
         "infrastructure": "maillage",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -165,7 +165,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "E"
@@ -391,75 +391,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.67526,
-            47.195109
+            -1.696011536,
+            47.191958728
           ],
           [
-            -1.676638,
-            47.193927
+            -1.69451331,
+            47.191008
           ],
           [
-            -1.678419,
-            47.193766
+            -1.693296235,
+            47.190212217
           ],
           [
-            -1.688295,
-            47.196689
+            -1.692953044,
+            47.190064499
           ],
           [
-            -1.690699,
-            47.196514
+            -1.691760721,
+            47.189664445
           ],
           [
-            -1.694089,
-            47.194064
+            -1.690289128,
+            47.188842067
           ],
           [
-            -1.694475,
-            47.192869
+            -1.690363962,
+            47.188096875
           ],
           [
-            -1.695891,
-            47.191819
-          ]
-        ]
-      },
-      "properties": {
-        "line": "I",
-        "name": "Indre-La Montagne",
-        "status": "done",
-        "doneAt": "01/01/2018",
-        "type": "bilaterale",
-        "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.695891,
-            47.191819
+            -1.690659887,
+            47.187652189
           ],
           [
-            -1.69293,
-            47.190091
+            -1.691817174,
+            47.186097303
           ],
           [
-            -1.689754,
-            47.188662
+            -1.692836236,
+            47.184417163
           ],
           [
-            -1.693018704,
-            47.184134689
-          ],
-          [
-            -1.692633408,
-            47.182847431
+            -1.693038892,
+            47.18406002
           ]
         ]
       },
@@ -468,11 +441,11 @@
         "name": "Ouest de La Montagne",
         "status": "postponed",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "aucun",
+        "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -571,11 +544,11 @@
         "name": "La montagne - Brain",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "inconnu",
-        "quality": "not-rated-yet",
+        "type": "aucun",
+        "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -3965,7 +3938,7 @@
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "zone-de-rencontre",
-        "quality": "not-rated-yet",
+        "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "E"
@@ -4143,6 +4116,408 @@
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.693037114,
+            47.184070044
+          ],
+          [
+            -1.692958008,
+            47.183947153
+          ],
+          [
+            -1.692856299,
+            47.183390302
+          ],
+          [
+            -1.692669833,
+            47.18287953
+          ]
+        ]
+      },
+      "properties": {
+        "line": "I",
+        "name": "Rue Alexis Maniverol",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.679175614,
+            47.193913444
+          ],
+          [
+            -1.678748428,
+            47.193807887
+          ],
+          [
+            -1.678486292,
+            47.193761706
+          ],
+          [
+            -1.678195028,
+            47.19372652
+          ],
+          [
+            -1.677962018,
+            47.19372652
+          ],
+          [
+            -1.677651337,
+            47.193744113
+          ],
+          [
+            -1.677308294,
+            47.193783697
+          ],
+          [
+            -1.677106852,
+            47.193832292
+          ],
+          [
+            -1.676880314,
+            47.193898266
+          ],
+          [
+            -1.676708793,
+            47.193951044
+          ],
+          [
+            -1.676475782,
+            47.194043406
+          ],
+          [
+            -1.676275134,
+            47.194148962
+          ],
+          [
+            -1.676077722,
+            47.194272111
+          ],
+          [
+            -1.675895371,
+            47.194427313
+          ],
+          [
+            -1.675762685,
+            47.194563655
+          ],
+          [
+            -1.675652652,
+            47.194684604
+          ],
+          [
+            -1.675562037,
+            47.194809951
+          ],
+          [
+            -1.675461713,
+            47.194944094
+          ],
+          [
+            -1.675348444,
+            47.195109023
+          ],
+          [
+            -1.675286955,
+            47.195203582
+          ],
+          [
+            -1.675228702,
+            47.195295941
+          ]
+        ]
+      },
+      "properties": {
+        "line": "I",
+        "name": "rue du bac est",
+        "status": "done",
+        "doneAt": "01/01/2010",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.693835364,
+            47.194191009
+          ],
+          [
+            -1.693427195,
+            47.19457456
+          ],
+          [
+            -1.693162437,
+            47.194820681
+          ],
+          [
+            -1.692934451,
+            47.195001835
+          ]
+        ]
+      },
+      "properties": {
+        "line": "I",
+        "name": "rue du bac ouest rupture",
+        "status": "done",
+        "doneAt": "01/01/2018",
+        "type": "bilaterale",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.696034165,
+            47.191964976
+          ],
+          [
+            -1.695711375,
+            47.192025907
+          ],
+          [
+            -1.695534609,
+            47.192104246
+          ],
+          [
+            -1.695188763,
+            47.192382784
+          ],
+          [
+            -1.695006873,
+            47.192529016
+          ],
+          [
+            -1.694700496,
+            47.192775617
+          ],
+          [
+            -1.69453654,
+            47.192925329
+          ],
+          [
+            -1.694428943,
+            47.193075042
+          ],
+          [
+            -1.694352088,
+            47.19323868
+          ],
+          [
+            -1.694288043,
+            47.193487618
+          ],
+          [
+            -1.694238047,
+            47.193682793
+          ],
+          [
+            -1.694194496,
+            47.193776797
+          ],
+          [
+            -1.694066405,
+            47.193971768
+          ],
+          [
+            -1.693846088,
+            47.194191109
+          ]
+        ]
+      },
+      "properties": {
+        "line": "I",
+        "name": "rue du bac chat qui guette",
+        "status": "done",
+        "doneAt": "01/01/2018",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.692946619,
+            47.195003068
+          ],
+          [
+            -1.692651674,
+            47.195229252
+          ],
+          [
+            -1.692306167,
+            47.195489792
+          ],
+          [
+            -1.691904392,
+            47.195793235
+          ],
+          [
+            -1.691592593,
+            47.196030868
+          ],
+          [
+            -1.691289221,
+            47.196228417
+          ],
+          [
+            -1.691027984,
+            47.196377294
+          ],
+          [
+            -1.69074568,
+            47.1964775
+          ]
+        ]
+      },
+      "properties": {
+        "line": "I",
+        "name": "rue du bac ouest",
+        "status": "done",
+        "doneAt": "01/01/2018",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.690754932,
+            47.196478557
+          ],
+          [
+            -1.690432108,
+            47.196578613
+          ],
+          [
+            -1.690131937,
+            47.196645959
+          ],
+          [
+            -1.689843094,
+            47.196694063
+          ],
+          [
+            -1.689553566,
+            47.196715322
+          ],
+          [
+            -1.689264723,
+            47.19674226
+          ],
+          [
+            -1.68894473,
+            47.196734564
+          ],
+          [
+            -1.688715355,
+            47.196721094
+          ],
+          [
+            -1.688333062,
+            47.196667218
+          ],
+          [
+            -1.688194305,
+            47.196634507
+          ],
+          [
+            -1.686880352,
+            47.196220811
+          ],
+          [
+            -1.686030813,
+            47.195955274
+          ],
+          [
+            -1.68489048,
+            47.195593494
+          ],
+          [
+            -1.683982361,
+            47.195309083
+          ],
+          [
+            -1.683403036,
+            47.195130816
+          ],
+          [
+            -1.682927295,
+            47.194967257
+          ],
+          [
+            -1.681981475,
+            47.194667078
+          ],
+          [
+            -1.681397714,
+            47.19451036
+          ],
+          [
+            -1.680616139,
+            47.194281375
+          ],
+          [
+            -1.67987473,
+            47.1941044
+          ],
+          [
+            -1.679169439,
+            47.193909087
+          ]
+        ]
+      },
+      "properties": {
+        "line": "I",
+        "name": "rue du bac Indret",
+        "status": "done",
+        "doneAt": "01/01/2018",
+        "type": "bilaterale",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "C"
       }
     }
   ]

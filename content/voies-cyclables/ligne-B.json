@@ -36,7 +36,7 @@
         "line": "B",
         "name": "Boulevard de Sarrebruck 3",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "voie-verte",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -222,13 +222,13 @@
         "line": "B",
         "name": "Quai de Malakoff Ouest",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2015",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#36"
+        "id": "sans-titre#34"
       }
     },
     {
@@ -298,7 +298,7 @@
         "line": "B",
         "name": "Quai de Malakoff Est",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2015",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -333,7 +333,7 @@
         "line": "B",
         "name": "Boulevard de Sarrebruck 1",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2015",
         "type": "voie-verte",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -368,7 +368,7 @@
         "line": "B",
         "name": "Boulevard de Sarrebruck 2",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2015",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -407,7 +407,7 @@
         "line": "B",
         "name": "Chemin des bateliers Ouest",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2010",
         "type": "voie-verte",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -454,7 +454,7 @@
         "line": "B",
         "name": "Chemin des bateliers Est",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2010",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -494,7 +494,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "V"
+        "cycloscore": "C"
       }
     },
     {
@@ -709,7 +709,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#74"
+        "id": "sans-titre#71"
       }
     },
     {
