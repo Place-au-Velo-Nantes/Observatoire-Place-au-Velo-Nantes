@@ -2516,7 +2516,15 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.474825263, 47.233310363],
+          [-1.475210101, 47.232725472],
+          [-1.475090694, 47.232731927],
+          [-1.474977103, 47.232829202],
+          [-1.474970901, 47.23291582],
+          [-1.474858252, 47.23311957],
+          [-1.474725265, 47.233288897],
+          [-1.474621842, 47.233471607],
+          [-1.474475336, 47.23385547],
+          [-1.474201646, 47.234282513],
           [-1.473155, 47.23583],
           [-1.468134, 47.239997],
           [-1.467233, 47.241162],
@@ -2547,7 +2555,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "",
         "commentaire sur les données": "inhomogène, à redécouper",
-        "calculated_length": 9535.688
+        "calculated_length": 9613.509
       }
     },
     {
@@ -10951,7 +10959,7 @@
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "largeur 1,75m",
         "calculated_length": 1586.769
       }
     },
@@ -13761,7 +13769,7 @@
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "D",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "largeur 2,2m",
         "calculated_length": 1047.452
       }
     },
@@ -13785,13 +13793,13 @@
       "properties": {
         "name": "Rue de pornic  2",
         "status": "terminé",
-        "type": "bidirectionnelle",
+        "type": "voie verte",
         "year": 2018,
         "line": "G",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "D",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "largeur 2,2m",
         "calculated_length": 430.674
       }
     },
@@ -13929,7 +13937,7 @@
         "name": "Rue de Nantes 3",
         "status": "terminé",
         "type": "bande cyclable",
-        "year": 2018,
+        "year": 2016,
         "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -13953,12 +13961,12 @@
       "properties": {
         "name": "Rue de Nantes 4",
         "status": "terminé",
-        "type": "monodirectionnelle",
-        "year": 2018,
+        "type": "bande cyclable",
+        "year": 2016,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "D",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 130.498
       }
@@ -13978,13 +13986,13 @@
       "properties": {
         "name": "Rue de Nantes 5",
         "status": "terminé",
-        "type": "bande cyclable",
-        "year": 2018,
+        "type": "monodirectionnelle",
+        "year": 2016,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "largeur 1,4 m",
         "calculated_length": 609.358
       }
     },
@@ -14005,13 +14013,13 @@
       "properties": {
         "name": "M751A 6",
         "status": "terminé",
-        "type": "aucun",
-        "year": 2018,
+        "type": "monodirectionnelle",
+        "year": 2016,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "largeur 1,4 m",
         "calculated_length": 374.851
       }
     },
@@ -14035,12 +14043,12 @@
         "name": "M751A 5",
         "status": "terminé",
         "type": "monodirectionnelle",
-        "year": 2018,
+        "year": 2016,
         "line": "G",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "D",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "largeur 1,4 m",
         "calculated_length": 634.425
       }
     },
@@ -14057,13 +14065,13 @@
       "properties": {
         "name": "M751A 4",
         "status": "terminé",
-        "type": "bande cyclable",
-        "year": 2018,
+        "type": "monodirectionnelle",
+        "year": 2016,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "largeur 1,4 m",
         "calculated_length": 78.692
       }
     },
@@ -14083,12 +14091,12 @@
         "name": "M751A 3",
         "status": "terminé",
         "type": "monodirectionnelle",
-        "year": 2018,
+        "year": 2016,
         "line": "G",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "D",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "largeur 1,4 m",
         "calculated_length": 298.599
       }
     },
@@ -14116,7 +14124,7 @@
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "D",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "largeur 1,4 m",
         "calculated_length": 2028.194
       }
     },
@@ -14550,8 +14558,9 @@
           [-1.615608594, 47.176918048],
           [-1.617350394, 47.176934807],
           [-1.618331619, 47.176884059],
-          [-1.61998477, 47.176470822],
-          [-1.623835013, 47.175071595]
+          [-1.619173928, 47.17669345],
+          [-1.619430603, 47.176631964],
+          [-1.620254287, 47.176362124]
         ]
       },
       "properties": {
@@ -14564,7 +14573,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
-        "calculated_length": 2038.411
+        "calculated_length": 1731.372
       }
     },
     {
@@ -14663,7 +14672,7 @@
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "cycloscore E plutôt?",
         "calculated_length": 301.501
       }
     },
@@ -14698,13 +14707,13 @@
       "properties": {
         "name": "Allée Marie Marvingt",
         "status": "terminé",
-        "type": "bidirectionnelle",
+        "type": "voie verte",
         "year": 2008,
         "line": "G",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "discontinuité à grande ouche",
         "calculated_length": 974.439
       }
     },
@@ -17426,6 +17435,110 @@
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "bande supprimée pour travaux",
         "calculated_length": 546.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.480957744, 47.229565617],
+          [-1.480892783, 47.229599817],
+          [-1.480832201, 47.229635999],
+          [-1.480736583, 47.229691512],
+          [-1.480547751, 47.229806916],
+          [-1.480468192, 47.229858959],
+          [-1.480378413, 47.229908524],
+          [-1.480167246, 47.230027496],
+          [-1.480043162, 47.230101843],
+          [-1.479865785, 47.230212931],
+          [-1.479755569, 47.230292234],
+          [-1.479588156, 47.230417733],
+          [-1.479410789, 47.230554035],
+          [-1.479289647, 47.23064894],
+          [-1.479177971, 47.23072973],
+          [-1.479044286, 47.230835064],
+          [-1.478875678, 47.230963931],
+          [-1.478715261, 47.231074797],
+          [-1.478597017, 47.23114716],
+          [-1.478486801, 47.23121308],
+          [-1.478344683, 47.231279941],
+          [-1.478177535, 47.231344869],
+          [-1.478040313, 47.231391954],
+          [-1.47777956, 47.231484995],
+          [-1.477595285, 47.231560801],
+          [-1.477384343, 47.231651502],
+          [-1.477196958, 47.231727477],
+          [-1.477067765, 47.231783484],
+          [-1.476867332, 47.231868535],
+          [-1.476751277, 47.231915619],
+          [-1.476556858, 47.231998253],
+          [-1.476427664, 47.232052772],
+          [-1.476153566, 47.232167393],
+          [-1.47597377, 47.232250348],
+          [-1.475820489, 47.2323351],
+          [-1.475605181, 47.232452121],
+          [-1.475349699, 47.232600465],
+          [-1.475252621, 47.232662914],
+          [-1.475205907, 47.232722884]
+        ]
+      },
+      "properties": {
+        "name": "Promenade de Bellevue",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 563.892
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.642622422, 47.148206235],
+          [-1.64334474, 47.148015193],
+          [-1.644307831, 47.147796857]
+        ]
+      },
+      "properties": {
+        "name": "M751A 2",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2016,
+        "line": "G",
+        "infrastructure": "structurante",
+        "quality": "satisfaisante",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "largeur 1,4 m",
+        "calculated_length": 135.731
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.62026145, 47.17635993],
+          [-1.623786054, 47.175092363]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Nelson Mandela",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2025,
+        "line": "G",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisante",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "largeur 2 m",
+        "calculated_length": 302.072
       }
     }
   ]

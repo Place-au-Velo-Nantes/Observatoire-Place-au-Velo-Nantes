@@ -1648,7 +1648,7 @@
         "name": "Rue de pornic  2",
         "status": "done",
         "doneAt": "01/01/2018",
-        "type": "bidirectionnelle",
+        "type": "voie-verte",
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
@@ -1914,7 +1914,7 @@
         "line": "G",
         "name": "Rue de Nantes 3",
         "status": "done",
-        "doneAt": "01/01/2018",
+        "doneAt": "01/01/2016",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -1953,12 +1953,12 @@
         "line": "G",
         "name": "Rue de Nantes 4",
         "status": "done",
-        "doneAt": "01/01/2018",
-        "type": "bilaterale",
-        "quality": "satisfactory",
+        "doneAt": "01/01/2016",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": "D"
+        "cycloscore": "E"
       }
     },
     {
@@ -1992,12 +1992,12 @@
         "line": "G",
         "name": "Rue de Nantes 5",
         "status": "done",
-        "doneAt": "01/01/2018",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
+        "doneAt": "01/01/2016",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": "E"
+        "cycloscore": "D"
       }
     },
     {
@@ -2039,12 +2039,12 @@
         "line": "G",
         "name": "M751A 6",
         "status": "done",
-        "doneAt": "01/01/2018",
-        "type": "aucun",
-        "quality": "unsatisfactory",
+        "doneAt": "01/01/2016",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": "E"
+        "cycloscore": "D"
       }
     },
     {
@@ -2094,7 +2094,7 @@
         "line": "G",
         "name": "M751A 5",
         "status": "done",
-        "doneAt": "01/01/2018",
+        "doneAt": "01/01/2016",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
@@ -2125,12 +2125,12 @@
         "line": "G",
         "name": "M751A 4",
         "status": "done",
-        "doneAt": "01/01/2018",
-        "type": "bandes-cyclables",
-        "quality": "unsatisfactory",
+        "doneAt": "01/01/2016",
+        "type": "bilaterale",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": "E"
+        "cycloscore": "D"
       }
     },
     {
@@ -2164,7 +2164,7 @@
         "line": "G",
         "name": "M751A 3",
         "status": "done",
-        "doneAt": "01/01/2018",
+        "doneAt": "01/01/2016",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "structurante",
@@ -2594,12 +2594,16 @@
             47.176884059
           ],
           [
-            -1.61998477,
-            47.176470822
+            -1.619173928,
+            47.17669345
           ],
           [
-            -1.623835013,
-            47.175071595
+            -1.619430603,
+            47.176631964
+          ],
+          [
+            -1.620254287,
+            47.176362124
           ]
         ]
       },
@@ -2867,7 +2871,7 @@
         "name": "Allée Marie Marvingt",
         "status": "done",
         "doneAt": "01/01/2008",
-        "type": "bidirectionnelle",
+        "type": "voie-verte",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
@@ -3041,6 +3045,64 @@
         "link": "",
         "cycloscore": "E",
         "id": "sans-titre#480"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.642622422,
+            47.148206235
+          ],
+          [
+            -1.64334474,
+            47.148015193
+          ],
+          [
+            -1.644307831,
+            47.147796857
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "M751A 2",
+        "status": "done",
+        "doneAt": "01/01/2016",
+        "type": "bilaterale",
+        "quality": "not-rated-yet",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.62026145,
+            47.17635993
+          ],
+          [
+            -1.623786054,
+            47.175092363
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Boulevard Nelson Mandela-2",
+        "status": "done",
+        "doneAt": "01/01/2025",
+        "type": "bilaterale",
+        "quality": "not-rated-yet",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "B"
       }
     },
     {
