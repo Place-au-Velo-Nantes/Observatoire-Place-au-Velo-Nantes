@@ -112,7 +112,7 @@ const fixStatus = (status, context, invalidValues) => {
 const fixQuality = (quality, context, invalidValues) => {
   if (quality === 'satisfaisant') return 'satisfactory';
   else if (quality === 'non satisfaisant' || quality === 'non satisafaisant') return 'unsatisfactory';
-  else if (quality !== null && quality !== '') {
+  else if (quality !== null && quality !== '' && quality !== undefined) {
     if (invalidValues && context) {
       invalidValues.push({
         name: context.name,
