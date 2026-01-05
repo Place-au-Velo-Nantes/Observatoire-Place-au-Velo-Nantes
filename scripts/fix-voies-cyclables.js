@@ -204,13 +204,13 @@ const addDangersToLines = () => {
       // Split by comma and add to all specified lines
       const lines = targetLines.split(',').map((line) => line.trim());
       lines.forEach((lineId) => {
+        // Remove quotes and extra spaces
+        lineId = lineId.replace(/['"]/g, '').trim().toUpperCase();
+
         // Normalize line IDs (handle special cases)
         if (lineId === '?' || lineId === 'M' || lineId === 'S') {
           lineId = 'X';
         }
-
-        // Remove quotes and extra spaces
-        lineId = lineId.replace(/['"]/g, '').trim();
 
         // Split complex IDs like E/G into separate lines [E, G]
         if (lineId.includes('/')) {
@@ -346,6 +346,8 @@ const processVoiesFiles = () => {
         const is_multiple_lines = line_letters.split(',').length > 1;
 
         line_letters.split(',').forEach((line_letter) => {
+          line_letter = line_letter.trim().toUpperCase();
+
           if (line_letter === '?' || line_letter === 'M' || line_letter === 'S') {
             line_letter = 'X';
           }
