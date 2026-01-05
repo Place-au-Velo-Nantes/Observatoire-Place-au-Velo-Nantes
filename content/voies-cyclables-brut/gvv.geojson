@@ -2031,13 +2031,38 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.502404, 47.209995],
-          [-1.507983, 47.209849],
-          [-1.512017, 47.209062],
-          [-1.513905, 47.208275],
-          [-1.518626, 47.207517],
-          [-1.522706538, 47.205082756],
-          [-1.523551996, 47.204845079]
+          [-1.502288718, 47.210196907],
+          [-1.502409484, 47.210199492],
+          [-1.502499321, 47.210111037],
+          [-1.502596376, 47.210076506],
+          [-1.502817138, 47.210022366],
+          [-1.503481637, 47.209976681],
+          [-1.504566928, 47.209988241],
+          [-1.50555769, 47.210007634],
+          [-1.50673751, 47.20998647],
+          [-1.507286348, 47.209949237],
+          [-1.507953021, 47.209866761],
+          [-1.509925512, 47.209644938],
+          [-1.510222194, 47.209548044],
+          [-1.510826839, 47.209443961],
+          [-1.511030338, 47.209388323],
+          [-1.512009346, 47.209057012],
+          [-1.513095531, 47.208627303],
+          [-1.513987975, 47.208345261],
+          [-1.515124224, 47.208142069],
+          [-1.516105213, 47.208030211],
+          [-1.516960329, 47.20788757],
+          [-1.517791803, 47.207686602],
+          [-1.518219206, 47.207609186],
+          [-1.518402995, 47.207550987],
+          [-1.5185504, 47.207485635],
+          [-1.519509934, 47.207056518],
+          [-1.519995076, 47.20676127],
+          [-1.520410203, 47.206531658],
+          [-1.520720296, 47.206318836],
+          [-1.522221103, 47.205494218],
+          [-1.522890193, 47.205152037],
+          [-1.523687065, 47.204943243]
         ]
       },
       "properties": {
@@ -2049,8 +2074,8 @@
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "trace à revoir ?",
-        "calculated_length": 1756.143
+        "commentaire sur les données": "",
+        "calculated_length": 1774.616
       }
     },
     {
@@ -2582,7 +2607,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.485409, 47.212794],
+          [-1.485187183, 47.2126956],
           [-1.483143, 47.211792],
           [-1.480998, 47.213716],
           [-1.47941, 47.214241],
@@ -2602,7 +2627,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
-        "calculated_length": 1721.344
+        "calculated_length": 1701.293
       }
     },
     {
@@ -2861,8 +2886,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.485409, 47.212794],
-          [-1.490902, 47.211569],
+          [-1.485192335, 47.212694742],
+          [-1.490863463, 47.211616121],
           [-1.496095, 47.21122],
           [-1.502404, 47.209995]
         ]
@@ -2877,7 +2902,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "trace à revoir ?",
-        "calculated_length": 1330.119
+        "calculated_length": 1341.765
       }
     },
     {
@@ -2885,10 +2910,26 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.523561714, 47.204845079],
-          [-1.526565, 47.203931],
-          [-1.529526, 47.202386],
-          [-1.534032, 47.20049]
+          [-1.523713547, 47.204942042],
+          [-1.526285159, 47.204096105],
+          [-1.52693032, 47.203830409],
+          [-1.527284593, 47.203612242],
+          [-1.528654533, 47.202960566],
+          [-1.528843851, 47.20289924],
+          [-1.52925033, 47.202720139],
+          [-1.52971946, 47.202466323],
+          [-1.530031685, 47.202291964],
+          [-1.53045648, 47.201939732],
+          [-1.530605181, 47.201823313],
+          [-1.530844961, 47.201690391],
+          [-1.531172725, 47.201525621],
+          [-1.531470587, 47.201396301],
+          [-1.53194888, 47.201237667],
+          [-1.532760337, 47.201037657],
+          [-1.533094239, 47.200929629],
+          [-1.533397601, 47.20079766],
+          [-1.533724047, 47.200677661],
+          [-1.534069247, 47.200532178]
         ]
       },
       "properties": {
@@ -2900,8 +2941,8 @@
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "trace à revoir ?",
-        "calculated_length": 933.002
+        "commentaire sur les données": "",
+        "calculated_length": 933.448
       }
     },
     {
@@ -2909,9 +2950,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.534026687, 47.200489723],
-          [-1.535103, 47.199992],
-          [-1.540734158, 47.198562838],
+          [-1.534076349, 47.20053401],
+          [-1.534992927, 47.200161758],
+          [-1.534869703, 47.199972979],
+          [-1.535558486, 47.199757235],
+          [-1.536478148, 47.199507502],
+          [-1.539308609, 47.198875964],
+          [-1.540654869, 47.198480856],
+          [-1.541086545, 47.198238205],
           [-1.541263118, 47.197906544]
         ]
       },
@@ -2925,7 +2971,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "chemin le long des arbres interdit (autorisé jusqu'en 2020)",
-        "calculated_length": 637.112
+        "calculated_length": 654.629
       }
     },
     {
@@ -3062,7 +3108,7 @@
         "year": 2014,
         "line": "D",
         "infrastructure": "structurante",
-        "quality": "non satisfaisant",
+        "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 285.897
@@ -3689,8 +3735,17 @@
         "type": "LineString",
         "coordinates": [
           [-1.471243032, 47.225243646],
-          [-1.480603, 47.214485],
-          [-1.485409, 47.212794]
+          [-1.471642739, 47.224537371],
+          [-1.472597841, 47.223592876],
+          [-1.473806494, 47.222041367],
+          [-1.478990595, 47.216201452],
+          [-1.48072541, 47.214550825],
+          [-1.48224916, 47.213756818],
+          [-1.484170628, 47.21312238],
+          [-1.484539845, 47.213023378],
+          [-1.485100162, 47.212934971],
+          [-1.485196379, 47.212839942],
+          [-1.485187296, 47.212699876]
         ]
       },
       "properties": {
@@ -3703,7 +3758,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
-        "calculated_length": 1800.157
+        "calculated_length": 1800.513
       }
     },
     {
@@ -11973,7 +12028,7 @@
         "type": "LineString",
         "coordinates": [
           [-1.526851749, 47.206806399],
-          [-1.523566594, 47.204858365]
+          [-1.523706703, 47.204945028]
         ]
       },
       "properties": {
@@ -11986,7 +12041,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
-        "calculated_length": 329.927
+        "calculated_length": 315.595
       }
     },
     {
@@ -16240,9 +16295,9 @@
         "year": 2018,
         "line": "I",
         "infrastructure": "magistrale",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "présence potentielle de piétons vitesse excessive et largeur insuffisante",
         "calculated_length": 113.143
       }
     },
@@ -16443,8 +16498,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.505006334, 47.209933937],
-          [-1.504999877, 47.2098835],
+          [-1.504949811, 47.209997375],
+          [-1.504958099, 47.209910211],
           [-1.504967596, 47.209844027],
           [-1.504802962, 47.209822098],
           [-1.504431727, 47.209817712],
@@ -16468,7 +16523,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
-        "calculated_length": 182.521
+        "calculated_length": 188.972
       }
     },
     {
@@ -17588,7 +17643,7 @@
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "satisfaisante",
-        "cycloscore(optionnel)": "A",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "Zone urbaine ou pas ?",
         "calculated_length": 1891.427
       }
@@ -17703,7 +17758,7 @@
       "properties": {
         "name": "VV allée robert cheval",
         "status": "terminé",
-        "type": "voie verte ",
+        "type": "voie verte",
         "year": 0,
         "line": "B",
         "infrastructure": "structurante",
