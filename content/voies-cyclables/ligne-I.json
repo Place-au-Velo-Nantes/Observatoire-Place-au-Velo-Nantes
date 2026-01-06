@@ -3873,7 +3873,7 @@
         "doneAt": "01/01/2025",
         "type": "bilaterale",
         "quality": "satisfactory",
-        "infrastructure": "maillage",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "B"
       }
@@ -3908,7 +3908,7 @@
         "doneAt": "01/01/2025",
         "type": "voie-verte",
         "quality": "satisfactory",
-        "infrastructure": "maillage",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "B"
       }
@@ -3939,7 +3939,7 @@
         "doneAt": "01/01/2025",
         "type": "zone-de-rencontre",
         "quality": "unsatisfactory",
-        "infrastructure": "maillage",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "E"
       }
@@ -3990,7 +3990,7 @@
         "doneAt": "01/01/2025",
         "type": "voie-verte",
         "quality": "satisfactory",
-        "infrastructure": "maillage",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": ""
       }
@@ -4113,7 +4113,7 @@
         "doneAt": "01/01/2009",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
-        "infrastructure": "maillage",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": ""
       }

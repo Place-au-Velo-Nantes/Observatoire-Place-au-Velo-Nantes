@@ -1004,7 +1004,7 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
-        "infrastructure": "secondaire",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D"
       }
@@ -1071,7 +1071,7 @@
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "satisfactory",
-        "infrastructure": "secondaire",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "C"
       }
@@ -1126,7 +1126,7 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
-        "infrastructure": "secondaire",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D"
       }
@@ -1237,7 +1237,7 @@
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "satisfactory",
-        "infrastructure": "secondaire",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "C"
       }
@@ -1324,7 +1324,7 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
-        "infrastructure": "secondaire",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D"
       }
@@ -1395,7 +1395,7 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
-        "infrastructure": "secondaire",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "E"
       }

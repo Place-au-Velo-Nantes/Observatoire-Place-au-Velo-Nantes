@@ -1780,6 +1780,45 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.591592598,
+            47.158289637
+          ],
+          [
+            -1.590249099,
+            47.156950126
+          ],
+          [
+            -1.590150191,
+            47.156384047
+          ],
+          [
+            -1.590298553,
+            47.155845985
+          ],
+          [
+            -1.59113927,
+            47.154949204
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue René Mouchotte",
+        "status": "done",
+        "doneAt": "01/01/2017",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "aucune",
+        "link": "",
+        "cycloscore": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.585182838,
             47.162859755
           ],
