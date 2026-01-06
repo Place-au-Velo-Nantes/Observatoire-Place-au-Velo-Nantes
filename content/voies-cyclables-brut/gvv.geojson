@@ -4047,11 +4047,11 @@
         "status": "reporté",
         "type": "",
         "year": null,
-        "line": null,
+        "line": "",
         "infrastructure": "magistrale",
         "quality": "",
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "A redécouper",
         "calculated_length": 885.4
       }
     },
@@ -5068,7 +5068,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 203.169
       }
@@ -5248,7 +5248,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 48.579
       }
@@ -5762,7 +5762,7 @@
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "A redécouper",
         "calculated_length": 546.954
       }
     },
@@ -7126,7 +7126,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 339.342
       }
@@ -8688,7 +8688,7 @@
         "line": "I",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 152.026
       }
