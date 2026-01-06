@@ -1370,7 +1370,7 @@
           [-1.549698567, 47.199339945],
           [-1.549713448, 47.197097342],
           [-1.54975115, 47.196824084],
-          [-1.549759995, 47.195591626]
+          [-1.549741429, 47.19566787]
         ]
       },
       "properties": {
@@ -1383,7 +1383,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
-        "calculated_length": 679.135
+        "calculated_length": 670.66
       }
     },
     {
@@ -2659,7 +2659,7 @@
         "line": "H",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 1976.148
       }
@@ -4818,7 +4818,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 14.661
       }
@@ -5317,7 +5317,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 452.375
       }
@@ -5444,7 +5444,7 @@
         "line": "G,H",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 793.695
       }
@@ -5474,7 +5474,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 200.213
       }
@@ -5797,8 +5797,12 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.549865, 47.195515],
-          [-1.550187, 47.194742],
+          [-1.549724199, 47.19554093],
+          [-1.549795834, 47.195521783],
+          [-1.549864837, 47.195487437],
+          [-1.549935813, 47.195321425],
+          [-1.549991, 47.195152284],
+          [-1.550210334, 47.194755213],
           [-1.551002, 47.193831],
           [-1.552183, 47.193247],
           [-1.553985, 47.192781],
@@ -5816,7 +5820,7 @@
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
-        "calculated_length": 592.902
+        "calculated_length": 601.885
       }
     },
     {
@@ -5858,7 +5862,7 @@
         "line": "H",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 218.973
       }
@@ -6350,7 +6354,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 91.971
       }
@@ -7619,7 +7623,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 979.019
       }
@@ -7660,7 +7664,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 309.817
       }
@@ -7686,7 +7690,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 30.625
       }
@@ -7818,7 +7822,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 125.382
       }
@@ -7994,7 +7998,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 244.22
       }
@@ -8199,7 +8203,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 150.254
       }
@@ -9485,7 +9489,7 @@
         "line": "I",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 549.442
       }

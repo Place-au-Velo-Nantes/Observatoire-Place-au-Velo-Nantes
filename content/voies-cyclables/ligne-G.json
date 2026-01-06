@@ -397,8 +397,8 @@
             47.196824084
           ],
           [
-            -1.549759995,
-            47.195591626
+            -1.549741429,
+            47.19566787
           ]
         ]
       },
@@ -1160,7 +1160,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "E",
         "id": "sans-titre#181"
       }
     },
