@@ -2525,7 +2525,7 @@
         "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 3344.925
       }
@@ -5437,7 +5437,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 485.606
       }
@@ -6470,7 +6470,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 420.759
       }
@@ -10860,7 +10860,7 @@
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 408.795
       }
@@ -16485,12 +16485,12 @@
         "name": "Chemin du pré varades",
         "status": "terminé",
         "type": "voie verte",
-        "year": null,
+        "year": 0,
         "line": "A",
         "infrastructure": "",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "On manque un peu d'info sur ce tronçon noté par rapport à ce que je connais d'avant et après (LMU)",
         "calculated_length": 828.573
       }
     },
@@ -18078,6 +18078,30 @@
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 798.588
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.561667572, 47.201706169],
+          [-1.561223715, 47.20169577],
+          [-1.554884011, 47.201564002],
+          [-1.553777679, 47.201632854]
+        ]
+      },
+      "properties": {
+        "name": null,
+        "status": null,
+        "type": null,
+        "year": null,
+        "line": null,
+        "infrastructure": null,
+        "quality": null,
+        "cycloscore(optionnel)": null,
+        "commentaire sur les données": null,
+        "calculated_length": 598.404
       }
     }
   ]
