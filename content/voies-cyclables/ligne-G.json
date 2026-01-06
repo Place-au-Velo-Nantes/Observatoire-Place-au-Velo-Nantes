@@ -1345,7 +1345,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#421"
+        "id": "sans-titre#420"
       }
     },
     {
@@ -3048,7 +3048,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#477"
+        "id": "sans-titre#476"
       }
     },
     {
@@ -3076,7 +3076,7 @@
         "status": "done",
         "doneAt": "01/01/2016",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D"
@@ -3103,7 +3103,7 @@
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bilaterale",
-        "quality": "not-rated-yet",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B"

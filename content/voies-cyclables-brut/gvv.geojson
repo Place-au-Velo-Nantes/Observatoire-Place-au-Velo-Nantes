@@ -13325,40 +13325,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.556482273, 47.181275454],
-          [-1.556013815, 47.181928128],
-          [-1.555394687, 47.183250221],
-          [-1.555040906, 47.183888724],
-          [-1.554903445, 47.184070782],
-          [-1.55436484, 47.184641105],
-          [-1.554132215, 47.184875861],
-          [-1.553723358, 47.18518727],
-          [-1.553480158, 47.185503468],
-          [-1.553109876, 47.185687295],
-          [-1.55222527, 47.186960337],
-          [-1.55136601, 47.18825889],
-          [-1.551242648, 47.188577466],
-          [-1.551182729, 47.188680463]
-        ]
-      },
-      "properties": {
-        "name": "Rue de la commune de 1871",
-        "status": "terminé",
-        "type": "bande cyclable",
-        "year": 2008,
-        "line": "E",
-        "infrastructure": "structurante",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "A découper le début est du magistale",
-        "calculated_length": 925.432
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.551182729, 47.188682858],
           [-1.549903377, 47.188325171],
           [-1.548965825, 47.188111988],
@@ -17505,7 +17471,7 @@
         "year": 2016,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "satisfaisante",
+        "quality": "satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "largeur 1,4 m",
         "calculated_length": 135.731
@@ -17527,7 +17493,7 @@
         "year": 2025,
         "line": "G",
         "infrastructure": "magistrale",
-        "quality": "satisfaisante",
+        "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "largeur 2 m",
         "calculated_length": 302.072
@@ -17658,7 +17624,7 @@
         "year": 0,
         "line": "B",
         "infrastructure": "magistrale",
-        "quality": "satisfaisante",
+        "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "Zone urbaine ou pas ?",
         "calculated_length": 1891.427
@@ -18204,15 +18170,84 @@
       },
       "properties": {
         "name": "Allée du 8 mai 1945",
-        "status": "",
-        "type": "",
-        "year": null,
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
         "line": "",
         "infrastructure": "magistrale",
-        "quality": "",
-        "cycloscore(optionnel)": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 416.776
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.556470385, 47.181281966],
+          [-1.556104251, 47.181774594],
+          [-1.556029529, 47.181924413],
+          [-1.555564138, 47.182873856],
+          [-1.55534106, 47.183335775],
+          [-1.555101952, 47.183790296],
+          [-1.554941302, 47.184028981],
+          [-1.554758234, 47.184194029],
+          [-1.554460735, 47.184512372],
+          [-1.55414317, 47.184870395],
+          [-1.553704183, 47.185207635],
+          [-1.553608062, 47.18531271],
+          [-1.553567377, 47.185383899],
+          [-1.55348892, 47.185495621]
+        ]
+      },
+      "properties": {
+        "name": "Rue Victor Fortun",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "E",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 524.869
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.553480482, 47.185499128],
+          [-1.553315831, 47.185575494],
+          [-1.553217941, 47.185625205],
+          [-1.553131476, 47.185687174],
+          [-1.553062303, 47.185772649],
+          [-1.552971121, 47.185904067],
+          [-1.552781809, 47.186184744],
+          [-1.552550626, 47.186524413],
+          [-1.552252167, 47.186928712],
+          [-1.551965105, 47.187337771],
+          [-1.551665573, 47.187778774],
+          [-1.551547666, 47.187960402],
+          [-1.551418978, 47.188156359],
+          [-1.551246001, 47.188590155],
+          [-1.551182809, 47.188681386]
+        ]
+      },
+      "properties": {
+        "name": "Rue de la Commune de 1871",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "E",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 398.748
       }
     }
   ]
