@@ -8870,12 +8870,12 @@
       "properties": {
         "name": "rond point M75 basse indre",
         "status": "terminé",
-        "type": "voie verte",
-        "year": 2016,
+        "type": "bidirectionnelle",
+        "year": 2025,
         "line": "I",
         "infrastructure": "magistrale",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 74.107
       }
@@ -8897,7 +8897,7 @@
         "line": "I",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 17.581
       }
@@ -8927,7 +8927,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 171.125
       }
@@ -10646,12 +10646,28 @@
           [-1.627842306, 47.194756792],
           [-1.630498106, 47.194987928],
           [-1.631826006, 47.194970148],
-          [-1.636040175, 47.194438104],
-          [-1.638250612, 47.19432578],
-          [-1.639349043, 47.194518663],
-          [-1.644177111, 47.196285895],
+          [-1.636227192, 47.194448071],
+          [-1.637903292, 47.194473481],
+          [-1.638233606, 47.194693249],
+          [-1.63848522, 47.194659112],
+          [-1.638548107, 47.194568087],
+          [-1.639253811, 47.194571819],
+          [-1.640528449, 47.194931833],
+          [-1.644129476, 47.196320285],
+          [-1.651283882, 47.199056932],
+          [-1.652215844, 47.199427825],
           [-1.653216025, 47.19975678],
-          [-1.660676324, 47.201231463],
+          [-1.654026844, 47.199996924],
+          [-1.655005997, 47.200201877],
+          [-1.656893677, 47.200534947],
+          [-1.659311259, 47.20094517],
+          [-1.660714715, 47.201127127],
+          [-1.662266075, 47.201205629],
+          [-1.662542669, 47.201191526],
+          [-1.662756441, 47.201231963],
+          [-1.662911986, 47.201205695],
+          [-1.66426767, 47.201175552],
+          [-1.667130831, 47.201079307],
           [-1.667859015, 47.20111964],
           [-1.675457179, 47.204451987],
           [-1.678310632, 47.205556553],
@@ -10681,9 +10697,9 @@
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
-        "calculated_length": 8559.012
+        "calculated_length": 8568.802
       }
     },
     {

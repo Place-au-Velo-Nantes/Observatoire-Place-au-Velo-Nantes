@@ -1379,12 +1379,12 @@
         "line": "I",
         "name": "rond point M75 basse indre",
         "status": "done",
-        "doneAt": "01/01/2016",
-        "type": "voie-verte",
-        "quality": "unsatisfactory",
+        "doneAt": "01/01/2025",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "B"
       }
     },
     {
@@ -1411,7 +1411,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
