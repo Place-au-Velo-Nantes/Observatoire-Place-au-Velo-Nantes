@@ -2542,7 +2542,7 @@
       "properties": {
         "name": "Chemin de la Bastille La Montagne",
         "status": "terminé",
-        "type": "aucun",
+        "type": "voie verte",
         "year": 0,
         "line": "I",
         "infrastructure": "maillage",
@@ -4252,7 +4252,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 670.347
       }
@@ -5103,7 +5103,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 255.862
       }
@@ -5133,7 +5133,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 114.63
       }
@@ -8473,7 +8473,7 @@
         "line": "I",
         "infrastructure": "",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 104.324
       }
@@ -8540,7 +8540,7 @@
         "line": "I",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 24.796
       }
@@ -8574,7 +8574,7 @@
         "line": "I",
         "infrastructure": "",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 151.727
       }
@@ -8628,7 +8628,7 @@
         "line": "I",
         "infrastructure": "",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 131.886
       }
@@ -9051,7 +9051,7 @@
         "line": "I",
         "infrastructure": "",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 179.156
       }

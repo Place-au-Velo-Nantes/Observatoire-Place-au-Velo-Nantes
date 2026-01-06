@@ -125,7 +125,7 @@
         "name": "Chemin de la Bastille La Montagne",
         "status": "done",
         "doneAt": "01/01/2000",
-        "type": "aucun",
+        "type": "voie-verte",
         "quality": "satisfactory",
         "infrastructure": "maillage",
         "link": "",
@@ -599,7 +599,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -745,7 +745,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -820,7 +820,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -914,7 +914,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1724,7 +1724,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
