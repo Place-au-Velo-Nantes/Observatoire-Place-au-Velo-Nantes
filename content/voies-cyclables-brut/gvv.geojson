@@ -1843,7 +1843,7 @@
         "type": "bande cyclable",
         "year": 2020,
         "line": "D",
-        "infrastructure": "magistrale",
+        "infrastructure": "",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "",
         "commentaire sur les données": "coronapiste, projet en cours? pas d'image depuis 2023 ?",
@@ -2476,11 +2476,12 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.548912952, 47.201576034],
-          [-1.550287498, 47.201578732],
+          [-1.550280792, 47.201580852],
+          [-1.550286406, 47.201724945],
           [-1.55058417, 47.202082785],
-          [-1.552235441, 47.203112904],
-          [-1.551580256, 47.203851473]
+          [-1.551907991, 47.202900713],
+          [-1.55217927, 47.203073074],
+          [-1.552197539, 47.203106069]
         ]
       },
       "properties": {
@@ -2489,11 +2490,11 @@
         "type": "voie verte",
         "year": null,
         "line": "G",
-        "infrastructure": "magistrale",
+        "infrastructure": "",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
-        "calculated_length": 430.091
+        "calculated_length": 229.168
       }
     },
     {
@@ -3952,7 +3953,7 @@
         ]
       },
       "properties": {
-        "name": "Boulevard Bénoni Goullin",
+        "name": "Boulevard Bénoni Goullin Est",
         "status": "reporté",
         "type": "bande cyclable",
         "year": 2015,
@@ -4031,28 +4032,6 @@
         "cycloscore(optionnel)": "",
         "commentaire sur les données": "travaux en cours",
         "calculated_length": 586.886
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.561972822, 47.201616265],
-          [-1.550287498, 47.201578732]
-        ]
-      },
-      "properties": {
-        "name": "Nouveau CHU",
-        "status": "reporté",
-        "type": "",
-        "year": null,
-        "line": "",
-        "infrastructure": "magistrale",
-        "quality": "",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "A redécouper",
-        "calculated_length": 885.4
       }
     },
     {
@@ -5747,23 +5726,24 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.552404328, 47.203164534],
-          [-1.55439, 47.201578],
-          [-1.556649, 47.199996],
-          [-1.556842, 47.199383]
+          [-1.551656299, 47.203699616],
+          [-1.552355773, 47.203131764],
+          [-1.553783372, 47.202033668],
+          [-1.553711322, 47.201726501],
+          [-1.553775438, 47.201646286]
         ]
       },
       "properties": {
         "name": "Boulevard Gustave Roche",
-        "status": "reporté",
+        "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2020,
         "line": "",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "A redécouper",
-        "calculated_length": 546.954
+        "commentaire sur les données": "Vérifier la largeur pour le cycloscore",
+        "calculated_length": 290.271
       }
     },
     {
@@ -5773,7 +5753,7 @@
         "coordinates": [
           [-1.554664, 47.2053],
           [-1.554428, 47.204515],
-          [-1.553806, 47.202051]
+          [-1.553783454, 47.202032897]
         ]
       },
       "properties": {
@@ -5786,7 +5766,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
-        "calculated_length": 367.044
+        "calculated_length": 369.32
       }
     },
     {
@@ -11029,8 +11009,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.67389657, 47.17900141],
-          [-1.677379595, 47.179969902],
+          [-1.67741372, 47.17994573],
+          [-1.677375484, 47.180009024],
           [-1.67422528, 47.185286616],
           [-1.674362491, 47.185910684],
           [-1.675569806, 47.186337603],
@@ -11061,11 +11041,11 @@
         "type": "aucun",
         "year": 0,
         "line": "A",
-        "infrastructure": "magistrale",
+        "infrastructure": "",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "A découper pour le cycloscore (D dans les petites rues)",
-        "calculated_length": 2817.748
+        "calculated_length": 2536.083
       }
     },
     {
@@ -13366,7 +13346,7 @@
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "A découper le début est du magistale",
         "calculated_length": 925.432
       }
     },
@@ -18092,16 +18072,143 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
+        "name": "Route chantier CHU",
+        "status": "reporté",
+        "type": "inconnu",
         "year": null,
-        "line": null,
-        "infrastructure": null,
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
         "calculated_length": 598.404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.553773185, 47.201634665],
+          [-1.553705145, 47.201588437],
+          [-1.55356306, 47.201558525],
+          [-1.553118794, 47.201554446],
+          [-1.552774357, 47.201584838],
+          [-1.551977881, 47.201586198],
+          [-1.550895234, 47.201573961],
+          [-1.550282868, 47.20157804]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Bénoni Goullin Ouest",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2014,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 267.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.550280644, 47.201578339],
+          [-1.548910843, 47.201578883]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Bénoni Goullin Milieu",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2014,
+        "line": "G",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 103.789
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.551586592, 47.203864166],
+          [-1.551621313, 47.203832412],
+          [-1.551653363, 47.203704487],
+          [-1.551692681, 47.203558532],
+          [-1.551919697, 47.203399884],
+          [-1.552113508, 47.203213675],
+          [-1.552194744, 47.203105603]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Gustave roch liaison Scorff",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2020,
+        "line": "G",
+        "infrastructure": "",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 98.845
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5545294, 47.201570293],
+          [-1.555270212, 47.201016635],
+          [-1.556628366, 47.199934468],
+          [-1.557243094, 47.199373263],
+          [-1.557329719, 47.199332541]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Gustave Roch projet CHU",
+        "status": "reporté",
+        "type": "inconnu",
+        "year": null,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 327.456
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.673957162, 47.178998578],
+          [-1.674329728, 47.179113685],
+          [-1.677411863, 47.179942452],
+          [-1.678762905, 47.180306085],
+          [-1.67897459, 47.180139182]
+        ]
+      },
+      "properties": {
+        "name": "",
+        "status": "",
+        "type": "",
+        "year": null,
+        "line": "",
+        "infrastructure": "magistrale",
+        "quality": "",
+        "cycloscore(optionnel)": "",
+        "commentaire sur les données": "",
+        "calculated_length": 416.776
       }
     }
   ]

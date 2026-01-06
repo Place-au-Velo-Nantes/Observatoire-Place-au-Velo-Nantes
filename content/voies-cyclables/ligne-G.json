@@ -723,24 +723,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.548912952,
-            47.201576034
+            -1.550280792,
+            47.201580852
           ],
           [
-            -1.550287498,
-            47.201578732
+            -1.550286406,
+            47.201724945
           ],
           [
             -1.55058417,
             47.202082785
           ],
           [
-            -1.552235441,
-            47.203112904
+            -1.551907991,
+            47.202900713
           ],
           [
-            -1.551580256,
-            47.203851473
+            -1.55217927,
+            47.203073074
+          ],
+          [
+            -1.552197539,
+            47.203106069
           ]
         ]
       },
@@ -751,7 +755,7 @@
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "C"
       }
@@ -1157,7 +1161,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#182"
+        "id": "sans-titre#181"
       }
     },
     {
@@ -1241,7 +1245,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#313"
+        "id": "sans-titre#312"
       }
     },
     {
@@ -1301,7 +1305,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#314"
+        "id": "sans-titre#313"
       }
     },
     {
@@ -1341,7 +1345,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#422"
+        "id": "sans-titre#421"
       }
     },
     {
@@ -3044,7 +3048,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#478"
+        "id": "sans-titre#477"
       }
     },
     {
@@ -3103,6 +3107,80 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.550280644,
+            47.201578339
+          ],
+          [
+            -1.548910843,
+            47.201578883
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Boulevard Bénoni Goullin Milieu",
+        "status": "done",
+        "doneAt": "01/01/2014",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.551586592,
+            47.203864166
+          ],
+          [
+            -1.551621313,
+            47.203832412
+          ],
+          [
+            -1.551653363,
+            47.203704487
+          ],
+          [
+            -1.551692681,
+            47.203558532
+          ],
+          [
+            -1.551919697,
+            47.203399884
+          ],
+          [
+            -1.552113508,
+            47.203213675
+          ],
+          [
+            -1.552194744,
+            47.203105603
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Boulevard Gustave roch liaison Scorff",
+        "status": "done",
+        "doneAt": "01/01/2020",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "aucune",
+        "link": "",
+        "cycloscore": "C"
       }
     },
     {

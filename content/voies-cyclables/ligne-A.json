@@ -798,12 +798,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.67389657,
-            47.17900141
+            -1.67741372,
+            47.17994573
           ],
           [
-            -1.677379595,
-            47.179969902
+            -1.677375484,
+            47.180009024
           ],
           [
             -1.67422528,
@@ -902,7 +902,7 @@
         "doneAt": "01/01/2000",
         "type": "aucun",
         "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": "E"
       }

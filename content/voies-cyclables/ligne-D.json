@@ -661,7 +661,7 @@
         "doneAt": "01/01/2020",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
+        "infrastructure": "aucune",
         "link": "",
         "cycloscore": ""
       }
