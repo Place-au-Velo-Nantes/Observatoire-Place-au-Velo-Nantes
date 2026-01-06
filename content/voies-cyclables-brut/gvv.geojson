@@ -1519,7 +1519,7 @@
         "type": "bande cyclable",
         "year": 2008,
         "line": "D",
-        "infrastructure": "magistrale",
+        "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
