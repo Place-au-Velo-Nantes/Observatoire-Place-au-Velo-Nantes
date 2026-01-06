@@ -1861,7 +1861,7 @@
         "doneAt": "01/01/2000",
         "type": "voie-verte",
         "quality": "satisfactory",
-        "infrastructure": "structurante",
+        "infrastructure": "maillage",
         "link": "",
         "cycloscore": "C"
       }
@@ -1908,7 +1908,7 @@
         "doneAt": "01/01/2000",
         "type": "zone-de-rencontre",
         "quality": "unsatisfactory",
-        "infrastructure": "structurante",
+        "infrastructure": "maillage",
         "link": "",
         "cycloscore": "E"
       }
@@ -1959,7 +1959,7 @@
         "doneAt": "01/01/2025",
         "type": "chaucidou",
         "quality": "unsatisfactory",
-        "infrastructure": "structurante",
+        "infrastructure": "maillage",
         "link": "",
         "cycloscore": "E"
       }
