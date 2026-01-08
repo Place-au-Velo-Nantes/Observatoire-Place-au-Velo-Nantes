@@ -2,12 +2,11 @@
   <div class="bg-white pt-12 sm:pt-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Les {{ getRevName() }}, c'est quoi ?</h2>
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Le SDIC, c'est quoi ?</h2>
         <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-          C’est le nom donné au projet de réseau cyclable porté par la Métropole de Nantes. Concrètement, une Grande
-          Voie Vélo est une voie cyclable identifiée par une lettre (de A à I) qui relie des communes ou quartiers
-          nantais de l'agglomération. Cette voie est constituée parfois de pistes cyclables mono ou bidirectionnelles
-          séparées des voitures mais aussi de simples bandes cyclables, de couloir bus/vélo ou de voies vertes.
+          Le Schéma Directeur des Itinéraires Cyclables est le plan stratégique de Nantes Métropole pour développer un
+          réseau cyclable sécurisé et structuré, avec 640 km d’aménagements prévus dont 312 km d'aménagements de haute
+          qualité. Il vise à atteindre 15% de part du vélo dans les déplacements grâce à des voies hiérarchisées.
         </p>
       </div>
     </div>
@@ -42,5 +41,5 @@
 </template>
 
 <script setup lang="ts">
-const { getRevName, getNbVoiesCyclables } = useConfig();
+const { getNbVoiesCyclables } = useConfig();
 </script>

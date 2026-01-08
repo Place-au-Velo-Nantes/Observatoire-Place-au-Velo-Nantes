@@ -5,12 +5,12 @@
     <div class="max-w-7xl mx-auto mt-14 px-4 sm:px-6 lg:px-8 lg:mt-24">
       <div class="space-y-8 sm:space-y-12">
         <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl text-center">
-          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Où en est le projet ?</h2>
+          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Et les Grandes Voies Vélo alors ?</h2>
           <p class="text-xl text-gray-500">
-            Après une phase d'étude et de concertation en 2023 et 2024, le projet est entré en phase de réalisation.
-            <br />
-            Les travaux se multiplient en 2025. L'identification des lignes au sol est en cours de déploiement. S'y
-            ajouteront des totems pour rappeler les plans et sites d'intérêt sur le parcours.
+            Les Grandes Voies Vélo sont des itinéraires signalés qui utilisent (principalement) des voies magistrales,
+            qui sont les voies cyclables avec le plus haut niveau de service (150 km prévus, dont 50 km d’ici 2026)<br />
+            Le projet vise à rendre le réseau cyclable métropolitain plus lisible grâce à 9 itinéraires balisés (A à I),
+            connectés aux grands parcours (Loire à Vélo, Vélodyssée…).
           </p>
         </div>
       </div>
