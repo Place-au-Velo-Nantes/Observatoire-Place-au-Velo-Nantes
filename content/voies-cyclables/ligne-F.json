@@ -680,85 +680,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.520191423,
-            47.257805356
-          ],
-          [
-            -1.516035,
-            47.26301
-          ],
-          [
-            -1.513632,
-            47.266563
-          ],
-          [
-            -1.509598,
-            47.272533
-          ],
-          [
-            -1.509577,
-            47.274988
-          ],
-          [
-            -1.508933,
-            47.278948
-          ],
-          [
-            -1.506015,
-            47.283286
-          ],
-          [
-            -1.501208,
-            47.285673
-          ],
-          [
-            -1.499148,
-            47.287303
-          ],
-          [
-            -1.498934,
-            47.288555
-          ],
-          [
-            -1.499148,
-            47.290185
-          ],
-          [
-            -1.498522292,
-            47.291167056
-          ],
-          [
-            -1.49773918,
-            47.291927574
-          ],
-          [
-            -1.497396843,
-            47.29238513
-          ],
-          [
-            -1.497278999,
-            47.292620306
-          ]
-        ]
-      },
-      "properties": {
-        "line": "F",
-        "name": "Route de Carquefou",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
-        "infrastructure": "structurante",
-        "link": "",
-        "cycloscore": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.516764832,
             47.252157967
           ],
@@ -798,7 +719,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#92"
+        "id": "sans-titre#91"
       }
     },
     {
@@ -830,7 +751,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#93"
+        "id": "sans-titre#92"
       }
     },
     {
@@ -909,7 +830,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#417"
+        "id": "sans-titre#416"
       }
     },
     {
@@ -949,7 +870,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#473"
+        "id": "sans-titre#472"
       }
     },
     {
@@ -1009,7 +930,305 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#502"
+        "id": "sans-titre#501"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.505649671,
+            47.282978772
+          ],
+          [
+            -1.505505369,
+            47.283292989
+          ],
+          [
+            -1.505381813,
+            47.283474909
+          ],
+          [
+            -1.505194091,
+            47.283664628
+          ],
+          [
+            -1.504952733,
+            47.283828357
+          ],
+          [
+            -1.502588961,
+            47.285003035
+          ],
+          [
+            -1.501208,
+            47.285602833
+          ],
+          [
+            -1.499704163,
+            47.286603882
+          ],
+          [
+            -1.499344042,
+            47.286944315
+          ],
+          [
+            -1.499079041,
+            47.287284809
+          ],
+          [
+            -1.498865158,
+            47.287924024
+          ],
+          [
+            -1.498815237,
+            47.288383489
+          ],
+          [
+            -1.498983921,
+            47.288688028
+          ],
+          [
+            -1.499095023,
+            47.28902585
+          ],
+          [
+            -1.499133333,
+            47.289402648
+          ],
+          [
+            -1.499036899,
+            47.290172007
+          ],
+          [
+            -1.498522292,
+            47.291167056
+          ],
+          [
+            -1.49773918,
+            47.291927574
+          ],
+          [
+            -1.497396843,
+            47.29238513
+          ],
+          [
+            -1.497278999,
+            47.292620306
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de Carquefou 6",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.520191423,
+            47.257805356
+          ],
+          [
+            -1.51629708,
+            47.262638294
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de Carquefou 1",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.513611747,
+            47.266492319
+          ],
+          [
+            -1.509598,
+            47.272533
+          ],
+          [
+            -1.509623292,
+            47.274960518
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de Carquefou 4",
+        "status": "done",
+        "doneAt": "01/01/2021",
+        "type": "bilaterale",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.509623292,
+            47.274960518
+          ],
+          [
+            -1.509534654,
+            47.275136112
+          ],
+          [
+            -1.509546218,
+            47.275444301
+          ],
+          [
+            -1.509517285,
+            47.276728099
+          ],
+          [
+            -1.5094247,
+            47.277203136
+          ],
+          [
+            -1.50895904,
+            47.278712453
+          ],
+          [
+            -1.508857617,
+            47.27904239
+          ],
+          [
+            -1.50870138,
+            47.279380005
+          ],
+          [
+            -1.508114044,
+            47.28020833
+          ],
+          [
+            -1.507193981,
+            47.281511641
+          ],
+          [
+            -1.507121649,
+            47.281599966
+          ],
+          [
+            -1.506372289,
+            47.282614719
+          ],
+          [
+            -1.506224732,
+            47.282777627
+          ],
+          [
+            -1.506077174,
+            47.282968013
+          ],
+          [
+            -1.505971796,
+            47.283012953
+          ],
+          [
+            -1.505649671,
+            47.282978772
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de Carquefou 5",
+        "status": "done",
+        "doneAt": "01/01/2018",
+        "type": "voie-verte",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.51565687,
+            47.263590501
+          ],
+          [
+            -1.515417034,
+            47.263918935
+          ],
+          [
+            -1.513611747,
+            47.266492319
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de Carquefou 3",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.516282482,
+            47.262634306
+          ],
+          [
+            -1.515652942,
+            47.263611857
+          ]
+        ]
+      },
+      "properties": {
+        "line": "F",
+        "name": "Route de Carquefou 2",
+        "status": "done",
+        "doneAt": "01/01/2016",
+        "type": "bilaterale",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "C"
       }
     },
     {

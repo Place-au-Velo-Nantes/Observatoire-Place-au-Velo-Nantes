@@ -2749,41 +2749,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.520191423, 47.257805356],
-          [-1.516035, 47.26301],
-          [-1.513632, 47.266563],
-          [-1.509598, 47.272533],
-          [-1.509577, 47.274988],
-          [-1.508933, 47.278948],
-          [-1.506015, 47.283286],
-          [-1.501208, 47.285673],
-          [-1.499148, 47.287303],
-          [-1.498934, 47.288555],
-          [-1.499148, 47.290185],
-          [-1.498522292, 47.291167056],
-          [-1.49773918, 47.291927574],
-          [-1.497396843, 47.29238513],
-          [-1.497278999, 47.292620306]
-        ]
-      },
-      "properties": {
-        "name": "Route de Carquefou",
-        "status": "à définir",
-        "type": "bidirectionnelle",
-        "year": null,
-        "line": "F",
-        "infrastructure": "structurante",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "Inhomogène à redécouper",
-        "calculated_length": 4388.539
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.516764832, 47.252157967],
           [-1.5163799, 47.252419816],
           [-1.515673537, 47.252727945],
@@ -18410,8 +18375,8 @@
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "C",
-        "commentaire sur les données": "présence de piétons sur la piste",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "présence de piétons sur la piste en petit nombre",
         "calculated_length": 2021.991
       }
     },
@@ -18442,6 +18407,172 @@
         "cycloscore(optionnel)": "A",
         "commentaire sur les données": "",
         "calculated_length": 695.014
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.505649671, 47.282978772],
+          [-1.505505369, 47.283292989],
+          [-1.505381813, 47.283474909],
+          [-1.505194091, 47.283664628],
+          [-1.504952733, 47.283828357],
+          [-1.502588961, 47.285003035],
+          [-1.501208, 47.285602833],
+          [-1.499704163, 47.286603882],
+          [-1.499344042, 47.286944315],
+          [-1.499079041, 47.287284809],
+          [-1.498865158, 47.287924024],
+          [-1.498815237, 47.288383489],
+          [-1.498983921, 47.288688028],
+          [-1.499095023, 47.28902585],
+          [-1.499133333, 47.289402648],
+          [-1.499036899, 47.290172007],
+          [-1.498522292, 47.291167056],
+          [-1.49773918, 47.291927574],
+          [-1.497396843, 47.29238513],
+          [-1.497278999, 47.292620306]
+        ]
+      },
+      "properties": {
+        "name": "Route de Carquefou 6",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2008,
+        "line": "F",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 1335.907
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.520191423, 47.257805356],
+          [-1.51629708, 47.262638294]
+        ]
+      },
+      "properties": {
+        "name": "Route de Carquefou 1",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "F",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 612.841
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.513611747, 47.266492319],
+          [-1.509598, 47.272533],
+          [-1.509623292, 47.274960518]
+        ]
+      },
+      "properties": {
+        "name": "Route de Carquefou 4",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2021,
+        "line": "F",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 1006.958
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.509623292, 47.274960518],
+          [-1.509534654, 47.275136112],
+          [-1.509546218, 47.275444301],
+          [-1.509517285, 47.276728099],
+          [-1.5094247, 47.277203136],
+          [-1.50895904, 47.278712453],
+          [-1.508857617, 47.27904239],
+          [-1.50870138, 47.279380005],
+          [-1.508114044, 47.28020833],
+          [-1.507193981, 47.281511641],
+          [-1.507121649, 47.281599966],
+          [-1.506372289, 47.282614719],
+          [-1.506224732, 47.282777627],
+          [-1.506077174, 47.282968013],
+          [-1.505971796, 47.283012953],
+          [-1.505649671, 47.282978772]
+        ]
+      },
+      "properties": {
+        "name": "Route de Carquefou 5",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2018,
+        "line": "F",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 979.003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.51565687, 47.263590501],
+          [-1.515417034, 47.263918935],
+          [-1.513611747, 47.266492319]
+        ]
+      },
+      "properties": {
+        "name": "Route de Carquefou 3",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "F",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 357.822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.516282482, 47.262634306],
+          [-1.515652942, 47.263611857]
+        ]
+      },
+      "properties": {
+        "name": "Route de Carquefou 2",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2016,
+        "line": "F",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 118.665
       }
     }
   ]
