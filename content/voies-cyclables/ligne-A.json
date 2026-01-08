@@ -660,7 +660,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -1427,7 +1427,7 @@
         "line": "A",
         "name": "Rue Eugène Pottier",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2011",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -1517,7 +1517,7 @@
         "line": "A",
         "name": "Rue Aristide Briand",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2022",
         "type": "zone-de-rencontre",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -1858,7 +1858,7 @@
         "line": "A",
         "name": "Rue de la Californie",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "voie-verte",
         "quality": "satisfactory",
         "infrastructure": "maillage",
@@ -1905,7 +1905,7 @@
         "line": "A",
         "name": "Quai Marcel boissard",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "zone-de-rencontre",
         "quality": "unsatisfactory",
         "infrastructure": "maillage",

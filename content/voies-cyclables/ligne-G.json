@@ -1109,7 +1109,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1304,7 +1304,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": "",
+        "cycloscore": "D",
         "id": "sans-titre#313"
       }
     },
@@ -2392,7 +2392,7 @@
         "line": "G",
         "name": "Rue Salvador allende",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -2466,7 +2466,7 @@
         "line": "G",
         "name": "Rue Salvador allende 3",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",

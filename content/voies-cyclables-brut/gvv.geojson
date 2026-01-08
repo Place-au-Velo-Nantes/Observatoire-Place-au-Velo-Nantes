@@ -2444,7 +2444,7 @@
         "line": "D",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 317.872
       }
@@ -3473,7 +3473,7 @@
         "line": "G",
         "infrastructure": "",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 552.618
       }
@@ -3497,7 +3497,7 @@
         "line": "E,H",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 270.763
       }
@@ -3532,7 +3532,7 @@
         "line": "D",
         "infrastructure": "secondaire",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "itinéraire bis",
         "calculated_length": 474.967
       }
@@ -3796,7 +3796,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "Initialement annoncée en bidir mais ",
         "calculated_length": 592.951
       }
@@ -4578,7 +4578,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 338.339
       }
@@ -5017,7 +5017,7 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 764.465
       }
@@ -5367,7 +5367,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 1102.315
       }
@@ -10012,8 +10012,8 @@
         "line": "D",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "impasse donc faible traffic",
         "calculated_length": 128.515
       }
     },
@@ -10118,8 +10118,8 @@
         "line": "D",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "difficile à noter mais comme réservé aux vélos et bus, c'est pas si mal",
         "calculated_length": 246.971
       }
     },
@@ -10584,7 +10584,7 @@
         "line": "H,G",
         "infrastructure": "",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 329.877
       }
@@ -10823,7 +10823,7 @@
         "line": "A",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 713.937
       }
@@ -11290,7 +11290,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 504.318
       }
@@ -12887,7 +12887,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 159.501
       }
@@ -12933,7 +12933,7 @@
         "line": "E",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 515.42
       }
@@ -12956,7 +12956,7 @@
         "line": "E",
         "infrastructure": "secondaire",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 107.946
       }
@@ -13044,7 +13044,7 @@
         "line": "E",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 94.869
       }
@@ -13070,7 +13070,7 @@
         "line": "E",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 658.55
       }
@@ -13092,7 +13092,7 @@
         "line": "E",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 104.525
       }
@@ -13114,7 +13114,7 @@
         "line": "E",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 45.82
       }
@@ -13161,7 +13161,7 @@
         "line": "E",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 27.403
       }
@@ -14064,7 +14064,7 @@
         "name": "Rue Salvador allende",
         "status": "terminé",
         "type": "bande cyclable",
-        "year": null,
+        "year": 2008,
         "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -14113,7 +14113,7 @@
         "name": "Rue Salvador allende 3",
         "status": "terminé",
         "type": "bande cyclable",
-        "year": null,
+        "year": 2008,
         "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -14666,7 +14666,7 @@
         "name": "Rue Eugène Pottier",
         "status": "terminé",
         "type": "bande cyclable",
-        "year": null,
+        "year": 2011,
         "line": "A",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -14719,7 +14719,7 @@
         "name": "Rue Aristide Briand",
         "status": "terminé",
         "type": "zone de rencontre",
-        "year": null,
+        "year": 2022,
         "line": "A",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -14850,7 +14850,7 @@
         "name": "Rue de la Californie",
         "status": "terminé",
         "type": "voie verte",
-        "year": null,
+        "year": 2013,
         "line": "A",
         "infrastructure": "maillage",
         "quality": "satisfaisant",
@@ -14877,7 +14877,7 @@
         "name": "Quai Marcel boissard",
         "status": "terminé",
         "type": "zone de rencontre",
-        "year": null,
+        "year": 2013,
         "line": "A",
         "infrastructure": "maillage",
         "quality": "non satisfaisant",
