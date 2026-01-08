@@ -1,16 +1,5 @@
 <template>
   <div class="bg-white pt-12 sm:pt-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Les {{ getRevName() }}, c'est quoi ?</h2>
-        <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-          C’est le nom donné au projet de réseau cyclable porté par la Métropole de Nantes. Concrètement, une Grande
-          Voie Vélo est une voie cyclable identifiée par une lettre (de A à I) qui relie des communes ou quartiers
-          nantais de l'agglomération. Cette voie est constituée parfois de pistes cyclables mono ou bidirectionnelles
-          séparées des voitures mais aussi de simples bandes cyclables, de couloir bus/vélo ou de voies vertes.
-        </p>
-      </div>
-    </div>
     <div class="mt-10 bg-white">
       <div class="relative">
         <div class="absolute inset-0 h-1/2 bg-white" />
@@ -42,5 +31,5 @@
 </template>
 
 <script setup lang="ts">
-const { getRevName, getNbVoiesCyclables } = useConfig();
+const { getNbVoiesCyclables } = useConfig();
 </script>
