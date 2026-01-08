@@ -2682,149 +2682,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.667663214,
-            47.201427619
-          ],
-          [
-            -1.667912903,
-            47.201433322
-          ],
-          [
-            -1.668106022,
-            47.201365894
-          ],
-          [
-            -1.668186488,
-            47.201336737
-          ],
-          [
-            -1.668376925,
-            47.20135496
-          ],
-          [
-            -1.668602231,
-            47.201400519
-          ],
-          [
-            -1.669787767,
-            47.201932644
-          ],
-          [
-            -1.671700182,
-            47.202783669
-          ],
-          [
-            -1.675457179,
-            47.204451987
-          ],
-          [
-            -1.676868799,
-            47.205041461
-          ],
-          [
-            -1.678342819,
-            47.205554731
-          ],
-          [
-            -1.682748204,
-            47.206854551
-          ],
-          [
-            -1.683617384,
-            47.207160056
-          ],
-          [
-            -1.68372989,
-            47.207337421
-          ],
-          [
-            -1.68383986,
-            47.207379331
-          ],
-          [
-            -1.684067848,
-            47.207403019
-          ],
-          [
-            -1.68427706,
-            47.207351998
-          ],
-          [
-            -1.684657934,
-            47.207432173
-          ],
-          [
-            -1.687463527,
-            47.208253957
-          ],
-          [
-            -1.688108595,
-            47.208415212
-          ],
-          [
-            -1.688745623,
-            47.208556428
-          ],
-          [
-            -1.689166505,
-            47.208635397
-          ],
-          [
-            -1.689990166,
-            47.208765969
-          ],
-          [
-            -1.690985838,
-            47.208866448
-          ],
-          [
-            -1.694201236,
-            47.209106703
-          ],
-          [
-            -1.697414523,
-            47.209336286
-          ],
-          [
-            -1.699066155,
-            47.209436497
-          ],
-          [
-            -1.700012238,
-            47.209466562
-          ],
-          [
-            -1.700322037,
-            47.20948934
-          ],
-          [
-            -1.700445416,
-            47.209538535
-          ],
-          [
-            -1.70054734,
-            47.209573154
-          ]
-        ]
-      },
-      "properties": {
-        "line": "B",
-        "name": "Magistrale Nantes Coueron",
-        "status": "done",
-        "doneAt": "01/01/2025",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": "B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.710741757,
             47.210465131
           ],
@@ -2880,14 +2737,14 @@
       },
       "properties": {
         "line": "B",
-        "name": "Magistrale Nantes Coueron-1",
+        "name": "Quai jean-pierre Fougerat",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "B"
+        "cycloscore": "C"
       }
     },
     {
@@ -2919,14 +2776,14 @@
       },
       "properties": {
         "line": "B",
-        "name": "Magistrale Nantes Coueron-2",
-        "status": "done",
-        "doneAt": "01/01/2025",
+        "name": "Quai Emile Cormerais (campement)",
+        "status": "postponed",
+        "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "B"
+        "cycloscore": "C"
       }
     },
     {
@@ -2994,7 +2851,7 @@
       },
       "properties": {
         "line": "B",
-        "name": "Magistrale Nantes Coueron-3",
+        "name": "M107 Cheviré Tougas",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bidirectionnelle",
@@ -3157,7 +3014,7 @@
       },
       "properties": {
         "line": "B",
-        "name": "Magistrale Nantes Coueron-4",
+        "name": "M107 tougas - indre",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bidirectionnelle",
@@ -3196,10 +3053,10 @@
       },
       "properties": {
         "line": "B",
-        "name": "Coueron",
+        "name": "Rue du paradis Sud",
         "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "aucun",
+        "doneAt": "01/01/2015",
+        "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
@@ -3275,7 +3132,7 @@
       },
       "properties": {
         "line": "B",
-        "name": "Coueron-5",
+        "name": "Rue du paradis nord & Bd de l'ocean",
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "aucun",
@@ -3386,14 +3243,180 @@
       },
       "properties": {
         "line": "B",
-        "name": "Magistrale Nantes Coueron-6",
+        "name": "Route de la Navale",
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "B"
+        "cycloscore": "A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.675457179,
+            47.204451987
+          ],
+          [
+            -1.676868799,
+            47.205041461
+          ],
+          [
+            -1.678342819,
+            47.205554731
+          ],
+          [
+            -1.682748204,
+            47.206854551
+          ],
+          [
+            -1.683617384,
+            47.207160056
+          ],
+          [
+            -1.68372989,
+            47.207337421
+          ],
+          [
+            -1.68383986,
+            47.207379331
+          ],
+          [
+            -1.684067848,
+            47.207403019
+          ],
+          [
+            -1.68427706,
+            47.207351998
+          ],
+          [
+            -1.684657934,
+            47.207432173
+          ],
+          [
+            -1.687463527,
+            47.208253957
+          ],
+          [
+            -1.688108595,
+            47.208415212
+          ],
+          [
+            -1.688745623,
+            47.208556428
+          ],
+          [
+            -1.689166505,
+            47.208635397
+          ],
+          [
+            -1.689990166,
+            47.208765969
+          ],
+          [
+            -1.690985838,
+            47.208866448
+          ],
+          [
+            -1.694201236,
+            47.209106703
+          ],
+          [
+            -1.697414523,
+            47.209336286
+          ],
+          [
+            -1.699066155,
+            47.209436497
+          ],
+          [
+            -1.700012238,
+            47.209466562
+          ],
+          [
+            -1.700322037,
+            47.20948934
+          ],
+          [
+            -1.700445416,
+            47.209538535
+          ],
+          [
+            -1.70054734,
+            47.209573154
+          ]
+        ]
+      },
+      "properties": {
+        "line": "B",
+        "name": "M107 forges à cité navale",
+        "status": "done",
+        "doneAt": "01/01/2025",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.667663214,
+            47.201427619
+          ],
+          [
+            -1.667912903,
+            47.201433322
+          ],
+          [
+            -1.668106022,
+            47.201365894
+          ],
+          [
+            -1.668186488,
+            47.201336737
+          ],
+          [
+            -1.668376925,
+            47.20135496
+          ],
+          [
+            -1.668602231,
+            47.201400519
+          ],
+          [
+            -1.669787767,
+            47.201932644
+          ],
+          [
+            -1.671700182,
+            47.202783669
+          ],
+          [
+            -1.675457179,
+            47.204451987
+          ]
+        ]
+      },
+      "properties": {
+        "line": "B",
+        "name": "M107 rd pt M75 à rd pt forges",
+        "status": "done",
+        "doneAt": "01/01/2025",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "A"
       }
     },
     {

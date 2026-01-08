@@ -18153,57 +18153,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.667663214, 47.201427619],
-          [-1.667912903, 47.201433322],
-          [-1.668106022, 47.201365894],
-          [-1.668186488, 47.201336737],
-          [-1.668376925, 47.20135496],
-          [-1.668602231, 47.201400519],
-          [-1.669787767, 47.201932644],
-          [-1.671700182, 47.202783669],
-          [-1.675457179, 47.204451987],
-          [-1.676868799, 47.205041461],
-          [-1.678342819, 47.205554731],
-          [-1.682748204, 47.206854551],
-          [-1.683617384, 47.207160056],
-          [-1.68372989, 47.207337421],
-          [-1.68383986, 47.207379331],
-          [-1.684067848, 47.207403019],
-          [-1.68427706, 47.207351998],
-          [-1.684657934, 47.207432173],
-          [-1.687463527, 47.208253957],
-          [-1.688108595, 47.208415212],
-          [-1.688745623, 47.208556428],
-          [-1.689166505, 47.208635397],
-          [-1.689990166, 47.208765969],
-          [-1.690985838, 47.208866448],
-          [-1.694201236, 47.209106703],
-          [-1.697414523, 47.209336286],
-          [-1.699066155, 47.209436497],
-          [-1.700012238, 47.209466562],
-          [-1.700322037, 47.20948934],
-          [-1.700445416, 47.209538535],
-          [-1.70054734, 47.209573154]
-        ]
-      },
-      "properties": {
-        "name": "Magistrale Nantes Coueron",
-        "status": "terminé",
-        "type": "bidirectionnelle",
-        "year": 2025,
-        "line": "B",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "",
-        "calculated_length": 2717.005
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.710741757, 47.210465131],
           [-1.711546785, 47.210203894],
           [-1.712066087, 47.209989496],
@@ -18220,15 +18169,15 @@
         ]
       },
       "properties": {
-        "name": "Magistrale Nantes Coueron",
+        "name": "Quai jean-pierre Fougerat",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2025,
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "bidir faible largeur empruntée par les piétons",
         "calculated_length": 1201.79
       }
     },
@@ -18245,15 +18194,15 @@
         ]
       },
       "properties": {
-        "name": "Magistrale Nantes Coueron",
-        "status": "terminé",
+        "name": "Quai Emile Cormerais (campement)",
+        "status": "reporté",
         "type": "bidirectionnelle",
-        "year": 2025,
+        "year": 2008,
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "travaux non réalisés à cause du campement, piste bidir historique",
         "calculated_length": 277.581
       }
     },
@@ -18279,7 +18228,7 @@
         ]
       },
       "properties": {
-        "name": "Magistrale Nantes Coueron",
+        "name": "M107 Cheviré Tougas",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2025,
@@ -18287,7 +18236,7 @@
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "B en attendant de vérifier sur place la qualité des sorties d'usines",
         "calculated_length": 1136.153
       }
     },
@@ -18335,7 +18284,7 @@
         ]
       },
       "properties": {
-        "name": "Magistrale Nantes Coueron",
+        "name": "M107 tougas - indre",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2025,
@@ -18360,15 +18309,15 @@
         ]
       },
       "properties": {
-        "name": "Coueron",
+        "name": "Rue du paradis Sud",
         "status": "terminé",
-        "type": "aucun",
-        "year": 0,
+        "type": "voie bus",
+        "year": 2015,
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
+        "commentaire sur les données": "voie verte dans le sens montant, voie bus dans l'autre",
         "calculated_length": 223.234
       }
     },
@@ -18395,7 +18344,7 @@
         ]
       },
       "properties": {
-        "name": "Coueron",
+        "name": "Rue du paradis nord \u0026 Bd de l'ocean",
         "status": "terminé",
         "type": "aucun",
         "year": 0,
@@ -18438,16 +18387,88 @@
         ]
       },
       "properties": {
-        "name": "Magistrale Nantes Coueron",
+        "name": "Route de la Navale",
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2025,
         "line": "B",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "A",
+        "commentaire sur les données": "présence d'un trottoir pour les piétons",
         "calculated_length": 800.016
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.675457179, 47.204451987],
+          [-1.676868799, 47.205041461],
+          [-1.678342819, 47.205554731],
+          [-1.682748204, 47.206854551],
+          [-1.683617384, 47.207160056],
+          [-1.68372989, 47.207337421],
+          [-1.68383986, 47.207379331],
+          [-1.684067848, 47.207403019],
+          [-1.68427706, 47.207351998],
+          [-1.684657934, 47.207432173],
+          [-1.687463527, 47.208253957],
+          [-1.688108595, 47.208415212],
+          [-1.688745623, 47.208556428],
+          [-1.689166505, 47.208635397],
+          [-1.689990166, 47.208765969],
+          [-1.690985838, 47.208866448],
+          [-1.694201236, 47.209106703],
+          [-1.697414523, 47.209336286],
+          [-1.699066155, 47.209436497],
+          [-1.700012238, 47.209466562],
+          [-1.700322037, 47.20948934],
+          [-1.700445416, 47.209538535],
+          [-1.70054734, 47.209573154]
+        ]
+      },
+      "properties": {
+        "name": "M107 forges à cité navale",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2025,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "présence de piétons sur la piste",
+        "calculated_length": 2021.991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.667663214, 47.201427619],
+          [-1.667912903, 47.201433322],
+          [-1.668106022, 47.201365894],
+          [-1.668186488, 47.201336737],
+          [-1.668376925, 47.20135496],
+          [-1.668602231, 47.201400519],
+          [-1.669787767, 47.201932644],
+          [-1.671700182, 47.202783669],
+          [-1.675457179, 47.204451987]
+        ]
+      },
+      "properties": {
+        "name": "M107 rd pt M75 à rd pt forges",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2025,
+        "line": "B",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "A",
+        "commentaire sur les données": "",
+        "calculated_length": 695.014
       }
     }
   ]
