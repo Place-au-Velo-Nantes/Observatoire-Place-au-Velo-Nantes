@@ -610,7 +610,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#70"
+        "id": "sans-titre#69"
       }
     },
     {
@@ -2777,7 +2777,7 @@
       "properties": {
         "line": "B",
         "name": "Quai Emile Cormerais (campement)",
-        "status": "postponed",
+        "status": "wip",
         "doneAt": "01/01/2008",
         "type": "bidirectionnelle",
         "quality": "satisfactory",

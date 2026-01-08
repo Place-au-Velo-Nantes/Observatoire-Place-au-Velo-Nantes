@@ -570,7 +570,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#62"
+        "id": "sans-titre#61"
       }
     },
     {
@@ -635,12 +635,12 @@
         "line": "F",
         "name": "Route de la Gare Vertou",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -666,7 +666,7 @@
         "line": "F",
         "name": "Bd du prof Auvigne",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2014",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "secondaire",
@@ -744,7 +744,7 @@
       "properties": {
         "line": "F",
         "name": "Route de Carquefou",
-        "status": "done",
+        "status": "unknown",
         "doneAt": "01/01/2000",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
@@ -798,7 +798,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#93"
+        "id": "sans-titre#92"
       }
     },
     {
@@ -830,7 +830,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#94"
+        "id": "sans-titre#93"
       }
     },
     {
@@ -909,7 +909,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#418"
+        "id": "sans-titre#417"
       }
     },
     {
@@ -949,7 +949,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#474"
+        "id": "sans-titre#473"
       }
     },
     {
@@ -1009,7 +1009,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#503"
+        "id": "sans-titre#502"
       }
     },
     {

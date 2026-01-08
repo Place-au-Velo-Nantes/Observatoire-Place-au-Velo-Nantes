@@ -218,7 +218,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#67"
+        "id": "sans-titre#66"
       }
     },
     {
@@ -517,7 +517,7 @@
         "line": "A",
         "name": "Cote St Sébastien",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2022",
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -602,7 +602,7 @@
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#100"
+        "id": "sans-titre#99"
       }
     },
     {
@@ -624,7 +624,7 @@
         "line": "A",
         "name": "Pirmil",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
