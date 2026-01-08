@@ -112,7 +112,7 @@ const fixStatus = (status, context, invalidValues) => {
 const fixQuality = (quality, context, invalidValues) => {
   if (quality === 'satisfaisant') return 'satisfactory';
   else if (quality === 'non satisfaisant' || quality === 'non satisafaisant') return 'unsatisfactory';
-  else if (quality !== null && quality !== '') {
+  else if (quality !== null && quality !== '' && quality !== undefined) {
     if (invalidValues && context) {
       invalidValues.push({
         name: context.name,
@@ -475,7 +475,7 @@ const outputInvalidValues = (invalidValues) => {
   // Output to markdown file
   const markdownPath = path.join(__dirname, '../invalid-values-report.md');
   let markdown = `# Invalid Values Report\n\n`;
-  markdown += `Generated: ${new Date().toISOString()}\n\n`;
+  // markdown += \`Generated: \${new Date().toISOString()}\n\n\`; // Commented out to avoid noise in git history
   markdown += `Total: ${invalidValues.length} invalid value(s)\n\n`;
   markdown += `## Issues\n\n`;
   invalidValues.forEach((item) => {
