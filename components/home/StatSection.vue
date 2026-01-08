@@ -1,15 +1,5 @@
 <template>
   <div class="bg-white pt-12 sm:pt-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Le SDIC, c'est quoi ?</h2>
-        <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-          Le Schéma Directeur des Itinéraires Cyclables est le plan stratégique de Nantes Métropole pour développer un
-          réseau cyclable sécurisé et structuré, avec 640 km d’aménagements prévus dont 312 km d'aménagements de haute
-          qualité. Il vise à atteindre 15% de part du vélo dans les déplacements grâce à des voies hiérarchisées.
-        </p>
-      </div>
-    </div>
     <div class="mt-10 bg-white">
       <div class="relative">
         <div class="absolute inset-0 h-1/2 bg-white" />

@@ -1,6 +1,54 @@
 <template>
   <div>
     <HomeHeroSection />
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Le SDIC, c'est quoi ?</h2>
+        <p class="mt-3 text-xl text-gray-500 sm:mt-4">
+          Le Schéma Directeur des Itinéraires Cyclables est le plan stratégique de Nantes Métropole pour développer un
+          réseau cyclable sécurisé et structuré, avec 640 km d’aménagements prévus dont 312 km d'aménagements de haute
+          qualité. Il vise à atteindre 15% de part du vélo dans les déplacements grâce à des voies hiérarchisées.
+        </p>
+        <div class="mt-12 text-left">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">Quatre grands types de voies</h3>
+
+          <div class="space-y-8">
+            <div>
+              <h4 class="text-xl font-bold text-lvv-blue-600">Les voies magistrales : 150 kilomètres</h4>
+              <p class="mt-2 text-lg text-gray-500">
+                Elles bénéficient des meilleurs aménagements pour rejoindre sa destination le plus rapidement possible,
+                en toute sécurité. C’est le premier niveau du réseau : 6 voies + 2 itinéraires de rocade qui raccordent,
+                d’Est en Ouest et du Nord au Sud, « la périphérie à la périphérie » et à la centralité. Les 50 premiers
+                kilomètres de ce réseau, dont chaque branche sera numérotée comme les lignes du réseau TAN, seront
+                réalisés d’ici 2026. Les 24 communes en bénéficieront.
+              </p>
+            </div>
+
+            <div>
+              <h4 class="text-xl font-bold text-lvv-blue-600">Les voies structurantes : 162 kilomètres</h4>
+              <p class="mt-2 text-lg text-gray-500">
+                Elles empruntent des axes fréquentés, sur lesquels elles assurent la meilleure sécurité. C’est le
+                deuxième niveau du réseau, sur lequel on ne roule pas beaucoup moins vite que sur le premier, puisqu’il
+                n’y a plus de conflits d’usage avec les automobilistes et les piétons.
+              </p>
+            </div>
+
+            <div>
+              <h4 class="text-xl font-bold text-lvv-blue-600">Les voies secondaires et de maillage : 330 kilomètres</h4>
+              <p class="mt-2 text-lg text-gray-500">
+                Elles complètent le réseau, pour rejoindre les axes principaux ou le cœur des quartiers. Leur
+                aménagement s’adapte à la diversité des situations urbaines, toujours pour assurer la sécurité des
+                cyclistes, mais aussi des piétons.
+              </p>
+            </div>
+          </div>
+
+          <p class="mt-6 text-sm text-gray-400 italic">Source: Nantes Métropole</p>
+        </div>
+      </div>
+    </div>
+
     <HomeStatSection />
     <div class="max-w-7xl mx-auto mt-14 px-4 sm:px-6 lg:px-8 lg:mt-24">
       <div class="space-y-8 sm:space-y-12">

@@ -90,7 +90,8 @@
 <script setup lang="ts">
 import { useMediaQuery } from '@vueuse/core';
 
-const { getRevName } = useConfig();
+const { getRevName, getAssoName, getAssoLink } = useConfig();
+const assoName = getAssoName();
 
 const isLargeScreen = useMediaQuery('(min-width: 1024px)');
 const linkToMap = computed(() => {
