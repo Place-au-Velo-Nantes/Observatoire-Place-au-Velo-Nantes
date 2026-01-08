@@ -16,7 +16,11 @@
             type="button"
             class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-lvv-pink transition duration-300 transform hover:scale-105 sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
           >
-            <a href="https://placeauvelo-nantes.fr/adhesion/" target="_blank">Adhérer</a>
+            <a
+              href="https://placeauvelo-nantes.assoconnect.com/collect/description/498946-t-ensemble-construisons-une-ville-a-la-hauteur-des-besoins-des-cyclistes"
+              target="_blank"
+              >Adhérer</a
+            >
           </button>
           <button
             type="button"

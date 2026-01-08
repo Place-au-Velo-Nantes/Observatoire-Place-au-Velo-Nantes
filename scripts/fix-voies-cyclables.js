@@ -475,7 +475,7 @@ const outputInvalidValues = (invalidValues) => {
   // Output to markdown file
   const markdownPath = path.join(__dirname, '../invalid-values-report.md');
   let markdown = `# Invalid Values Report\n\n`;
-  markdown += `Generated: ${new Date().toISOString()}\n\n`;
+  // markdown += \`Generated: \${new Date().toISOString()}\n\n\`; // Commented out to avoid noise in git history
   markdown += `Total: ${invalidValues.length} invalid value(s)\n\n`;
   markdown += `## Issues\n\n`;
   invalidValues.forEach((item) => {
