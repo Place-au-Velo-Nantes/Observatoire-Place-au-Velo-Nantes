@@ -1810,7 +1810,7 @@
         "quality": "satisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1842,10 +1842,10 @@
         "status": "done",
         "doneAt": "01/01/2016",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -1943,105 +1943,6 @@
         "infrastructure": "secondaire",
         "link": "",
         "cycloscore": "C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.584059017,
-            47.169778262
-          ],
-          [
-            -1.584133692,
-            47.169900563
-          ],
-          [
-            -1.583948701,
-            47.17039899
-          ],
-          [
-            -1.583974158,
-            47.170449756
-          ],
-          [
-            -1.584030165,
-            47.170483215
-          ],
-          [
-            -1.584481611,
-            47.170587054
-          ],
-          [
-            -1.584530829,
-            47.170622821
-          ],
-          [
-            -1.584547801,
-            47.170685124
-          ],
-          [
-            -1.584459548,
-            47.170786655
-          ],
-          [
-            -1.583846871,
-            47.170663203
-          ],
-          [
-            -1.58366188,
-            47.170536289
-          ],
-          [
-            -1.583403122,
-            47.170459141
-          ],
-          [
-            -1.582563714,
-            47.170332844
-          ],
-          [
-            -1.582193988,
-            47.171243499
-          ],
-          [
-            -1.582145472,
-            47.171295179
-          ],
-          [
-            -1.582072494,
-            47.171306717
-          ],
-          [
-            -1.577325938,
-            47.171230974
-          ],
-          [
-            -1.576686881,
-            47.170501913
-          ],
-          [
-            -1.576560199,
-            47.170126808
-          ],
-          [
-            -1.576033766,
-            47.170017721
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "Rue du moulin cassé",
-        "status": "done",
-        "doneAt": "01/01/2019",
-        "type": "voie-verte",
-        "quality": "satisfactory",
-        "infrastructure": "secondaire",
-        "link": "",
-        "cycloscore": ""
       }
     },
     {
@@ -2656,6 +2557,151 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.584459548,
+            47.170786655
+          ],
+          [
+            -1.583846871,
+            47.170663203
+          ],
+          [
+            -1.58366188,
+            47.170536289
+          ],
+          [
+            -1.583403122,
+            47.170459141
+          ],
+          [
+            -1.582563714,
+            47.170332844
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue jean-baptiste clément",
+        "status": "done",
+        "doneAt": "01/01/2019",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.584059017,
+            47.169778262
+          ],
+          [
+            -1.584133692,
+            47.169900563
+          ],
+          [
+            -1.583948701,
+            47.17039899
+          ],
+          [
+            -1.583974158,
+            47.170449756
+          ],
+          [
+            -1.584030165,
+            47.170483215
+          ],
+          [
+            -1.584481611,
+            47.170587054
+          ],
+          [
+            -1.584530829,
+            47.170622821
+          ],
+          [
+            -1.584547801,
+            47.170685124
+          ],
+          [
+            -1.584459548,
+            47.170786655
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "pont clément canuts",
+        "status": "done",
+        "doneAt": "01/01/2019",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.582563714,
+            47.170332844
+          ],
+          [
+            -1.582193988,
+            47.171243499
+          ],
+          [
+            -1.582145472,
+            47.171295179
+          ],
+          [
+            -1.582072494,
+            47.171306717
+          ],
+          [
+            -1.577325938,
+            47.171230974
+          ],
+          [
+            -1.576686881,
+            47.170501913
+          ],
+          [
+            -1.576560199,
+            47.170126808
+          ],
+          [
+            -1.576033766,
+            47.170017721
+          ]
+        ]
+      },
+      "properties": {
+        "line": "E",
+        "name": "Rue du moulin cassé",
+        "status": "done",
+        "doneAt": "01/01/2019",
+        "type": "voie-verte",
+        "quality": "satisfactory",
+        "infrastructure": "secondaire",
+        "link": "",
+        "cycloscore": "C"
       }
     },
     {

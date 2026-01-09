@@ -6823,7 +6823,7 @@
       },
       "properties": {
         "name": "Boulevard Winston Churchill 3",
-        "status": "En travaux",
+        "status": "en cours",
         "type": "bande cyclable",
         "year": 2026,
         "line": "",
@@ -10804,8 +10804,8 @@
         "line": "A",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "largeur 3.5m",
         "calculated_length": 1195.867
       }
     },
@@ -12590,9 +12590,9 @@
         "year": 2020,
         "line": "",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "largeur 2.2m",
         "calculated_length": 431.791
       }
     },
@@ -12616,8 +12616,8 @@
         "line": "E",
         "infrastructure": "",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "pourrait être un monodir mais de faible largeur. Présence de panneaux voie verte d'un coté avec la VV de largeur mini 3.2m. Exception à la note VV non-satisfaisant car présence de la PC de l'autre coté",
         "calculated_length": 423.021
       }
     },
@@ -12813,9 +12813,9 @@
         "year": 2016,
         "line": "E",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "largeur mini 3.4m",
         "calculated_length": 707.946
       }
     },
@@ -12887,46 +12887,6 @@
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "Mériterait d'être en vélorue car pas de transit ici",
         "calculated_length": 355.662
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.584059017, 47.169778262],
-          [-1.584133692, 47.169900563],
-          [-1.583948701, 47.17039899],
-          [-1.583974158, 47.170449756],
-          [-1.584030165, 47.170483215],
-          [-1.584481611, 47.170587054],
-          [-1.584530829, 47.170622821],
-          [-1.584547801, 47.170685124],
-          [-1.584459548, 47.170786655],
-          [-1.583846871, 47.170663203],
-          [-1.58366188, 47.170536289],
-          [-1.583403122, 47.170459141],
-          [-1.582563714, 47.170332844],
-          [-1.582193988, 47.171243499],
-          [-1.582145472, 47.171295179],
-          [-1.582072494, 47.171306717],
-          [-1.577325938, 47.171230974],
-          [-1.576686881, 47.170501913],
-          [-1.576560199, 47.170126808],
-          [-1.576033766, 47.170017721]
-        ]
-      },
-      "properties": {
-        "name": "Rue du moulin cassé",
-        "status": "terminé",
-        "type": "voie verte",
-        "year": 2019,
-        "line": "E",
-        "infrastructure": "secondaire",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
-        "calculated_length": 956.58
       }
     },
     {
@@ -18741,6 +18701,88 @@
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 401.691
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.584459548, 47.170786655],
+          [-1.583846871, 47.170663203],
+          [-1.58366188, 47.170536289],
+          [-1.583403122, 47.170459141],
+          [-1.582563714, 47.170332844]
+        ]
+      },
+      "properties": {
+        "name": "Rue jean-baptiste clément",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2019,
+        "line": "E",
+        "infrastructure": "secondaire",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 154.908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.584059017, 47.169778262],
+          [-1.584133692, 47.169900563],
+          [-1.583948701, 47.17039899],
+          [-1.583974158, 47.170449756],
+          [-1.584030165, 47.170483215],
+          [-1.584481611, 47.170587054],
+          [-1.584530829, 47.170622821],
+          [-1.584547801, 47.170685124],
+          [-1.584459548, 47.170786655]
+        ]
+      },
+      "properties": {
+        "name": "pont clément canuts",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2019,
+        "line": "E",
+        "infrastructure": "secondaire",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 145.237
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.582563714, 47.170332844],
+          [-1.582193988, 47.171243499],
+          [-1.582145472, 47.171295179],
+          [-1.582072494, 47.171306717],
+          [-1.577325938, 47.171230974],
+          [-1.576686881, 47.170501913],
+          [-1.576560199, 47.170126808],
+          [-1.576033766, 47.170017721]
+        ]
+      },
+      "properties": {
+        "name": "Rue du moulin cassé",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2019,
+        "line": "E",
+        "infrastructure": "secondaire",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 656.434
       }
     }
   ]
