@@ -240,7 +240,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "D"
+        "cycloscore": "C"
       }
     },
     {
@@ -1018,7 +1018,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#104"
+        "id": "sans-titre#103"
       }
     },
     {
@@ -1050,7 +1050,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#111"
+        "id": "sans-titre#110"
       }
     },
     {
@@ -1161,7 +1161,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#179"
+        "id": "sans-titre#178"
       }
     },
     {
@@ -1245,7 +1245,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#310"
+        "id": "sans-titre#309"
       }
     },
     {
@@ -1305,7 +1305,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#311"
+        "id": "sans-titre#310"
       }
     },
     {
@@ -1345,7 +1345,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#416"
+        "id": "sans-titre#415"
       }
     },
     {
@@ -3048,7 +3048,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#472"
+        "id": "sans-titre#471"
       }
     },
     {

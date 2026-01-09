@@ -826,7 +826,7 @@
         "line": "F",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "D",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 384.571
       }
@@ -972,7 +972,7 @@
         "line": "F",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "D",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 648.139
       }
@@ -1027,7 +1027,7 @@
         "line": "G",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "D",
+        "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 294.569
       }
@@ -1408,7 +1408,7 @@
         "line": "C",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 409.327
       }
@@ -2953,41 +2953,6 @@
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 267.656
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.544727972, 47.194677746],
-          [-1.545342912, 47.194862727],
-          [-1.545867456, 47.194892604],
-          [-1.546483406, 47.195461327],
-          [-1.547432506, 47.196127068],
-          [-1.548449242, 47.196743802],
-          [-1.549479144, 47.196753356],
-          [-1.549537655, 47.19708518],
-          [-1.549848466, 47.197101656],
-          [-1.549958815, 47.196742383],
-          [-1.552395402, 47.19664567],
-          [-1.55617452, 47.196598794],
-          [-1.556186967, 47.196182762],
-          [-1.557909, 47.196581],
-          [-1.5622, 47.196304]
-        ]
-      },
-      "properties": {
-        "name": "Rue Félix Eboué Rezé",
-        "status": "terminé",
-        "type": "voie verte",
-        "year": 2016,
-        "line": "A,C",
-        "infrastructure": "maillage",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
-        "calculated_length": 1537.424
       }
     },
     {
@@ -11280,8 +11245,8 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "2.3m de large",
         "calculated_length": 953.576
       }
     },
@@ -11725,7 +11690,7 @@
         "line": "",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "D",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 291.601
       }
@@ -18642,15 +18607,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": null,
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "name": "VV haute Iles est",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2016,
+        "line": "A,C",
+        "infrastructure": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
         "calculated_length": 863.952
       }
     },
@@ -18668,15 +18633,15 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": null,
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "name": "quai de l'échouage",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "A,C",
+        "infrastructure": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
         "calculated_length": 86.08
       }
     },
@@ -18698,16 +18663,84 @@
         ]
       },
       "properties": {
-        "name": null,
-        "status": null,
-        "type": null,
-        "year": null,
-        "line": null,
-        "infrastructure": null,
-        "quality": null,
-        "cycloscore(optionnel)": null,
-        "commentaire sur les données": null,
+        "name": "VV haute Iles ouest",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2016,
+        "line": "A,C",
+        "infrastructure": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
         "calculated_length": 133.804
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.555960184, 47.196620855],
+          [-1.556215123, 47.196601272],
+          [-1.556206255, 47.196525956],
+          [-1.556166352, 47.196372311],
+          [-1.556141967, 47.196182514],
+          [-1.556212906, 47.196241261],
+          [-1.556319315, 47.196292476],
+          [-1.556527699, 47.196354235],
+          [-1.55684471, 47.196419007],
+          [-1.557199406, 47.19649583],
+          [-1.557489814, 47.196560602],
+          [-1.55775362, 47.196596753]
+        ]
+      },
+      "properties": {
+        "name": "rue felix Eboué",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "A,C",
+        "infrastructure": "maillage",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 198.743
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.562195858, 47.196337719],
+          [-1.562094677, 47.1963563],
+          [-1.561725504, 47.196369307],
+          [-1.561730973, 47.196776238],
+          [-1.561659873, 47.196815259],
+          [-1.561402819, 47.196835698],
+          [-1.560715107, 47.196850563],
+          [-1.559883784, 47.196844989],
+          [-1.558955555, 47.196855566],
+          [-1.558282839, 47.196797964],
+          [-1.558118762, 47.196770092],
+          [-1.5579875, 47.196764518],
+          [-1.5578453, 47.196766376],
+          [-1.557749589, 47.19673293],
+          [-1.55773865, 47.196679044],
+          [-1.557752323, 47.196595428]
+        ]
+      },
+      "properties": {
+        "name": "VV 2boué",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2016,
+        "line": "A,C",
+        "infrastructure": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "",
+        "calculated_length": 401.691
       }
     }
   ]
