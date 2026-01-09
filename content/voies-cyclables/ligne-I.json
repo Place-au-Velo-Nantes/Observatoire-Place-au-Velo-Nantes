@@ -126,7 +126,7 @@
         "status": "done",
         "doneAt": "01/01/2000",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "C"
@@ -3379,10 +3379,10 @@
         "status": "done",
         "doneAt": "01/01/2011",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -3907,7 +3907,7 @@
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "B"
@@ -3989,10 +3989,10 @@
         "status": "done",
         "doneAt": "01/01/2025",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
@@ -4115,7 +4115,7 @@
         "quality": "satisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {

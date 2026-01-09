@@ -2520,7 +2520,7 @@
         "year": 0,
         "line": "I",
         "infrastructure": "maillage",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 795.104
@@ -9996,9 +9996,9 @@
         "year": 2011,
         "line": "I",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "vérifier la fréquentation piéton",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "vérifier la fréquentation piéton, 2.8m de large",
         "calculated_length": 1184.398
       }
     },
@@ -10751,8 +10751,8 @@
         "line": "A",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "largeur 1,75m",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "largeur 1,75m, pas de priorité",
         "calculated_length": 1586.769
       }
     },
@@ -10953,8 +10953,8 @@
         "year": 2025,
         "line": "",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 2384.641
       }
@@ -10978,9 +10978,9 @@
         "year": 2008,
         "line": "",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "largeur 3m",
         "calculated_length": 582.934
       }
     },
@@ -12452,7 +12452,7 @@
         "year": 2016,
         "line": "",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 1299.263
@@ -12670,7 +12670,7 @@
         "year": 2025,
         "line": "I",
         "infrastructure": "",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 542.458
@@ -12721,9 +12721,9 @@
         "year": 2025,
         "line": "I",
         "infrastructure": "",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "largeur 3m sur OSM, chemin piéton d'un coté de la toure voie verte de l'autre",
         "calculated_length": 852.732
       }
     },
@@ -12768,8 +12768,8 @@
         "line": "I",
         "infrastructure": "",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "2.2m de large",
         "calculated_length": 1415.713
       }
     },
@@ -12995,7 +12995,7 @@
         ]
       },
       "properties": {
-        "name": "Rue de l'aérorome",
+        "name": "Rue de l'aérodrome",
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": 2020,
