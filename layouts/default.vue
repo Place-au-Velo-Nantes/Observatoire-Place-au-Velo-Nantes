@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NewsBanner />
     <AppHeader class="sticky top-0" />
     <slot />
     <AppFooter />
