@@ -240,7 +240,7 @@
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "D"
+        "cycloscore": "C"
       }
     },
     {
@@ -714,7 +714,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#62"
+        "id": "sans-titre#61"
       }
     },
     {
@@ -752,7 +752,7 @@
         "line": "G",
         "name": "Rue du Scorff",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "voie-verte",
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
@@ -827,7 +827,7 @@
         "line": "G",
         "name": "Route de Thouaré",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2013",
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -864,7 +864,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#94"
+        "id": "sans-titre#92"
       }
     },
     {
@@ -908,7 +908,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#95"
+        "id": "sans-titre#93"
       }
     },
     {
@@ -981,7 +981,7 @@
         "line": "G",
         "name": "bd Gustave Roch",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2022",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "structurante",
@@ -1012,13 +1012,13 @@
         "line": "G",
         "name": "Boulevard des Martyrs Nantais de la Résistance Nord",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2014",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#106"
+        "id": "sans-titre#103"
       }
     },
     {
@@ -1050,7 +1050,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#113"
+        "id": "sans-titre#110"
       }
     },
     {
@@ -1109,7 +1109,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1161,7 +1161,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#181"
+        "id": "sans-titre#178"
       }
     },
     {
@@ -1245,7 +1245,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#312"
+        "id": "sans-titre#309"
       }
     },
     {
@@ -1304,8 +1304,8 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": "",
-        "id": "sans-titre#313"
+        "cycloscore": "D",
+        "id": "sans-titre#310"
       }
     },
     {
@@ -1345,7 +1345,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#418"
+        "id": "sans-titre#415"
       }
     },
     {
@@ -2392,7 +2392,7 @@
         "line": "G",
         "name": "Rue Salvador allende",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -2466,7 +2466,7 @@
         "line": "G",
         "name": "Rue Salvador allende 3",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "structurante",
@@ -2505,7 +2505,7 @@
         "line": "G",
         "name": "Rue des Pontreaux",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -2532,7 +2532,7 @@
         "line": "G",
         "name": "Pont Rue des Pontreaux",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bilaterale",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
@@ -2615,7 +2615,7 @@
         "line": "G",
         "name": "Boulevard Nelson Mandela",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -2681,7 +2681,7 @@
         "line": "G",
         "name": "Rue de la Neustrie",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -3003,7 +3003,7 @@
         "line": "G",
         "name": "Rue du Lieutenant Marc de Monti de Rezé",
         "status": "done",
-        "doneAt": "01/01/2000",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -3048,7 +3048,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#474"
+        "id": "sans-titre#471"
       }
     },
     {

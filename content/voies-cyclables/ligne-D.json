@@ -539,53 +539,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.63904872,
-            47.260163739
-          ],
-          [
-            -1.640054555,
-            47.260344634
-          ],
-          [
-            -1.640519034,
-            47.260391877
-          ],
-          [
-            -1.642219474,
-            47.260682317
-          ],
-          [
-            -1.642578789,
-            47.2607114
-          ],
-          [
-            -1.643149079,
-            47.260675605
-          ],
-          [
-            -1.64389166,
-            47.260796325
-          ]
-        ]
-      },
-      "properties": {
-        "line": "D",
-        "name": "Avenue de la Bugallière Ouest",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "chaucidou",
-        "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.569414285,
             47.218032234
           ],
@@ -663,7 +616,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "aucune",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -850,7 +803,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#67"
+        "id": "sans-titre#66"
       }
     },
     {
@@ -989,7 +942,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#79"
+        "id": "sans-titre#78"
       }
     },
     {
@@ -1032,7 +985,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "E"
       }
     },
     {
@@ -1134,7 +1087,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#104"
+        "id": "sans-titre#101"
       }
     },
     {
@@ -1303,7 +1256,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1541,7 +1494,7 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -1569,14 +1522,14 @@
       },
       "properties": {
         "line": "D",
-        "name": "Avenue de la Bugallière Ouest-1",
+        "name": "Avenue de la Bugallière Ouest",
         "status": "done",
         "doneAt": "01/01/2008",
         "type": "voie-bus",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "C"
       }
     },
     {
