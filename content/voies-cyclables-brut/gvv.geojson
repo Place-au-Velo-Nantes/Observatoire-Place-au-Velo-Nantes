@@ -227,8 +227,8 @@
         "line": "H",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "\u003e 3m non prioritaire",
         "calculated_length": 1505.147
       }
     },
@@ -1859,8 +1859,8 @@
         "line": "H",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "perte de priorité",
         "calculated_length": 3177.954
       }
     },
@@ -2391,8 +2391,8 @@
         "line": "D,I",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "largeur Ok mais perte priorité",
         "calculated_length": 894.833
       }
     },
@@ -2766,8 +2766,8 @@
         "line": "F,H",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "2.5m au mini",
         "calculated_length": 1178.511
       }
     },
@@ -2815,8 +2815,8 @@
         "line": "G,H",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "largeur insufisante",
         "calculated_length": 770.082
       }
     },
@@ -3617,8 +3617,8 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "Date à confirmer",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "Date à confirmer, largeur 2.8",
         "calculated_length": 1232.161
       }
     },
@@ -4258,8 +4258,8 @@
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "B",
-        "commentaire sur les données": "en faisant l'hypothèse du fréquentation faible",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "largeur \u003c 3m",
         "calculated_length": 294.094
       }
     },
@@ -4325,7 +4325,7 @@
         ]
       },
       "properties": {
-        "name": "Route de Vannes",
+        "name": "Route de Vannes americains-massacre",
         "status": "Terminé",
         "type": "Aucun",
         "year": 0,
@@ -7358,7 +7358,7 @@
         ]
       },
       "properties": {
-        "name": "Route de Vannes 2",
+        "name": "Route de Vannes periph N165",
         "status": "terminé",
         "type": "Aucun",
         "year": 0,
@@ -7469,15 +7469,15 @@
         ]
       },
       "properties": {
-        "name": "Route de Vannes",
+        "name": "Route de Vannes solay periph",
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": 2025,
         "line": "",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "largeur 1.4m",
         "calculated_length": 473.437
       }
     },
@@ -10057,8 +10057,8 @@
         "line": "H",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "3m quasi prioritaire",
         "calculated_length": 200.317
       }
     },
@@ -10098,7 +10098,7 @@
         "line": "H",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 365.615
       }
@@ -10146,8 +10146,8 @@
         "line": "H",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "\u003e3m prioritaire sauf extremités",
         "calculated_length": 449.013
       }
     },
@@ -10283,8 +10283,8 @@
         "line": "H",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "3m non prioritaire",
         "calculated_length": 910.942
       }
     },
@@ -10343,8 +10343,8 @@
         "line": "I",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "largeur à confirmer",
         "calculated_length": 738.281
       }
     },
