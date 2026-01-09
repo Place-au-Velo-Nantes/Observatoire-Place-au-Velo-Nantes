@@ -85,6 +85,7 @@
         <HomeLinesSection class="mt-5" />
       </div>
     </div>
+    <HomeMethodologySection />
     <div class="py-16">
       <LvvCta />
     </div>
