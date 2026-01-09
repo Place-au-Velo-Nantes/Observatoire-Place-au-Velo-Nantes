@@ -1594,7 +1594,7 @@
         "status": "done",
         "doneAt": "01/01/2018",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D"
@@ -1653,7 +1653,7 @@
         "status": "done",
         "doneAt": "01/01/2018",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D"
@@ -1732,7 +1732,7 @@
         "status": "done",
         "doneAt": "01/01/2018",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D"
@@ -1869,7 +1869,7 @@
         "status": "done",
         "doneAt": "01/01/2018",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "C"
@@ -2875,7 +2875,7 @@
         "name": "Allée Marie Marvingt",
         "status": "done",
         "doneAt": "01/01/2008",
-        "type": "voie-verte",
+        "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "magistrale",
         "link": "",

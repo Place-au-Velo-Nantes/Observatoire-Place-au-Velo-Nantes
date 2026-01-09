@@ -13002,8 +13002,8 @@
         "line": "E",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
-        "cycloscore(optionnel)": "",
-        "commentaire sur les données": "",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "certaines zones mesurées à 1.5m",
         "calculated_length": 409.351
       }
     },
@@ -13288,7 +13288,7 @@
         "year": 2009,
         "line": "H",
         "infrastructure": "maillage",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "coupé à la circulation voiture donc je considère en voie verte (LMU)",
         "calculated_length": 852.563
@@ -13486,7 +13486,7 @@
         "year": 2018,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "largeur 2,2m",
         "calculated_length": 1047.452
@@ -13516,7 +13516,7 @@
         "year": 2018,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "largeur 2,2m",
         "calculated_length": 430.674
@@ -13551,7 +13551,7 @@
         "year": 2018,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 216.782
@@ -13631,7 +13631,7 @@
         "year": 2018,
         "line": "G",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 695.874
@@ -14064,7 +14064,7 @@
         "year": 0,
         "line": "A",
         "infrastructure": "",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 1129.972
@@ -14136,7 +14136,7 @@
         "year": 0,
         "line": "A",
         "infrastructure": "",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 1109.431
@@ -14426,13 +14426,13 @@
       "properties": {
         "name": "Allée Marie Marvingt",
         "status": "terminé",
-        "type": "voie verte",
+        "type": "bidirectionnelle",
         "year": 2008,
         "line": "G",
         "infrastructure": "magistrale",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
-        "commentaire sur les données": "discontinuité à grande ouche",
+        "commentaire sur les données": "discontinuité à grande ouche, techniquement pas une voie verte car pas de panneaux mais présence de piétons, 3.2m largeur",
         "calculated_length": 974.439
       }
     },
@@ -14672,7 +14672,7 @@
         "year": 2021,
         "line": "A",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "largeur 3m, enrobé le long de la rue de l'île Chupin fait en 2025",
         "calculated_length": 3466.908
@@ -14716,9 +14716,9 @@
         "year": 2013,
         "line": "A",
         "infrastructure": "maillage",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "C",
-        "commentaire sur les données": "mauvais état et peu large, cycloscore à baisser",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "mauvais état et peu large, cycloscore D",
         "calculated_length": 870.288
       }
     },
@@ -14866,7 +14866,7 @@
         "year": 2008,
         "line": "",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "V93 vélidéale",
         "calculated_length": 2542.318
@@ -14934,7 +14934,7 @@
         "year": 0,
         "line": "",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "V93 vélidéale",
         "calculated_length": 325.498
@@ -15844,7 +15844,7 @@
         "year": 2023,
         "line": "",
         "infrastructure": "magistrale",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 738.981
@@ -16072,7 +16072,7 @@
         "year": 2018,
         "line": "I",
         "infrastructure": "magistrale",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 311.964
@@ -16199,7 +16199,7 @@
         "year": 0,
         "line": "A",
         "infrastructure": "",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "On manque un peu d'info sur ce tronçon noté par rapport à ce que je connais d'avant et après (LMU)",
         "calculated_length": 828.573
@@ -17385,7 +17385,7 @@
         "year": 0,
         "line": "B",
         "infrastructure": "magistrale",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "Zone urbaine ou pas ?",
         "calculated_length": 1891.427
@@ -17505,7 +17505,7 @@
         "year": 0,
         "line": "B",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 367.066
@@ -17588,7 +17588,7 @@
         "year": 0,
         "line": "B",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
         "calculated_length": 1578.123
@@ -17701,7 +17701,7 @@
         "year": 0,
         "line": "B",
         "infrastructure": "structurante",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "B",
         "commentaire sur les données": "VV uniquement fermée par des panneaux",
         "calculated_length": 3102.551
@@ -18722,7 +18722,7 @@
         "year": 2019,
         "line": "E",
         "infrastructure": "secondaire",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 154.908
@@ -18751,7 +18751,7 @@
         "year": 2019,
         "line": "E",
         "infrastructure": "secondaire",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 145.237
@@ -18779,7 +18779,7 @@
         "year": 2019,
         "line": "E",
         "infrastructure": "secondaire",
-        "quality": "satisfaisant",
+        "quality": "non satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 656.434

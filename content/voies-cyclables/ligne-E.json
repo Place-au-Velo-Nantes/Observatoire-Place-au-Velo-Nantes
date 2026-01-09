@@ -2109,7 +2109,7 @@
         "quality": "satisfactory",
         "infrastructure": "structurante",
         "link": "",
-        "cycloscore": ""
+        "cycloscore": "D"
       }
     },
     {
@@ -2592,7 +2592,7 @@
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": "",
         "cycloscore": "D"
@@ -2647,7 +2647,7 @@
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": "",
         "cycloscore": "C"
@@ -2698,7 +2698,7 @@
         "status": "done",
         "doneAt": "01/01/2019",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "secondaire",
         "link": "",
         "cycloscore": "C"

@@ -1742,7 +1742,7 @@
         "status": "done",
         "doneAt": "01/01/2009",
         "type": "voie-verte",
-        "quality": "satisfactory",
+        "quality": "unsatisfactory",
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "B"
