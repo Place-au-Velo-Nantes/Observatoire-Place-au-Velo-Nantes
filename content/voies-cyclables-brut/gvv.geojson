@@ -1961,7 +1961,7 @@
         ]
       },
       "properties": {
-        "name": "Place de la Duchesse Anne",
+        "name": "Place de la Duchesse Anne ouest",
         "status": "terminé",
         "type": "voie verte",
         "year": 2020,
@@ -4234,14 +4234,14 @@
         ]
       },
       "properties": {
-        "name": "Place de la Duchesse Anne",
+        "name": "Place de la Duchesse Anne est",
         "status": "terminé",
         "type": "voie verte",
         "year": 2018,
         "line": "",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "",
+        "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 26.036
       }
