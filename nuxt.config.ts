@@ -38,12 +38,22 @@ export default defineNuxtConfig({
         },
         { hid: 'twitter:image', name: 'twitter:image', content: COVER_IMAGE_URL },
       ],
+      script: process.env.BEAM_ANALYTICS_TOKEN
+        ? [
+            {
+              src: 'https://beamanalytics.b-cdn.net/beam.min.js',
+              'data-token': process.env.BEAM_ANALYTICS_TOKEN,
+              async: true,
+            },
+          ]
+        : [],
     },
   },
 
   runtimeConfig: {
     public: {
       maptilerKey: process.env.MAPTILER_KEY,
+      beamAnalyticsToken: process.env.BEAM_ANALYTICS_TOKEN,
     },
   },
 
