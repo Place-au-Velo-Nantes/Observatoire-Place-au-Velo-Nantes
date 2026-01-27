@@ -273,7 +273,7 @@
         "status": "terminé",
         "type": "voie verte",
         "year": 2008,
-        "line": "D",
+        "line": "D, H",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
@@ -11842,7 +11842,7 @@
         "status": "terminé",
         "type": "bande cyclable",
         "year": 2010,
-        "line": "",
+        "line": "D",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
@@ -11934,7 +11934,7 @@
         "status": "terminé",
         "type": "bande cyclable",
         "year": 2014,
-        "line": "",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
@@ -11959,7 +11959,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2017,
-        "line": "",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "B",
@@ -11973,7 +11973,7 @@
         "type": "LineString",
         "coordinates": [
           [-1.554662782, 47.205290042],
-          [-1.547810749, 47.205983028]
+          [-1.550398672, 47.205712587]
         ]
       },
       "properties": {
@@ -11986,7 +11986,7 @@
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "monodir d'un coté et bidir de l'autre comme vincent gache",
-        "calculated_length": 524.821
+        "calculated_length": 326.463
       }
     },
     {
@@ -13180,7 +13180,7 @@
         "status": "terminé",
         "type": "aucun",
         "year": 0,
-        "line": "E",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
@@ -17945,7 +17945,7 @@
         "status": "terminé",
         "type": "aucun",
         "year": 0,
-        "line": "",
+        "line": "A",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "D",
@@ -18794,6 +18794,28 @@
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 656.434
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.550408239, 47.20571283],
+          [-1.547818767, 47.205987933]
+        ]
+      },
+      "properties": {
+        "name": "Bd Babin-Chevaye Est",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2014,
+        "line": "G",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 198.557
       }
     }
   ]

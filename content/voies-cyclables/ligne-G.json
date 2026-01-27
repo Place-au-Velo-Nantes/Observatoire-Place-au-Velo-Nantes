@@ -1314,6 +1314,80 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.55442885,
+            47.204534429
+          ],
+          [
+            -1.554125707,
+            47.204506764
+          ],
+          [
+            -1.553695877,
+            47.204531355
+          ],
+          [
+            -1.553238899,
+            47.204691197
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Boulevard de l'estuaire est",
+        "status": "done",
+        "doneAt": "01/01/2014",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.55324424,
+            47.204685418
+          ],
+          [
+            -1.551656131,
+            47.205263304
+          ],
+          [
+            -1.550963878,
+            47.205373963
+          ],
+          [
+            -1.550371164,
+            47.20564446
+          ],
+          [
+            -1.550402836,
+            47.205715158
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue Paul Nizan",
+        "status": "done",
+        "doneAt": "01/01/2017",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.515135144,
             47.2382561
           ],
@@ -1346,6 +1420,41 @@
         "link": "",
         "cycloscore": "E",
         "id": "sans-titre#414"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.571326942,
+            47.20284832
+          ],
+          [
+            -1.565223497,
+            47.203466924
+          ],
+          [
+            -1.564172904,
+            47.203582486
+          ],
+          [
+            -1.554405949,
+            47.20454688
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Boulevard de l'estuaire",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
       }
     },
     {
@@ -3179,6 +3288,33 @@
         "type": "bidirectionnelle",
         "quality": "satisfactory",
         "infrastructure": "aucune",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.550408239,
+            47.20571283
+          ],
+          [
+            -1.547818767,
+            47.205987933
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Bd Babin-Chevaye Est",
+        "status": "done",
+        "doneAt": "01/01/2014",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
         "link": "",
         "cycloscore": "C"
       }

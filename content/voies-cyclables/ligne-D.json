@@ -167,7 +167,8 @@
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "D"
+        "cycloscore": "D",
+        "id": "sans-titre#5"
       }
     },
     {
@@ -1530,6 +1531,41 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.530628594,
+            47.208582415
+          ],
+          [
+            -1.52860841,
+            47.206078335
+          ],
+          [
+            -1.528321313,
+            47.206085695
+          ],
+          [
+            -1.526837076,
+            47.206806982
+          ]
+        ]
+      },
+      "properties": {
+        "line": "D",
+        "name": "Boulevard Alexandre Millerand - quai d'Urville",
+        "status": "done",
+        "doneAt": "01/01/2010",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
       }
     },
     {

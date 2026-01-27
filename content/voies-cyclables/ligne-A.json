@@ -2061,6 +2061,45 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.673957162,
+            47.178998578
+          ],
+          [
+            -1.674329728,
+            47.179113685
+          ],
+          [
+            -1.677411863,
+            47.179942452
+          ],
+          [
+            -1.678762905,
+            47.180306085
+          ],
+          [
+            -1.67897459,
+            47.180139182
+          ]
+        ]
+      },
+      "properties": {
+        "line": "A",
+        "name": "Allée du 8 mai 1945",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.544730597,
             47.194677459
           ],

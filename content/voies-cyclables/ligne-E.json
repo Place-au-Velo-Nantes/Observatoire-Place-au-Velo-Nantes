@@ -2297,41 +2297,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.571326942,
-            47.20284832
-          ],
-          [
-            -1.565223497,
-            47.203466924
-          ],
-          [
-            -1.564172904,
-            47.203582486
-          ],
-          [
-            -1.554405949,
-            47.20454688
-          ]
-        ]
-      },
-      "properties": {
-        "line": "E",
-        "name": "Boulevard de l'estuaire",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "aucun",
-        "quality": "unsatisfactory",
-        "infrastructure": "structurante",
-        "link": "",
-        "cycloscore": "E"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.54492249,
             47.20151984
           ],

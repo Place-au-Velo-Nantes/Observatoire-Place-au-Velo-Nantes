@@ -126,6 +126,46 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.624190113,
+            47.261019081
+          ],
+          [
+            -1.625915624,
+            47.259114527
+          ],
+          [
+            -1.62571065,
+            47.25851001
+          ],
+          [
+            -1.624801303,
+            47.258221661
+          ],
+          [
+            -1.62461308,
+            47.258207468
+          ]
+        ]
+      },
+      "properties": {
+        "line": "H",
+        "name": "Voie verte A82",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "voie-verte",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "D",
+        "id": "sans-titre#5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.474680772,
             47.233438698
           ],
