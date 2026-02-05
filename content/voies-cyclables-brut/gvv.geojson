@@ -3570,7 +3570,7 @@
         "name": "Boulevard Guy Mollet Nord",
         "status": "terminé",
         "type": "bande cyclable",
-        "year": 2025,
+        "year": 2008,
         "line": "E",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
@@ -3592,12 +3592,12 @@
       "properties": {
         "name": "Boulevard Guy Mollet Nord",
         "status": "terminé",
-        "type": "bande cyclable",
-        "year": 2025,
+        "type": "monodirectionnelle",
+        "year": 2020,
         "line": "E",
         "infrastructure": "magistrale",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
+        "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 312.448
       }

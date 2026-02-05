@@ -1735,7 +1735,7 @@
         "line": "E",
         "name": "Boulevard Guy Mollet Nord-1",
         "status": "done",
-        "doneAt": "01/01/2025",
+        "doneAt": "01/01/2008",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
@@ -1766,12 +1766,12 @@
         "line": "E",
         "name": "Boulevard Guy Mollet Nord-2",
         "status": "done",
-        "doneAt": "01/01/2025",
-        "type": "bandes-cyclables",
+        "doneAt": "01/01/2020",
+        "type": "bilaterale",
         "quality": "unsatisfactory",
         "infrastructure": "magistrale",
         "link": "",
-        "cycloscore": "E"
+        "cycloscore": "C"
       }
     },
     {
