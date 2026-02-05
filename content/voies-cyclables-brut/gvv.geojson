@@ -5510,50 +5510,26 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.499092, 47.299095],
-          [-1.499908, 47.297902],
-          [-1.501152, 47.291324],
-          [-1.505015, 47.288471],
-          [-1.50922, 47.286404],
-          [-1.511624, 47.282765],
-          [-1.514113, 47.280436],
-          [-1.515229, 47.276913],
-          [-1.509577, 47.274988]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard des européens Carquefou",
-        "status": "terminé",
-        "type": "bande cyclable",
-        "year": 0,
-        "line": "",
-        "infrastructure": "structurante",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
-        "calculated_length": 3349.943
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.50922, 47.286404],
-          [-1.506015, 47.283286]
+          [-1.508597621, 47.286775391],
+          [-1.508645827, 47.286402854],
+          [-1.508918651, 47.286227123],
+          [-1.50885596, 47.286053422],
+          [-1.506461, 47.283715706],
+          [-1.505907818, 47.283593496],
+          [-1.505492933, 47.283293036]
         ]
       },
       "properties": {
         "name": "Rue de la Tourteliere Carquefou",
         "status": "terminé",
-        "type": "Aucun",
-        "year": 0,
+        "type": "voie verte",
+        "year": 2025,
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
+        "cycloscore(optionnel)": "B",
         "commentaire sur les données": "",
-        "calculated_length": 423.027
+        "calculated_length": 496.537
       }
     },
     {
@@ -10986,7 +10962,7 @@
         "name": "Route de Nantes",
         "status": "terminé",
         "type": "voie verte",
-        "year": 2008,
+        "year": 2021,
         "line": "",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
@@ -18816,6 +18792,252 @@
         "cycloscore(optionnel)": "C",
         "commentaire sur les données": "",
         "calculated_length": 198.557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.513144259, 47.276140077],
+          [-1.514284741, 47.276510021],
+          [-1.515021476, 47.276775475],
+          [-1.515237917, 47.276863018],
+          [-1.515429385, 47.276984449]
+        ]
+      },
+      "properties": {
+        "name": "Bd Nicephore Nieps ouest carquefou",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2015,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 197.519
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.509626491, 47.274968974],
+          [-1.509790547, 47.274989587],
+          [-1.509957641, 47.275028751],
+          [-1.510695894, 47.275271981],
+          [-1.511139454, 47.275412147],
+          [-1.511336929, 47.27544925]
+        ]
+      },
+      "properties": {
+        "name": "Bd Nicephore Nieps est carquefou",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2018,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "",
+        "calculated_length": 140.559
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.511332167, 47.275454424],
+          [-1.511440143, 47.275534551],
+          [-1.511814686, 47.275681069],
+          [-1.513015923, 47.27608857],
+          [-1.51314077, 47.276136646]
+        ]
+      },
+      "properties": {
+        "name": "Bd Nicephore Nieps mid carquefou",
+        "status": "terminé",
+        "type": "monodirectionnelle",
+        "year": 2018,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "Pas assez large",
+        "calculated_length": 157.184
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.51542678, 47.276986047],
+          [-1.515141703, 47.277802392],
+          [-1.514889946, 47.278417782],
+          [-1.514730172, 47.278924792],
+          [-1.514496926, 47.279613009],
+          [-1.514376783, 47.27993171],
+          [-1.514213881, 47.280202974],
+          [-1.514162049, 47.280446608]
+        ]
+      },
+      "properties": {
+        "name": "Rue Emile Borel",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2015,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 397.004
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.514166438, 47.280451153],
+          [-1.51397394, 47.280578345],
+          [-1.513874184, 47.280664177],
+          [-1.513959342, 47.280736804],
+          [-1.513849854, 47.280789623],
+          [-1.513643043, 47.280943129],
+          [-1.513317012, 47.28122043],
+          [-1.512873381, 47.281636326],
+          [-1.5127055, 47.281794781],
+          [-1.512513287, 47.282004404],
+          [-1.512225067, 47.282327187],
+          [-1.512047453, 47.282523603],
+          [-1.511964729, 47.282644094],
+          [-1.511954996, 47.282696911],
+          [-1.511972028, 47.28278274],
+          [-1.51198739, 47.282840666],
+          [-1.511958194, 47.282956204],
+          [-1.511902233, 47.283010672],
+          [-1.511763548, 47.283076694],
+          [-1.511525107, 47.283101452],
+          [-1.51145781, 47.283151598],
+          [-1.511343456, 47.283300146],
+          [-1.511131779, 47.283555977],
+          [-1.510671942, 47.284107365],
+          [-1.510552722, 47.284293872],
+          [-1.510533258, 47.284351639],
+          [-1.510557588, 47.284424261],
+          [-1.510601383, 47.284510087],
+          [-1.51060625, 47.284594262],
+          [-1.510547856, 47.284680087],
+          [-1.510477297, 47.284736204],
+          [-1.510358077, 47.284774165],
+          [-1.510270486, 47.284808825],
+          [-1.510234217, 47.284841309],
+          [-1.510142302, 47.285086691],
+          [-1.510023701, 47.285384366],
+          [-1.509913995, 47.285686063],
+          [-1.50997913, 47.285794258],
+          [-1.510075445, 47.28596576],
+          [-1.510103537, 47.286066483],
+          [-1.51004334, 47.286150873],
+          [-1.509999196, 47.286205318],
+          [-1.509967091, 47.286251596],
+          [-1.509698213, 47.286374097],
+          [-1.509562147, 47.286469701],
+          [-1.509377544, 47.286657534],
+          [-1.509196954, 47.286755534],
+          [-1.508964193, 47.286741923],
+          [-1.50877959, 47.286780034],
+          [-1.508683275, 47.286831756],
+          [-1.508627092, 47.2867882]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard des Europeens Sud",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2008,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "D",
+        "commentaire sur les données": "voie verte non goudronée non indiquée",
+        "calculated_length": 899.737
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.508687311, 47.286838407],
+          [-1.508465777, 47.286997625],
+          [-1.508217869, 47.287135375],
+          [-1.507761612, 47.28733216],
+          [-1.507194589, 47.287598713],
+          [-1.506561632, 47.287870632],
+          [-1.505485606, 47.288366164],
+          [-1.504849503, 47.288722898],
+          [-1.504337863, 47.289018067],
+          [-1.503857871, 47.289327545],
+          [-1.503240595, 47.289718391],
+          [-1.502860821, 47.289983143],
+          [-1.502473135, 47.290276516],
+          [-1.50201925, 47.290638247],
+          [-1.501826725, 47.290808187],
+          [-1.501544532, 47.291090822],
+          [-1.501394205, 47.291217828],
+          [-1.501351024, 47.291375859],
+          [-1.501414457, 47.291507622],
+          [-1.50133913, 47.291529135],
+          [-1.501041788, 47.291445774]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard des Europeens Nord",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2025,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "B",
+        "commentaire sur les données": "",
+        "calculated_length": 805.037
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5010329, 47.291445761],
+          [-1.501000204, 47.291609868],
+          [-1.50095443, 47.291955821],
+          [-1.500764794, 47.293002535],
+          [-1.500256514, 47.295868002],
+          [-1.49989908, 47.297487346],
+          [-1.499633669, 47.298154008],
+          [-1.499515709, 47.298340671],
+          [-1.499309278, 47.298700664],
+          [-1.499161827, 47.299027321]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard des Europeens Nord Nord",
+        "status": "terminé",
+        "type": "bande cyclable",
+        "year": 2008,
+        "line": "",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 857.543
       }
     }
   ]
