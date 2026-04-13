@@ -305,74 +305,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.561973355,
-            47.201630167
-          ],
-          [
-            -1.562096384,
-            47.201644614
-          ],
-          [
-            -1.562574827,
-            47.20164255
-          ],
-          [
-            -1.562675072,
-            47.201648742
-          ],
-          [
-            -1.562928723,
-            47.20171685
-          ],
-          [
-            -1.563062383,
-            47.201765353
-          ],
-          [
-            -1.563130732,
-            47.201834493
-          ],
-          [
-            -1.563241115,
-            47.202006909
-          ],
-          [
-            -1.563915004,
-            47.203509317
-          ],
-          [
-            -1.563827448,
-            47.203664537
-          ],
-          [
-            -1.564071251,
-            47.204246055
-          ],
-          [
-            -1.564171096,
-            47.204331375
-          ]
-        ]
-      },
-      "properties": {
-        "line": "C",
-        "name": "Rue Simone Veil",
-        "status": "done",
-        "doneAt": "01/01/2024",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": "C",
-        "id": "sans-titre#47"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.552176295,
             47.213262376
           ],
@@ -771,7 +703,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "",
-        "id": "sans-titre#69"
+        "id": "sans-titre#68"
       }
     },
     {
@@ -983,7 +915,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#110"
+        "id": "sans-titre#109"
       }
     },
     {
@@ -1023,7 +955,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#112"
+        "id": "sans-titre#111"
       }
     },
     {
@@ -2457,7 +2389,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#562"
+        "id": "sans-titre#559"
       }
     },
     {
@@ -2501,7 +2433,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#563"
+        "id": "sans-titre#560"
       }
     },
     {
@@ -2561,7 +2493,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#564"
+        "id": "sans-titre#561"
       }
     },
     {
@@ -2629,7 +2561,7 @@
         "infrastructure": "maillage",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#565"
+        "id": "sans-titre#562"
       }
     },
     {
@@ -2713,7 +2645,102 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#566"
+        "id": "sans-titre#563"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.561973355,
+            47.201630167
+          ],
+          [
+            -1.562096384,
+            47.201644614
+          ],
+          [
+            -1.562574827,
+            47.20164255
+          ],
+          [
+            -1.562675072,
+            47.201648742
+          ],
+          [
+            -1.562928723,
+            47.20171685
+          ],
+          [
+            -1.563062383,
+            47.201765353
+          ],
+          [
+            -1.563130732,
+            47.201834493
+          ],
+          [
+            -1.563241115,
+            47.202006909
+          ],
+          [
+            -1.563915004,
+            47.203509317
+          ],
+          [
+            -1.563851033,
+            47.203612638
+          ]
+        ]
+      },
+      "properties": {
+        "line": "C",
+        "name": "Rue Simone Veil sud",
+        "status": "done",
+        "doneAt": "01/01/2024",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563851033,
+            47.203612638
+          ],
+          [
+            -1.563827448,
+            47.203664537
+          ],
+          [
+            -1.564071251,
+            47.204246055
+          ],
+          [
+            -1.564171096,
+            47.204331375
+          ]
+        ]
+      },
+      "properties": {
+        "line": "C",
+        "name": "Rue Simone Veil",
+        "status": "done",
+        "doneAt": "01/01/2024",
+        "type": "voie-verte",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E",
+        "id": "sans-titre#580"
       }
     },
     {

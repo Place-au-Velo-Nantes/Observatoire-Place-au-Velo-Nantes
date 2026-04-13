@@ -1447,38 +1447,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-1.561973355, 47.201630167],
-          [-1.562096384, 47.201644614],
-          [-1.562574827, 47.20164255],
-          [-1.562675072, 47.201648742],
-          [-1.562928723, 47.20171685],
-          [-1.563062383, 47.201765353],
-          [-1.563130732, 47.201834493],
-          [-1.563241115, 47.202006909],
-          [-1.563915004, 47.203509317],
-          [-1.563827448, 47.203664537],
-          [-1.564071251, 47.204246055],
-          [-1.564171096, 47.204331375]
-        ]
-      },
-      "properties": {
-        "name": "Rue Simone Veil",
-        "status": "terminé",
-        "type": "bidirectionnelle",
-        "year": 2024,
-        "line": "C,G",
-        "infrastructure": "magistrale",
-        "quality": "satisfaisant",
-        "cycloscore(optionnel)": "C",
-        "commentaire sur les données": "",
-        "calculated_length": 388.167
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [-1.535383724, 47.210524639],
           [-1.534982518, 47.210533405],
           [-1.534581311, 47.210512487],
@@ -4659,58 +4627,6 @@
         "cycloscore(optionnel)": "D",
         "commentaire sur les données": "",
         "calculated_length": 31.946
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.548113519, 47.191653653],
-          [-1.548356047, 47.191670958],
-          [-1.548504393, 47.191650906],
-          [-1.548653952, 47.191620691],
-          [-1.548816849, 47.191571248],
-          [-1.5489023, 47.1915514],
-          [-1.5489464, 47.1915455],
-          [-1.5490075, 47.1915231],
-          [-1.549148, 47.1914744],
-          [-1.5492614, 47.191424],
-          [-1.5493757, 47.1913673],
-          [-1.5494997, 47.191296],
-          [-1.5496325, 47.1912071],
-          [-1.5497224, 47.1911314],
-          [-1.5500205, 47.1908892],
-          [-1.550158, 47.1907502],
-          [-1.5501726, 47.1907354],
-          [-1.5501931, 47.1907122],
-          [-1.5502863, 47.1906069],
-          [-1.5503593, 47.190517],
-          [-1.5503748, 47.1904979],
-          [-1.5503882, 47.1904818],
-          [-1.5505162, 47.1903354],
-          [-1.5507709, 47.1899697],
-          [-1.5509697, 47.1894362],
-          [-1.5510011, 47.1893331],
-          [-1.5510324, 47.1892526],
-          [-1.5510744, 47.1891183],
-          [-1.5511128, 47.1890153],
-          [-1.5511555, 47.1888541],
-          [-1.5511692, 47.1887775],
-          [-1.551183918, 47.188679315]
-        ]
-      },
-      "properties": {
-        "name": "Avenue de la Libération",
-        "status": "terminé",
-        "type": "Aucun",
-        "year": 0,
-        "line": "G",
-        "infrastructure": "magistrale",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
-        "calculated_length": 440.245
       }
     },
     {
@@ -11980,7 +11896,7 @@
         "status": "terminé",
         "type": "bidirectionnelle",
         "year": 2014,
-        "line": "",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
@@ -12004,7 +11920,7 @@
         "status": "terminé",
         "type": "bande cyclable",
         "year": 2008,
-        "line": "",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
@@ -12027,7 +11943,7 @@
         "status": "terminé",
         "type": "voie bus",
         "year": 2013,
-        "line": "",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
@@ -12049,7 +11965,7 @@
         "status": "terminé",
         "type": "bande cyclable",
         "year": 2008,
-        "line": "",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "non satisfaisant",
         "cycloscore(optionnel)": "E",
@@ -12075,7 +11991,7 @@
         "status": "terminé",
         "type": "monodirectionnelle",
         "year": 2013,
-        "line": "",
+        "line": "G",
         "infrastructure": "structurante",
         "quality": "satisfaisant",
         "cycloscore(optionnel)": "C",
@@ -13138,30 +13054,6 @@
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 322.004
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-1.571326942, 47.20284832],
-          [-1.565223497, 47.203466924],
-          [-1.564172904, 47.203582486],
-          [-1.554405949, 47.20454688]
-        ]
-      },
-      "properties": {
-        "name": "Boulevard de l'estuaire",
-        "status": "terminé",
-        "type": "aucun",
-        "year": 0,
-        "line": "G",
-        "infrastructure": "structurante",
-        "quality": "non satisfaisant",
-        "cycloscore(optionnel)": "E",
-        "commentaire sur les données": "",
-        "calculated_length": 1295.886
       }
     },
     {
@@ -19038,6 +18930,179 @@
         "cycloscore(optionnel)": "E",
         "commentaire sur les données": "",
         "calculated_length": 857.543
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.548113519, 47.191653653],
+          [-1.548356047, 47.191670958],
+          [-1.548504393, 47.191650906],
+          [-1.548653952, 47.191620691],
+          [-1.548816849, 47.191571248],
+          [-1.5489023, 47.1915514],
+          [-1.5489464, 47.1915455]
+        ]
+      },
+      "properties": {
+        "name": "Avenue de la Libération est",
+        "status": "terminé",
+        "type": "Aucun",
+        "year": 0,
+        "line": null,
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 65.523
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5489464, 47.1915455],
+          [-1.5490075, 47.1915231],
+          [-1.549148, 47.1914744],
+          [-1.5492614, 47.191424],
+          [-1.5493757, 47.1913673],
+          [-1.5494997, 47.191296],
+          [-1.5496325, 47.1912071],
+          [-1.5497224, 47.1911314],
+          [-1.5500205, 47.1908892],
+          [-1.550158, 47.1907502],
+          [-1.5501726, 47.1907354],
+          [-1.5501931, 47.1907122],
+          [-1.5502863, 47.1906069],
+          [-1.5503593, 47.190517],
+          [-1.5503748, 47.1904979],
+          [-1.5503882, 47.1904818],
+          [-1.5505162, 47.1903354],
+          [-1.5507709, 47.1899697],
+          [-1.5509697, 47.1894362],
+          [-1.5510011, 47.1893331],
+          [-1.5510324, 47.1892526],
+          [-1.5510744, 47.1891183],
+          [-1.5511128, 47.1890153],
+          [-1.5511555, 47.1888541],
+          [-1.5511692, 47.1887775],
+          [-1.551183918, 47.188679315]
+        ]
+      },
+      "properties": {
+        "name": "Avenue de la Libération",
+        "status": "terminé",
+        "type": "Aucun",
+        "year": 0,
+        "line": "G",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 374.721
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.56384993, 47.203613389],
+          [-1.554405949, 47.20454688]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard de l'estuaire est",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": "G",
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 723.019
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.571326942, 47.20284832],
+          [-1.565223497, 47.203466924],
+          [-1.564172904, 47.203582486],
+          [-1.56384993, 47.203613389]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard de l'estuaire",
+        "status": "terminé",
+        "type": "aucun",
+        "year": 0,
+        "line": null,
+        "infrastructure": "structurante",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 572.868
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.561973355, 47.201630167],
+          [-1.562096384, 47.201644614],
+          [-1.562574827, 47.20164255],
+          [-1.562675072, 47.201648742],
+          [-1.562928723, 47.20171685],
+          [-1.563062383, 47.201765353],
+          [-1.563130732, 47.201834493],
+          [-1.563241115, 47.202006909],
+          [-1.563915004, 47.203509317],
+          [-1.563851033, 47.203612638]
+        ]
+      },
+      "properties": {
+        "name": "Rue Simone Veil sud",
+        "status": "terminé",
+        "type": "bidirectionnelle",
+        "year": 2024,
+        "line": "C",
+        "infrastructure": "magistrale",
+        "quality": "satisfaisant",
+        "cycloscore(optionnel)": "C",
+        "commentaire sur les données": "",
+        "calculated_length": 302.777
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.563851033, 47.203612638],
+          [-1.563827448, 47.203664537],
+          [-1.564071251, 47.204246055],
+          [-1.564171096, 47.204331375]
+        ]
+      },
+      "properties": {
+        "name": "Rue Simone Veil",
+        "status": "terminé",
+        "type": "voie verte",
+        "year": 2024,
+        "line": "C,G",
+        "infrastructure": "magistrale",
+        "quality": "non satisfaisant",
+        "cycloscore(optionnel)": "E",
+        "commentaire sur les données": "",
+        "calculated_length": 85.41
       }
     }
   ]

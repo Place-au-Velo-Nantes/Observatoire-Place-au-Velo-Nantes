@@ -384,74 +384,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -1.561973355,
-            47.201630167
-          ],
-          [
-            -1.562096384,
-            47.201644614
-          ],
-          [
-            -1.562574827,
-            47.20164255
-          ],
-          [
-            -1.562675072,
-            47.201648742
-          ],
-          [
-            -1.562928723,
-            47.20171685
-          ],
-          [
-            -1.563062383,
-            47.201765353
-          ],
-          [
-            -1.563130732,
-            47.201834493
-          ],
-          [
-            -1.563241115,
-            47.202006909
-          ],
-          [
-            -1.563915004,
-            47.203509317
-          ],
-          [
-            -1.563827448,
-            47.203664537
-          ],
-          [
-            -1.564071251,
-            47.204246055
-          ],
-          [
-            -1.564171096,
-            47.204331375
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Rue Simone Veil",
-        "status": "done",
-        "doneAt": "01/01/2024",
-        "type": "bidirectionnelle",
-        "quality": "satisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": "C",
-        "id": "sans-titre#47"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -1.529480212,
             47.225044515
           ],
@@ -499,7 +431,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#50"
+        "id": "sans-titre#49"
       }
     },
     {
@@ -622,7 +554,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "B",
-        "id": "sans-titre#61"
+        "id": "sans-titre#60"
       }
     },
     {
@@ -772,7 +704,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#92"
+        "id": "sans-titre#91"
       }
     },
     {
@@ -816,7 +748,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#93"
+        "id": "sans-titre#92"
       }
     },
     {
@@ -883,7 +815,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "C",
-        "id": "sans-titre#103"
+        "id": "sans-titre#102"
       }
     },
     {
@@ -990,153 +922,6 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.548113519,
-            47.191653653
-          ],
-          [
-            -1.548356047,
-            47.191670958
-          ],
-          [
-            -1.548504393,
-            47.191650906
-          ],
-          [
-            -1.548653952,
-            47.191620691
-          ],
-          [
-            -1.548816849,
-            47.191571248
-          ],
-          [
-            -1.5489023,
-            47.1915514
-          ],
-          [
-            -1.5489464,
-            47.1915455
-          ],
-          [
-            -1.5490075,
-            47.1915231
-          ],
-          [
-            -1.549148,
-            47.1914744
-          ],
-          [
-            -1.5492614,
-            47.191424
-          ],
-          [
-            -1.5493757,
-            47.1913673
-          ],
-          [
-            -1.5494997,
-            47.191296
-          ],
-          [
-            -1.5496325,
-            47.1912071
-          ],
-          [
-            -1.5497224,
-            47.1911314
-          ],
-          [
-            -1.5500205,
-            47.1908892
-          ],
-          [
-            -1.550158,
-            47.1907502
-          ],
-          [
-            -1.5501726,
-            47.1907354
-          ],
-          [
-            -1.5501931,
-            47.1907122
-          ],
-          [
-            -1.5502863,
-            47.1906069
-          ],
-          [
-            -1.5503593,
-            47.190517
-          ],
-          [
-            -1.5503748,
-            47.1904979
-          ],
-          [
-            -1.5503882,
-            47.1904818
-          ],
-          [
-            -1.5505162,
-            47.1903354
-          ],
-          [
-            -1.5507709,
-            47.1899697
-          ],
-          [
-            -1.5509697,
-            47.1894362
-          ],
-          [
-            -1.5510011,
-            47.1893331
-          ],
-          [
-            -1.5510324,
-            47.1892526
-          ],
-          [
-            -1.5510744,
-            47.1891183
-          ],
-          [
-            -1.5511128,
-            47.1890153
-          ],
-          [
-            -1.5511555,
-            47.1888541
-          ],
-          [
-            -1.5511692,
-            47.1887775
-          ],
-          [
-            -1.551183918,
-            47.188679315
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Avenue de la Libération",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "aucun",
-        "quality": "unsatisfactory",
-        "infrastructure": "magistrale",
-        "link": "",
-        "cycloscore": "E"
       }
     },
     {
@@ -1364,7 +1149,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#178"
+        "id": "sans-titre#176"
       }
     },
     {
@@ -1566,7 +1351,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#308"
+        "id": "sans-titre#306"
       }
     },
     {
@@ -1626,7 +1411,7 @@
         "infrastructure": "aucune",
         "link": "",
         "cycloscore": "D",
-        "id": "sans-titre#309"
+        "id": "sans-titre#307"
       }
     },
     {
@@ -1709,6 +1494,173 @@
         "type": "LineString",
         "coordinates": [
           [
+            -1.539370779,
+            47.206744324
+          ],
+          [
+            -1.540107874,
+            47.206744324
+          ],
+          [
+            -1.547790043,
+            47.205987631
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Bd Vincent Gâche",
+        "status": "done",
+        "doneAt": "01/01/2014",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.539369831,
+            47.206749771
+          ],
+          [
+            -1.539134846,
+            47.206684764
+          ],
+          [
+            -1.537915751,
+            47.206752394
+          ],
+          [
+            -1.537756451,
+            47.206891893
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue René Vivani 4",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.537755253,
+            47.206892081
+          ],
+          [
+            -1.536428475,
+            47.207964341
+          ],
+          [
+            -1.536290899,
+            47.208145028
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue René Vivani 3",
+        "status": "done",
+        "doneAt": "01/01/2013",
+        "type": "voie-bus",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.536289442,
+            47.208143338
+          ],
+          [
+            -1.535816482,
+            47.208488242
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue René Vivani 2",
+        "status": "done",
+        "doneAt": "01/01/2008",
+        "type": "bandes-cyclables",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.535818413,
+            47.208488242
+          ],
+          [
+            -1.535509541,
+            47.208931498
+          ],
+          [
+            -1.535239593,
+            47.209458726
+          ],
+          [
+            -1.535171964,
+            47.2097394
+          ],
+          [
+            -1.535202095,
+            47.210119525
+          ],
+          [
+            -1.535385481,
+            47.21052181
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue René Viviani 1",
+        "status": "done",
+        "doneAt": "01/01/2013",
+        "type": "bilaterale",
+        "quality": "satisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -1.515135144,
             47.2382561
           ],
@@ -1740,42 +1692,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#413"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.571326942,
-            47.20284832
-          ],
-          [
-            -1.565223497,
-            47.203466924
-          ],
-          [
-            -1.564172904,
-            47.203582486
-          ],
-          [
-            -1.554405949,
-            47.20454688
-          ]
-        ]
-      },
-      "properties": {
-        "line": "G",
-        "name": "Boulevard de l'estuaire",
-        "status": "done",
-        "doneAt": "01/01/2000",
-        "type": "aucun",
-        "quality": "unsatisfactory",
-        "infrastructure": "structurante",
-        "link": "",
-        "cycloscore": "E"
+        "id": "sans-titre#411"
       }
     },
     {
@@ -3478,7 +3395,7 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#469"
+        "id": "sans-titre#466"
       }
     },
     {
@@ -3690,7 +3607,7 @@
         "infrastructure": "magistrale",
         "link": "",
         "cycloscore": "E",
-        "id": "sans-titre#546"
+        "id": "sans-titre#543"
       }
     },
     {
@@ -3718,6 +3635,192 @@
         "infrastructure": "structurante",
         "link": "",
         "cycloscore": "C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5489464,
+            47.1915455
+          ],
+          [
+            -1.5490075,
+            47.1915231
+          ],
+          [
+            -1.549148,
+            47.1914744
+          ],
+          [
+            -1.5492614,
+            47.191424
+          ],
+          [
+            -1.5493757,
+            47.1913673
+          ],
+          [
+            -1.5494997,
+            47.191296
+          ],
+          [
+            -1.5496325,
+            47.1912071
+          ],
+          [
+            -1.5497224,
+            47.1911314
+          ],
+          [
+            -1.5500205,
+            47.1908892
+          ],
+          [
+            -1.550158,
+            47.1907502
+          ],
+          [
+            -1.5501726,
+            47.1907354
+          ],
+          [
+            -1.5501931,
+            47.1907122
+          ],
+          [
+            -1.5502863,
+            47.1906069
+          ],
+          [
+            -1.5503593,
+            47.190517
+          ],
+          [
+            -1.5503748,
+            47.1904979
+          ],
+          [
+            -1.5503882,
+            47.1904818
+          ],
+          [
+            -1.5505162,
+            47.1903354
+          ],
+          [
+            -1.5507709,
+            47.1899697
+          ],
+          [
+            -1.5509697,
+            47.1894362
+          ],
+          [
+            -1.5510011,
+            47.1893331
+          ],
+          [
+            -1.5510324,
+            47.1892526
+          ],
+          [
+            -1.5510744,
+            47.1891183
+          ],
+          [
+            -1.5511128,
+            47.1890153
+          ],
+          [
+            -1.5511555,
+            47.1888541
+          ],
+          [
+            -1.5511692,
+            47.1887775
+          ],
+          [
+            -1.551183918,
+            47.188679315
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Avenue de la Libération",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.56384993,
+            47.203613389
+          ],
+          [
+            -1.554405949,
+            47.20454688
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Boulevard de l'estuaire est-3",
+        "status": "done",
+        "doneAt": "01/01/2000",
+        "type": "aucun",
+        "quality": "unsatisfactory",
+        "infrastructure": "structurante",
+        "link": "",
+        "cycloscore": "E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.563851033,
+            47.203612638
+          ],
+          [
+            -1.563827448,
+            47.203664537
+          ],
+          [
+            -1.564071251,
+            47.204246055
+          ],
+          [
+            -1.564171096,
+            47.204331375
+          ]
+        ]
+      },
+      "properties": {
+        "line": "G",
+        "name": "Rue Simone Veil",
+        "status": "done",
+        "doneAt": "01/01/2024",
+        "type": "voie-verte",
+        "quality": "unsatisfactory",
+        "infrastructure": "magistrale",
+        "link": "",
+        "cycloscore": "E",
+        "id": "sans-titre#580"
       }
     },
     {
