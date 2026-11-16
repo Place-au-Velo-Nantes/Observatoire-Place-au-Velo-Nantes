@@ -33,18 +33,16 @@
     <div class="my-auto">reporté après 2026</div>
   </div>
 
-  <div v-else :class="['grid', gridClass, 'gap-x-2 gap-y-1', textSizeClass]">
+  <div v-else :class="['grid grid-cols-[auto_1fr] gap-x-2 gap-y-1.5 leading-tight', textSizeClass]">
     <div v-for="score in cycloscoreOrder" :key="score" class="contents">
-      <div :class="['my-auto rounded border-gray-500 border', borderClass]">
-        <div
-          class="flex items-center justify-center font-bold"
-          :class="[squareSizeClass]"
-          :style="`background-color: ${cycloscoreColors[score]}; color: ${getTextColor(score)}`"
-        >
-          {{ score === 'Non renseigné' ? '?' : score }}
-        </div>
+      <div
+        class="my-auto flex items-center justify-center rounded font-bold"
+        :class="[squareSizeClass]"
+        :style="`background-color: ${cycloscoreColors[score]}; color: ${getTextColor(score)}`"
+      >
+        {{ score === 'Non renseigné' ? '?' : score }}
       </div>
-      <div class="my-auto">{{ score }}</div>
+      <div class="my-auto">{{ cycloscoreDescriptions[score] }}</div>
     </div>
   </div>
 </template>
@@ -71,6 +69,15 @@ const xTextClass = computed(() => (props.size === 'small' ? 'text-[12px] -top-[5
 const squareSizeClass = computed(() => (props.size === 'small' ? 'w-5 h-5 text-xs' : 'w-6 h-6 text-sm'));
 
 const cycloscoreOrder = ['A', 'B', 'C', 'D', 'E', 'Non renseigné'] as const;
+
+const cycloscoreDescriptions: Record<(typeof cycloscoreOrder)[number], string> = {
+  A: 'Large, séparé, continu et confortable',
+  B: 'Séparé, mais confort non maximal',
+  C: 'Limité en largeur, lisibilité ou confort',
+  D: 'Peu fonctionnel, discontinu',
+  E: 'Dangereux ou inutilisable',
+  'Non renseigné': 'Non renseigné',
+};
 
 const cycloscoreColors = computed(() => {
   return {
