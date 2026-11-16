@@ -35,6 +35,23 @@ le `status` de chaque tronçon peut prendre les valeurs définies [ici](types/in
 
 le `type` de chaque tronçon peut prendre les valeurs définies [ici](types/index.ts#L1)
 
+## Synchronisation des données avec Cocarto
+
+Le workflow [update_gvv.yml](.github/workflows/update_gvv.yml) télécharge chaque heure le GeoJSON de la couche Cocarto, le retraite (`npm run fix-voies`), commit les changements puis relance le déploiement.
+
+La couche n'étant pas publique, la requête est authentifiée avec le cookie de session d'un compte Cocarto ayant accès à la carte. Pour le configurer :
+
+1. Se connecter sur [cocarto.com](https://cocarto.com) avec un compte ayant accès à la carte.
+2. Ouvrir les outils de développement du navigateur (F12) → onglet **Réseau**, recharger la page, cliquer sur une requête vers `cocarto.com` et copier la valeur **complète** de l'en-tête de requête `Cookie` (ex. `_cocarto_session=…; autre_cookie=…`).
+3. Sur GitHub : **Settings → Secrets and variables → Actions → New repository secret**
+   - Name : `COCARTO_COOKIE`
+   - Secret : la valeur copiée à l'étape 2 (sans le préfixe `Cookie:`).
+4. Vérifier en lançant le workflow à la main : onglet **Actions → Update GVV GeoJSON → Run workflow**.
+
+Pour changer de couche, modifier l'URL `https://cocarto.com/fr/layers/<id>.geojson` dans le workflow (l'id est visible dans l'URL de la couche sur Cocarto).
+
+⚠️ Le cookie de session finit par expirer (ou est invalidé en cas de déconnexion). Si le workflow récupère une page HTML de connexion au lieu du GeoJSON, l'étape de formatage ou `fix-voies` échoue : il suffit alors de recopier un nouveau cookie dans le secret.
+
 ## Quelques détails techniques
 
 Look at the [nuxt 4 documentation](https://nuxt.com/docs/4.x/getting-started/introduction) to learn more.
