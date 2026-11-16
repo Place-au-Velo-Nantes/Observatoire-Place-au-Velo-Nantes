@@ -284,10 +284,16 @@ const processVoiesFiles = () => {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Read all JSON files from brut directory, excluding dangers.geojson and gvv-missing-info.geojson
+  // Read all JSON files from brut directory, excluding files that are handled separately or not used
+  const excludedFiles = new Set([
+    'dangers.geojson',
+    'gvv-missing-info.geojson',
+    // GeoVelo export: kept for a future "Hors GVV" layer, not part of the GVV network
+    'export geovelo 01-12-25 amg cyclable sur NM.geojson',
+  ]);
   const files = fs
     .readdirSync(brutDir)
-    .filter((file) => file.endsWith('.geojson') && file !== 'dangers.geojson' && file !== 'gvv-missing-info.geojson')
+    .filter((file) => file.endsWith('.geojson') && !excludedFiles.has(file))
     .sort();
 
   console.log(`Found ${files.length} files to process...`);
